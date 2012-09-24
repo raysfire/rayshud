@@ -10,6 +10,15 @@ A simplistic yet bold hud for TF2 made to cut out a lot of clutter included that
 
 It was originally created for myself as a fun side project to do while I wasn't doing schoolwork, but I've been asked by others to release it, so here it is. However, this is very much still under construction, and does NOT currently have any edits for MvM. This means that while MvM may still be playable, a lot of the features will either be not visible, or cut off.
 
+It was made on a 1920x1080 resolution, however I don't see why it wouldn't work on any other 16:9 resolutions. Sadly though, it does not yet have 4:3 support. I was an idiot when I made the scoreboard, and as a result have yet to prepare a 4:3 ready hud yet.
+
+To-Do List
+--------
+
+*Add MvM support
+*Add 4:3 support
+*Fix various issues I know I made
+
 Screenshots
 --------
 
