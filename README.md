@@ -49,9 +49,9 @@ Please remember that this hud is not completely finished, and will have some bug
 Credits
 --------
 
-* omp - For motivating me to start making my own hud, as well as inspiration.
-* m0re - Inspiration
-* Whoever makes PVHUD - Inspiration
+* omp - For motivating me to start making my own hud, occasional reference, and inspiration.
+* m0re - Inspiration, occasional reference.
+* Whoever makes PVHUD - Inspiration, occasional reference.
 * My team - For dealing with me and giving me constructive feedback all the time.
 * Flame - If it weren't for your guide, I couldn't have made this at all. Thanks a million, man. 
 
