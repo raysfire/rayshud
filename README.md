@@ -18,6 +18,7 @@ To-Do List
 * Add MvM support
 * Add 4:3 support
 * Fix various issues I know I made
+* Add hud crosshairs
 
 Screenshots
 --------
