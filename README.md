@@ -15,9 +15,9 @@ It was made on a 1920x1080 resolution, however I don't see why it wouldn't work 
 To-Do List
 --------
 
-*Add MvM support
-*Add 4:3 support
-*Fix various issues I know I made
+* Add MvM support
+* Add 4:3 support
+* Fix various issues I know I made
 
 Screenshots
 --------
