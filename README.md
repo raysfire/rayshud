@@ -20,10 +20,39 @@ Screenshots
 * http://puu.sh/188rV - Charge meter, last damage done location
 * http://puu.sh/188tf - Spectator TargetID
 * http://puu.sh/188wK - Tournament spectator hud, inspect panel, koth timers
+* http://puu.sh/188xO - CTF hud
+
+I also use this hud when I play. You can watch my stream vods at http://twitch.tv/raysfire to see it in action.                  
+                  
+Features (disabled by default)
+-------
+
+* A rainbow-colored flashing charge meter. 
+**  This can be enabled by uncommenting all of the "Animate" lines under the event "HudMedicCharge" in HudAnimations_tf.txt in the scripts folder. Make sure to uncomment all of the lines in "HudMedicChargeStop", too!
+
+* Low ammo colors.
+**  This can be enabled by uncommenting all of the "Animate" lines under the event "HudLowAmmoPulse" in HudAnimations_tf.txt in the scripts folder. Make sure to uncomment all of the lines in "HudLowAmmoPulseStop", too!
+
+To Download
+--------
+
+Clikc the "ZIP" button with the cloud next to it in order to download the most recent version of my hud! It should be at the top of the page. 
+
 
 Help/Support
 --------
 
 Please remember that this hud is not completely finished, and will have some bugs within it. You're free to either open a support ticket here on GitHub, make a post in my teamfortress.tv thread (link pending), or email me at my email (raysfire64@gmail.com), if you need any help/have found a bug.
+
+Credits
+--------
+
+*omp - For motivating me to start making my own hud, as well as inspiration.
+*m0re - Inspiration
+*Whoever makes PVHUD - Inspiration
+*My team - For dealing with me and giving me constructive feedback all the time.
+*Flame - If it weren't for your guide, I couldn't have made this at all. Thanks a million, man. 
+
+
 
 
