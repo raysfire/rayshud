@@ -28,10 +28,12 @@ Features (disabled by default)
 -------
 
 * A rainbow-colored flashing charge meter. 
-*  This can be enabled by uncommenting all of the "Animate" lines under the event "HudMedicCharge" in HudAnimations_tf.txt in the scripts folder. Make sure to uncomment all of the lines in "HudMedicChargeStop", too!
+
+This can be enabled by uncommenting all of the "Animate" lines under the event "HudMedicCharge" in HudAnimations_tf.txt in the scripts folder. Make sure to uncomment all of the lines in "HudMedicChargeStop", too!
 
 * Low ammo colors.
-*  This can be enabled by uncommenting all of the "Animate" lines under the event "HudLowAmmoPulse" in HudAnimations_tf.txt in the scripts folder. Make sure to uncomment all of the lines in "HudLowAmmoPulseStop", too!
+
+This can be enabled by uncommenting all of the "Animate" lines under the event "HudLowAmmoPulse" in HudAnimations_tf.txt in the scripts folder. Make sure to uncomment all of the lines in "HudLowAmmoPulseStop", too!
 
 To Download
 --------
