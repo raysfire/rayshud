@@ -38,7 +38,16 @@ This can be enabled by uncommenting all of the "Animate" lines under the event "
 To Download
 --------
 
-Clikc the "ZIP" button with the cloud next to it in order to download the most recent version of my hud! It should be at the top of the page. 
+Click the "ZIP" button with the cloud next to it in order to download the most recent version of my hud! It should be at the top of the page. 
+
+To Install
+--------
+
+Extract the "scripts" and "resources" folders to your tf directory. Your tf directory should be somewhere similar to this:
+
+C:\Program Files (x86)\Steam\steamapps\(steamusername)\team fortress 2\tf
+
+Just make sure to back up your old scripts and resources first! Never know when something might break, and it's always best to be prepared.
 
 
 Help/Support
