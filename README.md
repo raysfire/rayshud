@@ -28,10 +28,10 @@ Features (disabled by default)
 -------
 
 * A rainbow-colored flashing charge meter. 
-**  This can be enabled by uncommenting all of the "Animate" lines under the event "HudMedicCharge" in HudAnimations_tf.txt in the scripts folder. Make sure to uncomment all of the lines in "HudMedicChargeStop", too!
+*  This can be enabled by uncommenting all of the "Animate" lines under the event "HudMedicCharge" in HudAnimations_tf.txt in the scripts folder. Make sure to uncomment all of the lines in "HudMedicChargeStop", too!
 
 * Low ammo colors.
-**  This can be enabled by uncommenting all of the "Animate" lines under the event "HudLowAmmoPulse" in HudAnimations_tf.txt in the scripts folder. Make sure to uncomment all of the lines in "HudLowAmmoPulseStop", too!
+*  This can be enabled by uncommenting all of the "Animate" lines under the event "HudLowAmmoPulse" in HudAnimations_tf.txt in the scripts folder. Make sure to uncomment all of the lines in "HudLowAmmoPulseStop", too!
 
 To Download
 --------
@@ -47,11 +47,11 @@ Please remember that this hud is not completely finished, and will have some bug
 Credits
 --------
 
-*omp - For motivating me to start making my own hud, as well as inspiration.
-*m0re - Inspiration
-*Whoever makes PVHUD - Inspiration
-*My team - For dealing with me and giving me constructive feedback all the time.
-*Flame - If it weren't for your guide, I couldn't have made this at all. Thanks a million, man. 
+* omp - For motivating me to start making my own hud, as well as inspiration.
+* m0re - Inspiration
+* Whoever makes PVHUD - Inspiration
+* My team - For dealing with me and giving me constructive feedback all the time.
+* Flame - If it weren't for your guide, I couldn't have made this at all. Thanks a million, man. 
 
 
 
