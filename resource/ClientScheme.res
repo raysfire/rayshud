@@ -2581,6 +2581,17 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
+		"CerbeticaBold48"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica"
+				"tall" 		 "48"
+				"weight" 	 "800"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
 		"CerbeticaBold56"
 		{
 			"1"
