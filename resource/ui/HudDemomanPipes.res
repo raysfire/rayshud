@@ -25,8 +25,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabel"
-		"xpos"					"0"
-		"ypos"					"112"
+		"xpos"					"c0"
+		"ypos"					"50"
 		"zpos"					"2"
 		"wide"					"150"
 		"tall"					"8"
@@ -40,7 +40,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Cerbetica12"
+		"font"					"Cerbetica72"
 				"fgcolor_override"		"150 150 150 255"
 	}
 
@@ -67,7 +67,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"			"25"
+		"xpos"			"24"
 		"ypos"			"75"
 		"zpos"			"1"
 		"wide"			"100"
