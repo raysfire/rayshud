@@ -28,7 +28,9 @@ Screenshots
 * http://puu.sh/188tf - Spectator TargetID
 * http://puu.sh/188wK - Tournament spectator hud, inspect panel, koth timers
 * http://puu.sh/188xO - CTF hud
-
+* http://puu.sh/19R5o - Class selection screen
+* http://puu.sh/19R58 - Team selection screen
+                      
 I also use this hud when I play. You can watch my stream vods at http://twitch.tv/raysfire to see it in action.                  
                   
 Features (can be disabled)
