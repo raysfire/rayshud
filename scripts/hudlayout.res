@@ -35,7 +35,7 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c60"
+		"xpos"	"c70"
 		"ypos"	"c66"
 		"wide"	"300" //was made 4 units taller in MvM update
 		"tall"	"300"
