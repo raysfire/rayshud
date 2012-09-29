@@ -5,8 +5,8 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"xHairCircle"
 		"font"			"xHairCircle"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -35,8 +35,8 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c85"
-		"ypos"	"c76"
+		"xpos"	"c60"
+		"ypos"	"c66"
 		"wide"	"300" //was made 4 units taller in MvM update
 		"tall"	"300"
 	}
