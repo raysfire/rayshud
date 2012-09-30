@@ -26,7 +26,7 @@
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"70 130 180 153"
+		"fillcolor"		"70 130 180 125"
 	}
 	"RedTeamBG"
 	{
@@ -39,7 +39,7 @@
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"205 92 92 153"
+		"fillcolor"		"205 92 92 125"
 	}
 	"AutojoinBackground"
 	{
@@ -258,7 +258,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSelect"
-		"xpos"			"c-400"
+		"xpos"			"30"
 		"ypos"			"c200"
 		"zpos"			"6"
 		"wide"			"450"
