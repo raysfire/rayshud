@@ -83,8 +83,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
-			"tall"			"448"
+			"visible"		"0"
 		}
 	}
 	"ScoreboardBackground"
@@ -105,8 +104,9 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
-			"tall"			"448"
+		
+			"visible"		"0"
+		
 		}
 	}
 	"Red6sBackground"
@@ -127,8 +127,9 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
-			"tall"			"448"
+		
+			"visible"		"0"
+		
 		}
 	}
 	"Blue6sBackground"
@@ -149,8 +150,9 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
-			"tall"			"448"
+		
+			"visible"		"0"
+		
 		}
 	}			
 	"BlueTeamLabel"
@@ -370,7 +372,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
+			"ypos"			"68"
 		}
 	}
 	"ServerTimeLeft"
@@ -392,7 +394,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
+			"ypos"			"80"
 		}
 	}							
 	"BluePlayerList"
@@ -495,7 +497,7 @@
 		
 		if_mvm
 		{
-			"ypos"		"428"
+			"ypos"		"c-100"
 		}
 	}	
 	"SpectatorsInQueue"
@@ -1375,7 +1377,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-	}
 	}
 
 	"ButtonLegendBG"		[$X360]
