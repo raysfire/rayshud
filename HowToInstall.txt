@@ -1,0 +1,33 @@
+HOW TO INSTALL RAYSHUD:
+
+1. Extract the files of this folder to your C:\Program Files (x86)\Steam\steamapps\<USERNAME>\team fortress 2\tf folder. 
+
+2. If you've ever had a custom hud before this one it will most likely ask you if you want to override the folder/files. Select yes. 
+
+NOTE: Remember to back up your previous folders before doing this, just in case something goes wrong.
+
+3. Enjoy!
+
+________
+
+
+If you're on a 4:3 resolution, (800x600, 1024x768, etc.), then after installing the hud, open up the 4_by_3_ratio folder.
+
+Once in there, copy all of the files and paste them in your tf/resource/ui folder, and have them overwrite any previous files.
+
+This should fix the scoreboard, the MvM scoreboard, and the tournament spectator hud.
+
+________
+
+If you have any questions/concerns/comments, please either email me at raysfire64@gmail.com, or post in my main support thread: http://teamfortress.tv/forum/thread/981-rayshud .
+
+Thank you for using, and I hope you enjoy the hud. :>
+
+
+
+
+
+
+
+
+
