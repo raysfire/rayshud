@@ -529,7 +529,7 @@
 		"xpos"			"48"
 		"ypos"			"199"
 		"zpos"			"3"
-		"wide"			"128"
+		"wide"			"80"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"

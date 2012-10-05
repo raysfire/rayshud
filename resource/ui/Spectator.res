@@ -62,8 +62,8 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"c-300"	[$WIN32]
-		"ypos"			"50"	[$WIN32]
-		"wide"			"600"	[$WIN32]
+		"ypos"			"50"	
+		"wide"			"600"	
 		"tall"			"24"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -87,7 +87,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"center"
-		"font"			"HudFontSmall"
+		"font"			"Cerbetica16"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}

@@ -70,6 +70,5 @@
 		"textAlignment"	"center"	
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"235 226 202 255"
-	}
-	"PlayerStatusHealthValue2"							
+	}				
 }
