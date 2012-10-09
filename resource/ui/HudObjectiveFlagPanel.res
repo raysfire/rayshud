@@ -113,14 +113,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-25"
+		"xpos"			"c-57"
 		"ypos"			"r33"
 		"zpos"			"8"
 		"wide"			"50"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"TanLight"
@@ -145,14 +145,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-24"
+		"xpos"			"c-56"
 		"ypos"			"r32"
 		"zpos"			"8"
 		"wide"			"50"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"Black"
@@ -177,14 +177,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
-		"xpos"			"c-25"
+		"xpos"			"c7"
 		"ypos"			"r33"
 		"zpos"			"8"
 		"wide"			"50"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"TanLight"		
@@ -209,14 +209,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"c-24"
+		"xpos"			"c8"
 		"ypos"			"r32"
 		"zpos"			"8"
 		"wide"			"50"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"Black"		
@@ -357,12 +357,12 @@
 		"if_hybrid"
 		{
 			"visible"	"0"
-			"ypos"		"r100"
+			"ypos"		"r75"
 		}
 		
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"		"c-155"
 		}
 		
 		"if_hybrid_double"
@@ -372,7 +372,7 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"ypos"		"r75"
 		}
 		
 		"if_no_flags"
@@ -411,7 +411,7 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"ypos"		"r70"
 		}
 		
 		"if_no_flags"
@@ -425,7 +425,7 @@
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
 		"xpos"			"c-30"
-		"ypos"			"r175"	[$WIN32]
+		"ypos"			"r200"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"60"
 		"tall"			"60"
@@ -434,12 +434,12 @@
 		
 		"if_hybrid"
 		{
-			"ypos"		"r175"
+			"ypos"		"r200"
 		}
 		
 		"if_specialdelivery"
 		{
-			"ypos"		"r175"
+			"ypos"		"r200"
 		}
 	}
 	
