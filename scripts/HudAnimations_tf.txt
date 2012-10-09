@@ -209,6 +209,7 @@ event HudHealthBonusPulse
 	
 	Animate PlayerStatusHealthValue 		 FgColor "48 255 48 255" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpectator FgColor "48 255 48 255" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel FgColor "48 255 48 255" Accel 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -226,6 +227,7 @@ event HudHealthBonusPulseStop
 	
 	Animate PlayerStatusHealthValue FgColor "TanLight" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpectator FgColor "TanLight" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel FgColor "TanLight" Accel 0.0 0.0
 }
 
 //===========================================
@@ -238,6 +240,7 @@ event HudHealthDyingPulse
 	
 	Animate PlayerStatusHealthValue 		 FgColor 				"255 153 0 255" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpectator FgColor 		"255 153 0 255" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel FgColor 		"255 153 0 255" Accel 0.0 0.0
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -255,6 +258,7 @@ event HudHealthDyingPulseStop
 	
 	Animate PlayerStatusHealthValue FgColor "TanLight" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpectator FgColor "TanLight" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel FgColor "TanLight" Accel 0.0 0.0
 }
 
 //===========================================
@@ -446,19 +450,29 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"ColorGreen"		Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"ColorCyan"			Linear 0.1 0.1
-	Animate	ChargeLabel 	FgColor		"ColorBlue"			Linear 0.2 0.1
-	Animate	ChargeLabel 	FgColor		"ColorMagenta"		Linear 0.3 0.1
-	Animate	ChargeLabel 	FgColor		"ColorRed"			Linear 0.4 0.1
-	Animate	ChargeLabel 	FgColor		"ColorYellow"		Linear 0.5 0.1
+
+///////Rainbow Charge
+//	Animate	ChargeLabel 	FgColor		"ColorGreen"		Linear 0.0 0.1
+//	Animate	ChargeLabel 	FgColor		"ColorCyan"			Linear 0.1 0.1
+//	Animate	ChargeLabel 	FgColor		"ColorBlue"			Linear 0.2 0.1
+//	Animate	ChargeLabel 	FgColor		"ColorMagenta"		Linear 0.3 0.1
+//	Animate	ChargeLabel 	FgColor		"ColorRed"			Linear 0.4 0.1
+//	Animate	ChargeLabel 	FgColor		"ColorYellow"		Linear 0.5 0.1
 	
-	Animate	ChargeMeter 	FgColor		"ColorGreen"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"ColorCyan"			Linear 0.1 0.1
-	Animate	ChargeMeter 	FgColor		"ColorBlue"			Linear 0.2 0.1
-	Animate	ChargeMeter 	FgColor		"ColorMagenta"		Linear 0.3 0.1
-	Animate	ChargeMeter 	FgColor		"ColorRed"			Linear 0.4 0.1
-	Animate	ChargeMeter 	FgColor		"ColorYellow"		Linear 0.5 0.1
+///////Purple Charge
+	Animate ChargeLabel	FgColor		"255 50 255 255"	Linear 0.0 0.000
+
+
+///////Rainbow Charge	
+//	Animate	ChargeMeter 	FgColor		"ColorGreen"		Linear 0.0 0.1
+//	Animate	ChargeMeter 	FgColor		"ColorCyan"			Linear 0.1 0.1
+//	Animate	ChargeMeter 	FgColor		"ColorBlue"			Linear 0.2 0.1
+//	Animate	ChargeMeter 	FgColor		"ColorMagenta"		Linear 0.3 0.1
+//	Animate	ChargeMeter 	FgColor		"ColorRed"			Linear 0.4 0.1
+//	Animate	ChargeMeter 	FgColor		"ColorYellow"		Linear 0.5 0.1
+
+///////Purple Charge
+	Animate ChargeMeter	FgColor		"255 50 255 255"	Linear 0.0 0.000
 
 	RunEvent HudMedicChargedLoop	0.6
 }
