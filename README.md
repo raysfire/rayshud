@@ -13,7 +13,6 @@ It was originally created for myself as a fun side project to do while I wasn't 
 To-Do List
 --------
 
-* Add MvM support
 * Fix various issues I know I made
 * Add hud crosshairs
 
