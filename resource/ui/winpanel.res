@@ -286,7 +286,7 @@
 		"xpos"			"-35"
 		"ypos"			"132"
 		"zpos"			"1"
-		"wide"			"268"
+		"wide"			"190"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -391,7 +391,7 @@
 		"xpos"			"48"	[$WIN32]
 		"ypos"			"167"
 		"zpos"			"3"
-		"wide"			"80"	[$WIN32]
+		"wide"			"75"	[$WIN32]
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -460,7 +460,7 @@
 		"xpos"			"48"
 		"ypos"			"183"
 		"zpos"			"3"
-		"wide"			"80"
+		"wide"			"75"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -529,7 +529,7 @@
 		"xpos"			"48"
 		"ypos"			"199"
 		"zpos"			"3"
-		"wide"			"80"
+		"wide"			"75"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
