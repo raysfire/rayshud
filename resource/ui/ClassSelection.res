@@ -53,9 +53,9 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLight"
+		"fgcolor"					"TanDark"
 		"defaultFgColor_override" 	"TanDark"
-		"armedFgColor_override"		"TanLight"
+		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
 			
@@ -114,8 +114,9 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
+		"fgcolor"					"TanDark"
 		"defaultFgColor_override" 	"TanDark"
-		"armedFgColor_override"		"TanLight"
+		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
 			
@@ -152,9 +153,9 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLight"
+		"fgcolor"					"TanDark"
 		"defaultFgColor_override" 	"TanDark"
-		"armedFgColor_override"		"TanLight"
+		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
 			
@@ -191,9 +192,9 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLight"
+		"fgcolor"					"TanDark"
 		"defaultFgColor_override" 	"TanDark"
-		"armedFgColor_override"		"TanLight"
+		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
 			
@@ -253,9 +254,9 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLight"
+		"fgcolor"					"TanDark"
 		"defaultFgColor_override" 	"TanDark"
-		"armedFgColor_override"		"TanLight"
+		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
 			
@@ -270,7 +271,7 @@
 		"keyboardinputenabled"	"0"
 		}
 		
-		"heavyweapons"
+	"heavyweapons"
 		{
 		"ControlName"		"CExLabel"
 		"fieldName"			"heavyweapons"
@@ -292,9 +293,9 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLight"
+		"fgcolor"					"TanDark"
 		"defaultFgColor_override" 	"TanDark"
-		"armedFgColor_override"		"TanLight"
+		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
 			
@@ -331,9 +332,9 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLight"
+		"fgcolor"					"TanDark"
 		"defaultFgColor_override" 	"TanDark"
-		"armedFgColor_override"		"TanLight"
+		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
 			
@@ -392,9 +393,9 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLight"
+		"fgcolor"					"TanDark"
 		"defaultFgColor_override" 	"TanDark"
-		"armedFgColor_override"		"TanLight"
+		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
 			
@@ -430,9 +431,9 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLight"
+		"fgcolor"					"TanDark"
 		"defaultFgColor_override" 	"TanDark"
-		"armedFgColor_override"		"TanLight"
+		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
 			
@@ -468,9 +469,9 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLight"
+		"fgcolor"					"TanDark"
 		"defaultFgColor_override" 	"TanDark"
-		"armedFgColor_override"		"TanLight"
+		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
 			
