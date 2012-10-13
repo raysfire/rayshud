@@ -27,8 +27,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"ScatterSpread"
 		"visible"		"0"
-		"enabled"		"0
-		"
+		"enabled"		"0"
 		"zpos"			"2"
 
 		"xpos"			"c-99"
@@ -38,7 +37,8 @@
 
 		"font"			"Crosshairs32"
 		"labelText"		"0"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
+		"outline"		"1"
 		
 		"fgcolor"		"255 255 255 255"
 	}
@@ -74,7 +74,7 @@
 		"xpos"			"c-101"
 		"ypos"			"c-99"
 		"wide"			"200"
-		"tall"			"200"
+		"tall"			"199"
 
 		"font"			"Crosshairs18"
 		"labelText"		"2"
@@ -86,12 +86,12 @@
 	BasicCrossLarge
 	{
 		"controlName"	"CExLabel"
-		"fieldName"	 	"BasicCrossSmall"
+		"fieldName"	 	"BasicCrossLarge"
 		"visible"		"0"
 		"enabled"		"0"
 		"zpos"			"2"
 
-		"xpos"			"c-101"
+		"xpos"			"c-102"
 		"ypos"			"c-99"
 		"wide"			"200"
 		"tall"			"200"
@@ -113,8 +113,8 @@
 
 		"xpos"			"c-103"
 		"ypos"			"c-100"
-		"wide"			"200"
-		"tall"			"200"
+		"wide"			"201"
+		"tall"			"201"
 
 		"font"			"Crosshairs24"
 		"labelText"		"3"
@@ -253,7 +253,7 @@
 
 		"xpos"			"c-85"
 		"ypos"			"c-100"
-		"wide"			"200"
+		"wide"			"199"
 		"tall"			"200"
 
 		"font"			"Crosshairs24"
@@ -273,7 +273,7 @@
 
 		"xpos"			"c-85"
 		"ypos"			"c-100"
-		"wide"			"200"
+		"wide"			"199"
 		"tall"			"200"
 
 		"font"			"Crosshairs24"
@@ -294,7 +294,7 @@
 		"xpos"			"c-100"
 		"ypos"			"c-101"
 		"wide"			"200"
-		"tall"			"200"
+		"tall"			"199"
 
 		"font"			"Cerbetica16"
 		"labelText"		"+"
@@ -454,6 +454,7 @@
 	//end fighter pilot crosshair
 	
 	//end crosshairs
+	
 	
 	HudPlayerStatus
 	{
