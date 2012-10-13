@@ -1,12 +1,13 @@
 "Resource/HudLayout.res"
 {
+	//crosshairs
 	xHairCircle
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"xHairCircle"
 		"font"			"xHairCircle"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -20,6 +21,439 @@
 		
 		"fgcolor"		"255 255 255 100"
 	}
+	
+	ScatterSpread
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"ScatterSpread"
+		"visible"		"0"
+		"enabled"		"0
+		"
+		"zpos"			"2"
+
+		"xpos"			"c-99"
+		"ypos"			"c-99"
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"Crosshairs32"
+		"labelText"		"0"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	BasicCross
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"BasicCross"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-102"
+		"ypos"			"c-99"
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"Crosshairs26"
+		"labelText"		"2"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	BasicCrossSmall
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"BasicCrossSmall"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-101"
+		"ypos"			"c-99"
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"Crosshairs18"
+		"labelText"		"2"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	BasicCrossLarge
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"BasicCrossSmall"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-101"
+		"ypos"			"c-99"
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"Crosshairs32"
+		"labelText"		"2"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	BasicDot
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"BasicDot"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-103"
+		"ypos"			"c-100"
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"Crosshairs24"
+		"labelText"		"3"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	CircleDot
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"CircleDot"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-100"
+		"ypos"			"c-96"
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"Crosshairs34"
+		"labelText"		"8"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	ThinCircle
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"ThinCircle"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-100"
+		"ypos"			"c-96"
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"Crosshairs34"
+		"labelText"		"9"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	WingsPlus
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"WingsPlus"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-100"
+		"ypos"			"c-97"
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"Crosshairs34"
+		"labelText"		"c"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	Wings
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"Wings"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-100"
+		"ypos"			"c-97"
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"Crosshairs34"
+		"labelText"		"d"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	WingsSmallDot
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"WingsSmallDot"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-100"
+		"ypos"			"c-97"
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"Crosshairs34"
+		"labelText"		"f"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	WingsSmall
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"WingsSmall"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-100"
+		"ypos"			"c-97"
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"Crosshairs34"
+		"labelText"		"g"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	OpenCross
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"OpenCross"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-85"
+		"ypos"			"c-100"
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"Crosshairs24"
+		"labelText"		"i"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	OpenCrossDot
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"OpenCrossDot"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-85"
+		"ypos"			"c-100"
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"Crosshairs24"
+		"labelText"		"h"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	TinyCross
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"TinyCross"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-100"
+		"ypos"			"c-101"
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"Cerbetica16"
+		"labelText"		"+"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	//fighter pilot crosshair, enable all of then together for best results
+	
+	"Crosshair_vertical"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"427"
+		"xpos_lodef"	"279"
+		"xpos_hidef"	"309"
+		"ypos"			"75"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"154"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" "50"
+	}
+
+	"Crosshair_horizontal"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"40"
+		"xpos_lodef"	"279"
+		"xpos_hidef"	"309"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"374"
+		"tall"			"1"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" "50"
+	}
+	
+	"Crosshair_horizontal"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"439"
+		"xpos_lodef"	"279"
+		"xpos_hidef"	"309"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"374"
+		"tall"			"1"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" "50"
+	}
+
+	"dark_top"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"426"
+		"xpos_lodef"	"278"
+		"xpos_hidef"	"308"
+		"ypos"			"190"
+		"zpos"			"-5"
+		"wide"			""
+		"tall"			"38"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" "100"
+	}
+	"dark_bottom"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"427"
+		"xpos_lodef"	"279"
+		"xpos_hidef"	"309"
+		"ypos"			"252"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"38"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" "150"
+	}
+	"dark_left"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"365"
+		"xpos_lodef"	"279"
+		"xpos_hidef"	"309"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"50"
+		"tall"			"1"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" "100"
+	}
+	
+
+	"dark_right"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"439"
+		"xpos_lodef"	"279"
+		"xpos_hidef"	"309"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"50"
+		"tall"			"1"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" "100"
+	}
+	
+	//end fighter pilot crosshair
+	
+	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
