@@ -2397,6 +2397,18 @@ Scheme
 			"antialias" 	"1"
 			}
 		}
+
+		"CrosshairsOutline18"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"18"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
 		
 		"Crosshairs20"
 		{
@@ -2431,6 +2443,18 @@ Scheme
 			}
 		}
 		
+		"CrosshairsOutline24"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"24"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
+		
 		"Crosshairs26"
 		{
 			"1"
@@ -2439,6 +2463,18 @@ Scheme
 			"tall" 			"26"
 			"weight" 		"0"
 			"antialias" 	"1"
+			}
+		}
+		
+		"CrosshairsOutline26"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"26"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
 			}
 		}
 		
@@ -2474,6 +2510,18 @@ Scheme
 			"antialias" 	"1"
 			}
 		}
+
+		"CrosshairsOutline32"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"32"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
 		
 		"Crosshairs34"
 		{
@@ -2483,6 +2531,18 @@ Scheme
 			"tall" 			"34"
 			"weight" 		"0"
 			"antialias" 	"1"
+			}
+		}
+		
+		"CrosshairsOutline34"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"34"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
 			}
 		}
 		
@@ -2519,6 +2579,61 @@ Scheme
 			}
 		}
 		
+		"Symbol16"
+		{
+			"1"
+			{
+			"name"			"Symbol"
+			"tall"			"16"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		
+		"Symbol24"
+		{
+			"1"
+			{
+			"name"			"Symbol"
+			"tall"			"24"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		
+		"SymbolOutline24"
+		{
+			"1"
+			{
+			"name"			"Symbol"
+			"tall"			"24"
+			"weight"		"0"
+			"antialias"		"1"
+			"outline"		"1"
+			}
+		}
+		
+		"Symbol32"
+		{
+			"1"
+			{
+			"name"			"Symbol"
+			"tall"			"32"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		
+		"Symbol40"
+		{
+			"1"
+			{
+			"name"			"Symbol"
+			"tall"			"40"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
 		
 		
 		"Cerbetica7"
@@ -2591,6 +2706,7 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
+
 		"Cerbetica24"
 		{
 			"1"
@@ -4295,10 +4411,14 @@ Scheme
 			"font" "resource/Blocks.ttf"
 			"name" "Blocks"
 		}
-		"8" // Fog's xHairs
+		"9" // Fog's xHairs
 		{
 			"font" "resource/crosshairs.ttf"
 			"name" "Crosshairs"
-}
-
+		}
+		"10" // Thin Cross
+		{
+			"font" "resource/Symbol.ttf"
+			"name" "Symbol"
+		}
 }

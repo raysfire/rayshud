@@ -35,6 +35,7 @@
 		"wide"			"200"
 		"tall"			"200"
 
+		//"font"		"CrosshairsOutline32"
 		"font"			"Crosshairs32"
 		"labelText"		"0"
 		"textAlignment"	"center"
@@ -56,6 +57,7 @@
 		"wide"			"200"
 		"tall"			"200"
 
+		//"font"		"CrosshairsOutline26"
 		"font"			"Crosshairs26"
 		"labelText"		"2"
 		"textAlignment"	"center"	
@@ -74,8 +76,9 @@
 		"xpos"			"c-101"
 		"ypos"			"c-99"
 		"wide"			"200"
-		"tall"			"199"
+		"tall"			"200"
 
+		//"font"			"CrosshairsOutline18"
 		"font"			"Crosshairs18"
 		"labelText"		"2"
 		"textAlignment"	"center"	
@@ -92,10 +95,11 @@
 		"zpos"			"2"
 
 		"xpos"			"c-102"
-		"ypos"			"c-99"
+		"ypos"			"c-98"
 		"wide"			"200"
 		"tall"			"200"
 
+		//"font"		"CrosshairsOutline32"
 		"font"			"Crosshairs32"
 		"labelText"		"2"
 		"textAlignment"	"center"	
@@ -116,6 +120,7 @@
 		"wide"			"201"
 		"tall"			"201"
 
+		//"font"		"CrosshairsOutline24"
 		"font"			"Crosshairs24"
 		"labelText"		"3"
 		"textAlignment"	"center"	
@@ -136,6 +141,7 @@
 		"wide"			"200"
 		"tall"			"200"
 
+		//"font"			"CrosshairsOutline34"
 		"font"			"Crosshairs34"
 		"labelText"		"8"
 		"textAlignment"	"center"	
@@ -156,6 +162,7 @@
 		"wide"			"200"
 		"tall"			"200"
 
+		//"font"			"CrosshairsOutline34"
 		"font"			"Crosshairs34"
 		"labelText"		"9"
 		"textAlignment"	"center"	
@@ -176,6 +183,7 @@
 		"wide"			"200"
 		"tall"			"200"
 
+		//"font"			"CrosshairsOutline34"
 		"font"			"Crosshairs34"
 		"labelText"		"c"
 		"textAlignment"	"center"	
@@ -196,6 +204,7 @@
 		"wide"			"200"
 		"tall"			"200"
 
+		//"font"			"CrosshairsOutline34"
 		"font"			"Crosshairs34"
 		"labelText"		"d"
 		"textAlignment"	"center"	
@@ -216,6 +225,7 @@
 		"wide"			"200"
 		"tall"			"200"
 
+		//"font"			"CrosshairsOutline34"
 		"font"			"Crosshairs34"
 		"labelText"		"f"
 		"textAlignment"	"center"	
@@ -236,6 +246,7 @@
 		"wide"			"200"
 		"tall"			"200"
 
+		//"font"			"CrosshairsOutline34"
 		"font"			"Crosshairs34"
 		"labelText"		"g"
 		"textAlignment"	"center"	
@@ -256,6 +267,7 @@
 		"wide"			"199"
 		"tall"			"200"
 
+		"font"			"CrosshairsOutline24"
 		"font"			"Crosshairs24"
 		"labelText"		"i"
 		"textAlignment"	"center"	
@@ -276,6 +288,7 @@
 		"wide"			"199"
 		"tall"			"200"
 
+		//"font"			"CrosshairsOutline34"
 		"font"			"Crosshairs24"
 		"labelText"		"h"
 		"textAlignment"	"center"	
@@ -283,20 +296,21 @@
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	TinyCross
+	ThinCross
 	{
 		"controlName"	"CExLabel"
-		"fieldName"	 	"TinyCross"
+		"fieldName"	 	"ThinCross"
 		"visible"		"0"
 		"enabled"		"0"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
-		"ypos"			"c-101"
+		"ypos"			"c-103"
 		"wide"			"200"
-		"tall"			"199"
+		"tall"			"200"
 
-		"font"			"Cerbetica16"
+		//"font"			"SymbolOutline24"
+		"font"			"Symbol24"
 		"labelText"		"+"
 		"textAlignment"	"center"	
 		
@@ -453,8 +467,6 @@
 	
 	//end fighter pilot crosshair
 	
-	//end crosshairs
-	
 	
 	HudPlayerStatus
 	{
@@ -499,10 +511,8 @@
 		"tall"	"60"
 		
 		"blue_active_xpos"			"16"
-		"blue_active_xpos_minmode"	"55"
 	
 		"red_active_xpos"			"106"
-		"red_active_xpos_minmode"	"105"
 	}	
 
 	HudItemEffectMeter
@@ -1421,10 +1431,10 @@
 	HudTeamGoal
 	{
 		"fieldName"				"HudTeamGoal"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"65"
+		"visible"				"0"
+		"enabled"				"0"
+		"xpos"					"9999"
+		"ypos"					"9999"
 		"ypos_lodef"			"75"
 		"wide"					"320"
 		"tall"					"100"
@@ -1434,10 +1444,10 @@
 	HudTeamGoalTournament
 	{
 		"fieldName"				"HudTeamGoalTournament"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"15"
+		"visible"				"0"
+		"enabled"				"0"
+		"xpos"					"9999"
+		"ypos"					"9999"
 		"ypos_lodef"			"75"
 		"wide"					"320"
 		"tall"					"245"
@@ -1522,11 +1532,9 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"5"
-		"ypos_minmode"				"15"
-		"ypos_lodef"				"75"
-		"wide"					"125"
+		"xpos"					"c-150"
+		"ypos"					"0"
+		"wide"					"300"
 		"tall"					"55"
 	}
 	
