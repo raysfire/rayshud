@@ -43,10 +43,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"12"
+		"xpos"			"25"
 		"ypos"			"21"
 		"zpos"			"5"
-		"wide"			"78"
+		"wide"			"50"
 		"tall"			"19"
 		"visible"		"0"
 		"enabled"		"1"
@@ -78,7 +78,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"12"
+		"xpos"			"25"
 		"ypos"			"21"
 		"zpos"			"5"
 		"wide"			"78"
@@ -113,7 +113,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
-		"xpos"			"12"
+		"xpos"			"25"
 		"ypos"			"21"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
@@ -154,10 +154,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"12"
+		"xpos"			"25"
 		"ypos"			"21"
 		"zpos"			"5"
-		"wide"			"78"
+		"wide"			"50"
 		"tall"			"19"
 		"visible"		"0"
 		"enabled"		"1"

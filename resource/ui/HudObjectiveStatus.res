@@ -7,10 +7,12 @@
 		"xpos"				"c-50"
 		"ypos"				"0"	[$WIN32]
 		"zpos"				"1"
-		"wide"				"110"
+		"wide"				"200"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
+		"delta_item_start_x"	"25"
+		"delta_item_end_x"		"25"
 		"delta_item_start_y"	"34"
 		"delta_item_end_y"		"48"
 		"PositiveColor"			"48 255 48 255"
@@ -20,11 +22,11 @@
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"Cerbetica24"
 			"fgcolor"		"TanLight"
-			"xpos"			"26"
+			"xpos"			"25"
 			"ypos"			"-4"
 			"zpos"			"3"
 			"wide"			"50"
