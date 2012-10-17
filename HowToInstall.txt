@@ -19,6 +19,14 @@ This should fix the scoreboard, the MvM scoreboard, and the tournament spectator
 
 ________
 
+If you'd like to install a hud crosshair, those can be enabled by editing the hudlayout.res file in your tf/scripts folder.
+
+For more information on this, as well as turning on hud crosshair outlines, check out page three of my thread for more detailed instructions:
+
+http://teamfortress.tv/forum/thread/981-rayshud/3
+
+________
+
 If you have any questions/concerns/comments, please either email me at raysfire64@gmail.com, or post in my main support thread: http://teamfortress.tv/forum/thread/981-rayshud .
 
 Thank you for using, and I hope you enjoy the hud. :>
