@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"BlueTimer"
-		"xpos"				"c-50"
+		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"100"
@@ -34,7 +34,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"RedTimer"
-		"xpos"				"c0"
+		"xpos"				"50"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"100"
