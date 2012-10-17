@@ -23,9 +23,9 @@
 		{
 			"visible"		"0"
 			"wide"			"160"
-			"tall"			"16"
+			"tall"			"18"
 			"zpos"			"1"
-			"paintborder"	"0"
+		
 
 			
 			"color_ready"	"0 255 0 220"
@@ -41,14 +41,78 @@
 			"ypos"			"0"
 			"zpos" 			"-1"
 			"wide" 			"160"
+			"tall" 			"18"
+			"autoResize" 	"0"
+			"pinCorner"		"0"
+			"visible" 		"1"
+			"enabled" 		"1"
+			"fillcolor" 	"15 15 15 50"
+			}
+			
+			"PanelLeft"
+			{
+			"ControlName" 	"ImagePanel"
+			"fieldName" 	"PanelLeft"
+			"xpos" 			"0"
+			"ypos"			"0"
+			"zpos" 			"-1"
+			"wide" 			"47"
+			"tall" 			"18"
+			"autoResize" 	"0"
+			"pinCorner"		"0"
+			"visible" 		"1"
+			"enabled" 		"1"
+			"fillcolor" 	"15 15 15 255"
+			}
+			
+			"PanelTop"
+			{
+			"ControlName" 	"ImagePanel"
+			"fieldName" 	"PanelTop"
+			"xpos" 			"0"
+			"ypos"			"0"
+			"zpos" 			"-1"
+			"wide" 			"160"
+			"tall" 			"3"
+			"autoResize" 	"0"
+			"pinCorner"		"0"
+			"visible" 		"1"
+			"enabled" 		"1"
+			"fillcolor" 	"15 15 15 255"
+			}
+			
+			"PanelBottom"
+			{
+			"ControlName" 	"ImagePanel"
+			"fieldName" 	"PanelBottom"
+			"xpos" 			"0"
+			"ypos"			"15"
+			"zpos" 			"-1"
+			"wide" 			"160"
+			"tall" 			"4"
+			"autoResize" 	"0"
+			"pinCorner"		"0"
+			"visible" 		"1"
+			"enabled" 		"1"
+			"fillcolor" 	"15 15 15 255"
+			}
+			
+			"PanelRight"
+			{
+			"ControlName" 	"ImagePanel"
+			"fieldName" 	"PanelRight"
+			"xpos" 			"157"
+			"ypos"			"0"
+			"zpos" 			"-1"
+			"wide" 			"4"
 			"tall" 			"16"
 			"autoResize" 	"0"
 			"pinCorner"		"0"
 			"visible" 		"1"
 			"enabled" 		"1"
-			"fillcolor" 	"15 15 15 250"
+			"fillcolor" 	"15 15 15 255"
 			}
-										  			
+		
 			"playername"
 			{
 				"ControlName"	"CExLabel"
@@ -57,7 +121,7 @@
 				"xpos"			"48"
 				"ypos"			"0"
 				"zpos"			"5"
-				"wide"			"115"
+				"wide"			"92"
 				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -81,7 +145,7 @@
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
 				"xpos"			"0"
-				"ypos"			"0"
+				"ypos"			"1"
 				"zpos"			"2"
 				"wide"			"22"
 				"tall"			"22"
@@ -125,7 +189,7 @@
 					"ControlName" "EditablePanel"
 					"fieldName" "HealthIcon"
 					"xpos" "22"
-					"ypos" "0"
+					"ypos" "1"
 					"zpos" "3"
 					"wide" "24"
 					"tall" "14"
@@ -193,7 +257,7 @@
 				"fieldName"		"respawntime"
 				"font"			"Cerbetica12"
 				"xpos"			"5"
-				"ypos"			"4"
+				"ypos"			"5"
 				"zpos"			"5"
 				"wide"			"23"
 				"tall"			"10"
@@ -215,7 +279,7 @@
 				"fieldName"		"respawntimeBG"
 				"font"			"Cerbetica12"
 				"xpos"			"6"
-				"ypos"			"5"
+				"ypos"			"6"
 				"zpos"			"5"
 				"wide"			"23"
 				"tall"			"10"
@@ -259,7 +323,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
 				"font"			"Cerbetica12"
-				"xpos"			"139"
+				"xpos"			"130"
 				"ypos"			"2"
 				"zpos"			"6"
 				"wide"			"25"
@@ -268,7 +332,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
-				"textAlignment"	"west"
+				"textAlignment"	"east"
 				"fgcolor"		"0 255 255 255"
 			}
 			"chargeamountBG"
@@ -276,7 +340,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamountBG"
 				"font"			"Cerbetica12"
-				"xpos"			"140"
+				"xpos"			"131"
 				"ypos"			"3"
 				"zpos"			"6"
 				"wide"			"25"
@@ -285,7 +349,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
-				"textAlignment"	"west"
+				"textAlignment"	"east"
 				"fgcolor"		"TransparentBlack"
 			}
 			
