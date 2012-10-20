@@ -7,10 +7,10 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"3"
-		"ypos"			"175"
+		"ypos"			"265"
 		"wide"	 		"235"
-		"tall"	 		"140"
-		"PaintBackgroundType"	"2"
+		"tall"	 		"90"
+		"PaintBackgroundType"	"0"
 	}
 
 	ChatInputLine
@@ -23,6 +23,7 @@
 		"ypos"			"395"
 		"wide"	 		"185"
 		"tall"	 		"2"
+		"font"			"Cerbetica10"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -61,7 +62,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"south-west"
-		"font"			"ChatFont"
+		"font"			"Cerbetica10"
 		"maxchars"		"-1"
 	}
 }
