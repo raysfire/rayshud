@@ -44,7 +44,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
-		"xpos"			"3"
+		"xpos"			"0"
 		"ypos"			"120"
 		"zpos"			"1"
 		"wide"			"10"
@@ -59,7 +59,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIconBackground"
-		"xpos"			"4"
+		"xpos"			"1"
 		"ypos"			"121"
 		"zpos"			"1"
 		"wide"			"10"
@@ -75,7 +75,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"xpos"			"4"
+		"xpos"			"1"
 		"ypos"			"112"
 		"zpos"			"2"
 		"wide"			"55"
@@ -95,7 +95,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValueBackgorund"
-		"xpos"			"5"
+		"xpos"			"2"
 		"ypos"			"113"
 		"zpos"			"2"
 		"wide"			"55"

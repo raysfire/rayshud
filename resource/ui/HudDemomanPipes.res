@@ -50,7 +50,7 @@
 		"font"					"Default"
 		"xpos"					"0"
 		"ypos"					"112"
-		"zpos"					"2"
+		"zpos"					"1"
 		"wide"					"150"
 		"tall"					"8"				
 		"autoResize"			"0"
