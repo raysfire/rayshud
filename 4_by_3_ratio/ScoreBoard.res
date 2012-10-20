@@ -15,7 +15,7 @@
 		"tabPosition"		"0"
 		"avatar_width"		"54"	
 		"name_width"		"75"
-		"name_width_minmode"	"75"
+		"name_width_minmode""75"
 		"status_width"		"15"	
 		"nemesis_width"		"15"	
 		"class_width"		"15"	
@@ -182,7 +182,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"Cerbetica72"
+		"font"			"Cerbetica56"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"c22"
@@ -206,7 +206,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScoreDropshadow"
-		"font"			"Cerbetica72"
+		"font"			"Cerbetica56"
 		"fgcolor"		"Black"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
@@ -278,7 +278,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"			"Cerbetica72"
+		"font"			"Cerbetica56"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"textAlignment_minmode"		"east"
@@ -305,7 +305,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamScoreDropshadow"
-		"font"			"Cerbetica72"
+		"font"			"Cerbetica56"
 		"fgcolor"		"Black"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
