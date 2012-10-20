@@ -309,7 +309,7 @@
 		"wide"			"200"
 		"tall"			"200"
 
-		//"font"			"SymbolOutline24"
+		//"font"		"SymbolOutline24"
 		"font"			"Symbol24"
 		"labelText"		"+"
 		"textAlignment"	"center"	
@@ -641,8 +641,8 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r315"	[$WIN32]
-		"ypos"					"r235"	[$WIN32]
+		"xpos"					"c112"
+		"ypos"					"c6"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -1369,7 +1369,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"10"	[$WIN32]
-		"xpos"			"42"	[$X360]
+		"xpos"			"42"	
 		"ypos"			"275"
 		"wide"	 		"320"
 		"tall"	 		"120"
@@ -1435,9 +1435,8 @@
 		"enabled"				"0"
 		"xpos"					"9999"
 		"ypos"					"9999"
-		"ypos_lodef"			"75"
-		"wide"					"320"
-		"tall"					"100"
+		"wide"					"0"
+		"tall"					"0"
 	}
 
 
@@ -1448,9 +1447,8 @@
 		"enabled"				"0"
 		"xpos"					"9999"
 		"ypos"					"9999"
-		"ypos_lodef"			"75"
-		"wide"					"320"
-		"tall"					"245"
+		"wide"					"0"
+		"tall"					"0"
 	}
 
 	HudTeamSwitch
