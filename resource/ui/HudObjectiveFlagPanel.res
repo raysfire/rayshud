@@ -348,7 +348,7 @@
 		"fieldName"		"BlueFlag"
 		"xpos"			"c-165"
 		"ypos"			"r80"	[$WIN32]
-		"zpos"			"5"
+		"zpos"			"-1"
 		"wide"			"160"
 		"tall"			"90"
 		"visible"		"1"
@@ -357,22 +357,25 @@
 		"if_hybrid"
 		{
 			"visible"	"0"
-			"ypos"		"r75"
+			"ypos"		"r103"
 		}
 		
 		"if_hybrid_single"
 		{
-			"xpos"		"c-155"
+			"xpos"		"c-80"
+			"ypos"		"r103"
 		}
 		
 		"if_hybrid_double"
 		{
 			"xpos"		"c-115"
+			"ypos"		"r103"
 		}
 
 		"if_specialdelivery"
 		{
 			"ypos"		"r75"
+			"ypos"		"r103"
 		}
 		
 		"if_no_flags"
