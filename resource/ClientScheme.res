@@ -2768,6 +2768,46 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
+		"Cerbetica52"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica"
+				"tall" 		 "52"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"Cerbetica54"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica"
+				"tall" 		 "54"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"Cerbetica55"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica"
+				"tall" 		 "55"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"Cerbetica56"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica"
+				"tall" 		 "56"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
 		"Cerbetica60"
 		{
 			"1"
@@ -2821,12 +2861,34 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
+		"CerbeticaBold15"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica"
+				"tall" 		 "15"
+				"weight" 	 "800"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
 		"CerbeticaBold16"
 		{
 			"1"
 			{
 				"name"		 "Cerbetica"
 				"tall" 		 "16"
+				"weight" 	 "800"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"CerbeticaBold17"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica"
+				"tall" 		 "17"
 				"weight" 	 "800"
 				"additive"	 "0"
 				"antialias"	 "1"
