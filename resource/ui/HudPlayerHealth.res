@@ -70,7 +70,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"CerbeticaBold72"
+		"font"			"CerbeticaBold56"
 		"fgcolor"		"TanLight"
 	}
 	"PlayerStatusHealthValueShadow"
@@ -86,7 +86,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"CerbeticaBold72"
+		"font"			"CerbeticaBold56"
 		"fgcolor"		"TransparentBlack"
 	}			
 	"PlayerStatusBleedImage"

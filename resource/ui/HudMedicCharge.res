@@ -24,7 +24,7 @@
 		"xpos"			"161"
 		"ypos"			"34"
 		"zpos"			"2"
-		"wide"			"100"
+		"wide"			"120"
 		"tall"			"72"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -35,7 +35,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CerbeticaBold72"
+		"font"			"CerbeticaBold56"
 		"fgcolor"		"48 255 48 255"
 	}
 	"ChargeLabelShadow"
@@ -45,7 +45,7 @@
 		"xpos"			"163"
 		"ypos"			"36"
 		"zpos"			"2"
-		"wide"			"100"
+		"wide"			"120"
 		"tall"			"72"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -56,7 +56,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CerbeticaBold72"
+		"font"			"CerbeticaBold56"
 		"fgcolor"		"TransparentBlack"
 	}
 	
