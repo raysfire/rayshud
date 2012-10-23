@@ -348,7 +348,7 @@
 		"fieldName"		"BlueFlag"
 		"xpos"			"c-165"
 		"ypos"			"r80"	[$WIN32]
-		"zpos"			"-1"
+		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
 		"visible"		"1"
