@@ -1,11 +1,12 @@
 "GameMenu" [$WIN32]
 {
+
 	"VersionNumber"
 	{
-		"label" "rayshud v2.71" 
+		"label" "rayshud v2.72" 
 		"command" "toggleconsole"
 		"subimage" ""
-		"OnlyAtMenu" "1"
+		"OnlyAtMenu" "0"
 	}
 	"QuickplayButton"
 	{

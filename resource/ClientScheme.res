@@ -2950,6 +2950,39 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
+		"CerbeticaBold42"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica"
+				"tall" 		 "42"
+				"weight" 	 "800"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"CerbeticaBold44"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica"
+				"tall" 		 "44"
+				"weight" 	 "800"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"CerbeticaBold46"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica"
+				"tall" 		 "46"
+				"weight" 	 "800"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
 		"CerbeticaBold48"
 		{
 			"1"
