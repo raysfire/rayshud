@@ -1005,7 +1005,7 @@
 		"xpos"			"25"
 		"ypos"			"202"
 		"zpos"			"11"
-		"wide"			"75"
+		"wide"			"200"
 		"tall"			"16"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
@@ -1065,7 +1065,7 @@
 		"xpos"			"25"
 		"ypos"			"290"
 		"zpos"			"11"
-		"wide"			"75"
+		"wide"			"200"
 		"tall"			"16"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
@@ -1124,7 +1124,7 @@
 		"xpos"			"25"
 		"ypos"			"308"
 		"zpos"			"11"
-		"wide"			"75"
+		"wide"			"200"
 		"tall"			"16"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
@@ -1184,7 +1184,7 @@
 		"xpos"			"25"
 		"ypos"			"236"
 		"zpos"			"11"
-		"wide"			"75"
+		"wide"			"200"
 		"tall"			"16"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
@@ -1194,7 +1194,7 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"75"
+			"wide"			"200"
 			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -1243,7 +1243,7 @@
 		"xpos"			"25"
 		"ypos"			"254"
 		"zpos"			"11"
-		"wide"			"75"
+		"wide"			"200"
 		"tall"			"16"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
@@ -1253,7 +1253,7 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"75"
+			"wide"			"200"
 			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -1541,7 +1541,7 @@
 		"xpos"			"25"
 		"ypos"			"148"
 		"zpos"			"11"
-		"wide"			"125"
+		"wide"			"200"
 		"tall"			"16"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
@@ -1551,7 +1551,7 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"125"
+			"wide"			"200"
 			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -1673,7 +1673,7 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"75"
+			"wide"			"200"
 			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -1734,7 +1734,7 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"75"
+			"wide"			"200"
 			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -2432,7 +2432,7 @@
 			"image"			"glyph_options"
 		}			
 	}
-
+	
 	"ScoreboardToggle"
 	{
 		"ControlName"	"CExImageButton"
@@ -2480,7 +2480,7 @@
 			"scaleImage"	"1"
 			"image"			"glyph_options"
 		}			
-	}			
+	}		
 	
 	"QuitButton"
 	{
