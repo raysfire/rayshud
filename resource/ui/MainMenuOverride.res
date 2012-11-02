@@ -1499,7 +1499,7 @@
 			"use_proportional_insets" "1"
 			"font"			"CerbeticaBold20"
 			"textAlignment"	"center"
-			"labelText"		"rayshud v2.72"
+			"labelText"		"rayshud v2.73"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -1856,7 +1856,7 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"75"
+			"wide"			"200"
 			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -2486,7 +2486,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"QuitButton"
-		"xpos"			"13"
+		"xpos"			"15"
 		"ypos"			"416"
 		"zpos"			"1"
 		"wide"			"200"
@@ -2536,7 +2536,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DisconnectButton"
-		"xpos"			"13"
+		"xpos"			"15"
 		"ypos"			"416"
 		"zpos"			"1"
 		"wide"			"200"
@@ -2580,6 +2580,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
+			
 			"image"			"glyph_quit"
 		}				
 	}			
