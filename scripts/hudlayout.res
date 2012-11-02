@@ -60,7 +60,7 @@
 		//"font"		"CrosshairsOutline26"
 		"font"			"Crosshairs26"
 		"labelText"		"2"
-		"textAlignment"	"center"	
+		"textAlignment"		"center"	
 		
 		"fgcolor"		"255 255 255 255"
 	}
@@ -127,7 +127,7 @@
 		
 		"fgcolor"		"255 255 255 255"
 	}
-	
+
 	CircleDot
 	{
 		"controlName"	"CExLabel"
@@ -288,7 +288,7 @@
 		"wide"			"199"
 		"tall"			"200"
 
-		//"font"			"CrosshairsOutline34"
+		//"font"			"CrosshairsOutline24"
 		"font"			"Crosshairs24"
 		"labelText"		"h"
 		"textAlignment"	"center"	
@@ -558,7 +558,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-100"	
-		"ypos"			"c124"	
+		"ypos"			"c111"	
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"500"
 		"tall"			"500"
@@ -846,7 +846,7 @@
 //		"visible" "1"
 //		"enabled" "1"
 //		"MinimumWidth" "10"
-//		"MaximumWidth" "10"
+//		"MaximumWidth" "10"		
 //		"StartRadius" "80"
 //		"EndRadius" "80"
 //		"MinimumHeight" "30"
@@ -1441,9 +1441,9 @@
 	{
 		"fieldName"				"HudTeamGoal"
 		"visible"				"0"
-		"enabled"				"0"
-		"xpos"					"9999"
-		"ypos"					"9999"
+		"enabled"				"1"
+		"xpos"					"c-160"
+		"ypos"					"65"
 		"wide"					"0"
 		"tall"					"0"
 	}
@@ -1453,9 +1453,9 @@
 	{
 		"fieldName"				"HudTeamGoalTournament"
 		"visible"				"0"
-		"enabled"				"0"
-		"xpos"					"9999"
-		"ypos"					"9999"
+		"enabled"				"1"
+		"xpos"					"c-60"
+		"ypos"					"20"
 		"wide"					"0"
 		"tall"					"0"
 	}
@@ -1617,8 +1617,8 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudAchievementTracker"
 		"xpos"			"5"
-		"NormalY"		"10"
-		"EngineerY"		"170"
+		"NormalY"		"170"
+		"EngineerY"		"320"
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"280"
