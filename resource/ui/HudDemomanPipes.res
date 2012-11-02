@@ -8,7 +8,6 @@
 		"ypos"			"9999"
 		"zpos"			"0"
 		"wide"			"76"
-		"wide_minmode"	"56"
 		"tall"			"38"
 		"visible"		"1"
 		"visible_minmode"	"0"

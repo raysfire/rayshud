@@ -59,7 +59,7 @@
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"205 92 92 153"
+		"fillcolor"		"205 50 50 153"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -427,22 +427,22 @@
 	{
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
-		"xpos"			"c-30"
-		"ypos"			"r200"	[$WIN32]
+		"xpos"			"c-28"
+		"ypos"			"r100"	[$WIN32]
 		"zpos"			"5"
-		"wide"			"60"
-		"tall"			"60"
+		"wide"			"56"
+		"tall"			"56"
 		"visible"		"0"
 		"enabled"		"1"
 		
 		"if_hybrid"
 		{
-			"ypos"		"r200"
+			"ypos"		"r100"
 		}
 		
 		"if_specialdelivery"
 		{
-			"ypos"		"r200"
+			"ypos"		"r100"
 		}
 	}
 	

@@ -219,7 +219,7 @@
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
-		"fgcolor"		"205 92 92 153"		
+		"fgcolor"		"205 50 50 153"		
 		
 		"if_hybrid"
 		{
@@ -427,22 +427,22 @@
 	{
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
-		"xpos"			"9999"
-		"ypos"			"9999"	[$WIN32]
+		"xpos"			"c-28"
+		"ypos"			"r100"	[$WIN32]
 		"zpos"			"5"
-		"wide"			"60"
-		"tall"			"60"
+		"wide"			"56"
+		"tall"			"56"
 		"visible"		"0"
 		"enabled"		"1"
 		
 		"if_hybrid"
 		{
-			"ypos"		"r200"
+			"ypos"		"r100"
 		}
 		
 		"if_specialdelivery"
 		{
-			"ypos"		"r200"
+			"ypos"		"r100"
 		}
 	}
 	

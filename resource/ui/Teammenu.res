@@ -39,7 +39,7 @@
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"205 92 92 125"
+		"fillcolor"		"205 50 50 153"
 	}
 	"AutojoinBackground"
 	{

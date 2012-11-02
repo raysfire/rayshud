@@ -38,7 +38,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"205 92 92 153"
+			"fillcolor"		"205 50 50 153"
 			"scaleImage"		"1"
 		}
 		"BlueTeamLabel"
