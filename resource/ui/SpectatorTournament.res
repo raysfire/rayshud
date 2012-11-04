@@ -56,7 +56,7 @@
 			"xpos" 			"0"
 			"ypos"			"0"
 			"zpos" 			"-1"
-			"wide" 			"47"
+			"wide" 			"49"
 			"tall" 			"18"
 			"autoResize" 	"0"
 			"pinCorner"		"0"
@@ -118,10 +118,10 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"CerbeticaBold14"
-				"xpos"			"48"
+				"xpos"			"50"
 				"ypos"			"0"
 				"zpos"			"5"
-				"wide"			"92"
+				"wide"			"90"
 				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -188,7 +188,7 @@
 				{
 					"ControlName" "EditablePanel"
 					"fieldName" "HealthIcon"
-					"xpos" "22"
+					"xpos" "23"
 					"ypos" "1"
 					"zpos" "3"
 					"wide" "24"
@@ -266,7 +266,7 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
-				"fgcolor"		"160 32 240 255"
+				"fgcolor"		"255 20 175 255"
 				
 				if_mvm
 				{
@@ -303,7 +303,7 @@
 				"xpos"			"22"
 				"ypos"			"1"
 				"zpos"			"5"
-				"wide"			"23"
+				"wide"			"26"
 				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
