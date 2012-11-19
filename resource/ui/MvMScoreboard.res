@@ -7,7 +7,7 @@
 		"xpos"				"100"
 		"ypos"				"8"
 		"zpos"				"0"
-		"wide"				"400"
+		"wide"				"600"
 		"tall"				"67"
 		"visible"			"1"
 		"enabled"			"1"
@@ -15,6 +15,20 @@
 		"verbose"			"1"
 	}
 	
+	"ScoreboardBackground"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"ScoreboardBackground"
+		"xpos"			"98"
+		"ypos"			"71"
+		"zpos"			"-1"
+		"wide"			"445"
+		"tall"			"288"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 100"
+	}
 	"PopFileLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -22,7 +36,7 @@
 		"font"			"Cerbetica24"
 		"labelText"		"%popfile%"
 		"textAlignment"	"center"
-		"xpos"			"c-270"
+		"xpos"			"78"
 		"ypos"			"c150"
 		"wide"			"290"
 		"tall"			"20"
@@ -33,8 +47,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"425"
-		"ypos"			"30"
+		"xpos"			"350"
+		"ypos"			"c150"
 		"wide"			"150"
 		"tall"			"50"
 		"visible"		"1"
@@ -112,8 +126,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"100"
-		"ypos"			"230"
+		"xpos"			"118"
+		"ypos"			"220"
 		"wide"			"400"
 		"tall"			"205"
 		"visible"		"1"
@@ -147,8 +161,8 @@
 			"font"			"Cerbetica16"
 			"labelText"		"#TF_PVE_Currency"
 			"textAlignment" "center"
-			"xpos"			"8"
-			"ypos"			"8"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"wide"			"200"
 			"fgcolor"		"tanlight"
 		}
