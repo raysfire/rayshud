@@ -154,7 +154,7 @@ Scheme
 		"QualityColorCustomized"				"71 98 145 255"
 		"QualityColorStrange"					"207 106 50 255"
 		"QualityColorCompleted"					"134 80 172 255"
-		"QualityColorHaunted"					"134 80 172 255"
+		"QualityColorHaunted"					"56 243 171 255"
 		
 		"SaleGreen"								"76 107 34 255"
 		
@@ -3713,6 +3713,30 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color"					"QualityColorrarity4"
+			
+			"image"					"backpack_rect_mouseover_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
+		BackpackItemBorder_Haunted
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"QualityColorHaunted"
+			
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
+		BackpackItemMouseOverBorder_Haunted
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"QualityColorHaunted"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
