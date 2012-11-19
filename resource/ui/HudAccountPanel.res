@@ -2,23 +2,23 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"33"
+		"delta_item_x"			"12"
 		"delta_item_start_y"	"130"
 		"delta_item_end_y"		"150"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"Cerbetica28"
+		"delta_item_font"		"Cerbetica20"
 	}
 		"CHudAccountPanelOutline"
 	{
-		"delta_item_x"			"33"
-		"delta_item_start_y"	"130"
+		"delta_item_x"			"0"
+		"delta_item_start_y"	"120"
 		"delta_item_end_y"		"150"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"Cerbetica24"
+		"delta_item_font"		"Cerbetica20"
 	}
 	
 	"AccountBG"
