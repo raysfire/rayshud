@@ -317,7 +317,7 @@
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	//fighter pilot crosshair, enable all of then together for best results
+	//fighter pilot crosshair, enable all of then together for best results (16x9 resolution)
 	
 	"Crosshair_vertical"
 	{
@@ -465,7 +465,312 @@
 		"alpha" "100"
 	}
 	
-	//end fighter pilot crosshair
+	//end fighter pilot crosshair (16x9)
+	
+	//fighter pilot crosshair, enable all of then together for best results (16x10 resolution)
+	
+	"Crosshair_vertical"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"384"
+		"xpos_lodef"	"279"
+		"xpos_hidef"	"309"
+		"ypos"			"55"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"170"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" "50"
+	}
+
+	"Crosshair_horizontal"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"35"
+		"xpos_lodef"	"279"
+		"xpos_hidef"	"309"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"330"
+		"tall"			"1"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" "50"
+	}
+
+	"Crosshair_horizontal"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"403"
+		"xpos_lodef"	"279"
+		"xpos_hidef"	"309"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"330"
+		"tall"			"1"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" "50"
+	}
+
+	"dark_top"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"384"
+		"xpos_lodef"	"279"
+		"xpos_hidef"	"309"
+		"ypos"			"187"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"38"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" "100"
+	}
+
+	"dark_bottom"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"384"
+		"xpos_lodef"	"279"
+		"xpos_hidef"	"309"
+		"ypos"			"254"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"38"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" "150"
+	}
+
+	"dark_left"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"315"
+		"xpos_lodef"	"279"
+		"xpos_hidef"	"309"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"50"
+		"tall"			"1"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" "100"
+	}
+
+	"dark_right"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"403"
+		"xpos_lodef"	"279"
+		"xpos_hidef"	"309"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"50"
+		"tall"			"1"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" "100"
+	}
+	
+	//end fighter pilot crosshair (16x10)
+	
+	//fighter pilot crosshair, enable all of then together for best results (4x3 resolution)
+	
+	"Crosshair_vertical"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"319"
+		"xpos_lodef"	"279"
+		"xpos_hidef"	"309"
+		"ypos"			"70"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"154"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" "50"
+	}
+	
+	"Crosshair_horizontal"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"10"
+		"xpos_lodef"	"279"
+		"xpos_hidef"	"309"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"290"
+		"tall"			"1"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" "50"
+	}
+	
+	"Crosshair_horizontal"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"340"
+		"xpos_lodef"	"279"
+		"xpos_hidef"	"309"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"290"
+		"tall"			"1"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" "50"
+	}
+	
+	"dark_top"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"319"
+		"xpos_lodef"	"279"
+		"xpos_hidef"	"309"
+		"ypos"			"186"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"38"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" "100"
+	}
+	
+	"dark_bottom"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"319"
+		"xpos_lodef"	"279"
+		"xpos_hidef"	"309"
+		"ypos"			"255"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"38"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" "150"
+	}
+			
+	"dark_left"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"250"
+		"xpos_lodef"	"279"
+		"xpos_hidef"	"309"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"50"
+		"tall"			"1"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" "100"
+	}
+	
+
+	"dark_right"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"340"
+		"xpos_lodef"	"279"
+		"xpos_hidef"	"309"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"50"
+		"tall"			"1"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" "100"
+	}
+ 
+	//end fighter pilot crosshair (4x3)
+ 
+
 	
 	
 	HudPlayerStatus
@@ -1279,10 +1584,10 @@
 		"fieldName"				"ArenaWinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-240"
-		"ypos"					"250"
+		"xpos"					"c-225"
+		"ypos"					"260"
 		"wide"					"450"
-		"tall"					"218"
+		"tall"					"300"
 	}
 	
 	PVEWinPanel
