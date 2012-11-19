@@ -78,7 +78,7 @@
 		"ypos"			"c-66"
 		"zpos"			"3"
 		"wide"			"352"
-		"tall"			"160"
+		"tall"			"155"
 		"autoResize"	"3"
 		"pinCorner"		"0"
 		"visible"		"1"

@@ -48,8 +48,8 @@
 		{
 			"ypos"			"120"
 			"ypos_minmode"	"120"
-			"tall"			"10"
-			"tall_minmode"	"10"
+			"tall"			"12"
+			"tall_minmode"	"12"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}		
 	}	
@@ -115,21 +115,21 @@
 		
 		"if_multiple_trains"
 		{
-			"xpos"			"59"
+			"xpos"			"61"
 			"zpos"			"5"
-			"wide"			"14"
-			"tall"			"14"
+			"wide"			"12"
+			"tall"			"12"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}
 		
 		"if_multiple_trains_top"
 		{
-			"ypos"			"113"
+			"ypos"			"114"
 		}
 		
 		"if_multiple_trains_bottom"
 		{
-			"ypos"			"113"
+			"ypos"			"114"
 		}
 		
 		"if_multiple_trains_red"

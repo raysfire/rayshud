@@ -87,7 +87,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"center"
-		"font"			"Cerbetica16"
+		"font"			"Cerbetica24"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
@@ -402,5 +402,4 @@
 			"centerwrap"	"1"
 		}
 	}		
-	}	
 }
