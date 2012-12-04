@@ -374,7 +374,6 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r75"
 			"ypos"		"r103"
 		}
 		
@@ -414,7 +413,7 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r70"
+			"ypos"		"r103"
 		}
 		
 		"if_no_flags"

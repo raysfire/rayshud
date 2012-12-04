@@ -8,6 +8,7 @@
 		"xpos"			"c-288"		
 		"ypos"			"c45"	
 		"xpos"			"32"
+		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"120"
 		"visible"		"1"
