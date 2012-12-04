@@ -12,7 +12,7 @@
 
 		"xpos"			"c-100"
 		"ypos"			"c-102"
-		"wide"			"200"
+		"wide"			"201"
 		"tall"			"200"
 
 		"font"			"xHairCircle"
@@ -999,10 +999,10 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-100"
-		"ypos"		"c65"
+		"ypos"		"c25"
 		"wide"	 	"600"
-		"tall"	 	"200"
-		"priority"	"40"
+		"tall"	 	"45"
+		"priority"	"100"
 	}
 	
 	CSpectatorTargetID
@@ -1013,7 +1013,7 @@
 		"xpos"		"c-100"
 		"ypos"		"c25"
 		"wide"	 	"600"
-		"tall"	 	"46"
+		"tall"	 	"45"
 		"priority"	"40"
 		
 		"x_offset" "20"
@@ -1026,9 +1026,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos" 		"c-100"
-		"ypos" 		"c25"
+		"ypos" 		"c65"
 		"wide" 		"600"
-		"tall" 		"50"
+		"tall" 		"45"
 		"priority" 	"35"
 }
 	
