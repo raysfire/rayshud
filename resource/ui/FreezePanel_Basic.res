@@ -157,6 +157,7 @@
 		}	
 	}
 
+	
 		"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -164,22 +165,21 @@
 		"xpos"			"r249"
 		"ypos"			"c75"
 		"zpos"			"1"
-		"wide"			"250"
+		"wide"			"240"
 		"tall"			"900"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
 		
-		"model_xpos"		"15"
-		"model_ypos"		"25"
+		"model_xpos"		"10"
 		"model_center_y"	"1"
 		"model_wide"		"64"
 		"model_tall"		"48"
 		
 		"text_xpos"		"90"
-		
-		"text_wide"		"155"
+		"text_ypos"		"25"
+		"text_wide"		"150"
 		"text_center"	"1"
 		
 		"max_text_height"	"90"
@@ -194,7 +194,7 @@
 			"xpos" "0"
 			"ypos" "0"
 			"zpos" "-1"
-			"wide" "250"
+			"wide" "240"
 			"tall" "900"
 			"autoResize" "0"
 			"pinCorner" "0"
@@ -209,7 +209,7 @@
 			"xpos" "4"
 			"ypos" "4"
 			"zpos" "-1"
-			"wide" "246"
+			"wide" "232"
 			"tall" "14"
 			"autoResize" "0"
 			"pinCorner" "0"
@@ -230,7 +230,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
 			"font"			"Cerbetica12"
-			"xpos"			"21"
+			"xpos"			"10"
 			"ypos"			"5"
 			"zpos"			"1"
 			"wide"			"270"
@@ -264,26 +264,27 @@
 			"fgcolor"		"235 226 202 255"
 			"centerwrap"	"1"
 		}
+			
 	}		
 	
 	"FreezePanelBase"	[$WIN32]
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
-		"xpos"			"r220"
+		"xpos"			"r249"
 		"ypos"			"c-20"		
-		"wide"			"600"		
+		"wide"			"240"		
 		"tall"			"200"		
 		"visible"		"1"
 	
-		"FreezePanelBG"
+		"FreezePanelBGTitle"
 		{
 			"ControlName"		"ImagePanel"
-			"fieldName"		"FreezePanelBG"
+			"fieldName"		"FreezePanelBGTitle"
 			"xpos" 		"0"
 			"ypos" 		"15"
 			"zpos" 		"-1"
-			"wide" 		"600"
+			"wide" 		"240"
 			"tall" 		"14"
 			"autoResize" "0"
 			"pinCorner" "0"
@@ -292,15 +293,36 @@
 			"fillcolor" "0 0 0 128"
 		}
 		
+		"FreezePanelBG"
+		{
+			"ControlName"		"CTFImagePanel"
+			"fieldName"		"FreezePanelBG"
+			"xpos"			"0"
+			"ypos"			"46"
+			"zpos"			"0"
+			"wide"			"240"
+			"tall"			"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/color_panel_blu"
+			"scaleImage"		"1"	
+			
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+				
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+		
 		"FreezeLabel"
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabel"
 			"font"			"Cerbetica14"
 			"xpos"			"40"
-			"ypos"			"14"
+			"ypos"			"15"
 			"zpos"			"1"
-			"wide"			"600"
+			"wide"			"198"
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -347,7 +369,7 @@
 			"labelText"		"%killername%"
 			"textAlignment"		"Left"
 		}
-				"FreezeLabelKiller2"
+		"FreezeLabelKiller2"
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabelKiller2"
@@ -355,7 +377,7 @@
 			"xpos"			"42"
 			"ypos"			"28"
 			"zpos"			"1"
-			"wide"			"584"
+			"wide"			"196"
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"

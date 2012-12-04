@@ -7,7 +7,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10"
-		"wide"			"250"
+		"wide"			"240"
 		"tall"			"900"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
@@ -21,7 +21,7 @@
 		
 		"text_xpos"		"90"
 		"text_ypos"		"25"
-		"text_wide"		"155"
+		"text_wide"		"150"
 		"text_center"	"1"
 		
 		"max_text_height"	"90"
@@ -58,7 +58,7 @@
 			"xpos" "4"
 			"ypos" "4"
 			"zpos" "-99"
-			"wide" "246"
+			"wide" "232"
 			"tall" "14"
 			"autoResize" "0"
 			"pinCorner" "0"

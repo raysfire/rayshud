@@ -512,22 +512,21 @@
 		"xpos"			"r249"
 		"ypos"			"c0"
 		"zpos"			"1"
-		"wide"			"250"
+		"wide"			"240"
 		"tall"			"900"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
 		
-		"model_xpos"		"15"
-		"model_ypos"		"25"
+		"model_xpos"		"10"
 		"model_center_y"	"1"
 		"model_wide"		"64"
 		"model_tall"		"48"
 		
 		"text_xpos"		"90"
-		
-		"text_wide"		"155"
+		"text_ypos"		"25"
+		"text_wide"		"150"
 		"text_center"	"1"
 		
 		"max_text_height"	"90"
@@ -542,7 +541,7 @@
 			"xpos" "0"
 			"ypos" "0"
 			"zpos" "-1"
-			"wide" "250"
+			"wide" "240"
 			"tall" "900"
 			"autoResize" "0"
 			"pinCorner" "0"
@@ -557,7 +556,7 @@
 			"xpos" "4"
 			"ypos" "4"
 			"zpos" "-1"
-			"wide" "246"
+			"wide" "232"
 			"tall" "14"
 			"autoResize" "0"
 			"pinCorner" "0"
@@ -578,7 +577,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
 			"font"			"Cerbetica12"
-			"xpos"			"21"
+			"xpos"			"10"
 			"ypos"			"5"
 			"zpos"			"1"
 			"wide"			"270"
@@ -612,5 +611,5 @@
 			"fgcolor"		"235 226 202 255"
 			"centerwrap"	"1"
 		}
-	}		
+	}
 }
