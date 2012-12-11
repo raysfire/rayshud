@@ -93,7 +93,7 @@
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"70"
-		"ypos"			"1"
+		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"60"
 		"tall"			"80"
