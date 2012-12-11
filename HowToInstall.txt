@@ -1,6 +1,10 @@
 HOW TO INSTALL RAYSHUD:
 
-1. Extract the files of this folder to your C:\Program Files (x86)\Steam\steamapps\<USERNAME>\team fortress 2\tf folder. 
+1. Extract the files of this folder to your C:\Program Files (x86)\Steam\steamapps\<USERNAME>\team fortress 2\tf folder.
+
+IF YOU WANT THE MINMODE VERSION:
+
+Instead of extracting the root folders to your tf folder, instead copy all of the folders within the "minmode" folder that's contained with the hud to your tf folder.
 
 2. If you've ever had a custom hud before this one it will most likely ask you if you want to override the folder/files. Select yes. 
 
