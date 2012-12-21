@@ -134,6 +134,101 @@
 		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
 	}
+	"PlayerStatus_MedicUberBulletResistImage"
+	{
+		"ControlName" 	"ImagePanel"
+		"fieldName" 	"PlayerStatus_MedicUberBulletResistImage"
+		"xpos" 			"100"
+		"ypos" 			"0"
+		"zpos" 			"7"
+		"wide" 			"31"
+		"tall" 			"31"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"scaleImage" 	"1"
+		"image"			"../HUD/defense_buff_bullet_blue"
+		"fgcolor" 		"TanDark"
+	}	
+	
+	"PlayerStatus_MedicUberBlastResistImage"
+	{
+		"ControlName" 	"ImagePanel"
+		"fieldName" 	"PlayerStatus_MedicUberBlastResistImage"
+		"xpos" 			"100"
+		"ypos" 			"0"
+		"zpos" 			"7"
+		"wide" 			"31"
+		"tall" 			"31"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"scaleImage" 	"1"
+		"image"			"../HUD/defense_buff_explosion_blue"
+		"fgcolor" 		"TanDark"
+	}	
+	
+	"PlayerStatus_MedicUberFireResistImage"
+	{
+		"ControlName" 	"ImagePanel"
+		"fieldName" 	"PlayerStatus_MedicUberFireResistImage"
+		"xpos" 			"100"
+		"ypos" 			"0"
+		"zpos" 			"7"
+		"wide" 			"31"
+		"tall" 			"31"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"scaleImage" 	"1"
+		"image"			"../HUD/defense_buff_fire_blue"
+		"fgcolor" 		"TanDark"
+	}
+	
+	"PlayerStatus_MedicSmallBulletResistImage"
+	{
+		"ControlName" 	"ImagePanel"
+		"fieldName" 	"PlayerStatus_MedicSmallBulletResistImage"
+		"xpos" 			"100"
+		"ypos" 			"0"
+		"zpos" 			"7"
+		"wide" 			"31"
+		"tall" 			"31"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"scaleImage" 	"1"
+		"image"			"../HUD/defense_buff_bullet_blue"
+		"fgcolor" 		"TanDark"
+	}	
+	
+	"PlayerStatus_MedicSmallBlastResistImage"
+	{
+		"ControlName" 	"ImagePanel"
+		"fieldName" 	"PlayerStatus_MedicSmallBlastResistImage"
+		"xpos" 			"100"
+		"ypos" 			"0"
+		"zpos" 			"7"
+		"wide" 			"31"
+		"tall" 			"31"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"scaleImage" 	"1"
+		"image"			"../HUD/defense_buff_explosion_blue"
+		"fgcolor" 		"TanDark"
+	}	
+	
+	"PlayerStatus_MedicSmallFireResistImage"
+	{
+		"ControlName" 	"ImagePanel"
+		"fieldName" 	"PlayerStatus_MedicSmallFireResistImage"
+		"xpos" 			"100"
+		"ypos" 			"0"
+		"zpos" 			"7"
+		"wide" 			"31"
+		"tall" 			"31"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"scaleImage" 	"1"
+		"image"			"../HUD/defense_buff_fire_blue"
+		"fgcolor" 		"TanDark"
+	}
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
 		"ControlName"	"ImagePanel"

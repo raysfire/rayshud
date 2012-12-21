@@ -2905,6 +2905,17 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
+		"CerbeticaBold24"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica"
+				"tall" 		 "24"
+				"weight" 	 "800"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
 		"CerbeticaBoldOutline24"
 		{
 			"1"
@@ -2915,17 +2926,6 @@ Scheme
 				"additive"	 "0"
 				"antialias"	 "1"
 				"outline"	 "1"
-			}
-		}
-		"CerbeticaBold24"
-		{
-			"1"
-			{
-				"name"		 "Cerbetica"
-				"tall" 		 "24"
-				"weight"	 "800"
-				"additive"	 "0"
-				"antialias"	 "1"
 			}
 		}
 		"CerbeticaBold28"
