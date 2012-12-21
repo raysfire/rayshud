@@ -85,5 +85,20 @@
 		"font" 			"CerbeticaBold16"
 		"fgcolor"		"0 0 0 255"
 		"textAlignment"	"center"	
-	}					
+	}
+	"PlayerStatusPlayerLevel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusPlayerLevel"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"5"
+		"wide"			"12"
+		"tall"			"12"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"font"			"ScoreboardVerySmall"
+		"fgcolor"		"TFOrange"
+	}						
 }
