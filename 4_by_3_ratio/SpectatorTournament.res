@@ -128,15 +128,7 @@
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
 				"fgcolor"		"235 226 202 255"
-					
-				if_mvm
-				{
-					"xpos"				"0"
-					"ypos"				"25"
-					"wide"				"55"
-					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
-				}
+				
 			}
 			
 			"classimage"
@@ -153,14 +145,6 @@
 				"team1_image"			"../hud/class_scoutred"
 				"scaleImage"	"1"	
 				
-				if_mvm
-				{
-					"xpos"			"5"
-					"ypos"			"4"
-					"wide"			"20"
-					"tall"			"20"
-					"image"			"../vgui/hud_connecting"
-				}
 			}
 			
 			"classimagebg"
@@ -265,12 +249,8 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
-				"fgcolor"		"160 32 240 255"
+				"fgcolor"		"255 20 175 255"
 				
-				if_mvm
-				{
-					"ypos"			"17"
-				}
 			}
 			"respawntimeBG"
 			{
@@ -289,10 +269,7 @@
 				"textAlignment"	"west"
 				"fgcolor"		"TransparentBlack"
 				
-				if_mvm
-				{
-					"ypos"			"17"
-				}
+				
 			}
 			"healthcover"
 			{
@@ -311,10 +288,6 @@
 				"textAlignment"	"west"
 				"fgcolor"		"15 15 15 255"
 				
-				if_mvm
-				{
-					"ypos"			"17"
-				}
 			}
 			
 			"chargeamount"
@@ -370,11 +343,6 @@
 				//"fgcolor"		"235 226 202 255"
 			}
 			
-			if_mvm
-			{
-				"wide"		"55"
-				"tall"		"35"
-			}
 		}
 		
 		if_mvm
@@ -384,7 +352,7 @@
 			"wide"					"500"
 			"tall"					"180"
 	
-			"team1_player_delta_x"			"52"
+			"team1_player_delta_x"			"0"
 		}		
 	}
 

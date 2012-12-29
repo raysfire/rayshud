@@ -18,7 +18,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ScoreboardBackground"
-		"xpos"			"218"
+		"xpos"			"c-102"
 		"ypos"			"78"
 		"zpos"			"-1"
 		"wide"			"445"
@@ -125,7 +125,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"230"
+		"xpos"			"c-90"
 		"ypos"			"230"
 		"wide"			"400"
 		"tall"			"205"
