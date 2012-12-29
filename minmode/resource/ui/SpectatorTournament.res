@@ -129,15 +129,7 @@
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
 				"fgcolor"		"235 226 202 255"
-					
-				if_mvm
-				{
-					"xpos"				"0"
-					"ypos"				"25"
-					"wide"				"55"
-					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
-				}
+			
 			}
 			
 			"classimage"
@@ -154,14 +146,6 @@
 				"team1_image"			"../hud/class_scoutred"
 				"scaleImage"	"1"	
 				
-				if_mvm
-				{
-					"xpos"			"5"
-					"ypos"			"4"
-					"wide"			"20"
-					"tall"			"20"
-					"image"			"../vgui/hud_connecting"
-				}
 			}
 			
 			"classimagebg"
@@ -178,10 +162,6 @@
 				"bgcolor_override"		"Black"
 				"PaintBackgroundType"	"0"
 				
-				if_mvm
-				{
-					"visible"		"1"
-				}
 			}
 			
 			"HealthIcon"
@@ -223,10 +203,6 @@
 				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"3"
 				
-				if_mvm
-				{
-					"visible"		"1"
-				}	
 			}
 			
 			"ReadyImage"
@@ -245,10 +221,6 @@
 				"image"			"hud/checkmark"
 				"scaleImage"		"1"
 
-				if_mvm
-				{
-					"visible"		"1"
-				}
 			}
 			
 			"respawntime"
@@ -268,10 +240,6 @@
 				"textAlignment"	"west"
 				"fgcolor"		"255 20 175 255"
 				
-				if_mvm
-				{
-					"ypos"			"17"
-				}
 			}
 			"respawntimeBG"
 			{
@@ -290,10 +258,6 @@
 				"textAlignment"	"west"
 				"fgcolor"		"TransparentBlack"
 				
-				if_mvm
-				{
-					"ypos"			"17"
-				}
 			}
 			"healthcover"
 			{
@@ -312,10 +276,6 @@
 				"textAlignment"	"west"
 				"fgcolor"		"15 15 15 255"
 				
-				if_mvm
-				{
-					"ypos"			"17"
-				}
 			}
 			
 			"chargeamount"
@@ -371,22 +331,8 @@
 				//"fgcolor"		"235 226 202 255"
 			}
 			
-			if_mvm
-			{
-				"wide"		"55"
-				"tall"		"35"
-			}
 		}
 		
-		if_mvm
-		{
-			"xpos"					"c-250"
-			"ypos"					"6"
-			"wide"					"500"
-			"tall"					"180"
-	
-			"team1_player_delta_x"			"52"
-		}		
 	}
 
 	"topbar"
