@@ -21,14 +21,15 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"90"
+		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"70"
 		"tall"			"70"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
+		"alpha"			"0"
 	}		
 	"PlayerStatusHealthImageBG"
 	{
@@ -94,7 +95,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
-		"xpos"			"100"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"32"
