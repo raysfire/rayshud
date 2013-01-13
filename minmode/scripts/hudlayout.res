@@ -317,6 +317,26 @@
 		"fgcolor"		"255 255 255 255"
 	}
 	
+	KonrWings
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"KonrWings"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-108"
+		"ypos"			"c-99"
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"KonrWings24"
+		"labelText"		"i"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
 	//fighter pilot crosshair, enable all of then together for best results (16x9 resolution)
 	
 	"Crosshair_vertical"
@@ -1041,9 +1061,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"	[$WIN32]
-		"ypos"		"0"	[$WIN32]
-		"xpos"		"32"	[$X360]
-		"ypos"		"16"	[$X360]		
+		"ypos"		"c-20"	[$WIN32]
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -1958,7 +1976,7 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"xpos"					"r249"
-		"ypos"					"c75"
+		"ypos"					"c0"
 		"zpos"					"10"
 		"wide"					"300"
 		"tall"					"900"
