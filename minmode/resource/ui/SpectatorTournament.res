@@ -387,7 +387,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"HudFontSmall"
+		"font"			"Cerbetica20"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	
