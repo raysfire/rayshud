@@ -514,11 +514,11 @@
 		
 		if_mvm
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"CerbeticaBold16"
 			"xpos"			"155"
 			"ypos"			"105"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"16"
 			"zpos"			"3"
 		}
 	}
