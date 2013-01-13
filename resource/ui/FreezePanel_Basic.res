@@ -163,7 +163,7 @@
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
 		"xpos"			"r249"
-		"ypos"			"c75"
+		"ypos"			"c50"
 		"zpos"			"1"
 		"wide"			"240"
 		"tall"			"900"
