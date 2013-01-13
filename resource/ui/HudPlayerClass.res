@@ -5,8 +5,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerClass"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
@@ -17,15 +17,16 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"9999"	[$WIN32]
-		"ypos"			"9999"	[$WIN32]
+		"xpos"			"165"	[$WIN32]
+		"ypos"			"r95"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"75"
-		"tall"			"75"
+		"wide"			"35"
+		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"	"1"	
+		"alpha"			"0"
 	}
 	"PlayerStatusSpyImage"
 	{
@@ -61,12 +62,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"			"9"		[$WIN32]
-		"xpos_minmode"	"-10"		[$WIN32]
-		"ypos"			"r60"	[$WIN32]
-		"ypos_minmode"		"r40"	[$WIN32]
-		"xpos"			"41"	[$X360]
-		"ypos"			"r82"	[$X360]
+		"xpos"			"9999"		[$WIN32]
+		"ypos"			"9999"	[$WIN32]
 		"zpos"			"1"		
 		"wide"			"100"
 		"tall"			"50"
