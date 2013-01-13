@@ -696,8 +696,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
-				"tall"		"24"
+				"name"		"Cerbetica"
+				"tall"		"32"
 				"tall_lodef"	"80"
 				"weight"	"500"
 				"additive"	"0"
@@ -706,8 +706,8 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
-				"tall"		"32"
+				"name"		"Cerbetica"
+				"tall"		"44"
 				"tall_hidef"	"120"
 				"weight"	"500"
 				"additive"	"0"
@@ -716,8 +716,8 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
-				"tall"		"44"
+				"name"		"Cerbetica"
+				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -725,8 +725,8 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
-				"tall"		"48"
+				"name"		"Cerbetica"
+				"tall"		"52"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -734,8 +734,8 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
-				"tall"		"52"
+				"name"		"Cerbetica"
+				"tall"		"72"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -746,10 +746,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"44"
-				"tall_lodef"	"52"
-				"weight"	"500"
+				"name"		"Cerbetica"
+				"tall"		"64"
+				"weight"	"800"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -759,10 +758,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"35"
+				"name"		"Cerbetica"
+				"tall"		"48"
 				"tall_lodef"	"40"
-				"weight"	"500"
+				"weight"	"800"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -772,8 +771,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
-				"tall"		"36"
+				"name"		"Cerbetica"
+				"tall"		"44"
 				"tall_hidef"	"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -784,8 +783,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
-				"tall"		"30"
+				"name"		"Cerbetica"
+				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -795,9 +794,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"30"
-				"weight"	"500"
+				"name"		"Cerbetica"
+				"tall"		"36"
+				"weight"	"800"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -806,9 +805,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
-				"tall"		"24"
-				"tall_lodef"		"28"
+				"name"		"Cerbetica"
+				"tall"		"32"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -818,8 +816,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"24"
+				"name"		"Cerbetica"
+				"tall"		"32"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -829,9 +827,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"24"
-				"weight"	"500"
+				"name"		"Cerbetica"
+				"tall"		"32"
+				"weight"	"800"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -840,9 +838,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"18"
-				"weight"	"500"
+				"name"		"Cerbetica"
+				"tall"		"28"
+				"weight"	"800"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -851,10 +849,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
-				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"18"
+				"name"		"Cerbetica"
+				"tall"		"28"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -864,10 +860,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"18"
-				"tall_hidef"	"24"
-				"tall_lodef"	"20"
+				"name"		"Cerbetica"
+				"tall"		"28"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -877,9 +871,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Cerbetica"
 				"tall"		"14"
-				"tall_lodef"	"16"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -889,9 +882,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Cerbetica"
 				"tall"		"16"
-				"weight"	"500"
+				"weight"	"800"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -900,9 +893,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Cerbetica"
 				"tall"		"14"
-				"weight"	"500"
+				"weight"	"800"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -911,9 +904,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Cerbetica"
 				"tall"		"14"
-				"weight"	"500"
+				"weight"	"800"
 				"additive"	"0"
 				"antialias" "1"
 				"dropshadow"	"1"
@@ -923,8 +916,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"11"
+				"name"		"Cerbetica"
+				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -934,8 +927,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"11"
+				"name"		"Cerbetica"
+				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -946,9 +939,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"11"
-				"weight"	"500"
+				"name"		"Cerbetica"
+				"tall"		"12"
+				"weight"	"800"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -957,8 +950,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"4"
+				"name"		"Cerbetica"
+				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -968,7 +961,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Cerbetica"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -979,7 +972,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Cerbetica"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -990,9 +983,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"9"
-				"weight"	"0"
+				"name"		"Cerbetica"
+				"tall"		"12"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1001,9 +994,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"9"
-				"weight"	"0"
+				"name"		"Cerbetica"
+				"tall"		"10"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1012,9 +1005,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"6"
-				"weight"	"0"
+				"name"		"Cerbetica"
+				"tall"		"8"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1023,7 +1016,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Cerbetica"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -1036,7 +1029,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Cerbetica"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1079,7 +1072,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Cerbetica"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1391,7 +1384,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"Cerbetica"
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1406,7 +1399,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"Cerbetica"
 				"tall"			"40"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1421,7 +1414,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"Cerbetica"
 				"tall"		"24"
 				"tall_lodef"	"36"
 				"tall_hidef"	"36"
@@ -1434,7 +1427,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"Cerbetica"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
 				"tall_lodef"	"32"
@@ -1601,8 +1594,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"10"
+				"name"		"Cerbetica"
+				"tall"		"12"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
 				"weight"	"400"
@@ -1836,7 +1829,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Cerbetica"
 				"tall"		"36"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -1846,7 +1839,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Cerbetica"
 				"tall"		"30"
 				"tall_lodef"		"22"
 				"weight"	"500"
@@ -1856,7 +1849,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Cerbetica"
 				"tall"		"28"
 				"tall_lodef"	"24"
 				"weight"	"500"
@@ -1884,7 +1877,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Cerbetica"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -1893,7 +1886,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Cerbetica"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -1932,7 +1925,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Cerbetica"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -2007,8 +2000,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"8"
+				"name"		"Cerbetica"
+				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2018,8 +2011,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"9"
+				"name"		"Cerbetica"
+				"tall"		"15"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2029,8 +2022,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"12"
+				"name"		"Cerbetica"
+				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2040,9 +2033,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"7"
-				"weight"	"500"
+				"name"		"Cerbetica"
+				"tall"		"10"
+				"weight"	"650"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -2051,9 +2044,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"8"
-				"weight"	"500"
+				"name"		"Cerbetica"
+				"tall"		"11"
+				"weight"	"650"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -2062,9 +2055,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"11"
-				"weight"	"500"
+				"name"		"Cerbetica"
+				"tall"		"12"
+				"weight"	"650"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -2074,7 +2067,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Cerbetica"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2085,7 +2078,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Cerbetica"
 				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
@@ -2160,8 +2153,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"11"
+				"name"		"Cerbetica"
+				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2224,7 +2217,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Cerbetica"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2235,7 +2228,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Cerbetica"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2246,7 +2239,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -2259,7 +2252,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Cerbetica"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2270,7 +2263,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Cerbetica"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -2634,7 +2627,46 @@ Scheme
 			"antialias"		"1"
 			}
 		}
-		
+		"KonrWings16"
+		{
+			"1"
+			{
+			"name"			"Garm3nFont"
+			"tall"			"16"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		"KonrWings24"
+		{
+			"1"
+			{
+			"name"			"Garm3nFont"
+			"tall"			"24"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		"KonrWings32"
+		{
+			"1"
+			{
+			"name"			"Garm3nFont"
+			"tall"			"32"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		"KonrWings40"
+		{
+			"1"
+			{
+			"name"			"Garm3nFont"
+			"tall"			"40"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
 		
 		"Cerbetica7"
 		{
@@ -2900,17 +2932,6 @@ Scheme
 			{
 				"name"		 "Cerbetica"
 				"tall" 		 "20"
-				"weight" 	 "800"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"CerbeticaBold24"
-		{
-			"1"
-			{
-				"name"		 "Cerbetica"
-				"tall" 		 "24"
 				"weight" 	 "800"
 				"additive"	 "0"
 				"antialias"	 "1"
@@ -4550,5 +4571,10 @@ Scheme
 		{
 			"font" "resource/Symbol.ttf"
 			"name" "Symbol"
+		}
+		"11" // Konr Wings
+		{
+			"font" "resource/Garm3nFont.ttf"
+			"name" "Garm3nFont"
 		}
 }
