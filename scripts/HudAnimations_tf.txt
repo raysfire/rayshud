@@ -366,16 +366,23 @@ event HudSpyDisguiseHide
 	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
 }
 
+
 event HudSpyDisguiseFadeIn
 {
-	RunEvent HudSpyDisguiseChanged	0
-	Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1	
+	//RunEvent HudSpyDisguiseChanged	0
+	//Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1	
+	
+	//Uncomment the line below for spy disguise image.
+	//Animate PlayerStatusClassImage			Alpha		"255"			Linear 0.0 0.0
 }
 
 event HudSpyDisguiseFadeOut
 {
-	RunEvent HudSpyDisguiseChanged	0
-	Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.9 0.1	
+	//RunEvent HudSpyDisguiseChanged	0
+	//Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.9 0.1	
+	
+	//Uncomment the line below for spy disguise image.
+	//Animate PlayerStatusClassImage			Alpha		"0"				Linear 0.0 0.0	
 }
 
 //===========================================
@@ -797,10 +804,10 @@ event SpyWarningFlashEnd
 
 event HudReadyPulse
 {
-	Animate	TournamentInstructionsLabel 	FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	TournamentInstructionsLabel 	FgColor		"RedSolid"		Linear 0.3 0.4
+	Animate	TournamentInstructionsLabel 	FgColor		"255 165 0 255"			Linear 0.0 0.3
+	Animate	TournamentInstructionsLabel 	FgColor		"255 69 0 255"			Linear 0.3 0.3
 
-	RunEvent HudReadyPulseLoop	0.5
+	RunEvent HudReadyPulseLoop	0.6
 }
 
 event HudReadyPulseLoop
