@@ -23,10 +23,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideBG"
 		"xpos"			"c-120"
-		"ypos"			"r30"	
+		"ypos"			"r20"	
 		"zpos"			"-1"
 		"wide"			"120"
-		"tall"			"100"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"70 130 180 153"
@@ -53,10 +53,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RightSideBG"
 		"xpos"			"c0"
-		"ypos"			"r30"	[$WIN32]
+		"ypos"			"r20"	[$WIN32]
 		"zpos"			"-1"
 		"wide"			"120"
-		"tall"			"100"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"205 50 50 153"
@@ -323,7 +323,7 @@
 		"tall"			"20"	[$WIN32]
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"		"0 0 0 0"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
