@@ -2949,6 +2949,30 @@ Scheme
 				"outline"	 "1"
 			}
 		}
+		"CerbeticaBoldOutline16"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica"
+				"tall" 		 "24"
+				"weight"	 "800"
+				"additive"	 "0"
+				"antialias"	 "1"
+				"outline"	 "1"
+			}
+		}
+		"CerbeticaBoldOutline32"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica"
+				"tall" 		 "24"
+				"weight"	 "800"
+				"additive"	 "0"
+				"antialias"	 "1"
+				"outline"	 "1"
+			}
+		}
 		"CerbeticaBold28"
 		{
 			"1"
