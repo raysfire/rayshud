@@ -978,8 +978,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"0"
-		"ypos"					"0"
+		"xpos"					"c-100"		
+		"ypos"					"c5"
 		"wide"					"f0"
 		"tall"  				"480"
 		"visible" 				"1"
@@ -1256,7 +1256,7 @@
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"46 43 42 172"		[$WIN32]
+		"BaseBackgroundColor"	"46 43 42 125"		[$WIN32]
 		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
 	}
 
@@ -1627,14 +1627,10 @@
 		"fieldName"				"StatPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-133"
-		"xpos_lodef"			"c-190"
-		"ypos"				"270"
-		"ypos_lodef"			"250"
+		"xpos"					"9999"
+		"ypos"					"9999"
 		"wide"					"266"
-		"wide_lodef"			"400"
 		"tall"					"120"
-		"tall_lodef"			"190"
 	}
 	
 	FreezePanel
