@@ -28,7 +28,8 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
+		"alpha"			"255"
 	}		
 	"PlayerStatusHealthImageBG"
 	{
