@@ -137,7 +137,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"bgcolor" 		"32 32 32 128"
-		"fgcolor"		"TanLight"
+		"fgcolor_override"		"TanLight"
 	}
 
 	"ChargeMeter1"
