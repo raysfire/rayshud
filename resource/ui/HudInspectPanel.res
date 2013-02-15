@@ -37,7 +37,7 @@
 		}
 		
 		"ItemBackground"
-			{
+		{
 			"ControlName" "ImagePanel"
 			"fieldName" "ItemBackground"
 			"xpos" "0"
@@ -50,9 +50,9 @@
 			"visible" "1"
 			"enabled" "1"
 			"fillcolor" "0 0 0 100"
-			}
-			"TitleBackground"
-			{
+		}
+		"TitleBackground"
+		{
 			"ControlName" "ImagePanel"
 			"fieldName" "TitleBackground"
 			"xpos" "4"
@@ -65,7 +65,7 @@
 			"visible" "1"
 			"enabled" "1"
 			"fillcolor" "0 0 0 100"
-			}
+		}
 		
 		
 		"ItemLabel"
@@ -90,23 +90,22 @@
 		
 		"attriblabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"attriblabel"
-			"font"			"ItemFontAttribLarge"
-			"xpos"			"0"
-			"ypos"			"30"
-			"zpos"			"2"
-			"wide"			"140"
-			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%attriblist%"
-			"textAlignment"	"north"
-			"fgcolor"		"235 226 202 255"
-			"centerwrap"	"1"
+		"ControlName"	"CExLabel"
+		"fieldName"		"attriblabel"
+		"font"			"ItemFontAttribLarge"
+		"xpos"			"0"
+		"ypos"			"30"
+		"zpos"			"2"
+		"wide"			"140"
+		"tall"			"60"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%attriblist%"
+		"textAlignment"	"north"
+		"fgcolor"		"235 226 202 255"
+		"centerwrap"	"1"
 		}
 	}	
 }
-s
