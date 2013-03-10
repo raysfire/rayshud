@@ -1,6 +1,57 @@
 "Resource/UI/HudPlayerHealth.res"
 {	
 	// player health data
+
+	//Change visible and enabled to "1" on "HPBorderPanel1" and "HPBorderPanel2" for team-colored cross.
+	
+	"HPBorderPanel1"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"HPBackgroundPanel1"
+		"xpos"			"98"
+		"ypos"			"39"
+		"zpos"			"2"
+		"wide"			"11"
+		"tall"	 		"25"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1" 
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 		"0"	
+	}
+	"HPBorderPanel2"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"HPBackgroundPanel2"
+		"xpos"			"91"
+		"ypos"			"46"
+		"zpos"			"2"
+		"wide"			"25"
+		"tall"	 		"11"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 		"0"	
+	}
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
@@ -21,8 +72,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"94"
-		"ypos"			"42"
+		"xpos"			"93"
+		"ypos"			"41"
 		"zpos"			"4"
 		"wide"			"20"
 		"tall"			"20"
@@ -35,8 +86,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"93"
-		"ypos"			"41"
+		"xpos"			"92"
+		"ypos"			"40"
 		"zpos"			"3"
 		"wide"			"22"
 		"tall"			"22"
@@ -49,11 +100,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"93"
-		"ypos"			"41"
-		"zpos"			"2"
-		"wide"			"22"	
-		"tall"			"22"	
+		"xpos"			"91" //91 if team-colored cross is enabled
+		"ypos"			"39" //39 if team-colored cross is enabled
+		"zpos"			"1"
+		"wide"			"25" //25 if team-colored cross is enabled	
+		"tall"			"25" //25 if team-colored cross is enabled	
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
