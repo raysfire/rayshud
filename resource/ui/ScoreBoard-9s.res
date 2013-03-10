@@ -480,7 +480,7 @@
 		"xpos"			"c-230"
 		"xpos_minmode"	"c65"
 		"ypos"			"360"
-		"ypos_minmode"	"400"
+		"ypos_minmode"	"402"
 		"zpos"			"4"
 		"wide"			"540"
 		"wide_minmode"	"240"
