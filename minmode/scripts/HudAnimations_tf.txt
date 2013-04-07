@@ -207,9 +207,9 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 	
-	Animate PlayerStatusHealthValue 		 FgColor "48 255 48 255" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpectator FgColor "48 255 48 255" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueFreezePanel FgColor "48 255 48 255" Accel 0.0 0.0
+	Animate PlayerStatusHealthValue 		 FgColor "Health Buff" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpectator FgColor "Spec Health Buff" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel FgColor "Spec Health Buff" Accel 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -225,9 +225,9 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 	
-	Animate PlayerStatusHealthValue FgColor "TanLight" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpectator FgColor "TanLight" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueFreezePanel FgColor "TanLight" Accel 0.0 0.0
+	Animate PlayerStatusHealthValue FgColor "Health Normal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpectator FgColor "Spec Health Normal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel FgColor "Spec Health Normal" Accel 0.0 0.0
 }
 
 //===========================================
@@ -238,9 +238,9 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
 	
-	Animate PlayerStatusHealthValue 		 FgColor 				"255 153 0 255" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpectator FgColor 		"255 153 0 255" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueFreezePanel FgColor 		"255 153 0 255" Accel 0.0 0.0
+	Animate PlayerStatusHealthValue 		 FgColor 				"Health Hurt" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpectator FgColor 		"Spec Health Hurt" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel FgColor 		"Spec Health Hurt" Accel 0.0 0.0
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -256,9 +256,9 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
 	
-	Animate PlayerStatusHealthValue FgColor "TanLight" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpectator FgColor "TanLight" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueFreezePanel FgColor "TanLight" Accel 0.0 0.0
+	Animate PlayerStatusHealthValue FgColor "Health Normal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpectator FgColor "Spec Health Normal" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel FgColor "Spec Health Normal" Accel 0.0 0.0
 }
 
 //===========================================
@@ -268,11 +268,11 @@ event HudLowAmmoPulse
 	Animate	HudWeaponLowAmmoImage		Alpha	"255"					Linear 0.0 		0.075
 	Animate	HudWeaponLowAmmoImage		Alpha	"0"						Linear 0.125 	0.075
 	
-	Animate AmmoInClip 					FgColor "255 42 130 255" 		Linear 0.0 		0.000
+	Animate AmmoInClip 					FgColor "Ammo In Clip Low"			Linear 0.0 		0.000
 
-	Animate AmmoInReserve 				FgColor "255 128 28 255" 	Linear 0.0 		0.000
+	Animate AmmoInReserve 				FgColor "Ammo In Reserve Low" 	Linear 0.0 		0.000
 
-	Animate AmmoNoClip 					FgColor "255 42 130 255"		Linear 0.0 		0.000
+	Animate AmmoNoClip 					FgColor "Ammo In Clip Low"		Linear 0.0 		0.000
 	
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
@@ -288,11 +288,11 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
 	
-	Animate	  AmmoInClip		FgColor		"48 255 48 255"		Accel 0.0 0.0
+	Animate	  AmmoInClip		FgColor		"Ammo In Clip"			Accel 0.0 0.0
 	
-	Animate	  AmmoInReserve		FgColor		"72 255 255 255"		Accel 0.0 0.0
+	Animate	  AmmoInReserve		FgColor		"Ammo In Reserve"		Accel 0.0 0.0
 
-	Animate	  AmmoNoClip		FgColor		"48 255 48 255"		Accel 0.0 0.0
+	Animate	  AmmoNoClip		FgColor		"Ammo In Clip"			Accel 0.0 0.0
 }
 
 //===========================================
@@ -365,6 +365,7 @@ event HudSpyDisguiseHide
 	
 	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
 }
+
 
 event HudSpyDisguiseFadeIn
 {
@@ -452,13 +453,13 @@ event HudMedicCharged
 //	Animate	ChargeLabel 	FgColor		"ColorRed"			Linear 0.4 0.1
 //	Animate	ChargeLabel 	FgColor		"ColorYellow"		Linear 0.5 0.1
 	
-///////Purple Charge
-//	Animate ChargeLabel	FgColor		"255 50 255 255"	Linear 0.0 0.000
+///////Solid Color Charge
+//	Animate ChargeLabel	FgColor		"Solid Color Uber"	Linear 0.0 0.000
 	
 ///////Orange Pulse Charge
 
-	Animate	ChargeLabel 	FgColor		"255 165 0 255"			Linear 0.0 0.3
-	Animate	ChargeLabel 	FgColor		"255 69 0 255"			Linear 0.3 0.3
+	Animate	ChargeLabel 	FgColor		"Flashing Uber Color1"			Linear 0.0 0.3
+	Animate	ChargeLabel 	FgColor		"Flashing Uber Color2"		Linear 0.3 0.3
 	
 
 
@@ -471,13 +472,13 @@ event HudMedicCharged
 //	Animate	ChargeMeter 	FgColor		"ColorRed"			Linear 0.4 0.1
 //	Animate	ChargeMeter 	FgColor		"ColorYellow"		Linear 0.5 0.1
 
-///////Purple Charge
-//	Animate ChargeMeter	FgColor		"255 50 255 255"	Linear 0.0 0.000
+///////Solid Color Charge
+//	Animate ChargeMeter	FgColor		"Solid Color Uber"	Linear 0.0 0.000
 	
 ///////Orange Pulse Charge
 
-	Animate	ChargeMeter 	FgColor		"255 165 0 255"			Linear 0.0 0.3
-	Animate	ChargeMeter 	FgColor		"255 69 0 255"			Linear 0.3 0.3
+	Animate	ChargeMeter 	FgColor		"Flashing Uber Color1"			Linear 0.0 0.3
+	Animate	ChargeMeter 	FgColor		"Flashing Uber Color2"			Linear 0.3 0.3
 
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -493,7 +494,7 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"48 255 48 255"		Linear 0.0 0.0001
+	Animate	ChargeLabel 	FgColor		"Ubercharge Amount"		Linear 0.0 0.0001
 	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0001
 	
 }

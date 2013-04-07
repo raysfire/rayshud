@@ -68,6 +68,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"font" 			"CerbeticaBold16"
+		"fgcolor"		"Health Normal"
 		"textAlignment"	"center"	
 	}
 	"PlayerStatusHealthValueBackground"

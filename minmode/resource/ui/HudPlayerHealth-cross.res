@@ -124,7 +124,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"CerbeticaBold32"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"Health Normal"
 	}
 	"PlayerStatusHealthValueShadow"
 	{

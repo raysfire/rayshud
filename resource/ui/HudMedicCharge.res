@@ -22,7 +22,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
 		"xpos"			"236"
-		"ypos"			"39"
+		"ypos"			"40"
 		"zpos"			"2"
 		"wide"			"120"
 		"tall"			"72"
@@ -36,7 +36,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"CerbeticaBold56"
-		"fgcolor"		"48 255 48 255"
+		"fgcolor"		"Ubercharge Amount"
 	}
 	"ChargeLabelShadow"
 	{
@@ -94,7 +94,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"CerbeticaBold56"
-		"fgcolor"		"48 255 48 255"
+		"fgcolor"		"Ubercharge Amount"
 	}
 	
 	"IndividualChargesLabelShadow"
@@ -222,7 +222,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
 		"xpos"			"75"
-		"ypos"			"108"
+		"ypos"			"107"
 		"zpos"			"3"
 		"wide"			"150"
 		"tall"			"15"
