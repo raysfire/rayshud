@@ -5,8 +5,8 @@
 		"fieldName"				"CDamageAccountPanel"
 		"text_x"				"0"
 		"text_y"				"0"
-		"PositiveColor"			"48 255 48 255"
-		"NegativeColor"			"72 255 255 255"
+		"PositiveColor"			"Heal Numbers"
+		"NegativeColor"			"Damage Numbers"
 		"delta_item_x"			"0"
 		"delta_item_end_y"		"0"
 		"delta_lifetime"		"2"
@@ -29,7 +29,7 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"fgcolor"		"72 255 255 255"
+		"fgcolor"		"Last DamageHeal Info"
 		"font"			"CerbeticaBold20"
 	}
 	
