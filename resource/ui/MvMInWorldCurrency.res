@@ -82,7 +82,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyGood"
-		"font"			"Cerbetica16"
+		"font"			"Cerbetica14"
 		"fgcolor"		"125 225 30 255"
 		"xpos"			"45"
 		"ypos"			"0"
@@ -99,7 +99,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyBad"
-		"font"			"Cerbetica16"
+		"font"			"Cerbetica14"
 		"fgcolor"		"225 30 30 255"
 		"xpos"			"45"
 		"ypos"			"0"

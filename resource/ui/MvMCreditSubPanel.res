@@ -32,11 +32,12 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedTextLabel"
 		"font"			"HudFontSmall"
-		"labelText"		"#TF_PVE_Collected"
+		"labelText"		"#TF_PVE_Collected"	
 		"textAlignment" "north-west"
-		"xpos"			"10"
+		"xpos"			"9"
 		"ypos"			"15"
 		"wide"			"70"
+		"tall"			"12"
 		"fgcolor"		"tanlight"
 	}
 	
@@ -50,6 +51,7 @@
 		"xpos"			"100"
 		"ypos"			"15"
 		"wide"			"30"
+		"tall"			"12"
 		"fgcolor"		"CreditsGreen"
 	}
 	
@@ -63,6 +65,7 @@
 		"xpos"			"10"
 		"ypos"			"27"
 		"wide"			"70"
+		"tall"			"12"
 		"fgcolor"		"tanlight"
 	}
 	
@@ -76,6 +79,7 @@
 		"xpos"			"100"
 		"ypos"			"27"
 		"wide"			"30"
+		"tall"			"12"
 		"fgcolor"		"RedSolid"
 	}
 	
@@ -89,6 +93,7 @@
 		"xpos"			"10"
 		"ypos"			"39"
 		"wide"			"70"
+		"tall"			"12"
 		"fgcolor"		"tanlight"
 	}
 	
@@ -102,6 +107,7 @@
 		"xpos"			"100"
 		"ypos"			"39"
 		"wide"			"30"
+		"tall"			"12"
 		"fgcolor"		"CreditsGreen"
 	}
 		

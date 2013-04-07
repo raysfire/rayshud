@@ -22,7 +22,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Cerbetica24"
+			"font"			"Cerbetica22"
 			"fgcolor"		"TanLight"
 			"xpos"			"25"
 			"ypos"			"-4"

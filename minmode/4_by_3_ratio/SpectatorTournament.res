@@ -299,7 +299,7 @@
 				"ypos"			"2"
 				"zpos"			"6"
 				"wide"			"25"
-				"tall"			"15"
+				"tall"			"13"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -316,7 +316,7 @@
 				"ypos"			"3"
 				"zpos"			"6"
 				"wide"			"25"
-				"tall"			"15"
+				"tall"			"13"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -324,6 +324,7 @@
 				"textAlignment"	"east"
 				"fgcolor"		"TransparentBlack"
 			}
+			
 			
 			"specindex"
 			{
