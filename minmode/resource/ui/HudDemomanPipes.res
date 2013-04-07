@@ -48,7 +48,7 @@
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
 		"xpos"					"15"
-		"ypos"					"28sd"
+		"ypos"					"35"
 		"zpos"					"1"
 		"wide"					"120"
 		"tall"					"5"				
@@ -59,6 +59,7 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		"fgcolor_override"		"White"
 	}				
 		
 	"PipesPresentPanel"
