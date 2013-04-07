@@ -258,8 +258,8 @@
 		"tall"			"18"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../HUD/tournament_panel_brown"
 
 		"src_corner_height"	"23"				// pixels inside the image
@@ -350,7 +350,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUEStateLabel"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 		"xpos"			"56"
 		"ypos"			"10"
 		"zpos"			"1"
@@ -423,7 +423,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDStateLabel"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 		"xpos"			"130"
 		"ypos"			"10"
 		"zpos"			"1"
@@ -446,13 +446,13 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentConditionLabel"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica14"
 		"fgcolor"		"TanLight"
 		"xpos"			"0"
-		"ypos"			"17"
+		"ypos"			"16"
 		"zpos"			"1"
 		"wide"			"250"
-		"tall"			"35"
+		"tall"			"37"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -472,14 +472,14 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentBGHelp"
 		"xpos"			"0"
-		"ypos"			"51"
+		"ypos"			"49"
 		"zpos"			"-1"
 		"wide"			"250"
 		"tall"			"12"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../HUD/tournament_panel_brown"
 
 
@@ -494,15 +494,31 @@
 			"visible"		"0"
 		}
 	}
+	
+	"HelpBackground"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"ScoreboardBackground"
+		"xpos"			"0"
+		"ypos"			"26"
+		"zpos"			"-1"
+		"wide"			"250"
+		"tall"			"18"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 100"
+	}
+	
 	"TournamentInstructionsLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
 		"font"			"Cerbetica11"
 		"xpos"			"0"
-		"ypos"			"51"
+		"ypos"			"52"
 		"wide"			"250"
-		"tall"			"12"
+		"tall"			"13"
 		"zpos"			"1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -521,6 +537,21 @@
 			"tall"			"16"
 			"zpos"			"3"
 		}
+	}
+	
+	"InstructionsBackground"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"InstructionBackground"
+		"xpos"			"0"
+		"ypos"			"50"
+		"zpos"			"-1"
+		"wide"			"250"
+		"tall"			"16"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 100"
 	}
 	
 
