@@ -318,7 +318,7 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabel"
-			"font"			"Cerbetica14"
+			"font"			"Cerbetica13"
 			"xpos"			"40"
 			"ypos"			"15"
 			"zpos"			"1"
@@ -373,7 +373,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabelKiller2"
-			"font"			"Cerbetica12"
+			"font"			"Cerbetica13"
 			"xpos"			"42"
 			"ypos"			"28"
 			"zpos"			"1"
@@ -392,7 +392,7 @@
 		{
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"AvatarImage"
-			"xpos"			"8"
+			"xpos"			"7"
 			"ypos"			"30"
 			"zpos"			"0"
 			"wide"			"14"
