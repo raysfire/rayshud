@@ -495,7 +495,7 @@ event HudMedicChargedStop
 	StopEvent HudMedicChargedLoop 0.0
 	
 	Animate	ChargeLabel 	FgColor		"Ubercharge Amount"		Linear 0.0 0.0001
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"Uber Bar Color"		Linear 0.0 0.0001
 	
 }
 

@@ -35,6 +35,8 @@ Scheme
 		"Health Buff"							"48 255 48 255"
 		"Health Hurt"							"255 153 0 255"
 		
+		"Uber Bar Color"						"235 226 202 255"
+
 		//solid color uber disabled by default; to enable, uncomment lines in hudanimations_tf.txt
 		"Solid Color Uber"						"255 50 255 255"
 		

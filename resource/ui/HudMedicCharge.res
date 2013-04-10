@@ -137,7 +137,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"bgcolor" 		"32 32 32 128"
-		"fgcolor_override"		"TanLight"
+		"fgcolor_override"		"Uber Bar Color"
 	}
 
 	"ChargeMeter1"
@@ -157,6 +157,7 @@
 		"textAlignment" 	"Left"
 		"dulltext" 			"0"
 		"brighttext" 		"0"
+		"fgcolor_override"		"Uber Bar Color"
 	
 	}
 
@@ -177,6 +178,7 @@
 		"textAlignment" 	"Left"
 		"dulltext" 			"0"
 		"brighttext" 		"0"
+		"fgcolor_override"		"Uber Bar Color"
 	}
 
 	"ChargeMeter3"
@@ -196,6 +198,7 @@
 			"textAlignment" "Left"
 			"dulltext" 		"0"
 			"brighttext" 	"0"
+			"fgcolor_override"		"Uber Bar Color"
 		}
 
 	"ChargeMeter4"
@@ -215,6 +218,7 @@
 		"textAlignment" "Left"
 		"dulltext" 		"0"
 		"brighttext" 	"0"
+		"fgcolor_override"		"Uber Bar Color"
 	}
 
 	"ChargeMeterLabel"
