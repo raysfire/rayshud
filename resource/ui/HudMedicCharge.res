@@ -43,7 +43,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
 		"xpos"			"238"
-		"ypos"			"41"
+		"ypos"			"42"
 		"zpos"			"1"
 		"wide"			"120"
 		"tall"			"72"
@@ -137,7 +137,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"bgcolor" 		"32 32 32 128"
-		"fgcolor_override"		"Uber Bar Color"
+		"fgcolor_override" "Uber Bar Color"
 	}
 
 	"ChargeMeter1"
@@ -271,3 +271,4 @@
 		
 	}	
 }
+
