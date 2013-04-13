@@ -42,7 +42,7 @@ Scheme
 		
 		"Flashing Uber Color1"					"255 165 0 255"
 		"Flashing Uber Color2"					"255 69 0 255"
-		"Ubercharge Amount"						"48 255 48 255"
+		//"Ubercharge Amount"						"48 255 48 255" // disabled temporarily; currently controlled by ammo in clip color
 	
 		"Heal Numbers"							"48 255 48 255"
 		"Damage Numbers"						"72 255 255 255"

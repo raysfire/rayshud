@@ -36,7 +36,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"CerbeticaBold56"
-		"fgcolor"		"Ubercharge Amount"
+		"fgcolor"		"Ammo In Clip"
 	}
 	"ChargeLabelShadow"
 	{
@@ -94,7 +94,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"CerbeticaBold56"
-		"fgcolor"		"Ubercharge Amount"
+		"fgcolor"		"Ammo In Clip"
 	}
 	
 	"IndividualChargesLabelShadow"
