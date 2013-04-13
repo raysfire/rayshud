@@ -3,7 +3,7 @@
 
 	"VersionNumber"
 	{
-		"label" "rayshud v3.21" 
+		"label" "rayshud v3.22" 
 		"command" "toggleconsole"
 		"subimage" ""
 		"OnlyAtMenu" "0"
