@@ -21,8 +21,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"236"
-		"ypos"			"40"
+		"xpos"			"96"
+		"ypos"			"-5"
 		"zpos"			"2"
 		"wide"			"120"
 		"tall"			"72"
@@ -35,16 +35,16 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CerbeticaBold56"
+		"font"			"CerbeticaBold32"
 		"fgcolor"		"Ubercharge Amount"
 	}
 	"ChargeLabelShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
-		"xpos"			"238"
-		"ypos"			"41"
-		"zpos"			"1"
+		"xpos"			"98"
+		"ypos"			"-3"
+		"zpos"			"2"
 		"wide"			"120"
 		"tall"			"72"
 		"autoResize"	"1"
@@ -56,7 +56,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CerbeticaBold56"
+		"font"			"CerbeticaBold32"
 		"fgcolor"		"TransparentBlack"
 	}
 	
@@ -65,23 +65,22 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ChargeBackground"
 		"font"			"Default"
-		"xpos"			"75"
-		"ypos"			"105"
+		"xpos"			"0"
+		"ypos"			"25"
 		"zpos"			"2"
-		"wide"			"150"
-		"tall"			"20"
+		"wide"			"124"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor" 		"255 255 255 50"
 	}
-	
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"236"
-		"ypos"			"39"
-		"zpos"			"2"
+		"xpos"			"96"
+		"ypos"			"-5"
+		"zpos"			"5"
 		"wide"			"120"
 		"tall"			"72"
 		"autoResize"	"1"
@@ -93,7 +92,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CerbeticaBold56"
+		"font"			"CerbeticaBold32"
 		"fgcolor"		"Ubercharge Amount"
 	}
 	
@@ -101,9 +100,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName" 	"IndividualChargesLabelShadow"
-		"xpos" 			"238"
-		"ypos" 			"41"
-		"zpos" 			"1"
+		"xpos" 			"98"
+		"ypos" 			"-3"
+		"zpos" 			"2"
 		"wide" 			"120"
 		"tall" 			"72"
 		"autoResize" 	"1"
@@ -115,7 +114,7 @@
 		"textAlignment" "center"
 		"dulltext"		"0"
 		"brighttext" 	"0"
-		"font" 			"CerbeticaBold56"
+		"font" 			"CerbeticaBold32"
 		"fgcolor"		"TransparentBlack"
 	}
 	
@@ -124,11 +123,11 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"77"
-		"ypos"			"107"
+		"xpos"			"2"
+		"ypos"			"27"
 		"zpos"			"2"
-		"wide"			"146"
-		"tall"			"16"
+		"wide"			"120"
+		"tall"			"10"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -137,19 +136,18 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"bgcolor" 		"32 32 32 128"
-		"fgcolor_override"		"Uber Bar Color"
+		"fgcolor_override" 		"Uber Bar Color"
 	}
-
 	"ChargeMeter1"
 	{
 		"ControlName" 		"ContinuousProgressBar"
 		"fieldName" 		"ChargeMeter1"
 		"font" 				"Default"
-		"xpos" 				"77"
-		"ypos" 				"107"
+		"xpos" 				"2"
+		"ypos" 				"27"
 		"zpos"				"2"
-		"wide" 				"35"
-		"tall" 				"16"
+		"wide" 				"28"
+		"tall" 				"10"
 		"autoResize" 		"0"
 		"pinCorner" 		"0"
 		"visible" 			"1"
@@ -157,7 +155,8 @@
 		"textAlignment" 	"Left"
 		"dulltext" 			"0"
 		"brighttext" 		"0"
-		"fgcolor_override"		"Uber Bar Color"
+
+		"fgcolor_override" 		"Uber Bar Color"
 	
 	}
 
@@ -166,11 +165,11 @@
 		"ControlName" 		"ContinuousProgressBar"
 		"fieldName" 		"ChargeMeter2"
 		"font" 				"Default"
-		"xpos" 				"114"
-		"ypos" 				"107"
+		"xpos" 				"33"
+		"ypos" 				"27"
 		"zpos" 				"2"
-		"wide" 				"35"
-		"tall" 				"16"
+		"wide" 				"28"
+		"tall" 				"10"
 		"autoResize" 		"0"
 		"pinCorner"			"0"
 		"visible" 			"1"
@@ -178,7 +177,8 @@
 		"textAlignment" 	"Left"
 		"dulltext" 			"0"
 		"brighttext" 		"0"
-		"fgcolor_override"		"Uber Bar Color"
+
+		"fgcolor_override" 		"Uber Bar Color"
 	}
 
 	"ChargeMeter3"
@@ -186,11 +186,11 @@
 			"ControlName" 	"ContinuousProgressBar"
 			"fieldName" 	"ChargeMeter3"
 			"font" 			"Default"
-			"xpos" 			"151"
-			"ypos" 			"107"
+			"xpos" 			"63"
+			"ypos" 			"27"
 			"zpos" 			"2"
-			"wide" 			"35"
-			"tall" 			"16"
+			"wide" 			"28"
+			"tall" 			"10"
 			"autoResize" 	"0"
 			"pinCorner"		"0"
 			"visible" 		"1"
@@ -198,7 +198,8 @@
 			"textAlignment" "Left"
 			"dulltext" 		"0"
 			"brighttext" 	"0"
-			"fgcolor_override"		"Uber Bar Color"
+
+			"fgcolor_override" 		"Uber Bar Color"
 		}
 
 	"ChargeMeter4"
@@ -206,11 +207,11 @@
 		"ControlName" 	"ContinuousProgressBar"
 		"fieldName" 	"ChargeMeter4"
 		"font" 			"Default"
-		"xpos"			"188"
-		"ypos" 			"107"
+		"xpos"			"94"
+		"ypos" 			"27"
 		"zpos" 			"2"
-		"wide" 			"35"
-		"tall" 			"16"
+		"wide" 			"28"
+		"tall" 			"10"
 		"autoResize" 	"0"
 		"pinCorner" 	"0"
 		"visible" 		"1"
@@ -218,18 +219,19 @@
 		"textAlignment" "Left"
 		"dulltext" 		"0"
 		"brighttext" 	"0"
-		"fgcolor_override"		"Uber Bar Color"
+
+		"fgcolor_override" 		"Uber Bar Color"
 	}
 
 	"ChargeMeterLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"75"
-		"ypos"			"107"
+		"xpos"			"0"
+		"ypos"			"24"
 		"zpos"			"3"
-		"wide"			"150"
-		"tall"			"15"
+		"wide"			"124"
+		"tall"			"16"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -239,7 +241,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Cerbetica16"
+		"font"			"Cerbetica12"
 		"fgcolor"	"150 150 150 255"
 	}	
 	
@@ -256,18 +258,17 @@
 		"image"			"../hud/ico_health_cluster"
 		"scaleImage"	"1"	
 	}
-
 	"ResistIcon"
 	{
 		"ControlName" 	"ImagePanel"
 		"fieldName" 	"ResistIcon"
 		"xpos" 			"0"
 		"ypos"			"0"
-		"wide" 			"28"
-		"tall" 			"28"
+		"wide" 			"24"
+		"tall" 			"24"
 		"visible" 		"1"
 		"enabled" 		"1"
 		"image" 		"../HUD/defense_buff_bullet_blue"
 		
-	}	
+	}			
 }
