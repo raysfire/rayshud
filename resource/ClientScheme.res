@@ -2274,6 +2274,18 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		
+		"xHairCircleOutline"
+		{
+			"1"
+			{
+				"name"		"Courier New"
+				"tall"		"72"
+				"weight"	"0"
+				"antialias"	"1"
+				"outline"	"1"
+			}
+		}
 
 		"Crosshairs8"
 		{
@@ -2595,6 +2607,17 @@ Scheme
 			"tall"			"24"
 			"weight"		"0"
 			"antialias"		"1"
+			}
+		}
+		"KonrWingsOutline24"
+		{
+			"1"
+			{
+			"name"			"Garm3nFont"
+			"tall"			"24"
+			"weight"		"0"
+			"antialias"		"1"
+			"outline"		"1"
 			}
 		}
 		"KonrWings32"
@@ -4580,3 +4603,4 @@ Scheme
 		}
 
 }
+

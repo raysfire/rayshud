@@ -15,6 +15,7 @@
 		"wide"			"201"
 		"tall"			"200"
 
+		//"font"		"xHairCircleOutline"
 		"font"			"xHairCircle"
 		"labelText"		"o"
 		"textAlignment"	"center"	
@@ -329,6 +330,8 @@
 		"ypos"			"c-99"
 		"wide"			"200"
 		"tall"			"200"
+
+		//"font"		"KonrWingsOutline24"
 
 		"font"			"KonrWings24"
 		"labelText"		"i"
