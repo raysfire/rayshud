@@ -342,7 +342,7 @@
 	
 	//fighter pilot crosshair, enable all of then together for best results (16x9 resolution)
 	
-	"Crosshair_vertical"
+	"16x9Crosshair_vertical1"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
@@ -363,7 +363,7 @@
 		"alpha" "50"
 	}
 
-	"Crosshair_horizontal"
+	"16x9Crosshair_horizontal1"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
@@ -384,7 +384,7 @@
 		"alpha" "50"
 	}
 	
-	"Crosshair_horizontal"
+	"16x9Crosshair_horizontal2"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
@@ -405,7 +405,7 @@
 		"alpha" "50"
 	}
 
-	"dark_top"
+	"16x9dark_top"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
@@ -425,7 +425,7 @@
 		"fillcolor"		"255 255 255 255"
 		"alpha" "100"
 	}
-	"dark_bottom"
+	"16x9dark_bottom"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
@@ -445,7 +445,7 @@
 		"fillcolor"		"255 255 255 255"
 		"alpha" "150"
 	}
-	"dark_left"
+	"16x9dark_left"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
@@ -467,7 +467,7 @@
 	}
 	
 
-	"dark_right"
+	"16x9dark_right"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
@@ -492,7 +492,7 @@
 	
 	//fighter pilot crosshair, enable all of then together for best results (16x10 resolution)
 	
-	"Crosshair_vertical"
+	"16x10Crosshair_vertical1"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
@@ -513,7 +513,7 @@
 		"alpha" "50"
 	}
 
-	"Crosshair_horizontal"
+	"16x10Crosshair_horizontal1"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
@@ -534,7 +534,7 @@
 		"alpha" "50"
 	}
 
-	"Crosshair_horizontal"
+	"16x10Crosshair_horizontal2"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
@@ -555,7 +555,7 @@
 		"alpha" "50"
 	}
 
-	"dark_top"
+	"16x10dark_top"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
@@ -576,7 +576,7 @@
 		"alpha" "100"
 	}
 
-	"dark_bottom"
+	"16x10dark_bottom"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
@@ -597,7 +597,7 @@
 		"alpha" "150"
 	}
 
-	"dark_left"
+	"16x10dark_left"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
@@ -618,7 +618,7 @@
 		"alpha" "100"
 	}
 
-	"dark_right"
+	"16x10dark_right"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
@@ -643,7 +643,7 @@
 	
 	//fighter pilot crosshair, enable all of then together for best results (4x3 resolution)
 	
-	"Crosshair_vertical"
+	"4x3Crosshair_vertical1"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
@@ -664,7 +664,7 @@
 		"alpha" "50"
 	}
 	
-	"Crosshair_horizontal"
+	"4x3Crosshair_horizontal1"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
@@ -685,7 +685,7 @@
 		"alpha" "50"
 	}
 	
-	"Crosshair_horizontal"
+	"4x3Crosshair_horizontal2"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
@@ -706,7 +706,7 @@
 		"alpha" "50"
 	}
 	
-	"dark_top"
+	"4x3dark_top"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
@@ -727,7 +727,7 @@
 		"alpha" "100"
 	}
 	
-	"dark_bottom"
+	"4x3dark_bottom"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
@@ -748,7 +748,7 @@
 		"alpha" "150"
 	}
 			
-	"dark_left"
+	"4x3dark_left"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
@@ -770,7 +770,7 @@
 	}
 	
 
-	"dark_right"
+	"4x3dark_right"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
