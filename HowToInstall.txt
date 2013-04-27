@@ -31,6 +31,12 @@ http://teamfortress.tv/forum/thread/981-rayshud/3
 
 ________
 
+IF YOU HAVE A MAC, DELETE THE CURRENT FONTS IN PLACE (CERBETICA, CERBETICA_EDITED), AND REPLACE THEM WITH THE ONES THAT HAVE A "-MAC" SUPPFIX.
+
+If you don't do this, the fonts won't render properly in your game. 
+
+________
+
 If you have any questions/concerns/comments, please either email me at raysfire64@gmail.com, or post in my main support thread: http://teamfortress.tv/forum/thread/981-rayshud .
 
 Thank you for using, and I hope you enjoy the hud. :>
