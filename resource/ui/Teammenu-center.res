@@ -383,7 +383,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCountPlayers"
-		"xpos"			"c-124"
+		"xpos"			"c-120"
 		"ypos"			"c-10"
 		"zpos"			"1"
 		"wide"			"90"
@@ -404,7 +404,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedCount"
-		"xpos"			"c-47"
+		"xpos"			"c-51"
 		"ypos"			"c-10"
 		"zpos"			"1"
 		"wide"			"90"
