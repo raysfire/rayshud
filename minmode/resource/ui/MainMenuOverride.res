@@ -1481,7 +1481,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
-		"command"		"toggleconsole"
+		"command"		"engine toggleconsole"
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1499,7 +1499,7 @@
 			"use_proportional_insets" "1"
 			"font"			"CerbeticaBold20"
 			"textAlignment"	"center"
-			"labelText"		"rayshud v3.3"
+			"labelText"		"rayshud v3.4"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
