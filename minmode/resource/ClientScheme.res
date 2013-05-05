@@ -2847,9 +2847,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Cerbetica"
+				"name"		 "Cerbetica Bold"
 				"tall" 		 "12"
-				"weight" 	 "800"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -2858,9 +2857,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Cerbetica"
+				"name"		 "Cerbetica Bold"
 				"tall" 		 "13"
-				"weight" 	 "800"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -2869,9 +2867,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Cerbetica"
+				"name"		 "Cerbetica Bold"
 				"tall" 		 "14"
-				"weight" 	 "800"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -2880,9 +2877,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Cerbetica"
+				"name"		 "Cerbetica Bold"
 				"tall" 		 "15"
-				"weight" 	 "800"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -2891,9 +2887,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Cerbetica"
+				"name"		 "Cerbetica Bold"
 				"tall" 		 "16"
-				"weight" 	 "800"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -2902,9 +2897,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Cerbetica"
+				"name"		 "Cerbetica Bold"
 				"tall" 		 "17"
-				"weight" 	 "800"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -2913,9 +2907,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Cerbetica"
+				"name"		 "Cerbetica Bold"
 				"tall" 		 "20"
-				"weight" 	 "800"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -2924,9 +2917,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Cerbetica"
+				"name"		 "Cerbetica Bold"
 				"tall" 		 "24"
-				"weight"	 "800"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -2935,9 +2927,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Cerbetica"
+				"name"		 "Cerbetica Bold"
 				"tall" 		 "24"
-				"weight"	 "800"
 				"additive"	 "0"
 				"antialias"	 "1"
 				"outline"	 "1"
@@ -2947,9 +2938,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Cerbetica"
+				"name"		 "Cerbetica Bold"
 				"tall" 		 "16"
-				"weight"	 "800"
 				"additive"	 "0"
 				"antialias"	 "1"
 				"outline"	 "1"
@@ -2959,9 +2949,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Cerbetica"
+				"name"		 "Cerbetica Bold"
 				"tall" 		 "32"
-				"weight"	 "800"
 				"additive"	 "0"
 				"antialias"	 "1"
 				"outline"	 "1"
@@ -2971,9 +2960,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Cerbetica"
+				"name"		 "Cerbetica Bold"
 				"tall" 		 "28"
-				"weight" 	 "800"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -2982,9 +2970,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Cerbetica"
+				"name"		 "Cerbetica Bold"
 				"tall" 		 "32"
-				"weight" 	 "800"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -2993,9 +2980,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Cerbetica"
+				"name"		 "Cerbetica Bold"
 				"tall" 		 "36"
-				"weight" 	 "800"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -3004,9 +2990,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Cerbetica"
+				"name"		 "Cerbetica Bold"
 				"tall" 		 "42"
-				"weight" 	 "800"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -3015,9 +3000,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Cerbetica"
+				"name"		 "Cerbetica Bold"
 				"tall" 		 "44"
-				"weight" 	 "800"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -3026,9 +3010,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Cerbetica"
+				"name"		 "Cerbetica Bold"
 				"tall" 		 "46"
-				"weight" 	 "800"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -3037,9 +3020,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Cerbetica"
+				"name"		 "Cerbetica Bold"
 				"tall" 		 "48"
-				"weight" 	 "800"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -3048,9 +3030,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Cerbetica"
+				"name"		 "Cerbetica Bold"
 				"tall" 		 "56"
-				"weight" 	 "800"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -3059,9 +3040,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Cerbetica"
+				"name"		 "Cerbetica Bold"
 				"tall" 		 "64"
-				"weight" 	 "800"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -3070,9 +3050,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Cerbetica"
+				"name"		 "Cerbetica Bold"
 				"tall" 		 "72"
-				"weight" 	 "800"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -3081,9 +3060,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Cerbetica"
+				"name"		 "Cerbetica Bold"
 				"tall" 		 "124"
-				"weight" 	 "800"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -4600,6 +4578,12 @@ Scheme
 		
 			"font" "resource/Cerbetica_edited.ttf"
 			"name" "Cerbetica_edited"
+		}
+		"13" // Cerbetica bolded, for ammo/health, etc.
+		{
+		
+			"font" "resource/Cerbetica_bold.ttf"
+			"name" "Cerbetica Bold"
 		}
 
 }
