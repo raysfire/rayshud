@@ -10,8 +10,8 @@
 		"delta_item_x"			"0"
 		"delta_item_end_y"		"0"
 		"delta_lifetime"		"2"
-		"delta_item_font"		"CerbeticaBoldOutline24" 
-		"delta_item_font_big"	"CerbeticaBoldOutline24"
+		"delta_item_font" "CerbeticaBoldOutline24" 
+		"delta_item_font_big" "CerbeticaBoldOutline24"
 		"outline"				"1"
 
 	}
@@ -46,7 +46,7 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"fgcolor"		"0 0 0 255"
+		"fgcolor"		"TransparentBlack"
 		"font"			"CerbeticaBold20"
 	}
 }

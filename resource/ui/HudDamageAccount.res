@@ -46,7 +46,7 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"fgcolor"		"0 0 0 255"
+		"fgcolor"		"TransparentBlack"
 		"font"			"CerbeticaBold32"
 	}
 }
