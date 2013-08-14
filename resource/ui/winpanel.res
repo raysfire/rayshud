@@ -130,7 +130,7 @@
 		"RedTeamScoreDropshadow"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"RedTeamScore"
+			"fieldName"		"RedTeamScoreDropshadow"
 			"font"			"Cerbetica48"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
