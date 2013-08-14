@@ -1,6 +1,71 @@
 "Resource/HudLayout.res"
 {
 	//crosshairs
+	fatality
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"fatality"
+		"font"			"CerbeticaBold24"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-200"
+		"ypos"			"c-102"
+		"wide"			"400"
+		"tall"			"200"
+
+		//"font"		"xHairCircleOutline"
+		"font"			"xHairCircle"
+		"labelText"		"fatality, shoot here ---> o <--- shoot here, fatality"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	good
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"good"
+		"font"			"CerbeticaBold24"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-300"
+		"ypos"			"c-102"
+		"wide"			"400"
+		"tall"			"200"
+
+		//"font"		"xHairCircleOutline"
+		"font"			"xHairCircle"
+		"labelText"		"good"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 0"
+		"alpha"			"255"
+	}
+	job
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"job"
+		"font"			"CerbeticaBold24"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-100"
+		"ypos"			"c-102"
+		"wide"			"400"
+		"tall"			"200"
+
+		//"font"		"xHairCircleOutline"
+		"font"			"xHairCircle"
+		"labelText"		"job"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 0"
+		"alpha"			"255"
+	}
 	xHairCircle
 	{
 		"controlName"	"CExLabel"
@@ -231,7 +296,7 @@
 		"labelText"		"f"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"0 0 0 0"
 	}
 	
 	WingsSmall
@@ -838,9 +903,9 @@
 		"wide"	"200"
 		"tall"	"60"
 		
-		"blue_active_xpos"			"16"
+		"blue_active_xpos"			"25"
 	
-		"red_active_xpos"			"106"
+		"red_active_xpos"			"75"
 	}	
 
 	HudItemEffectMeter
@@ -1339,14 +1404,12 @@
 		"fieldName" "HudCloseCaption"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-250"
-		"ypos"		"276"	[$WIN32]
-		"ypos"		"236"	[$X360]
-		"wide"		"500"
-		"tall"		"136"	[$WIN32]
-		"tall"		"176"	[$X360]
+		"xpos"		"c188"
+		"ypos"		"302"	[$WIN32]
+		"wide"		"150"
+		"tall"		"60"	[$WIN32]
 
-		"BgAlpha"	"128"
+		"BgAlpha"	"0"
 
 		"GrowTime"		"0.25"
 		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
@@ -2015,7 +2078,7 @@
 		"fieldName"		"MainMenuAdditions"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c0"
+		"xpos"			"500"
 		"ypos"			"310"
 		"zpos"			"0"
 		"wide"			"300"
