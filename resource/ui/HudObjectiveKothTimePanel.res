@@ -78,16 +78,13 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ActiveTimerBG"
-		"xpos"				"9999"
-		"ypos"				"9999"
-		"zpos"				"1"
-		"wide"				"78"
-		"wide_minmode"		"37"
-		"tall"				"33"
-		"tall_minmode"		"21"
+		"xpos"				"15"
+		"ypos"				"23"
+		"zpos"				"10"
+		"wide"				"50"
+		"tall"				"2"
 		"visible"			"0"
 		"enabled"			"1"
-		"image"				"../hud/objectives_timepanel_active_bg"	
-		"scaleImage"		"1"	
+		"fillcolor"			"TanLight"
 	}
 }
