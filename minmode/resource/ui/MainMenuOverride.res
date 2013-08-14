@@ -2549,7 +2549,7 @@
 		"xpos"			"60"
 		"ypos"			"416"
 		"zpos"			"1"
-		"wide"			"200"
+		"wide"			"150"
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"3"
