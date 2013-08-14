@@ -60,7 +60,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"&?  Random"	[$WIN32]
+		"labelText"			"&R  Random"	[$WIN32]
 		"textAlignment"		"west"
 		"Command"			"joinclass random"
 		"Default"			"0"
