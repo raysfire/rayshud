@@ -14,9 +14,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"	"25 25 25 255"
+		"infocus_bgcolor_override" "25 25 25 255"
+		"outoffocus_bgcolor_override" "25 25 25 255"
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
@@ -71,7 +71,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"Cerbetica16"
 		"labelText"		">>"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -83,7 +83,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "200 128 255 255"
 	}
 	"ClassLabel"
 	{
@@ -120,26 +120,37 @@
 		"drawcolor"		"112 176 74 255"
 	}	
 	
-	"ShowRarityCheckbox"
+	"ShowRarityComboBox"
 	{
-		"ControlName"	"CheckButton"
-		"fieldName"		"ShowRarityCheckbox"
-		"labelText"		"#BackpackShowRarities"
-		"Font"			"HudFontSmallestBold"
-		"textAlignment"	"east"
-		"wrap"			"0"
-		"xpos"			"c-70"
-		"ypos"			"34"
-		"zpos"			"1"
-		"wide"			"200"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"dulltext"		"0"
-		"brighttext"	"0"
-	}		
+		"ControlName"		"ComboBox"
+		"fieldName"			"ShowRarityComboBox"
+		"Font"				"HudFontSmallestBold"
+		"wrap"				"0"
+		"xpos"				"c-85"
+		"ypos"				"37"
+		"zpos"				"1"
+		"wide"				"205"
+		"tall"				"15"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"textHidden"		"0"
+		"editable"			"0"
+		"maxchars"			"-1"
+		"NumericInputOnly"	"0"
+		"unicode"			"0"
+		"default"			"0"
+		"border"			"CyanBorder"
+		
+		"fgcolor_override"	"235 226 202 255"
+		"bgcolor_override"	"0 0 0 0"
+		"disabledFgColor_override" "235 226 202 255"
+		"disabledBgColor_override" "0 0 0 0"
+		"selectionColor_override" "0 0 0 0"
+		"selectionTextColor_override" "235 226 202 255"
+		"defaultSelectionBG2Color_override" "0 0 0 0"
+	}	
 	"ShowBaseItemsCheckbox"
 	{
 		"ControlName"	"CheckButton"
@@ -158,6 +169,49 @@
 		"enabled"		"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
+	}
+	
+	"NameFilterLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"NameFilterLabel"
+		"font"			"HudFontSmallestBold"
+		"labelText"		"#Store_NameFilterLabel"
+		"textAlignment"	"west"
+		"xpos"			"c+137"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"90"
+		"tall"			"20"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"TanLight"
+	}
+
+	"NameFilterTextEntry"
+	{
+		"ControlName"		"TextEntry"
+		"fieldName"		"NameFilterTextEntry"
+		"xpos"		"c+137"
+		"ypos"		"15"
+		"wide"		"90"
+		"tall"		"19"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"1"
+		"textHidden"		"0"
+		"editable"		"1"
+		"unicode"		"1"
+		"fgcolor_override"	"TanLight"
+		"bgcolor_override"	"15 15 15 255"
+		"paintbackgroundtype" "0"
+		"border_default"			"ButtonHover"
+		"border_armed"				"ButtonHover"
+		"font"		"HudFontSmallest"
 	}
 	
 	"SortByComboBox"
@@ -200,16 +254,33 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
+		"paintborder"			"1"
+		"paintbackground"		"1"
+		"border"				"NoBorder"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
+		
+		"BackColor"
+    	{
+    		"ControlName"		"EditablePanel"
+    		"fieldName"			"BackColor"
+    		"xpos"				"0"
+    		"ypos"				"0"
+    		"zpos"				"1"
+    		"wide"				"f0"
+    		"tall"	 			"f0"
+    		"visible"			"1"
+    		"enabled"			"1"
+			"pinCorner"		"0"
+			"autoResize"	"0"
+			"PaintBackgroundType"	"2"
+			"border"			"NoBorder"
+			"bgcolor_override"	"35 35 35 255"
+    	}
 		
 		"attriblabel"
 		{
@@ -281,6 +352,17 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override"	"25 25 25 255"
+		"armedBgColor_override"		"35 35 35 255"
+		"depressedBgColor_override"	"25 25 25 255"
+		
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override" 	"TanLight"
+		"depressedFgColor_override" "TanDark"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}		
 	
 	"CurPageLabel"
@@ -299,7 +381,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "15 255 255 255"
 	}
 	
 	"NextPageButton"
@@ -318,12 +400,25 @@
 		"tabPosition"	"0"
 		"labelText"		"&D"
 		"font"			"HudFontSmallBold"
+		"fgcolor"		"TanLight"
+		"border"		"NoBorder"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override"	"25 25 25 255"
+		"armedBgColor_override"		"35 35 35 255"
+		"depressedBgColor_override"	"25 25 25 255"
+		
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override" 	"TanLight"
+		"depressedFgColor_override" "TanDark"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}		
 	
 	"DragToNextPageButton"
@@ -396,6 +491,18 @@
 		"Command"		"canceltool"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+				
+		"defaultBgColor_override"	"25 25 25 255"
+		"armedBgColor_override"		"35 35 35 255"
+		"depressedBgColor_override"	"25 25 25 255"
+		
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override" 	"TanLight"
+		"depressedFgColor_override" "TanDark"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
+		
 	}		
 
 	"DeleteButton"
@@ -412,7 +519,7 @@
 		"visible"		"1"
 		"enabled"		"0"
 		"tabPosition"	"0"
-		"labelText"		"#X_DeleteItem"
+		"labelText"		"DELETE"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
@@ -421,6 +528,17 @@
 		"Command"		"deleteitem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override"	"25 25 25 255"
+		"armedBgColor_override"		"35 35 35 255"
+		"depressedBgColor_override"	"25 25 25 255"
+		
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override" 	"TanLight"
+		"depressedFgColor_override" "TanDark"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}			
 
 	"UseButton"
@@ -446,6 +564,17 @@
 		"Command"		"useitem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override"	"25 25 25 255"
+		"armedBgColor_override"		"35 35 35 255"
+		"depressedBgColor_override"	"25 25 25 255"
+		
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override" 	"TanLight"
+		"depressedFgColor_override" "TanDark"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 	
 	"StyleButton"
@@ -462,7 +591,7 @@
 		"visible"		"1"
 		"enabled"		"0"
 		"tabPosition"	"0"
-		"labelText"		"#Style"
+		"labelText"		"SET STYLE"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
@@ -471,6 +600,17 @@
 		"Command"		"showstyles"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override"	"25 25 25 255"
+		"armedBgColor_override"		"35 35 35 255"
+		"depressedBgColor_override"	"25 25 25 255"
+		
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override" 	"TanLight"
+		"depressedFgColor_override" "TanDark"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 
 	"DetailsButton"
@@ -487,7 +627,7 @@
 		"visible"		"1"
 		"enabled"		"0"
 		"tabPosition"	"0"
-		"labelText"		"#BackpackShowDetails"
+		"labelText"		"DETAILS"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
@@ -496,6 +636,17 @@
 		"Command"		"showdetails"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override"	"25 25 25 255"
+		"armedBgColor_override"		"35 35 35 255"
+		"depressedBgColor_override"	"25 25 25 255"
+		
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override" 	"TanLight"
+		"depressedFgColor_override" "TanDark"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 
 	"ShowExplanationsButton"
@@ -521,6 +672,18 @@
 		"Command"		"show_explanations"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override"	"25 25 25 255"
+		"armedBgColor_override"		"35 35 35 255"
+		"depressedBgColor_override"	"25 25 25 255"
+		
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override" 	"TanLight"
+		"depressedFgColor_override" "TanDark"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
+		
 	}
 	
 	"StartExplanation"
@@ -821,7 +984,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"

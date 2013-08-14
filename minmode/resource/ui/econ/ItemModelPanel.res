@@ -90,6 +90,8 @@
 		"fgcolor"		"200 80 60 255"
 		"bgcolor_override"		"0 0 0 255"
 		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
+		"border"		"NoBorder"
 	}
 	
 	"paint_icon"
@@ -124,7 +126,8 @@
 		"textAlignment"	"center"
 		"fgcolor"		"200 80 60 255"
 		"bgcolor_override"		"0 0 0 255"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
+		"border"		"NoBorder"
 	}
 
 	"serieslabel"
@@ -145,7 +148,8 @@
 		"textAlignment"	"center"
 		"fgcolor"		"200 180 60 255"
 		"bgcolor_override"		"0 40 30 255"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
+		"border"		"NoBorder"
 	}
 
 	"contained_item_panel"

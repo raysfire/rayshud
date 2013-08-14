@@ -13,12 +13,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"		"46 43 42 255"
-		"paintbackgroundtype"	"2"
-		"settitlebarvisible"	""
+		"paintbackgroundtype"	"0"
+		"settitlebarvisible"	"0"
 		"paintborder"			"1"
-		"paintbackground"		"0"
-		"border"				"GrayDialogBorder"
+		"paintbackground"		"1"
+		"border"				"CyanBorderThick"
+		"bgcolor_override"		"25 25 25 255"
 		
 		"control_w"			"500"
 		"control_h"			"25"
@@ -41,7 +41,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "TanLight"
 	}
 	"CancelButton"
 	{
@@ -66,6 +66,17 @@
 		"Command"		"Close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
+			"paintbackground"	"1"
+			"defaultBgColor_override"	"15 15 15 255"
+			"armedBgColor_override"		"25 25 25 255"
+			"depressedBgColor_override"	"25 25 25 255"
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override" 	"TanLight"
+			"depressedFgColor_override" "TanLight"
+			"border_default"			"ButtonHover"
+			"border_armed"				"ButtonHover"
 	}
 	"OkButton"
 	{
@@ -90,6 +101,17 @@
 		"Command"		"Ok"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
+			"paintbackground"	"1"
+			"defaultBgColor_override"	"15 15 15 255"
+			"armedBgColor_override"		"25 25 25 255"
+			"depressedBgColor_override"	"25 25 25 255"
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override" 	"TanLight"
+			"depressedFgColor_override" "TanLight"
+			"border_default"			"ButtonHover"
+			"border_armed"				"ButtonHover"
 	}
 	
 	"PanelListPanel"
@@ -118,8 +140,10 @@
 		"wide"			"240"
 		"tall"			"50"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"paintborder"			"1"
+		"paintbackground"		"1"
+		"border"				"NoBorder"
+		"bgcolor_override"		"25 25 25 255"
 		
 		"TipLabel"
 		{
