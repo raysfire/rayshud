@@ -283,7 +283,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-70"	[$WIN32]
-		"ypos"			"26"	[$WIN32]
+		"ypos"			"r54"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"140"	[$WIN32]
 		"tall"			"30"
@@ -293,7 +293,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Cerbetica12"
+		"font"			"Cerbetica14"
 		"fgcolor"		"TanLight"
 		
 		"if_hybrid"
@@ -310,7 +310,7 @@
 		{
 			"visible"	"0"
 		}
-	}
+	}	
 			
 	"PlayingToBG"
 	{
@@ -347,8 +347,8 @@
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
 		"xpos"			"c-165"
-		"ypos"			"r80"	[$WIN32]
-		"zpos"			"-1"
+		"ypos"			"r75"	[$WIN32]
+		"zpos"			"2"
 		"wide"			"160"
 		"tall"			"90"
 		"visible"		"1"
@@ -357,19 +357,19 @@
 		"if_hybrid"
 		{
 			"visible"	"0"
-			"ypos"		"r103"
+			"ypos"		"r113"
 		}
 		
 		"if_hybrid_single"
 		{
 			"xpos"		"c-80"
-			"ypos"		"r103"
+			"ypos"		"r113"
 		}
 		
 		"if_hybrid_double"
 		{
 			"xpos"		"c-115"
-			"ypos"		"r103"
+			"ypos"		"r113"
 		}
 
 		"if_specialdelivery"
@@ -388,7 +388,7 @@
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
 		"xpos"			"c5"
-		"ypos"			"r80"
+		"ypos"			"r75"
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
@@ -398,7 +398,7 @@
 		"if_hybrid"
 		{
 			"visible"	"0"
-			"ypos"		"r100"
+			"ypos"		"r110"
 		}
 		
 		"if_hybrid_single"
