@@ -283,7 +283,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-70"	[$WIN32]
-		"ypos"			"r56"	[$WIN32]
+		"ypos"			"26"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"140"	[$WIN32]
 		"tall"			"30"
@@ -293,7 +293,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Cerbetica16"
+		"font"			"Cerbetica12"
 		"fgcolor"		"TanLight"
 		
 		"if_hybrid"
@@ -310,7 +310,7 @@
 		{
 			"visible"	"0"
 		}
-	}	
+	}
 			
 	"PlayingToBG"
 	{
@@ -375,7 +375,6 @@
 		"if_specialdelivery"
 		{
 			"ypos"		"r75"
-			"ypos"		"r103"
 		}
 		
 		"if_no_flags"
@@ -414,7 +413,7 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r70"
+			"ypos"		"r75"
 		}
 		
 		"if_no_flags"

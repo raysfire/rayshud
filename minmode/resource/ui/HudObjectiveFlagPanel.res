@@ -9,8 +9,8 @@
 		"zpos"				"1"
 		"wide"				"f0"
 		"tall"				"480"
-		"visible"			"0"
-		"enabled"			"0"
+		"visible"			"1"
+		"enabled"			"1"
 		
 		"if_hybrid"
 		{
@@ -23,12 +23,12 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideBG"
 		"xpos"			"c-120"
-		"ypos"			"r30"	
+		"ypos"			"r20"	
 		"zpos"			"-1"
 		"wide"			"120"
-		"tall"			"100"
-		"visible"		"0"
-		"enabled"		"0"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
 		"fillcolor"		"70 130 180 153"
 		"scaleImage"	"1"	
 		
@@ -53,13 +53,13 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RightSideBG"
 		"xpos"			"c0"
-		"ypos"			"r30"	[$WIN32]
+		"ypos"			"r20"	[$WIN32]
 		"zpos"			"-1"
 		"wide"			"120"
-		"tall"			"100"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"205 92 92 153"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"205 50 50 153"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -155,7 +155,7 @@
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
 		"font"			"Cerbetica40"
-		"fgcolor"		"70 130 180 153"
+		"fgcolor"		"Black"
 		
 		"if_hybrid"
 		{
@@ -219,7 +219,7 @@
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
-		"fgcolor"		"205 50 50 153"		
+		"fgcolor"		"Black"		
 		
 		"if_hybrid"
 		{
@@ -278,12 +278,12 @@
 		}
 	}		
 	
-	"PlayingTo"
+		"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-70"	[$WIN32]
-		"ypos"			"r56"	[$WIN32]
+		"ypos"			"26"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"140"	[$WIN32]
 		"tall"			"30"
@@ -293,7 +293,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Cerbetica16"
+		"font"			"Cerbetica12"
 		"fgcolor"		"TanLight"
 		
 		"if_hybrid"
@@ -310,20 +310,20 @@
 		{
 			"visible"	"0"
 		}
-	}	
+	}
 			
 	"PlayingToBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"9999"	[$WIN32]
-		"ypos"			"9999"	[$WIN32]
+		"xpos"			"c-50"	[$WIN32]
+		"ypos"			"r50"	[$WIN32]
 		"zpos"			"3"
 		"wide"			"100"	[$WIN32]
 		"tall"			"20"	[$WIN32]
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"0 0 0 100"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 0"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -375,7 +375,6 @@
 		"if_specialdelivery"
 		{
 			"ypos"		"r75"
-			"ypos"		"r103"
 		}
 		
 		"if_no_flags"
@@ -414,7 +413,7 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r70"
+			"ypos"		"r75"
 		}
 		
 		"if_no_flags"
