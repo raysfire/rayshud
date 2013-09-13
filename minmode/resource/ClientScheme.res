@@ -33,10 +33,20 @@ Scheme
 		"Spec Health Buff"						"48 255 48 255"			
 		"Spec Health Hurt"						"255 153 0 255"
 		
+		//alternate colors for flashing values
+		"Alternate Spec Health Normal"						"235 226 202 255"
+		"Alternate Spec Health Buff"						"48 255 48 255"			
+		"Alternate Spec Health Hurt"						"255 153 0 255"
+		
 		//refers to player health/targetids
 		"Health Normal"							"235 226 202 255"
 		"Health Buff"							"48 255 48 255"
 		"Health Hurt"							"255 153 0 255"
+		
+		//alternate colors for flashing values
+		"Alternate Health Normal"						"235 226 202 255"
+		"Alternate Health Buff"						"48 255 48 255"			
+		"Alternate Health Hurt"						"255 153 0 255"
 		
 		"Uber Bar Color"						"235 226 202 255"
 
