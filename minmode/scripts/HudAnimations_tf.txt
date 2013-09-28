@@ -207,14 +207,14 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 	
-	Animate PlayerStatusHealthValue 		 FgColor "Health Buff" Accel 0.0 0.3
-	Animate PlayerStatusHealthValue 		 FgColor "Alternate Health Buff" Accel 0.3 0.6
-	Animate PlayerStatusHealthValueSpectator FgColor "Spec Health Buff" Accel 0.0 0.3
-	Animate PlayerStatusHealthValueSpectator FgColor "Alternate Spec Health Buff" Accel 0.3 0.6
-	Animate PlayerStatusHealthValueFreezePanel FgColor "Spec Health Buff" Accel 0.0 0.3
-	Animate PlayerStatusHealthValueFreezePanel FgColor "Alternate Spec Health Buff" Accel 0.3 0.6
+	Animate PlayerStatusHealthValue 		 FgColor "Health Buff" Accel 0.0 0.2
+	Animate PlayerStatusHealthValue 		 FgColor "Alternate Health Buff" Accel 0.2 0.4
+	Animate PlayerStatusHealthValueSpectator FgColor "Spec Health Buff" Accel 0.0 0.2
+	Animate PlayerStatusHealthValueSpectator FgColor "Alternate Spec Health Buff" Accel 0.2 0.4
+	Animate PlayerStatusHealthValueFreezePanel FgColor "Spec Health Buff" Accel 0.0 0.2
+	Animate PlayerStatusHealthValueFreezePanel FgColor "Alternate Spec Health Buff" Accel 0.2 0.4
 
-	RunEvent HudHealthBonusPulseLoop	0.6
+	RunEvent HudHealthBonusPulseLoop	0.4
 }
 
 // call to loop HudHealthBonusPulse
@@ -238,17 +238,17 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.2
 	
-	Animate PlayerStatusHealthValue 		 FgColor "Health Hurt" Accel 0.0 0.3
-	Animate PlayerStatusHealthValue 		 FgColor "Alternate Health Hurt" Accel 0.3 0.6
-	Animate PlayerStatusHealthValueSpectator FgColor "Spec Health Hurt" Accel 0.0 0.3
-	Animate PlayerStatusHealthValueSpectator FgColor "Alternate Spec Health Hurt" Accel 0.3 0.6
-	Animate PlayerStatusHealthValueFreezePanel FgColor "Spec Hurt Hurt" Accel 0.0 0.3
-	Animate PlayerStatusHealthValueFreezePanel FgColor "Alternate Spec Health Hurt" Accel 0.3 0.6
+	Animate PlayerStatusHealthValue 		 FgColor "Health Hurt" Accel 0.0 0.2
+	Animate PlayerStatusHealthValue 		 FgColor "Alternate Health Hurt" Accel 0.2 0.4
+	Animate PlayerStatusHealthValueSpectator FgColor "Spec Health Hurt" Accel 0.0 0.2
+	Animate PlayerStatusHealthValueSpectator FgColor "Alternate Spec Health Hurt" Accel 0.2 0.4
+	Animate PlayerStatusHealthValueFreezePanel FgColor "Spec Hurt Hurt" Accel 0.0 0.2
+	Animate PlayerStatusHealthValueFreezePanel FgColor "Alternate Spec Health Hurt" Accel 0.2 0.4
 	
-	RunEvent HudHealthDyingPulseLoop	0.6
+	RunEvent HudHealthDyingPulseLoop	0.4
 }
 
 // call to loop HudHealthDyingPulse
