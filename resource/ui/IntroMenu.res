@@ -16,6 +16,22 @@
 		"paintbackground"	"0"
 	}
 	
+		"MainBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MainBG"
+		"xpos"			"c-180"
+		"ypos"			"c-120"
+		"zpos"			"-1"
+		"wide"			"360"
+		"tall"			"250"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 100"
+	}
+	
 	"titlelabel"
 	{
 		"ControlName"		"CExLabel"
@@ -63,7 +79,6 @@
 
 	"Continue" [$WIN32] 
 	{
-	{
 		"ControlName"	"CExButton"
 		"fieldName"		"Continue"
 		"xpos"			"r190"
@@ -74,9 +89,32 @@
 		"autoResize"	"0"
 		"pinCorner"		"2"`
 		"visible"		"0"
+		"enabled"		"0"
+		"tabPosition"	"0"
+		"labelText"		"CONTINUE (&E)"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"wrap"			"0"
+		"command"		"skip"
+		"font"			"MenuSmallFont"
+	}
+	
+	"Continue2" [$WIN32] 
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"Continue2"
+		"xpos"			"r190"
+		"ypos"			"r40"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"`
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"CONTINUE"
+		"labelText"		"CONTINUE (&E)"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -160,12 +198,12 @@
 	{
 		"ControlName"	"CTFVideoPanel"
 		"fieldName"		"VideoPanel"
-		"xpos"			"c-170"
-		"ypos"			"c-120"
-		"zpos"			"3"		
-		"wide"			"360"
-		"tall"			"250"
-		"autoResize"	"0"
+		"xpos"			"c-140"
+		"ypos"			"c-110"
+		"zpos"			"1"
+		"wide"			"340"
+		"tall"			"205"
+		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
