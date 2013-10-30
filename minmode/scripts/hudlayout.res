@@ -1331,6 +1331,22 @@
 		"ItemFontPulsing"		"Default"
 
 	}
+	
+	HudSpellMenu
+	{
+		"fieldName" "HudSpellMenu"
+		"visible" "1"
+		"enabled" "1"
+		"wide"	 "640"
+		"tall"	 "480"
+		"zpos" 	"10"
+		"xpos"			"c-115"
+		"ypos"			"c37"
+		
+		"TextFont"				"Default"
+		"ItemFont"				"Default"
+		"ItemFontPulsing"		"Default"
+	}
 
 	HudCloseCaption
 	{

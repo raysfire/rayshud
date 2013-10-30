@@ -1,6 +1,27 @@
 "Resource/HudLayout.res"
 {
 	//crosshairs
+	
+	Spookmaster
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"Spookmaster"
+		"font"			"CerbeticaBold44"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-100"
+		"ypos"			"c-102"
+		"wide"			"201"
+		"tall"			"200"
+
+		"labelText"		"0 0"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 0 0 0"
+	}
+	
 	xHairCircle
 	{
 		"controlName"	"CExLabel"
@@ -1333,6 +1354,22 @@
 		"ItemFontPulsing"		"Default"
 
 	}
+	
+	HudSpellMenu
+	{
+		"fieldName" "HudSpellMenu"
+		"visible" "1"
+		"enabled" "1"
+		"wide"	 "640"
+		"tall"	 "480"
+		"zpos" 	"10"
+		"xpos"			"c-176"
+		"ypos"			"c90"
+		
+		"TextFont"				"Default"
+		"ItemFont"				"Default"
+		"ItemFontPulsing"		"Default"
+	}
 
 	HudCloseCaption
 	{
@@ -1908,6 +1945,7 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"r320"
+		"zpos"					"11"
 		"wide"					"f0"
 		"tall"					"320"
 	}

@@ -142,6 +142,22 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
+	
+	"AmmoIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"AmmoIcon"
+		"xpos"			"41"
+		"ypos"			"30"
+		"zpos"			"12"
+		"wide"			"12"
+		"tall"			"12"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/leaderboard_class_heavy"
+		"scaleImage"	"1"
+	}
+	
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"
@@ -159,21 +175,6 @@
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"			"HudOffWhite"
 	}	
-	
-	"AmmoIcon"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"AmmoIcon"
-		"xpos"			"34"
-		"ypos"			"21"
-		"zpos"			"12"
-		"wide"			"8"
-		"tall"			"8"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/leaderboard_class_heavy"
-		"scaleImage"	"1"
-	}
 	
 	"MoveableSubPanel"
 	{
