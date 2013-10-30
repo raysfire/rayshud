@@ -42,7 +42,7 @@
 		"fieldName"		"SpellIcon"
 		"xpos"			"18"
 		"ypos"			"36"
-		"zpos"			"7"
+		"zpos"			"50"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
