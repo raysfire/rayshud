@@ -4,24 +4,25 @@
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"c-130"
+		"xpos"				"100"
 		"ypos"				"8"
 		"zpos"				"0"
-		"wide"				"400"
+		"wide"				"600"
 		"tall"				"67"
 		"visible"			"1"
 		"enabled"			"1"
 		
 		"verbose"			"1"
 	}
-		"ScoreboardBackground"
+	
+	"ScoreboardBackground"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ScoreboardBackground"
-		"xpos"			"c-102"
-		"ypos"			"78"
+		"xpos"			"98"
+		"ypos"			"71"
 		"zpos"			"-1"
-		"wide"			"445"
+		"wide"			"455"
 		"tall"			"288"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -35,7 +36,7 @@
 		"font"			"Cerbetica24"
 		"labelText"		"%popfile%"
 		"textAlignment"	"center"
-		"xpos"			"188"
+		"xpos"			"78"
 		"ypos"			"c150"
 		"wide"			"290"
 		"tall"			"20"
@@ -46,7 +47,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"450"
+		"xpos"			"355"
 		"ypos"			"c150"
 		"wide"			"150"
 		"tall"			"50"
@@ -107,7 +108,7 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
-		"xpos"			"c-100"
+		"xpos"			"110"
 		"ypos"			"79"
 		"wide"			"420"
 		"tall"			"150"
@@ -125,8 +126,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"c-90"
-		"ypos"			"230"
+		"xpos"			"118"
+		"ypos"			"220"
 		"wide"			"400"
 		"tall"			"205"
 		"visible"		"1"
@@ -214,7 +215,7 @@
 			"visible"		"1"
 		}
 		
-		"RespecStatusLabel"
+				"RespecStatusLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecStatusLabel"
