@@ -23,15 +23,15 @@ Scheme
 	
 		//rayshud colors
 	
-		"Ammo In Clip"							"48 255 48 255"
-		"Ammo In Reserve"						"72 255 255 255"
+		"Ammo In Clip" 		 "0 255 255 255"
+		"Ammo In Reserve" 		 "0 128 128 255"
 		"Ammo In Clip Low"						"255 42 130 255"
-		"Ammo In Reserve Low"					"255 128 28 255"
+		"Ammo In Reserve Low" 		 "255 140 0 255"
 		
 		//refers to watching stvs/killcam shots
-		"Spec Health Normal"					"235 226 202 255"
-		"Spec Health Buff"						"48 255 48 255"			
-		"Spec Health Hurt"						"255 153 0 255"
+		"Spec Health Normal" 		 "235 226 202 255"
+		"Spec Health Buff" 		 "0 255 255 255"			
+		"Spec Health Hurt" 		 "255 215 0 255"
 		
 		//alternate colors for flashing values
 		"Alternate Spec Health Normal"						"235 226 202 255"
@@ -39,29 +39,29 @@ Scheme
 		"Alternate Spec Health Hurt"						"255 153 0 255"
 		
 		//refers to player health/targetids
-		"Health Normal"							"235 226 202 255"
-		"Health Buff"							"48 255 48 255"
-		"Health Hurt"							"255 153 0 255"
+		"Health Normal" 		 "235 226 202 255"
+		"Health Buff" 		 "0 255 255 255"
+		"Health Hurt" 		 "255 215 0 255"
 		
 		//alternate colors for flashing values
 		"Alternate Health Normal"						"235 226 202 255"
 		"Alternate Health Buff"						"48 255 48 255"			
 		"Alternate Health Hurt"						"255 153 0 255"
 		
-		"Uber Bar Color"						"235 226 202 255"
+		"Uber Bar Color" 		 "235 226 202 255"
 
 		//solid color uber disabled by default; to enable, uncomment lines in hudanimations_tf.txt
 		"Solid Color Uber"						"255 50 255 255"
 		
-		"Flashing Uber Color1"					"255 165 0 255"
-		"Flashing Uber Color2"					"255 69 0 255"
-		//"Ubercharge Amount"						"48 255 48 255" // disabled temporarily; currently controlled by ammo in clip color
+		"Flashing Uber Color1" 		 "0 255 255 255"
+		"Flashing Uber Color2" 		 "0 128 128 255"
+		//"Ubercharge Amount" 		 "0 255 255 255" // disabled temporarily; currently controlled by ammo in clip color
 	
-		"Heal Numbers"							"48 255 48 255"
-		"Damage Numbers"						"72 255 255 255"
+		"Heal Numbers" 		 "32 178 170 255"
+		"Damage Numbers" 		 "72 255 255 255"
 		
 		//'Last DamageHeal Info' refers to the number that appears above hp
-		"Last DamageHeal Info"					"72 255 255 255"
+		"Last DamageHeal Info" 		 "72 255 255 255"
 		
 		//Changes the colors of the bars on the "Stats" tab
 		
@@ -868,7 +868,7 @@ Scheme
 			"1"
 			{
 				"name"		"Cerbetica_edited"
-				"tall"		"32"
+				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -878,7 +878,7 @@ Scheme
 			"1"
 			{
 				"name"		"Cerbetica_edited"
-				"tall"		"28"
+				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -888,7 +888,7 @@ Scheme
 			"1"
 			{
 				"name"		"Cerbetica_edited"
-				"tall"		"28"
+				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -898,7 +898,7 @@ Scheme
 			"1"
 			{
 				"name"		"Cerbetica_edited"
-				"tall"		"28"
+				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -5406,6 +5406,22 @@ Scheme
 		}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

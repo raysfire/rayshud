@@ -868,7 +868,7 @@ Scheme
 			"1"
 			{
 				"name"		"Cerbetica_edited"
-				"tall"		"32"
+				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -878,7 +878,7 @@ Scheme
 			"1"
 			{
 				"name"		"Cerbetica_edited"
-				"tall"		"28"
+				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -888,7 +888,7 @@ Scheme
 			"1"
 			{
 				"name"		"Cerbetica_edited"
-				"tall"		"28"
+				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -898,7 +898,7 @@ Scheme
 			"1"
 			{
 				"name"		"Cerbetica_edited"
-				"tall"		"28"
+				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
 			}

@@ -823,4 +823,50 @@ event HudReadyPulseEnd
 	StopEvent HudReadyPulseLoop		0.0
 }
 
+	// Respec in Win
+event RespecEarnedPulse
+{
+	Animate	RespecTextLabelWin	FgColor	"TanLight"		Linear 0.0 0.1
+	Animate	RespecTextLabelWin	FgColor	"RedSolid"		Linear 0.3 0.4
+	
+	RunEvent RespecEarnedPulseLoop		0.5
+}
+
+event RespecEarnedPulseLoop
+{
+	RunEvent RespecEarnedPulse			0.0
+}
+
+event RespecEarnedPulseEnd
+{
+	Animate	RespecTextLabelWin 	FgColor		"TanLight"		Linear 0.0 0.1
+	
+	StopEvent RespecEarnedPulse			0.0
+	StopEvent RespecEarnedPulseLoop		0.0
+}
+
+// Respec on Loss
+event RespecEarnedPulseLoss
+{
+	Animate	RespecTextLabelLoss	FgColor	"TanLight"		Linear 0.0 0.1
+	Animate	RespecTextLabelLoss	FgColor	"RedSolid"		Linear 0.3 0.4
+	
+	RunEvent RespecEarnedPulseLoopLoss		0.5
+}
+
+event RespecEarnedPulseLoopLoss
+{
+	RunEvent RespecEarnedPulseLoss			0.0
+}
+
+event RespecEarnedPulseEndLoss
+{
+	Animate	RespecTextLabelLoss FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	RespecTextLabelLoss FgColor		"TanLight"		Linear 0.0 0.1
+	
+	StopEvent RespecEarnedPulseLoss		0.0
+	StopEvent RespecEarnedPulseLoopLoss	0.0
+}
+
+//
 
