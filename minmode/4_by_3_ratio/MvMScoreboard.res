@@ -213,5 +213,19 @@
 			"wide"			"200"
 			"visible"		"1"
 		}
+		
+		"RespecStatusLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"RespecStatusLabel"
+			"font"			"HudFontSmall"
+			"labelText"		"%respecstatus%"
+			"textAlignment" "north-west"
+			"xpos"			"180"
+			"ypos"			"8"
+			"wide"			"220"
+			"tall"			"40"
+			"fgcolor"		"tanlight"
+		}
 	}
 }
