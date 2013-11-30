@@ -53,7 +53,7 @@ To Install
 
 Extract the "scripts" and "resources" folders to your tf directory. Your tf directory should be somewhere similar to this:
 
-C:\Program Files (x86)\Steam\steamapps\common\team fortress 2\tf\common\<ANY FOLDER NAME>
+C:\Program Files (x86)\Steam\steamapps\common\team fortress 2\tf\custom\<ANY FOLDER NAME>
 
 Just make sure to back up your old scripts and resources first! Never know when something might break, and it's always best to be prepared.
 
