@@ -214,6 +214,8 @@ Scheme
 		"QualityColorStrange"					"207 106 50 255"
 		"QualityColorCompleted"					"134 80 172 255"
 		"QualityColorHaunted"					"56 243 171 255"
+		"QualityColorCollectors"                "131 0 0 255"
+
 		
 		"SaleGreen"								"76 107 34 255"
 		
