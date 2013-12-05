@@ -514,7 +514,7 @@
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"		"Player3Avatar"
 		"xpos"			"22"
-		"ypos"			"132"
+		"ypos"			"152"
 		"zpos"			"3"
 		"wide"			"14"
 		"tall"			"14"
