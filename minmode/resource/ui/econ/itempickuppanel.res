@@ -303,7 +303,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DiscardButton"
 		"xpos"			"c210"
-		"ypos"			"135"
+		"ypos"			"155"
 		"zpos"			"10"
 		"wide"			"30"
 		"tall"			"30"

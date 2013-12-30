@@ -35,7 +35,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "15 255 255 255"
+		"fgcolor_override" "Base Color"
 	}
 	"AbandonIcon"
 	{
@@ -67,16 +67,16 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "15 255 255 255"
+		"fgcolor_override" "Base Color"
 	}
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"190"
+		"xpos"			"165"
 		"ypos"			"165"
 		"zpos"			"20"
-		"wide"			"100"
+		"wide"			"125"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -109,7 +109,7 @@
 		"xpos"			"10"
 		"ypos"			"165"
 		"zpos"			"20"
-		"wide"			"175"
+		"wide"			"125"
 		"tall"			"25"
 		"default"		"1"
 		"autoResize"	"0"
@@ -135,5 +135,5 @@
 		"depressedFgColor_override" "TanLight"
 		"border_default"			"ButtonHover"
 		"border_armed"				"ButtonHover"
-	}			
+	}					
 }
