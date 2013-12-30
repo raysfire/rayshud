@@ -373,7 +373,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"68"
+			"ypos"			"52"
 		}
 	}
 	"ServerTimeLeft"
@@ -396,7 +396,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"80"
+			"ypos"			"62"
 		}
 	}							
 	"BluePlayerList"
@@ -544,7 +544,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"ClassImage"	
@@ -865,6 +865,10 @@
 		if_mvm
 		{
 			"visible"		"1"
+			"xpos"			"c-224"
+			"ypos"			"375"	
+			"wide"			"544"
+			"tall"			"100"
 		}
 
 		"KillsLabel"
@@ -883,6 +887,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"			"390"
+				"ypos"			"4"
+			}
 		}							
 		"DeathsLabel"
 		{
@@ -900,6 +910,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
 		}						
 		"AssistsLabel"
 		{
@@ -917,6 +928,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"font"			"Cerbetica16"
+				"xpos"			"10"
+				"ypos"			"2"	[$WIN32]
+			}
 		}
 		"DestructionLabel"
 		{
@@ -934,6 +952,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+			"font"			"Cerbetica16"
+			"xpos"			"10"
+			"ypos"			"27"	[$WIN32]
+			}
 		}												
 		"Kills"
 		{
@@ -951,6 +976,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"font"			"Cerbetica56"
+				"xpos"			"360"
+				"ypos"			"4"
+			}
 		}						
 		"Deaths"
 		{
@@ -968,6 +1000,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"font"			"Cerbetica56"
+				"xpos"			"465"
+				"ypos"			"4"
+			}
 		}	
 		"MapName"
 		{
@@ -1021,7 +1060,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}						
+			
+			if_mvm
+			{
+				"font"			"Cerbetica16"	"xpos"			"90"
+				"ypos"			"3"	[$WIN32]
+			
+			}
+		}		
 		"Destruction"
 		{
 			"ControlName"		"CExLabel"
@@ -1038,7 +1084,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}						
+			
+			if_mvm
+			{
+				"font"			"Cerbetica16"
+				"xpos"			"90"
+				"ypos"			"27"	[$WIN32]
+			}
+		}							
 		"CapturesLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1055,6 +1108,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"font"			"Cerbetica16"			
+				"xpos"			"10"	
+				"ypos"			"52"	
+			}
 		}						
 		"DefensesLabel"
 		{
@@ -1072,6 +1132,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"font"			"Cerbetica16"			
+				"xpos"			"10"	
+				"ypos"			"77"	
+			}
 		}						
 		"DominationLabel"
 		{
@@ -1089,6 +1156,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"120"
+				"ypos"		"2"
+				"font"		"Cerbetica16"	
+			}
 		}						
 		"RevengeLabel"
 		{
@@ -1106,6 +1180,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"120"
+				"ypos"		"27"
+				"font"		"Cerbetica16"	
+			}
 		}						
 		"Captures"
 		{
@@ -1123,6 +1204,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"90"
+				"ypos"		"54"
+				"font"		"Cerbetica16"	
+			}
+			
 		}						
 		"Defenses"
 		{
@@ -1140,6 +1229,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"90"
+				"ypos"		"79"
+				"font"		"Cerbetica16"	
+			}
+			
 		}						
 		"Domination"
 		{
@@ -1157,6 +1254,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"210"
+				"ypos"		"3"
+				"font"		"Cerbetica16"	
+			}
 		}						
 		"Revenge"
 		{
@@ -1174,6 +1278,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"210"
+				"ypos"		"29"
+				"font"		"Cerbetica16"	
+			}
+	
 		}						
 		"HealingLabel"
 		{
@@ -1191,6 +1303,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"120"
+				"ypos"		"77"
+				"font"		"Cerbetica16"	
+			}
 		}						
 		"InvulnLabel"
 		{
@@ -1208,6 +1327,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"120"
+				"ypos"		"52"
+				"font"		"Cerbetica16"	
+			}
 		}						
 		"TeleportsLabel"
 		{
@@ -1242,6 +1368,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"240"
+				"ypos"		"2"
+				"font"		"Cerbetica16"	
+			}
+			
 		}						
 		"Healing"
 		{
@@ -1259,6 +1393,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"210"
+				"ypos"		"79"
+				"font"		"Cerbetica16"	
+			}
 		}						
 		"Invuln"
 		{
@@ -1276,6 +1417,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"210"
+				"ypos"		"54	"
+				"font"		"Cerbetica16"	
+			}
 		}						
 		"Teleports"
 		{
@@ -1310,6 +1458,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"330"
+				"ypos"		"3"
+				"font"		"Cerbetica16"	
+			}
 		}						
 		"BackstabsLabel"
 		{
@@ -1327,6 +1482,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"240"
+				"ypos"		"27"
+				"font"		"Cerbetica16"	
+			}
 		}
 		"Backstabs"
 		{
@@ -1344,6 +1506,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"330"
+				"ypos"		"29"
+				"font"		"Cerbetica16"	
+			}
 		}		
 		"BonusLabel"
 		{
@@ -1361,6 +1530,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"240"
+				"ypos"		"52"
+				"font"		"Cerbetica16"	
+			}
 		}
 		"Bonus"
 		{
@@ -1378,6 +1554,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"330"
+				"ypos"		"54"
+				"font"		"Cerbetica16"	
+			}
 		}
 	}
 

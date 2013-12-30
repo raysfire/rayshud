@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"c-130"
+		"xpos"				"c-140"
 		"ypos"				"8"
 		"zpos"				"0"
 		"wide"				"400"
@@ -12,16 +12,34 @@
 		"visible"			"1"
 		"enabled"			"1"
 		
-		"verbose"			"1"
+		"verbose"			"0"
 	}
-		"ScoreboardBackground"
+	
+	"StatsBackground"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"StatsBackground"
+		"xpos"			"c-224"
+		"ypos"			"375"	
+		"zpos"			"2"
+		"wide"			"545"
+		"tall"			"100"
+		"fillcolor"		"32 32 32 75"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
+
+
+	"ScoreboardBackground"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ScoreboardBackground"
-		"xpos"			"c-102"
+		"xpos"			"c-224"
 		"ypos"			"78"
 		"zpos"			"-1"
-		"wide"			"445"
+		"wide"			"545"
 		"tall"			"288"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -32,13 +50,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"Cerbetica24"
+		"font"			"CerbeticaBold16"
 		"labelText"		"%popfile%"
 		"textAlignment"	"center"
-		"xpos"			"188"
-		"ypos"			"c150"
-		"wide"			"290"
-		"tall"			"20"
+		"xpos"			"460"
+		"ypos"			"c198"
+		"wide"			"160"
+		"tall"			"24"
 		"fgcolor"		"tanlight"
 	}
 
@@ -46,10 +64,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"450"
-		"ypos"			"c150"
+		"xpos"			"310"
+		"ypos"			"c198"
 		"wide"			"150"
-		"tall"			"50"
+		"tall"			"34"
 		"visible"		"1"
 		
 		"DifficultyLabel"
@@ -61,8 +79,8 @@
 			"textAlignment"	"center"
 			"xpos"			"0"
 			"ypos"			"-6"
-			"wide"			"150"
-			"tall"			"30"
+			"wide"			"0"
+			"tall"			"0"
 			"fgcolor"		"tanlight"
 		}
 		
@@ -107,15 +125,15 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
-		"xpos"			"c-100"
+		"xpos"			"c-214"
 		"ypos"			"79"
-		"wide"			"420"
+		"wide"			"520"
 		"tall"			"150"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"autoresize"	"3"
+		"autoresize"	"1"
 		"linespacing"	"22"
 		"textcolor"		"White"
 		"font"			"Cerbetica24"
@@ -125,7 +143,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"c-90"
+		"xpos"			"c-150"
 		"ypos"			"230"
 		"wide"			"400"
 		"tall"			"205"
