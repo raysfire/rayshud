@@ -838,9 +838,9 @@
 		"wide"	"200"
 		"tall"	"60"
 		
-		"blue_active_xpos"			"16"
+		"blue_active_xpos"			"25"
 	
-		"red_active_xpos"			"106"
+		"red_active_xpos"			"75"
 	}	
 
 	HudItemEffectMeter
@@ -1286,7 +1286,7 @@
 		"fieldName" "ScorePanel"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "640"
+		"wide"	 "f0"
 		"tall"	 "480"
 	}
 
@@ -1499,11 +1499,15 @@
 
 		"item_wide"	"135"
 		
-		"show_avatar"		"0"
+		"show_avatar"		"1"
+		"avatar_ypos"		"1"
+		"avatar_xpos"		"24"
+		"avatar_wide"		"14"
+		"avatar_tall"		"14"
 		
 		"show_dead_icon"	"1"
-		"dead_xpos"			"1"
 		"dead_ypos"			"0"
+		"dead_xpos"			"1"
 		"dead_wide"			"16"
 		"dead_tall"			"16"
 		
@@ -1513,7 +1517,7 @@
 		"icon_tall"			"16"
 		"icon_wide"			"16"
 		
-		"text_xpos"			"33"
+		"text_xpos"			"50"
 	}
 
 	HudHintDisplay
@@ -1850,12 +1854,11 @@
 		"fieldName"				"HudTournament"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"c-125"
-		"ypos"					"5"
-		"ypos_lodef"				"75"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"250"
-		"tall"					"80"
+		"wide"					"f0"
+		"tall"					"480"
 	}
 
 	HudTournamentSetup

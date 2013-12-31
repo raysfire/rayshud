@@ -1508,7 +1508,7 @@
 		"tall" "32"
 	}
 
-	HudVoiceStatus
+		HudVoiceStatus
 	{
 		"fieldName" "HudVoiceStatus"
 		"visible" "1"
@@ -1522,11 +1522,15 @@
 
 		"item_wide"	"135"
 		
-		"show_avatar"		"0"
+		"show_avatar"		"1"
+		"avatar_ypos"		"1"
+		"avatar_xpos"		"24"
+		"avatar_wide"		"14"
+		"avatar_tall"		"14"
 		
 		"show_dead_icon"	"1"
-		"dead_xpos"			"1"
 		"dead_ypos"			"0"
+		"dead_xpos"			"1"
 		"dead_wide"			"16"
 		"dead_tall"			"16"
 		
@@ -1536,7 +1540,7 @@
 		"icon_tall"			"16"
 		"icon_wide"			"16"
 		
-		"text_xpos"			"33"
+		"text_xpos"			"50"
 	}
 
 	HudHintDisplay
