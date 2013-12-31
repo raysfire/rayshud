@@ -63,17 +63,21 @@ Scheme
 		//'Last DamageHeal Info' refers to the number that appears above hp
 		"Last DamageHeal Info"					"72 255 255 255"
 		
-		//Changes the colors of the bars on the "Stats" tab
+		//Menu/Color scheme colors
+		"Base Color"				"15 255 255 255"
+		"Button Color"				"72 255 255 255"	
 		
-			"StatBar1"						"15 255 255 128"
-			"StatBar2"						"15 225 225 128"
-			"StatBar3"						"15 195 195 128"
-			"StatBar4"						"15 165 165 128"
-			"StatBar5"						"15 135 135 128"
-			"StatBar6"						"15 105 105 128"
-			"StatBar7"						"15 85 85 128"
-			"StatBar8"						"15 65 65 128"
-			"StatBar9"						"15 45 45 128"
+		"Inactive Tab"				"15 100 100 255"	
+		
+		"StatBar1"						"15 255 255 128"
+		"StatBar2"						"15 225 225 128"
+		"StatBar3"						"15 195 195 128"
+		"StatBar4"						"15 165 165 128"
+		"StatBar5"						"15 135 135 128"
+		"StatBar6"						"15 105 105 128"
+		"StatBar7"						"15 85 85 128"
+		"StatBar8"						"15 65 65 128"
+		"StatBar9"						"15 45 45 128"
 	
 		//Rainbow Uber Colors
 		
@@ -1429,10 +1433,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
-				"tall_hidef"	"10"
-				"tall_lodef"	"14"
+				"name"		"Cerbetica_edited"
+				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1443,9 +1445,7 @@ Scheme
 			"1"
 			{
 				"name"		"Cerbetica_edited"
-				"tall"		"10"
-				"tall_hidef"	"12"
-				"tall_lodef"	"14"
+				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
