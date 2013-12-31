@@ -372,15 +372,21 @@
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
 		"font"			"Cerbetica24"
+		
+		if_mvm
+		{
+		"ypos"			"68"	[$WIN32]
+		}
+		
 	}
 	"BuyBackLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
 		"xpos"			"c-190"
-		"ypos"			"16"
+		"ypos"			"360"
 		"wide"			"380"
-		"tall"			"14"
+		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
