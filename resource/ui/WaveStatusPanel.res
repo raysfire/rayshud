@@ -33,8 +33,8 @@
 		"zpos"			"5"
 		"wide"			"200"
 		"tall"			"15"
-		"xpos_minmode"		"150"
-		"wide_minmode"		"180"
+		"xpos_minmode"	"150"
+		"wide_minmode"	"180"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"				"center"
@@ -90,16 +90,16 @@
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"ProgressBar"
 		"xpos"			"211"
-		"ypos"			"20"
+		"ypos"			"22"
 		"zpos"			"3"
 		"wide"			"178"
-		"tall"			"10"
+		"tall"			"7"
 		"xpos_minmode"	"211"
-		"ypos_minmode"	"8"
+		"ypos_minmode"	"10"
 		"wide_minmode"	"178"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_blu"
+		"image"			""
 		
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
@@ -120,8 +120,8 @@
 		"xpos_minmode"	"210"
 		"ypos_minmode"	"7"
 		"wide_minmode"	"180"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../HUD/tournament_panel_tan"
 		
 		"src_corner_height"	"22"				// pixels inside the image
@@ -129,5 +129,25 @@
 	
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
+	}
+	
+	"ProgressBarBG2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"ProgressBarBG2"
+		"xpos"			"211"
+		"ypos"			"22"
+		"zpos"			"2"
+		"wide"			"178"
+		"tall"			"7"
+		"xpos_minmode"	"211"
+		"ypos_minmode"	"10"
+		"wide_minmode"	"178"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"Base Color"
+		
 	}
 }
