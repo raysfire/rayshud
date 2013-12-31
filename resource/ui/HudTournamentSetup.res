@@ -81,7 +81,7 @@
 		"unicode"			"0"
 		"wrap"				"0"
 		"fgcolor_override"	"235 226 202 255"
-		"bgcolor_override"	"0 0 0 255"
+		"bgcolor_override"	"0 0 0 0"
 		"labelText"			"%teamname%"
 		"font" 				"Cerbetica12"
 		"textAlignment"		"west"
@@ -89,21 +89,18 @@
 
 	"HudTournamentNameBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"HudTournamentNameBG"
 		"xpos"		"30"
 		"ypos"		"28"
-		"wide"		"50"
-		"tall"		"14"
+		"wide"		"0"
+		"tall"		"0"
 		"zpos"		"0"
 		"autoResize"	"0"
 		"pinCorner"	"0"
-		"visible"	"1"
+		"visible"	"0"
 		"enabled"	"1"
-		"fillcolor"	"0 0 0 255"
-		"scaleImage"	"1"
-		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"fillcolor"	"255 0 0 255"
 	}
 
 	"TournamentNotReadyButton"
@@ -127,6 +124,14 @@
 		"default"		"1"
 		"font"			"CerbeticaBold12"
 		"fgcolor"		"Red"
+		
+		"border_default"	""
+		"border_armed"		""
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "TanLight"
+		"armedFgColor_override" "Button Color"
+		"depressedFgColor_override" "Button Color"
 	}
 
 	"TournamentReadyButton"
@@ -151,5 +156,13 @@
 		"default"		"1"
 		"font"			"CerbeticaBold12"
 		"fgcolor"		"FooterBGBlack"
+		
+		"border_default"	""
+		"border_armed"		""
+		"paintbackground"	"0"
+			
+		"defaultFgColor_override" "TanLight"
+		"armedFgColor_override" "Button Color"
+		"depressedFgColor_override" "Button Color"
 	}
 }
