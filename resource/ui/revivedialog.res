@@ -69,7 +69,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "15 255 255 255"
+			"fgcolor_override" "Base Color"
 		}
 
 		"ConfirmButton"

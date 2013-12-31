@@ -229,7 +229,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "15 255 255 255"
+		"fgcolor_override" "Base Color"
 	}
 	"ConfirmLabelStrange"
 	{
@@ -247,7 +247,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "15 255 255 255"
+		"fgcolor_override" "Base Color"
 	}
 	"CancelButton"
 	{

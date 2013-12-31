@@ -55,12 +55,12 @@
 				"paintbackground"	"0"
 				
 				"defaultFgColor_override" "TanLight"
-				"armedFgColor_override" "72 255 255 255"
-				"depressedFgColor_override" "72 255 255 255"
+				"armedFgColor_override" "Button Color"
+				"depressedFgColor_override" "Button Color"
 				
 				"image_drawcolor"	"TanLight"
-				"image_armedcolor"	"72 255 255 255"
-				"image_depressedcolor" "72 255 255 255"
+				"image_armedcolor"	"Button Color"
+				"image_depressedcolor" "Button Color"
 				
 				"SubImage"
 				{
@@ -176,7 +176,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"15 255 255 255"
+		"fillcolor"		"Base Color"
 	}
 	"SidePanelRightStripe"
 	{
@@ -190,7 +190,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"15 255 255 255"
+		"fillcolor"		"Base Color"
 	}
 	"BottomPanelMain"
 	{
@@ -218,7 +218,7 @@
 		"visible"		"1"
 		"enabled"		"0"
 		"scaleImage"	"0"
-		"fillcolor"		"15 255 255 255"
+		"fillcolor"		"Base Color"
 	}
 	"BottomPanelBottomStripe"
 	{
@@ -232,7 +232,7 @@
 		"visible"		"1"
 		"enabled"		"0"
 		"scaleImage"	"0"
-		"fillcolor"		"15 255 255 255"
+		"fillcolor"		"Base Color"
 	}
 	"TFLogoImage"
 	{
@@ -390,11 +390,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "72 255 255 255"
-			"depressedFgColor_override" "72 255 255 255"
+			"armedFgColor_override" "Button Color"
+			"depressedFgColor_override" "Button Color"
 			
 			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"72 255 255 255"
+			"image_armedcolor"	"Button Color"
 			
 			"SubImage"
 			{
@@ -544,8 +544,8 @@
 			//"defaultFgColor_override" "235 226 202 255"
 			//"armedFgColor_override" "46 43 42 255"
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "15 255 255 255"
-			"depressedFgColor_override" "15 255 255 255"
+			"armedFgColor_override" "Base Color"
+			"depressedFgColor_override" "Base Color"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"200 80 60 255"		
@@ -655,7 +655,7 @@
 			"wide"			"280"
 			"tall"			"95"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"15 255 255 255"
+			"fgcolor_override"	"Base Color"
 			
 			"MOTD_TextPanel"
 			{
@@ -859,7 +859,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"15 255 255 255"
+			"fgcolor_override"	"Base Color"
 		}
 		"Notifications_CountLabelBG"
 		{
@@ -965,11 +965,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "72 255 255 255"
-			"depressedFgColor_override" "72 255 255 255"
+			"armedFgColor_override" "Button Color"
+			"depressedFgColor_override" "Button Color"
 			
 			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"72 255 255 255"
+			"image_armedcolor"	"Button Color"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1117,11 +1117,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "72 255 255 255"
-			"depressedFgColor_override" "72 255 255 255"
+			"armedFgColor_override" "Button Color"
+			"depressedFgColor_override" "Button Color"
 			
 			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"72 255 255 255"
+			"image_armedcolor"	"Button Color"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1176,11 +1176,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "72 255 255 255"
-			"depressedFgColor_override" "72 255 255 255"
+			"armedFgColor_override" "Button Color"
+			"depressedFgColor_override" "Button Color"
 			
 			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"72 255 255 255"
+			"image_armedcolor"	"Button Color"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1236,8 +1236,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "72 255 255 255"
-			"depressedFgColor_override" "72 255 255 255"
+			"armedFgColor_override" "Button Color"
+			"depressedFgColor_override" "Button Color"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1295,8 +1295,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "72 255 255 255"
-			"depressedFgColor_override" "72 255 255 255"
+			"armedFgColor_override" "Button Color"
+			"depressedFgColor_override" "Button Color"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1354,8 +1354,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "72 255 255 255"
-			"depressedFgColor_override" "72 255 255 255"
+			"armedFgColor_override" "Button Color"
+			"depressedFgColor_override" "Button Color"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1651,8 +1651,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "72 255 255 255"
-			"depressedFgColor_override" "72 255 255 255"
+			"armedFgColor_override" "Button Color"
+			"depressedFgColor_override" "Button Color"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1712,8 +1712,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "72 255 255 255"
-			"depressedFgColor_override" "72 255 255 255"
+			"armedFgColor_override" "Button Color"
+			"depressedFgColor_override" "Button Color"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1773,8 +1773,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "72 255 255 255"
-			"depressedFgColor_override" "72 255 255 255"
+			"armedFgColor_override" "Button Color"
+			"depressedFgColor_override" "Button Color"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1834,8 +1834,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "72 255 255 255"
-			"depressedFgColor_override" "72 255 255 255"
+			"armedFgColor_override" "Button Color"
+			"depressedFgColor_override" "Button Color"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1895,8 +1895,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "72 255 255 255"
-			"depressedFgColor_override" "72 255 255 255"
+			"armedFgColor_override" "Button Color"
+			"depressedFgColor_override" "Button Color"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1956,8 +1956,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "72 255 255 255"
-			"depressedFgColor_override" "72 255 255 255"
+			"armedFgColor_override" "Button Color"
+			"depressedFgColor_override" "Button Color"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -2017,11 +2017,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "72 255 255 255"
-			"depressedFgColor_override" "72 255 255 255"
+			"armedFgColor_override" "Button Color"
+			"depressedFgColor_override" "Button Color"
 			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"72 255 255 255"
+			"image_armedcolor"	"Button Color"
 			
 			"SubImage"
 			{
@@ -2078,11 +2078,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "72 255 255 255"
-			"depressedFgColor_override" "72 255 255 255"
+			"armedFgColor_override" "Button Color"
+			"depressedFgColor_override" "Button Color"
 			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"72 255 255 255"
+			"image_armedcolor"	"Button Color"
 			
 			"SubImage"
 			{
@@ -2139,8 +2139,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "72 255 255 255"
-			"depressedFgColor_override" "72 255 255 255"
+			"armedFgColor_override" "Button Color"
+			"depressedFgColor_override" "Button Color"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -2218,7 +2218,7 @@
 		"PaintBackgroundType" "0"
 		
 		"image_drawcolor"	"TanLight"
-		"image_armedcolor"	"72 255 255 255"
+		"image_armedcolor"	"Button Color"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2262,7 +2262,7 @@
 		"border_default"	""
 		
 		"image_drawcolor"	"TanLight"
-		"image_armedcolor"	"72 255 255 255"
+		"image_armedcolor"	"Button Color"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2309,7 +2309,7 @@
 		
 		
 		"image_drawcolor"	"TanLight"
-		"image_armedcolor"	"72 255 255 255"
+		"image_armedcolor"	"Button Color"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2353,7 +2353,7 @@
 		"border_default"	""
 		
 		"image_drawcolor"	"TanLight"
-		"image_armedcolor"	"72 255 255 255"
+		"image_armedcolor"	"Button Color"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2396,7 +2396,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"TanLight"
-		"image_armedcolor"	"72 255 255 255"
+		"image_armedcolor"	"Button Color"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2439,8 +2439,8 @@
 		"Command"		"opentf2options"
 		
 		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "72 255 255 255"
-		"depressedFgColor_override" "72 255 255 255"
+		"armedFgColor_override" "Button Color"
+		"depressedFgColor_override" "Button Color"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -2488,8 +2488,8 @@
 		"Command"		"OpenOptionsDialog"
 		
 		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "72 255 255 255"
-		"depressedFgColor_override" "72 255 255 255"
+		"armedFgColor_override" "Button Color"
+		"depressedFgColor_override" "Button Color"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -2537,8 +2537,8 @@
 		"Command"		"engine incrementvar cl_hud_minmode 0 1 1"
 		
 		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "72 255 255 255"
-		"depressedFgColor_override" "72 255 255 255"
+		"armedFgColor_override" "Button Color"
+		"depressedFgColor_override" "Button Color"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -2586,14 +2586,14 @@
 		"Command"		"engine replay_confirmquit"
 		
 		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "72 255 255 255"
-		"depressedFgColor_override" "72 255 255 255"		
+		"armedFgColor_override" "Button Color"
+		"depressedFgColor_override" "Button Color"		
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"TanLight"
-		"image_armedcolor"	"72 255 255 255"
+		"image_armedcolor"	"Button Color"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2636,14 +2636,14 @@
 		"Command"		"engine demoui"
 		
 		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "72 255 255 255"
-		"depressedFgColor_override" "72 255 255 255"		
+		"armedFgColor_override" "Button Color"
+		"depressedFgColor_override" "Button Color"		
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"TanLight"
-		"image_armedcolor"	"72 255 255 255"
+		"image_armedcolor"	"Button Color"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2686,14 +2686,14 @@
 		"Command"		"engine toggleconsole"
 		
 		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "72 255 255 255"
-		"depressedFgColor_override" "72 255 255 255"		
+		"armedFgColor_override" "Button Color"
+		"depressedFgColor_override" "Button Color"		
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"TanLight"
-		"image_armedcolor"	"72 255 255 255"
+		"image_armedcolor"	"Button Color"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2735,8 +2735,8 @@
 		"Command"		"engine disconnect"
 		
 		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "72 255 255 255"
-		"depressedFgColor_override" "72 255 255 255"
+		"armedFgColor_override" "Button Color"
+		"depressedFgColor_override" "Button Color"
 		
 		"border_default"	""
 		"border_armed"		""
@@ -2792,7 +2792,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"TanLight"
-		"image_armedcolor"	"72 255 255 255"
+		"image_armedcolor"	"Button Color"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2961,7 +2961,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"72 255 255 255"
+			"image_armedcolor"	"Button Color"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -3129,7 +3129,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"72 255 255 255"
+			"image_armedcolor"	"Button Color"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -3241,7 +3241,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"72 255 255 255"
+			"image_armedcolor"	"Button Color"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -3353,7 +3353,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"72 255 255 255"
+			"image_armedcolor"	"Button Color"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -3465,7 +3465,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"72 255 255 255"
+			"image_armedcolor"	"Button Color"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -3577,7 +3577,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"72 255 255 255"
+			"image_armedcolor"	"Button Color"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"

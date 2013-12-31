@@ -356,7 +356,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "15 255 255 255"
+			"fgcolor_override" "Base Color"
 		}	
 	}
 	"StatePanel3"
@@ -387,7 +387,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "15 255 255 255"
+			"fgcolor_override" "Base Color"
 		}	
 		
 		"URLHelpLabel"
@@ -429,7 +429,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "15 255 255 255"
+			"fgcolor_override" "Base Color"
 		}	
 		"URLSearchingLabel"
 		{
@@ -449,7 +449,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "15 255 255 255"
+			"fgcolor_override" "Base Color"
 		}	
 		
 		"URLEntry"

@@ -30,7 +30,23 @@
 			
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
-										  			
+			
+			"BG"
+			{
+				"ControlName" "ImagePanel"
+				"fieldName"   "BG"
+				"xpos"        "0"
+				"ypos"        "0"
+				"zpos"        "1"
+				"wide"        "55"
+				"tall"        "35"
+				"autoResize"		"0"
+				"pinCorner"		"0"
+				"fillcolor"		"0 0 0 255"
+				"visible"			"1"
+				"enabled"			"1"
+			}
+			
 			"playername"
 			{
 				"ControlName"	"CExLabel"
@@ -52,9 +68,10 @@
 				{
 					"xpos"				"4"
 					"ypos"				"25"
-					"wide"			"48"
+					"wide"				"48"
 					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+					"fgcolor_override"	"TanLight"
+					"font"				"Cerbetica9"
 				}
 			}
 			
@@ -126,7 +143,7 @@
 				"fieldName"		"ReadyBG"
 				"xpos"			"30"
 				"ypos"			"6"
-				"zpos"			"-1"
+				"zpos"			"2"
 				"wide"			"16"
 				"tall"			"16"
 				"autoResize"	"0"
@@ -153,7 +170,7 @@
 				"fieldName"		"ReadyImage"
 				"xpos"			"32"
 				"ypos"			"8"
-				"zpos"			"0"
+				"zpos"			"5"
 				"wide"			"12"
 				"tall"			"12"
 				"autoResize"	"0"
@@ -161,6 +178,7 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"image"			"hud/checkmark"
+				"fgcolor_override"	"15 255 15 255"
 				"scaleImage"		"1"
 
 				if_mvm

@@ -31,7 +31,7 @@
 		"class_distance_min"		"7"
 		"class_distance_max"		"100"
 
-		"itemcountcolor"			"15 255 255 255"
+		"itemcountcolor"			"Base Color"
 		"itemcountcolor_noitems"	"117 107 94 255"
 	}
 	
