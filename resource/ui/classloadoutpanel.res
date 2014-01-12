@@ -46,9 +46,9 @@
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
-			"model_ypos"	"5"
-			"model_tall"	"55"
-			"text_ypos"		"54"
+			"model_ypos"	"3"
+			"model_tall"	"52"
+			"text_ypos"		"47"
 			"text_center"	"1"
 			"name_only"		"1"
 			
@@ -63,6 +63,39 @@
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
+		}
+		
+		"itemoptionpanels_kv"
+		{
+			"ControlName"	"CExButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"8"
+			"tall"			"70"
+			"autoResize"	"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"+"
+			"font"			"Cerbetica12"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"bgcolor_override"		"255 0 0 255"
+			"noitem_textcolor"		"117 107 94 255"
+			"PaintBackgroundType"	"2"
+			"paintborder"	"1"
+			
+			"fgcolor_override"			"Base Color"
+			
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
+			"border_depressed"			"NoBorder"
 		}
 	}
 	
@@ -410,62 +443,18 @@
 		}		
 	}
 	
-	"HatSlotParticleSlider"
+		"ItemOptionsPanel"
 	{
 		"ControlName"	"CLoadoutParticleSlider"
-		"fieldName"		"HatSlotParticleSlider"
-		"xpos"			"c"
-		"ypos"			"115"
-		"wide"			"200"
-		"tall"			"40"
+		"fieldname"		"ItemOptionsPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"100"
+		"wide"			"140"
+		"tall"			"75"
 		"autoResize"	"1"
-		"visible"		"1"
-		"tabPosition"	"0"
-		"labelText"		"+"
-		"font"			"CerbeticaBold20"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"Command"		"particle_button_clicked"
-		
-				
-		"defaultBgColor_override"	"25 25 25 255"
-		"armedBgColor_override"		"35 35 35 255"
-		"depressedBgColor_override"	"25 25 25 255"
-		
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanDark"
-		
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
+		"visible"		"0"
+		"bgcolor_override"		"69 64 63 0"
+		"PaintBackgroundType"	"0"
 	}
-	
-	"Misc1SlotParticleSlider"
-	{
-		"ControlName"	"CLoadoutParticleSlider"
-		"fieldName"		"Misc1SlotParticleSlider"
-		"xpos"			"c"
-		"ypos"			"195"
-		"wide"			"200"
-		"tall"			"40"
-		"autoResize"	"1"
-		"visible"		"1"
-	}
-	
-	"Misc2SlotParticleSlider"
-	{
-		"ControlName"	"CLoadoutParticleSlider"
-		"fieldName"		"Misc2SlotParticleSlider"
-		"xpos"			"c"
-		"ypos"			"275"
-		"wide"			"200"
-		"tall"			"40"
-		"autoResize"	"1"
-		"visible"		"1"
-	}
-	
 }
