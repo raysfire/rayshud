@@ -389,6 +389,19 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"border_armed"		"NoBorder"
-		}			
+		}
+
+		"OfficialServersonlyCheckButton"
+		{
+			"ControlName"		"CheckButton"
+			"fieldName"		"OfficialServersonlyCheckButton"
+			"xpos"		"12"
+			"ypos"		"345"
+			"zpos"		"2"
+			"wide"		"200"
+			"tall"		"25"
+			"font"			"HudFontSmall"
+			"labelText"		"#TF_Quickplay_OfficialServersOnly"
+		}		
 	}
 }
