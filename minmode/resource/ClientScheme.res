@@ -23,15 +23,15 @@ Scheme
 	
 		//rayshud colors
 	
-		"Ammo In Clip"							"48 255 48 255"
-		"Ammo In Reserve"						"72 255 255 255"
-		"Ammo In Clip Low"						"255 42 130 255"
-		"Ammo In Reserve Low"					"255 128 28 255"
+		"Ammo In Clip" 		 "148 0 211 255"
+		"Ammo In Reserve" 		 "127 255 212 255"
+		"Ammo In Clip Low" 		 "255 255 0 255"
+		"Ammo In Reserve Low" 		 "255 140 0 255"
 		
 		//refers to watching stvs/killcam shots
-		"Spec Health Normal"					"235 226 202 255"
-		"Spec Health Buff"						"48 255 48 255"			
-		"Spec Health Hurt"						"255 153 0 255"
+		"Spec Health Normal" 		 "235 226 202 255"
+		"Spec Health Buff" 		 "148 0 211 255"			
+		"Spec Health Hurt" 		 "255 215 0 255"
 		
 		//alternate colors for flashing values
 		"Alternate Spec Health Normal"						"235 226 202 255"
@@ -39,29 +39,29 @@ Scheme
 		"Alternate Spec Health Hurt"						"255 153 0 255"
 		
 		//refers to player health/targetids
-		"Health Normal"							"235 226 202 255"
-		"Health Buff"							"48 255 48 255"
-		"Health Hurt"							"255 153 0 255"
+		"Health Normal" 		 "235 226 202 255"
+		"Health Buff" 		 "148 0 211 255"
+		"Health Hurt" 		 "255 215 0 255"
 		
 		//alternate colors for flashing values
 		"Alternate Health Normal"						"235 226 202 255"
 		"Alternate Health Buff"						"48 255 48 255"			
 		"Alternate Health Hurt"						"255 153 0 255"
 		
-		"Uber Bar Color"						"235 226 202 255"
+		"Uber Bar Color" 		 "235 226 202 255"
 
 		//solid color uber disabled by default; to enable, uncomment lines in hudanimations_tf.txt
 		"Solid Color Uber"						"255 50 255 255"
 		
-		"Flashing Uber Color1"					"255 165 0 255"
-		"Flashing Uber Color2"					"255 69 0 255"
-		//"Ubercharge Amount"						"48 255 48 255" // disabled temporarily; currently controlled by ammo in clip color
+		"Flashing Uber Color1" 		 "64 224 208 255"
+		"Flashing Uber Color2" 		 "148 0 211 255"
+		//"Ubercharge Amount" 		 "148 0 211 255" // disabled temporarily; currently controlled by ammo in clip color
 	
-		"Heal Numbers"							"48 255 48 255"
-		"Damage Numbers"						"72 255 255 255"
+		"Heal Numbers" 		 "148 0 211 255"
+		"Damage Numbers" 		 "0 255 255 255"
 		
 		//'Last DamageHeal Info' refers to the number that appears above hp
-		"Last DamageHeal Info"					"72 255 255 255"
+		"Last DamageHeal Info" 		 "72 255 255 255"
 		
 		//Menu/Color scheme colors
 		"Base Color"				"15 255 255 255"
@@ -103,8 +103,8 @@ Scheme
 		//end rayshud colors
 			
 		// base colors
-		"Orange"			"178 82 22 255"
-		"OrangeDim"			"178 82 22 120"
+		"Orange"			"Base Color"
+		"OrangeDim"			"Base Color"
 		"LightOrange"		"188 112 0 128"
 		"GoalOrange"		"255 133 0"
 		"TFOrange"			"145 73 59 255"
@@ -218,8 +218,23 @@ Scheme
 		"QualityColorStrange"					"207 106 50 255"
 		"QualityColorCompleted"					"134 80 172 255"
 		"QualityColorHaunted"					"56 243 171 255"
-		"QualityColorCollectors"                "131 0 0 255"
+		"QualityColorCollectors"				"170 0 0 255"
 
+		"QualityColorNormal_GreyedOut"			"44 44 44 255"
+		"QualityColorrarity1_GreyedOut"			"20 29 21 255"
+		"QualityColorrarity2_GreyedOut"			"35 33 19 255"
+		"QualityColorrarity3_GreyedOut"			"51 51 62 255"
+		"QualityColorrarity4_GreyedOut"			"36 20 43 255"
+		"QualityColorVintage_GreyedOut"			"18 25 36 255"
+		"QualityColorUnique_GreyedOut"			"64 54 0  255"
+		"QualityColorCommunity_GreyedOut"		"28 44 19 255"
+		"QualityColorDeveloper_GreyedOut"		"41 4  30  255"
+		"QualityColorSelfMade_GreyedOut"		"28 44 74 255"
+		"QualityColorCustomized_GreyedOut"		"71 98 19 255"
+		"QualityColorStrange_GreyedOut"			"52 27 13 255"
+		"QualityColorCompleted_GreyedOut"		"34 20 43 255"
+		"QualityColorHaunted_GreyedOut"			"14 61 43 255"
+		"QualityColorCollectors_GreyedOut"		"60 0 0 255"
 		
 		"SaleGreen"								"76 107 34 255"
 		
@@ -367,8 +382,8 @@ Scheme
 		PropertySheet.SelectedTextColor		"Orange"
 		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
 
-		RadioButton.TextColor			"Orange"
-		RadioButton.SelectedTextColor	"Orange"
+		RadioButton.TextColor			"Base Color"
+		RadioButton.SelectedTextColor	"TanLight"
 
 		RichText.TextColor				"Gray"
 		RichText.BgColor				"Blank"
@@ -959,6 +974,8 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+
 		"HudFontSmallestShadow"
 		{
 			"1"
@@ -1337,6 +1354,18 @@ Scheme
 			{
 				"name"		"Marlett"
 				"tall"		"20"
+				"weight"	"0"
+				"symbol"	"1"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+			}
+		}
+		
+		"MarlettSmall"
+		{
+			"1"
+			{
+				"name"		"Marlett"
+				"tall"		"14"
 				"weight"	"0"
 				"symbol"	"1"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1988,7 +2017,7 @@ Scheme
 			{
 				
 				"name"		 "Cerbetica_edited"
-				"tall" 		 "14"
+				"tall" 		 "12"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -1998,7 +2027,7 @@ Scheme
 		"1"
 			{
 				"name"		 "Cerbetica_edited"
-				"tall" 		 "15"
+				"tall" 		 "13"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -2008,7 +2037,7 @@ Scheme
 		"1"
 			{
 				"name"		 "Cerbetica_edited"
-				"tall" 		 "16"
+				"tall" 		 "14"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -3061,6 +3090,16 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
+		"CerbeticaBoldMedic56"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica Bold Medic"
+				"tall" 		 "56"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
 		"CerbeticaBold64"
 		{
 			"1"
@@ -3089,6 +3128,17 @@ Scheme
 				"tall" 		 "124"
 				"additive"	 "0"
 				"antialias"	 "1"
+			}
+		}
+		"TF2ComboBox"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"11"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
 			}
 		}
 
@@ -5406,8 +5456,45 @@ Scheme
 			"font" "resource/Cerbetica_bold.ttf"
 			"name" "Cerbetica Bold"
 		}
-
+		"14"
+		{
+			"font" "resource/Cerbetica_bold_medic.otf"
+			"name" "Cerbetica Bold Medic"
+		}	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
