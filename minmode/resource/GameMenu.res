@@ -3,7 +3,7 @@
 
 	"VersionNumber"
 	{
-		"label" "rayshud v3.72" 
+		"label" "rayshud v3.8" 
 		"subimage" ""
 		"OnlyAtMenu" "0"
 	}
