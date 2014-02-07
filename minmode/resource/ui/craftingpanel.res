@@ -51,31 +51,43 @@
 			
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-			
-			"itemmodelpanel"
+
+			"MainContentsContainer"
 			{
-				"use_item_rendertarget" "0"
-				"allow_rot"				"0"
-			}
-			
-			"namelabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"namelabel"
+				"ControlName"	"EditablePanel"
+				"fieldName"		"MainContentsContainer"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"50"
-				"tall"			"30"
-				"autoResize"	"0"
-				"pinCorner"		"0"
+				"wide"			"f0"
+				"tall"			"f0"
 				"visible"		"1"
-				"enabled"		"1"
-				"labelText"		"%itemname%"
-				"textAlignment"	"south"
-				"fgcolor"		"235 226 202 255"
-				"wrap"			"1"
-				"centerwrap"	"1"
+				"bgcolor_override"		"0 0 0 0"
+			
+				"itemmodelpanel"
+				{
+					"use_item_rendertarget" "0"
+					"allow_rot"				"0"
+				}
+			
+				"namelabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"namelabel"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"2"
+					"wide"			"50"
+					"tall"			"30"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"labelText"		"%itemname%"
+					"textAlignment"	"south"
+					"fgcolor"		"235 226 202 255"
+					"wrap"			"1"
+					"centerwrap"	"1"
+				}
 			}
 		}
 		
@@ -259,15 +271,6 @@
 			"Command"		"craft"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground"	"1"
-			"defaultBgColor_override"	"15 15 15 255k"
-			"armedBgColor_override"		"25 25 25 255"
-			"depressedBgColor_override"	"25 25 25 255"
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanLight"
-			"border_default"			"ButtonHover"
-			"border_armed"				"DbButtonHover"
 		}			
 		
 		"FreeAccountLabel"
@@ -359,29 +362,49 @@
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
+		"PaintBackgroundType"	"2"
+		"paintborder"	"1"
+		
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
+		
 		"BackColor"
     	{
     		"ControlName"		"EditablePanel"
     		"fieldName"			"BackColor"
     		"xpos"				"0"
     		"ypos"				"0"
-    		"zpos"				"1"
+    		"zpos"				"-1"
     		"wide"				"f0"
     		"tall"	 			"f0"
     		"visible"			"1"
     		"enabled"			"1"
-			"pinCorner"		"0"
-			"autoResize"	"0"
-			"PaintBackgroundType"	"0"
-			"border"		"NoBorder"
-			"bgcolor_override"	"30 30 30 255"
+			"pinCorner"			"0"
+			"autoResize"		"0"
+			"PaintBackgroundType""1"
+			"border"			"NoBorder"
+			"bgcolor_override"	"35 35 35 255"
+			
+			"attriblabel"
+			{
+				"font"			"ItemFontAttribLarge"
+				"xpos"			"0"
+				"ypos"			"30"
+				"zpos"			"101"
+				"wide"			"140"
+				"tall"			"60"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"%attriblist%"
+				"textAlignment"	"center"
+				"fgcolor"		"117 107 94 255"
+				"centerwrap"	"1"
+			}
     	}
 	}
 	
@@ -426,7 +449,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
-
+		
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -453,8 +476,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowExplanationsButton"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"c275"
+		"ypos"			"10"
 		"zpos"			"100"
 		"wide"			"20"
 		"tall"			"20"

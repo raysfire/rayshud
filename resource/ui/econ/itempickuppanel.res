@@ -45,16 +45,17 @@
     		"fieldName"			"BackColor"
     		"xpos"				"0"
     		"ypos"				"0"
-    		"zpos"				"1"
+    		"zpos"				"-1"
     		"wide"				"f0"
     		"tall"	 			"f0"
     		"visible"			"1"
     		"enabled"			"1"
-			"pinCorner"		"0"
-			"autoResize"	"0"
-			"PaintBackgroundType"	"0"
-			"border"		"NoBorder"
-			"bgcolor_override"	"30 30 30 255"
+			"pinCorner"			"0"
+			"autoResize"		"0"
+			"PaintBackgroundType""1"
+			"border"			"NoBorder"
+			"bgcolor_override"	"35 35 35 255"
+			
 			}
 			
 			"itemmodelpanel"
@@ -62,6 +63,8 @@
 				"use_item_rendertarget" "0"
 				"inventory_image_type" "1"
 			}
+		
+
 		}
 	}
 	
