@@ -87,25 +87,5 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-		
-		"attriblabel"
-		{
-		"ControlName"	"CExLabel"
-		"fieldName"		"attriblabel"
-		"font"			"ItemFontAttribLarge"
-		"xpos"			"0"
-		"ypos"			"30"
-		"zpos"			"2"
-		"wide"			"140"
-		"tall"			"60"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%attriblist%"
-		"textAlignment"	"north"
-		"fgcolor"		"235 226 202 255"
-		"centerwrap"	"1"
-		}
 	}	
 }
