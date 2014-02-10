@@ -1,6 +1,6 @@
 HOW TO INSTALL RAYSHUD:
 
-1. Extract the files of this folder to your C:\Program Files (x86)\Steam\steamapps\<USERNAME>\team fortress 2\tf folder.
+1. Extract the files of this folder to your C:\Program Files (x86)\Steam\steamapps\common\team fortress 2\tf\custom\<ANY FOLDER NAME> folder.
 
 IF YOU WANT THE MINMODE VERSION:
 
