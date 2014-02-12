@@ -339,21 +339,21 @@
 			"tall"		"240"
 			"visible"	"0"
 			"enabled"	"1"
-			"border"	"CyanBorder"
+			"border"	"QuickplayBorder"
 			"bgcolor_override"	"0 0 0 255"
 
 			"TitleLabel"
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"TitleLabel"
-				"font"			"HudFontMediumBold"
+				"font"			"HudFontSmallBold"
 				"labelText"		"#TF_Quickplay_AdvancedOptions"
 				"textAlignment"	"center"
 				"xpos"			"10"
-				"ypos"			"15"
+				"ypos"			"10"
 				"zpos"			"1"
 				"wide"			"355"
-				"tall"			"28"
+				"tall"			"15"
 				"autoResize"	"1"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -383,20 +383,20 @@
 					"ypos"			"0"
 					"zpos"			"2"
 					"wide"			"180"
-					"tall"			"18"
+					"tall"			"15"
 				}
 
 				"OptionCombo"
 				{
 					"ControlName"		"ComboBox"
 					"fieldName"			"OptionCombo"
-					"Font"				"CerbeticaBold32"
+					"Font"				"HudFontSmallest"
 					"xpos"				"190"
 					"ypos"				"0"
 					"zpos"				"1"
 					"wide"				"165"
 					"tall"				"15"
-					"editable"			"1"
+					"editable"			"0"
 				}	
 			}
 
@@ -405,10 +405,10 @@
 				"ControlName"	"EditablePanel"
 				"fieldName"		"ValveServerOption"
 				"xpos"		"10"
-				"ypos"		"50"
+				"ypos"		"30"
 				"zpos"		"60"
 				"wide"		"175"
-				"tall"		"70"
+				"tall"		"60"
 
 				"OptionNameLabel"
 				{
@@ -430,7 +430,7 @@
 					"fieldName"			"RadioButton0"
 					"Font"				"HudFontSmallest"
 					"xpos"				"20"
-					"ypos"				"20"
+					"ypos"				"15"
 					"zpos"				"1"
 					"wide"				"165"
 					"tall"				"15"
@@ -442,7 +442,7 @@
 					"fieldName"			"RadioButton1"
 					"Font"				"HudFontSmallest"
 					"xpos"				"20"
-					"ypos"				"35"
+					"ypos"				"30"
 					"zpos"				"1"
 					"wide"				"165"
 					"tall"				"15"
@@ -454,7 +454,7 @@
 					"fieldName"			"RadioButton2"
 					"Font"				"HudFontSmallest"
 					"xpos"				"20"
-					"ypos"				"50"
+					"ypos"				"45"
 					"zpos"				"1"
 					"wide"				"165"
 					"tall"				"15"
@@ -466,10 +466,10 @@
 				"ControlName"	"EditablePanel"
 				"fieldName"		"IncreasedPlayerCountOption"
 				"xpos"		"195"
-				"ypos"		"50"
+				"ypos"		"30"
 				"zpos"		"60"
 				"wide"		"175"
-				"tall"		"70"
+				"tall"		"60"
 
 				"OptionNameLabel"
 				{
@@ -491,7 +491,7 @@
 					"fieldName"			"RadioButton0"
 					"Font"				"HudFontSmallest"
 					"xpos"				"20"
-					"ypos"				"20"
+					"ypos"				"15"
 					"zpos"				"1"
 					"wide"				"165"
 					"tall"				"15"
@@ -503,7 +503,7 @@
 					"fieldName"			"RadioButton1"
 					"Font"				"HudFontSmallest"
 					"xpos"				"20"
-					"ypos"				"35"
+					"ypos"				"30"
 					"zpos"				"1"
 					"wide"				"165"
 					"tall"				"15"
@@ -515,7 +515,7 @@
 					"fieldName"			"RadioButton2"
 					"Font"				"HudFontSmallest"
 					"xpos"				"20"
-					"ypos"				"50"
+					"ypos"				"45"
 					"zpos"				"1"
 					"wide"				"165"
 					"tall"				"15"
@@ -527,10 +527,10 @@
 				"ControlName"	"EditablePanel"
 				"fieldName"		"RandomCritsOption"
 				"xpos"		"10"
-				"ypos"		"145"
+				"ypos"		"100"
 				"zpos"		"60"
 				"wide"		"175"
-				"tall"		"70"
+				"tall"		"60"
 
 				"OptionNameLabel"
 				{
@@ -550,9 +550,9 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton0"
-					"font"				"HudFontSmallest"
+					"Font"				"HudFontSmallest"
 					"xpos"				"20"
-					"ypos"				"20"
+					"ypos"				"15"
 					"zpos"				"1"
 					"wide"				"165"
 					"tall"				"15"
@@ -562,9 +562,9 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton1"
-					"font"				"HudFontSmallest"
+					"Font"				"HudFontSmallest"
 					"xpos"				"20"
-					"ypos"				"35"
+					"ypos"				"30"
 					"zpos"				"1"
 					"wide"				"165"
 					"tall"				"15"
@@ -574,9 +574,9 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton2"
-					"font"				"HudFontSmallest"
+					"Font"				"HudFontSmallest"
 					"xpos"				"20"
-					"ypos"				"50"
+					"ypos"				"45"
 					"zpos"				"1"
 					"wide"				"165"
 					"tall"				"15"
@@ -588,10 +588,10 @@
 				"ControlName"	"EditablePanel"
 				"fieldName"		"RespawnTimesOption"
 				"xpos"		"195"
-				"ypos"		"145"
+				"ypos"		"100"
 				"zpos"		"60"
 				"wide"		"175"
-				"tall"		"70"
+				"tall"		"60"
 
 				"OptionNameLabel"
 				{
@@ -611,9 +611,9 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton0"
-					"font"				"HudFontSmallest"
+					"Font"				"HudFontSmallest"
 					"xpos"				"20"
-					"ypos"				"20"
+					"ypos"				"15"
 					"zpos"				"1"
 					"wide"				"165"
 					"tall"				"15"
@@ -625,7 +625,7 @@
 					"fieldName"			"RadioButton1"
 					"Font"				"HudFontSmallest"
 					"xpos"				"20"
-					"ypos"				"35"
+					"ypos"				"30"
 					"zpos"				"1"
 					"wide"				"165"
 					"tall"				"15"
@@ -637,12 +637,74 @@
 					"fieldName"			"RadioButton2"
 					"Font"				"HudFontSmallest"
 					"xpos"				"20"
-					"ypos"				"50"
+					"ypos"				"45"
 					"zpos"				"1"
 					"wide"				"165"
 					"tall"				"15"
 				}	
 			}
+
+			"DamageSpreadOption"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"DamageSpreadOption"
+				"xpos"		"10"
+				"ypos"		"170"
+				"zpos"		"60"
+				"wide"		"175"
+				"tall"		"60"
+
+				"OptionNameLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"OptionNameLabel"
+					"font"			"HudFontSmallBold"
+					"labelText"		"#TF_Quickplay_DamageSpread"
+					"textAlignment"	"left"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"2"
+					"wide"			"180"
+					"tall"			"15"
+				}
+
+				"RadioButton0"
+				{
+					"ControlName"		"RadioButton"
+					"fieldName"			"RadioButton0"
+					"Font"				"HudFontSmallest"
+					"xpos"				"20"
+					"ypos"				"15"
+					"zpos"				"1"
+					"wide"				"165"
+					"tall"				"15"
+				}	
+
+				"RadioButton1"
+				{
+					"ControlName"		"RadioButton"
+					"fieldName"			"RadioButton1"
+					"Font"				"HudFontSmallest"
+					"xpos"				"20"
+					"ypos"				"30"
+					"zpos"				"1"
+					"wide"				"165"
+					"tall"				"15"
+				}	
+
+				"RadioButton2"
+				{
+					"ControlName"		"RadioButton"
+					"fieldName"			"RadioButton2"
+					"Font"				"HudFontSmallest"
+					"xpos"				"20"
+					"ypos"				"45"
+					"zpos"				"1"
+					"wide"				"165"
+					"tall"				"15"
+				}	
+			}
+
 		}
 
 		"PlayNowButton"
