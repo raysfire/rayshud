@@ -453,7 +453,7 @@ Scheme
 		HudCaptureProgressBar.InActive	"HudProgressBarInActive"
 
 		// scheme-specific colors
-		"FgColor"		"Orange"
+		"FgColor"		"255 180 60 255"
 		"BgColor"		"TransparentBlack"
 
 		"ViewportBG"		"Blank"
@@ -713,12 +713,10 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Trebuchet MS" [!$OSX]
-				"name"		"Helvetica" [$OSX]
-				"tall"		"18"
-				"weight"	"900"
-				"antialias" "1"
-				"additive"	"1"
+				"name"		 "Cerbetica_edited"
+				"tall" 		 "18"
+				"additive"	 "0"
+				"antialias"	 "1"
 			}
 		}
 
@@ -737,39 +735,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"700"
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"13"	[$WIN32]
-				"tall"		"23"	[$X360]
-				"weight"	"700"
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"700"
-				"yres"	"768 1023"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"700"
-				"yres"	"1024 1199"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"24"
-				"weight"	"700"
-				"yres"	"1200 10000"
+				"name"		 "Cerbetica_edited"
+				"tall" 		 "12"
+				"additive"	 "0"
+				"antialias"	 "1"
 			}
 		}
 		"HudFontGiant"
