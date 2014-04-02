@@ -256,13 +256,14 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
+		
 		"BackColor"
     	{
     		"ControlName"		"EditablePanel"
     		"fieldName"			"BackColor"
     		"xpos"				"0"
     		"ypos"				"0"
-    		"zpos"				"1"
+    		"zpos"				"-1"
     		"wide"				"f0"
     		"tall"	 			"f0"
     		"visible"			"1"
