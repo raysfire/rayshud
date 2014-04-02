@@ -1273,7 +1273,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Cerbetica_edited"
+				"name"		"Cerbetica Bold"
 				"tall"		"32"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -1282,7 +1282,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Cerbetica_edited"
+				"name"		"Cerbetica Bold"
 				"tall"		"32"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1311,7 +1311,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Cerbetica_edited"
+				"name"		"Cerbetica Bold"
 				"tall"		"32"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
