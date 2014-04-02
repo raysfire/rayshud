@@ -263,4 +263,52 @@
 		"image"			"../signs/death_wheel_whammy"
 		"fgcolor"		"TanDark"
 	}
+		"PlayerStatus_SoldierOffenseBuff"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_SoldierOffenseBuff"
+		"xpos"			"85"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../HUD/defense_buff_bullet_blue"
+		"fgcolor"		"TanDark"
+	}
+
+	"PlayerStatus_SoldierDefenseBuff"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_SoldierDefenseBuff"
+		"xpos"			"85"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../HUD/defense_buff_bullet_blue"
+		"fgcolor"		"TanDark"
+	}
+
+	"PlayerStatus_SoldierHealOnHitBuff"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_SoldierHealOnHitBuff"
+		"xpos"			"85"
+		"xpos_minmode"	"70"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../HUD/defense_buff_bullet_blue"
+		"fgcolor"		"TanDark"
+	}
 }
