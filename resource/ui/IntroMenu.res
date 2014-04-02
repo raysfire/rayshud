@@ -81,7 +81,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"Continue"
-		"xpos"			"r190"
+		"xpos"			"99999"
 		"ypos"			"r40"
 		"zpos"			"6"
 		"wide"			"150"
@@ -90,29 +90,6 @@
 		"pinCorner"		"2"`
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"
-		"labelText"		"CONTINUE (&E)"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"wrap"			"0"
-		"command"		"skip"
-		"font"			"MenuSmallFont"
-	}
-	
-	"Continue2" [$WIN32] 
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"Continue2"
-		"xpos"			"r190"
-		"ypos"			"r40"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"2"`
-		"visible"		"0"
-		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"CONTINUE (&E)"
 		"textAlignment"	"center"
@@ -155,9 +132,9 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ReplayVideo"
-		"xpos"			"40"
+		"xpos"			"9999"
 		"xpos_hidef"			"50"
-		"ypos"			"r40"
+		"ypos"			"9999"
 		"ypos_lodef"			"r64"
 		"ypos_hidef"			"r54"
 		"zpos"			"6"
