@@ -23,15 +23,15 @@ Scheme
 	
 		//rayshud colors
 	
-		"Ammo In Clip"							"48 255 48 255"
-		"Ammo In Reserve"						"72 255 255 255"
-		"Ammo In Clip Low"						"255 42 130 255"
-		"Ammo In Reserve Low"					"255 128 28 255"
+		"Ammo In Clip" 		 "148 0 211 255"
+		"Ammo In Reserve" 		 "127 255 212 255"
+		"Ammo In Clip Low" 		 "255 255 0 255"
+		"Ammo In Reserve Low" 		 "255 140 0 255"
 		
 		//refers to watching stvs/killcam shots
-		"Spec Health Normal"					"235 226 202 255"
-		"Spec Health Buff"						"48 255 48 255"			
-		"Spec Health Hurt"						"255 153 0 255"
+		"Spec Health Normal" 		 "235 226 202 255"
+		"Spec Health Buff" 		 "148 0 211 255"			
+		"Spec Health Hurt" 		 "255 215 0 255"
 		
 		//alternate colors for flashing values
 		"Alternate Spec Health Normal"						"235 226 202 255"
@@ -39,29 +39,29 @@ Scheme
 		"Alternate Spec Health Hurt"						"255 153 0 255"
 		
 		//refers to player health/targetids
-		"Health Normal"							"235 226 202 255"
-		"Health Buff"							"48 255 48 255"
-		"Health Hurt"							"255 153 0 255"
+		"Health Normal" 		 "235 226 202 255"
+		"Health Buff" 		 "148 0 211 255"
+		"Health Hurt" 		 "255 215 0 255"
 		
 		//alternate colors for flashing values
 		"Alternate Health Normal"						"235 226 202 255"
 		"Alternate Health Buff"						"48 255 48 255"			
 		"Alternate Health Hurt"						"255 153 0 255"
 		
-		"Uber Bar Color"						"235 226 202 255"
+		"Uber Bar Color" 		 "235 226 202 255"
 
 		//solid color uber disabled by default; to enable, uncomment lines in hudanimations_tf.txt
 		"Solid Color Uber"						"255 50 255 255"
 		
-		"Flashing Uber Color1"					"255 165 0 255"
-		"Flashing Uber Color2"					"255 69 0 255"
-		//"Ubercharge Amount"						"48 255 48 255" // disabled temporarily; currently controlled by ammo in clip color
+		"Flashing Uber Color1" 		 "64 224 208 255"
+		"Flashing Uber Color2" 		 "148 0 211 255"
+		//"Ubercharge Amount" 		 "148 0 211 255" // disabled temporarily; currently controlled by ammo in clip color
 	
-		"Heal Numbers"							"48 255 48 255"
-		"Damage Numbers"						"72 255 255 255"
+		"Heal Numbers" 		 "148 0 211 255"
+		"Damage Numbers" 		 "0 255 255 255"
 		
 		//'Last DamageHeal Info' refers to the number that appears above hp
-		"Last DamageHeal Info"					"72 255 255 255"
+		"Last DamageHeal Info" 		 "72 255 255 255"
 		
 		//Menu/Color scheme colors
 		"Base Color"				"15 255 255 255"
@@ -141,8 +141,8 @@ Scheme
 
 		"Blank"				"0 0 0 0"
 		"ForTesting"		"255 0 0 32"
-		"ForTesting_Magenta"	"255 0 255 255"
-		"ForTesting_MagentaDim"	"255 0 255 120"
+		"ForTesting_Magenta"	"0 255 0 255"
+		"ForTesting_MagentaDim"	"0 255 0 120"
 
 		"HudPanelForeground"		"123 110 59 184"
 		"HudPanelBackground"		"123 110 59 184"
@@ -289,18 +289,18 @@ Scheme
 		Econ.Button.PresetArmedColorBg						"50 50 50 255"
 		Econ.Button.PresetDepressedColorBg					"25 25 25 255"
 		
-		Border.Bright					"Blank"		// the lit side of a control
-		Border.Dark						"Black"		// the dark/unlit side of a control
-		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
+		Border.Bright					"NoBorder"		// the lit side of a control
+		Border.Dark						"NoBorder"		// the dark/unlit side of a control
+		Border.Selection				"NoBorder"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"TanLight"
 		Button.BgColor					"25 25 25 255"
 		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"50 50 50 255"
+		Button.ArmedBgColor				"35 35 35 255"
 		Button.SelectedTextColor		"TanLight"
 		Button.SelectedBgColor			"25 25 25 255"
 		Button.DepressedTextColor		"TanLight"
-		Button.DepressedBgColor			"50 50 50 255"
+		Button.DepressedBgColor			"35 35 35 255"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
@@ -533,7 +533,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Cerbetica_edited"
 				"tall"		"12"
 				"weight"	"500"
 				"underline" "1"
@@ -541,7 +541,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Arial"
+				"name"		"Cerbetica_edited"
 				"tall"		"11"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -551,7 +551,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Cerbetica_edited"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -559,7 +559,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Cerbetica_edited"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -567,7 +567,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Cerbetica_edited"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -576,7 +576,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Cerbetica_edited"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -585,7 +585,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Cerbetica_edited"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -594,7 +594,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Arial"
+				"name"		"Cerbetica_edited"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -606,7 +606,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Cerbetica_edited"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -614,35 +614,31 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Cerbetica_edited"
 				"tall"		"12"
-				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Cerbetica_edited"
 				"tall"		"12"
-				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Cerbetica_edited"
 				"tall"		"14"
-				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Cerbetica_edited"
 				"tall"		"16"
-				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
 				"antialias"	"1"
@@ -652,7 +648,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Cerbetica_edited"
 				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -660,7 +656,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Cerbetica_edited"
 				"tall"		"21"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -668,7 +664,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Cerbetica_edited"
 				"tall"		"22"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -677,7 +673,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Cerbetica_edited"
 				"tall"		"28"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -686,7 +682,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Cerbetica_edited"
 				"tall"		"30"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -695,14 +691,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Verdana"
+				"name"		"Cerbetica_edited"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"Arial"
+				"name"		"Cerbetica_edited"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -724,7 +720,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Cerbetica_edited"
 				"tall"		"6"
 				"weight"	"500"
 				"additive"	"0"
@@ -1102,7 +1098,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Cerbetica_edited"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -1113,7 +1109,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Cerbetica_edited"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -1124,7 +1120,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Cerbetica_edited"
 				"tall"		"8"
 				"tall_hidef"	"9"
 				"tall_lodef"	"10"
@@ -1137,7 +1133,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Cerbetica_edited"
 				"tall"		"8"
 				"tall_hidef"	"7"
 				"weight"	"500"
@@ -1200,7 +1196,7 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Courier New"
+				"name"		"Cerbetica_edited"
 				"tall"		"14"
 				"weight"	"400"
 				"outline"	"1"
@@ -1842,7 +1838,7 @@ Scheme
 		{
 			"1"			// brower item hostname
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Cerbetica Bold"
 				"tall"		"22"
 				"weight"	"900"
 			}
@@ -1851,7 +1847,7 @@ Scheme
 		{
 			"1"			// browser item players and map name
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Cerbetica Bold"
 				"tall"		"18"
 				"weight"	"900"
 			}
@@ -1942,7 +1938,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Cerbetica Bold"
 				"tall"		"14"
 				"weight"	"900"
 				"antialias" "1"
@@ -3812,22 +3808,22 @@ Scheme
 
 		ButtonBorder
 		{
-			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"offset" "0 0"
+			"color" "blank"
 		}
 
 		// this is the border used for default buttons (the button that gets pressed when you hit enter)
 		ButtonKeyFocusBorder
 		{
-			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"offset" "0 0"
+			"color" "blank"
 		}
 
-		ButtonDepressedBorder
-		{
-			"inset" "0 0 0 0"
-			"backgroundtype" "2"
-		}
+		//ButtonDepressedBorder
+		//{
+		//	"offset" "0 0"
+		//	"color" "blank"
+		//}
 
 		ComboBoxBorder
 		{

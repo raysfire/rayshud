@@ -3812,22 +3812,22 @@ Scheme
 
 		ButtonBorder
 		{
-			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"offset" "0 0"
+			"color" "blank"
 		}
 
 		// this is the border used for default buttons (the button that gets pressed when you hit enter)
 		ButtonKeyFocusBorder
 		{
-			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"offset" "0 0"
+			"color" "blank"
 		}
 
-		ButtonDepressedBorder
-		{
-			"inset" "0 0 0 0"
-			"backgroundtype" "2"
-		}
+		//ButtonDepressedBorder
+		//{
+		//	"offset" "0 0"
+		//	"color" "blank"
+		//}
 
 		ComboBoxBorder
 		{
