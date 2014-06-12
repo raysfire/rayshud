@@ -654,13 +654,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"236 227 203 255"
-			
-			if_mvm
-			{
-				"font"			"Cerbetica16"
-				"xpos"			"c160"
-				"ypos"			"455"	[$WIN32]
-			}
 		}
 
 	"LocalPlayerDuelStatsPanel"
