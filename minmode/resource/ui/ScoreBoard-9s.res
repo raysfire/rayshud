@@ -621,14 +621,33 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		
 		if_mvm
 		{
 			"visible"		"0"
 		}
 	}
+	
+		"MapName"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"mapname"
+		"font"			"Cerbetica20"
+		"labelText"		"%mapname%"
+		"textAlignment"		"center"
+		"xpos"			"c-360"
+		"ypos"			"322"	
+		"zpos"			"3"
+		"wide"			"116"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"236 227 203 255"
+	}	
 
 	"LocalPlayerDuelStatsPanel"
 	{
@@ -962,24 +981,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}	
-		"MapName"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"mapname"
-			"font"			"Cerbetica16"
-			"labelText"		"%mapname%"
-			"textAlignment"		"center"
-			"xpos"			"28"
-			"ypos"			"238"
-			"zpos"			"3"
-			"wide"			"116"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"236 227 203 255"
-		}	
 		"GameType"
 		{
 			"ControlName"	"CExLabel"
@@ -994,8 +995,8 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"fgcolor"		"185 177 153 255"
 		}							
 		"Assists"
