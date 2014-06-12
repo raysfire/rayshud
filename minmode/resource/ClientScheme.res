@@ -2275,6 +2275,18 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		
+				
+		"Blocks24"
+		{
+			"1"
+			{
+				"name"		"Blocks"
+				"tall"		"24"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
 
 		//hud xhairs
 		"xHairCircle"
