@@ -892,6 +892,7 @@
 		"tall"			"500"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
+		"alpha"			"0"
 	}
 
 	HudFlameRocketCharge
@@ -1752,6 +1753,18 @@
 		"PaintBackgroundType"	"0"
 	}
 	
+			"HudEurekaEffectTeleportMenu"
+	{
+		"fieldName" 	"HudEurekaEffectTeleportMenu"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-125"
+		"ypos"			"c-55"
+		"wide"			"500"
+		"tall"			"200"
+		"PaintBackgroundType"	"0"
+	}
+	
 	"HudMenuSpyDisguise"
 	{
 		"fieldName" 	"HudMenuSpyDisguise"
@@ -2106,5 +2119,18 @@
 		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackgroundType"	"0" // rounded corners
+	}
+		"HudMenuTauntSelection"
+	{
+		"fieldName" 	"HudMenuTauntSelection"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-235"
+		"ypos"			"c-52"
+		"ypos_hidef"	"c-42"
+		"ypos_lodef"	"c-42"
+		"wide"			"470"
+		"tall"			"200"
+		"PaintBackgroundType"	"0"
 	}
 }
