@@ -2133,4 +2133,16 @@
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
+	
+		"HudMenuTauntSelection"
+	{
+		"fieldName" 	"HudMenuTauntSelection"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-235"
+		"ypos"			"c-85"
+		"wide"			"470"
+		"tall"			"200"
+		"PaintBackgroundType"	"0"
+	}
 }
