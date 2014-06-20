@@ -1570,6 +1570,75 @@
 				"font"		"Cerbetica16"	
 			}
 		}
+		
+		"SupportLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"SupportLabel"
+			"font"			"Cerbetica14"
+			"labelText"		"#TF_Scoreboard_Support"
+			"textAlignment"	"west"
+			"xpos"			"40"	[$WIN32]
+			"ypos"			"204"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		"Support"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Support"
+			"font"			"Cerbetica14"
+			"labelText"		"%support%"
+			"textAlignment"	"west"		
+			"xpos"			"100"	
+			"ypos"			"204"	
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		"DamageLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"DamageLabel"
+			"font"			"Cerbetica14"
+			"labelText"		"#TF_Scoreboard_Damage"
+			"textAlignment"	"west"
+			"xpos"			"40"	
+			"ypos"			"216"	
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		"Damage"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Damage"
+			"font"			"Cerbetica14"
+			"labelText"		"%damage%"
+			"textAlignment"	"west"		
+			"xpos"			"100"	
+			"ypos"			"216"
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
 	}
 
 	"ButtonLegendBG"		[$X360]
