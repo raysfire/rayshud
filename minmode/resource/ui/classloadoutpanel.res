@@ -554,12 +554,12 @@
 		"border_depressed"			"NoBorder"
 	}
 	
-		"CharacterLoadoutButton"
+	"CharacterLoadoutButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterLoadoutButton"
 		"labelText"		""
-		"xpos"			"c-84"
+		"xpos"			"c-166"
 		"ypos"			"c-180"
 		"zpos"			"10"
 		"wide"			"25"
@@ -597,8 +597,8 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TauntLoadoutButton"
 		"labelText"		""
-		"xpos"			"c55"
-		"ypos"			"c-180"
+		"xpos"			"c-166"
+		"ypos"			"c-153"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
