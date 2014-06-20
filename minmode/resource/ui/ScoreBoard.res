@@ -636,7 +636,7 @@
 		"labelText"		"%mapname%"
 		"textAlignment"		"center"
 		"xpos"			"c-360"
-		"ypos"			"322"	
+		"ypos"			"332"	
 		"zpos"			"3"
 		"wide"			"116"
 		"tall"			"20"

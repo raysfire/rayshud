@@ -645,7 +645,7 @@
 			"labelText"		"%mapname%"
 			"textAlignment"		"center"
 			"xpos"			"c-225"
-			"ypos"			"322"	
+			"ypos"			"332"	
 			"zpos"			"3"
 			"wide"			"116"
 			"tall"			"20"
@@ -1570,7 +1570,8 @@
 				"font"		"Cerbetica16"	
 			}
 		}
-				"SupportLabel"
+		
+		"SupportLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SupportLabel"
