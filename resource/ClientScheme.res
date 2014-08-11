@@ -23,42 +23,42 @@ Scheme
 	
 		//rayshud colors
 	
-		"Ammo In Clip"							"48 255 48 255"
-		"Ammo In Reserve"						"72 255 255 255"
-		"Ammo In Clip Low"						"255 42 130 255"
-		"Ammo In Reserve Low"					"255 128 28 255"
+		"Ammo In Clip"							"248 248 255"
+		"Ammo In Reserve"						"240 255 240"
+		"Ammo In Clip Low"						"250 128 114"
+		"Ammo In Reserve Low"					"233 150 122"
 		
 		//refers to watching stvs/killcam shots
-		"Spec Health Normal"					"235 226 202 255"
-		"Spec Health Buff"						"48 255 48 255"			
-		"Spec Health Hurt"						"255 153 0 255"
+		"Spec Health Normal"					"248 248 255"
+		"Spec Health Buff"						"0 191 255"			
+		"Spec Health Hurt"						"250 128 114"
 		
 		//alternate colors for flashing values
-		"Alternate Spec Health Normal"						"235 226 202 255"
-		"Alternate Spec Health Buff"						"48 255 48 255"			
-		"Alternate Spec Health Hurt"						"255 153 0 255"
+		"Alternate Spec Health Normal"						"248 248 255"
+		"Alternate Spec Health Buff"						"0 191 255"			
+		"Alternate Spec Health Hurt"						"250 128 114"
 		
 		//refers to player health/targetids
-		"Health Normal"							"235 226 202 255"
-		"Health Buff"							"48 255 48 255"
-		"Health Hurt"							"255 153 0 255"
+		"Health Normal"							"248 248 255"
+		"Health Buff"							"0 191 255"
+		"Health Hurt"							"250 128 114"
 		
 		//alternate colors for flashing values
-		"Alternate Health Normal"						"235 226 202 255"
-		"Alternate Health Buff"						"48 255 48 255"			
-		"Alternate Health Hurt"						"255 153 0 255"
+		"Alternate Health Normal"						"248 248 255"
+		"Alternate Health Buff"						"0 191 255"			
+		"Alternate Health Hurt"						"250 128 114"
 		
 		"Uber Bar Color"						"235 226 202 255"
 
 		//solid color uber disabled by default; to enable, uncomment lines in hudanimations_tf.txt
-		"Solid Color Uber"						"255 50 255 255"
+		"Solid Color Uber"						"124 252 0"
 		
-		"Flashing Uber Color1"					"255 165 0 255"
-		"Flashing Uber Color2"					"255 69 0 255"
+		"Flashing Uber Color1"					"0 255 0"
+		"Flashing Uber Color2"					"127 255 0"
 		//"Ubercharge Amount"						"48 255 48 255" // disabled temporarily; currently controlled by ammo in clip color
 	
-		"Heal Numbers"							"48 255 48 255"
-		"Damage Numbers"						"72 255 255 255"
+		"Heal Numbers"							"60 179 113"
+		"Damage Numbers"						"240 255 240"
 		
 		//'Last DamageHeal Info' refers to the number that appears above hp
 		"Last DamageHeal Info"					"72 255 255 255"
