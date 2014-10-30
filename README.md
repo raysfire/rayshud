@@ -51,11 +51,24 @@ Click the "ZIP" button with the cloud next to it in order to download the most r
 To Install
 --------
 
-Extract the "scripts" and "resources" folders to your tf directory. Your tf directory should be somewhere similar to this:
+Be sure to back up your old hud folder first! Never know when something might break, and it's always best to be prepared.
 
-C:\Program Files (x86)\Steam\steamapps\(steamusername)\team fortress 2\tf
+1. Press `Download Zip` on Github. This will download `rayshud-master.zip`
+2. Navigate to `C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf`
+3. Create a folder named `custom` if it does not already exist
+4. Extract .zip file contents into `custom` directory. You may rename the top folder whatever you wish.
 
-Just make sure to back up your old scripts and resources first! Never know when something might break, and it's always best to be prepared.
+The final structure should resemble the following:
+```
+tf
+└── custom
+    └── rayshud
+        ├── materials
+        ├── resource
+        ├── scripts
+        ├── sound
+        └── ...
+```
 
 
 Help/Support
