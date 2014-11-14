@@ -147,7 +147,7 @@
 		"font" 				"Default"
 		"xpos" 				"252"
 		"ypos" 				"55"
-		"zpos"				"2"
+		"zpos"				"3"
 		"wide" 				"86"
 		"tall" 				"9"
 		"autoResize" 		"0"
@@ -162,13 +162,13 @@
 	}
 	
 		"ChargeMeter2"
-		{
+	{
 		"ControlName" 		"ContinuousProgressBar"
 		"fieldName" 		"ChargeMeter2"
 		"font" 				"Default"
 		"xpos" 				"252"
 		"ypos" 				"66"
-		"zpos"				"2"
+		"zpos"				"3"
 		"wide" 				"86"
 		"tall" 				"10"
 		"autoResize" 		"0"
@@ -179,7 +179,7 @@
 		"dulltext" 			"0"
 		"brighttext" 		"0"
 		"fgcolor_override"		"Uber Bar Color"
-		}
+	}
 
 	"ChargeMeter3"
 	{
@@ -188,7 +188,7 @@
 		"font" 				"Default"
 		"xpos" 				"252"
 		"ypos" 				"78"
-		"zpos" 				"2"
+		"zpos" 				"3"
 		"wide" 				"86"
 		"tall" 				"10"
 		"autoResize" 		"0"
@@ -208,7 +208,7 @@
 		"font" 			"Default"
 		"xpos"			"252"
 		"ypos" 			"90"
-		"zpos" 			"2"
+		"zpos" 			"3"
 		"wide" 			"86"
 		"tall" 			"9"
 		"autoResize" 	"0"

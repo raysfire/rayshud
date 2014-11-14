@@ -167,7 +167,7 @@
 		"font" 				"Default"
 		"xpos" 				"158"
 		"ypos" 				"23"
-		"zpos" 				"3"
+		"zpos" 				"4"
 		"wide" 				"19"
 		"tall" 				"10"
 		"autoResize" 		"0"
