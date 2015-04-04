@@ -3613,7 +3613,7 @@
 		"zpos"			"-60"
 		"wide"			"320"
 		"tall"			"f0"
-		"visible"		"1"
+		"visible"		"0 "
 		"PaintBackgroundType"	"0"
 
 			
