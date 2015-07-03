@@ -1,9 +1,8 @@
 "GameMenu" [$WIN32]
 {
-
 	"VersionNumber"
 	{
-		"label" "rayshud v3.99" 
+		"label" "rayshud v7.2" 
 		"subimage" ""
 		"OnlyAtMenu" "0"
 	}

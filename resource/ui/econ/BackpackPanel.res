@@ -969,7 +969,7 @@
 		"end_tall"		"115"
 		"callout_inparents_x"	"c240"
 		"callout_inparents_y"	"290"
-		"next_explanation"		"DeleteExplanation"
+		"next_explanation"		"ContextExplanation"
 		
 		"TitleLabel"
 		{
@@ -1170,7 +1170,7 @@
 		}	
 	}	
 	
-	"DeleteExplanation"
+	"ContextExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
 		"fieldName"		"DeleteExplanation"

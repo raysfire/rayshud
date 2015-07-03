@@ -46,8 +46,10 @@
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
+			"model_center_x"        "1"
 			"model_ypos"	"3"
 			"model_tall"	"52"
+			"model_wide"		"82"
 			"text_ypos"		"47"
 			"text_center"	"1"
 			"name_only"		"1"
@@ -186,7 +188,7 @@
 		
 		"render_texture""0"
 		"fov"			"30"
-		"allow_manip" 	"1"
+		"allow_rot"		"1"
 				
 		"model"
 		{
@@ -271,50 +273,32 @@
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
-		
-		"BackColor"
-    	{
-    		"ControlName"		"EditablePanel"
-    		"fieldName"			"BackColor"
-    		"xpos"				"0"
-    		"ypos"				"0"
-    		"zpos"				"-1"
-    		"wide"				"f0"
-    		"tall"	 			"f0"
-    		"visible"			"1"
-    		"enabled"			"1"
-			"pinCorner"			"0"
-			"autoResize"		"0"
-			"PaintBackgroundType""1"
-			"border"			"NoBorder"
-			"bgcolor_override"	"35 35 35 255"
-			
-			"attriblabel"
-			{
-				"font"			"ItemFontAttribLarge"
-				"xpos"			"0"
-				"ypos"			"30"
-				"zpos"			"101"
-				"wide"			"140"
-				"tall"			"60"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"labelText"		"%attriblist%"
-				"textAlignment"	"center"
-				"fgcolor"		"117 107 94 255"
-				"centerwrap"	"1"
-			}
-    	}
+		"PaintBackgroundType"	"2"
+		"paintborder"	"1"
 		
 		"text_ypos"			"0"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
-		"padding_height"	"30"
+		"padding_height"	"15"
+		
+		"attriblabel"
+		{
+			"font"			"ItemFontAttribLarge"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"2"
+			"wide"			"140"
+			"tall"			"60"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%attriblist%"
+			"textAlignment"	"center"
+			"fgcolor"		"117 107 94 255"
+			"centerwrap"	"1"
+		}
 	}
 	
 	"PassiveAttribsLabel"
