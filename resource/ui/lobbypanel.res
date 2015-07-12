@@ -1650,4 +1650,99 @@
 		"wide"		"200"
 		"tall"		"20"
 	}
+		"CompetitiveModeGroupBox"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"CompetitiveModeGroupBox"
+		"xpos"		"c-305"
+		"ypos"		"10"
+		"zpos"		"-1"
+		"wide"		"400"
+		"tall"		"330"
+		"visible"	"1"
+		"enabled"	"1"
+		//"border"	"MainMenuHighlightBorder"
+
+		// Dropdown
+		"CompetitiveModeComboBox"
+		{
+			"ControlName"		"ComboBox"
+			"fieldName"			"CompetitiveModeComboBox"
+			"Font"				"HudFontSmallestBold"
+			"xpos"				"20"
+			"ypos"				"10"
+			"zpos"				"0"
+			"wide"				"85"
+			"tall"				"15"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+			"textHidden"		"0"
+			"editable"			"0"
+			"maxchars"			"-1"
+			"NumericInputOnly"	"0"
+			"unicode"			"0"
+			"default"			"0"
+		
+			"fgcolor_override"	"235 226 202 255"
+			"bgcolor_override"	"0 0 0 0"
+			"disabledFgColor_override" "235 226 202 255"
+			"disabledBgColor_override" "0 0 0 0"
+			"selectionColor_override" "0 0 0 0"
+			"selectionTextColor_override" "235 226 202 255"
+			"defaultSelectionBG2Color_override" "0 0 0 0"
+		}
+
+		// Default image
+		"ModeImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"ModeImage"
+			"xpos"			"5"
+			"ypos"			"30"
+			"zpos"			"0"
+			"wide"			"300"
+			"tall"			"300"
+			"visible"		"0"
+			"enabled"		"1"
+			"mouseinputenabled" "0"
+			"image"			"main_menu/meta_cityonfire512"
+			"scaleImage"	"1"
+		}
+
+		"Leaderboard6v6"
+		{
+			"ControlName"	"CLadderLobbyLeaderboard"
+			"fieldName"		"Leaderboard6v6"
+			"xpos"			"0"
+			"ypos"			"30"
+			"zpos"			"0"
+			"wide"			"300"
+			"tall"			"300"
+			"visible"		"1"
+			"enabled"		"1"
+			"mouseinputenabled" "0"
+			"image"			"main_menu/meta_cityonfire512"
+			"scaleImage"	"1"
+			"entry_step"	"25"
+		}
+
+		"Leaderboard9v9"
+		{
+			"ControlName"	"CLadderLobbyLeaderboard"
+			"fieldName"		"Leaderboard9v9"
+			"xpos"			"0"
+			"ypos"			"30"
+			"zpos"			"0"
+			"wide"			"300"
+			"tall"			"300"
+			"visible"		"1"
+			"enabled"		"1"
+			"mouseinputenabled" "0"
+			"image"			"main_menu/meta_cityonfire512"
+			"scaleImage"	"1"
+			"entry_step"	"25"
+		}
+	}
 }
