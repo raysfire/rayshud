@@ -2533,6 +2533,18 @@ Scheme
 			"antialias" 	"1"
 			}
 		}
+
+		"CrosshairsOutline8"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"8"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
 		
 		"Crosshairs10"
 		{
@@ -2732,7 +2744,7 @@ Scheme
 			"name"			"Crosshairs"
 			"tall" 			"34"
 			"weight" 		"0"
-			"antialias" 	"1"
+			"antialias" 	"0"
 			"outline"		"1"
 			}
 		}
