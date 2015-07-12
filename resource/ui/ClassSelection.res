@@ -122,7 +122,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"&1   Scout"	[$WIN32]
+		"labelText"			"&1  Scout"	[$WIN32]
 		"textAlignment"		"west"
 		"Command"			"joinclass scout"
 		"font"				"CerbeticaBold16"
