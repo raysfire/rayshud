@@ -73,8 +73,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"8"
-			"tall"			"70"
+			"wide"			"12"
+			"tall"			"16"
 			"autoResize"	"0"
 			"visible"		"0"
 			"enabled"		"1"
@@ -282,23 +282,41 @@
 		"resize_to_text"	"1"
 		"padding_height"	"15"
 		
-		"attriblabel"
-		{
-			"font"			"ItemFontAttribLarge"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"2"
-			"wide"			"140"
-			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%attriblist%"
-			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
-			"centerwrap"	"1"
-		}
+		"BackColor"
+    	{
+    		"ControlName"		"EditablePanel"
+    		"fieldName"			"BackColor"
+    		"xpos"				"0"
+    		"ypos"				"0"
+    		"zpos"				"-1"
+    		"wide"				"f0"
+    		"tall"	 			"f0"
+    		"visible"			"1"
+    		"enabled"			"1"
+			"pinCorner"			"0"
+			"autoResize"		"0"
+			"PaintBackgroundType""1"
+			"border"			"NoBorder"
+			"bgcolor_override"	"35 35 35 255"
+			
+			"attriblabel"
+			{
+				"font"			"ItemFontAttribLarge"
+				"xpos"			"0"
+				"ypos"			"30"
+				"zpos"			"101"
+				"wide"			"140"
+				"tall"			"60"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"%attriblist%"
+				"textAlignment"	"center"
+				"fgcolor"		"117 107 94 255"
+				"centerwrap"	"1"
+			}
+    	}
 	}
 	
 	"PassiveAttribsLabel"
@@ -560,6 +578,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
+		"image_drawcolor"	"TanLight"
+		"image_armedcolor"	"Button Color"
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -597,6 +618,9 @@
 		"Command"		"tauntloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"image_drawcolor"	"TanLight"
+		"image_armedcolor"	"Button Color"
 
 		"SubImage"
 		{
