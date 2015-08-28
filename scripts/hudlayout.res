@@ -142,8 +142,29 @@
 		"wide"			"201"
 		"tall"			"201"
 
-		//"font"		"CrosshairsOutline24"
-		"font"			"Crosshairs24"
+		"font"		"CrosshairsOutline24"
+		//"font"			"Crosshairs24"
+		"labelText"		"3"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+
+	BasicDotSmall
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"BasicDotSmall"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"c-101"
+		"ypos"			"c-100"
+		"wide"			"201"
+		"tall"			"201"
+
+		"font"		"CrosshairsOutline8"
+		//"font"			"Crosshairs8"
 		"labelText"		"3"
 		"textAlignment"	"center"	
 		
@@ -168,13 +189,13 @@
 		"labelText"		"8"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"0 100 0 255"
 	}
-	
-	ThinCircle
+
+	CircleDotSmall
 	{
 		"controlName"	"CExLabel"
-		"fieldName"	 	"ThinCircle"
+		"fieldName"	 	"CircleDotSmall"
 		"visible"		"0"
 		"enabled"		"0"
 		"zpos"			"2"
@@ -185,11 +206,32 @@
 		"tall"			"200"
 
 		//"font"			"CrosshairsOutline34"
-		"font"			"Crosshairs34"
+		"font"			"Crosshairs8"
+		"labelText"		"8"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"55 55 55 255"
+	}
+	
+	ThinCircle
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"ThinCircle"
+		"visible"		"0"
+		"enabled"		"1"
+		"zpos"			"2"
+
+		"xpos"			"c-100"
+		"ypos"			"c-96"
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"CrosshairsOutline34"
+		//"font"			"Crosshairs34"
 		"labelText"		"9"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"0 100 0 255"
 	}
 	
 	WingsPlus
@@ -814,7 +856,21 @@
  
 	//end fighter pilot crosshair (4x3)
  
-
+	//"TransparentViewmodelMask"
+	//{
+	//	//alpha doesn't work for this, you need to change the texture's alpha
+	//	"ControlName"	"ImagePanel"
+	//	"fieldName"	"TransparentViewmodelMask"
+	//	"xpos"	"0"
+	//	"ypos"	"0"
+	//	"zpos"	"-100"
+	//	"wide"	"f0"
+	//	"tall"	"480"
+	//	"visible"	"1"
+	//	"enabled"	"1"
+	//	"image"	"replay/thumbnails/REFRACTnormal_transparent"
+	//	"scaleImage"	"1"
+	//}
 	
 	
 	HudPlayerStatus
@@ -1991,16 +2047,16 @@
 	
 	"HudAchievementTracker"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"HudAchievementTracker"
-		"xpos"			"5"
-		"NormalY"		"170"
-		"EngineerY"		"320"
-		"zpos"			"2"
-		"wide"			"200"
-		"tall"			"280"
-		"visible"		"1"
-		"enabled"		"1"	
+               "ControlName"   "EditablePanel"
+               "fieldName"             "HudAchievementTracker"
+               "xpos"                  "0"
+               "NormalY"               "0"
+               "EngineerY"             "0"
+               "wide"                  "f0"
+               "tall"                  "480"
+               "visible"               "1"
+               "enabled"               "1"    
+               "zpos"                  "1"
 	}
 	
 	HudTrainingInfoMsg
