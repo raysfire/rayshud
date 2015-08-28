@@ -15,8 +15,8 @@
 		"tabPosition"		"0"
 		"medal_width"		"14"
 		"avatar_width"		"50"	
-		"name_width"		"70"
-		"name_width_minmode""51"
+		"name_width"		"40"
+		"name_width_minmode""40"
 		"status_width"		"15"	
 		"nemesis_width"		"15"	
 		"class_width"		"15"	
@@ -989,7 +989,7 @@
 			"ypos"			"27"	[$WIN32]
 			}
 		}												
-		"Kills"
+		"Kills2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Kills"
@@ -1013,7 +1013,7 @@
 				"ypos"			"4"
 			}
 		}						
-		"Deaths"
+		"Deaths2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Deaths"
@@ -1055,7 +1055,7 @@
 			"enabled"		"0"
 			"fgcolor"		"185 177 153 255"
 		}							
-		"Assists"
+		"Assists2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Assists"
@@ -1199,7 +1199,7 @@
 				"font"		"Cerbetica16"	
 			}
 		}						
-		"Captures"
+		"Captures2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Captures"
@@ -1224,7 +1224,7 @@
 			}
 			
 		}						
-		"Defenses"
+		"Defenses2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Defenses"
@@ -1249,7 +1249,7 @@
 			}
 			
 		}						
-		"Domination"
+		"Domination2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Domination"
@@ -1273,7 +1273,7 @@
 				"font"		"Cerbetica16"	
 			}
 		}						
-		"Revenge"
+		"Revenge2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Revenge"
@@ -1388,7 +1388,7 @@
 			}
 			
 		}						
-		"Healing"
+		"Healing2"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Healing"
@@ -1412,7 +1412,7 @@
 				"font"		"Cerbetica16"	
 			}
 		}						
-		"Invuln"
+		"Invuln2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Invuln"
@@ -1436,7 +1436,7 @@
 				"font"		"Cerbetica16"	
 			}
 		}						
-		"Teleports"
+		"Teleports2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Teleports"
@@ -1453,7 +1453,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}						
-		"Headshots"
+		"Headshots2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Headshots"
@@ -1501,7 +1501,7 @@
 				"font"		"Cerbetica16"	
 			}
 		}
-		"Backstabs"
+		"Backstabs2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Backstabs"
@@ -1549,7 +1549,7 @@
 				"font"		"Cerbetica16"	
 			}
 		}
-		"Bonus"
+		"Bonus2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Bonus"
@@ -1591,7 +1591,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		"Support"
+		"Support2"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Support"
@@ -1625,7 +1625,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		"Damage"
+		"Damage2"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Damage"
