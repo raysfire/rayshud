@@ -218,7 +218,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"ThinCircle"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
