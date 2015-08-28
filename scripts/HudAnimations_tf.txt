@@ -936,5 +936,186 @@ event QuestItem_StaticPhoto_Reveal
 	Animate StaticPhoto Alpha	"0"	Accel		0	2
 }
 
+event HideStamp
+{
+	SetVisible ApplyStampButton		0					0
+}
+
+event CollectionCrafting_Intro
+{
+	// Reset
+	SetVisible ApplyStampButton		0					0
+	SetVisible Stamp				0					0
+	Animate Stamp					xpos c140	Accel	0 0
+	Animate DrawingPanel			xpos c0		Accel	0 0
+	Animate DrawingPanel			wide 0		Accel	0 0
+	Animate LetterFront				xpos c0		Accel	0 0
+	Animate LetterFront				wide 0		Accel	0 0
+	Animate LetterBack_Top		xpos c-250	Accel	0 0
+	Animate LetterBack_Top		ypos 400	Accel	0 0
+	Animate LetterBack_Top		wide 500	Accel	0 0
+	Animate LetterBack_Bottom		xpos c-250	Accel	0 0
+	Animate LetterBack_Bottom		ypos 400	Accel	0 0
+	Animate LetterBack_Bottom		wide 500	Accel	0 0
+	Animate LetterBack_Flap			xpos c-250	Accel	0 0
+	Animate LetterBack_Flap			ypos 400	Accel	0 0
+	Animate LetterBack_Flap			wide 500	Accel	0 0
+	Animate LetterBack_Flap			tall 0		Deaccel 0.6 0.4
+	Animate LetterBack_Top			ypos 400	Accel	0 0
+	SetVisible ReturnModel			0					0
+	Animate SendEvelopeButton		ypos 280	Accel	0 0
+	SetVisible	SendEvelopeButton		 0				0 
+	SetVisible ResponseTimeout		0					0
+	SetVisible WaitingForResponse	0					0
+
+	SetVisible ShowExplanationsButton1			1					0
+	SetVisible ShowExplanationsButton2			0					0
+	Animate TradeUpContainer	wide 800	Accel 0 0	
+
+	// Slide paper down
+	Animate TradeUpContainer Position	"0 60"	Deaccel	0	0.3
+
+	// Slider BG up
+	Animate BG			Position	"0 34"	Deaccel	0	0.3
+
+	// Fade dimmer down
+	Animate Dimmer Alpha "255" Linear 0 0.4
+}
+
+event CollectionCrafting_LetterStart
+{
+	// Slide envelope up
+	FireCommand	0.0 "playsound ui/trade_up_envelope_slide_in.wav"
+	Animate LetterBack_Bottom	ypos 60	Deaccel 0 0.3
+	Animate LetterBack_Flap		ypos 60	Deaccel 0 0.3
+	Animate LetterBack_Top		ypos 60	Deaccel 0 0.3
+	SetVisible ShowExplanationsButton1	0		0
+
+	// Close flap
+	FireCommand	0.3 "playsound ui/trade_up_envelope_fold.wav"
+	Animate LetterBack_Flap		tall 250 Deaccel 0.4 0.2
+	
+	// Start Flip
+	FireCommand	0.8 "playsound ui/trade_up_envelope_spin.wav"
+	Animate TradeUpContainer	wide 0	Accel 0.8 0	
+	Animate LetterBack_Bottom	wide 0	Accel 0.8 0.2
+	Animate LetterBack_Bottom	xpos c0	Accel 0.8 0.2
+	Animate LetterBack_Flap		wide 0	Accel 0.8 0.2
+	Animate LetterBack_Flap		xpos c0	Accel 0.8 0.2
+	Animate LetterBack_Top		wide 0	Accel 0.8 0.2
+	Animate LetterBack_Top		xpos c0	Accel 0.8 0.2
+	
+	// End Flips
+	Animate LetterFront			xpos c-250	Deaccel 1.0 0.2
+	Animate LetterFront			wide 500	Deaccel 1.0 0.2
+	Animate DrawingPanel		xpos c-250	Deaccel 1.0 0.2
+	Animate DrawingPanel		wide 500	Deaccel 1.0 0.2
+	SetVisible ApplyStampButton	1					1.3
+	SetVisible ShowExplanationsButton2	1			1.3
+}
+
+event CollectionCrafting_PlaceStamp
+{
+	SetVisible Stamp				1					0
+	SetVisible ApplyStampButton		0					0
+	FireCommand	0 "playsound ui/trade_up_apply_stamp.wav"
+}
+
+event CollectionCrafting_LetterSend
+{
+	SetVisible ShowExplanationsButton2	0			0
+	SetVisible	SendEvelopeButton		0			0 
+	Animate Stamp				xpos	c70	Deaccel	0 0.3
+	Animate LetterFront			xpos	c-320	Deaccel 0 0.3
+	Animate DrawingPanel		xpos	c-320	Deaccel 0 0.3
+
+	RunEventChild BehindItemParticlePanel PlayEnvelopSendParticles 0.3
+	Animate Stamp				xpos 1120	Accel 0.3 0.2
+	Animate LetterFront			xpos 1000	Accel 0.3 0.2
+	Animate DrawingPanel		xpos 1000	Accel 0.3 0.2
+	SetVisible CloseButton		0					0
+	FireCommand	0.2 "playsound ui/trade_up_envelope_slide_out.wav"
+}
+
+event PlayNewItemParticles
+{
+	FireCommand 0 "start0"
+}
+
+event PlayCrateSmashParticles
+{
+	FireCommand 0 "start1"
+}
+
+event PlayEnvelopSendParticles
+{
+	FireCommand 0 "start2"
+}
+
+event ShowFoundLabels
+{
+	Animate YouTradedForLabel alpha 0 Linear 0 0
+	Animate ItemName		alpha 0 Linear 0 0
+
+	Animate YouTradedForLabel alpha 255 Linear 3 1
+	Animate ItemName		alpha 255 Linear 3 1
+}
+
+event CollectionCrafting_ItemRecieved
+{
+	RunEventChild NewItemPanel ShowFoundLabels	0
+	FireCommand 0	"playcratesequence1"
+	SetVisible	NewItemPanel					0 0 
+	SetVisible ReturnModel						1 0.05
+	RunEventChild BehindItemParticlePanel PlayCrateSmashParticles 0.2
+
+	FireCommand	0 "playsound ui/trade_up_crate_smash.wav"
+
+	SetVisible	NewItemPanel	  1			1.5 
+	SetVisible CloseButton		  1			1.5
+
+	FireCommand 2.1 "playcratesequence2"
+	RunEventChild BehindItemParticlePanel PlayNewItemParticles 1.5
+	
+	FireCommand	1.0 "playsound ../player/taunt_medic_heroic.wav"
+}
+
+event CollectionCrafting_OKBlink_Repeatable
+{
+	Animate OkButton	FgColor Red		 Linear 0 0.1
+	Animate OkButton	FgColor TanLight Linear 0.1 0.1
+}
+
+event CollectionCrafting_OKBlink
+{
+	RunEvent CollectionCrafting_OKBlink_Repeatable 0
+	RunEvent CollectionCrafting_OKBlink_Repeatable 0.2
+	RunEvent CollectionCrafting_OKBlink_Repeatable 0.4
+	RunEvent CollectionCrafting_OKBlink_Repeatable 0.6
+}
+
+
+event CollectionCrafting_ShowSendButton
+{
+	SetVisible	SendEvelopeButton	  1					0 
+	Animate SendEvelopeButton		ypos	320 Deaccel 0 0.5
+}
+
+event CollectionCrafting_ShowWaiting
+{
+	SetVisible WaitingForResponse	1	0
+}
+
+event CollectionCrafting_HideWaiting
+{
+	SetVisible WaitingForResponse	0	0
+}
+
+event CollectionCrafting_ShowFailure
+{
+	SetVisible ResponseTimeout	1	0
+	SetVisible CloseButton		1	0
+}
+
 //
 
