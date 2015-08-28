@@ -988,7 +988,31 @@
 			"xpos"			"10"
 			"ypos"			"27"	[$WIN32]
 			}
-		}												
+		}		
+		"Kills"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Kills"
+			"font"			"Cerbetica48"
+			"labelText"		"%kills%"
+			"textAlignment"		"east"
+			"xpos"			"7"
+			"ypos"			"5"
+			"zpos"			"3"
+			"wide"			"70"
+			"tall"			"55"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			if_mvm
+			{
+				"font"			"Cerbetica56"
+				"xpos"			"360"
+				"ypos"			"4"
+			}
+		}			
 		"Kills2"
 		{
 			"ControlName"		"CExLabel"
@@ -1012,7 +1036,31 @@
 				"xpos"			"360"
 				"ypos"			"4"
 			}
-		}						
+		}		
+		"Deaths"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Deaths"
+			"font"			"Cerbetica48"
+			"labelText"		"%deaths%"
+			"textAlignment"		"west"
+			"xpos"			"96"
+			"ypos"			"5"
+			"zpos"			"3"
+			"wide"			"70"
+			"tall"			"55"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			if_mvm
+			{
+				"font"			"Cerbetica56"
+				"xpos"			"465"
+				"ypos"			"4"
+			}
+		}			
 		"Deaths2"
 		{
 			"ControlName"		"CExLabel"
@@ -1054,7 +1102,31 @@
 			"visible"		"0"
 			"enabled"		"0"
 			"fgcolor"		"185 177 153 255"
-		}							
+		}
+		"Assists"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Assists"
+			"font"			"Cerbetica14"
+			"labelText"		"%assists%"
+			"textAlignment"		"west"
+			"xpos"			"100"
+			"ypos"			"60"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			if_mvm
+			{
+				"font"			"Cerbetica16"	"xpos"			"90"
+				"ypos"			"3"	[$WIN32]
+			
+			}
+		}			
 		"Assists2"
 		{
 			"ControlName"		"CExLabel"
@@ -1198,7 +1270,7 @@
 				"ypos"		"27"
 				"font"		"Cerbetica16"	
 			}
-		}						
+		}
 		"Captures2"
 		{
 			"ControlName"		"CExLabel"
@@ -1225,6 +1297,105 @@
 			
 		}						
 		"Defenses2"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Defenses"
+			"font"			"Cerbetica14"
+			"labelText"		"%defenses%"
+			"textAlignment"		"west"
+			"xpos"			"100"	[$WIN32]
+			"ypos"			"96"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"90"
+				"ypos"		"79"
+				"font"		"Cerbetica16"	
+			}
+			
+		}						
+		"Domination"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Domination"
+			"font"			"Cerbetica14"
+			"labelText"		"%dominations%"
+			"textAlignment"		"west"
+			"xpos"			"100"	
+			"ypos"			"108"	
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"210"
+				"ypos"		"3"
+				"font"		"Cerbetica16"	
+			}
+		}						
+		"Revenge"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Revenge"
+			"font"			"Cerbetica14"
+			"labelText"		"%Revenge%"
+			"textAlignment"		"west"
+			"xpos"			"100"	
+			"ypos"			"120"	
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"210"
+				"ypos"		"29"
+				"font"		"Cerbetica16"	
+			}
+	
+		}		
+		"Captures"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Captures"
+			"font"			"Cerbetica14"
+			"labelText"		"%captures%"
+			"textAlignment"		"west"
+			"xpos"			"100"	
+			"ypos"			"84"	
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"90"
+				"ypos"		"54"
+				"font"		"Cerbetica16"	
+			}
+			
+		}						
+		"Defenses"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Defenses"
@@ -1388,6 +1559,95 @@
 			}
 			
 		}						
+		"Healing"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Healing"
+			"font"			"Cerbetica14"
+			"labelText"		"%healing%"
+			"textAlignment"		"west"
+			"xpos"			"100"	
+			"ypos"			"132"	
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"210"
+				"ypos"		"79"
+				"font"		"Cerbetica16"	
+			}
+		}						
+		"Invuln"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Invuln"
+			"font"			"Cerbetica14"
+			"labelText"		"%invulns%"
+			"textAlignment"		"west"
+			"xpos"			"100"	
+			"ypos"			"144"	
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"210"
+				"ypos"		"54	"
+				"font"		"Cerbetica16"	
+			}
+		}						
+		"Teleports"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Teleports"
+			"font"			"Cerbetica14"
+			"labelText"		"%teleports%"
+			"textAlignment"		"west"
+			"xpos"			"100"	[$WIN32]
+			"ypos"			"156"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}						
+		"Headshots"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Headshots"
+			"font"			"Cerbetica14"
+			"labelText"		"%headshots%"
+			"textAlignment"		"west"
+			"xpos"			"100"	
+			"ypos"			"168"	
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"330"
+				"ypos"		"3"
+				"font"		"Cerbetica16"	
+			}
+		}
 		"Healing2"
 		{
 			"ControlName"	"CExLabel"
@@ -1476,7 +1736,7 @@
 				"ypos"		"3"
 				"font"		"Cerbetica16"	
 			}
-		}						
+		}		
 		"BackstabsLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1498,6 +1758,30 @@
 			{
 				"xpos"		"240"
 				"ypos"		"27"
+				"font"		"Cerbetica16"	
+			}
+		}
+		"Backstabs"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Backstabs"
+			"font"			"Cerbetica14"
+			"labelText"		"%backstabs%"
+			"textAlignment"		"west"	
+			"xpos"			"100"
+			"ypos"			"180"
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"330"
+				"ypos"		"29"
 				"font"		"Cerbetica16"	
 			}
 		}
@@ -1549,6 +1833,30 @@
 				"font"		"Cerbetica16"	
 			}
 		}
+		"Bonus"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Bonus"
+			"font"			"Cerbetica14"
+			"labelText"		"%bonus%"
+			"textAlignment"		"west"		[$WIN32]
+			"xpos"			"100"
+			"ypos"			"192"
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			if_mvm
+			{
+				"xpos"		"330"
+				"ypos"		"54"
+				"font"		"Cerbetica16"	
+			}
+		}
 		"Bonus2"
 		{
 			"ControlName"		"CExLabel"
@@ -1591,6 +1899,23 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
+		"Support"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Support"
+			"font"			"Cerbetica14"
+			"labelText"		"%support%"
+			"textAlignment"	"west"		
+			"xpos"			"100"	
+			"ypos"			"204"	
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
 		"Support2"
 		{
 			"ControlName"	"CExLabel"
@@ -1619,6 +1944,23 @@
 			"ypos"			"216"	
 			"zpos"			"3"
 			"wide"			"95"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		"Damage"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Damage"
+			"font"			"Cerbetica14"
+			"labelText"		"%damage%"
+			"textAlignment"	"west"		
+			"xpos"			"100"	
+			"ypos"			"216"
+			"zpos"			"3"
+			"wide"			"35"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
