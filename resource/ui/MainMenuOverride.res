@@ -1730,7 +1730,7 @@
 			"use_proportional_insets" "1"
 			"font"			"CerbeticaBold20"
 			"textAlignment"	"center"
-			"labelText"		"rayshud v2015.7.12"
+			"labelText"		"rayshud v2015.8.27"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -3990,6 +3990,77 @@
 					"6"
 					{
 						"item"		"Taunt: Kazotsky Kick"
+						
+						"wide"		"f0"
+						"tall"		"f0"
+						"proportionaltoparent"	"1"
+						"show_market"	"0"
+					}
+					"7"
+					{
+						"item"		"Gun Mettle Cosmetic Case"
+
+						"wide"		"f0"
+						"tall"		"f0"
+						"proportionaltoparent"	"1"
+					}
+					"8"
+					{
+						"item"		"Gun Mettle Cosmetic Key"
+						
+						"wide"		"f0"
+						"tall"		"f0"
+						"proportionaltoparent"	"1"
+						"show_market"	"0"
+					}
+					"9"
+					{
+						"item"		"Map Token Snowplow"
+						
+						"wide"		"f0"
+						"tall"		"f0"
+						"proportionaltoparent"	"1"
+						"show_market"	"0"
+					}
+					"10"
+					{
+						"item"		"Map Token Borneo"
+						
+						"wide"		"f0"
+						"tall"		"f0"
+						"proportionaltoparent"	"1"
+						"show_market"	"0"
+					}
+					"11"
+					{
+						"item"		"Map Token Suijin"
+						
+						"wide"		"f0"
+						"tall"		"f0"
+						"proportionaltoparent"	"1"
+						"show_market"	"0"
+					}
+					"12"
+					{
+						"item"		"Strange Filter: Snowplow (Community)"
+						
+						"wide"		"f0"
+						"tall"		"f0"
+						"proportionaltoparent"	"1"
+						"show_market"	"0"
+					}
+					"13"
+					{
+						"item"		"Strange Filter: Borneo (Community)"
+						
+						"wide"		"f0"
+						"tall"		"f0"
+						"proportionaltoparent"	"1"
+						"show_market"	"0"
+					}
+					"14"
+					{
+						"item"		"Strange Filter: Suijin (Community)"
 						
 						"wide"		"f0"
 						"tall"		"f0"
