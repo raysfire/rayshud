@@ -205,6 +205,10 @@
 		{
 			"image"		"../console/title_eotl01"
 		}
+		if_community_update
+		{
+			"image"		"../console/title_invasion"
+		}
 	}
 	
 	"SidePanelBG"
@@ -1730,7 +1734,7 @@
 			"use_proportional_insets" "1"
 			"font"			"CerbeticaBold20"
 			"textAlignment"	"center"
-			"labelText"		"rayshud v2015.8.27"
+			"labelText"		"rayshud v2015.10.6"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
