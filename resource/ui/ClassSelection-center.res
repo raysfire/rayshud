@@ -31,6 +31,18 @@
 		"tabPosition"	"0"
 	}
 	
+	"charInfo"
+	{
+		"fieldName"		"charInfo"
+		"xpos"			"0"
+		"ypos"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"wide"			"0"
+		"tall"			"0"
+	}
+	
+	
 	"random"
 	{
 		"ControlName"		"CExLabel"
