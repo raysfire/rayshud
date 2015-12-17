@@ -4,43 +4,26 @@
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"c-140"
+		"xpos"				"c-300"
 		"ypos"				"8"
 		"zpos"				"0"
-		"wide"				"400"
+		"wide"				"600"
 		"tall"				"67"
 		"visible"			"1"
 		"enabled"			"1"
 		
-		"verbose"			"0"
+		"verbose"			"1"
 	}
 	
-	"StatsBackground"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"StatsBackground"
-		"xpos"			"c-224"
-		"ypos"			"375"	
-		"zpos"			"2"
-		"wide"			"545"
-		"tall"			"100"
-		"fillcolor"		"32 32 32 75"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-	}
-	
-
-
 	"ScoreboardBackground"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ScoreboardBackground"
-		"xpos"			"c-224"
-		"ypos"			"78"
+		"xpos"			"c-270"
+		"ypos"			"244"
 		"zpos"			"-1"
-		"wide"			"545"
-		"tall"			"288"
+		"wide"			"540"
+		"tall"			"500"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -50,13 +33,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica24"
 		"labelText"		"%popfile%"
 		"textAlignment"	"center"
-		"xpos"			"460"
-		"ypos"			"c198"
-		"wide"			"160"
-		"tall"			"24"
+		"xpos"			"c-270"
+		"ypos"			"c-30"
+		"wide"			"270"
+		"tall"			"30"
 		"fgcolor"		"tanlight"
 	}
 
@@ -64,10 +47,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"310"
-		"ypos"			"c198"
-		"wide"			"150"
-		"tall"			"34"
+		"xpos"			"c0"
+		"ypos"			"c-30"
+		"wide"			"270"
+		"tall"			"30"
 		"visible"		"1"
 		
 		"DifficultyLabel"
@@ -80,7 +63,7 @@
 			"xpos"			"0"
 			"ypos"			"-6"
 			"wide"			"0"
-			"tall"			"0"
+			"tall"			"0" //disable
 			"fgcolor"		"tanlight"
 		}
 		
@@ -88,13 +71,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"Cerbetica16"
+			"font"			"Cerbetica24"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"center"
 			"xpos"			"0"
-			"ypos"			"16"
-			"wide"			"150"
-			"tall"			"20"
+			"ypos"			"0"
+			"wide"			"270"
+			"tall"			"30"
 			"fgcolor"		"tanlight"
 		}
 	}
@@ -123,17 +106,17 @@
 	
 	"MvMPlayerList"
 	{
-		"ControlName"	"SectionedListPanel"
+		"ControlName"	"SectionedLsistPanel"
 		"fieldName"		"MvMPlayerList"
-		"xpos"			"c-214"
-		"ypos"			"79"
+		"xpos"			"c-260"
+		"ypos"			"248"
 		"wide"			"520"
-		"tall"			"150"
+		"tall"			"148"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"autoresize"	"1"
+		"autoresize"	"3"
 		"linespacing"	"22"
 		"textcolor"		"White"
 		"font"			"Cerbetica24"
@@ -143,9 +126,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"c-150"
-		"ypos"			"230"
-		"wide"			"400"
+		"xpos"			"c-190"
+		"ypos"			"70"
+		"wide"			"480"
 		"tall"			"205"
 		"visible"		"1"
 		
@@ -232,7 +215,7 @@
 			"visible"		"1"
 		}
 		
-		"RespecStatusLabel"
+				"RespecStatusLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecStatusLabel"
