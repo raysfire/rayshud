@@ -209,14 +209,6 @@
 		{
 			"image"		"../console/title_invasion"
 		}
-		if_operation
-		{
-			"image"		"../console/title_team_halloween2015"
-		}
-		+if_halloween_4
-		{
-			"image"		"../console/title_team_halloween2015"
-		}
 	}
 	
 	"SidePanelBG"
