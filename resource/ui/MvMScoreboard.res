@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"100"
+		"xpos"				"c-300"
 		"ypos"				"8"
 		"zpos"				"0"
 		"wide"				"600"
@@ -19,11 +19,11 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ScoreboardBackground"
-		"xpos"			"98"
-		"ypos"			"71"
+		"xpos"			"c-270"
+		"ypos"			"244"
 		"zpos"			"-1"
-		"wide"			"545"
-		"tall"			"288"
+		"wide"			"540"
+		"tall"			"500"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -36,9 +36,9 @@
 		"font"			"Cerbetica24"
 		"labelText"		"%popfile%"
 		"textAlignment"	"center"
-		"xpos"			"118"
-		"ypos"			"c145"
-		"wide"			"290"
+		"xpos"			"c-270"
+		"ypos"			"c-30"
+		"wide"			"270"
 		"tall"			"30"
 		"fgcolor"		"tanlight"
 	}
@@ -47,10 +47,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"430"
-		"ypos"			"c150"
-		"wide"			"150"
-		"tall"			"50"
+		"xpos"			"c0"
+		"ypos"			"c-30"
+		"wide"			"270"
+		"tall"			"30"
 		"visible"		"1"
 		
 		"DifficultyLabel"
@@ -62,8 +62,8 @@
 			"textAlignment"	"center"
 			"xpos"			"0"
 			"ypos"			"-6"
-			"wide"			"150"
-			"tall"			"30"
+			"wide"			"0"
+			"tall"			"0" //disable
 			"fgcolor"		"tanlight"
 		}
 		
@@ -71,13 +71,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"Cerbetica16"
+			"font"			"Cerbetica24"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"center"
 			"xpos"			"0"
-			"ypos"			"16"
-			"wide"			"150"
-			"tall"			"20"
+			"ypos"			"0"
+			"wide"			"270"
+			"tall"			"30"
 			"fgcolor"		"tanlight"
 		}
 	}
@@ -106,12 +106,12 @@
 	
 	"MvMPlayerList"
 	{
-		"ControlName"	"SectionedListPanel"
+		"ControlName"	"SectionedLsistPanel"
 		"fieldName"		"MvMPlayerList"
-		"xpos"			"110"
-		"ypos"			"79"
+		"xpos"			"c-260"
+		"ypos"			"248"
 		"wide"			"520"
-		"tall"			"150"
+		"tall"			"148"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -126,9 +126,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"163"
-		"ypos"			"220"
-		"wide"			"400"
+		"xpos"			"c-190"
+		"ypos"			"70"
+		"wide"			"480"
 		"tall"			"205"
 		"visible"		"1"
 		
