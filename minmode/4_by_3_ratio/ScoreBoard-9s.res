@@ -15,13 +15,16 @@
 		"tabPosition"		"0"
 		"avatar_width"		"54"
 		"medal_width"		"14"		
-		"name_width"		"80"
-		"name_width_minmode""60"
+		"name_width"		"0"
+		"name_width_short"	"65"
+		"spacer"			"5"
 		"status_width"		"15"	
 		"nemesis_width"		"15"	
-		"class_width"		"15"	
-		"score_width"		"24"
-		"ping_width"		"24"	
+		"class_width"		"20"	
+		"score_width"		"20"
+		"ping_width"		"20"	
+		"killstreak_width"	"15"
+		"killstreak_image_width" "15"
 	}
 	"BlueScoreBG"
 	{
@@ -369,12 +372,12 @@
 		"visible"		"1"	[$WIN32]
 		"enabled"		"1"
 	}
-	"ServerTimeLeft"
+	"ServerTimeLeftValue"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"ServerTimeLeft"
+		"fieldName"		"ServerTimeLeftValue"
 		"font"			"Cerbetica14"
-		"labelText"		"%servertimeleft%"
+		"labelText"		"%servertime%"
 		"textAlignment"		"west"
 		"xpos"			"2"
 		"ypos"			"16"
@@ -404,6 +407,8 @@
 		"autoresize"	"3"
 		"linespacing"	"14"
 		"fgcolor"		"blue"
+		"linegap"		"0"
+		"show_columns"	"0"		
 		
 		if_mvm
 		{
@@ -428,6 +433,8 @@
 		"autoresize"	"3"
 		"linespacing"	"14"
 		"textcolor"		"red"
+		"linegap"		"0"
+		"show_columns"	"0"		
 		
  		if_mvm
  		{
