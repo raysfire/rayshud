@@ -6504,55 +6504,6 @@ Scheme
 		{
 			"font" "resource/Cerbetica_bold_medic.otf"
 			"name" "Cerbetica Bold Medic"
-		}	
+		}
+	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
