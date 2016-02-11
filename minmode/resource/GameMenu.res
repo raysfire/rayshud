@@ -1,11 +1,5 @@
 "GameMenu" [$WIN32]
 {
-	"VersionNumber"
-	{
-		"label" "rayshud v2015.1217" 
-		"subimage" ""
-		"OnlyAtMenu" "0"
-	}
 	"QuickplayButton"
 	{
 		"label" "Play" 
@@ -20,6 +14,13 @@
 		"subimage" ""
 		"OnlyInGame" "1"
 	}
+	"CompetitiveButton"
+	{
+		"label" "Matchmaking" 
+		"command" "ladder_ui_show"
+		"subimage" "glyph_practice"
+		"OnlyAtMenu" "0"
+	}
 	"PlayPVEButton"
 	{
 		"label" "MvM" 
@@ -32,12 +33,13 @@
 		"label" "Servers" 
 		"command" "OpenServerBrowser"
 		"subimage" ""
-		"OnlyAtMenu" "1"
+		"OnlyAtMenu" "0"
 	} 
+	// used to reload the hud, not actually change servers
 	"ChangeServerButton"
 	{
-		"label" "Servers" 
-		"command" "OpenServerBrowser"
+		"label" "Reload HUD" 
+		"command" "engine hud_reloadscheme"
 		"subimage" "glyph_server_browser"
 		"OnlyInGame" "1"
 	}
@@ -57,6 +59,13 @@
 	{
 		"label" "Training"
 		"command" "offlinepractice"
+		"subimage" ""
+		"OnlyAtMenu" "1"
+	}
+	"MOTD_ShowButtonPanel"
+	{
+		"label" "E"
+		"command" "motd_show"
 		"subimage" ""
 		"OnlyAtMenu" "1"
 	}
