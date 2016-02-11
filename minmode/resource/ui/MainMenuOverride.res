@@ -2944,7 +2944,7 @@
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"Command"		"engine hud_reloadscheme"
+		"Command"		"engine incrementvar cl_hud_minmode 0 1 1"
 		
 		"border_default"	""
 		"border_armed"		"MainMenuTabs"
