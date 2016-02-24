@@ -175,19 +175,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"fillcolor"		"40 40 40 0"
-		
-		if_halloween
-		{
-			"image"		"../console/title_team_halloween2011"
-		}
-		if_fullmoon
-		{
-			"image"		"../console/title_fullmoon"
-		}
-		if_christmas
-		{
-			"image"		"../console/background_upward"
-		}
 	}
 
 	"SidePanelLeftStripe"
@@ -1910,7 +1897,7 @@
 			"use_proportional_insets" "1"
 			"font"			"Cerbetica14"
 			"textAlignment"	"east"
-			"labelText"		"v2016.2.11"
+			"labelText"		"v2016.2.23"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
