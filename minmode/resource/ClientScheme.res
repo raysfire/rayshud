@@ -64,6 +64,7 @@ Scheme
 		"Last DamageHeal Info"					"72 255 255 255"
 		
 		//Menu/Color scheme colors
+		"TransparentPanelBG"		"25 25 25 128"
 		"Base Color"				"15 255 255 255"
 		"Button Color"				"72 255 255 255"	
 		
@@ -2257,8 +2258,8 @@ Scheme
 				"weight"	"500"
 			}
 		}
-		
-					"QuestInstructionText_Merasmus"
+
+			"QuestInstructionText_Merasmus"
 		{
 			"1"
 			{
@@ -2377,7 +2378,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
+		
 		"AdFont_ItemName"
 		{
 			"1"
@@ -3059,6 +3060,26 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
+		"Cerbetica10"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica_edited"
+				"tall" 		 "10"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"Cerbetica11"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica_edited"
+				"tall" 		 "11"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
 		"Cerbetica12"
 		{
 			"1"
@@ -3161,12 +3182,32 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
+		"Cerbetica36"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica_edited"
+				"tall" 		 "36"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
 		"Cerbetica40"
 		{
 			"1"
 			{
 				"name"		 "Cerbetica_edited"
 				"tall" 		 "40"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"Cerbetica44"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica_edited"
+				"tall" 		 "44"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -3297,6 +3338,16 @@ Scheme
 			{
 				"name"		 "Cerbetica Bold"
 				"tall" 		 "17"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"CerbeticaBold18"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica Bold"
+				"tall" 		 "18"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -3474,6 +3525,16 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
+		"Multimedia16"
+		{
+			"1"
+			{
+				"name"		 "Heydings Icons"
+				"tall" 		 "16"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
 		"TF2ComboBox"
 		{
 			"1"
@@ -3503,7 +3564,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -3512,7 +3573,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -3521,7 +3582,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -3530,7 +3591,57 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
+					"offset" "0 0"
+				}
+			}
+		}
+		MainMenuTabs
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+			
+				"1"
+				{
+					"color" "Base Color"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Base Color"
+					"offset" "0 1"
+				}
+				"3"
+				{
+					"color" "Base Color"
+					"offset" "1 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "15 255 255 0"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "15 255 255 0"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "15 255 255 0"
 					"offset" "0 0"
 				}
 			}
@@ -6504,55 +6615,10 @@ Scheme
 		{
 			"font" "resource/Cerbetica_bold_medic.otf"
 			"name" "Cerbetica Bold Medic"
-		}	
+		}
+		"15" // Used for main menu icons
+		{
+			"font" "resource/heydings_icons.ttf"
+			"name" "Heydings Icons"
+		}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -344,22 +344,22 @@
 
 		if_competitive
 		{
-			"xpos"							"c-125"
+			"xpos"							"c-320"
 			"ypos"							"0"
-			"wide"							"250"
+			"wide"							"640"
 			"tall"							"480"
 
-			"team1_player_base_y"			"68"
-			"team2_player_base_y"			"68"
+			"team1_player_base_y"			"72"
+			"team2_player_base_y"			"72"
 			"team2_player_delta_x"			"52"
 			"team2_player_base_offset_x"	"5"
 		}
 		
 		if_readymode
 		{
-			"xpos"							"c-125"
+			"xpos"							"c-320"
 			"ypos"							"0"
-			"wide"							"250"
+			"wide"							"640"
 			"tall"							"480"
 
 			"team1_player_base_y"			"72"
@@ -686,6 +686,15 @@
 			"visible"		"0"
 		}
 		
+		if_readymode
+		{
+			"wide"			"640"
+		}
+		
+		if_competitive
+		{
+			"wide"			"640"
+		}
 	}
 
 	"HudTournamentBGHelp"
@@ -729,7 +738,7 @@
 	"HelpBackground"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"ScoreboardBackground"
+		"fieldName"		"HelpBackground"
 		"xpos"			"0"
 		"ypos"			"26"
 		"zpos"			"-1"
@@ -744,6 +753,16 @@
 		{
 			"visible"		"0"
 		}
+
+		if_readymode
+		{
+			"xpos"			"195"
+		}
+		
+		if_competitive
+		{
+			"xpos"			"195"
+		}		
 	}
 	
 	"TournamentInstructionsLabel"
@@ -774,6 +793,16 @@
 			"zpos"			"3"
 		}
 		
+		if_readymode
+		{
+			"wide"			"640"
+		}
+		
+		if_competitive
+		{
+			"wide"			"640"
+		}
+		
 	}
 	
 	"InstructionsBackground"
@@ -793,6 +822,16 @@
 		if_mvm
 		{
 			"visible"		"0"
+		}
+		
+		if_readymode
+		{
+			"xpos"			"195"
+		}
+		
+		if_competitive
+		{
+			"xpos"			"195"
 		}
 	}
 	
