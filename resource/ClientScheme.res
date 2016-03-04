@@ -3509,16 +3509,6 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
-		"CerbeticaBoldMedic56"
-		{
-			"1"
-			{
-				"name"		 "Cerbetica Bold Medic"
-				"tall" 		 "56"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
 		"CerbeticaBold64"
 		{
 			"1"
@@ -6658,16 +6648,12 @@ Scheme
 			"font" "resource/Cerbetica_bold.ttf"
 			"name" "Cerbetica Bold"
 		}
-		"14"
-		{
-			"font" "resource/Cerbetica_bold_medic.otf"
-			"name" "Cerbetica Bold Medic"
-		}
-		"15" // Used for main menu icons
+		"14" // Used for main menu icons
 		{
 			"font" "resource/heydings_icons.ttf"
 			"name" "Heydings Icons"
 		}
+	}
 }
 
 
