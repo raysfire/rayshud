@@ -1,7 +1,7 @@
-rayshud
+scruffshud
 =======
 
-A hud for Team Fortress 2.
+A fork of <a href="https://github.com/raysfire/rayshud">rayshud</a>, a hud for Team Fortress 2.
 
 About
 -------
