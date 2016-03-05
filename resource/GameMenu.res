@@ -2,7 +2,7 @@
 {
  	"VersionNumber"
  	{
-		"label" "rayshud v2016.0304" 
+		"label" "scruffshud v2016.0304" 
  		"subimage" ""
  		"OnlyAtMenu" "0"
  	}
