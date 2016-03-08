@@ -35,8 +35,8 @@ Be sure to back up your old hud folder first! Never know when something might br
 
 1. Press `Download Zip` on Github. This will download `scruffs-master.zip`
 2. Navigate to 
-	Windows: `C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf`
-	Mac:     `/Users/username/Library/Application Support/Steam/SteamApps/common/Team Fortress 2/tf`
+	* Windows: `C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf`
+	* Mac:     `/Users/username/Library/Application Support/Steam/SteamApps/common/Team Fortress 2/tf`
 3. Create a folder named `custom` if it does not already exist
 4. Extract .zip file contents into `custom` directory. You may rename the top folder whatever you wish.
 
