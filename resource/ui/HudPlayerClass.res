@@ -101,11 +101,11 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"r185"	[$WIN32]
-		"ypos"			"r148"	[$WIN32]
+		"xpos"			"25"	[$WIN32]
+		"ypos"			"175"	[$WIN32]
 		"zpos"			"2"		
-		"wide"			"75"
-		"tall"			"150"
+		"wide"			"175"
+		"tall"			"250"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -192,7 +192,7 @@
 			}
 			"Scout"
 			{
-				"fov"			"25"
+				"fov"			"35"
 				"angles_x"		"-17"
 				"angles_y"		"150"
 				"angles_z"		"-10"
@@ -202,7 +202,7 @@
 			}
 			"Sniper"
 			{
-				"fov"			"25"
+				"fov"			"30"
 				"angles_x"		"-10"
 				"angles_y"		"150"
 				"angles_z"		"0"
@@ -212,7 +212,7 @@
 			}
 			"Soldier"
 			{
-				"fov"			"25"
+				"fov"			"30"
 				"angles_x"		"-10"
 				"angles_y"		"150"
 				"angles_z"		"0"
@@ -222,7 +222,7 @@
 			}
 			"Demoman"
 			{
-				"fov"			"25"
+				"fov"			"30"
 				"angles_x"		"-13"
 				"angles_y"		"150"
 				"angles_z"		"0"
@@ -232,7 +232,7 @@
 			}
 			"Medic"
 			{
-				"fov"			"20"
+				"fov"			"30"
 				"angles_x"		"-5"
 				"angles_y"		"158"
 				"angles_z"		"0"
@@ -242,7 +242,7 @@
 			}
 			"Heavy"
 			{
-				"fov"			"20"
+				"fov"			"30"
 				"angles_x"		"-5"
 				"angles_y"		"150"
 				"angles_z"		"0"
@@ -252,7 +252,7 @@
 			}
 			"Pyro"
 			{
-				"fov"			"20"
+				"fov"			"30"
 				"angles_x"		"-5"
 				"angles_y"		"150"
 				"angles_z"		"0"
@@ -262,7 +262,7 @@
 			}
 			"Spy"
 			{
-				"fov"			"20"
+				"fov"			"30"
 				"angles_x"		"-5"
 				"angles_y"		"150"
 				"angles_z"		"0"
@@ -272,7 +272,7 @@
 			}
 			"Engineer"
 			{
-				"fov"			"20"
+				"fov"			"30"
 				"angles_x"		"-10"
 				"angles_y"		"150"
 				"angles_z"		"0"

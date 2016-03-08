@@ -64,3 +64,6 @@ Help/Support
 Credits
 --------
 
+Ray, For making the hud this hud is made off of and for his awesome vids ;)
+
+Flame, For his manual on making/editing huds.
