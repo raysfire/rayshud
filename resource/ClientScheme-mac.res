@@ -53,7 +53,7 @@ Scheme
 		//Rainbow Uber Colors
 		
 			"ColorRed"						"255 0 0 255"
-			"ColorVermillion"						"255 64 0 255"
+			"ColorVermillion"				"255 64 0 255"
 			"ColorOrange"					"255 128 0 255"
 			"ColorYellow"					"255 255 0 255"
 			"ColorLime"						"128 255 0 255"

@@ -6,6 +6,7 @@ A fork of <a href="https://github.com/raysfire/rayshud">rayshud</a>, a Team Fort
 About
 -------
 
+I made this hud because there wasn't really a hud out there that fit me perfectly. The reason I posted it on github is anytime i want to check my edits or merge rays changes with mine i could with ease.
 
 To-Do List
 --------
@@ -17,16 +18,10 @@ Screenshots
 --------
                
                   
-Features (can be disabled)
+Features
 -------
 
-* A rainbow-colored flashing charge meter. 
-
-This can be enabled by uncommenting all of the "Animate" lines under the event "HudMedicCharge" in HudAnimations_tf.txt in the scripts folder. Make sure to uncomment all of the lines in "HudMedicChargeStop", too!
-
-* Low ammo colors.
-
-This can be enabled by uncommenting all of the "Animate" lines under the event "HudLowAmmoPulse" in HudAnimations_tf.txt in the scripts folder. Make sure to uncomment all of the lines in "HudLowAmmoPulseStop", too!
+Coming soon...
 
 To Download
 --------
@@ -39,7 +34,9 @@ To Install
 Be sure to back up your old hud folder first! Never know when something might break, and it's always best to be prepared.
 
 1. Press `Download Zip` on Github. This will download `scruffs-master.zip`
-2. Navigate to `C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf`
+2. Navigate to 
+	Windows: `C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf`
+	Mac:     `/Users/username/Library/Application Support/Steam/SteamApps/common/Team Fortress 2/tf`
 3. Create a folder named `custom` if it does not already exist
 4. Extract .zip file contents into `custom` directory. You may rename the top folder whatever you wish.
 
@@ -59,7 +56,7 @@ tf
 Help/Support
 --------
 
-
+Coming soon...
 
 Credits
 --------
