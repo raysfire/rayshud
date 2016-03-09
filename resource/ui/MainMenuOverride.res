@@ -1897,7 +1897,7 @@
 			"use_proportional_insets" "1"
 			"font"			"Cerbetica14"
 			"textAlignment"	"east"
-			"labelText"		"v2016.3.4"
+			"labelText"		"v2016.3.9"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
