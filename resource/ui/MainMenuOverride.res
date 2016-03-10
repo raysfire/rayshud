@@ -1903,7 +1903,7 @@
 			"default"		"1"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/wooo_tree.wav"
+			"sound_released"	"UI/fulamo.wav"
 			
 			"border_default"	""
 			"border_armed"		""
