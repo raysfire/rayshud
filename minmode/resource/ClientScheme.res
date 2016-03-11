@@ -1513,6 +1513,30 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		"ScoreboardTeamCountNew"
+		{
+			"1"
+			{
+				"name"		"Cerbetica_edited"
+				"tall"		"14"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"ScoreboardTeamNameNew"
+		{
+			"1"
+			{
+				"name"		"Cerbetica_edited"
+				"tall"		"20"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
 		"ScoreboardTeamNameLarge"
 		{
 			"1"
@@ -1583,7 +1607,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"36"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1595,7 +1619,19 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Cerbetica_edited"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"CompMatchStartTeamNames"
+		{
+			"1"
+			{
+				"name"		"Cerbetica_edited"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2017,6 +2053,7 @@ Scheme
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
+				"dropshadow""1"
 				"antialias" "1"
 			}
 		}
