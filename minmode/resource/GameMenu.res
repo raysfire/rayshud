@@ -2,7 +2,7 @@
 {
  	"VersionNumber"
  	{
-		"label" "rayshud v2016.0309" 
+		"label" "rayshud v2016.0311" 
  		"subimage" ""
  		"OnlyAtMenu" "0"
  	}
@@ -44,8 +44,8 @@
 	// used to reload the hud, not actually change servers
 	"ChangeServerButton"
 	{
-		"label" "Reload HUD" 
-		"command" "engine hud_reloadscheme"
+		"label" "Report Player" 
+		"command"	"OpenReportPlayerDialog"
 		"subimage" "glyph_server_browser"
 		"OnlyInGame" "1"
 	}
@@ -129,5 +129,15 @@
 		"OnlyInGame"	"1"
 		"subimage" "icon_whistle"
 		"tooltip" "#MMenu_RequestCoach"
+	}
+	
+	//not in use, report players is instead used by "ChangeServers" button
+	"ReportPlayerButton"
+	{
+		"label"			""
+		"command"		"OpenReportPlayerDialog"
+		"OnlyInGame"	"1"
+		"subimage"		"glyph_alert"
+		"tooltip"		"#MMenu_ReportPlayer"
 	}
 }
