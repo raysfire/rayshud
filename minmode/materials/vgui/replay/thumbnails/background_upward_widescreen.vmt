@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$translucent" 1
+	"$baseTexture" "vgui\replay\thumbnails\background_upward_widescreen"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+}
+
