@@ -1,3 +1,5 @@
+//tick 52000
+
 "Resource/UI/HudTournament.res"
 {
 	HudTournament
@@ -951,7 +953,7 @@
 		{
 			"xpos"			"c-20"
 			"ypos"			"130"
-			"tall"			"20"
+			"tall"			"40"
 			"zpos"			"11"
 		}
 
@@ -992,9 +994,9 @@
 		
 		if_competitive
 		{
-			"xpos"			"c-18"
+			"xpos"			"c-19"
 			"ypos"			"130"
-			"tall"			"22"
+			"tall"			"41"
 			"zpos"			"10"
 		}
 
