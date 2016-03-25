@@ -17,7 +17,7 @@
 		"settitlebarvisible"	"0"
 		"paintborder"			"1"
 		"paintbackground"		"1"
-		"border"				"CyanBorderThick"
+		"border"				"NoBorder"
 		"bgcolor_override"		"25 25 25 255"
 		
 		"control_w"			"500"

@@ -23,7 +23,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Container"
-		"xpos"		"c-200"
+		"xpos"		"300"
 		"ypos"		"c-190"
 		"wide"		"400"
 		"tall"		"400"
@@ -34,7 +34,7 @@
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"CyanBorderThick"
+		"border"				"NoBorder"
 
 		"Background"
 		{
@@ -49,7 +49,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"25 25 25 255"
+			"bgcolor_override"	"25 25 25 230"
 		}
 
 		"TitleLabel"
