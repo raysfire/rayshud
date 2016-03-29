@@ -50,11 +50,11 @@ Click the "ZIP" button with the cloud next to it in order to download the most r
 
 Automatic Installation
 --------
-For linux users run this in terminal: `wget https://raw.githubusercontent.com/J-tt/RayshudInstallers/master/rayshudlinux.sh && chmod +x rayshudlinux.sh && ./rayshudlinux.sh && rm rayshudlinux.sh`
+For linux users run this in terminal: `wget https://raw.githubusercontent.com/J-tt/RayshudInstallers/master/rayshudunix.s && chmod +x rayshudunix.sh && ./rayshudunix.sh && rm rayshudunix.sh`
 
 For Windows users: Not available (build in progress)
 
-For Mac users: Install Git, then run this (in terminal) `wget https://raw.githubusercontent.com/J-tt/RayshudInstallers/master/rayshudlinux.sh && chmod +x rayshudunix.sh && ./rayshudlinux.sh && rm rayshudlinux.sh`
+For Mac users: Install Git, then run this (in terminal) `wget https://raw.githubusercontent.com/J-tt/RayshudInstallers/master/rayshudunix.s && chmod +x rayshudunix.sh && ./rayshudunix.sh && rm rayshudunix.sh`
 
 To Install
 --------
