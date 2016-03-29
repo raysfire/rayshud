@@ -43,18 +43,16 @@ This can be enabled by uncommenting all of the "Animate" lines under the event "
 
 This can be enabled by uncommenting all of the "Animate" lines under the event "HudLowAmmoPulse" in HudAnimations_tf.txt in the scripts folder. Make sure to uncomment all of the lines in "HudLowAmmoPulseStop", too!
 
-To Download
---------
-
-Click the "ZIP" button with the cloud next to it in order to download the most recent version of my hud! It should be at the top of the page. 
-
 Automatic Installation
 --------
 For linux users run this in terminal: `wget https://raw.githubusercontent.com/J-tt/RayshudInstallers/master/rayshudunix.sh && chmod +x rayshudunix.sh && ./rayshudunix.sh && rm rayshudunix.sh`
 
-For Windows users: Not available (build in progress)
+For Windows users: [Download and run](https://github.com/J-tt/RayshudInstallers/raw/master/InstallRayshud.exe)
 
-For Mac users: Install Git, then run this (in terminal) `wget https://raw.githubusercontent.com/J-tt/RayshudInstallers/master/rayshudunix.sh && chmod +x rayshudunix.sh && ./rayshudunix.sh && rm rayshudunix.sh`
+To Download
+--------
+
+Click the "ZIP" button with the cloud next to it in order to download the most recent version of my hud! It should be at the top of the page. 
 
 To Install
 --------
