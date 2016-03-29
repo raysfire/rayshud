@@ -48,6 +48,14 @@ To Download
 
 Click the "ZIP" button with the cloud next to it in order to download the most recent version of my hud! It should be at the top of the page. 
 
+Automatic Installation
+--------
+For linux users run this in terminal: `wget https://raw.githubusercontent.com/J-tt/RayshudInstallers/master/rayshudlinux.sh && chmod +x rayshudlinux.sh && ./rayshudlinux.sh && rm rayshudlinux.sh`
+
+For Windows users: Not available (build in progress)
+
+For Mac users: Install Git, then run this (in terminal) `wget https://raw.githubusercontent.com/J-tt/RayshudInstallers/master/rayshudlinux.sh && chmod +x rayshudunix.sh && ./rayshudlinux.sh && rm rayshudlinux.sh`
+
 To Install
 --------
 
@@ -69,6 +77,7 @@ tf
         ├── sound
         └── ...
 ```
+
 
 
 Help/Support
