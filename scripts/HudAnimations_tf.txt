@@ -1606,15 +1606,30 @@ event CompetitiveGame_ShowDisconnectButton
 	Animate DisconnectButton ypos r50 Accel 0 0.4
 }
 
-event CompetitiveGame_ShowWinnersSign
+event HudTournament_ShowRoundSign
 {
-	FireCommand 0.5 "animation intro"
-	FireCommand 12.3 "animation outro"
+	SetVisible RoundSignModel 1 0
+	RunEventChild RoundSignModel HudTournament_PlaySignAnim 0
+	SetVisible RoundSignModel 0 6
 }
 
-event HudTournament_ShowRoundSign
+event HudTournament_PlaySignAnim
 {
 	FireCommand 0 "animation intro"
 	FireCommand 5 "animation outro"
+}
+
+event TeamStatus_PlayerDead
+{
+	SetVisible DeathPanel  1 0
+	Animate DeathPanel ypos 19 Accel 0 0.2
+	Animate respawntime ypos 16 Accel 0 0.2
+}
+
+event TeamStatus_PlayerAlive
+{
+	Animate DeathPanel ypos 0 Accel 0 0.2
+	Animate respawntime ypos 0 Accel 0 0.2
+	SetVisible DeathPanel  0 0.2
 }
 //

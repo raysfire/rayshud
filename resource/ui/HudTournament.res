@@ -727,7 +727,50 @@
 		{
 			"wide"			"f0"
 			"xpos"			"0"
+			"ypos"			"24"
+		}
+	}
+	
+	//used for matchmaking to eliminate the need for a blank bg
+	
+	"TournamentConditionLabelShadow"
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"TournamentConditionLabelShadow"
+		"font"			"Cerbetica14"
+		"fgcolor"		"TransparentBlack"
+		"xpos"			"c-125"
+		"ypos"			"16"
+		"zpos"			"0"
+		"wide"			"250"
+		"tall"			"37"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"wrap"			"0"
+		"labelText"		"%winconditions%"
+		"textAlignment"		"center"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+		
+		if_readymode
+		{
+			"wide"			"f0"
+			"xpos"			"0"
 			"ypos"			"16"
+		}
+		
+		if_competitive
+		{
+			"visible"		"1"
+			"enabled"		"1"
+			"wide"			"f0"
+			"xpos"			"1"
+			"ypos"			"25"
 		}
 	}
 
@@ -796,6 +839,8 @@
 		if_competitive
 		{
 			"xpos"			"c-125"
+			"ypos"			"32"
+			"visible"		"0"
 		}		
 	}
 	
