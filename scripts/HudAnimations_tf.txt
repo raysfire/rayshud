@@ -446,15 +446,15 @@ event HudMedicCharged
 {
 
 ///////Rainbow Charge
-	Animate	ChargeLabel 	FgColor		"ColorGreen"		Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"ColorCyan"			Linear 0.1 0.1
-	Animate	ChargeLabel 	FgColor		"ColorBlue"			Linear 0.2 0.1
-	Animate	ChargeLabel 	FgColor		"ColorMagenta"		Linear 0.3 0.1
-	Animate	ChargeLabel 	FgColor		"ColorRed"			Linear 0.4 0.1
-	Animate	ChargeLabel 	FgColor		"ColorYellow"		Linear 0.5 0.1
+//	Animate	ChargeLabel 	FgColor		"ColorGreen"		Linear 0.0 0.1
+//	Animate	ChargeLabel 	FgColor		"ColorCyan"			Linear 0.1 0.1
+//	Animate	ChargeLabel 	FgColor		"ColorBlue"			Linear 0.2 0.1
+//	Animate	ChargeLabel 	FgColor		"ColorMagenta"		Linear 0.3 0.1
+//	Animate	ChargeLabel 	FgColor		"ColorRed"			Linear 0.4 0.1
+//	Animate	ChargeLabel 	FgColor		"ColorYellow"		Linear 0.5 0.1
 	
 ///////Solid Color Charge
-	Animate ChargeLabel	FgColor		"Solid Color Uber"	Linear 0.0 0.000
+//	Animate ChargeLabel	FgColor		"Solid Color Uber"	Linear 0.0 0.000
 	
 ///////Orange Pulse Charge
 
@@ -465,15 +465,15 @@ event HudMedicCharged
 
 
 ///////Rainbow Charge	
-	Animate	ChargeMeter 	FgColor		"ColorGreen"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"ColorCyan"			Linear 0.1 0.1
-	Animate	ChargeMeter 	FgColor		"ColorBlue"			Linear 0.2 0.1
-	Animate	ChargeMeter 	FgColor		"ColorMagenta"		Linear 0.3 0.1
-	Animate	ChargeMeter 	FgColor		"ColorRed"			Linear 0.4 0.1
-	Animate	ChargeMeter 	FgColor		"ColorYellow"		Linear 0.5 0.1
+//	Animate	ChargeMeter 	FgColor		"ColorGreen"		Linear 0.0 0.1
+//	Animate	ChargeMeter 	FgColor		"ColorCyan"			Linear 0.1 0.1
+//	Animate	ChargeMeter 	FgColor		"ColorBlue"			Linear 0.2 0.1
+//	Animate	ChargeMeter 	FgColor		"ColorMagenta"		Linear 0.3 0.1
+//	Animate	ChargeMeter 	FgColor		"ColorRed"			Linear 0.4 0.1
+//	Animate	ChargeMeter 	FgColor		"ColorYellow"		Linear 0.5 0.1
 
 ///////Solid Color Charge
-	Animate ChargeMeter	FgColor		"Solid Color Uber"	Linear 0.0 0.000
+//	Animate ChargeMeter	FgColor		"Solid Color Uber"	Linear 0.0 0.000
 	
 ///////Orange Pulse Charge
 
