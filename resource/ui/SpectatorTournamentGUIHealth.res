@@ -70,5 +70,21 @@
 		"textAlignment"	"center"	
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"Spec Health Normal"
-	}				
+	}
+	"PlayerStatusHealthValueSpectatorBG"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueSpectatorBG"
+		"xpos"			"1"
+		"ypos"			"1"
+		"zpos"			"4"
+		"wide"			"25"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"CerbeticaBold16"
+		"fgcolor"		"0 0 0 100"
+	}		
 }
