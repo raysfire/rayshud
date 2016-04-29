@@ -52,13 +52,21 @@
 		"visible"			"0"
 		"enabled"			"1"
 
+		
+		if_comp
+		{		
+			"font"	"Cerbetica"
+			"xpos"	"-4"
+			"ypos"	"r32"
+		}
+		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"Cerbetica20"
 			"fgcolor"		"TanLight"
-			"xpos"			"-183"
+			"xpos"			"-186"
 			"ypos"			"-3"
 			"zpos"			"3"
 			"wide"			"300"
@@ -76,7 +84,7 @@
 		"font"			"Cerbetica20"
 		"labelText"		"%scoretobeat%"
 		"textAlignment"		"west"
-		"xpos"			"180"
+		"xpos"			"178"
 		"ypos"			"-3"
 		"zpos"			"4"
 		"wide"			"300"
@@ -85,6 +93,13 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
+		
+		
+		if_comp
+		{
+			"xpos"	"190"
+			"ypos"	"r34"
+		}
 	}
 	"StopWatchPointsLabel"
 	{
@@ -93,7 +108,7 @@
 		"font"			"Cerbetica20"
 		"labelText"		"%pointslabel%"
 		"textAlignment"		"west"
-		"xpos"			"194"
+		"xpos"			"192"
 		"ypos"			"-3"
 		"zpos"			"4"
 		"wide"			"300"
@@ -103,6 +118,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
+		
+		if_comp
+		{
+			"xpos"	"204"
+			"ypos"	"r34"
+		}
 	}
 
 	"StopWatchLabel"
