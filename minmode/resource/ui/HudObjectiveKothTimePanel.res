@@ -14,7 +14,7 @@
 		"fieldName"			"BlueTimer"
 		"xpos"				"0"
 		"ypos"				"0"
-		"zpos"				"2"
+		"zpos"				"10"
 		"wide"				"100"
 		"tall"				"50"
 		"visible"			"1"
@@ -24,8 +24,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-.7"
-			"ypos"					"0"
-			"ypos_minmode"			"0"
+			"ypos"					"4"
 			"delta_item_x"			"10"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -56,16 +55,10 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"10"
-				"xpos_minmode"	"15"
 				"ypos"			"9"
-				"ypos_minmode"	"9"
 				"tall"			"10"
 				"wide"			"35"
-				"wide_minmode"	"35"
 				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
-			
 			}
 		}	
 	}
@@ -76,7 +69,7 @@
 		"fieldName"			"RedTimer"
 		"xpos"				"50"
 		"ypos"				"0"
-		"zpos"				"2"
+		"zpos"				"10"
 		"wide"				"100"
 		"tall"				"150"
 		"visible" 			"1"
@@ -93,8 +86,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.77"
-			"ypos"					"0"
-			"ypos_minmode"			"0"
+			"ypos"					"4"
 			"delta_item_x"			"50"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"

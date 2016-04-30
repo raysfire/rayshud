@@ -299,10 +299,10 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"r249"
+		"ypos"			"c50"
 		"zpos"			"10"
-		"wide"			"190"
+		"wide"			"240"
 		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
@@ -315,7 +315,7 @@
 		
 		"text_xpos"		"10"
 		"text_ypos"		"10"
-		"text_wide"		"170"
+		"text_wide"		"220"
 		"text_center"	"1"
 		
 		"max_text_height"	"100"
@@ -381,7 +381,6 @@
 			"brighttext"	"0"
 		}
 	}	
-
 	"spectator_extras"
 	{
 		"ControlName"	"EditablePanel"

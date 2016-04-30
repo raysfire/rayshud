@@ -70,12 +70,10 @@
 		if_comp
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"ypos"					"17"
-			"ypos_minmode"			"17"
+			"wide"					"36"
+			"xpos"					"2"
+			"ypos"					"18"
 			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -121,12 +119,12 @@
 		if_comp
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"ypos"					"17"
-			"ypos_minmode"			"17"
 			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"xpos"					"10"
+			"wide"					"36"
+			"ypos"					"22"
+			"font"			"Cerbetica10"
+
 		}
 	}			
 	"OvertimeBG"
@@ -175,11 +173,8 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
-			"ypos"					"17"
-			"ypos_minmode"			"17"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"ypos"					"22"
+			"font"			"Cerbetica10"
 		}		
 	}			
 	"SuddenDeathBG"
@@ -226,11 +221,8 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
-			"ypos"					"17"
-			"ypos_minmode"			"17"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"ypos"					"22"
+			"font"			"Cerbetica10"
 		}		
 	}	
 	"SetupBG"

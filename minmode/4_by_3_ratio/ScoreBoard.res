@@ -47,6 +47,22 @@
 			"visible"		"0"
 		}
 	}
+	"BlueLeaderAvatar"
+	{
+		"ControlName"		"CAvatarImagePanel"
+		"fieldName"		"BlueLeaderAvatar"
+		"xpos"			"c-295"
+		"ypos"			"144"
+		"ypos_minmode"	"279"
+		"zpos"			"5"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"	
+		"color_outline"	"52 48 45 255"
+	}
 	"RedScoreBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -67,6 +83,22 @@
 		{
 			"visible"		"0"
 		}
+	}
+	"RedLeaderAvatar"
+	{
+		"ControlName"		"CAvatarImagePanel"
+		"fieldName"		"RedLeaderAvatar"
+		"xpos"			"c270"
+		"ypos"			"144"
+		"ypos_minmode"	"279"
+		"zpos"			"5"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"	
+		"color_outline"	"52 48 45 255"
 	}
 	"MainBG"
 	{
@@ -171,10 +203,10 @@
 
 		}
 	}			
-	"BlueTeamLabel"
+	"BlueTeamLabel1"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"BlueTeamLabel"
+		"fieldName"		"BlueTeamLabel1"
 		"font"			"Cerbetica32"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
@@ -182,7 +214,7 @@
 		"ypos"			"138"
 		"ypos_minmode"	"273"
 		"wide"			"200"
-		"tall"			"34"
+		"tall"			"37"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -262,10 +294,10 @@
 			"visible"		"0"
 		}
 	}							
-	"RedTeamLabel"
+	"RedTeamLabel1"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"RedTeamLabel"
+		"fieldName"		"RedTeamLabel1"
 		"font"			"Cerbetica32"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
@@ -273,7 +305,7 @@
 		"ypos"			"138"
 		"ypos_minmode"	"273"
 		"wide"			"200"
-		"tall"			"35"
+		"tall"			"37"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

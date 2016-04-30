@@ -47,6 +47,22 @@
 			"visible"		"0"
 		}
 	}
+	"BlueLeaderAvatar"
+	{
+		"ControlName"	"CAvatarImagePanel"
+		"fieldName"		"BlueLeaderAvatar"
+		"xpos"			"c-295"
+		"ypos"			"144"
+		"ypos"			"239"
+		"zpos"			"5"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"	
+		"color_outline"	"52 48 45 255"
+	}
 	"RedScoreBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -68,6 +84,22 @@
 			"visible"		"0"
 		}
 	}
+	"RedLeaderAvatar"
+	{
+		"ControlName"		"CAvatarImagePanel"
+		"fieldName"		"RedLeaderAvatar"
+		"xpos"			"c270"
+		"ypos"			"144"
+		"ypos_minmode"	"239"
+		"zpos"			"5"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"	
+		"color_outline"	"52 48 45 255"
+	}	
 	"MainBG"
 	{
 		"ControlName"		"ImagePanel"
