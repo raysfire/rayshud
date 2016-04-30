@@ -12,7 +12,7 @@
 
 		"BlueScoreBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"BlueScoreBG"
 			"xpos"			"0"
 			"ypos"			"15"
@@ -28,7 +28,7 @@
 		}
 		"RedScoreBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"RedScoreBG"
 			"xpos"			"100"
 			"ypos"			"15"
@@ -92,7 +92,22 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"TransparentBlack"
-		}					
+		}
+		"BlueLeaderAvatar"
+		{
+			"ControlName"		"CAvatarImagePanel"
+			"fieldName"		"BlueLeaderAvatar"
+			"xpos"			"2"
+			"ypos"			"17"
+			"zpos"			"5"
+			"wide"			"21"
+			"tall"			"21"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"	"1"	
+			"color_outline"	"52 48 45 255"
+		}		
 		"RedTeamLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -144,13 +159,28 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"TransparentBlack"
-		}					
+		}
+		"RedLeaderAvatar"
+		{
+			"ControlName"		"CAvatarImagePanel"
+			"fieldName"		"RedLeaderAvatar"
+			"xpos"			"177"
+			"ypos"			"17"
+			"zpos"			"5"
+			"wide"			"21"
+			"tall"			"21"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"	"1"	
+			"color_outline"	"52 48 45 255"
+		}		
 
 	}
-	"WinPanelBG"
+	"WinPanelBGBorder"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"WinPanelBG"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"WinPanelBGBorder"
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"0"
@@ -159,11 +189,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"	
-		"fillcolor"		"0 0 0 100"
-		"src_corner_height" "3"
-		"src_corner_width" "3"
-		"draw_corner_width" "0"
-		"draw_corner_height" "0"		
+		"border"		"TFFatLineBorderBlueBG"
+		"proportionaltoparent"	"1"
 	}
 	"WinPanelBackground2"
 	{
