@@ -18,7 +18,7 @@
 		"draw_corner_width" "0"
 		"draw_corner_height" "0"
 
-		if_comp
+		if_match
 		{
 			"visible"	"0"
 		}		
@@ -44,7 +44,7 @@
 		"color_warning"			"TimerProgress.Warning"
 		"percent_warning"		"0.75"
 		
-		if_comp
+		if_match
 		{
 			"visible"	"0"
 		}
@@ -67,7 +67,7 @@
 		"wrap"			"0"
 		"font"			"Cerbetica12"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"wide"					"36"
@@ -93,7 +93,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 		
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}
@@ -116,12 +116,12 @@
 		"wrap"			"0"
 		"font"			"Cerbetica12"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"font"					"HudFontSmallestBold"
-			"xpos"					"10"
-			"wide"					"36"
+			"xpos"					"c0"
+			"wide"					"72"
 			"ypos"					"22"
 			"font"			"Cerbetica10"
 
@@ -144,7 +144,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 	
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}	
@@ -169,7 +169,7 @@
 		"wrap"			"0"
 		"font"			"Cerbetica12"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
@@ -194,7 +194,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 		
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}		
@@ -217,7 +217,7 @@
 		"wrap"			"0"
 		"font"			"Cerbetica12"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
@@ -242,7 +242,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 		
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}		
@@ -269,7 +269,7 @@
 		"wrap"			"0"
 		"font"			"Cerbetica14"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
@@ -298,7 +298,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 		
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}			

@@ -55,9 +55,8 @@
 		
 		if_comp
 		{		
-			"font"	"Cerbetica"
-			"xpos"	"-4"
-			"ypos"	"r32"
+			"xpos"	"0"
+			"ypos"	"28"
 		}
 		
 		"TimePanelValue"
@@ -74,6 +73,13 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"east"
+			
+			if_comp
+			{
+				"xpos"		"-170"
+				"font"		"Cerbetica12"
+				"ypos"		"0"
+			}
 		}	
 	}
 
@@ -97,8 +103,9 @@
 		
 		if_comp
 		{
-			"xpos"	"190"
-			"ypos"	"r34"
+			"font"	"Cerbetica12"
+			"xpos"	"146"
+			"ypos"	"28"
 		}
 	}
 	"StopWatchPointsLabel"
@@ -106,7 +113,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchPointsLabel"
 		"font"			"Cerbetica20"
-		"labelText"		"%pointslabel%"
+		"labelText"		"captures"
 		"textAlignment"		"west"
 		"xpos"			"192"
 		"ypos"			"-3"
@@ -121,8 +128,9 @@
 		
 		if_comp
 		{
-			"xpos"	"204"
-			"ypos"	"r34"
+			"font"	"Cerbetica12"
+			"xpos"	"158"
+			"ypos"	"28"
 		}
 	}
 
@@ -143,6 +151,15 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"1"
+		
+		if_comp
+		{
+			"font"	"Cerbetica12"
+			"textAlignment"	"center"
+			"wide"	"80"
+			"xpos"	"100"
+			"ypos"	"28"
+		}
 	}
 
 	"HudStopWatchDescriptionBG"

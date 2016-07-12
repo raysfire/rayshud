@@ -2,7 +2,7 @@
 {	
 	"HudKothTimeStatus"
 	{
-		if_comp
+		if_match
 		{
 			"zpos"		"5"
 		}
@@ -20,7 +20,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-.7"
@@ -50,7 +50,7 @@
 			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
-			if_comp
+			if_match
 			{
 				"proportionaltoparent"	"1"
 
@@ -82,7 +82,7 @@
 		"delta_lifetime" 	"1.5"
 		"delta_item_font" 	"Cerbetica22"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.77"
@@ -119,7 +119,7 @@
 			"textAlignment"		"center"
 			"labelText"			"0:00"
 			
-			if_comp
+			if_match
 			{
 				"proportionaltoparent"	"1"
 
