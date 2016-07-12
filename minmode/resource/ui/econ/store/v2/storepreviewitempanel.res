@@ -539,7 +539,7 @@
 		
 		"render_texture"	"0"
 		"fov"			"40"
-		"allow_rot"		"0"
+		"allow_rot"		"1"
 
 		"paintbackground" "1"		
 		"paintbackgroundenabled" "1"
@@ -1263,6 +1263,51 @@
 			"scaleImage"	"1"
 		}				
 	}
+
+	"OptionsButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"OptionsButton"
+		"xpos"			"c-63"
+		"ypos"			"c-123"
+		"zpos"			"20"
+		"wide"			"11"
+		"tall"			"11"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labeltext"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"Command"		"options"
+		
+		"paintbackground"	"0"
+		
+		"image_drawcolor"	"118 107 94 200"
+		"image_armedcolor"	"246 247 213 255"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"11"
+			"tall"			"11"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"glyph_options"
+			"scaleImage"	"1"
+		}				
+	}
 	
 	"TeamNavPanel"
 	{
@@ -1363,31 +1408,6 @@
 			}
 		}
 	}
-	
-	"PaintButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"PaintButton"
-		"xpos"			"c-158"
-		"ypos"			"c-140"
-		"zpos"			"20"
-		"wide"			"76"
-		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#Store_Paint"
-		"font"			"HudFontSmallest"
-		"textAlignment"	"center"
-		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"paint_toggle"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
 
 	"CycleTextLabel"
 	{
@@ -1406,28 +1426,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
-	}		
-
-	"NextStyleButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"NextStyleButton"
-		"zpos"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#Store_NextStyle"
-		"font"			"HudFontSmallest"
-		"textAlignment"	"center"
-		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"next_style"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
+	}
 
 	//---
 	// Hack - put these two labels off-screen, since we have cycle text to take the place of both of them
@@ -1580,7 +1579,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#Store_AddToCart"
+		"labelText"		"%storeaddtocart%"
 		"font"			"HudFontSmallishBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -1593,5 +1592,33 @@
 		"defaultBgColor_override"	"76 107 34 255"
 		"ArmedBgColor_override"	"86 117 44 255"
 		"depressedBgColor_override" "66 97 24 255"
-	}	
+	}
+	
+	"mouseoveritempanel"
+	{
+		"fieldName"		"mouseoveritempanel"
+		"xpos"			"c-70"
+		"ypos"			"270"
+		"zpos"			"1001"
+		"wide"			"200"
+		"tall"			"150"
+		"visible"		"0"
+		"bgcolor_override"		"0 0 0 0"
+		"noitem_textcolor"		"117 107 94 255"
+		"PaintBackgroundType"	"2"
+		"paintborder"	"1"
+
+		"text_center_x"		"1"
+		"resize_to_text"	"1"
+		"padding_height"	"15"
+
+		"model_ypos"	"15"
+		"model_wide"	"150"
+		"model_tall"	"100"
+
+		"hide_collection_panel" "1"
+		"model_center_x"	"1"
+
+		"name_only"			"1"
+	}
 }
