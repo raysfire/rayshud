@@ -2,35 +2,38 @@
 {
  	"VersionNumber"
  	{
-		"label" "rayshud v2016.0429" 
+		"label" "rayshud v2016.0712" 
  		"subimage" ""
  		"OnlyAtMenu" "0"
  	}
+	// used for casual
 	"QuickplayButton"
 	{
-		"label" "Play" 
-		"command" "quickplay"
+		"label" "Casual" 
+		"command" "play_casual"
 		"subimage" ""
 		"OnlyAtMenu" "1"
 	}
 	"QuickplayChangeButton"
 	{
-		"label" "Play" 
-		"command" "quickplay"
+		"label" "Casual"
+		"command" "play_casual"
 		"subimage" ""
 		"OnlyInGame" "1"
 	}
+	// used for competitive
 	"CompetitiveButton"
 	{
-		"label" "Matchmaking" 
-		"command" "ladder_ui_show"
+		"label" "Competitive" 
+		"command" "play_competitive"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "0"
 	}
+	// used for mvm
 	"PlayPVEButton"
 	{
 		"label" "MvM" 
-		"command" "playpve"
+		"command" "play_mvm"
 		"subimage" ""
 		"OnlyAtMenu" "1"
 	}
@@ -139,5 +142,30 @@
 		"OnlyInGame"	"1"
 		"subimage"		"glyph_alert"
 		"tooltip"		"#MMenu_ReportPlayer"
+	}
+	
+	"FindAGameButton"
+	{
+		"label" "#MMenu_FindAGame" 
+		"command" "toggle_play_menu"
+		"subimage" "glyph_multiplayer"
+		"OnlyAtMenu"	"1"
+	}
+
+	// new button stuff, might have to clean up this file (???)
+	"FindAGameButtonHalfWidth"
+	{
+		"label" "#MMenu_FindAGame" 
+		"command" "toggle_play_menu"
+		"subimage" "glyph_multiplayer"
+		"OnlyInGame"	"1"
+	}
+
+	"VRModeButton"
+	{
+		"label" "#MMenu_VRMode_Activate"
+		"command" "engine vr_toggle"
+		"subimage" "glyph_vr"
+		"OnlyWhenVREnabled" "1"
 	}
 }
