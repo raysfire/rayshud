@@ -46,7 +46,7 @@ This can be enabled by uncommenting all of the "Animate" lines under the event "
 To Download
 --------
 
-Click the "ZIP" button with the cloud next to it in order to download the most recent version of my hud! It should be at the top of the page. 
+Click the green `Clone or Download` button at the top of the page and then `Download Zip` in order to download the most recent version of my hud! It should be at the top of the page. 
 
 To Install
 --------
