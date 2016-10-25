@@ -131,6 +131,17 @@ event HudLowAmmoPulseStop
 	Animate	  AmmoInReserve		FgColor		"Ammo In Reserve"		Accel 0.0 0.0
 	Animate	  AmmoNoClip		FgColor		"Ammo In Clip"			Accel 0.0 0.0
 }
+//===========================================
+event DamagedPlayer 
+{
+	StopEvent HitMarker 0.0
+	RunEvent HitMarker 0.01
+}
+
+event HitMarker
+{
+	// Empty
+}
 
 //===========================================
 // Spy Disguise
