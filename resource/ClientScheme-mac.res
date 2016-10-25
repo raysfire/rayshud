@@ -3091,7 +3091,6 @@ Scheme
 
 	}
 
-
 	//
 	//////////////////// BORDERS //////////////////////////////
 	//
@@ -4571,36 +4570,35 @@ Scheme
 		"7" // Main font
 		{
 		
-			"font" "resource/Cerbetica.ttf"
+			"font" "resource/fonts/Cerbetica.ttf"
 			"name" "Cerbetica"
 		}
 		"8" // Tournament HUD block
 		{
 		
-			"font" "resource/Blocks.ttf"
+			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
 		}
 		"9" // Fog's xHairs
 		{
-			"font" "resource/crosshairs.ttf"
+			"font" "resource/fonts/crosshairs.ttf"
 			"name" "Crosshairs"
 		}
 		"10" // Thin Cross
 		{
-			"font" "resource/Symbol.ttf"
+			"font" "resource/fonts/Symbol.ttf"
 			"name" "Symbol"
 		}
 		"11" // Konr Wings
 		{
-			"font" "resource/Garm3nFont.ttf"
+			"font" "resource/fonts/Garm3nFont.ttf"
 			"name" "Garm3nFont"
 		}
 		"12" // Edited font for TargetIDs, menus, etc.
 		{
 		
-			"font" "resource/Cerbetica_edited.ttf"
+			"font" "resource/fonts/Cerbetica_edited.ttf"
 			"name" "Cerbetica_edited"
 		}
-
+	}
 }
-
