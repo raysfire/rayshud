@@ -1,3 +1,8 @@
+//
+///////////////////// Crosshairs ////////////////////////
+//
+// Describes all the crosshair fonts
+
 Scheme
 {
 	Fonts
