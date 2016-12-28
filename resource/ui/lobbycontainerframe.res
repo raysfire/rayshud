@@ -61,7 +61,7 @@
 		"fillcolor"		"15 15 15 175"
 		"tileImage"		"1"
 	}			
-"BackgroundFooter"
+	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundFooter"
@@ -149,6 +149,48 @@
 			"normalborder_override" "CyanBorderTabsInactive"
 			
 			"mouseinputenabled"	"1" 
+		}
+	}
+	
+	"OptionsButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"OptionsButton"
+		"xpos"			"c275"
+		"ypos"			"10"
+		"zpos"			"100"
+		"wide"			"20"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"Command"		"options"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"image_drawcolor"	"ColorWhite"
+		"image_armedcolor"	"ColorWhite"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"2"
+			"ypos"			"2"
+			"zpos"			"1"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"glyph_options"
+			"scaleImage"	"1"
 		}
 	}
 
