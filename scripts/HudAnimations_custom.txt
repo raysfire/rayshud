@@ -1,49 +1,3 @@
-// sample animation script
-//
-//
-// commands:
-//	Animate <panel name> <variable> <target value> <interpolator> <start time> <duration>
-//		variables:
-//			FgColor
-//			BgColor
-//			Position
-//			Size
-//			Blur		(hud panels only)
-//			TextColor	(hud panels only)
-//			Ammo2Color	(hud panels only)
-//			Alpha		(hud weapon selection only)
-//			SelectionAlpha  (hud weapon selection only)
-//			TextScan	(hud weapon selection only)
-//
-//		interpolator:
-//			Linear
-//			Accel - starts moving slow, ends fast
-//			Deaccel - starts moving fast, ends slow
-//			Spline - simple ease in/out curve
-//			Pulse - < freq > over the duration, the value is pulsed (cosine) freq times ending at the dest value (assuming freq is integral)
-//			Flicker - < randomness factor 0.0 to 1.0 > over duration, each frame if random # is less than factor, use end value, otherwise use prev value
-//			Gain - < bias > Lower bias values bias towards 0.5 and higher bias values bias away from it.
-//			Bias - < bias > Lower values bias the curve towards 0 and higher values bias it towards 1.
-//
-//	RunEvent <event name> <start time>
-//		starts another even running at the specified time
-//
-//	StopEvent <event name> <start time>
-//		stops another event that is current running at the specified time
-//
-//	StopAnimation <panel name> <variable> <start time>
-//		stops all animations refering to the specified variable in the specified panel
-//
-//	StopPanelAnimations <panel name> <start time>
-//		stops all active animations operating on the specified panel
-//
-//  SetFont <panel name> <fontparameter> <fontname from scheme> <set time> 
-//
-//	SetTexture <panel name> <textureidname> <texturefilename> <set time>
-//
-//  SetString <panel name> <string varname> <stringvalue> <set time>
-
-//===========================================
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
@@ -168,42 +122,49 @@ event HudSpyDisguiseFadeOut
 
 event HudMedicCharged
 {
-
-///////Rainbow Charge
-//	Animate	ChargeLabel 	FgColor		"ColorGreen"		Linear 0.0 0.1
-//	Animate	ChargeLabel 	FgColor		"ColorCyan"			Linear 0.1 0.1
-//	Animate	ChargeLabel 	FgColor		"ColorBlue"			Linear 0.2 0.1
-//	Animate	ChargeLabel 	FgColor		"ColorMagenta"		Linear 0.3 0.1
-//	Animate	ChargeLabel 	FgColor		"ColorRed"			Linear 0.4 0.1
-//	Animate	ChargeLabel 	FgColor		"ColorYellow"		Linear 0.5 0.1
+	//RunEvent HudMedicRainbowCharged 0.0
+	//RunEvent HudMedicSolidColorCharge 0.0
+	RunEvent HudMedicOrangePulseCharge 0.0
 	
-///////Solid Color Charge
-//	Animate ChargeLabel	FgColor		"Solid Color Uber"	Linear 0.0 0.000
-	
-///////Orange Pulse Charge
+	RunEvent HudMedicChargedLoop	0.6
+}
 
-	Animate	ChargeLabel 	FgColor		"Flashing Uber Color1"			Linear 0.0 0.3
+event HudMedicRainbowCharged
+{
+	Animate	ChargeLabel 	FgColor		"ColorGreen"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"ColorCyan"			Linear 0.1 0.1
+	Animate	ChargeLabel 	FgColor		"ColorBlue"			Linear 0.2 0.1
+	Animate	ChargeLabel 	FgColor		"ColorMagenta"		Linear 0.3 0.1
+	Animate	ChargeLabel 	FgColor		"ColorRed"			Linear 0.4 0.1
+	Animate	ChargeLabel 	FgColor		"ColorYellow"		Linear 0.5 0.1
+
+	Animate	ChargeMeter 	FgColor		"ColorGreen"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"ColorCyan"			Linear 0.1 0.1
+	Animate	ChargeMeter 	FgColor		"ColorBlue"			Linear 0.2 0.1
+	Animate	ChargeMeter 	FgColor		"ColorMagenta"		Linear 0.3 0.1
+	Animate	ChargeMeter 	FgColor		"ColorRed"			Linear 0.4 0.1
+	Animate	ChargeMeter 	FgColor		"ColorYellow"		Linear 0.5 0.1
+
+	RunEvent HudMedicChargedLoop	0.6
+}
+
+event HudMedicSolidColorCharge
+{
+	Animate ChargeLabel	FgColor		"Solid Color Uber"	Linear 0.0 0.000
+	
+	Animate ChargeMeter	FgColor		"Solid Color Uber"	Linear 0.0 0.000
+
+	RunEvent HudMedicChargedLoop	0.6
+}
+
+event HudMedicOrangePulseCharge
+{
+	Animate	ChargeLabel 	FgColor		"Flashing Uber Color1"		Linear 0.0 0.3
 	Animate	ChargeLabel 	FgColor		"Flashing Uber Color2"		Linear 0.3 0.3
+
+	Animate	ChargeMeter 	FgColor		"Flashing Uber Color1"		Linear 0.0 0.3
+	Animate	ChargeMeter 	FgColor		"Flashing Uber Color2"		Linear 0.3 0.3
 	
-
-
-
-///////Rainbow Charge	
-//	Animate	ChargeMeter 	FgColor		"ColorGreen"		Linear 0.0 0.1
-//	Animate	ChargeMeter 	FgColor		"ColorCyan"			Linear 0.1 0.1
-//	Animate	ChargeMeter 	FgColor		"ColorBlue"			Linear 0.2 0.1
-//	Animate	ChargeMeter 	FgColor		"ColorMagenta"		Linear 0.3 0.1
-//	Animate	ChargeMeter 	FgColor		"ColorRed"			Linear 0.4 0.1
-//	Animate	ChargeMeter 	FgColor		"ColorYellow"		Linear 0.5 0.1
-
-///////Solid Color Charge
-//	Animate ChargeMeter	FgColor		"Solid Color Uber"	Linear 0.0 0.000
-	
-///////Orange Pulse Charge
-
-	Animate	ChargeMeter 	FgColor		"Flashing Uber Color1"			Linear 0.0 0.3
-	Animate	ChargeMeter 	FgColor		"Flashing Uber Color2"			Linear 0.3 0.3
-
 	RunEvent HudMedicChargedLoop	0.6
 }
 
