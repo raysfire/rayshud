@@ -26,6 +26,8 @@
 		"fieldName"				"ChargeLabel"
 		"xpos"					"0"
 		"ypos"					"c-142"
+		"xpos_minmode"			"9999"
+		"ypos_minmode"			"9999"
 		"zpos"					"2"
 		"wide"					"150"
 		"tall"					"8"
@@ -49,9 +51,13 @@
 		"font"					"Default"
 		"xpos"					"0"
 		"ypos"					"99"
+		"xpos_minmode"			"15"
+		"ypos_minmode"			"35"
 		"zpos"					"1"
 		"wide"					"150"
-		"tall"					"8"				
+		"tall"					"8"
+		"wide_minmode"			"120"
+		"tall_minmode"			"5"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -59,14 +65,15 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}				
-		
+	}
+
 	"PipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
 		"xpos"			"24"
 		"ypos"			"75"
+		"ypos_minmode"	"0"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
@@ -94,9 +101,11 @@
 			"fieldName"		"NumPipesLabel"
 			"xpos"			"34"
 			"ypos"			"8"
+			"ypos_minmode"	"10"
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"24"
+			"tall_minmode"	"20"
 			"autoResize"	"1"
 			"pinCorner"		"2"
 			"visible"		"1"
@@ -107,6 +116,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"CerbeticaBold32"
+			"font_minmode"	"CerbeticaBold20"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -114,9 +124,11 @@
 			"fieldName"		"NumPipesLabelDropshadow"
 			"xpos"			"35"
 			"ypos"			"9"
+			"ypos_minmode"	"11"
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"24"
+			"tall_minmode"	"20"
 			"autoResize"	"1"
 			"pinCorner"		"2"
 			"visible"		"1"
@@ -127,8 +139,9 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"CerbeticaBold32"
+			"font_minmode"	"CerbeticaBold20"
 			"fgcolor"		"TransparentBlack"
-		}		
+		}
 	}
 	
 	"NoPipesPresentPanel"
@@ -172,6 +185,7 @@
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"24"
+			"tall_minmode"	"20"
 			"autoResize"	"1"
 			"pinCorner"		"2"
 			"visible"		"1"
@@ -196,7 +210,7 @@
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"24"
-			"tall_lodef"	"28"
+			"tall_minmode"	"20"
 			"autoResize"	"1"
 			"pinCorner"		"2"
 			"visible"		"1"

@@ -7,6 +7,8 @@
 		"enabled"		"1"
 		"xpos"			"c-225"	[$WIN32]
 		"ypos"			"352"	[$WIN32]
+		"xpos_minmode"	"c-162"	[$WIN32]
+		"ypos_minmode"	"298"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -85,6 +87,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"CerbeticaBold28"
+		"font_minmode"			"CerbeticaBold20"
 	}
 		"ItemEffectMeterCountBG"
 	{
@@ -105,5 +108,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"CerbeticaBold28"
+		"font_minmode"			"CerbeticaBold20"
 	}
 }

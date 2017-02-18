@@ -22,6 +22,8 @@
 		"fieldName"		"DamageAccountValue"
 		"xpos"			"c-188"
 		"ypos"			"288"
+		"xpos_minmode"	"c-138"
+		"ypos_minmode"	"263"
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"26"
@@ -31,6 +33,7 @@
 		"textAlignment"	"center"
 		"fgcolor"		"Last DamageHeal Info"
 		"font"			"CerbeticaBold32"
+		"font_minmode"	"CerbeticaBold20"
 	}
 	
 	"DamageAccountValueBG"
@@ -39,6 +42,8 @@
 		"fieldName"		"DamageAccountValue"
 		"xpos"			"c-187"
 		"ypos"			"289"
+		"xpos_minmode"	"c-137"
+		"ypos_minmode"	"264"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"26"
@@ -48,5 +53,6 @@
 		"textAlignment"	"center"
 		"fgcolor"		"TransparentBlack"
 		"font"			"CerbeticaBold32"
+		"font_minmode"	"CerbeticaBold20"
 	}
 }

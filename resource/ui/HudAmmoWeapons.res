@@ -40,10 +40,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"CerbeticaBold56"
+		"font"			"CerbeticaBold56"	
 		"fgcolor"		"Ammo In Clip"
 		"xpos"			"-18"
 		"ypos"			"-11"
+		"font_minmode"	"CerbeticaBold32"
+		"xpos_minmode"	"-12"
+		"ypos_minmode"	"-1"
 		"zpos"			"5"
 		"wide"			"80"
 		"tall"			"80"
@@ -51,8 +54,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%Ammo%"
-		
-	}		
+	}
 	"AmmoInClipShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -61,15 +63,17 @@
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"-16"
 		"ypos"			"-9"
+		"font_minmode"	"CerbeticaBold32"
+		"xpos_minmode"	"-10"
+		"ypos_minmode"	"1"
 		"zpos"			"5"
 		"wide"			"80"
 		"tall"			"80"
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"east"	
-		"labelText"		"%Ammo%"
-		
-	}						
+		"labelText"		"%Ammo%"	
+	}
 	"AmmoInReserve"
 	{
 		"ControlName"	"CExLabel"
@@ -78,6 +82,9 @@
 		"fgcolor"		"Ammo In Reserve"
 		"xpos"			"67"
 		"ypos"			"-10"
+		"font_minmode"	"CerbeticaBold20"
+		"xpos_minmode"	"73"
+		"ypos_minmode"	"-1"
 		"zpos"			"7"
 		"wide"			"60"
 		"tall"			"80"
@@ -85,7 +92,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"		
 		"labelText"		"%AmmoInReserve%"
-	}		
+	}
 	"AmmoInReserveShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -94,6 +101,9 @@
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"68"
 		"ypos"			"-9"
+		"font_minmode"	"CerbeticaBold20"
+		"xpos_minmode"	"74"
+		"ypos_minmode"	"0"
 		"zpos"			"7"
 		"wide"			"60"
 		"tall"			"80"
@@ -101,7 +111,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"		
 		"labelText"		"%AmmoInReserve%"
-	}									
+	}
 	"AmmoNoClip"
 	{
 		"ControlName"	"CExLabel"
@@ -110,15 +120,18 @@
 		"fgcolor"		"Ammo In Clip"
 		"xpos"			"26"
 		"ypos"			"-11"
+		"font_minmode"	"CerbeticaBold32"
+		"xpos_minmode"	"26"
+		"ypos_minmode"	"-1"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"80"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"center"		
+		"textAlignment"	"center"
 		"labelText"		"%Ammo%"
 		
-	}	
+	}
 	"AmmoNoClipShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -127,6 +140,9 @@
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"28"
 		"ypos"			"-9"
+		"font_minmode"	"CerbeticaBold32"
+		"xpos_minmode"	"28"
+		"ypos_minmode"	"1"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"80"
@@ -134,6 +150,5 @@
 		"enabled"		"1"
 		"textAlignment"	"center"		
 		"labelText"		"%Ammo%"
-		
-	}									
+	}
 }

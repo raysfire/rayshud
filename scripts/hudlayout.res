@@ -834,6 +834,8 @@
 		"enabled" "1"
 		"xpos"	"c70"
 		"ypos"	"c66"
+		"xpos_minmode"	"c20"
+		"ypos_minmode"	"c16"
 		"wide"	"300" //was made 4 units taller in MvM update
 		"tall"	"300"
 	}
@@ -883,7 +885,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-150"	
-		"ypos"			"c20"	
+		"ypos"			"c20"
+		"xpos_minmode"	"c-62"	
+		"ypos_minmode"	"c24"	
 		"wide"			"500"
 		"tall"			"500"
 	}
@@ -908,6 +912,8 @@
 		"enabled"		"1"
 		"xpos"			"c-100"	
 		"ypos"			"c111"	
+		"xpos_minmode"	"c-75"	
+		"ypos_minmode"	"c46"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"500"
 		"tall"			"500"
@@ -992,6 +998,7 @@
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c112"
+		"xpos_minmode"			"c68"
 		"ypos"					"c6"
 		"wide"					"116"
 		"tall"  				"180"
@@ -1007,6 +1014,10 @@
 		"ypos"					"c45"
 		"wide"					"250"
 		"tall"  				"120"
+		"xpos_minmode"			"c-100"		
+		"ypos_minmode"			"c5"
+		"wide_minmode"			"f0"
+		"tall_minmode"			"480"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -1045,6 +1056,7 @@
 		"enabled" 	"1"
 		"xpos"		"c-100"
 		"ypos"		"c25"
+		"ypos_minmode"	"c105"
 		"zpos"		"1"
 		"wide"	 	"600"
 		"tall"	 	"45"
@@ -1087,8 +1099,7 @@
 		"enabled"	"1"
 		"xpos"		"0"	[$WIN32]
 		"ypos"		"0"	[$WIN32]
-		"xpos"		"32"	[$X360]
-		"ypos"		"16"	[$X360]		
+		"ypos_minmode"	"c-20"	[$WIN32]
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -1311,6 +1322,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"wide"	 "640"
+		"wide_minmode"	 "f0"
 		"tall"	 "480"
 	}
 
@@ -1366,6 +1378,8 @@
 		"zpos" 	"10"
 		"xpos"			"c-176"
 		"ypos"			"c90"
+		"xpos_minmode"	"c-115"
+		"ypos_minmode"	"c37"
 		
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
@@ -1381,6 +1395,10 @@
 		"ypos"		"302"	[$WIN32]
 		"wide"		"150"
 		"tall"		"60"	[$WIN32]
+		"xpos_minmode"		"c115"
+		"ypos_minmode"		"273"	[$WIN32]
+		"wide_minmode"		"100"
+		"tall_minmode"		"40"
 
 		"BgAlpha"	"0"
 
@@ -1892,10 +1910,13 @@
 		"enabled"				"1"
 		"xpos"					"c-125"
 		"ypos"					"5"
-		"ypos_lodef"				"75"
+		"xpos_minmode"			"0"
+		"ypos_minmode"			"0"
 		"zpos"					"2"
 		"wide"					"250"
 		"tall"					"80"
+		"wide_minmode"			"f0"
+		"tall_minmode"			"480"
 	}
 
 	HudTournamentSetup
@@ -2069,6 +2090,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"500"
+		"xpos_minmode"	"c0"
 		"ypos"			"310"
 		"zpos"			"0"
 		"wide"			"300"
@@ -2151,11 +2173,26 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-235"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		"ypos"			"c-85"
 		"wide"			"470"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
+
 	HudMiniGame
 	{
 		"fieldName" 	"HudMiniGame"
