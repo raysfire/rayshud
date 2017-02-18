@@ -177,6 +177,10 @@ event HudMedicChargedLoop
 event HudMedicChargedStop
 {
 	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicRainbowCharged 0.0
+	StopEvent HudMedicSolidColorCharge 0.0 
+	StopEvent HudMedicOrangePulseCharge 0.0
+	
 	StopEvent HudMedicChargedLoop 0.0
 	
 	Animate	ChargeLabel 	FgColor		"Ammo In Clip"		Linear 0.0 0.0001
