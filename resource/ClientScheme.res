@@ -114,11 +114,6 @@ Scheme
 		}
 		"14"
 		{
-			"font" "resource/fonts/Cerbetica_bold_medic.otf"
-			"name" "Cerbetica Bold Medic"
-		}
-		"15" // Used for main menu icons
-		{
 			"font" "resource/fonts/heydings_icons.ttf"
 			"name" "Heydings Icons"
 		}
