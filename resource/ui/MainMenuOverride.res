@@ -3201,10 +3201,10 @@
 		}						
 	}	
 	
-	"ScoreboardToggle"
+	"MinmodeToggle"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"ScoreboardToggle"
+		"fieldName"		"MinmodeToggle"
 		"xpos"			"75"
 		"ypos"			"320"
 		"zpos"			"1"
@@ -3216,7 +3216,7 @@
 		"tabPosition"	"0"
 		"font"			"Cerbetica16"
 		"textAlignment"	"west"
-		"labelText"		"Scoreboard Toggle"
+		"labelText"		"Minmode Toggle"
 		"textinsetx"	"24"
 		"dulltext"		"0"
 		"brighttext"	"0"
