@@ -10,38 +10,19 @@ A simplistic yet bold hud for TF2 made to cut out a lot of clutter included that
 
 It was originally created for myself as a fun side project to do while I wasn't doing schoolwork, but I've been asked by others to release it, so here it is. However, this is very much still under construction, and does NOT currently have any edits for MvM. This means that while MvM may still be playable, a lot of the features will either be not visible, or cut off.
 
-To-Do List
---------
-
-* Fix various issues I know I made
-* Add hud crosshairs
-
 Screenshots
 --------
 
-* http://puu.sh/188pJ - Health/Ammo, overheal, TargetID
-* http://puu.sh/188qq - 16v16 scoreboard
-* http://puu.sh/188qS - 6v6 scoreboard
-* http://puu.sh/188r9 - Low ammo, kill feed
-* http://puu.sh/188rV - Charge meter, last damage done location
-* http://puu.sh/188tf - Spectator TargetID
-* http://puu.sh/188wK - Tournament spectator hud, inspect panel, koth timers
-* http://puu.sh/188xO - CTF hud
-* http://puu.sh/19R5o - Class selection screen
-* http://puu.sh/19R58 - Team selection screen
-                      
-I also use this hud when I play. You can watch my stream vods at http://twitch.tv/raysfire to see it in action.                  
-                  
-Features (can be disabled)
--------
-
-* A rainbow-colored flashing charge meter. 
-
-This can be enabled by uncommenting all of the "Animate" lines under the event "HudMedicCharge" in HudAnimations_tf.txt in the scripts folder. Make sure to uncomment all of the lines in "HudMedicChargeStop", too!
-
-* Low ammo colors.
-
-This can be enabled by uncommenting all of the "Animate" lines under the event "HudLowAmmoPulse" in HudAnimations_tf.txt in the scripts folder. Make sure to uncomment all of the lines in "HudLowAmmoPulseStop", too!
+* [Health/Ammo, overheal, TargetID](http://puu.sh/188pJ)
+* [16v16 scoreboard](http://puu.sh/188qq)
+* [6v6 scoreboard](http://puu.sh/188qS)
+* [Low ammo, kill feed](http://puu.sh/188r9)
+* [Charge meter, last damage done location](http://puu.sh/188rV)
+* [Spectator TargetID](http://puu.sh/188tf)
+* [Tournament spectator hud, inspect panel, koth timers](http://puu.sh/188wK)
+* [CTF hud](http://puu.sh/188xO)
+* [Class selection screen](http://puu.sh/19R5o)
+* [Team selection screen](http://puu.sh/19R58)
 
 To Download
 --------
@@ -74,7 +55,7 @@ tf
 Help/Support
 --------
 
-Please remember that this hud is not completely finished, and will have some bugs within it. You're free to either open a support ticket here on GitHub, make a post in my teamfortress.tv thread (link pending), or email me at my email (raysfire64@gmail.com), if you need any help/have found a bug.
+Please remember that this hud is not completely finished, and will have some bugs within it. You're free to either open a support ticket here on [GitHub](https://github.com/raysfire/rayshud/issues/new), or make a post in the [rayshud Steam Group](https://steamcommunity.com/groups/rayshud), if you need any help/have found a bug.
 
 Credits
 --------
@@ -84,7 +65,3 @@ Credits
 * Whoever makes PVHUD - Inspiration, occasional reference.
 * My team - For dealing with me and giving me constructive feedback all the time.
 * Flame - If it weren't for your guide, I couldn't have made this at all. Thanks a million, man. 
-
-
-
-
