@@ -5,20 +5,26 @@
 		"delta_item_x"			"12"
 		"delta_item_start_y"	"130"
 		"delta_item_end_y"		"150"
+		"delta_item_start_y_minmode"	"75"
+		"delta_item_end_y_minmode"		"105"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"Cerbetica20"
+		"delta_item_font_minmode"		"Cerbetica16"
 	}
-		"CHudAccountPanelOutline"
+	"CHudAccountPanelOutline"
 	{
 		"delta_item_x"			"0"
 		"delta_item_start_y"	"120"
 		"delta_item_end_y"		"150"
+		"delta_item_start_y_minmode"	"75"
+		"delta_item_end_y_minmode"		"105"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"Cerbetica20"
+		"delta_item_font_minmode"		"Cerbetica16"
 	}
 	
 	"AccountBG"
@@ -46,6 +52,7 @@
 		"fieldName"		"MetalIcon"
 		"xpos"			"0"
 		"ypos"			"120"
+		"ypos_minmode"	"70"
 		"zpos"			"1"
 		"wide"			"10"
 		"tall"			"10"
@@ -61,6 +68,7 @@
 		"fieldName"		"MetalIconBackground"
 		"xpos"			"1"
 		"ypos"			"121"
+		"ypos_minmode"	"71"
 		"zpos"			"1"
 		"wide"			"10"
 		"tall"			"10"
@@ -77,6 +85,7 @@
 		"fieldName"		"AccountValue"
 		"xpos"			"1"
 		"ypos"			"112"
+		"ypos_minmode"	"62"
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"26"
@@ -90,6 +99,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Cerbetica24"
+		"font_minmode"	"Cerbetica20"
 	}
 	"AccountValueBackground"
 	{
@@ -97,6 +107,7 @@
 		"fieldName"		"AccountValueBackgorund"
 		"xpos"			"2"
 		"ypos"			"113"
+		"ypos_minmode"	"63"
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"26"
@@ -110,6 +121,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Cerbetica24"
+		"font_minmode"	"Cerbetica20"
 		"fgcolor"		"TransparentBlack"
 	}
 }

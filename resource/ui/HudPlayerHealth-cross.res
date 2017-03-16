@@ -14,8 +14,8 @@
 		"zpos"			"2"
 		"wide"			"16"
 		"tall"	 		"42"
-		"wide_minmode"	"11"
-		"tall_minmode"	"25"
+		"wide_minmode"	"25"
+		"tall_minmode"	"11"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1" 
@@ -33,7 +33,7 @@
 	}
 	"HPBorderPanel2"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HPBackgroundPanel2"
 		"xpos"			"51"
 		"ypos"			"45"
@@ -44,7 +44,7 @@
 		"tall"	 		"16"
 		"wide_minmode"	"25"
 		"tall_minmode"	"11"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -59,16 +59,16 @@
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 		"0"	
 	}
-	
+
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"c-288"		
-		"ypos"			"c45"
-		"xpos_minmode"	"c-238"
-		"ypos_minmode"	"c5"
-		"xpos_minmode"	"32"
+		"ypos"			"c45"	
+		"xpos_minmode"	"c-238"		
+		"ypos_minmode"	"c5"	
+		"xpos"			"32"
 		"zpos_minmode"	"2"
 		"wide"			"250"
 		"tall"			"120"
@@ -121,12 +121,12 @@
 		"xpos"			"52"
 		"ypos"			"33"
 		"xpos_minmode"	"91"
-		"ypos_minmode"	"39"	
+		"ypos_minmode"	"39"
 		"zpos"			"1"
 		"wide"			"40"	
 		"tall"			"40"
 		"wide_minmode"	"25"
-		"tall_minmode"	"25"
+		"tall_minmode"	"25"	
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
@@ -223,21 +223,6 @@
 		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
 		"ControlName" 	"ImagePanel"
@@ -368,6 +353,8 @@
 		"zpos"			"7"
 		"wide"			"31"
 		"tall"			"31"
+		"wide_minmode"	"24"
+		"tall_minmode"	"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	

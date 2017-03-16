@@ -23,30 +23,30 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"90"
-		"xpos_minmode"	"105"
-		"ypos"			"0"
+		"xpos"			"9999"	//"c-262" // HB xpos
+		"ypos"			"r77" // HB ypo
 		"zpos"			"4"
-		"wide"			"70"
-		"tall"			"70"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"alpha"			"0"
-	}		
+		"wide"			"40" // HB size
+		"tall"			"40" // HB size
+		"visible"		"0" // HB enabled
+		"enabled"		"0" // HB enabled
+		"scaleImage"	"1"	
+	}
+
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"c-264" // HB bg xpos
+		"ypos"			"r79" // HB bg ypos
 		"zpos"			"3"
-		"wide"			"55"
-		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"44" // HB bg size
+		"tall"			"44"// HB bg size
+		"visible"		"0" // HB enabled
+		"enabled"		"0" // HB enabled
+		"Alpha"			"0" // HB enabled
 		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}	
 	"PlayerStatusHealthBonusImage"
 	{
@@ -55,12 +55,12 @@
 		"xpos"			"116"
 		"ypos"			"18"
 		"zpos"			"2"
-		"wide"			"68"	
+		"wide"			"68"
 		"tall"			"68"
 		"xpos_minmode"	"140"
 		"ypos_minmode"	"40"
 		"zpos_minmode"	"-1"
-		"wide_minmode"	"22"	
+		"wide_minmode"	"22"
 		"tall_minmode"	"22"
 		"visible"		"0"
 		"enabled"		"1"
