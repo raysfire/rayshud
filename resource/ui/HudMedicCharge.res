@@ -24,8 +24,6 @@
 		"xpos"			"236"
 		"ypos"			"40"
 		"xpos_minmode"	"96"
-
-
 		"ypos_minmode"	"-5"
 		"zpos"			"2"
 		"wide"			"120"
@@ -40,7 +38,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"CerbeticaBold56"
-
 		"font_minmode"	"CerbeticaBold32"
 		"fgcolor"		"Ammo In Clip"
 	}
@@ -50,12 +47,9 @@
 		"fieldName"		"ChargeLabelShadow"
 		"xpos"			"238"
 		"ypos"			"42"
-		"zpos"			"1"
-		"xpos_minmode	"98"
-		"ypos_minmode	"-3"
-		"zpos_minmode	"2"
-
-
+		"xpos_minmode"	"98"
+		"ypos_minmode"	"-3"
+		"zpos"			"2"
 		"wide"			"120"
 		"tall"			"72"
 		"autoResize"	"1"
@@ -68,8 +62,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"CerbeticaBold56"
-
-		"font_minmode	"CerbeticaBold32"
+		"font_minmode"	"CerbeticaBold32"
 		"fgcolor"		"TransparentBlack"
 	}
 	
@@ -102,7 +95,6 @@
 		"zpos"			"2"
 		"xpos_minmode"	"96"
 		"ypos_minmode"	"-5"
-
 		"zpos_minmode"	"5"
 		"wide"			"120"
 		"tall"			"72"
@@ -117,7 +109,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"CerbeticaBold56"
-
 		"font_minmode"	"CerbeticaBold32"
 		"fgcolor"		"Ammo In Clip"
 	}
@@ -132,8 +123,6 @@
 		"xpos_minmode"	"98"
 		"ypos_minmode"	"-3"
 		"zpos_minmode"	"3"
-
-
 		"wide" 			"120"
 		"tall" 			"72"
 		"autoResize" 	"1"
@@ -148,7 +137,6 @@
 		"brighttext" 	"0"
 		"font" 			"Blocks48"
 		"font_minmode"	"Blocks24"
-
 		"fgcolor_override"		"0 0 0 255"
 	}
 	
@@ -158,10 +146,8 @@
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
 		"xpos"			"75"
-
 		"ypos"			"115"
 		"xpos_minmode"	"2"
-
 		"ypos_minmode"	"37"
 		"zpos"			"2"
 		"wide"			"150"
@@ -201,7 +187,6 @@
 		"dulltext" 			"0"
 		"brighttext" 		"0"
 		"fgcolor_override"		"Uber Bar Color"
-	
 	}
 	
 	"ChargeMeter2"
@@ -209,27 +194,6 @@
 		"ControlName" 		"ContinuousProgressBar"
 		"fieldName" 		"ChargeMeter2"
 		"font" 				"Default"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 		"xpos" 				"252"
 		"ypos" 				"66"
 		"zpos"				"3"
@@ -246,20 +210,13 @@
 		"textAlignment" 	"Left"
 		"dulltext" 			"0"
 		"brighttext" 		"0"
-
 		"fgcolor_override"		"Uber Bar Color"
-
-
 	}
 
 	"ChargeMeter3"
-
-
 	{
 		"ControlName" 		"ContinuousProgressBar"
 		"fieldName" 		"ChargeMeter3"
-
-
 		"font" 				"Default"
 		"xpos" 				"252"
 		"ypos" 				"78"
@@ -277,7 +234,6 @@
 		"textAlignment" 	"Left"
 		"dulltext" 			"0"
 		"brighttext" 		"0"
-
 		"fgcolor_override"		"Uber Bar Color"
 	}
 
@@ -292,7 +248,6 @@
 		"xpos_minmode"	"158"
 		"ypos_minmode"	"34"
 		"zpos_minmode"	"4"
-
 		"wide" 			"86"
 		"tall" 			"9"
 		"wide_minmode" 	"19"
@@ -304,7 +259,6 @@
 		"textAlignment" "Left"
 		"dulltext" 		"0"
 		"brighttext" 	"0"
-
 		"fgcolor_override"		"Uber Bar Color"
 	}
 
@@ -332,39 +286,19 @@
 		"brighttext"	"0"
 		"font"			"Cerbetica16"
 		"font_minmode"	"Cerbetica12"
-
 		"fgcolor"	"150 150 150 255"
 	}	
 	
-	"HealthClusterIcon"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HealthClusterIcon"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"wide"			"36"
-		"tall"			"36"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/ico_health_cluster"
-		"scaleImage"	"1"	
-	}
-
 	"ResistIcon"
 	{
 		"ControlName" 	"ImagePanel"
 		"fieldName" 	"ResistIcon"
 		"xpos" 			"0"
 		"ypos"			"0"
-		"wide" 			"28"
-		"tall" 			"28"
-		"wide_minmode" 	"24"
-		"tall_minmode" 	"24"
+		"wide" 			"24"
+		"tall" 			"24"
 		"visible" 		"1"
 		"enabled" 		"1"
 		"image" 		"../HUD/defense_buff_bullet_blue"
-		
-	}	
-
-
+	}
 }
