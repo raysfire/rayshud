@@ -24,6 +24,12 @@ Screenshots
 * [Class selection screen](http://puu.sh/19R5o)
 * [Team selection screen](http://puu.sh/19R58)
 
+Automatic Installation
+--------
+For linux users run this in terminal: `wget https://raw.githubusercontent.com/J-tt/RayshudInstallers/master/rayshudunix.sh && chmod +x rayshudunix.sh && ./rayshudunix.sh && rm rayshudunix.sh`
+
+For Windows users: [Download and run](https://github.com/J-tt/RayshudInstallers/raw/master/InstallRayshud.exe)
+
 To Download
 --------
 
@@ -50,6 +56,7 @@ tf
         ├── sound
         └── ...
 ```
+
 
 
 Help/Support
