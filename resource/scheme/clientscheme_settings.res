@@ -1,3 +1,9 @@
+//
+///////////////////// BASE SETTINGS ////////////////////////
+//
+// Default settings for all panels
+// Controls use these to determine their settings
+
 Scheme
 {
 	BaseSettings

@@ -1,3 +1,8 @@
+//
+//////////////////// BORDERS //////////////////////////////
+//
+// Describes all the border types
+
 Scheme
 {
 	Borders

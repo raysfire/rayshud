@@ -1,3 +1,11 @@
+//
+//////////////////// COLORS //////////////////////////////
+//
+// HUD colors customizable
+// You can customize these colors fairly easily, the first 3 numbers are the RGB values, the last one is the transparency
+// This is a decent site for finding the color you would like: http://www.colorspire.com/rgb-color-wheel/
+// You will need to restart TF2 for any changes to take effect!
+
 Scheme
 {
 	Colors

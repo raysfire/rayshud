@@ -1,3 +1,9 @@
+//
+//////////////////// Main ClientScheme //////////////////////
+//
+// Default ClientScheme references others through #base
+
+#base "scheme/clientscheme_xhairs.res"
 #base "scheme/clientscheme_borders.res"
 #base "scheme/clientscheme_colors.res"
 #base "scheme/clientscheme_fonts.res"
