@@ -52,7 +52,7 @@ tf
 Help/Support
 --------
 
-If you've found a bug, need help or have a suggestion - either [open a support ticket here on GitHub](https://github.com/raysfire/rayshud/issues/new) or [make a post on the Steam Group](https://github.com/raysfire/rayshud/issues/new).
+If you've found a bug, need help or have a suggestion - either [open a support ticket here on GitHub](https://github.com/raysfire/rayshud/issues/new) or [make a post on the Steam Group](https://steamcommunity.com/groups/rayshud).
 
 Credits
 --------
