@@ -2813,7 +2813,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Cerbetica Bold Medic"
+				"name"		 "Cerbetica Bold"
 				"tall" 		 "56"
 				"additive"	 "0"
 				"antialias"	 "1"
