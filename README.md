@@ -1,7 +1,7 @@
 rayshud
 =======
 
-A hud for Team Fortress 2.
+A HUD for Team Fortress 2.
 
 About
 -------
@@ -33,11 +33,9 @@ To Install
 Be sure to back up your old hud folder first! Never know when something might break, and it's always best to be prepared.
 
 1. Press `Download Zip` on Github. This will download `rayshud-master.zip`
-2. Navigate to `C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf`
-3. Create a folder named `custom` if it does not already exist
-4. Extract .zip file contents into `custom` directory. You may rename the top folder whatever you wish.
-
-The final structure should resemble the following:
+2. Navigate to `C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom`
+3. Extract .zip file contents into the `custom` folder.
+4. Ensure that the final structure file should resembles the following:
 ```
 tf
 └── custom
@@ -51,8 +49,9 @@ tf
 
 Help/Support
 --------
-
-If you've found a bug, need help or have a suggestion - either [open a support ticket here on GitHub](https://github.com/raysfire/rayshud/issues/new) or [make a post on the Steam Group](https://steamcommunity.com/groups/rayshud).
+* If you have a MAC, replace the current fonts (CERBETICA, CERBETICA_EDITED) with those that have a "-MAC" suffix. If you don't do this, the in-game font will not render properly.
+* If you're on a 4:3 resolution, (800x600, 1024x768, etc.), then after installing raysHUD, copy the contents of `rayshud/customizations/4_by_3_ratio` folder into `rayshud/resource/ui`.
+* If you've found a bug, need help or have a suggestion - either [open a support ticket here on GitHub](https://github.com/raysfire/rayshud/issues/new) or [make a post on the Steam Group](https://steamcommunity.com/groups/rayshud).
 
 Credits
 --------
