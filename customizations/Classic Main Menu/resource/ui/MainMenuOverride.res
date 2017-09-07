@@ -820,40 +820,40 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"184"
-		"ypos"			"415"
-		"zpos"			"1"
-		"wide"			"36"
-		"tall"			"36"
+		"xpos"			"227"
+		"ypos"			"425"
+		"zpos"			"10"
+		"wide"			"20"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		
+				
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"9999"
-			"ypos"			"9999"
+			"xpos"			"16"
+			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"12"
-			"tall"			"12"
-			"visible"		"1"
-			"enabled"		"1"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"glyph_achievements"
 			"scaleImage"	"1"
-			"drawcolor" "255 255 255 255"
-		}				
+			"drawcolor" "210 125 33 255"
+		}						
 		
 		"Notifications_CountLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_CountLabel"
-			"font"			"CerbeticaBold16"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%noticount%"
 			"textAlignment"	"center"
-			"xpos"			"12"
+			"xpos"			"10"
 			"ypos"			"-4"
 			"zpos"			"4"
 			"wide"			"16"
@@ -868,10 +868,10 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_CountLabelBG"
-			"font"			"CerbeticaBold16"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%noticount%"
 			"textAlignment"	"center"
-			"xpos"			"13"
+			"xpos"			"11"
 			"ypos"			"-3"
 			"zpos"			"4"
 			"wide"			"16"
@@ -880,7 +880,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"0 0 0 255"
+			"fgcolor_override"	"TransparentBlack"
 		}
 	
 		"Notifications_ShowButtonPanel_SB"
@@ -889,26 +889,39 @@
 			"fieldName"		"Notifications_ShowButtonPanel_SB"
 			"xpos"			"0"
 			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"20"
-			"tall"			"20"
+			"zpos"			"5"
+			"wide"			"24"
+			"tall"			"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		""
-			"font"			"CerbeticaBold12"
+			"font"			"Multimedia16"
+			"labelText"		"r"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
+			"actionsignallevel" "2"			
+			
 			"Command"		"noti_show"
+			
+			"fgcolor_override" 	"235 226 202 255"
+			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground" "0"
+			
+			"border_default"	""
+			"border_armed"		""
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "TanLight"
+			"armedFgColor_override" "72 255 255 255"
+			"depressedFgColor_override" "72 255 255 255"
+			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"72 255 255 255"
 			
 			"SubImage"
 			{
@@ -919,55 +932,14 @@
 				"zpos"			"1"
 				"wide"			"20"
 				"tall"			"20"
-				"visible"		"1"
-				"enabled"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 				"image"			"button_Alert"
 				"scaleImage"	"1"
 			}
 		}
 	}
-	
-	"ShowWarButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"ShowWarButton"
-		"xpos"			"c100"
-		"ypos"			"30"
-		"zpos"			"1"
-		"wide"			"120"
-		"tall"			"28"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"War is here!"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"textinsetx"	"25"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"showcomic"
-		"proportionaltoparent" "1"
 
-		"navUp"			"Notifications_Panel"
-		"navLeft"		"SettingsButton"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
-
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-			
-		"image_drawcolor"	"117 107 94 255"
-		"image_armedcolor"	"235 226 202 255"
-	}	
-	
 	"Notifications_Panel"
 	{
 		"ControlName"	"EditablePanel"
@@ -1002,6 +974,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
+			"actionsignallevel"	"2"
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"noti_hide"
@@ -1072,6 +1046,47 @@
 			}
 		}
 	}
+	
+	"ShowWarButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ShowWarButton"
+		"xpos"			"c100"
+		"ypos"			"30"
+		"zpos"			"1"
+		"wide"			"120"
+		"tall"			"28"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"War is here!"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"textinsetx"	"25"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"showcomic"
+		"proportionaltoparent" "1"
+
+		"navUp"			"Notifications_Panel"
+		"navLeft"		"SettingsButton"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"0"
+
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+			
+		"image_drawcolor"	"117 107 94 255"
+		"image_armedcolor"	"235 226 202 255"
+	}	
 	
 	"StoreHasNewItemsImage"
 	{
@@ -2592,6 +2607,11 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"view_newuser_forums"
+		
+		"defaultFgColor_override" "TanLight"
+		"armedFgColor_override" "Button Color"
+		"depressedFgColor_override" "Button Color"	
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"PaintBackgroundType" "0"
