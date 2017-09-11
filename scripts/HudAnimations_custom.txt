@@ -203,3 +203,9 @@ event CompetitiveGame_ShowDisconnectButton
 {
 	Animate DisconnectButton ypos r30 Accel 0 0.4
 }
+
+//==================================================================================
+// Do not move chat window
+event CompetitiveGame_LowerChatWindow	{ }
+event CompetitiveGame_RestoreChatWindow	{ }
+event HudTournament_MoveChatWindow 	{ }
