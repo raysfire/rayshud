@@ -1,4 +1,4 @@
-rayshud
+![alt text](http://huds.tf/forum/xthreads_attach.php/572_1486499416_dd57b51a/8daf74d7f23cd9e2dd4abd849b3f0644/directory.jpg)
 =======
 
 A HUD for Team Fortress 2.
@@ -11,40 +11,42 @@ A simplistic yet bold hud for TF2 made to cut out a lot of clutter included that
 Screenshots
 --------
 
-* http://puu.sh/188pJ - Health/Ammo, overheal, TargetID
-* http://puu.sh/188qq - 16v16 scoreboard
-* http://puu.sh/188qS - 6v6 scoreboard
-* http://puu.sh/188r9 - Low ammo, kill feed
-* http://puu.sh/188rV - Charge meter, last damage done location
-* http://puu.sh/188tf - Spectator TargetID
-* http://puu.sh/188wK - Tournament spectator hud, inspect panel, koth timers
-* http://puu.sh/188xO - CTF hud
-* http://puu.sh/19R5o - Class selection screen
-* http://puu.sh/19R58 - Team selection screen               
+* [Health/Ammo, Overheal, TargetID](http://puu.sh/188pJ)
+* [16v16 Scoreboard](http://puu.sh/188qq)
+* [6v6 Scoreboard](http://puu.sh/188qS)
+* [Low ammo, Killfeed](http://puu.sh/188r9)
+* [Charge Meter, Last Damage done location](http://puu.sh/188rV)
+* [Spectator TargetID](http://puu.sh/188tf)
+* [Tournament Spectator HUD, Inspect Panel, KOTH Timers](http://puu.sh/188wK)
+* [Capture the Flag HUD](http://puu.sh/188xO)
+* [Class Selection screen](http://puu.sh/19R5o)
+* [Team Selection screen](http://puu.sh/19R58)
 
 To Download
 --------
 
-Click the green `Clone or Download` button at the top of the page and then `Download Zip` in order to download the most recent version of my hud! It should be at the top of the page. 
+Click the green `Clone or Download` button at the top of the page and then `Download ZIP` in order to download the most recent version of my hud! It should be at the top of the page. 
 
 To Install
 --------
 
 Be sure to back up your old hud folder first! Never know when something might break, and it's always best to be prepared.
 
-1. Press `Download Zip` on Github. This will download `rayshud-master.zip`
+1. Press `Download ZIP` on Github. This will download `rayshud-master.zip`
 2. Navigate to `C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom`
 3. Extract .zip file contents into the `custom` folder.
-4. Ensure that the final structure file should resembles the following:
+4. Ensure that the final file structure should resembles the following:
 ```
 tf
 └── custom
     └── rayshud
+        ├── customizations
         ├── materials
         ├── resource
         ├── scripts
         ├── sound
-        └── ...
+        ├── README.md
+        └── info.vdf
 ```
 
 Help/Support
