@@ -21,6 +21,7 @@ Scheme
 	    "QuickListBGSelected"		"131 121 104 150"
 	    "Blank"						"0 0 0 0"
 	    "White"						"255 255 255 255"
+		"Green"						"63 185 73 255"
 		"ControlBG"					"76 88 68 255"
 		"ControlDarkBG"				"90 106 80 255"
 		"WindowBG"					"62 70 55 255"

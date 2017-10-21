@@ -3133,6 +3133,227 @@ Scheme
 			"src_corner_width"		"5"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
+		}
+		
+		CYOAScreenBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"cyoa/cyoa_map_screen_border"
+			"src_corner_height"		"63"				// pixels inside the image
+			"src_corner_width"		"63"
+			"draw_corner_width"		"26"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"26"	
+		}
+
+		CYOANodeViewBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"cyoa/node_view_border"
+			"src_corner_height"		"127"				// pixels inside the image
+			"src_corner_width"		"127"
+			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"24"	
+		}
+
+		CYOANodeViewBorder_Active
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"cyoa/node_view_border_active"
+			"src_corner_height"		"127"				// pixels inside the image
+			"src_corner_width"		"127"
+			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"24"	
+		}
+
+		CYOANodeViewBorder_Inactive
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"cyoa/node_view_border_inactive"
+			"src_corner_height"		"127"				// pixels inside the image
+			"src_corner_width"		"127"
+			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"24"	
+		}
+
+		CYOANodeViewBorder_TurnIn
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"cyoa/node_view_border_turnin"
+			"src_corner_height"		"127"				// pixels inside the image
+			"src_corner_width"		"127"
+			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"24"	
+		}
+
+		CYOAPopupBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "QuestMap_ActiveOrange"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "QuestMap_ActiveOrange"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "QuestMap_ActiveOrange"
+					"offset" "1 0"
+				}
+				"2"
+				{
+					"color" "QuestMap_ActiveOrange"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "QuestMap_ActiveOrange"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "QuestMap_ActiveOrange"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "QuestMap_ActiveOrange"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "QuestMap_ActiveOrange"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		FriendHighlightBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 1"
+				}
+
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		FriendHighlightBorderThick
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "1 0"
+				}
+				"2"
+				{
+					"color" "CreditsGreen"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "CreditsGreen"
+					"offset" "0 0"
+				}
+			}
 		}		
 	}
 }

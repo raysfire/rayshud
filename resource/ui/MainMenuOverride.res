@@ -252,8 +252,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HudNameBG"
-		"xpos"			"75"
-		"ypos"			"90"
+		"xpos"			"5"
+		"ypos"			"20"
 		"zpos"			"0"
 		"wide"			"220"
 		"tall"			"25"
@@ -268,8 +268,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"HudName"
-		"xpos"			"80"
-		"ypos"			"91"
+		"xpos"			"10"
+		"ypos"			"21"
 		"zpos"			"1"
 		"wide"			"56"
 		"tall"			"25"
@@ -375,13 +375,43 @@
 		}
 	}
 	
+	"JungleInfernoImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"JungleInfernoImage"
+		"xpos"			"c-290+64"
+		"ypos"			"64"
+		"zpos"			"1"
+		"wide"			"o4"
+		"tall"			"32"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"		"../logo/inferno_logo_anim"
+		"scaleImage"	"1"
+		"mouseinputenabled"	"0"
+
+		if_operation
+		{
+			"visible"		"0"
+		}
+	}	
+	
 	"TFCharacterImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"-99"
+		"xpos"			"c-173"
+
+		if_taller
+		{
+			if_operation
+			{
+				"xpos"		"c-173"
+			}
+		}
+
+		"ypos"			"-80"
+		"zpos"			"-1"
 		"wide"			"600"
 		"tall"			"600"
 		"visible"		"1"
@@ -420,6 +450,44 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"235 227 203 255"
+	}
+
+	"RankModelPanel"
+	{
+		"ControlName"	"CPvPRankPanel"
+		"fieldName"		"RankModelPanel"
+		"xpos"			"cs-0.5-350"
+		"ypos"			"cs-0.5-120"
+
+		"zpos"			"-51"
+		"wide"			"1000"
+		"tall"			"1000"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+
+		"matchgroup"	"MatchGroup_Casual_12v12"
+
+		"show_progress"	"0"
+	}
+	
+	"RankPanel"
+	{
+		"ControlName"	"CPvPRankPanel"
+		"fieldName"		"RankPanel"
+		"xpos"			"c-400"
+		"ypos"			"72"
+		"zpos"			"-52"
+		"wide"			"320"
+		"tall"			"100"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+
+		"matchgroup"	"MatchGroup_Casual_12v12"
+		"xp_source_notification_center_x"	"350"
+
+		"show_model"	"0"
 	}
 	
 	"TooltipPanel"
@@ -1417,7 +1485,145 @@
 				"visible"		"1"
 			}
 		}
-	}	
+	}
+
+	"CompetitiveAccessInfoPanel"
+	{
+		"ControlName"	"CCompetitiveAccessInfoPanel"
+		"fieldName"		"CompetitiveAccessInfoPanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"zpos"			"1000"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"0"
+	}
+
+	"FriendsContainer"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"FriendsContainer"
+		"xpos"			"30"
+		"ypos"			"300"
+		"zpos"			"5"
+		"wide"			"260"
+		"tall"			"150"
+		"visible"		"1"
+
+		"border"		"MainMenuBGBorder"
+
+		"TitleLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"TitleLabel"
+			"font"			"HudFontSmallBold"
+			"labelText"		"#TF_Competitive_Friends"
+			"textAlignment"	"west"
+			"xpos"			"12"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"textinsetx"	"0"
+			"fgcolor_override"	"235 227 203 255"
+		}
+
+		"InnerShadow"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"InnerShadow"
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1-10"
+			"zpos"			"501"
+			"wide"			"f20"
+			"tall"			"110"
+			"visible"		"1"	
+			"PaintBackgroundType"	"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+
+			"paintborder"	"1"
+			"border"		"InnerShadowBorder"
+		}
+
+		"SteamFriendsList"
+		{
+			"ControlName"	"CSteamFriendsListPanel"
+			"fieldname"		"SteamFriendsList"
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1-10"
+			"zpos"			"500"
+			"wide"			"f20"
+			"tall"			"110"
+			"visible"		"1"
+			"proportionaltoparent"	"1"
+
+			"columns_count"	"2"
+			"inset_x"		"10"
+			"inset_y"		"5"
+			"row_gap"		"5"
+			"column_gap"	"20"
+			"restrict_width"	"0"
+
+			"friendpanel_kv"
+			{
+				"wide"		"100"
+				"tall"		"20"
+			}
+
+			"ScrollBar"
+			{
+				"ControlName"	"ScrollBar"
+				"FieldName"		"ScrollBar"
+				"xpos"			"rs1-1"
+				"ypos"			"0"
+				"tall"			"f0"
+				"wide"			"5" // This gets slammed from client schme.  GG.
+				"zpos"			"1000"
+				"nobuttons"		"1"
+				"proportionaltoparent"	"1"
+
+				"Slider"
+				{
+					"fgcolor_override"	"TanDark"
+				}
+		
+				"UpButton"
+				{
+					"ControlName"	"Button"
+					"FieldName"		"UpButton"
+					"visible"		"0"
+				}
+		
+				"DownButton"
+				{
+					"ControlName"	"Button"
+					"FieldName"		"DownButton"
+					"visible"		"0"
+				}
+			}
+		}
+
+		"BelowDarken"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"BelowDarken"
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1-10"
+			"zpos"			"499"
+			"wide"			"f20"
+			"tall"			"110"
+			"visible"		"1"	
+			"PaintBackgroundType"	"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+
+			"bgcolor_override"	"0 0 0 100"
+		}
+	}
 	
 	"HTMLContainer"
 	{
@@ -2177,8 +2383,8 @@
 			"wide"			"220"
 			"tall"			"18"
 			"autoResize"	"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tabPosition"	"0"
 			"font"			"Cerbetica16"
 			"textAlignment"	"west"
@@ -2240,8 +2446,8 @@
 			"wide"			"220"
 			"tall"			"18"
 			"autoResize"	"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tabPosition"	"0"
 			"font"			"Cerbetica16"
 			"textAlignment"	"west"
@@ -2303,8 +2509,8 @@
 			"wide"			"220"
 			"tall"			"18"
 			"autoResize"	"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tabPosition"	"0"
 			"font"			"Cerbetica16"
 			"textAlignment"	"west"
@@ -2368,8 +2574,8 @@
 			"wide"			"220"
 			"tall"			"18"
 			"autoResize"	"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tabPosition"	"0"
 			"font"			"Cerbetica16"
 			"textAlignment"	"west"
