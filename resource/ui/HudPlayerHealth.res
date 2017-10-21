@@ -108,7 +108,7 @@
 		"ypos"			"20"
 		"zpos"			"6"
 		"wide"			"50"
-		"tall"			"18"
+		"tall"			"38"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
