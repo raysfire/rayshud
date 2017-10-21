@@ -2870,6 +2870,67 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		
+		"QuestMap_Small_Blur"
+		{
+			"1"
+			{
+				"name"			"ocra"
+				"tall"			"7"
+				"weight"		"0"
+				"blur"			"3"
+				"additive"		"1"
+				"antialias" 	"1"
+			}
+		}
+
+		"QuestMap_Small"
+		{
+			"1"
+			{
+				"name"			"ocra"
+				"tall"			"7"
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+
+		"QuestMap_Medium"
+		{
+			"1"
+			{
+				"name"			"ocra"
+				"tall"			"10"
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+
+		"QuestMap_Large"
+		{
+			"1"
+			{
+				"name"			"ocra"
+				"tall"			"14"
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+
+		"QuestMap_Huge"
+		{
+			"1"
+			{
+				"name"			"ocra"
+				"tall"			"30"
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
 	}
 	
 	//////////////////////// BITMAP FONT FILES /////////////////////////////
