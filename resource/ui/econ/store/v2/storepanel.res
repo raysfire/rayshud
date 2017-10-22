@@ -111,7 +111,8 @@
 		"tabxindent"	"80"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
-		"tabheight"		"34"
+		"tabheight"		"20"
+		"yoffset"		"14"
 		"transition_time" "0"
 		
 		"HeaderLine"
@@ -135,7 +136,7 @@
 		{
 			"textinsetx"		"25"
 			"textAlignment"		"center"
-			"font"				"Cerbetica32"
+			"font"				"Cerbetica20"
 			"ypos"				"50"
 			"selectedcolor"		"TanLight"
 			"unselectedcolor"	"TanDark"	

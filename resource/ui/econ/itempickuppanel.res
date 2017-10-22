@@ -6,7 +6,7 @@
 		"fieldName"		"item_pickup"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"100000"
+		"zpos"			"200000"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"		"0"
@@ -28,43 +28,26 @@
 		"modelpanelskv"	
 		{
 			"PaintBackgroundType"	"0"
-			"paintborder"			"0"
-			"bgcolor_override"		"0 0 0 0"
+			"paintborder"			"1"
+			"bgcolor_override"		"Grey"
 			
-			"model_xpos"	"-125"
+			"model_xpos"	"0"
 			"model_center_y"	"1"
 			"model_tall"	"160"
+			"model_wide"	"240"
 			
 			"text_forcesize"	"1"
 			"text_xpos"		"250"
 			"text_wide"		"225"
 			"text_center"	"1"
-			"BackColor"
-			{
-    		"ControlName"		"EditablePanel"
-    		"fieldName"			"BackColor"
-    		"xpos"				"0"
-    		"ypos"				"0"
-    		"zpos"				"-1"
-    		"wide"				"f0"
-    		"tall"	 			"f0"
-    		"visible"			"1"
-    		"enabled"			"1"
-			"pinCorner"			"0"
-			"autoResize"		"0"
-			"PaintBackgroundType""1"
-			"border"			"NoBorder"
-			"bgcolor_override"	"35 35 35 255"
-			
-			}
+			"is_mouseover"	"1"
+			"hide_collection_panel"	"1"
 			
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
 				"inventory_image_type" "1"
 			}
-		
-
 		}
 	}
 	
