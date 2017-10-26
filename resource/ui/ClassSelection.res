@@ -16,7 +16,7 @@
 		"fillcolor"		"0 0 0 128"
 	}
 	
-		"charInfo"
+	"charInfo"
 	{
 		"fieldName"		"charInfo"
 		"xpos"			"0"
@@ -96,7 +96,6 @@
 		"keyboardinputenabled"	"0"
 	}
 	
-		
 	"Offense"
 	{
 		"ControlName"	"CExLabel"
@@ -155,7 +154,6 @@
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-
 	}
 	"soldier"
 		{
@@ -189,15 +187,14 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		
 		"stayselectedonclick"	"1"
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 
-		}
+	}
 	"pyro"
-		{
+	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"pyro"
 		"xpos"				"30"
@@ -227,14 +224,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
-		
+
 		"stayselectedonclick"	"1"
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-
-		}
+	}
 	
 	"Defense"
 	{
@@ -259,7 +254,7 @@
 		"fgcolor_lodef"	"TanLight"
 	}
 	"demoman"
-		{
+	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"demoman"
 		"xpos"				"30"
@@ -290,15 +285,13 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		
 		"stayselectedonclick"	"1"
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		}
-		
+	}	
 	"heavyweapons"
-		{
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"heavyweapons"
 		"xpos"				"30"
@@ -328,14 +321,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
-		
+
 		"stayselectedonclick"	"1"
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		}
-		
+	}	
 	"engineer"
 	{
 		"ControlName"		"CExLabel"
@@ -368,14 +359,12 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		
 		"stayselectedonclick"	"1"
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 	}
 
-	
 	"Support"
 	{
 		"ControlName"	"CExLabel"
@@ -398,7 +387,7 @@
 		"fgcolor_lodef"	"TanLight"
 	}
 	"medic"
-			{
+	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"medic"
 		"xpos"				"30"
@@ -429,14 +418,13 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		
 		"stayselectedonclick"	"1"
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		}
+	}
 	"sniper"
-		{
+	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"sniper"
 		"xpos"				"30"
@@ -467,14 +455,13 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		
 		"stayselectedonclick"	"1"
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		}
+	}
 	"spy"
-		{
+	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"spy"
 		"xpos"				"30"
@@ -505,12 +492,11 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		
 		"stayselectedonclick"	"1"
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		}
+	}
 
 	"CancelButton" [$WIN32] 
 	{
@@ -1419,49 +1405,7 @@
 			"spotlight" "1"
 		
 			"modelname"		""
-			"vcd"		"class_select.vcd"		
-			
-			"animation"
-			{
-				"name"		"PRIMARY"
-				"activity"	"ACT_MP_STAND_PRIMARY"
-				"default"	"1"
-			}
-			"animation"
-			{
-				"name"		"SECONDARY"
-				"activity"	"ACT_MP_STAND_SECONDARY"
-			}
-			"animation"
-			{
-				"name"		"MELEE"
-				"activity"	"ACT_MP_STAND_MELEE"
-			}
-			"animation"
-			{
-				"name"		"BUILDING"
-				"activity"	"ACT_MP_STAND_BUILDING"
-			}
-			"animation"
-			{
-				"name"		"PDA"
-				"activity"	"ACT_MP_STAND_PDA"
-			}
-			"animation"
-			{
-				"name"		"ITEM1"
-				"activity"	"ACT_MP_STAND_ITEM1"
-			}						
-			"animation"
-			{
-				"name"		"ITEM2"
-				"activity"	"ACT_MP_STAND_ITEM2"
-			}	
-			"animation"
-			{
-				"name"		"MELEE_ALLCLASS"
-				"activity"	"ACT_MP_STAND_MELEE_ALLCLASS"
-			}								
+			"vcd"		"class_select.vcd"
 		}
 	}
 	

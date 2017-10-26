@@ -2155,7 +2155,7 @@
 		"tall"			"150"
 	}
 	
-		"CTFKillStreakNotice"
+	"CTFKillStreakNotice"
 	{
 		"fieldName"		"CTFKillStreakNotice"
 		"xpos"			"0"			
@@ -2247,7 +2247,7 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"f0"
-	}	
+	}
 	
 	HudMatchStatus
 	{

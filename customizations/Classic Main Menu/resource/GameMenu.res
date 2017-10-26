@@ -31,30 +31,18 @@
 
 	"CreateServerButton"
 	{
-		"label" 		""
+		"label" 		"#GameUI_GameMenu_CreateServer"
 		"command" 		"OpenCreateMultiplayerGameDialog"
-		"tooltip" 		"Create Server"
+		"OnlyAtMenu" 	"1"
+		"tooltip" 		"#GameUI_GameMenu_CreateServer"
 	}
-	"ReportBugButton"
-	{
-		"label"			""
-		"command"		"engine bug"
-		"tooltip" 		"Report Bug"
-	}
-	"AchievementsButton"
-	{
-		"label"			""
-		"command"		"OpenAchievementsDialog"
-		"tooltip" 		"Achievements"
-	}
-	
 	"CallVoteButton"
 	{
 		"label"			""
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage" 		"icon_checkbox"
-		"tooltip" 		"Call Vote"
+		"tooltip" 		"#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{
@@ -62,7 +50,7 @@
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 		"subimage" 		"glyph_muted"
-		"tooltip" 		"Mute Player"
+		"tooltip" 		"#MMenu_MutePlayers"
 	}
 	"ReportPlayerButton"
 	{
@@ -70,6 +58,6 @@
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
 		"subimage"		"glyph_alert"
-		"tooltip"		"Report Player"
+		"tooltip"		"#MMenu_ReportPlayer"
 	}
 }
