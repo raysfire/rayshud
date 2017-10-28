@@ -11,16 +11,14 @@ Scheme
 			{
 				"name"		"Cerbetica_edited"
 				"tall"		"12"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 			"2"
 			{
 				"name"		"Cerbetica_bold"
 				"tall"		"72"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
-			
-			
 		}
 		"DefaultUnderline"
 		{
@@ -36,8 +34,8 @@ Scheme
 			{
 				"name"		"Cerbetica_edited"
 				"tall"		"11"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"800"
 			}
 		}
 		"DefaultSmall"
@@ -48,7 +46,7 @@ Scheme
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"480 599"
+				"yres"		"480 599"
 			}
 			"2"
 			{
@@ -56,7 +54,7 @@ Scheme
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"600 767"
+				"yres"		"600 767"
 			}
 			"3"
 			{
@@ -64,7 +62,7 @@ Scheme
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"768 1023"
+				"yres"		"768 1023"
 				"antialias"	"1"
 			}
 			"4"
@@ -73,7 +71,7 @@ Scheme
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1024 1199"
+				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
@@ -82,15 +80,15 @@ Scheme
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
+				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
 				"name"		"Cerbetica_edited"
 				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"0"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"0"
 			}
 		}
 
@@ -103,21 +101,21 @@ Scheme
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
+				"yres"		"480 599"
 			}
 			"2"
 			{
 				"name"		"Cerbetica_edited"
 				"tall"		"12"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
+				"yres"		"600 767"
 			}
 			"3"
 			{
 				"name"		"Cerbetica_edited"
 				"tall"		"12"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
+				"yres"		"768 1023"
 				"antialias"	"1"
 			}
 			"4"
@@ -125,7 +123,7 @@ Scheme
 				"name"		"Cerbetica_edited"
 				"tall"		"14"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
+				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
@@ -133,7 +131,7 @@ Scheme
 				"name"		"Cerbetica_edited"
 				"tall"		"16"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
+				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -179,22 +177,22 @@ Scheme
 				"tall"		"30"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
+				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
 				"name"		"Cerbetica_edited"
 				"tall"		"20"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"900"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"900"
 			}
 			"7"
 			{
 				"name"		"Cerbetica_edited"
 				"tall"		"20"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"800"
 			}
 		}
 		CenterPrintText

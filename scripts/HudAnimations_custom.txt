@@ -86,17 +86,18 @@ event HudLowAmmoPulseStop
 	Animate	  AmmoNoClip		FgColor		"Ammo In Clip"			Accel 0.0 0.0
 }
 //===========================================
+
 event DamagedPlayer 
 {
-	StopEvent HitMarker 0.0
-	RunEvent HitMarker 0.01
+	StopEvent HitMarker 			0.0
+	RunEvent HitMarker 				0.01
 }
 
 event HitMarker
 {
-	// Empty
+	Animate KnucklesCrosses	 		FgColor 	"CrosshairDamage" 	Linear 0.0 0.0
+	Animate KnucklesCrosses	 		FgColor 	"Crosshair" 		Linear 0.15 0.0
 }
-
 //===========================================
 // Spy Disguise
 event HudSpyDisguiseFadeIn
