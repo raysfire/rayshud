@@ -23,7 +23,7 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/background_upward_widescreen"
+		"image"			"../console/background_upward_widescreen"
 		"scaleImage"	"1"
 	}
 	

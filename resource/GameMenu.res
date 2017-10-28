@@ -1,75 +1,77 @@
-"GameMenu" [$WIN32]
+"GameMenu"
 {
-	"ServerBrowserButton"
-	{
-		"label" "Servers" 
-		"command" "OpenServerBrowser"
-		"subimage" ""
-		"OnlyAtMenu" "0"
-	}
+	// MAIN MENU
 	"CharacterSetupButton"
 	{
-		"label" "Items"
-		"command" "engine open_charinfo"
-		"subimage" ""
+		"label" 		"Inventory"
+		"command" 		"engine open_charinfo"
+		"subimage" 		""
 	}
 	"GeneralStoreButton"
 	{
-		"label" "Shop"
-		"command" "engine open_store"
-		"subimage" ""
+		"label" 		"Mann Co. Store"
+		"command" 		"engine open_store"
+		"subimage" 		""
 	}
 	"ReplayBrowserButton"
 	{
-		"label" "Replays"
-		"command" "engine replay_reloadbrowser"
-		"subimage" ""
+		"label" 		"Replay"
+		"command" 		"engine replay_reloadbrowser"
+		"subimage" 		""
 	}
-	//SettingsButton
-	//TF2SettingsButton
-	//MinmodeToggle
-
+	"SettingsButton"
+	{
+		"label" 		"Options"
+		"command" 		"OpenOptionsDialog"
+	}
+	"TF2SettingsButton"
+	{
+		"label" 		"Adv. Options"
+		"command" 		"opentf2options"
+	}
+	
 	"CreateServerButton"
 	{
 		"label" 		""
 		"command" 		"OpenCreateMultiplayerGameDialog"
 		"tooltip" 		"Create Server"
 	}
-	"ReportBugButton"
-	{
-		"label"			""
-		"command"		"engine bug"
-		"tooltip" 		"Report Bug"
-	}
 	"AchievementsButton"
 	{
 		"label"			""
 		"command"		"OpenAchievementsDialog"
+		"subimage" 		"glyph_achievements"
 		"tooltip" 		"Achievements"
 	}
-	
+	"ReportBugButton"
+	{
+		"label"			""
+		"command"		"engine bug"
+		"subimage"		"glyph_bug"
+		"tooltip"		"Report Bug"
+	}
 	"CallVoteButton"
 	{
 		"label"			""
 		"command"		"callvote"
-		"OnlyInGame"	"1"
 		"subimage" 		"icon_checkbox"
 		"tooltip" 		"Call Vote"
+		"OnlyInGame"	"1"
 	}
 	"MutePlayersButton"
 	{
 		"label"			""
 		"command"		"OpenPlayerListDialog"
-		"OnlyInGame"	"1"
 		"subimage" 		"glyph_muted"
 		"tooltip" 		"Mute Player"
+		"OnlyInGame"	"1"
 	}
 	"ReportPlayerButton"
 	{
 		"label"			""
 		"command"		"OpenReportPlayerDialog"
-		"OnlyInGame"	"1"
-		"subimage"		"glyph_alert"
+		"subimage"		"glyph_commentary"
 		"tooltip"		"Report Player"
+		"OnlyInGame"	"1"
 	}
 }

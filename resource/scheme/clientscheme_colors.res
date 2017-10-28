@@ -41,6 +41,10 @@ Scheme
 		"Heal Numbers"							"48 255 48 255"
 		"Damage Numbers"						"72 255 255 255"
 		
+		//crosshair colors	
+		"Crosshair"					"242 242 242 255"
+		"CrosshairDamage"			"255 0 0 255"
+		
 		//'Last DamageHeal Info' refers to the number that appears above hp
 		"Last DamageHeal Info"					"72 255 255 255"
 		
