@@ -63,5 +63,17 @@ Scheme
 			"font" "resource/fonts/KnucklesCrosses.ttf"
 			"name" "KnucklesCrosses"
 		}
+		
+		"13" // Fog's xHairs
+		{
+			"font" "resource/fonts/crosshairs.ttf"
+			"name" "Crosshairs"
+		}
+		
+		"14" // Konr Wings
+		{
+			"font" "resource/fonts/Garm3nFont.ttf"
+			"name" "Garm3nFont"
+		}
 	}
 }
