@@ -62,7 +62,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"			"Cerbetica48"
+			"font"			"Cerbetica44"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"15"
@@ -79,7 +79,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
-			"font"			"Cerbetica48"
+			"font"			"Cerbetica44"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"17"
@@ -129,7 +129,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScore"
-			"font"			"Cerbetica48"
+			"font"			"Cerbetica44"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"105"
@@ -146,7 +146,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScoreDropshadow"
-			"font"			"Cerbetica48"
+			"font"			"Cerbetica44"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"107"
