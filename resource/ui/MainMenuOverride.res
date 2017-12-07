@@ -274,22 +274,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"			"c-173"
-
-		if_taller
-		{
-			if_operation
-			{
-				"xpos"		"c-173"
-			}
-		}
-
-		"ypos"			"-80"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"-99"
 		"wide"			"600"
 		"tall"			"600"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"
 	}
 
@@ -299,16 +290,13 @@
 		"fieldName"		"RankModelPanel"
 		"xpos"			"130"
 		"ypos"			"cs-0.5-17"
-
 		"zpos"			"-51"
 		"wide"			"170"
 		"tall"			"1000"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
-
 		"matchgroup"	"MatchGroup_Casual_12v12"
-
 		"show_progress"	"0"
 	}
 	

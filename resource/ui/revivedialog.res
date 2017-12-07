@@ -16,6 +16,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
+		
 		"BackColor"
     	{
     		"ControlName"		"EditablePanel"

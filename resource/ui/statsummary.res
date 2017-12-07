@@ -146,7 +146,7 @@
 				"enabled"		"1"
 				"centerwrap"	"1"
 				"wrap"			"1"
-			}					
+			}
 		}
 	
 		"InfoBG"
@@ -239,8 +239,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fgcolor_override" "TanLight"
-	
-	}					
+	}
 	"MapLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -276,7 +275,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "TanLight"
-	}					
+	}
 	"StatData"
 	{
 		"ControlName"	"EditablePanel"
@@ -368,9 +367,9 @@
 				"enabled"		"1"
 				"enabled_hidef"		"0"
 				"enabled_lodef"		"0"
-			}				
+			}
 		}
-		"InteractiveHeaders"	
+		"InteractiveHeaders"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"	"InteractiveHeaders"
@@ -742,7 +741,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel2B"
 		{
 			"ControlName"		"Label"
@@ -786,7 +785,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarBG3A"
 		{
 			"ControlName"		"ImagePanel"
@@ -891,7 +890,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel3B"
 		{
 			"ControlName"		"Label"
@@ -912,7 +911,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassLabel3"
 		{
 			"ControlName"		"Label"
@@ -935,7 +934,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarBG4A"
 		{
 			"ControlName"		"ImagePanel"
@@ -2754,14 +2753,14 @@
 		{
 			"name"		"back"
 			"text"		"#GameUI_Back"
-			"icon"		"#GameUI_Icons_B_BUTTON"	
+			"icon"		"#GameUI_Icons_B_BUTTON"
 		}
 		
 		"button"
 		{
 			"name"		"nexttip"
 			"text"		"#TF_NextTip_360"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
+			"icon"		"#GameUI_Icons_A_BUTTON"
 		}
 	}		
 	"TitleBanner" [$X360]

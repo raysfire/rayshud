@@ -146,7 +146,7 @@
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-			
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -197,7 +197,7 @@
 		"brighttext"	"0"
 	}
 	
-		"NumberLabel1BG"
+	"NumberLabel1BG"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel1BG"
@@ -289,8 +289,8 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-	
-			"NumberLabel2BG"
+
+	"NumberLabel2BG"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel2BG"
@@ -477,7 +477,7 @@
 		"brighttext"	"0"
 	}
 	
-		"NumberLabel4BG"
+	"NumberLabel4BG"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel4BG"
@@ -642,8 +642,6 @@
 		"iconColor"		"255 255 255 255"
 	}
 	
-
-	
 	"NumberLabel6"
 	{	
 		"ControlName"	"CExLabel"
@@ -664,8 +662,8 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-	
-			"NumberLabel6BG"
+
+	"NumberLabel6BG"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel6BG"
@@ -757,8 +755,8 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-	
-				"NumberLabel7BG"
+
+	"NumberLabel7BG"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel7BG"
@@ -851,7 +849,7 @@
 		"brighttext"	"0"
 	}
 	
-		"NumberLabel8BG"
+	"NumberLabel8BG"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel8BG"

@@ -90,21 +90,21 @@
 		"tileImage"		"1"
 	}
 	"FooterLine"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"HeaderLine"
-			"xpos"			"0"
-			"ypos"			"420"
-			"zpos"			"2"
-			"wide"			"f0"
-			"tall"			"2"
-			"visible"		"1"
-			"enabled"		"1"
-			"autoResize"	"0"
-			"PaintBackgroundType"	"2"
-			"border"				"NoBorder"
-			"bgcolor_override"		"Base Color"
-		}		
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HeaderLine"
+		"xpos"			"0"
+		"ypos"			"420"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"autoResize"	"0"
+		"PaintBackgroundType"	"2"
+		"border"				"NoBorder"
+		"bgcolor_override"		"Base Color"
+	}		
 	
 	"Sheet"
 	{
@@ -385,5 +385,4 @@
 		"border_default"			"ButtonHover"
 		"border_armed"				"ButtonHover"
 	}
-
 }

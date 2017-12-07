@@ -70,7 +70,7 @@
 		"tileImage"		"0"
 		"tileVertically" "0"
 		"drawcolor"		"112 176 74 255"
-	}				
+	}
 	"tool_modelpanel"
 	{		
 		"ControlName"	"CItemModelPanel"
@@ -97,7 +97,7 @@
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
-	}	
+	}
 	"SubjectBG"
 	{
 		"ControlName"	"CExLabel"

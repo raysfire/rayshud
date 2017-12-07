@@ -14,15 +14,15 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"avatar_width"		"54"
-		"medal_width"		"18"
+		"medal_width"		"18"		
 		"name_width"		"0"
 		"name_width_short"	"65"
 		"spacer"			"5"
-		"status_width"		"15"
-		"nemesis_width"		"15"
-		"class_width"		"20"
+		"status_width"		"15"	
+		"nemesis_width"		"15"	
+		"class_width"		"20"	
 		"score_width"		"20"
-		"ping_width"		"20"
+		"ping_width"		"20"	
 		"killstreak_width"	"15"
 		"killstreak_image_width" "15"
 	}
@@ -42,7 +42,8 @@
 		"fillcolor"		"70 130 180 153"
 		"scaleImage"		"1"
 		
-		if_mvm {
+		if_mvm
+		{
 			"visible"		"0"
 		}
 	}
@@ -78,7 +79,8 @@
 		"fillcolor"		"205 50 50 153"
 		"scaleImage"		"1"
 		
-		if_mvm {
+		if_mvm
+		{
 			"visible"		"0"
 		}
 	}
@@ -111,7 +113,8 @@
 		"visible"		"0"
 		"enabled"		"0"
 		
-		if_mvm {
+		if_mvm
+		{
 			"visible"		"0"
 		}
 	}
@@ -130,7 +133,8 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 100"
 		
-		if_mvm {
+		if_mvm
+		{
 			"visible"	"0"
 		}
 	}
@@ -149,7 +153,8 @@
 		"enabled"		"0"
 		"fillcolor"		"0 0 0 100"
 		
-		if_mvm {
+		if_mvm
+		{
 			"visible"	"0"
 		}		
 	}
@@ -170,8 +175,10 @@
 		"enabled"		"0"
 		"fillcolor"		"0 0 0 100"
 		
-		if_mvm {
+		if_mvm
+		{
 			"visible"		"0"
+
 		}
 	}
 	"Blue6sBackground"
@@ -190,8 +197,10 @@
 		"enabled"		"0"
 		"fillcolor"		"0 0 0 100"
 		
-		if_mvm {
+		if_mvm
+		{
 			"visible"		"0"
+
 		}
 	}			
 	"BlueTeamLabel1"
@@ -211,7 +220,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm {
+		if_mvm
+		{
 			"visible"		"0"
 		}
 	}							

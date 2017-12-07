@@ -574,7 +574,6 @@
 					"wrap"		"1"
 					"fgcolor_override"	"250 114 45 255"
 				}
-
 			}
 		}
 	}

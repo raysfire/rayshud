@@ -41,6 +41,7 @@
 		"font_minmode"	"CerbeticaBold32"
 		"fgcolor"		"Ammo In Clip"
 	}
+	
 	"ChargeLabelShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -85,7 +86,6 @@
 		"fillcolor" 		"255 255 255 50"
 	}
 	
-
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"

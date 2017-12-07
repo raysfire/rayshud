@@ -18,10 +18,10 @@
 		"model_wide"		"90"
 		"model_tall"		"60"
 		
-		"text_xpos"		"10"
-		"text_ypos"		"10"
-		"text_wide"		"170"
-		"text_center"	"1"
+		"text_xpos"			"10"
+		"text_ypos"			"10"
+		"text_wide"			"170"
+		"text_center"		"1"
 		
 		"max_text_height"	"100"
 		"padding_height"	"10"

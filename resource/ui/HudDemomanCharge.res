@@ -45,5 +45,5 @@
 		"brighttext" 	   	"0"
 		"font" 			  	"Cerbetica12"
 		"fgcolor_override" 	"150 150 150 255"
-	}	
+	}
 }

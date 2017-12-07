@@ -14,8 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 100"
-
-
+		
 		"src_corner_height"	"20"				// pixels inside the image
 		"src_corner_width"	"20"
 		

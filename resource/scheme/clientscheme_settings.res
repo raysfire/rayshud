@@ -185,7 +185,7 @@ Scheme
 		HudObjectives.FgColor		"HudPanelForeground"
 		HudObjectives.BgColor		"HudPanelBackground"
 		HudObjectives.BorderColor	"HudPanelBorder"
-				
+	
 		HudProgressBar.Active		"HudProgressBarActive"
 		HudProgressBar.InActive		"HudProgressBarInActive"
 		

@@ -11,12 +11,6 @@ event HudHealthBonusPulse
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
 
-// call to loop HudHealthBonusPulse
-event HudHealthBonusPulseLoop
-{
-	RunEvent HudHealthBonusPulse 0.0
-}
-
 event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
@@ -41,12 +35,6 @@ event HudHealthDyingPulse
 	RunEvent HudHealthDyingPulseLoop	0.4
 }
 
-// call to loop HudHealthDyingPulse
-event HudHealthDyingPulseLoop
-{
-	RunEvent HudHealthDyingPulse 0.0
-}
-
 event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 0.0
@@ -68,12 +56,6 @@ event HudLowAmmoPulse
 	Animate AmmoNoClip 					FgColor "Ammo In Clip Low"		Linear 0.0 		0.000
 	
 	RunEvent HudLowAmmoPulseLoop	0.25
-}
-
-// call to loop HudLowAmmoPulse
-event HudLowAmmoPulseLoop
-{
-	RunEvent HudLowAmmoPulse 0.0
 }
 
 event HudLowAmmoPulseStop

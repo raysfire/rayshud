@@ -13,7 +13,6 @@
 		"delta_item_font"		"CerbeticaBoldOutline24" 
 		"delta_item_font_big"	"CerbeticaBoldOutline24"
 		"outline"				"1"
-
 	}
 	
 	"DamageAccountValue"

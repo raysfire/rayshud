@@ -92,7 +92,7 @@
 		"ypos"					"23"
 		"zpos"					"2"
 		"wide"					"40"
-		"tall"					"6"				
+		"tall"					"6"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"0"
@@ -100,8 +100,8 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}					
-	
+	}
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
@@ -119,6 +119,6 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Cerbetica16"	
+		"font"					"Cerbetica16"
 	}
 }

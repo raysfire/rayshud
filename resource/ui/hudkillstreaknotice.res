@@ -13,7 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 160"	
+		"bgcolor_override"	"46 43 42 160"
 	}
 	
 	"SplashLabel"
@@ -29,6 +29,6 @@
 		"wide"			"500"
 		"tall"			"50"
 		"autoResize"	"0"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"TanLight"
 	}
 }

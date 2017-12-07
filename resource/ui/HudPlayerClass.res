@@ -100,7 +100,6 @@
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		
 		"xpos"			"r185"	[$WIN32]
 		"ypos"			"r148"	[$WIN32]
 		"zpos"			"2"		
@@ -114,7 +113,7 @@
 		"render_texture"	"0"
 		"fov"			"12"
 		"allow_rot"		"1"
-				
+	
 		"model"
 		{
 			"force_pos"	"1"
@@ -137,6 +136,7 @@
 		{
 			"undefined"
 			{
+				
 			}
 			"Scout"
 			{

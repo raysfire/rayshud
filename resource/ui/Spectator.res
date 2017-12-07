@@ -2,45 +2,45 @@
 {
 	"Spectator"
 	{
-		"ControlName"		"Frame"
+		"ControlName"	"Frame"
 		"fieldName"		"Spectator"
 		"tall"			"480"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
+		"tabPosition"	"0"
 	}
 	"topbar"
 	{
-		"ControlName"		"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"TopBar"
 		"xpos"			"0"
 		"ypos"			"0"
 		"tall"			"0"	[$WIN32]
 		"wide"			"f0"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
+		"tabPosition"	"0"
 	}
 	"BottomBar"
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
 		"xpos"			"9999"
-		"ypos"			"9999"	[$WIN32]	
+		"ypos"			"9999"	[$WIN32]
 		"tall"			"0"	
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"0"
-		"tabPosition"		"0"
+		"tabPosition"	"0"
 	}
 	"bottombarblank"
 	{
-		"ControlName"		"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"bottombarblank"
 		"xpos"			"9999"
 		"ypos"			"9999"	[$WIN32]
@@ -48,14 +48,14 @@
 		"ypos_minmode"	"r0"
 		"tall"			"0"	[$WIN32]		// this needs to match the size of BottomBar
 		"tall_minmode"	"0"		
-		"tall"			"90"	[$X360]		
+		"tall"			"90"	[$X360]	
 		"wide"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"visible_minmode"		"0"
 		"enabled"		"1"
-		"tabPosition"		"0"
+		"tabPosition"	"0"
 	}
 	"ReinforcementsLabel"
 	{
@@ -380,7 +380,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-	}	
+	}
 	"spectator_extras"
 	{
 		"ControlName"	"EditablePanel"
@@ -393,5 +393,5 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-	}		
+	}
 }

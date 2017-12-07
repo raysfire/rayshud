@@ -2,7 +2,7 @@
 {
 	"Background"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"9999"
 		"ypos"			"9999"
@@ -15,10 +15,10 @@
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_brown"
 
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
+		"src_corner_height"		"22"			// pixels inside the image
+		"src_corner_width"		"22"
 	
-		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
 	}
 	
@@ -57,9 +57,8 @@
 		"PaintBackgroundType" "2"
 		"bgcolor_override"	"TanLight"
 		
-		if_verbose
-		{
-			"visible"		"1"
+		if_verbose {
+			"visible"	"1"
 		}
 	}
 	
@@ -76,12 +75,11 @@
 		"tall"			"15"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"				"west"
-		"labelText"					"#TF_MVM_Support"
+		"textAlignment"	"west"
+		"labelText"		"#TF_MVM_Support"
 		
-		if_verbose
-		{
-			"visible"		"1"
+		if_verbose {
+			"visible"	"1"
 		}		
 	}
 	
@@ -101,10 +99,10 @@
 		"enabled"		"1"
 		"image"			""
 		
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
+		"src_corner_height"		"22"			// pixels inside the image
+		"src_corner_width"		"22"
 	
-		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
 	}
 	
@@ -124,16 +122,16 @@
 		"enabled"		"0"
 		"image"			"../HUD/tournament_panel_tan"
 		
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
+		"src_corner_height"		"22"			// pixels inside the image
+		"src_corner_width"		"22"
 	
-		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
 	}
 	
 	"ProgressBarBG2"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"ProgressBarBG2"
 		"xpos"			"211"
 		"ypos"			"22"

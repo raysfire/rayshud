@@ -2,8 +2,7 @@
 {	
 	"HudKothTimeStatus"
 	{
-		if_match
-		{
+		if_match {
 			"zpos"		"5"
 		}
 	}
@@ -53,7 +52,6 @@
 			if_match
 			{
 				"proportionaltoparent"	"1"
-
 				"xpos"			"10"
 				"ypos"			"9"
 				"tall"			"10"

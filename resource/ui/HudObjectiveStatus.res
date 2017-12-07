@@ -31,7 +31,7 @@
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 		}	
 	}

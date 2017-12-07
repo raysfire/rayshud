@@ -2,7 +2,7 @@
 {
 	"ArenaWinPanelScores"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"ArenaWinPanelScores"
 		"xpos"			"0"
 		"ypos"			"36"
@@ -87,7 +87,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"BlueTeamScore"
 		{
 			"ControlName"		"CExLabel"
@@ -138,7 +138,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"RedTeamScore"
 		{
 			"ControlName"		"CExLabel"
@@ -173,9 +173,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}		
+		}
 
-	
 		"ArenaStreaksBG"
 		{
 			"ControlName"		"ScalableImagePanel"
@@ -250,7 +249,7 @@
 		"src_corner_height" "3"
 		"src_corner_width" "3"
 		"draw_corner_width" "0"
-		"draw_corner_height" "0"		
+		"draw_corner_height" "0"
 	}
 	"LosingTeamLabel"
 	{	

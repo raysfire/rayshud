@@ -130,15 +130,15 @@
 	
 			"ModeInfoContainer"
 			{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"ModeInfoContainer"
-			"xpos"		"40"
-			"ypos"		"20"
-			"wide"		"380"
-			"tall"		"290"
-			"visible"	"1"
-			"enabled"	"1"
-			"border"				"NoBorder"
+				"ControlName"	"EditablePanel"
+				"fieldName"		"ModeInfoContainer"
+				"xpos"			"40"
+				"ypos"			"20"
+				"wide"			"380"
+				"tall"			"290"
+				"visible"		"1"
+				"enabled"		"1"
+				"border"		"NoBorder"
 
 				"ModeImage"
 				{
@@ -196,7 +196,7 @@
 					"auto_wide_tocontents" "0"
 					"wrap"				   "1"
 					"centerwrap"		   "1"
-	//				"border"				"QuickplayBorder"
+					//"border"				"QuickplayBorder"
 				}
 
 				"ComplexityLabel"
@@ -219,7 +219,7 @@
 					"auto_wide_tocontents" "0"
 					"wrap"				   "1"
 					"centerwrap"		   "1"
-	//				"border"				"NoBorder"
+					//"border"				"NoBorder"
 				}
 
 				"MoreInfoContainer"
@@ -303,7 +303,7 @@
 				"border_default"	"NoBorder"
 				"border_armed"		"NoBorder"
 			}		
-				
+
 			"NextPageButton"
 			{
 				"ControlName"	"CExButton"
@@ -707,7 +707,6 @@
 					"tall"				"15"
 				}	
 			}
-
 		}
 
 		"PlayNowButton"

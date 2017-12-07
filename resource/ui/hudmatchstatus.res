@@ -105,7 +105,6 @@
 		"fgcolor"		"Black"
 		"proportionaltoparent"	"1"
 
-	
 		if_readymode
 		{
 			"xpos"			"300"
@@ -218,12 +217,10 @@
 		"wide"				"365"
 		"tall"				"0"
 		"visible"			"0"
-		
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
 		
-		if_match
-		{
+		if_match {
 			"visible"		"1"
 		}
 	}	
@@ -304,8 +301,6 @@
 		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
-
-
 		"max_size"	"19"
 
 		"6v6_gap"	"1"
@@ -688,8 +683,7 @@
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
 			
-			if_large
-			{
+			if_large {
 				"tall"			"325"
 			}			
 		}
@@ -712,7 +706,6 @@
 			"ypos"			"65"
 			"tall"			"385"
 		}
-		
 
 		"RedTeamBG"
 		{

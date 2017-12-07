@@ -32,7 +32,6 @@
 		"fillcolor"		"0 0 0 100"
 	}
 	
-	
 	"TFMessageTitle"
 	{
 		"ControlName"	"CExLabel"
@@ -83,7 +82,7 @@
 
 	"HTMLMessage"
 	{
-		"ControlName"		"HTML"
+		"ControlName"	"HTML"
 		"fieldName"		"HTMLMessage"
 		"xpos"			"c-240"
 		"ypos"			"c-200"
@@ -94,13 +93,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
+		"tabPosition"	"0"
 		"paintborder"	"0"
 	}
 	
 	"ok"
 	{
-		"ControlName"		"CExButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"ok"
 		"xpos"			"c-180"
 		"ypos"			"c171"
@@ -174,7 +173,7 @@
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
-	}						
+	}
 	
 	"MessageTitle"
 	{
@@ -182,5 +181,5 @@
 		"fieldName"		"MessageTitle"
 		"visible"		"0"
 		"enabled"		"0"
-	}		
+	}
 }

@@ -11,10 +11,8 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-
 		"bgcolor_override"	"0 0 0 50"
 	}
-
 
 	"LoadingPanel"
 	{
@@ -41,7 +39,6 @@
 			"enable"		"1"
 			"scaleImage"	"1"
 			"image"			"animated/tf2_logo_hourglass"
-
 			"proportionaltoparent"	"1"
 		}
 
@@ -61,11 +58,9 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"56 53 49 255"
-
 			"proportionaltoparent"	"1"
 		}
 	}
-
 
 	"PreviewImage"
 	{

@@ -28,10 +28,10 @@
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz3_blue"
 		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_horiz3_red"
+		"teambg_2"			"../hud/misc_ammo_area_horiz3_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_horiz3_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_3"			"../hud/misc_ammo_area_horiz3_blue"
+		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"
 	}
 	
 	"ItemEffectMeterLabel"
@@ -50,10 +50,6 @@
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-
-
-
-
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
@@ -64,7 +60,6 @@
 		"font"					"Cerbetica12"
 		"font_minmode"			"TFFontSmall"
 		"fgcolor_override"		"150 150 150 255"
-
 	}
 
 	"ItemEffectMeter"
@@ -89,5 +84,4 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}
-
 }

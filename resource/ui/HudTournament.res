@@ -5,12 +5,11 @@
 	HudTournament
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName"				"HudTournament"
-				
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"480"
+		"fieldName"			"HudTournament"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
 
 		"team1_player_base_offset_x"		"-75"
 		"team1_player_base_y"				"0"
@@ -21,10 +20,12 @@
 		"team2_player_delta_x"				"47"
 		"team2_player_delta_y"				"0"
 		"teams_player_delta_x_comp"			"42"
+		
 		"avatar_width"	"63"
 		"spacer"		"5"
 		"name_width"	"57"
 		"horiz_inset"	"2"
+		
 		"ModeImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -42,8 +43,7 @@
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
 
-			if_competitive
-			{
+			if_competitive {
 				"visible"		"1"
 			}
 		}		
@@ -56,7 +56,6 @@
 			"zpos"			"1"
 			"tabPosition"	"0"
 
-			
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
 			
@@ -92,7 +91,7 @@
 				"labelText"		"%playername%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
-					
+
 				if_mvm
 				{
 					"xpos"				"1"
@@ -176,18 +175,15 @@
 				"bgcolor_override"		"0 0 0 100"
 				"PaintBackgroundType"	"0"
 				
-				if_mvm
-				{
+				if_mvm {
 					"visible"		"1"
 				}
 				
-				if_competitive
-				{
+				if_competitive {
 					"visible"		"1"
 				}
 
-				if_readymode
-				{
+				if_readymode {
 					"visible"		"1"
 				}
 			}
@@ -231,20 +227,17 @@
 				"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"0"
 				
-				if_mvm
-				{
+				if_mvm {
 					"visible"		"1"
 					"zpos"			"-2"
 				}
 
-				if_competitive
-				{
+				if_competitive {
 					"visible"		"1"
 					"zpos"			"-2"					
 				}
 				
-				if_readymode
-				{
+				if_readymode {
 					"visible"		"1"
 					"zpos"			"-2"	
 				}					
@@ -267,18 +260,15 @@
 				"fillcolor"	"15 165 165 255"
 				"scaleImage"		"1"
 
-				if_mvm
-				{
+				if_mvm {
 					"visible"		"1"
 				}
 				
-				if_competitive
-				{
+				if_competitive {
 					"visible"		"1"
 				}
 
-				if_readymode
-				{
+				if_readymode {
 					"visible"		"1"
 				}
 			}
@@ -318,8 +308,7 @@
 				"textAlignment"	"north"
 				"fgcolor"		"0 255 0 255"
 				
-				if_mvm
-				{	
+				if_mvm {	
 					"visible"		"0"
 				}
 			}
@@ -420,8 +409,7 @@
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 
@@ -456,8 +444,7 @@
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 		if_competitive
@@ -494,8 +481,7 @@
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 		
@@ -530,8 +516,7 @@
 		"labelText"		"%bluenamelabel%"
 		"textAlignment"		"west"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 		
@@ -565,8 +550,7 @@
 		"labelText"		"%bluestate%"
 		"textAlignment"		"east"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 		
@@ -604,8 +588,7 @@
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 		
@@ -639,8 +622,7 @@
 		"labelText"		"%rednamelabel%"
 		"textAlignment"		"east"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 		
@@ -674,8 +656,7 @@
 		"labelText"		"%redstate%"
 		"textAlignment"		"west"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 
@@ -711,8 +692,7 @@
 		"labelText"		"%winconditions%"
 		"textAlignment"		"center"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 		
@@ -752,8 +732,7 @@
 		"labelText"		"%winconditions%"
 		"textAlignment"		"center"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 		
@@ -796,18 +775,15 @@
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height""0"	
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 		
-		if_competitive
-		{
+		if_competitive {
 			"visible"		"0"
 		}
 
-		if_readymode
-		{
+		if_readymode {
 			"visible"		"0"
 		}
 	}
@@ -826,13 +802,11 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 100"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 
-		if_readymode
-		{
+		if_readymode {
 			"xpos"			"c-125"
 		}
 		
@@ -903,8 +877,7 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 100"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 		
@@ -920,8 +893,6 @@
 			"visible"		"0"
 		}
 	}
-	
-
 	
 	"CountdownBG"
 	{
@@ -993,7 +964,6 @@
 			"xpos"		"c-20"
 		}
 	
-	
 		if_competitive
 		{
 			"xpos"			"c-20"
@@ -1008,7 +978,6 @@
 			"ypos"			"130"
 			"tall"			"20"
 		}
-	
 	}
 	
 	"CountdownLabelShadow"

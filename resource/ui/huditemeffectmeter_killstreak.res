@@ -59,7 +59,7 @@
 		"ypos"					"23"
 		"zpos"					"2"
 		"wide"					"100"
-		"tall"					"6"				
+		"tall"					"6"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"0"
@@ -89,7 +89,8 @@
 		"font"					"CerbeticaBold28"
 		"font_minmode"			"CerbeticaBold20"
 	}
-		"ItemEffectMeterCountBG"
+	
+	"ItemEffectMeterCountBG"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
