@@ -109,8 +109,8 @@
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold28"
@@ -127,14 +127,14 @@
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold28"
 		"font_minmode"	"CerbeticaBold28"
 		"fgcolor"		"TransparentBlack"
-	}	
+	}
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"

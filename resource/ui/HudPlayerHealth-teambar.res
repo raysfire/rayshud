@@ -127,7 +127,43 @@
 		"font"			"CerbeticaBold56"
 		"font_minmode"	"CerbeticaBold32"
 		"fgcolor"		"TransparentBlack"
-	}			
+	}
+	"PlayerStatusMaxHealthValue"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusMaxHealthValue"
+		"xpos"			"156"
+		"xpos_minmode"	"156"
+		"ypos"			"77"
+		"zpos"			"6"
+		"wide"			"50"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"0"
+		"labelText"		"%MaxHealth%"
+		"textAlignment"	"center"
+		"font"			"CerbeticaBold28"
+		"font_minmode"	"CerbeticaBold28"
+		"fgcolor"		"Health Normal"
+	}
+	"PlayerStatusMaxHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusMaxHealthValueShadow"
+		"xpos"			"157"
+		"xpos_minmode"	"157"
+		"ypos"			"78"
+		"zpos"			"6"
+		"wide"			"50"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"0"
+		"labelText"		"%MaxHealth%"
+		"textAlignment"	"center"
+		"font"			"CerbeticaBold28"
+		"font_minmode"	"CerbeticaBold28"
+		"fgcolor"		"TransparentBlack"
+	}
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -325,7 +361,7 @@
 		"fgcolor" 		"TanDark"
 	}
 	
-		"PlayerStatus_WheelOfDoom"
+	"PlayerStatus_WheelOfDoom"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
