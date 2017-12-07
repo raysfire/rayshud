@@ -41,39 +41,41 @@ Scheme
 			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
 		}
-		"9"
+		"9" // Fog's xHairs
 		{
-		
+			"font" "resource/fonts/crosshairs.ttf"
+			"name" "Crosshairs"
+		}
+		"10" // Thin Cross
+		{
+			"font" "resource/fonts/Symbol.ttf"
+			"name" "Symbol"
+		}
+		"11" // Konr Wings
+		{
+			"font" "resource/fonts/Garm3nFont.ttf"
+			"name" "Garm3nFont"
+		}
+		"12"
+		{
 			"font" "resource/fonts/Cerbetica_edited.ttf"
 			"name" "Cerbetica_edited"
 		}
-		"10"
+		"13"
 		{
 		
 			"font" "resource/fonts/Cerbetica_bold.ttf"
 			"name" "Cerbetica Bold"
 		}
-		"11"
+		"14"
 		{
 			"font" "resource/fonts/heydings_icons.ttf"
 			"name" "Heydings Icons"
 		}
-		"12"
+		"15"
 		{
 			"font" "resource/fonts/KnucklesCrosses.ttf"
 			"name" "KnucklesCrosses"
-		}
-		
-		"13" // Fog's xHairs
-		{
-			"font" "resource/fonts/crosshairs.ttf"
-			"name" "Crosshairs"
-		}
-		
-		"14" // Konr Wings
-		{
-			"font" "resource/fonts/Garm3nFont.ttf"
-			"name" "Garm3nFont"
 		}
 	}
 }

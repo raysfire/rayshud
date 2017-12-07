@@ -6,8 +6,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"10"
+				"name"		"KnucklesCrosses"
+				"tall"		"10"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -17,8 +17,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"11"
+				"name"		"KnucklesCrosses"
+				"tall"		"11"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -28,8 +28,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"12"
+				"name"		"KnucklesCrosses"
+				"tall"		"12"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -39,8 +39,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"13"
+				"name"		"KnucklesCrosses"
+				"tall"		"13"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -50,8 +50,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"14"
+				"name"		"KnucklesCrosses"
+				"tall"		"14"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -61,8 +61,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"15"
+				"name"		"KnucklesCrosses"
+				"tall"		"15"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -72,8 +72,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"16"
+				"name"		"KnucklesCrosses"
+				"tall"		"16"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -83,8 +83,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"17"
+				"name"		"KnucklesCrosses"
+				"tall"		"17"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -94,8 +94,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"18"
+				"name"		"KnucklesCrosses"
+				"tall"		"18"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -105,8 +105,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"19"
+				"name"		"KnucklesCrosses"
+				"tall"		"19"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -116,8 +116,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"20"
+				"name"		"KnucklesCrosses"
+				"tall"		"20"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -127,8 +127,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"21"
+				"name"		"KnucklesCrosses"
+				"tall"		"21"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -138,8 +138,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"22"
+				"name"		"KnucklesCrosses"
+				"tall"		"22"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -149,8 +149,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"23"
+				"name"		"KnucklesCrosses"
+				"tall"		"23"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -160,8 +160,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"24"
+				"name"		"KnucklesCrosses"
+				"tall"		"24"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -171,8 +171,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"25"
+				"name"		"KnucklesCrosses"
+				"tall"		"25"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -182,8 +182,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"26"
+				"name"		"KnucklesCrosses"
+				"tall"		"26"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -193,8 +193,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"26"
+				"name"		"KnucklesCrosses"
+				"tall"		"26"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -204,8 +204,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"28"
+				"name"		"KnucklesCrosses"
+				"tall"		"28"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -215,8 +215,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"29"
+				"name"		"KnucklesCrosses"
+				"tall"		"29"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -226,8 +226,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"30"
+				"name"		"KnucklesCrosses"
+				"tall"		"30"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -237,8 +237,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"31"
+				"name"		"KnucklesCrosses"
+				"tall"		"31"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -248,8 +248,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"32"
+				"name"		"KnucklesCrosses"
+				"tall"		"32"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -259,8 +259,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"33"
+				"name"		"KnucklesCrosses"
+				"tall"		"33"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -270,8 +270,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"34"
+				"name"		"KnucklesCrosses"
+				"tall"		"34"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -281,8 +281,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"35"
+				"name"		"KnucklesCrosses"
+				"tall"		"35"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -292,8 +292,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"36"
+				"name"		"KnucklesCrosses"
+				"tall"		"36"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -303,8 +303,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"37"
+				"name"		"KnucklesCrosses"
+				"tall"		"37"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -314,8 +314,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"38"
+				"name"		"KnucklesCrosses"
+				"tall"		"38"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -325,8 +325,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"39"
+				"name"		"KnucklesCrosses"
+				"tall"		"39"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -336,8 +336,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"40"
+				"name"		"KnucklesCrosses"
+				"tall"		"40"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -347,8 +347,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"41"
+				"name"		"KnucklesCrosses"
+				"tall"		"41"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -358,8 +358,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"42"
+				"name"		"KnucklesCrosses"
+				"tall"		"42"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -369,8 +369,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"43"
+				"name"		"KnucklesCrosses"
+				"tall"		"43"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -380,8 +380,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"44"
+				"name"		"KnucklesCrosses"
+				"tall"		"44"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -391,8 +391,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"45"
+				"name"		"KnucklesCrosses"
+				"tall"		"45"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -402,8 +402,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"46"
+				"name"		"KnucklesCrosses"
+				"tall"		"46"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -413,8 +413,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"47"
+				"name"		"KnucklesCrosses"
+				"tall"		"47"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -424,8 +424,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"48"
+				"name"		"KnucklesCrosses"
+				"tall"		"48"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -435,8 +435,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"49"
+				"name"		"KnucklesCrosses"
+				"tall"		"49"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -446,8 +446,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"50"
+				"name"		"KnucklesCrosses"
+				"tall"		"50"
 				"antialias" "1"
 				"additive"	"0"
 				"outline"	"0"
@@ -457,8 +457,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"12"
+				"name"		"KnucklesCrosses"
+				"tall"		"12"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -468,8 +468,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"13"
+				"name"		"KnucklesCrosses"
+				"tall"		"13"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -479,8 +479,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"14"
+				"name"		"KnucklesCrosses"
+				"tall"		"14"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -490,8 +490,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"15"
+				"name"		"KnucklesCrosses"
+				"tall"		"15"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -501,8 +501,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"16"
+				"name"		"KnucklesCrosses"
+				"tall"		"16"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -512,8 +512,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"17"
+				"name"		"KnucklesCrosses"
+				"tall"		"17"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -523,8 +523,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"18"
+				"name"		"KnucklesCrosses"
+				"tall"		"18"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -534,8 +534,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"19"
+				"name"		"KnucklesCrosses"
+				"tall"		"19"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -545,8 +545,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"20"
+				"name"		"KnucklesCrosses"
+				"tall"		"20"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -556,8 +556,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"21"
+				"name"		"KnucklesCrosses"
+				"tall"		"21"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -567,8 +567,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"22"
+				"name"		"KnucklesCrosses"
+				"tall"		"22"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -578,8 +578,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"23"
+				"name"		"KnucklesCrosses"
+				"tall"		"23"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -589,8 +589,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"24"
+				"name"		"KnucklesCrosses"
+				"tall"		"24"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -600,8 +600,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"25"
+				"name"		"KnucklesCrosses"
+				"tall"		"25"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -611,8 +611,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"26"
+				"name"		"KnucklesCrosses"
+				"tall"		"26"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -622,8 +622,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"26"
+				"name"		"KnucklesCrosses"
+				"tall"		"26"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -633,8 +633,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"28"
+				"name"		"KnucklesCrosses"
+				"tall"		"28"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -644,8 +644,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"29"
+				"name"		"KnucklesCrosses"
+				"tall"		"29"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -655,8 +655,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"30"
+				"name"		"KnucklesCrosses"
+				"tall"		"30"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -666,8 +666,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"31"
+				"name"		"KnucklesCrosses"
+				"tall"		"31"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -677,8 +677,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"32"
+				"name"		"KnucklesCrosses"
+				"tall"		"32"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -688,8 +688,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"33"
+				"name"		"KnucklesCrosses"
+				"tall"		"33"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -699,8 +699,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"34"
+				"name"		"KnucklesCrosses"
+				"tall"		"34"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -710,8 +710,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"35"
+				"name"		"KnucklesCrosses"
+				"tall"		"35"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -721,8 +721,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"36"
+				"name"		"KnucklesCrosses"
+				"tall"		"36"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -732,8 +732,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"37"
+				"name"		"KnucklesCrosses"
+				"tall"		"37"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -743,8 +743,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"38"
+				"name"		"KnucklesCrosses"
+				"tall"		"38"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -754,9 +754,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"39"
-				"antialias" "0"
+				"name"		"KnucklesCrosses"
+				"tall"		"39"
+				"antiaias" "0"
 				"additive"	"0"
 				"outline"	"1"
 			}
@@ -765,8 +765,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"40"
+				"name"		"KnucklesCrosses"
+				"tall"		"40"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -776,8 +776,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"41"
+				"name"		"KnucklesCrosses"
+				"tall"		"41"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -787,8 +787,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"42"
+				"name"		"KnucklesCrosses"
+				"tall"		"42"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -798,8 +798,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"43"
+				"name"		"KnucklesCrosses"
+				"tall"		"43"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -809,8 +809,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"44"
+				"name"		"KnucklesCrosses"
+				"tall"		"44"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -820,8 +820,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"45"
+				"name"		"KnucklesCrosses"
+				"tall"		"45"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -831,8 +831,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"46"
+				"name"		"KnucklesCrosses"
+				"tall"		"46"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -842,8 +842,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"47"
+				"name"		"KnucklesCrosses"
+				"tall"		"47"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -853,8 +853,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"48"
+				"name"		"KnucklesCrosses"
+				"tall"		"48"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -864,8 +864,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"KnucklesCrosses"
-				"tall"	"49"
+				"name"		"KnucklesCrosses"
+				"tall"		"49"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -882,6 +882,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
+		
 		"xHairCircle"
 		{
 			"1"
@@ -909,10 +910,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"8"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"8"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -920,10 +921,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"10"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"10"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -931,10 +932,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"12"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"12"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -942,10 +943,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"14"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"14"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -953,10 +954,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"16"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"16"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -964,10 +965,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"18"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"18"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 
@@ -975,11 +976,11 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"18"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
+				"name"			"Crosshairs"
+				"tall" 			"18"
+				"weight" 		"0"
+				"antialias" 	"1"
+				"outline"		"1"
 			}
 		}
 		
@@ -987,10 +988,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"20"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"20"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -998,10 +999,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"22"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"22"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -1009,10 +1010,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"24"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"24"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -1020,11 +1021,11 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"24"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
+				"name"			"Crosshairs"
+				"tall" 			"24"
+				"weight" 		"0"
+				"antialias" 	"1"
+				"outline"		"1"
 			}
 		}
 		
@@ -1032,10 +1033,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"26"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"26"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -1043,11 +1044,11 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"26"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
+				"name"			"Crosshairs"
+				"tall" 			"26"
+				"weight" 		"0"
+				"antialias" 	"1"
+				"outline"		"1"
 			}
 		}
 		
@@ -1055,10 +1056,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"28"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"28"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -1066,10 +1067,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"30"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"30"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -1077,10 +1078,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"32"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"32"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 
@@ -1088,11 +1089,11 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"32"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
+				"name"			"Crosshairs"
+				"tall" 			"32"
+				"weight" 		"0"
+				"antialias" 	"1"
+				"outline"		"1"
 			}
 		}
 		
@@ -1100,10 +1101,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"34"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"34"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -1111,11 +1112,11 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"34"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
+				"name"			"Crosshairs"
+				"tall" 			"34"
+				"weight" 		"0"
+				"antialias" 	"1"
+				"outline"		"1"
 			}
 		}
 		
@@ -1123,10 +1124,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"36"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"36"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -1134,10 +1135,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"38"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"38"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -1145,10 +1146,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"40"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"40"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 	}

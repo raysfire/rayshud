@@ -27,26 +27,6 @@
 	//--------------------------------------------------------------
 	// RAYSHUD CROSSHAIRS
 	//--------------------------------------------------------------
-	Spookmaster
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"Spookmaster"
-		"font"			"CerbeticaBold44"
-		"visible"		"0"
-		"enabled"		"0"
-		"zpos"			"2"
-
-		"xpos"			"c-100"
-		"ypos"			"c-102"
-		"wide"			"201"
-		"tall"			"200"
-
-		"labelText"		"0 0"
-		"textAlignment"	"center"	
-		
-		"fgcolor"		"255 0 0 0"
-	}
-	
 	xHairCircle
 	{
 		"controlName"	"CExLabel"
@@ -125,7 +105,7 @@
 		"wide"			"200"
 		"tall"			"200"
 
-		//"font"			"CrosshairsOutline18"
+		//"font"		"CrosshairsOutline18"
 		"font"			"Crosshairs18"
 		"labelText"		"2"
 		"textAlignment"	"center"	
@@ -188,7 +168,7 @@
 		"wide"			"200"
 		"tall"			"200"
 
-		//"font"			"CrosshairsOutline34"
+		//"font"		"CrosshairsOutline34"
 		"font"			"Crosshairs34"
 		"labelText"		"8"
 		"textAlignment"	"center"	
@@ -209,7 +189,7 @@
 		"wide"			"200"
 		"tall"			"200"
 
-		//"font"			"CrosshairsOutline34"
+		//"font"		"CrosshairsOutline34"
 		"font"			"Crosshairs34"
 		"labelText"		"9"
 		"textAlignment"	"center"	
@@ -230,7 +210,7 @@
 		"wide"			"200"
 		"tall"			"200"
 
-		//"font"			"CrosshairsOutline34"
+		//"font"		"CrosshairsOutline34"
 		"font"			"Crosshairs34"
 		"labelText"		"c"
 		"textAlignment"	"center"	
@@ -251,7 +231,7 @@
 		"wide"			"200"
 		"tall"			"200"
 
-		//"font"			"CrosshairsOutline34"
+		//"font"		"CrosshairsOutline34"
 		"font"			"Crosshairs34"
 		"labelText"		"d"
 		"textAlignment"	"center"	
@@ -272,7 +252,7 @@
 		"wide"			"200"
 		"tall"			"200"
 
-		//"font"			"CrosshairsOutline34"
+		//"font"		"CrosshairsOutline34"
 		"font"			"Crosshairs34"
 		"labelText"		"f"
 		"textAlignment"	"center"	
@@ -293,7 +273,7 @@
 		"wide"			"200"
 		"tall"			"200"
 
-		//"font"			"CrosshairsOutline34"
+		//"font"		"CrosshairsOutline34"
 		"font"			"Crosshairs34"
 		"labelText"		"g"
 		"textAlignment"	"center"	
@@ -335,7 +315,7 @@
 		"wide"			"199"
 		"tall"			"200"
 
-		//"font"			"CrosshairsOutline24"
+		//"font"		"CrosshairsOutline24"
 		"font"			"Crosshairs24"
 		"labelText"		"h"
 		"textAlignment"	"center"	
@@ -378,7 +358,6 @@
 		"tall"			"200"
 
 		//"font"		"KonrWingsOutline24"
-
 		"font"			"KonrWings24"
 		"labelText"		"i"
 		"textAlignment"	"center"	
@@ -390,7 +369,7 @@
 	
 	"16x9Crosshair_vertical1"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"427"
 		"xpos_lodef"	"279"
@@ -406,12 +385,12 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 255"
-		"alpha" "50"
+		"alpha" 		"50"
 	}
 
 	"16x9Crosshair_horizontal1"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"40"
 		"xpos_lodef"	"279"
@@ -427,12 +406,12 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 255"
-		"alpha" "50"
+		"alpha" 		"50"
 	}
 	
 	"16x9Crosshair_horizontal2"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"439"
 		"xpos_lodef"	"279"
@@ -448,12 +427,12 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 255"
-		"alpha" "50"
+		"alpha" 		"50"
 	}
 
 	"16x9dark_top"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"426"
 		"xpos_lodef"	"278"
@@ -469,11 +448,11 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 255"
-		"alpha" "100"
+		"alpha" 		"100"
 	}
 	"16x9dark_bottom"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"427"
 		"xpos_lodef"	"279"
@@ -489,11 +468,11 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 255"
-		"alpha" "150"
+		"alpha" 		"150"
 	}
 	"16x9dark_left"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"365"
 		"xpos_lodef"	"279"
@@ -509,13 +488,13 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 255"
-		"alpha" "100"
+		"alpha" 		"100"
 	}
 	
 
 	"16x9dark_right"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"439"
 		"xpos_lodef"	"279"
@@ -531,7 +510,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 255"
-		"alpha" "100"
+		"alpha" 		"100"
 	}
 	
 	//end fighter pilot crosshair (16x9)
@@ -540,7 +519,7 @@
 	
 	"16x10Crosshair_vertical1"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"384"
 		"xpos_lodef"	"279"
@@ -556,12 +535,12 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 255"
-		"alpha" "50"
+		"alpha"			"50"
 	}
 
 	"16x10Crosshair_horizontal1"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"35"
 		"xpos_lodef"	"279"
@@ -577,12 +556,12 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 255"
-		"alpha" "50"
+		"alpha" 		"50"
 	}
 
 	"16x10Crosshair_horizontal2"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"403"
 		"xpos_lodef"	"279"
@@ -598,12 +577,12 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 255"
-		"alpha" "50"
+		"alpha" 		"50"
 	}
 
 	"16x10dark_top"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"384"
 		"xpos_lodef"	"279"
@@ -619,12 +598,12 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 255"
-		"alpha" "100"
+		"alpha" 		"100"
 	}
 
 	"16x10dark_bottom"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"384"
 		"xpos_lodef"	"279"
@@ -640,12 +619,12 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 255"
-		"alpha" "150"
+		"alpha" 		"150"
 	}
 
 	"16x10dark_left"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"315"
 		"xpos_lodef"	"279"
@@ -661,12 +640,12 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 255"
-		"alpha" "100"
+		"alpha" 		"100"
 	}
 
 	"16x10dark_right"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"403"
 		"xpos_lodef"	"279"
@@ -682,7 +661,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 255"
-		"alpha" "100"
+		"alpha" 		"100"
 	}
 	
 	//end fighter pilot crosshair (16x10)
@@ -691,7 +670,7 @@
 	
 	"4x3Crosshair_vertical1"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"319"
 		"xpos_lodef"	"279"
@@ -707,12 +686,12 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 255"
-		"alpha" "50"
+		"alpha"			"50"
 	}
 	
 	"4x3Crosshair_horizontal1"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"10"
 		"xpos_lodef"	"279"
@@ -728,12 +707,12 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 255"
-		"alpha" "50"
+		"alpha" 		"50"
 	}
 	
 	"4x3Crosshair_horizontal2"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"340"
 		"xpos_lodef"	"279"
@@ -749,12 +728,12 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 255"
-		"alpha" "50"
+		"alpha" 		"50"
 	}
 	
 	"4x3dark_top"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"319"
 		"xpos_lodef"	"279"
@@ -770,12 +749,12 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 255"
-		"alpha" "100"
+		"alpha" 		"100"
 	}
 	
 	"4x3dark_bottom"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"319"
 		"xpos_lodef"	"279"
@@ -791,12 +770,12 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 255"
-		"alpha" "150"
+		"alpha" 		"150"
 	}
-			
+
 	"4x3dark_left"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"250"
 		"xpos_lodef"	"279"
@@ -812,13 +791,12 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 255"
-		"alpha" "100"
+		"alpha" 		"100"
 	}
 	
-
 	"4x3dark_right"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"340"
 		"xpos_lodef"	"279"
@@ -834,7 +812,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 255"
-		"alpha" "100"
+		"alpha" 		"100"
 	}
 	//--------------------------------------------------------------
 	// TRANSPARENT VIEWMODELS
@@ -898,9 +876,8 @@
 		"wide"	"200"
 		"tall"	"60"
 		
-		"blue_active_xpos"			"25"
-	
-		"red_active_xpos"			"75"
+		"blue_active_xpos"	"25"
+		"red_active_xpos"	"75"
 	}	
 
 	HudItemEffectMeter
