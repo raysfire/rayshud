@@ -31,7 +31,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueScoreBG"
 		"xpos"			"c-270"
-		"ypos"			"144"
+		"ypos"			"279"
 		"wide"			"270"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -50,7 +50,7 @@
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"		"BlueLeaderAvatar"
 		"xpos"			"c-295"
-		"ypos"			"144"
+		"ypos"			"279"
 		"zpos"			"5"
 		"wide"			"25"
 		"tall"			"25"
@@ -65,7 +65,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedScoreBG"
 		"xpos"			"c0"
-		"ypos"			"144"
+		"ypos"			"279"
 		"wide"			"270"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -84,7 +84,7 @@
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"		"RedLeaderAvatar"
 		"xpos"			"c270"
-		"ypos"			"144"
+		"ypos"			"279"
 		"zpos"			"5"
 		"wide"			"25"
 		"tall"			"25"
@@ -116,7 +116,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ScoreboardBackground"
 		"xpos"			"c-270"
-		"ypos"			"169"
+		"ypos"			"304"
 		"zpos"			"-1"
 		"wide"			"540"
 		"tall"			"500"
@@ -153,9 +153,9 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ScoreboardBackground"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"-1"
+		"xpos"			"c65"
+		"ypos"			"265"
+		"zpos"			"240"
 		"tall"			"100"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -170,8 +170,8 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ScoreboardBackground"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"c65"
+		"ypos"			"121"
 		"zpos"			"-1"
 		"wide"			"240"
 		"tall"			"100"
@@ -192,7 +192,7 @@
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
 		"xpos"			"c-268"
-		"ypos"			"138"
+		"ypos"			"273"
 		"wide"			"200"
 		"tall"			"37"
 		"autoResize"		"0"
@@ -212,7 +212,7 @@
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"c-106"
-		"ypos"			"128"
+		"ypos"			"263"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -234,7 +234,7 @@
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"c-105"
-		"ypos"			"129"
+		"ypos"			"264"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -255,7 +255,7 @@
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"west"
 		"xpos"			"c-270"
-		"ypos"			"122"
+		"ypos"			"257"
 		"wide"			"100"
 		"tall"			"29"
 		"autoResize"		"0"
@@ -275,7 +275,7 @@
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
 		"xpos"			"c68"
-		"ypos"			"138"
+		"ypos"			"273"
 		"wide"			"200"
 		"tall"			"37"
 		"autoResize"	"0"
@@ -295,7 +295,7 @@
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"c6"
-		"ypos"			"128"
+		"ypos"			"263"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -319,7 +319,7 @@
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"c7"
-		"ypos"			"129"
+		"ypos"			"264"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -340,7 +340,7 @@
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"east"
 		"xpos"			"c140"
-		"ypos"			"122"
+		"ypos"			"257"
 		"wide"			"130"
 		"tall"			"29"
 		"autoResize"	"0"
@@ -391,10 +391,10 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
 		"xpos"			"c-270"
-		"ypos"			"166"
+		"ypos"			"304"
 		"zpos"			"20"
 		"wide"			"270"
-		"tall"			"236"
+		"tall"			"98"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -414,10 +414,10 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
 		"xpos"			"c0"
-		"ypos"			"166"
+		"ypos"			"304"
 		"zpos"			"20"
 		"wide"			"270"
-		"tall"			"236"
+		"tall"			"98"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -868,7 +868,7 @@
 		if_mvm {
 			"visible"		"1"
 		}
-		
+
 		"KillsLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -885,7 +885,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}
+		}							
 		"DeathsLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -902,7 +902,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}
+		}						
 		"AssistsLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -971,7 +971,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "TanLight"
-		}
+		}		
 		"Deaths"
 		{
 			"ControlName"		"CExLabel"
@@ -1268,8 +1268,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"	
-		}			
+			"fgcolor_override" "TanLight"
+		}
 		"Revenge"
 		{
 			"ControlName"		"CExLabel"
@@ -1303,8 +1303,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"				
-		}				
+			"fgcolor_override" "TanLight"
+		}
 		"HealingLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1312,16 +1312,16 @@
 			"font"			"Cerbetica14"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"west"
-			"xpos"			"102"	
-			"ypos"			"30"	
+			"xpos"			"102"
+			"ypos"			"30"
 			"zpos"			"3"
-			"wide"			"95"	
+			"wide"			"95"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}						
+		}
 		"InvulnLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1338,7 +1338,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}						
+		}
 		"TeleportsLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1349,13 +1349,13 @@
 			"xpos"			"342"	
 			"ypos"			"2"	
 			"zpos"			"3"
-			"wide"			"95"	
+			"wide"			"95"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}						
+		}
 		"HeadshotsLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1363,16 +1363,16 @@
 			"font"			"Cerbetica14"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"west"
-			"xpos"			"342"	
-			"ypos"			"16"	
+			"xpos"			"342"
+			"ypos"			"16"
 			"zpos"			"3"
-			"wide"			"95"	
+			"wide"			"95"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}						
+		}
 		"Healing"
 		{
 			"ControlName"	"CExLabel"
@@ -1406,7 +1406,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"							
+			"fgcolor_override" "TanLight"
 		}			
 		"Invuln"
 		{
@@ -1441,7 +1441,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"							
+			"fgcolor_override" "TanLight"
 		}			
 		"Teleports"
 		{
@@ -1718,7 +1718,6 @@
 		}	
 	}
 
-
 	"ButtonLegendBG"		[$X360]
 	{
 		"ControlName"	"ImagePanel"
@@ -1889,7 +1888,7 @@
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"
-		"enabled"			"1"	
+		"enabled"			"1"
 		"verbose"			"1"
 		
 		if_mvm {
