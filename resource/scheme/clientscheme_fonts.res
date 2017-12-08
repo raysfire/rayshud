@@ -2220,31 +2220,6 @@ Scheme
 		}
 
 		// rays fonts and stuff
-
-		// tournament hud edit
-		"Blocks48"
-		{
-			"1"
-			{
-				"name"		"Blocks"
-				"tall"		"48"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-		
-				
-		"Blocks24"
-		{
-			"1"
-			{
-				"name"		"Blocks"
-				"tall"		"24"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-		
 		"Symbol16"
 		{
 			"1"
@@ -2843,16 +2818,6 @@ Scheme
 			{
 				"name"		 "Cerbetica Bold"
 				"tall" 		 "124"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Multimedia16"
-		{
-			"1"
-			{
-				"name"		 "Heydings Icons"
-				"tall" 		 "16"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}

@@ -35,44 +35,33 @@ Scheme
 			"font" "resource/fonts/Cerbetica.ttf"
 			"name" "Cerbetica"
 		}
-		"8" // Tournament HUD block
-		{
-		
-			"font" "resource/fonts/Blocks.ttf"
-			"name" "Blocks"
-		}
-		"9" // Fog's xHairs
+		"8" // Fog's xHairs
 		{
 			"font" "resource/fonts/crosshairs.ttf"
 			"name" "Crosshairs"
 		}
-		"10" // Thin Cross
+		"9" // Thin Cross
 		{
 			"font" "resource/fonts/Symbol.ttf"
 			"name" "Symbol"
 		}
-		"11" // Konr Wings
+		"10" // Konr Wings
 		{
 			"font" "resource/fonts/Garm3nFont.ttf"
 			"name" "Garm3nFont"
 		}
-		"12"
+		"11"
 		{
 			"font" "resource/fonts/Cerbetica_edited.ttf"
 			"name" "Cerbetica_edited"
 		}
-		"13"
+		"12"
 		{
 		
 			"font" "resource/fonts/Cerbetica_bold.ttf"
 			"name" "Cerbetica Bold"
 		}
-		"14"
-		{
-			"font" "resource/fonts/heydings_icons.ttf"
-			"name" "Heydings Icons"
-		}
-		"15"
+		"13"
 		{
 			"font" "resource/fonts/KnucklesCrosses.ttf"
 			"name" "KnucklesCrosses"

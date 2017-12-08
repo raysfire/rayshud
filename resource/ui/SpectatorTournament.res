@@ -282,11 +282,11 @@
 				"textAlignment"	"west"
 				"fgcolor"		"TransparentBlack"
 			}
-			"healthcover"
+			"healthcover"	//Blocks48
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"healthcover"
-				"font"			"Blocks48"
+				"font"			"Cerbetica12"
 				"xpos"			"0"
 				"ypos"			"1"
 				"zpos"			"5"
