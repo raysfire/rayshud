@@ -997,7 +997,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"Multimedia16"
+			"font"			""
 			"labelText"		"r"
 			"textAlignment"	"center"
 			"dulltext"		"0"

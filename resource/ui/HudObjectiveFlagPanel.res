@@ -6,6 +6,8 @@
 		"fieldName"			"ObjectiveStatusFlagPanel"
 		"xpos"				"0"
 		"ypos"				"0"
+		"xpos_minmode"		"9999"
+		"ypos_minmode"		"9999"
 		"zpos"				"1"
 		"wide"				"f0"
 		"tall"				"480"
@@ -22,7 +24,9 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideBG"
 		"xpos"			"c-120"
-		"ypos"			"r20"	
+		"ypos"			"r20"
+		"xpos_minmode"	"9999"
+		"ypos_minmode"	"9999"
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"14"
@@ -50,6 +54,8 @@
 		"fieldName"		"RightSideBG"
 		"xpos"			"c0"
 		"ypos"			"r20"	[$WIN32]
+		"xpos_minmode"	"9999"
+		"ypos_minmode"	"9999"
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"14"
@@ -291,6 +297,8 @@
 		"fieldName"		"PlayingToBG"
 		"xpos"			"c-50"	[$WIN32]
 		"ypos"			"r50"	[$WIN32]
+		"xpos_minmode"	"9999"
+		"ypos_minmode"	"9999"
 		"zpos"			"3"
 		"wide"			"100"	[$WIN32]
 		"tall"			"20"	[$WIN32]
