@@ -2,7 +2,7 @@
 {
 	"CapCountdownLabel"
 	{	
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CapCountdownLabel"
 		"font"			"Cerbetica16"
 		"xpos"			"0"

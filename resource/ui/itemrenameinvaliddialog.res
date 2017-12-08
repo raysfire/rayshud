@@ -10,11 +10,11 @@
 		"ypos"					"105"
 		"wide"					"400"
 		"tall"					"240"
+		"bgcolor_override"		"25 25 25 255"
+		"paintbackground"		"1"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"2"
-		"paintbackground"		"1"
 		"border"				"CyanBorder"
-		"bgcolor_override"		"25 25 25 255"
 	}
 
 	"TitleLabel"

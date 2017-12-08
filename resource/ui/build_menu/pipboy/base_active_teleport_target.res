@@ -20,7 +20,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-
+	
 	"ItemBackground"
 	{
 		"ControlName"	"CIconPanel"
@@ -37,7 +37,7 @@
 		"iconColor"		"0 0 0 255"
 	}
 	
-	"BuildingIcon"	
+	"BuildingIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildingIcon"
@@ -69,10 +69,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"textAlignment"	"East"	
+		"textAlignment"	"East"
 	}
 	
-	"NumberBg"	
+	"NumberBg"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"

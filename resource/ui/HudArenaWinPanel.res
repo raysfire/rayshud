@@ -9,7 +9,7 @@
 		"wide"			"450"
 		"tall"			"200"
 		"visible"		"1"
-
+		
 		"BlueScoreBG"
 		{
 			"ControlName"	"ImagePanel"
@@ -122,7 +122,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"RedTeamLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -174,7 +174,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-
+		
 		"ArenaStreaksBG"
 		{
 			"ControlName"		"ScalableImagePanel"
@@ -190,7 +190,7 @@
 			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_black"
 			"scaleImage"		"1"
-	
+			
 			"src_corner_height"	"23"				// pixels inside the image
 			"src_corner_width"	"23"
 		
@@ -290,7 +290,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
-
+	
 	"WinningTeamLabel"
 	{	
 		"ControlName"		"CExLabel"

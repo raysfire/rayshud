@@ -58,8 +58,8 @@
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"CerbeticaBold32"
 		"fgcolor"		"TransparentBlack"
-		"xpos"			"70"			// align me to the left edge of the first selection
-		"ypos"			"-8"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"38"
@@ -71,6 +71,10 @@
 		"textAlignment"	"Left"
 		"dulltext"		"1"
 		"brighttext"	"0"
+		
+		"pin_to_sibling"	"TitleLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
 	"CancelLabel"

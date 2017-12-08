@@ -29,7 +29,6 @@
 		"label" 		"Adv. Options"
 		"command" 		"opentf2options"
 	}
-	
 	"CreateServerButton"
 	{
 		"label" 		""

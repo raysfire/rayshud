@@ -2,7 +2,7 @@
 {
 	"team"
 	{
-		"ControlName"		"CTeamMenu"
+		"ControlName"	"CTeamMenu"
 		"fieldName"		"team"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -28,7 +28,7 @@
 		"enabled"		"1"
 		"fillcolor"		"100 100 100 100"
 	}
-		"MainBG"
+	"MainBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBG"
@@ -42,7 +42,7 @@
 		"scaleImage"	"1"
 		"fillcolor"		"255 255 255 10"
 	}
-			"SidePanelBG"
+	"SidePanelBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SidePanelBG"
@@ -201,7 +201,7 @@
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"TanLight"
 	}
-		
+	
 	"TeamMenuAuto"
 	{
 		"ControlName"	"CExLabel"
@@ -255,7 +255,7 @@
 		"fieldName"		"MenuBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"		
+		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
@@ -277,9 +277,7 @@
 			"origin_y" "0"
 			"origin_z" "-34"
 		}
-	}	
-
-
+	}
 	
 	"ShadedBar"
 	{
@@ -290,8 +288,8 @@
 		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"50"
-		"tall_lodef"			"74"
-		"tall_hidef"			"65"
+		"tall_lodef"	"74"
+		"tall_hidef"	"65"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -299,8 +297,8 @@
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 180"
 		"PaintBackgroundType"	"0"
-	}		
-		
+	}
+	
 	"autodoor"
 	{
 		"ControlName"	"CModelPanel"
@@ -348,7 +346,7 @@
 				"sequence"		"hoverclose"
 			}
 		}
-	}		
+	}
 	
 	"spectate"
 	{
@@ -384,7 +382,7 @@
 				"sequence"		"idle"
 				"default"		"1"
 			}
-
+			
 			"animation"
 			{
 				"name"			"enter_enabled"
@@ -397,7 +395,7 @@
 				"sequence"		"idle"
 			}
 		}
-	}			
+	}
 	
 	"Footer" [$X360]
 	{
@@ -425,22 +423,21 @@
 		{
 			"name"		"cancel"
 			"text"		"#GameUI_Cancel"
-			"icon"		"#GameUI_Icons_B_BUTTON"	
+			"icon"		"#GameUI_Icons_B_BUTTON"
 		}
 		
 		"button"
 		{
 			"name"		"nextprev"
 			"text"		"#TF_NextPrev"
-			"icon"		"#GameUI_Icons_DPAD"	
+			"icon"		"#GameUI_Icons_DPAD"
 		}
 		
 		"button"
 		{
 			"name"		"select"
 			"text"		"#GameUI_Select"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
+			"icon"		"#GameUI_Icons_A_BUTTON"
 		}
-	}	
+	}
 }
-

@@ -25,10 +25,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_blu"
-				
+			
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
-					
+			
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
@@ -50,7 +50,7 @@
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"center"
 			"fgcolor"		"TanLight"
-		}	
+		}
 		"countshadow"
 		{
 			"ControlName"		"CExLabel"
@@ -72,7 +72,7 @@
 		
 		"playerimage"
 		{
-			"ControlName"	"ImagePanel"		
+			"ControlName"	"ImagePanel"
 			"fieldName"		"playerimage"
 			"xpos"			"12"
 			"ypos"			"10"
@@ -85,7 +85,7 @@
 			"scaleImage"	"1"
 		}
 	}
-
+	
 	"redteam"
 	{
 		"ControlName"	"EditablePanel"
@@ -111,10 +111,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_red"
-				
+			
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
-					
+			
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
@@ -136,7 +136,7 @@
 			"labelText"		"%red_alive%"
 			"textAlignment"	"center"
 			"fgcolor"		"TanLight"
-		}	
+		}
 		"countshadow"
 		{
 			"ControlName"	"CExLabel"
@@ -155,10 +155,10 @@
 			"textAlignment"	"center"
 			"fgcolor"		"Black"
 		}
-	
+		
 		"playerimage"
 		{
-			"ControlName"	"ImagePanel"		
+			"ControlName"	"ImagePanel"
 			"fieldName"		"playerimage"
 			"xpos"			"12"
 			"ypos"			"10"
@@ -169,6 +169,6 @@
 			"enabled"		"1"
 			"image"			"capture_icon_white"
 			"scaleImage"	"1"
-		}			
+		}
 	}
 }

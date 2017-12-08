@@ -15,14 +15,13 @@
 		"border"				"CyanBorderThick"
 		"bgcolor_override"		"35 35 35 255"
 		
-		
 		"button_kv"
 		{
 			"xpos"			"10"
 			"ypos"			"0"
 			"wide"			"350"
 			"tall"			"30"
-				
+		
 			"button"
 			{
 				"xpos"			"0"
@@ -145,8 +144,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "200 187 161 255"
-		}	
-
+		}
+		
 		"subbutton0"
 		{
 			"ControlName"	"CExButton"
@@ -538,13 +537,13 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
-			"defaultBgColor_override"	"15 15 15 255"
-			"armedBgColor_override"		"25 25 25 255"
-			"depressedBgColor_override"	"25 25 25 255"
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanLight"
-			"border_default"			"ButtonHover"
-			"border_armed"				"ButtonHover"
+		"defaultBgColor_override"	"15 15 15 255"
+		"armedBgColor_override"		"25 25 25 255"
+		"depressedBgColor_override"	"25 25 25 255"
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override" 	"TanLight"
+		"depressedFgColor_override" "TanLight"
+		"border_default"			"ButtonHover"
+		"border_armed"				"ButtonHover"
 	}
 }

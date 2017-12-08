@@ -2,17 +2,13 @@
 
 "Resource/UI/build_menu/tele_entrance_already_built.res"
 {
-	"ItemNameLabel"
-	{	
+	"ItemNameLabel" {
 		"labelText"		"#TF_Object_tele_entrance_360"
 	}
-	
-	"NumberLabel"
-	{	
+	"NumberLabel" {
 		"labelText"		"3"
 	}
-		"NumberLabelShadow"
-	{	
+	"NumberLabelShadow" {
 		"labelText"		"3"
 	}
 }

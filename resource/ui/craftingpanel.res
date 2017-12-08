@@ -19,14 +19,14 @@
 		"bgcolor_override"	"25 25 25 255"
 		"infocus_bgcolor_override" "25 25 25 255"
 		"outoffocus_bgcolor_override" "25 25 25 255"
-
+		
 		"item_ypos"						"85"
-		"output_item_ypos"				"255"		
+		"output_item_ypos"				"255"
 		"item_crafting_offcenter_x"		"0"
 		"item_backpack_xdelta"			"2"
 		"item_backpack_ydelta"			"4"
-
-		"button_xpos_offcenter"			"175"		
+		
+		"button_xpos_offcenter"			"175"
 		"button_ypos"					"85"
 		"button_ydelta"					"80"
 		"button_override_delete_xpos"	"0"
@@ -51,7 +51,7 @@
 			
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-
+			
 			"MainContentsContainer"
 			{
 				"ControlName"	"EditablePanel"
@@ -137,7 +137,7 @@
 			"scaleImage"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-		}	
+		}
 	}
 	
 	"ClassLabel"
@@ -210,7 +210,7 @@
 			"fgcolor"		"153 204 255 255"
 			"wrap"			"1"
 		}
-	
+		
 		"InputLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -320,7 +320,7 @@
 			"armedBgColor_override"		"143 167 57 255"
 			"depressedBgColor_override"	"143 167 57 255"
 			"selectedBgColor_override"	"143 167 57 255"
-		}			
+		}
 	}
 	
 	"recipecontainerscroller"

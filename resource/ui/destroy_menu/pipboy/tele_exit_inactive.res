@@ -1,11 +1,11 @@
 "Resource/UI/build_menu/tele_exit_inactive.res"
 {
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
 		"font"			"CerbeticaBold12"
-			"fgcolor"		"0 255 0 255"
+		"fgcolor"		"0 255 0 255"
 		"xpos"			"15"
 		"ypos"			"2"
 		"zpos"			"1"
@@ -21,7 +21,7 @@
 		"brighttext"	"0"
 	}
 	
-	"ItemBackground"	
+	"ItemBackground"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ItemBackground"
@@ -38,11 +38,11 @@
 	}
 	
 	"NotBuiltLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NotBuiltLabel"
 		"font"			"CerbeticaBold20"
-			"fgcolor"		"0 255 0 255"
+		"fgcolor"		"0 255 0 255"
 		"xpos"			"10"
 		"ypos"			"48"
 		"zpos"			"2"
@@ -57,13 +57,13 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-
+	
 	"UnavailableLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"UnavailableLabel"
 		"font"			"CerbeticaBold20"
-			"fgcolor"		"0 255 0 255"
+		"fgcolor"		"0 255 0 255"
 		"xpos"			"10"
 		"ypos"			"48"
 		"zpos"			"2"
@@ -77,9 +77,9 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-	}		
-		
-	"NumberBg"	
+	}
+	
+	"NumberBg"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
@@ -96,7 +96,7 @@
 	}
 	
 	"NumberLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"CerbeticaBold20"
@@ -115,14 +115,15 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
+	
 	"NumberLabelShadow"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TransparentBlack"
-		"xpos"			"1"
-		"ypos"			"96"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"18"
@@ -134,6 +135,9 @@
 		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"
+		
+		"pin_to_sibling"	"NumberLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-
 }

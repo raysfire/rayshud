@@ -1,6 +1,5 @@
 "Resource/UI/ItemModelPanel.res"
 {
-
 	"mouseoveritempanel"
 	{
 		"fieldName"				"mouseoveritempanel"
@@ -32,7 +31,6 @@
 		"image"			"animated/tf2_logo_hourglass"
 		"scaleImage"	"1"
 	}
-	
 	
 	"MainContentsContainer"
 	{

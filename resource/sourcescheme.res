@@ -7,12 +7,12 @@ Scheme
 	Colors
 	{
 		// rayshud	
-		"White"				"255 255 255 255"
-		"OffWhite"			"200 200 200 255"
-		"DullWhite"			"142 142 142 255"
+		"White"					"255 255 255 255"
+		"OffWhite"				"200 200 200 255"
+		"DullWhite"				"142 142 142 255"
 		"TransparentBlack"		"0 0 0 128"
-		"Black"				"10 10 10 255" 
-		"Blank"				"0 0 0 0"
+		"Black"					"10 10 10 255" 
+		"Blank"					"0 0 0 0"
 		"RaysPrimary"			"15 255 255 255"
 		"RaysPrimaryLight"		"0 255 255 255"
 		"RaysPrimaryDark"		"65 255 255 255"
@@ -39,10 +39,10 @@ Scheme
 	    "TFTextBlack"               "42 39 37 255"
 	    "TFTextDull"                "131 121 104 255"
 
-	    "TFMediumBrown"		"69 64 58 255"
+	    "TFMediumBrown"				"69 64 58 255"
 
 	    "QuickListBGDeselected"		"69 64 58 255"
-	    "QuickListBGSelected"               "131 121 104 150"
+	    "QuickListBGSelected"		"131 121 104 150"
 	    
 	    "Blank"				"0 0 0 0"
 
@@ -88,7 +88,7 @@ Scheme
 		
 		RadioButton.TextColor			"DullWhite"
 		RadioButton.SelectedTextColor	"White"
-		RadioButton.ArmedTextColor	"TFTextMedium"
+		RadioButton.ArmedTextColor		"TFTextMedium"
 		
 		Frame.BgColor					"40 40 40 245"
 		Frame.OutOfFocusBgColor			"40 40 40 100"
@@ -112,16 +112,16 @@ Scheme
 		ListPanel.SelectedBgColor			"RaysPrimary"
 		ListPanel.SelectedOutOfFocusBgColor	"100 100 100 128"
 		
-		MainMenu.TextColor			"White"
-		MainMenu.ArmedTextColor		"RaysPrimary"
-		MainMenu.Inset				"32"
+		MainMenu.TextColor					"White"
+		MainMenu.ArmedTextColor				"RaysPrimary"
+		MainMenu.Inset						"32"
 		
-		Menu.TextInset					"6"
-		Menu.FgColor			"White"
-		Menu.BgColor					"160 160 160 64"
-		Menu.ArmedFgColor		"RaysPrimary"
-		Menu.ArmedBgColor				"RaysPrimary"
-		Menu.DividerColor		"BorderDark"
+		Menu.TextInset						"6"
+		Menu.FgColor						"White"
+		Menu.BgColor						"160 160 160 64"
+		Menu.ArmedFgColor					"RaysPrimary"
+		Menu.ArmedBgColor					"RaysPrimary"
+		Menu.DividerColor					"BorderDark"
 		
 		ScrollBarButton.FgColor				"White"
 		ScrollBarButton.BgColor				"Blank"
@@ -227,7 +227,7 @@ Scheme
 		{
 			"1"	[$X360]
 			{
-				"tall_hidef"		"24"
+				"tall_hidef""24"
 			}
 		}
 		"ServerBrowserTitle"
@@ -341,14 +341,6 @@ Scheme
 		{
 			"font" "resource/TF2Build.ttf"
 			"name" "TF2 Build"
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
 		}
 	}
 }

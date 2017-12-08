@@ -46,7 +46,7 @@
 
 	"TitleLabel"
 	{	
-		"ControlName"		"Label"
+		"ControlName"	"Label"
 		"fieldName"		"TitleLabel"
 		"font"			"HudFontSmallBold"
 		"xpos"			"0"
@@ -67,8 +67,8 @@
 		"auto_wide_tocontents" "1"
 		
 		"pin_to_sibling"               "CenterPositioner"
-        "pin_corner_to_sibling"        "4"          
-        "pin_to_sibling_corner"        "4"          	
+        "pin_corner_to_sibling"        "4"
+        "pin_to_sibling_corner"        "4"
 	}
 	"EllipsesLabel"
 	{	
@@ -90,8 +90,8 @@
 		"bgcolor_override" "0 0 0 0"
 		
 		"pin_to_sibling"               "TitleLabel"
-        "pin_corner_to_sibling"        "0"          
-        "pin_to_sibling_corner"        "1"          	
+        "pin_corner_to_sibling"        "0"
+        "pin_to_sibling_corner"        "1"
 	}
 	
 	"CloseButton"

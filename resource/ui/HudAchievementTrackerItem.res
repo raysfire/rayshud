@@ -11,7 +11,6 @@
 		"tall"			"29"
 		"visible"		"0"
 		"enabled"		"1"	
-		
 		"PaintBackgroundType"	"2"
 	}
 	
@@ -27,7 +26,7 @@
 		"zpos"			"4"
 		"textinsetx"	"5"
 		"font"			"CerbeticaBold14"
-		"textAlignment"		"north-west"
+		"textAlignment"	"north-west"
 	}
 	"AchievementNameGlow"
 	{
@@ -42,9 +41,8 @@
 		"fgcolor_override"		"235 226 202 255"
 		"font"			"AchievementTracker_NameGlow"
 		"textinsetx"	"5"
-		"textAlignment"		"north-west"
+		"textAlignment"	"north-west"
 	}
-	
 	"AchievementDesc"
 	{
 		"ControlName"	"Label"
@@ -59,23 +57,22 @@
 		"fgcolor_override"		"235 226 202 255"
 		"font"			"AchievementTracker_Desc"
 		"wrap"			"1"
-		"TextAlignment"		"north-west"
+		"TextAlignment"	"north-west"
 	}
 	
 	"ProgressBarBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"ProgressBarBG"
-		"xpos"		"7"
-		"ypos"		"19"
-		"wide"		"100"
-		"tall"		"6"
-		"fillcolor"	 "250 234 201 51"
+		"xpos"			"7"
+		"ypos"			"19"
+		"wide"			"100"
+		"tall"			"6"
+		"fillcolor"	 	"250 234 201 51"
 		"zpos"			"4"
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
 	"ProgressBar" // current completed
 	{
 		"ControlName"	"ImagePanel"

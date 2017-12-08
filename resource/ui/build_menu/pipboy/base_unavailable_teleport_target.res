@@ -20,7 +20,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-
+	
 	"ItemBackground"
 	{
 		"ControlName"	"CIconPanel"
@@ -57,7 +57,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-
+	
 	"BuildingIcon"	
 	{
 		"ControlName"	"CIconPanel"
@@ -90,7 +90,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"textAlignment"	"East"	
+		"textAlignment"	"East"
 	}
 	
 	"NumberBg"	

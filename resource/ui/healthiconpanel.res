@@ -31,5 +31,5 @@
 		"TFFont"		"HudFontSmall"
 		"TextColor"		"HudOffWhite"
 		"autoResize"	"1"
-	}	
+	}
 }

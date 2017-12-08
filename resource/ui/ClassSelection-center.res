@@ -41,7 +41,7 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
-
+	
 	"random"
 	{
 		"ControlName"		"CExLabel"
@@ -69,11 +69,11 @@
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
-			
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
-
+	
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+		"sound_armed"			"UI/buttonrollover.wav"
+		
 		"stayselectedonclick"	"1"
 		"Default"				"1"
 		"selectonhover"			"1"
@@ -82,26 +82,27 @@
 	
 	"Offense"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Offense"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"2"
-		"wide"			"90"
-		"tall"			"12"
-		"tall_lodef"			"22"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_Offense"
-		"textAlignment"	"left"
-		"font"			"MenuClassBuckets"
-		"font_lodef"			"MenuMainTitle"
-		"fgcolor"		"TanDark"
-		"fgcolor_lodef"	"TanLight"
+		"ControlName"		"CExLabel"
+		"fieldName"			"Offense"
+		"xpos"				"9999"
+		"ypos"				"9999"
+		"zpos"				"2"
+		"wide"				"90"
+		"tall"				"12"
+		"tall_lodef"		"22"
+		"autoResize"		"1"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"#TF_Offense"
+		"textAlignment"		"left"
+		"font"				"MenuClassBuckets"
+		"font_lodef"		"MenuMainTitle"
+		"fgcolor"			"TanDark"
+		"fgcolor_lodef"		"TanLight"
 	}
+	
 	"scout"
 	{
 		"ControlName"		"CExImageButton"
@@ -128,10 +129,10 @@
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
-			
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
+	
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+		"sound_armed"			"UI/buttonrollover.wav"
 		
 		"stayselectedonclick"	"1"
 		"Default"				"1"
@@ -166,10 +167,10 @@
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
-			
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
+	
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+		"sound_armed"			"UI/buttonrollover.wav"
 		
 		"stayselectedonclick"	"1"
 		"Default"				"1"
@@ -263,7 +264,7 @@
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
-			
+	
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
@@ -300,7 +301,7 @@
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
-			
+	
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
@@ -337,7 +338,7 @@
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
-			
+	
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
@@ -370,7 +371,7 @@
 		"fgcolor_lodef"	"TanLight"
 	}
 	"medic"
-			{
+	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"medic"
 		"xpos"				"c80"
@@ -433,7 +434,7 @@
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
-			
+	
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
@@ -470,7 +471,7 @@
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
-			
+	
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
@@ -601,8 +602,8 @@
 			"origin_y" "0"
 			"origin_z" "-40"
 		}
-	}	
-
+	}
+	
 	"Hint"
 	{	
 		"ControlName"	"CExLabel"
@@ -637,13 +638,13 @@
 		"fieldName"		"ShadedBar"
 		"xpos"			"9999"
 		"ypos"			"r50"
-		"ypos_lodef"			"r74"
-		"ypos_hidef"			"r65"
+		"ypos_lodef"	"r74"
+		"ypos_hidef"	"r65"
 		"zpos"			"4"
 		"wide"			"f0"
 		"tall"			"50"
-		"tall_lodef"			"74"
-		"tall_hidef"			"65"
+		"tall_lodef"	"74"
+		"tall_hidef"	"65"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -680,21 +681,21 @@
 		{
 			"name"		"cancel"
 			"text"		"#GameUI_Cancel"
-			"icon"		"#GameUI_Icons_B_BUTTON"	
+			"icon"		"#GameUI_Icons_B_BUTTON"
 		}
 		
 		"button"
 		{
 			"name"		"nextprev"
 			"text"		"#TF_NextPrev"
-			"icon"		"#GameUI_Icons_DPAD"	
+			"icon"		"#GameUI_Icons_DPAD"
 		}				
 		
 		"button"
 		{
 			"name"		"select"
 			"text"		"#GameUI_Select"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
+			"icon"		"#GameUI_Icons_A_BUTTON"
 		}
 	}
 	
@@ -730,10 +731,10 @@
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/color_panel_clear"
 		"teambg_3"		"../hud/color_panel_clear"
-			
+	
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
-				
+	
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"	
 	}
@@ -1515,7 +1516,7 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
+			}
 		}
-	}		
+	}
 }

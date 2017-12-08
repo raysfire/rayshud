@@ -2,17 +2,13 @@
 
 "Resource/UI/build_menu/dispenser_cant_afford.res"
 {
-	"ItemNameLabel"
-	{	
+	"ItemNameLabel" {
 		"labelText"		"#TF_Object_dispenser"
 	}
-	
-	"NumberLabel"
-	{	
+	"NumberLabel" {	
 		"labelText"		"2"
 	}
-	"NumberLabelShadow"
-	{	
+	"NumberLabelShadow" {
 		"labelText"		"2"
 	}
 }

@@ -70,4 +70,46 @@
 		"image"			"../effects/speech_mediccall_attention"
 		"scaleImage"	"1"	
 	}
+	"CallerReviveEasy"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"CallerReviveEasy"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../effects/speech_mediccall_tombstone_noz"
+		"scaleImage"	"1"	
+	}
+	"CallerReviveMedium"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"CallerReviveMedium"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../effects/speech_mediccall_tombstone_1_noz"
+		"scaleImage"	"1"	
+	}
+	"CallerReviveHard"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"CallerReviveHard"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../effects/speech_mediccall_tombstone_2_noz"
+		"scaleImage"	"1"	
+	}
 }

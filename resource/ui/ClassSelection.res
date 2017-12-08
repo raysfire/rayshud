@@ -75,7 +75,7 @@
 		"textAlignment"		"west"
 		"Command"			"joinclass random"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"	
+		"font"				"CerbeticaBold16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
@@ -84,12 +84,11 @@
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
-			
+	
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
-		
+	
 		"stayselectedonclick"	"1"
 		"Default"				"1"
 		"selectonhover"			"1"
@@ -105,7 +104,7 @@
 		"zpos"			"2"
 		"wide"			"90"
 		"tall"			"12"
-		"tall_lodef"			"22"
+		"tall_lodef"	"22"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -114,7 +113,7 @@
 		"labelText"		"#TF_Offense"
 		"textAlignment"	"left"
 		"font"			"MenuClassBuckets"
-		"font_lodef"			"MenuMainTitle"
+		"font_lodef"	"MenuMainTitle"
 		"fgcolor"		"TanDark"
 		"fgcolor_lodef"	"TanLight"
 	}
@@ -144,7 +143,7 @@
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
-			
+	
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
@@ -156,7 +155,7 @@
 		"keyboardinputenabled"	"0"
 	}
 	"soldier"
-		{
+	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"soldier"
 		"xpos"				"30"
@@ -182,7 +181,7 @@
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
-			
+	
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
@@ -191,7 +190,6 @@
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-
 	}
 	"pyro"
 	{
@@ -220,7 +218,7 @@
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
-			
+	
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
@@ -240,7 +238,7 @@
 		"zpos"			"2"
 		"wide"			"90"
 		"tall"			"12"
-		"tall_lodef"			"22"
+		"tall_lodef"	"22"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -249,7 +247,7 @@
 		"labelText"		"#TF_Defense"
 		"textAlignment"	"left"
 		"font"			"MenuClassBuckets"
-		"font_lodef"			"MenuMainTitle"
+		"font_lodef"	"MenuMainTitle"
 		"fgcolor"		"TanDark"
 		"fgcolor_lodef"	"TanLight"
 	}
@@ -317,7 +315,7 @@
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
-			
+	
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
@@ -348,13 +346,13 @@
 		"font"				"CerbeticaBold16"	
 		"scaleImage"		"1"
 		"paintbackground"	"0"
-		
+	
 		"fgcolor"					"TanDark"
 		"defaultFgColor_override" 	"TanDark"
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"TanLight"
-			
+	
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
@@ -517,8 +515,7 @@
 		"paintbackground""0"
 		"Command"		"vguicancel"
 		"font"			"CerbeticaBold16"
-		
-		"fgcolor"					"TanLight"
+		"fgcolor"		"TanLight"
 	}
 	
 	"EditLoadoutButton" [$WIN32] 
@@ -619,8 +616,8 @@
 			"origin_y" "0"
 			"origin_z" "-40"
 		}
-	}	
-
+	}
+	
 	"Hint"
 	{	
 		"ControlName"	"CExLabel"
@@ -670,7 +667,7 @@
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
-	}		
+	}
 	
 	"Footer" [$X360]
 	{
@@ -692,27 +689,27 @@
 		"button_pin_right_lodef"	"55"
 		"fonttext"			"MatchmakingDialogMenuLarge"
 		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
-		"fgcolor"			"HudOffWhite" 	
+		"fgcolor"			"HudOffWhite" 
 		
 		"button"
 		{
 			"name"		"cancel"
 			"text"		"#GameUI_Cancel"
-			"icon"		"#GameUI_Icons_B_BUTTON"	
+			"icon"		"#GameUI_Icons_B_BUTTON"
 		}
 		
 		"button"
 		{
 			"name"		"nextprev"
 			"text"		"#TF_NextPrev"
-			"icon"		"#GameUI_Icons_DPAD"	
-		}				
+			"icon"		"#GameUI_Icons_DPAD"
+		}
 		
 		"button"
 		{
 			"name"		"select"
 			"text"		"#GameUI_Select"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
+			"icon"		"#GameUI_Icons_A_BUTTON"
 		}
 	}
 	
@@ -727,8 +724,8 @@
 		"tall"			"90"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"localPlayerBG"
@@ -748,10 +745,10 @@
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/color_panel_clear"
 		"teambg_3"		"../hud/color_panel_clear"
-			
+	
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
-				
+	
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"	
 	}
@@ -769,7 +766,7 @@
 		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
-	}							
+	}
 	
 	"countImage1" [$WIN32]
 	{
@@ -1019,7 +1016,7 @@
 		"textAlignment"	"west"
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"TanLight"
-	}				
+	}
 	
 	"numHeavy" [$WIN32]
 	{
@@ -1039,7 +1036,7 @@
 		"textAlignment"	"west"
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"TanLight"
-	}							
+	}
 	
 	"numEngineer" [$WIN32]
 	{
@@ -1079,7 +1076,7 @@
 		"textAlignment"	"west"
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"TanLight"
-	}							
+	}
 	
 	"numSniper" [$WIN32]
 	{
@@ -1099,7 +1096,7 @@
 		"textAlignment"	"west"
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"TanLight"
-	}						
+	}
 	
 	"numSpy" [$WIN32]
 	{
@@ -1118,8 +1115,8 @@
 		"labelText"		"%numSpy%"
 		"textAlignment"	"west"
 		"font"			"CerbeticaBold16"
-		"fgcolor"		"TanLight"	
-	}		
+		"fgcolor"		"TanLight"
+	}
 	
 	"MvMUpgradeImageScout"
 	{
@@ -1340,7 +1337,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
@@ -1362,7 +1358,7 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
+			}
 		}
 	}
 	
@@ -1370,21 +1366,17 @@
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
-		
 		"xpos"			"0"
 		"ypos"			"-30"
-		"zpos"			"6"		
+		"zpos"			"6"
 		"wide"			"300"
 		"tall"			"300"
-		
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
 		"fov"			"25"
 		"allow_rot"		"0"
-
 		"paintbackground" "1"		
 		"paintbackgroundenabled" "1"
 		"bgcolor_override" "255 255 255 0"
@@ -1403,7 +1395,6 @@
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
-		
 			"modelname"		""
 			"vcd"		"class_select.vcd"
 		}
@@ -1511,7 +1502,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
@@ -1533,7 +1523,7 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
+			}
 		}
-	}		
+	}
 }
