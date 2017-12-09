@@ -140,7 +140,7 @@
 		"visible"		"0"
 		"paintborder"			"1"
 		"paintbackground"		"1"
-		"border"				"NoBorder"
+		"border"				"ButtonHover"
 		"bgcolor_override"		"25 25 25 255"
 		
 		"TipLabel"
