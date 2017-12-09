@@ -568,7 +568,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"button_MOTD"
+				"image"			"replay/thumbnails/buttons/motd"
 				"scaleImage"	"1"
 			}
 		}
@@ -929,7 +929,7 @@
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-				
+	
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1034,7 +1034,7 @@
 				"tall"			"20"
 				"visible"		"0"
 				"enabled"		"0"
-				"image"			"button_Alert"
+				"image"			"replay/thumbnails/buttons/alert"
 				"scaleImage"	"1"
 			}
 		}
@@ -1830,66 +1830,90 @@
 		}
 	}
 	
-	"ReportBugButton"
+	"WatchStreamButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"ReportBugButton"
+		"fieldName"		"WatchStreamButton"
 		"xpos"			"130"
 		"ypos"			"220"
 		"zpos"			"1"
 		"wide"			"20"
-		"tall"			"20"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
 		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
 
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
-			"xpos"			"0"
+			"xpos"			"-3"
 			"ypos"			"0"
 			"wide"			"20"
 			"tall"			"20"
+			"zpos"			"5"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsetx"	"100"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
+			"labelText"		""
+			"font"			""
+			"command"		"watch_stream"
+			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	""
-			"border_armed"		""
+
+			"actionsignallevel" "2"
+			"proportionaltoparent"	"1"
+
 			"paintbackground"	"0"
+			"paintborder"		"0"
 			
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "Button Color"
 			"depressedFgColor_override" "Button Color"
-			
+
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"Button Color"
-			
+			"image_armedcolor"	"72 255 255 255"
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"4"
-				"ypos"			"4"
+				"xpos"			"2"
+				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"12"
-				"tall"			"12"
+				"wide"			"20"
+				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"glyph_bug"
 				"scaleImage"	"1"
+				"image"			"replay/thumbnails/twitch"
 			}
 		}
+	}
+
+	"StreamListPanel"
+	{
+		"ControlName"	"CTFStreamListPanel"
+		"fieldName"		"StreamListPanel"
+		"xpos"			"300"
+		"ypos"			"90"
+		"zpos"			"1"
+		"wide"			"300"
+		"tall"			"325"
+		"visible"		"0"
+		"PaintBackgroundType"	"0"
+		"paintbackground"	"2"
+		"bgcolor_override"	"25 25 25 230"
+		"border"		"NoBorde"
 	}
 	
 	"ReportPlayerButton"
@@ -2086,119 +2110,67 @@
 		"ypos"			"220"
 		"zpos"			"1"
 		"wide"			"20"
-		"tall"			"20"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-
+		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
-			"xpos"			"0"
+			"xpos"			"-3"
 			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
+			"wide"			"20"
+			"tall"			"20"
+			"zpos"			"5"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsetx"	"25"
 			"labelText"		""
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
+			"font"			""
 			"command"		"questlog"
-			"textAlignment"	"west"
+			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+
 			"actionsignallevel" "2"
 			"proportionaltoparent"	"1"
-				
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+
 			"paintbackground"	"0"
 			"paintborder"		"0"
+			
+			"defaultFgColor_override" "TanLight"
+			"armedFgColor_override" "Button Color"
+			"depressedFgColor_override" "Button Color"
+
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"72 255 255 255"
 
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
+				"xpos"			"2"
+				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"f0"
-				"tall"			"f0"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"image"			"button_quests"
-
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-				"keyboardinputenabled" "0"
-			}		
-		}
-		
-		"NotificationsContainer"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"NotificationsContainer"
-			"xpos"			"rs1"
-			"ypos"			"0"
-			"zpos"			"10"
-			"wide"			"16"
-			"tall"			"16"
-			"visible"		"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-			"keyboardinputenabled" "0"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"3"
 				"wide"			"16"
 				"tall"			"16"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"glyph_achievements"
 				"scaleImage"	"1"
-				"drawcolor" "210 125 33 255"
-				"proportionaltoparent"	"1"
-			}				
-		
-			"Notifications_CountLabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"Notifications_CountLabel"
-				"font"			"HudFontSmallestBold"
-				"labelText"		"%noticount%"
-				"textAlignment"	"center"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"4"
-				"wide"			"16"
-				"tall"			"16"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"fgcolor_override"	"255 255 255 255"
-				"proportionaltoparent"	"1"
+				"image"			"replay/thumbnails/buttons/contracts"
 			}
 		}
-	}			
+	}		
 	
 	"BackToReplaysButton"
 	{

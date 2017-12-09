@@ -9,7 +9,7 @@
 		"wide"			"300"
 		"tall"			"22"
 		"visible"		"1"
-
+		
 		"HeaderLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -30,7 +30,7 @@
 			"bgcolor_override"	"25 25 25 255"
 		}
 	}
-
+	
 	"CloseButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -51,21 +51,21 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"0"
-
+		
 		"navDown"			"MOTD_URLButton"
 		"navActivate"		"<QuickplayButton"
-
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"Command"		"hide_streams"
+		"Command"			"hide_streams"
 		"paintbackground"	"0"
-
+		
 		//"defaultFgColor_override" "235 226 202 255"
 		//"armedFgColor_override" "46 43 42 255"
 		"defaultFgColor_override" "TanLight"
 		"armedFgColor_override" "Base Color"
 		"depressedFgColor_override" "TanLight"
-
+		
 		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"200 80 60 255"
 		"SubImage"
@@ -83,7 +83,7 @@
 			"scaleImage"	"1"
 		}
 	}
-
+	
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -101,7 +101,7 @@
 		"enabled"		"1"
 		"fgcolor"		"56 53 49 255"
 	}
-
+	
 	"Stream1"
 	{
 		"ControlName"	"CTFStreamPanel"
@@ -116,7 +116,7 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 	}
-
+	
 	"Stream2"
 	{
 		"ControlName"	"CTFStreamPanel"
@@ -131,7 +131,7 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 	}
-
+	
 	"Stream3"
 	{
 		"ControlName"	"CTFStreamPanel"
@@ -146,7 +146,7 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 	}
-
+	
 	"Stream4"
 	{
 		"ControlName"	"CTFStreamPanel"
@@ -161,7 +161,7 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 	}
-
+	
 	"Stream5"
 	{
 		"ControlName"	"CTFStreamPanel"
@@ -176,7 +176,7 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 	}
-
+	
 	"Stream_URLButton"
 	{
 		"ControlName"	"CExButton"

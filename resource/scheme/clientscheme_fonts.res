@@ -91,8 +91,6 @@ Scheme
 				"weight"	"0"
 			}
 		}
-
-
 		"DefaultVerySmall"
 		{
 			"1"
@@ -195,6 +193,7 @@ Scheme
 				"weight"	"800"
 			}
 		}
+		
 		CenterPrintText
 		{
 			// note that this scales with the screen resolution
@@ -206,7 +205,7 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
-
+		
 		"PlayerPanelPlayerName"
 		{
 			"1"
@@ -218,6 +217,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		HudHintText
 		{
 			"1"
@@ -278,7 +278,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
 		"HudFontBiggerBold"
 		{
 			"1"
@@ -289,7 +288,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
 		"HudFontBig"
 		{
 			"1"
@@ -309,7 +307,7 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
-		}	
+		}
 		"HudFontMediumBigBold"
 		{
 			"1"
@@ -319,7 +317,7 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
-		}		
+		}
 		"HudFontMedium"
 		{
 			"1"
@@ -430,8 +428,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
-
 		"HudFontSmallestShadow"
 		{
 			"1"
@@ -452,6 +448,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		"PerformanceModeSmall"
 		{
 			"1"
@@ -462,6 +459,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		"StorePromotionsTitle"
 		{
 			"1"
@@ -472,6 +470,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		"FontCartPrice"
 		{
 			"1"
@@ -522,6 +521,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		"TextTooltipFont"
 		{
 			"1"
@@ -532,6 +532,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		GameUIButtons
 		{
 			"1"	//[$X360]
@@ -574,6 +575,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		"HudClassHealth"
 		{
 			"1"
@@ -585,6 +587,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		"SpectatorKeyHints"
 		{
 			"1"
@@ -596,6 +599,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		"ClockSubText"
 		{
 			"1"
@@ -632,6 +636,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		"HudSelectionText"
 		{
 			"1"
@@ -683,6 +688,7 @@ Scheme
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
+		
 		DebugOverlay
 		{
 			"1"	[$WIN32]
@@ -700,7 +706,8 @@ Scheme
 				"weight"	"200"
 				"outline"	"1"
 			}
-		}		
+		}
+		
 		TFTypeDeath
 		{
 			"1"
@@ -724,6 +731,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		
 		"BetaFont"
 		{
 			"1"
@@ -736,7 +744,7 @@ Scheme
 				"additive"	"0"
 			}
 		}
-
+		
 		HudNumbers
 		{
 			"1"
@@ -756,6 +764,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		"CloseCaption_Normal"
 		{
 			"1"
@@ -803,6 +812,7 @@ Scheme
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
+		
 		// this is the symbol font
 		"Marlett"
 		{
@@ -815,7 +825,6 @@ Scheme
 				"range"		"0x0000 0x007F"	//	Basic Latin
 			}
 		}
-		
 		"MarlettSmall"
 		{
 			"1"
@@ -827,6 +836,7 @@ Scheme
 				"range"		"0x0000 0x007F"	//	Basic Latin
 			}
 		}
+		
 		"MenuMainTitle"
 		{
 			"1"
@@ -871,7 +881,7 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}		
+		}
 		
 		"ChalkboardTitle"
 		{
@@ -911,9 +921,9 @@ Scheme
 				"tall"			"14"
 				"additive"		"0"
 				"antialias" 	"1"
-
 			}
 		}
+		
 		"ScoreboardVerySmall"
 		{
 			"1"
@@ -1012,7 +1022,6 @@ Scheme
 				"additive"	"0"
 			}
 		}
-
 		"ScoreboardTeamScoreNew"
  		{
 			"1"
@@ -1075,7 +1084,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
+		
 		"MatchSummaryTeamScores"
 		{
 			"1"
@@ -1099,7 +1108,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
 		"MatchSummaryWinner"
 		{
 			"1"
@@ -1110,7 +1118,7 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
-		}		
+		}
 		
 		"CompMatchStartTeamNames"
 		{
@@ -1146,7 +1154,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
+		
 		"Link"
 		{
 			"1"
@@ -1201,6 +1209,7 @@ Scheme
 				"dropshadow"	"0"
 			}
 		}
+		
 		"ChatFont"
 		{
 			"1"
@@ -1287,7 +1296,7 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
-
+		
 		MenuSmallestFont
 		{
 			"1"
@@ -1299,8 +1308,7 @@ Scheme
 				"weight"		"300"
 				"antialias"		"1"
 			}
-		}	
-		
+		}
 		MenuSmallFont
 		{
 			"1"
@@ -1313,7 +1321,8 @@ Scheme
 				"weight_lodef"	"600"
 				"antialias"		"1"
 			}
-		}			
+		}
+		
 		CapPlayerFont
 		{
 			"1"
@@ -1338,7 +1347,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		TFFontSmall
 		{
 			"1"
@@ -1351,7 +1360,7 @@ Scheme
 				"additive"	"1"
 				"antialias" 	"1"
 			}
-		}		
+		}
 		TFFontMedium
 		{
 			"1"
@@ -1364,7 +1373,7 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}		
+		}
 		
 		InstructionalText
 		{
@@ -1377,7 +1386,7 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}		
+		}
 		
 		MatchmakingDialogTitle
 		{
@@ -1467,6 +1476,7 @@ Scheme
 				"weight"	"900"
 			}
 		}
+		
 		RankingDialogHeaders
 		{
 			"1"
@@ -1497,7 +1507,8 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}		
+		}
+		
 		"IntroMenuCaption"
 		{
 			"1"
@@ -1508,7 +1519,8 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}			
+		}
+		
 		"AchievementNotification"
 		{
 			"1"
@@ -1519,6 +1531,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		"ImportToolSmallest"
 		{
 			"1"
@@ -1530,6 +1543,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		
 		"SpectatorVerySmall"
 		{
 			"1"
@@ -1542,6 +1556,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		// Used by scoreboard and spectator UI for names which don't map in the normal fashion
 		"DefaultVerySmallFallBack"
 		{
@@ -1594,7 +1609,7 @@ Scheme
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
-		}	
+		}
 		"ItemFontNameLarge"
 		{
 		"1"
@@ -1654,9 +1669,8 @@ Scheme
 				"tall" 		 "12"
 				"additive"	 "0"
 				"antialias"	 "1"
-			}	
+			}
 		}
-		
 		"ItemFontAttribLarger"
 		{
 			"1"
@@ -1668,6 +1682,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		
 		"AchievementTracker_Name"
 		{
 			"1"
@@ -1698,6 +1713,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		
 		"QuestObjectiveTracker_Desc"
 		{
 			"1"
@@ -1732,16 +1748,6 @@ Scheme
 				"custom"	"1"
 			}
 		}
-		"ItemTrackerScore_InGame"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"7"
-				"weight"	"0"
-				"antialias" 	"1"
-			}
-		}
 		"QuestFlavorText"
 		{
 			"1"
@@ -1772,7 +1778,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
 		"QuestObjectiveText"
 		{
 			"1"
@@ -1803,7 +1808,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
 		"QuestLargeText"
 		{
 			"1"
@@ -1815,7 +1819,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
 		"QuestStickyText"
 		{
 			"1"
@@ -1827,8 +1830,7 @@ Scheme
 				"weight"	"500"
 			}
 		}
-
-			"QuestInstructionText_Merasmus"
+		"QuestInstructionText_Merasmus"
 		{
 			"1"
 			{
@@ -1858,7 +1860,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
 		"QuestFlavorText_Merasmus"
 		{
 			"1"
@@ -1892,7 +1893,6 @@ Scheme
 				"italic"	"1"
 			}
 		}
-
 		"QuestObjectiveText_Merasmus"
 		{
 			"1"
@@ -1923,7 +1923,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
 		"QuestMediumText_Merasmus"
 		{
 			"1"
@@ -1935,7 +1934,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
 		"QuestLargeText_Merasmus"
 		{
 			"1"
@@ -1945,6 +1943,17 @@ Scheme
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
+			}
+		}
+		
+		"ItemTrackerScore_InGame"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"7"
+				"weight"	"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -1993,7 +2002,6 @@ Scheme
 				"additive"	"0"
 			}
 		}
-
 		"TradeUp_Quote"
 		{
 			"1"
@@ -2168,7 +2176,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
 		//
 		//////////////////// ECON FONTS //////////////////////////////
 		//
@@ -2194,6 +2201,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
 		ControllerHintText
 		{
 			"1"
@@ -2206,7 +2214,7 @@ Scheme
 				"additive"	"0"
 			}
 		}
-
+		
 		"MMenuPlayListDesc"
 		{
 			"1"
@@ -2218,7 +2226,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		// rays fonts and stuff
 		"Symbol16"
 		{
@@ -2230,7 +2238,6 @@ Scheme
 			"antialias"		"1"
 			}
 		}
-		
 		"Symbol24"
 		{
 			"1"
@@ -2241,7 +2248,6 @@ Scheme
 			"antialias"		"1"
 			}
 		}
-		
 		"SymbolOutline24"
 		{
 			"1"
@@ -2253,7 +2259,6 @@ Scheme
 			"outline"		"1"
 			}
 		}
-		
 		"Symbol32"
 		{
 			"1"
@@ -2264,7 +2269,6 @@ Scheme
 			"antialias"		"1"
 			}
 		}
-		
 		"Symbol40"
 		{
 			"1"
@@ -2275,6 +2279,7 @@ Scheme
 			"antialias"		"1"
 			}
 		}
+		
 		"KonrWings16"
 		{
 			"1"
@@ -2427,7 +2432,6 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
-
 		"Cerbetica24"
 		{
 			"1"
@@ -2822,6 +2826,7 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
+		
 		"TF2ComboBox"
 		{
 			"1"
@@ -2846,7 +2851,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
 		"QuestMap_Small"
 		{
 			"1"
@@ -2858,7 +2862,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
 		"QuestMap_Medium"
 		{
 			"1"
@@ -2870,7 +2873,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
 		"QuestMap_Large"
 		{
 			"1"
@@ -2882,7 +2884,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
 		"QuestMap_Huge"
 		{
 			"1"
@@ -2895,7 +2896,6 @@ Scheme
 			}
 		}
 	}
-	
 	//////////////////////// BITMAP FONT FILES /////////////////////////////
 	BitmapFontFiles
 	{

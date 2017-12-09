@@ -288,9 +288,9 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"130"
+		"xpos"			"150"
 		"ypos"			"cs-0.5-17"
-		"zpos"			"-51"
+		"zpos"			"5"
 		"wide"			"170"
 		"tall"			"1000"
 		"visible"		"1"
@@ -447,9 +447,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"85"
-		"ypos"			"58"
-		"zpos"			"10"
+		"xpos"			"103"
+		"ypos"			"62"
+		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -470,44 +470,7 @@
 			"enabled"		"0"
 			"image"			"glyph_achievements"
 			"scaleImage"	"1"
-			"drawcolor" "210 125 33 255"
-		}
-		
-		"Notifications_CountLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Notifications_CountLabel"
-			"font"			"CerbeticaBold12"
-			"labelText"		"%noticount%"
-			"textAlignment"	"center"
-			"xpos"			"10"
-			"ypos"			"-4"
-			"zpos"			"4"
-			"wide"			"16"
-			"tall"			"16"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor_override"	"Base Color"
-		}
-		"Notifications_CountLabelBG"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Notifications_CountLabelBG"
-			"font"			"CerbeticaBold12"
-			"labelText"		"%noticount%"
-			"textAlignment"	"center"
-			"xpos"			"11"
-			"ypos"			"-3"
-			"zpos"			"4"
-			"wide"			"16"
-			"tall"			"16"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor_override"	"TransparentBlack"
+			"drawcolor" 	"210 125 33 255"
 		}
 
 		"Notifications_ShowButtonPanel_SB"
@@ -517,8 +480,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"5"
-			"wide"			"24"
-			"tall"			"24"
+			"wide"			"15"
+			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -548,7 +511,7 @@
 			"depressedFgColor_override" "Button Color"
 			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"Button Color"
+			"image_armedcolor"	"72 255 255 255"
 			
 			"SubImage"
 			{
@@ -557,10 +520,10 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"20"
-				"tall"			"20"
-				"visible"		"0"
-				"enabled"		"0"
+				"wide"			"16"
+				"tall"			"16"
+				"visible"		"1"
+				"enabled"		"1"
 				"image"			"replay/thumbnails/buttons/alert"
 				"scaleImage"	"1"
 			}
@@ -696,11 +659,11 @@
 			"xpos"			"0"
 			"ypos"			"-1"
 			"zpos"			"1"
-			"wide"			"24"
-			"tall"			"24"
+			"wide"			"18"
+			"tall"			"18"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		"E"
+			"labelText"		""
 			"font"			""
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -732,7 +695,7 @@
 				"tall"			"0"
 				"visible"		"0"
 				"enabled"		"0"
-				"image"			"replay\thumbnails\buttons\motd"
+				"image"			"replay/thumbnails/buttons/motd"
 				"scaleImage"	"1"
 			}
 		}
@@ -946,9 +909,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
-		"xpos"			"207"
+		"xpos"			"203"
 		"ypos"			"60"
-		"zpos"			"1"
+		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -964,37 +927,37 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
-			"xpos"			"-3"
+			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"20"
 			"tall"			"20"
-			"zpos"			"5"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
+			"textinsetx"	"0"
 			"labelText"		""
+			"use_proportional_insets" "1"
 			"font"			""
 			"command"		"watch_stream"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"vo/null.mp3"
+			"actionsignallevel" "2"
+				
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"actionsignallevel" "2"
-			"proportionaltoparent"	"1"
-
 			"paintbackground"	"0"
 			"paintborder"		"0"
-			
+
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "Button Color"
 			"depressedFgColor_override" "Button Color"
-
+			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"72 255 255 255"
 
@@ -1028,10 +991,10 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"	"2"
 		"bgcolor_override"	"25 25 25 230"
-		"border"		"NoBorde"
-
-		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this
+		"border"		"NoBorder"
+		
+		"navDown"		"SettingsButton"
+		"navLeft"		"WatchStreamButton"
 	}
 
 	"CallVoteButton"

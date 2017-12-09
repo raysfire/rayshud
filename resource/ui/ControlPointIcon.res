@@ -35,7 +35,7 @@
 		"zpos"			"3"
 		"wide"			"7"
 		"tall"			"16"
-		"visible		""0"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"capture_icon"
 		"scaleImage"	"1"
