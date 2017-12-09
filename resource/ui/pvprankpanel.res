@@ -4,10 +4,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ModelContainer"
-
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
-
 		"zpos"			"3"		
 		"wide"			"f0"
 		"tall"			"f0"
@@ -67,7 +65,6 @@
 			}
 
 			"paintbackground"	"0"
-
 			"render_texture"	"0"
 		
 			"model"
@@ -411,9 +408,7 @@
 					"proportionaltoparent"	"1"
 					"border"		"NoBorder"
 				}
-
-
-	
+				
 				// First column
 				"GamesLabel"
 				{

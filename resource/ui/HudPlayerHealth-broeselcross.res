@@ -1,7 +1,6 @@
 "Resource/UI/HudPlayerHealth.res"
 {	
 	// player health data
-	
 	//Change visible and enabled to "1" on "HPBorderPanel1" and "HPBorderPanel2" for team-colored cross.
 	
 	"HPBorderPanel1"
@@ -142,7 +141,43 @@
 		"textAlignment"	"center"	
 		"font"			"CerbeticaBold24"
 		"fgcolor"		"TransparentBlack"
-	}			
+	}
+	"PlayerStatusMaxHealthValue"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusMaxHealthValue"
+		"xpos"			"156"
+		"xpos_minmode"	"156"
+		"ypos"			"77"
+		"zpos"			"6"
+		"wide"			"50"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"0"
+		"labelText"		"%MaxHealth%"
+		"textAlignment"	"center"
+		"font"			"CerbeticaBold28"
+		"font_minmode"	"CerbeticaBold28"
+		"fgcolor"		"Health Normal"
+	}
+	"PlayerStatusMaxHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusMaxHealthValueShadow"
+		"xpos"			"157"
+		"xpos_minmode"	"157"
+		"ypos"			"78"
+		"zpos"			"6"
+		"wide"			"50"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"0"
+		"labelText"		"%MaxHealth%"
+		"textAlignment"	"center"
+		"font"			"CerbeticaBold28"
+		"font_minmode"	"CerbeticaBold28"
+		"fgcolor"		"TransparentBlack"
+	}
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -575,4 +610,3 @@
 		"fgcolor"		"TanDark"
 	}
 }
-

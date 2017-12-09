@@ -18,8 +18,7 @@
 		"draw_corner_width" "0"
 		"draw_corner_height" "0"
 
-		if_match
-		{
+		if_match {
 			"visible"	"0"
 		}		
 	}
@@ -44,8 +43,7 @@
 		"color_warning"			"TimerProgress.Warning"
 		"percent_warning"		"0.75"
 		
-		if_match
-		{
+		if_match {
 			"visible"	"0"
 		}
 	}
@@ -93,8 +91,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 		
-		if_match
-		{
+		if_match {
 			"wide"	"0"
 		}
 	}
@@ -124,7 +121,6 @@
 			"wide"					"72"
 			"ypos"					"22"
 			"font"			"Cerbetica10"
-
 		}
 	}			
 	"OvertimeBG"
@@ -144,8 +140,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 	
-		if_match
-		{
+		if_match {
 			"wide"	"0"
 		}	
 	}
@@ -194,8 +189,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 		
-		if_match
-		{
+		if_match {
 			"wide"	"0"
 		}		
 	}	
@@ -239,13 +233,12 @@
 		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
+		"image"			"../hud/objectives_timepanel_suddendeath"
 		"scaleImage"		"1"	
 		
-		if_match
-		{
+		if_match {
 			"wide"	"0"
-		}		
+		}
 	}
 	"ServerTimeLimitLabel"
 	{
@@ -278,8 +271,8 @@
 			"font"					"HudFontSmallestBold"
 			"font_hidef"			"HudFontSmallestBold"
 			"font_lodef"			"HudFontSmallestBold"
-		}		
-	}	
+		}
+	}
 	"ServerTimeLimitLabelBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -298,8 +291,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 		
-		if_match
-		{
+		if_match {
 			"wide"	"0"
 		}			
 	}	

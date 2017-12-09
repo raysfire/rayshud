@@ -15,7 +15,7 @@
 		"enabled"		"1"
 	}
 	
-		"MainBG"
+	"MainBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBG"
@@ -132,7 +132,6 @@
 		"default"		"1"
 		"font"			"Blank"
 		"paintbackground"	"0"
-		
 		"fgcolor"					"TanLight"
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override"		"TanDark"
@@ -161,7 +160,6 @@
 		"default"		"1"
 		"font"			"Cerbetica24"
 		"paintbackground"	"0"
-		
 		"fgcolor"					"TanLight"
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override"		"TanDark"
@@ -190,7 +188,6 @@
 		"default"		"1"
 		"font"			"Cerbetica20"
 		"paintbackground"	"0"
-
 		"fgcolor"					"TanLight"
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override"		"TanDark"
@@ -218,7 +215,6 @@
 		"command"		"back"
 		"font"			"Cerbetica20"
 		"paintbackground"	"0"
-		
 		"fgcolor"					"TanLight"
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override"		"TanDark"
@@ -300,14 +296,14 @@
 		{
 			"name"		"intro"
 			"text"		"#TF_WatchIntro_360"
-			"icon"		"#GameUI_Icons_Y_BUTTON"	
+			"icon"		"#GameUI_Icons_Y_BUTTON"
 		}
 		
 		"button"
 		{
 			"name"		"continue"
 			"text"		"#TF_Continue_360"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
+			"icon"		"#GameUI_Icons_A_BUTTON"
 		}
 	}	
 }

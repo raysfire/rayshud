@@ -41,6 +41,7 @@
 		"font_minmode"	"CerbeticaBold32"
 		"fgcolor"		"Ammo In Clip"
 	}
+	
 	"ChargeLabelShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -85,7 +86,6 @@
 		"fillcolor" 		"255 255 255 50"
 	}
 	
-
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -113,7 +113,7 @@
 		"fgcolor"		"Ammo In Clip"
 	}
 	
-	"IndividualChargesLabelShadow"
+	"IndividualChargesLabelShadow"	//Blocks48	//Blocks24
 	{
 		"ControlName"	"CExLabel"
 		"fieldName" 	"IndividualChargesLabel"
@@ -135,8 +135,8 @@
 		"textAlignment" "center"
 		"dulltext"		"0"
 		"brighttext" 	"0"
-		"font" 			"Blocks48"
-		"font_minmode"	"Blocks24"
+		"font"			"CerbeticaBold56"
+		"font_minmode"	"CerbeticaBold32"
 		"fgcolor_override"		"0 0 0 255"
 	}
 	

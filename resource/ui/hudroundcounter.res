@@ -60,7 +60,7 @@
 
 		"backgroundtype"		"2"
 		"proportionaltoparent"	"1"
-			
+
 		"image"					"../hud/comp_round_timer"
 		"scaleimage"			"1"
 	}
@@ -77,7 +77,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"70 130 180 153"
-
 	}
 	
 	"RedScoreBG"
@@ -108,5 +107,4 @@
 		"fillcolor"		"0 0 0 100"
 
 	}
-	
 }

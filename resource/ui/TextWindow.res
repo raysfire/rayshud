@@ -32,7 +32,6 @@
 		"fillcolor"		"0 0 0 100"
 	}
 	
-	
 	"TFMessageTitle"
 	{
 		"ControlName"	"CExLabel"
@@ -52,7 +51,7 @@
 		"brighttext"	"0"
 		"font"			"Cerbetica24"
 		"fgcolor"		"TanLight"
-	}	
+	}
 
 	"TextMessage"
 	{
@@ -182,5 +181,5 @@
 		"fieldName"		"MessageTitle"
 		"visible"		"0"
 		"enabled"		"0"
-	}		
+	}
 }

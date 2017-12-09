@@ -28,6 +28,6 @@
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"
 			"border_depressed"			"NoBorder"
-		}			
+		}
 	}
 }

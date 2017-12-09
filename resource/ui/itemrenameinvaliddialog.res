@@ -10,11 +10,11 @@
 		"ypos"					"105"
 		"wide"					"400"
 		"tall"					"240"
+		"bgcolor_override"		"25 25 25 255"
+		"paintbackground"		"1"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"2"
-		"paintbackground"		"1"
 		"border"				"CyanBorder"
-		"bgcolor_override"		"25 25 25 255"
 	}
 
 	"TitleLabel"
@@ -70,7 +70,7 @@
 		"tileImage"		"0"
 		"tileVertically" "0"
 		"drawcolor"		"112 176 74 255"
-	}				
+	}
 	"tool_modelpanel"
 	{		
 		"ControlName"	"CItemModelPanel"
@@ -97,7 +97,7 @@
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
-	}	
+	}
 	"SubjectBG"
 	{
 		"ControlName"	"CExLabel"

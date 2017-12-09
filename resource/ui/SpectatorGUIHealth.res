@@ -11,8 +11,8 @@
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-	}		
+		"scaleImage"	"1"
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -25,8 +25,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -39,8 +39,8 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_equip_bg"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -53,7 +53,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 	"PlayerStatusHealthValue"
 	{
@@ -69,7 +69,7 @@
 		"labelText"		"%Health%"
 		"font" 			"CerbeticaBold16"
 		"fgcolor"		"Health Normal"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 	}
 	"PlayerStatusHealthValueBackground"
 	{
@@ -85,7 +85,7 @@
 		"labelText"		"%Health%"
 		"font" 			"CerbeticaBold16"
 		"fgcolor"		"0 0 0 255"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 	}
 	"PlayerStatusPlayerLevel"
 	{
@@ -98,8 +98,8 @@
 		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"font"			"ScoreboardVerySmall"
 		"fgcolor"		"TFOrange"
-	}						
+	}
 }

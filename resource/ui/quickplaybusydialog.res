@@ -126,8 +126,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"border_armed"		"NoBorder"
-		}			
-		
+		}
 	}
 	
 	"ResultsContainer"
@@ -148,7 +147,6 @@
 		"paintbackground"		"1"
 		"border"				"CyanBorderThick"
 		"bgcolor_override"		"25 25 25 255"
-
 
 		"Background"
 		{
@@ -249,7 +247,6 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"border_default" 	"NoBorder"
 			"border_armed"		"NoBorder"
-		}			
-		
+		}
 	}
 }

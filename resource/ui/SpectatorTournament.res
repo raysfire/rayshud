@@ -2,14 +2,14 @@
 {
 	"specgui"
 	{
-		"ControlName"		"Frame"
+		"ControlName"	"Frame"
 		"fieldName"		"specgui"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"enabled"		"1"
-				
+
 		"team1_player_base_offset_x"		"0"
 		"team1_player_base_y"				"220"
 		"team1_player_delta_x"				"0"
@@ -25,124 +25,120 @@
 			"wide"			"156"
 			"tall"			"16"
 			"zpos"			"1"
-		
-
-			
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
-			
 			"tabPosition"	"0"
 			
 			"PanelBackground"
 			{
-			"ControlName" 	"ImagePanel"
-			"fieldName" 	"PanelBackground"
-			"xpos" 			"0"
-			"ypos"			"0"
-			"zpos" 			"-1"
-			"wide" 			"160"
-			"tall" 			"0"
-			"autoResize" 	"0"
-			"pinCorner"		"0"
-			"visible" 		"1"
-			"enabled" 		"1"
-			"fillcolor" 	"15 15 15 50"
+				"ControlName" 	"ImagePanel"
+				"fieldName" 	"PanelBackground"
+				"xpos" 			"0"
+				"ypos"			"0"
+				"zpos" 			"-1"
+				"wide" 			"160"
+				"tall" 			"0"
+				"autoResize" 	"0"
+				"pinCorner"		"0"
+				"visible" 		"1"
+				"enabled" 		"1"
+				"fillcolor" 	"15 15 15 50"
 			}
 			
 			"PanelLeftFringe"
 			{
-			"ControlName" 	"ImagePanel"
-			"fieldName" 	"PanelLeftFringe"
-			"xpos" 			"0"
-			"ypos"			"0"
-			"zpos" 			"-1"
-			"wide" 			"52"
-			"tall" 			"18"
-			"autoResize" 	"0"
-			"pinCorner"		"0"
-			"visible" 		"1"
-			"enabled" 		"1"
-			"fillcolor" 	"15 15 15 64"
+				"ControlName" 	"ImagePanel"
+				"fieldName" 	"PanelLeftFringe"
+				"xpos" 			"0"
+				"ypos"			"0"
+				"zpos" 			"-1"
+				"wide" 			"52"
+				"tall" 			"18"
+				"autoResize" 	"0"
+				"pinCorner"		"0"
+				"visible" 		"1"
+				"enabled" 		"1"
+				"fillcolor" 	"15 15 15 64"
 			}			
 			
 			"PanelLeftHalf"
 			{
-			"ControlName" 	"ImagePanel"
-			"fieldName" 	"PanelLeftHalf"
-			"xpos" 			"0"
-			"ypos"			"0"
-			"zpos" 			"-1"
-			"wide" 			"49"
-			"tall" 			"18"
-			"autoResize" 	"0"
-			"pinCorner"		"0"
-			"visible" 		"1"
-			"enabled" 		"1"
-			"fillcolor" 	"15 15 15 128"
+				"ControlName" 	"ImagePanel"
+				"fieldName" 	"PanelLeftHalf"
+				"xpos" 			"0"
+				"ypos"			"0"
+				"zpos" 			"-1"
+				"wide" 			"49"
+				"tall" 			"18"
+				"autoResize" 	"0"
+				"pinCorner"		"0"
+				"visible" 		"1"
+				"enabled" 		"1"
+				"fillcolor" 	"15 15 15 128"
 			}
 			
 			"PanelLeftFull"
 			{
-			"ControlName" 	"ImagePanel"
-			"fieldName" 	"PanelLeftFull"
-			"xpos" 			"0"
-			"ypos"			"0"
-			"zpos" 			"-1"
-			"wide" 			"26"
-			"tall" 			"18"
-			"autoResize" 	"0"
-			"pinCorner"		"0"
-			"visible" 		"1"
-			"enabled" 		"1"
-			"fillcolor" 	"15 15 15 110"
+				"ControlName" 	"ImagePanel"
+				"fieldName" 	"PanelLeftFull"
+				"xpos" 			"0"
+				"ypos"			"0"
+				"zpos" 			"-1"
+				"wide" 			"26"
+				"tall" 			"18"
+				"autoResize" 	"0"
+				"pinCorner"		"0"
+				"visible" 		"1"
+				"enabled" 		"1"
+				"fillcolor" 	"15 15 15 110"
 			}
 			
 			"PanelFull"
 			{
-			"ControlName" 	"ImagePanel"
-			"fieldName" 	"PanelFull"
-			"xpos" 			"0"
-			"ypos"			"0"
-			"zpos" 			"-1"
-			"wide" 			"160"
-			"tall" 			"18"
-			"autoResize" 	"0"
-			"pinCorner"		"0"
-			"visible" 		"1"
-			"enabled" 		"1"
-			"fillcolor" 	"15 15 15 100"
+				"ControlName" 	"ImagePanel"
+				"fieldName" 	"PanelFull"
+				"xpos" 			"0"
+				"ypos"			"0"
+				"zpos" 			"-1"
+				"wide" 			"160"
+				"tall" 			"18"
+				"autoResize" 	"0"
+				"pinCorner"		"0"
+				"visible" 		"1"
+				"enabled" 		"1"
+				"fillcolor" 	"15 15 15 100"
 			}
 			
 			"PanelBottom"
 			{
-			"ControlName" 	"ImagePanel"
-			"fieldName" 	"PanelBottom"
-			"xpos" 			"0"
-			"ypos"			"15"
-			"zpos" 			"-1"
-			"wide" 			"160"
-			"tall" 			"4"
-			"autoResize" 	"0"
-			"pinCorner"		"0"
-			"visible" 		"0"
-			"enabled" 		"0"
-			"fillcolor" 	"15 15 15 255"
+				"ControlName" 	"ImagePanel"
+				"fieldName" 	"PanelBottom"
+				"xpos" 			"0"
+				"ypos"			"15"
+				"zpos" 			"-1"
+				"wide" 			"160"
+				"tall" 			"4"
+				"autoResize" 	"0"
+				"pinCorner"		"0"
+				"visible" 		"0"
+				"enabled" 		"0"
+				"fillcolor" 	"15 15 15 255"
 			}
 			
 			"PanelRight"
 			{
-			"ControlName" 	"ImagePanel"
-			"fieldName" 	"PanelRight"
-			"xpos" 			"157"
-			"ypos"			"0"
-			"zpos" 			"-1"
-			"wide" 			"4"
-			"tall" 			"16"
-			"autoResize" 	"0"
-			"pinCorner"		"0"
-			"visible" 		"0"
-			"enabled" 		"0"
-			"fillcolor" 	"15 15 15 255"
+				"ControlName" 	"ImagePanel"
+				"fieldName" 	"PanelRight"
+				"xpos" 			"157"
+				"ypos"			"0"
+				"zpos" 			"-1"
+				"wide" 			"4"
+				"tall" 			"16"
+				"autoResize" 	"0"
+				"pinCorner"		"0"
+				"visible" 		"0"
+				"enabled" 		"0"
+				"fillcolor" 	"15 15 15 255"
 			}
 		
 			"playername"
@@ -161,7 +157,6 @@
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
 				"fgcolor"		"235 226 202 255"
-			
 			}
 			
 			"classimage"
@@ -177,7 +172,6 @@
 				"enabled"		"1"
 				"team1_image"			"../hud/class_scoutred"
 				"scaleImage"	"1"	
-				
 			}
 			
 			"classimagebg"
@@ -197,26 +191,26 @@
 			}
 			
 			"HealthIcon"
-				{
-					"ControlName" "EditablePanel"
-					"fieldName" "HealthIcon"
-					"xpos" "0"
-					"ypos" "0"
-					"zpos" "3"
-					"wide" "24"
-					"tall" "14"
-					"visible" "1"
-					"enabled" "1"
-					"HealthBonusPosAdj" "10"
-					"HealthDeathWarning" "0.49"
-					"TFFont" "HudFontSmallest"
-					"HealthDeathWarningColor" "HUDDeathWarning"
-					"TextColor" "HudOffWhite"
-				}
-			
+			{
+				"ControlName" "EditablePanel"
+				"fieldName" "HealthIcon"
+				"xpos" "0"
+				"ypos" "0"
+				"zpos" "3"
+				"wide" "24"
+				"tall" "14"
+				"visible" "1"
+				"enabled" "1"
+				"HealthBonusPosAdj" "10"
+				"HealthDeathWarning" "0.49"
+				"TFFont" "HudFontSmallest"
+				"HealthDeathWarningColor" "HUDDeathWarning"
+				"TextColor" "HudOffWhite"
+			}
+
 			"ReadyBG"
 			{
-				"ControlName"		"ScalableImagePanel"
+				"ControlName"	"ScalableImagePanel"
 				"fieldName"		"ReadyBG"
 				"xpos"			"0"
 				"ypos"			"0"
@@ -234,7 +228,6 @@
 			
 				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"3"
-				
 			}
 			
 			"ReadyImage"
@@ -252,7 +245,6 @@
 				"enabled"		"1"
 				"image"			"hud/checkmark"
 				"scaleImage"		"1"
-
 			}
 			
 			"respawntime"
@@ -289,13 +281,12 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
 				"fgcolor"		"TransparentBlack"
-				
 			}
-			"healthcover"
+			"healthcover"	//Blocks48
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"healthcover"
-				"font"			"Blocks48"
+				"font"			"Cerbetica12"
 				"xpos"			"0"
 				"ypos"			"1"
 				"zpos"			"5"
@@ -307,7 +298,6 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
 				"fgcolor"		"15 15 15 110"
-				
 			}
 			
 			"chargeamount"
@@ -362,9 +352,7 @@
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
 			}
-			
 		}
-		
 	}
 
 	"topbar"
@@ -384,14 +372,14 @@
 	}
 	"bottombarblank"
 	{
-		"ControlName"		"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"bottombarblank"
 		"visible"		"0"
 		"ypos"			"480"
 	}
 	"ReinforcementsLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"c-300"	[$WIN32]
 		"ypos"			"50"	[$WIN32]
@@ -405,11 +393,9 @@
 		"textAlignment"		"center"
 		"font"			"Cerbetica24"
 		
-		if_mvm
-		{
-		"ypos"			"68"	[$WIN32]
+		if_mvm{
+			"ypos"		"68"	[$WIN32]
 		}
-		
 	}
 	"BuyBackLabel"
 	{
@@ -429,63 +415,62 @@
 		"wrap"			"1"
 		"centerwrap"	"1"
 	
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"1"
 		}	
 	}
 	"MapLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"MapLabel"
 		"visible"		"0"
 	}
 	"ClassOrTeamLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ClassOrTeamLabel"
 		"visible"		"0"
 	}
 	"SwitchCamModeKeyLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"visible"		"0"
 		
 	}
 	"SwitchCamModeLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"SwitchCamModeLabel"
 		"visible"		"0"
 	}
 	"CycleTargetFwdKeyLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetFwdKeyLabel"
 		"visible"		"0"
 	}
 	"CycleTargetFwdLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetFwdLabel"
 		"visible"		"0"
 	}
 	"CycleTargetRevKeyLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetRevKeyLabel"
 		"visible"		"0"
 	}
 	"CycleTargetRevLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetRevLabel"
 		"visible"		"0"
 	}
 	"TipLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TipLabel"
 		"visible"		"0"
 	}
@@ -556,7 +541,7 @@
 		}
 		
 		"ItemLabel"
-		{	
+		{
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"Cerbetica12"
@@ -574,7 +559,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-	}	
+	}
 	"spectator_extras"
 	{
 		"ControlName"	"EditablePanel"
@@ -587,5 +572,5 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-	}	
+	}
 }

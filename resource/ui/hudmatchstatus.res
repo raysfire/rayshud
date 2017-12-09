@@ -15,7 +15,7 @@
 		"fieldName"		"RoundSignModel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"10"		
+		"zpos"			"10"
 		"wide"			"f0"
 		"tall"			"f0"
 		"autoResize"	"0"
@@ -105,13 +105,12 @@
 		"fgcolor"		"Black"
 		"proportionaltoparent"	"1"
 
-	
 		if_readymode
 		{
 			"xpos"			"300"
 			"ypos"			"130"
 		}
-	}	
+	}
 
 	"FrontParticlePanel"
 	{
@@ -147,7 +146,7 @@
 		"fieldName"		"MatchDoors"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"2"		
+		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"f0"
 		"autoResize"	"0"
@@ -218,12 +217,10 @@
 		"wide"				"365"
 		"tall"				"0"
 		"visible"			"0"
-		
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
 		
-		if_match
-		{
+		if_match {
 			"visible"		"1"
 		}
 	}	
@@ -262,7 +259,7 @@
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmall"
 			"font_minmode"	"HudFontSmall"
@@ -275,13 +272,12 @@
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 
 			if_match
 			{
 				"proportionaltoparent"	"1"
-
 				"xpos"			"cs-0.5"
 				"ypos"			"13"
 				"ypos_minmode"	"9"
@@ -304,12 +300,10 @@
 		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
+		"max_size"		"19"
 
-
-		"max_size"	"19"
-
-		"6v6_gap"	"1"
-		"12v12_gap"	"1"
+		"6v6_gap"		"1"
+		"12v12_gap"		"1"
 
 		"team1_grow_dir" "west"
 		"team1_base_x"	"c-45"
@@ -369,7 +363,7 @@
 			}
 			"classimagebg"
 			{
-				"ControlName"		"Panel"
+				"ControlName"	"Panel"
 				"fieldName"		"classimagebg"
 				"xpos"			"0"
 				"ypos"			"0"
@@ -383,22 +377,22 @@
 			}
 			"healthbar"
 			{	
-				"ControlName"			"ContinuousProgressBar"
-				"fieldName"				"healthbar"
-				"font"					"Default"																		
-				"xpos"					"0"
-				"ypos"					"19"
-				"zpos"					"5"
-				"wide"					"f0"
-				"tall"					"2"				
-				"autoResize"			"0"
-				"pinCorner"				"0"
-				"visible"				"1"
-				"enabled"				"1"
-				"textAlignment"			"Left"
-				"dulltext"				"0"
-				"brighttext"			"0"
-				"bgcolor_override"	   "80 80 80 255"
+				"ControlName"	"ContinuousProgressBar"
+				"fieldName"		"healthbar"
+				"font"			"Default"																		
+				"xpos"			"0"
+				"ypos"			"19"
+				"zpos"			"5"
+				"wide"			"f0"
+				"tall"			"2"				
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"textAlignment"	"Left"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"bgcolor_override"		"80 80 80 255"
 				"proportionaltoparent"	"1"
 			}
 			"overhealbar"
@@ -441,7 +435,7 @@
 			}
 			"ReadyBG"
 			{
-				"ControlName"		"ScalableImagePanel"
+				"ControlName"	"ScalableImagePanel"
 				"fieldName"		"ReadyBG"
 				"xpos"			"30"
 				"ypos"			"6"
@@ -460,7 +454,7 @@
 			}
 			"ReadyImage"
 			{
-				"ControlName"		"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"ReadyImage"
 				"xpos"			"32"
 				"ypos"			"8"
@@ -560,14 +554,14 @@
 	"BlueTeamPanel"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName"		"BlueTeamPanel"
-		"xpos"			"-155"
-		"ypos"			"125"
-		"zpos"			"50"
-		"wide"			"150"
-		"tall"			"260"
-		"visible"		"1"
-		"enabled"		"1"
+		"fieldName"			"BlueTeamPanel"
+		"xpos"				"-155"
+		"ypos"				"125"
+		"zpos"				"50"
+		"wide"				"150"
+		"tall"				"260"
+		"visible"			"1"
+		"enabled"			"1"
 		
 		if_large
 		{
@@ -577,7 +571,7 @@
 
 		"BlueTeamBG"
 		{
-			"ControlName"		"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"BlueTeamBG"
 			"xpos"			"0"
 			"ypos"			"10"
@@ -592,7 +586,7 @@
 		}
 		"BlueTeamImage"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"BlueTeamImage"
 			"xpos"			"9"
 			"ypos"			"0"
@@ -602,21 +596,21 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/team_blue"
-			"scaleImage"		"1"
+			"scaleImage"	"1"
 		}
 		"BlueTeamLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamLabel"
 			"font"			"CompMatchStartTeamNames"
 			"labelText"		"%blueteamname%"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"xpos"			"48"
 			"ypos"			"13"
 			"zpos"			"20"
 			"wide"			"95"
 			"tall"			"30"
-			"autoResize"		"0"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -624,7 +618,7 @@
 		}
 		"BlueLeaderAvatar"
 		{
-			"ControlName"		"CAvatarImagePanel"
+			"ControlName"	"CAvatarImagePanel"
 			"fieldName"		"BlueLeaderAvatar"
 			"xpos"			"11"
 			"ypos"			"10"
@@ -670,12 +664,12 @@
 			
 			if_large
 			{
-				"tall"			"315"
+				"tall"		"315"
 			}
 		}
 		"BluePlayerListBG"
 		{
-			"ControlName"		"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"BluePlayerListBG"
 			"xpos"			"4"
 			"ypos"			"30"
@@ -688,9 +682,8 @@
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
 			
-			if_large
-			{
-				"tall"			"325"
+			if_large {
+				"tall"		"325"
 			}			
 		}
 	}
@@ -698,25 +691,24 @@
 	"RedTeamPanel"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName"		"RedTeamPanel"
-		"xpos"			"r-5"
-		"ypos"			"125"
-		"zpos"			"50"
-		"wide"			"150"
-		"tall"			"260"
-		"visible"		"1"
-		"enabled"		"1"
+		"fieldName"			"RedTeamPanel"
+		"xpos"				"r-5"
+		"ypos"				"125"
+		"zpos"				"50"
+		"wide"				"150"
+		"tall"				"260"
+		"visible"			"1"
+		"enabled"			"1"
 		
 		if_large
 		{
 			"ypos"			"65"
 			"tall"			"385"
 		}
-		
 
 		"RedTeamBG"
 		{
-			"ControlName"		"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"RedTeamBG"
 			"xpos"			"0"
 			"ypos"			"10"
@@ -731,7 +723,7 @@
 		}
 		"RedTeamImage"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"RedTeamImage"
 			"xpos"			"84"
 			"ypos"			"-9"
@@ -741,21 +733,21 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/team_Red"
-			"scaleImage"		"1"
+			"scaleImage"	"1"
 		}
 		"RedTeamLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"RedTeamLabel"
 			"font"			"CompMatchStartTeamNames"
 			"labelText"		"%redteamname%"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"xpos"			"5"
 			"ypos"			"13"
 			"zpos"			"20"
 			"wide"			"95"
 			"tall"			"30"
-			"autoResize"		"0"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -763,7 +755,7 @@
 		}
 		"RedLeaderAvatar"
 		{
-			"ControlName"		"CAvatarImagePanel"
+			"ControlName"	"CAvatarImagePanel"
 			"fieldName"		"RedLeaderAvatar"
 			"xpos"			"102"
 			"ypos"			"10"
@@ -807,14 +799,13 @@
 			"linegap"		"4"
 			//"show_columns"	"1"
 			
-			if_large
-			{
-				"tall"			"315"
+			if_large {
+				"tall"		"315"
 			}			
 		}
 		"RedPlayerListBG"
 		{
-			"ControlName"		"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"RedPlayerListBG"
 			"xpos"			"4"
 			"ypos"			"30"
@@ -827,9 +818,8 @@
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
 			
-			if_large
-			{
-				"tall"			"325"
+			if_large {
+				"tall"		"325"
 			}			
 		}
 	}

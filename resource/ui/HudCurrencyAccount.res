@@ -48,7 +48,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%currency%"
-	}	
+	}
 	
 	"CurrencyShadow"
 	{
@@ -65,7 +65,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%currency%"
-	}	
+	}
 	
 	"WhiteBG"
 	{

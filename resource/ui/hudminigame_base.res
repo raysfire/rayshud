@@ -13,7 +13,6 @@
 		"enabled"		"1"
 		"fillcolor"		"70 130 180 153"
 		"scaleImage"	"1"	
-		
 	}
 
 	"RightSideBG"
@@ -30,7 +29,7 @@
 		"fillcolor"		"205 50 50 153"
 		"scaleImage"	"1"	
 	}
-		
+
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -79,7 +78,7 @@
 		"font"			"Cerbetica40"
 		"fgcolor"		"Black"
 	}	
-							
+
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
@@ -94,9 +93,9 @@
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
-		"fgcolor"		"TanLight"			
-	}	
-		
+		"fgcolor"		"TanLight"
+	}
+
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -113,7 +112,7 @@
 		"font"			"Cerbetica40"
 		"fgcolor"		"Black"		
 	}	
-															
+
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
@@ -132,7 +131,7 @@
 		"font"			"Cerbetica14"
 		"fgcolor"		"TanLight"
 	}	
-			
+
 	"PlayingToBG"
 	{
 		"ControlName"	"ImagePanel"

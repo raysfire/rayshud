@@ -31,7 +31,7 @@
 		
 		"item_controls_xoffset"	"2"
 		"item_controls_yoffset"	"2"
-
+		
 		"show_item_backdrop"				"1"
 		"item_backdrop_color"				"25 25 25 255"
 		"item_backdrop_left_margin"			"11"
@@ -45,7 +45,7 @@
 		"item_panel_bgcolor_selected"	"176 166 148 255"
 		
 		"classicon_xdelta"		"5"
-
+		
 		"modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -60,7 +60,7 @@
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			"border"		"NoBorder"
-						
+		
 			"model_xpos"	"24"
 			"model_ypos"	"6"
 			"model_wide"	"71"
@@ -77,7 +77,7 @@
 			"inset_eq_y"	"2"
 			
 			"deferred_description"	"1"
-			"deffered_icon"			"1"
+			"deferred_icon"			"1"
 			
 			"itemmodelpanel"
 			{
@@ -119,7 +119,6 @@
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			"border"		"NoBorder"
-			
 			"model_xpos"	"2"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -159,18 +158,18 @@
 
 	"NameFilterTextEntry"
 	{
-		"ControlName"		"TextEntry"
+		"ControlName"	"TextEntry"
 		"fieldName"		"NameFilterTextEntry"
-		"xpos"		"c-70"
-		"ypos"		"30"
-		"wide"		"90"
-		"tall"		"19"
-		"autoResize"		"0"
+		"xpos"			"c-70"
+		"ypos"			"30"
+		"wide"			"90"
+		"tall"			"19"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"1"
-		"textHidden"		"0"
+		"tabPosition"	"1"
+		"textHidden"	"0"
 		"editable"		"1"
 		"unicode"		"1"
 		"fgcolor_override"	"TanLight"
@@ -275,7 +274,7 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
-				"BackColor"
+		"BackColor"
     	{
     		"ControlName"		"EditablePanel"
     		"fieldName"			"BackColor"
@@ -367,11 +366,9 @@
 		"defaultBgColor_override"	"25 25 25 255"
 		"armedBgColor_override"		"35 35 35 255"
 		"depressedBgColor_override"	"25 25 25 255"
-		
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override" 	"TanLight"
 		"depressedFgColor_override" "TanDark"
-		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
 	}		
@@ -420,11 +417,9 @@
 		"defaultBgColor_override"	"25 25 25 255"
 		"armedBgColor_override"		"35 35 35 255"
 		"depressedBgColor_override"	"25 25 25 255"
-		
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override" 	"TanLight"
 		"depressedFgColor_override" "TanDark"
-		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
 	}	

@@ -34,7 +34,7 @@
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-			"BackColor"
+		"BackColor"
     	{
     		"ControlName"		"EditablePanel"
     		"fieldName"			"BackColor"
@@ -88,6 +88,7 @@
 		"enabled"		"1"
 		"centerwrap"	"1"
 	}
+
 	"ToolBG"
 	{
 		"ControlName"	"CExLabel"

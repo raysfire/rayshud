@@ -12,7 +12,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-	}		
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -26,7 +26,7 @@
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
-	}	
+	}
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -40,7 +40,7 @@
 		"enabled"		"1"
 		"image"			"../hud/health_equip_bg"
 		"scaleImage"	"1"	
-	}	
+	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -84,8 +84,6 @@
 		"labelText"		"%Health%"
 		"font" 			"CerbeticaBold16"
 		"fgcolor"		"0 0 0 255"
-		"textAlignment"	"center"	
-	}			
-	
-
+		"textAlignment"	"center"
+	}
 }

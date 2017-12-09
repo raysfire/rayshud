@@ -16,7 +16,7 @@
 		"teambg_2"		"../hud/ammo_red_bg"
 		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
 		"teambg_3"		"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
+		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"	
 	}
 	"HudWeaponLowAmmoImage"
 	{
@@ -34,7 +34,7 @@
 		"teambg_2"		"../hud/ammo_red_bg"
 		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
 		"teambg_3"		"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
+		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"
 	}
 	"AmmoInClip"
 	{
@@ -90,7 +90,7 @@
 		"tall"			"80"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"west"		
+		"textAlignment"	"west"
 		"labelText"		"%AmmoInReserve%"
 	}
 	"AmmoInReserveShadow"
@@ -109,7 +109,7 @@
 		"tall"			"80"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"west"		
+		"textAlignment"	"west"
 		"labelText"		"%AmmoInReserve%"
 	}
 	"AmmoNoClip"
@@ -130,7 +130,6 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"%Ammo%"
-		
 	}
 	"AmmoNoClipShadow"
 	{
@@ -148,7 +147,7 @@
 		"tall"			"80"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"center"		
+		"textAlignment"	"center"
 		"labelText"		"%Ammo%"
 	}
 }

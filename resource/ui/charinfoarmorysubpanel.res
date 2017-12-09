@@ -2,22 +2,22 @@
 {
 	"armory_panel"
 	{
-		"ControlName"	"Frame"
-		"fieldName"		"armory_panel"
-		"wide"			"f0"
-		"zpos"			"501"
-		"visible"		"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
+		"ControlName"		"Frame"
+		"fieldName"			"armory_panel"
+		"wide"				"f0"
+		"zpos"				"501"
+		"visible"			"1"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"enabled"			"1"
+		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"25 25 25 255"
-		"infocus_bgcolor_override" "25 25 25 255"
-		"outoffocus_bgcolor_override" "25 25 25 255"
+		"bgcolor_override"				"25 25 25 255"
+		"infocus_bgcolor_override" 		"25 25 25 255"
+		"outoffocus_bgcolor_override"	"25 25 25 255"
 		
-		"thumbnail_bgcolor"			"51 47 46 255"
+		"thumbnail_bgcolor"				"51 47 46 255"
 		"thumbnail_bgcolor_mouseover"	"156 146 128 255"
 		"thumbnail_bgcolor_selected"	"176 166 148 255"
 		
@@ -62,7 +62,7 @@
 
 	"CaratLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel"
 		"font"			"HudFontSmallestBold"
 		"labelText"		">>"
@@ -95,7 +95,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-
+	
 	"FiltersLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -135,12 +135,12 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		
-		"fgcolor_override"	"235 226 202 255"
-		"bgcolor_override"	"51 47 46 255"
-		"disabledFgColor_override" "235 226 202 255"
-		"disabledBgColor_override" "51 47 46 255"
-		"selectionColor_override" "51 47 46 255"
-		"selectionTextColor_override" "235 226 202 255"
+		"fgcolor_override"					"235 226 202 255"
+		"bgcolor_override"					"51 47 46 255"
+		"disabledFgColor_override" 			"235 226 202 255"
+		"disabledBgColor_override" 			"51 47 46 255"
+		"selectionColor_override" 			"51 47 46 255"
+		"selectionTextColor_override" 		"235 226 202 255"
 		"defaultSelectionBG2Color_override" "51 47 46 255"
 	}
 	
@@ -188,7 +188,7 @@
 	}
 	
 	"SelectedItemModelPanel"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"SelectedItemModelPanel"
 		"xpos"			"c25"
@@ -211,9 +211,9 @@
 			"inventory_image_type" "1"
 			"allow_rot"				"0"
 		}
-	}	
+	}
 	"SelectedItemImageModelPanel"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"SelectedItemImageModelPanel"
 		"xpos"			"c-280"		// Slightly right of center, because the photo background is
@@ -225,7 +225,6 @@
 		"bgcolor_override"		"0 0 0 0"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
-		
 		
 		"model_ypos"	"10"
 		"model_tall"	"120"
@@ -240,7 +239,7 @@
 			"inventory_image_type" "1"
 			"allow_rot"				"0"
 		}
-	}	
+	}
 	
 	"mouseoveritempanel"
 	{
@@ -281,10 +280,8 @@
 		"resize_to_text"	"0"
 		"padding_height"	"15"
 		"name_only"			"1"
-		
 		"model_ypos"	"40"
-		"model_tall"	"120"
-		
+		"model_tall"	"120"	
 		"text_forcesize"	"1"
 		
 		"itemmodelpanel"
@@ -325,7 +322,7 @@
 		"depressedFgColor_override" "TanLight"
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
-	}		
+	}
 	
 	"CurPageLabel"
 	{
@@ -376,8 +373,8 @@
 		"depressedFgColor_override" "TanLight"
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
-	}	
-		
+	}
+	
 	"WikiButton"
 	{
 		"ControlName"	"CExButton"
@@ -409,7 +406,7 @@
 		"depressedFgColor_override" "TanLight"
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
-	}		
+	}
 	
 	"ViewSetButton"
 	{
@@ -442,7 +439,7 @@
 		"depressedFgColor_override" "TanLight"
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
-	}		
+	}
 	
 	"StoreButton"
 	{
@@ -474,8 +471,7 @@
 		"depressedFgColor_override" "TanLight"
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
-		
-	}		
+	}
 	
 	"ReloadSchemeButton"
 	{
@@ -508,5 +504,5 @@
 		"depressedFgColor_override" "TanLight"
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
-	}		
+	}
 }

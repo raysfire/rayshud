@@ -27,8 +27,8 @@
 		"item_backpack_offcenter_x"		"-288"
 		"item_backpack_xdelta"			"4"
 		"item_backpack_ydelta"			"3"
-
-		"button_xpos_offcenter"	"175"		
+		
+		"button_xpos_offcenter"	"175"
 		"button_ypos"	"85"
 		"button_ydelta"	"80"
 		"button_override_delete_xpos" "0"
@@ -91,13 +91,13 @@
 			"bgcolor_override"		"255 0 0 255"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"1"
+			"paintborder"			"1"
 			
-			"fgcolor_override"			"Base Color"
+			"fgcolor_override"		"Base Color"
 			
-			"border_default"			"NoBorder"
-			"border_armed"				"NoBorder"
-			"border_depressed"			"NoBorder"
+			"border_default"		"NoBorder"
+			"border_armed"			"NoBorder"
+			"border_depressed"		"NoBorder"
 		}
 	}
 	
@@ -169,31 +169,28 @@
 		"tileImage"		"1"
 		"tileVertically" "0"
 		"fillcolor"		"0 0 0 0"
-	}				
+	}
 	
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		
 		"xpos"			"c-135"
 		"ypos"			"20"
-		"zpos"			"-1"		
+		"zpos"			"-1"
 		"wide"			"270"
 		"tall"			"340"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
 		"render_texture""0"
 		"fov"			"30"
 		"allow_rot"		"1"
-				
+		
 		"model"
 		{
 			"force_pos"	"1"
-
 			"angles_x" "0"
 			"angles_y" "170"
 			"angles_z" "0"
@@ -204,7 +201,6 @@
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
-		
 			"modelname"		""
 		}
 	}
@@ -408,8 +404,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 	}
 	
 	"ItemOptionsPanel"
@@ -428,13 +424,13 @@
 	}
 	"RedButton"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"RedButton"
-//		"xpos"				"c-40"
-//		"ypos"				"35"
+		"ControlName"		"CExImageButton"
+		"fieldName"			"RedButton"
+		//"xpos"			"c-40"
+		//"ypos"			"35"
 		"xpos"				"c5"
 		"ypos"				"22"
-		"zpos"				"12"	
+		"zpos"				"12"
 		"wide"				"80"
 		"tall"				"20"
 		"autoResize"		"1"
@@ -469,11 +465,11 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"BlueButton"
-//		"xpos"				"c-40"
-//		"ypos"				"10"
+		//"xpos"			"c-40"
+		//"ypos"			"10"
 		"xpos"				"c-85"
 		"ypos"				"22"
-		"zpos"				"12"	
+		"zpos"				"12"
 		"wide"				"80"
 		"tall"				"20"
 		"autoResize"		"1"
@@ -496,12 +492,11 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"keyboardinputenabled"	"0"
+		"paintbackground"		"1"
 		
-		"paintbackground"	"1"
-		
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
-		"border_depressed"			"NoBorder"
+		"border_default"		"NoBorder"
+		"border_armed"			"NoBorder"
+		"border_depressed"		"NoBorder"
 	}
 	
 	"CharacterLoadoutButton"
@@ -525,7 +520,7 @@
 		"Command"		"characterloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
+		
 		"image_drawcolor"	"TanLight"
 		"image_armedcolor"	"Button Color"
 		
@@ -569,7 +564,7 @@
 		
 		"image_drawcolor"	"TanLight"
 		"image_armedcolor"	"Button Color"
-
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -692,8 +687,7 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 	}
-
 }

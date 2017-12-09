@@ -81,7 +81,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-	}						
+	}
 	"StatData"
 	{
 		"ControlName"	"EditablePanel"
@@ -173,9 +173,9 @@
 				"enabled"		"1"
 				"enabled_hidef"		"0"
 				"enabled_lodef"		"0"
-			}				
+			}
 		}
-		"InteractiveHeaders"	
+		"InteractiveHeaders"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"	"InteractiveHeaders"
@@ -375,7 +375,7 @@
 			"tabPosition"	"0"	
 			"fillcolor"		"StatBar1"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBarLabel1A"
 		{
 			"ControlName"		"Label"
@@ -414,7 +414,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"		"TanLight"
-		}				
+		}
 		"ClassLabel1"
 		{
 			"ControlName"		"Label"
@@ -437,7 +437,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarBG2A"
 		{
 			"ControlName"		"ImagePanel"
@@ -712,7 +712,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassLabel3"
 		{
 			"ControlName"		"Label"
@@ -798,7 +798,7 @@
 			"tabPosition"	"0"	
 			"fillcolor"		"StatBar4"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBar4B"
 		{
 			"ControlName"		"ImagePanel"
@@ -819,7 +819,7 @@
 			"tabPosition"	"0"	
 			"fillcolor"		"StatBar4"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBarLabel4A"
 		{
 			"ControlName"		"Label"
@@ -840,7 +840,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel4B"
 		{
 			"ControlName"		"Label"
@@ -861,7 +861,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassLabel4"
 		{
 			"ControlName"		"Label"
@@ -884,7 +884,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarBG5A"
 		{
 			"ControlName"		"ImagePanel"
@@ -989,7 +989,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel5B"
 		{
 			"ControlName"		"Label"
@@ -1010,7 +1010,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassLabel5"
 		{
 			"ControlName"		"Label"
@@ -1033,7 +1033,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarBG6A"
 		{
 			"ControlName"		"ImagePanel"
@@ -1331,7 +1331,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}		
+		}
 		"ClassBarBG8A"
 		{
 			"ControlName"		"ImagePanel"
@@ -1436,7 +1436,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel8B"
 		{
 			"ControlName"		"Label"
@@ -1457,7 +1457,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassLabel8"
 		{
 			"ControlName"		"Label"
@@ -1480,7 +1480,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}		
+		}
 		"ClassBarBG9A"
 		{
 			"ControlName"		"ImagePanel"
@@ -1564,7 +1564,7 @@
 			"tabPosition"	"0"	
 			"fillcolor"		"StatBar9"
 			"PaintBackgroundType"	"0"
-		}	
+		}
 		"ClassBarLabel9A"
 		{
 			"ControlName"		"Label"
@@ -1585,7 +1585,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel9B"
 		{
 			"ControlName"		"Label"
@@ -1606,7 +1606,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassLabel9"
 		{
 			"ControlName"		"Label"
@@ -1629,7 +1629,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}		
+		}
 		"RecordsBG"
 		{
 			"ControlName"		"EditablePanel"
@@ -1647,8 +1647,8 @@
 			"visible_hidef"		"0"
 			"visible_lodef"		"0"
 			"enabled"		"1"
-			"enabled_hidef"		"0"			
-			"enabled_lodef"		"0"			
+			"enabled_hidef"		"0"
+			"enabled_lodef"		"0"
 			"border"		"NoBorder"
 			"bgcolor_override"	"15 15 15 255"
 		}
@@ -1736,7 +1736,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord1Value"
 		{
 			"ControlName"		"Label"
@@ -1760,7 +1760,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord2Label"
 		{
 			"ControlName"		"Label"
@@ -1784,7 +1784,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord2Value"
 		{
 			"ControlName"		"Label"
@@ -1808,7 +1808,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord3Label"
 		{
 			"ControlName"		"Label"
@@ -1832,7 +1832,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord3Value"
 		{
 			"ControlName"		"Label"
@@ -1856,7 +1856,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord4Label"
 		{
 			"ControlName"		"Label"
@@ -1880,7 +1880,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord4Value"
 		{
 			"ControlName"		"Label"
@@ -1904,7 +1904,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord5Label"
 		{
 			"ControlName"		"Label"
@@ -1928,7 +1928,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord5Value"
 		{
 			"ControlName"		"Label"
@@ -1952,7 +1952,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord6Label"
 		{
 			"ControlName"		"Label"
@@ -1976,7 +1976,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord6Value"
 		{
 			"ControlName"		"Label"
@@ -2000,7 +2000,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord7Label"
 		{
 			"ControlName"		"Label"
@@ -2024,7 +2024,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord7Value"
 		{
 			"ControlName"		"Label"
@@ -2048,7 +2048,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord8Label"
 		{
 			"ControlName"		"Label"
@@ -2072,7 +2072,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord8Value"
 		{
 			"ControlName"		"Label"
@@ -2120,7 +2120,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord9Value"
 		{
 			"ControlName"		"Label"
@@ -2168,7 +2168,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord10Value"
 		{
 			"ControlName"		"Label"
@@ -2216,7 +2216,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord11Value"
 		{
 			"ControlName"		"Label"
@@ -2264,7 +2264,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord12Value"
 		{
 			"ControlName"		"Label"
@@ -2312,7 +2312,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord13Value"
 		{
 			"ControlName"		"Label"
@@ -2360,7 +2360,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord14Value"
 		{
 			"ControlName"		"Label"
@@ -2408,7 +2408,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"OverallRecord15Value"
 		{
 			"ControlName"		"Label"
@@ -2496,14 +2496,14 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nexttip"
-			"defaultBgColor_override"	"15 15 15 255"
-			"armedBgColor_override"		"25 25 25 255"
-			"depressedBgColor_override"	"25 25 25 255"
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanLight"
-			"border_default"			"NoBorder"
-			"border_armed"				"NoBorder"
+		"defaultBgColor_override"	"15 15 15 255"
+		"armedBgColor_override"		"25 25 25 255"
+		"depressedBgColor_override"	"25 25 25 255"
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override" 	"TanLight"
+		"depressedFgColor_override" "TanLight"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 	"ResetStatsButton" [$WIN32]
 	{
@@ -2524,14 +2524,14 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"resetstatsbutton"
-			"defaultBgColor_override"	"15 15 15 255"
-			"armedBgColor_override"		"25 25 25 255"
-			"depressedBgColor_override"	"25 25 25 255"
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanLight"
-			"border_default"			"NoBorder"
-			"border_armed"				"NoBorder"
+		"defaultBgColor_override"	"15 15 15 255"
+		"armedBgColor_override"		"25 25 25 255"
+		"depressedBgColor_override"	"25 25 25 255"
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override" 	"TanLight"
+		"depressedFgColor_override" "TanLight"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 	"CloseButton" [$WIN32]
 	{
@@ -2552,14 +2552,14 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"vguicancel"
-					"defaultBgColor_override"	"15 15 15 255"
-			"armedBgColor_override"		"25 25 25 255"
-			"depressedBgColor_override"	"25 25 25 255"
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanLight"
-			"border_default"			"NoBorder"
-			"border_armed"				"NoBorder"
+		"defaultBgColor_override"	"15 15 15 255"
+		"armedBgColor_override"		"25 25 25 255"
+		"depressedBgColor_override"	"25 25 25 255"
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override" 	"TanLight"
+		"depressedFgColor_override" "TanLight"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 	"Footer" [$X360]
 	{
@@ -2580,20 +2580,20 @@
 		"textadjust"		"3"
 		"textadjust_lodef"		"0"
 		"zpos"				"6"
-		"fgcolor"			"HudOffWhite" 	
+		"fgcolor"			"HudOffWhite" 
 		
 		"button"
 		{
 			"name"		"back"
 			"text"		"#GameUI_Back"
-			"icon"		"#GameUI_Icons_B_BUTTON"	
+			"icon"		"#GameUI_Icons_B_BUTTON"
 		}
 		
 		"button"
 		{
 			"name"		"nexttip"
 			"text"		"#TF_NextTip_360"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
+			"icon"		"#GameUI_Icons_A_BUTTON"
 		}
 	}		
 	"TitleBanner" [$X360]

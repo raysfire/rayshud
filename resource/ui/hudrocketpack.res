@@ -6,10 +6,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r95"	[$WIN32]
-		"xpos_minmode"	"r85"	[$WIN32]
+		"xpos"			"r235"	[$WIN32]
 		"ypos"			"r105"	[$WIN32]
-		"ypos_minmode"	"r105"	[$WIN32]
 		"wide"			"94"
 		"tall"			"45"
 	}

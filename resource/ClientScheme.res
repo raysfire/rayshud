@@ -35,45 +35,36 @@ Scheme
 			"font" "resource/fonts/Cerbetica.ttf"
 			"name" "Cerbetica"
 		}
-		"8" // Tournament HUD block
+		"8" // Fog's xHairs
 		{
-		
-			"font" "resource/fonts/Blocks.ttf"
-			"name" "Blocks"
+			"font" "resource/fonts/crosshairs.ttf"
+			"name" "Crosshairs"
 		}
-		"9"
+		"9" // Thin Cross
 		{
-		
+			"font" "resource/fonts/Symbol.ttf"
+			"name" "Symbol"
+		}
+		"10" // Konr Wings
+		{
+			"font" "resource/fonts/Garm3nFont.ttf"
+			"name" "Garm3nFont"
+		}
+		"11"
+		{
 			"font" "resource/fonts/Cerbetica_edited.ttf"
 			"name" "Cerbetica_edited"
 		}
-		"10"
+		"12"
 		{
 		
 			"font" "resource/fonts/Cerbetica_bold.ttf"
 			"name" "Cerbetica Bold"
 		}
-		"11"
-		{
-			"font" "resource/fonts/heydings_icons.ttf"
-			"name" "Heydings Icons"
-		}
-		"12"
+		"13"
 		{
 			"font" "resource/fonts/KnucklesCrosses.ttf"
 			"name" "KnucklesCrosses"
-		}
-		
-		"13" // Fog's xHairs
-		{
-			"font" "resource/fonts/crosshairs.ttf"
-			"name" "Crosshairs"
-		}
-		
-		"14" // Konr Wings
-		{
-			"font" "resource/fonts/Garm3nFont.ttf"
-			"name" "Garm3nFont"
 		}
 	}
 }

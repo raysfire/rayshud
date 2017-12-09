@@ -74,8 +74,6 @@
 				"centerwrap"	"1"
 			}
     	}
-
-		
 	}
 
 	"TitleLabel"

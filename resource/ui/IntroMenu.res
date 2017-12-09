@@ -16,7 +16,7 @@
 		"paintbackground"	"0"
 	}
 	
-		"MainBG"
+	"MainBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBG"
@@ -235,7 +235,7 @@
 				"default"		"1"
 			}
 		}
-	}					
+	}
 	
 	"VideoCaption"
 	{

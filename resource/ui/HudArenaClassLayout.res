@@ -17,10 +17,10 @@
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
-			
+	
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
-				
+	
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
 	}
@@ -42,10 +42,10 @@
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/color_panel_clear"
 		"teambg_3"		"../hud/color_panel_clear"
-			
+	
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
-				
+	
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"	
 	}
@@ -86,7 +86,7 @@
 		"textAlignment"	"center"
 		"fgcolor"		"TransparentBlack"
 	}
-		
+	
 	"changeLabel"
 	{
 		"ControlName"	"CExLabel"

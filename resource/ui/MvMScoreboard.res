@@ -11,7 +11,6 @@
 		"tall"				"67"
 		"visible"			"1"
 		"enabled"			"1"
-		
 		"verbose"			"1"
 	}
 	
@@ -94,10 +93,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/tournament_panel_brown"
-		
 		"scaleImage"		"1"
 		
-		"src_corner_height"	"22"				// pixels inside the image
+		"src_corner_height"	"22"			// pixels inside the image
 		"src_corner_width"	"22"
 	
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
@@ -147,7 +145,7 @@
 			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_brown"
 
-			"src_corner_height"	"22"				// pixels inside the image
+			"src_corner_height"	"22"			// pixels inside the image
 			"src_corner_width"	"22"
 		
 			"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
@@ -214,8 +212,8 @@
 			"wide"			"200"
 			"visible"		"1"
 		}
-		
-				"RespecStatusLabel"
+
+		"RespecStatusLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecStatusLabel"

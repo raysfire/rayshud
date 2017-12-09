@@ -29,10 +29,10 @@
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_red"
+		"teambg_2"			"../hud/misc_ammo_area_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_3"			"../hud/misc_ammo_area_blue"
+		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"
 	}
 	
 	"ItemEffectMeterLabel"
@@ -69,7 +69,7 @@
 		"zpos"					"2"
 		"wide"					"40"
 		"wide_minmode"			"50"
-		"tall"					"6"				
+		"tall"					"6"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"0"
@@ -101,7 +101,8 @@
 		"font"					"CerbeticaBold28"
 		"font_minmode"			"CerbeticaBold16"
 	}
-		"ItemEffectMeterCountBackground"
+	
+	"ItemEffectMeterCountBackground"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountBackground"

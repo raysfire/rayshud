@@ -2,14 +2,14 @@
 {
 	"ArenaWinPanelScores"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"ArenaWinPanelScores"
 		"xpos"			"0"
 		"ypos"			"36"
 		"wide"			"450"
 		"tall"			"200"
 		"visible"		"1"
-
+		
 		"BlueScoreBG"
 		{
 			"ControlName"	"ImagePanel"
@@ -87,7 +87,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"BlueTeamScore"
 		{
 			"ControlName"		"CExLabel"
@@ -122,7 +122,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"RedTeamLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -138,7 +138,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"RedTeamScore"
 		{
 			"ControlName"		"CExLabel"
@@ -173,9 +173,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}		
-
-	
+		}
+		
 		"ArenaStreaksBG"
 		{
 			"ControlName"		"ScalableImagePanel"
@@ -191,7 +190,7 @@
 			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_black"
 			"scaleImage"		"1"
-	
+			
 			"src_corner_height"	"23"				// pixels inside the image
 			"src_corner_width"	"23"
 		
@@ -250,7 +249,7 @@
 		"src_corner_height" "3"
 		"src_corner_width" "3"
 		"draw_corner_width" "0"
-		"draw_corner_height" "0"		
+		"draw_corner_height" "0"
 	}
 	"LosingTeamLabel"
 	{	
@@ -291,7 +290,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
-
+	
 	"WinningTeamLabel"
 	{	
 		"ControlName"		"CExLabel"

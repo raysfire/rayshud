@@ -24,7 +24,6 @@
 			"enabled"		"1"
 			"fillcolor"		"70 130 180 153"
 			"scaleImage"		"1"
-			
 		}
 		"RedScoreBG"
 		{
@@ -57,12 +56,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"BlueTeamScore"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"			"Cerbetica48"
+			"font"			"Cerbetica44"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"15"
@@ -79,11 +78,11 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
-			"font"			"Cerbetica48"
+			"font"			"Cerbetica44"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
-			"xpos"			"17"
-			"ypos"			"-17"
+			"xpos"			"-2"
+			"ypos"			"-2"
 			"zpos"			"3"
 			"wide"			"80"
 			"tall"			"70"
@@ -92,6 +91,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"TransparentBlack"
+		
+			"pin_to_sibling"	"BlueTeamScore"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 		"BlueLeaderAvatar"
 		{
@@ -107,7 +110,7 @@
 			"image"			""
 			"scaleImage"	"1"	
 			"color_outline"	"52 48 45 255"
-		}		
+		}
 		"RedTeamLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -124,12 +127,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"RedTeamScore"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScore"
-			"font"			"Cerbetica48"
+			"font"			"Cerbetica44"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"105"
@@ -146,11 +149,11 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScoreDropshadow"
-			"font"			"Cerbetica48"
+			"font"			"Cerbetica44"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
-			"xpos"			"107"
-			"ypos"			"-17"
+			"xpos"			"-2"
+			"ypos"			"-2"
 			"zpos"			"2"
 			"wide"			"80"
 			"tall"			"70"
@@ -159,6 +162,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"TransparentBlack"
+		
+			"pin_to_sibling"	"RedTeamScore"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 		"RedLeaderAvatar"
 		{
@@ -174,8 +181,7 @@
 			"image"			""
 			"scaleImage"	"1"	
 			"color_outline"	"52 48 45 255"
-		}		
-
+		}
 	}
 	"WinPanelBGBorder"
 	{
@@ -235,8 +241,8 @@
 		"fieldName"		"WinningTeamLabelDropshadow"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TransparentBlack"
-		"xpos"			"11"
-		"ypos"			"55"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"180"
 		"tall"			"40"
@@ -248,6 +254,10 @@
 		"textAlignment"		"Center"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		
+		"pin_to_sibling"	"WinningTeamLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	"AdvancingTeamLabel"
 	{	
@@ -274,8 +284,8 @@
 		"fieldName"		"AdvancingTeamLabelDropshadow"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"black"
-		"xpos"			"10"
-		"ypos"			"60"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"180"
 		"tall"			"20"
@@ -287,6 +297,10 @@
 		"textAlignment"		"Center"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		
+		"pin_to_sibling"	"AdvancingTeamLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	"WinReasonLabel"
 	{	

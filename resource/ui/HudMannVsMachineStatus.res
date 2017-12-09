@@ -66,9 +66,7 @@
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
-
-
-
+	
 	"WarningSwoop"
 	{
 		"ControlName"	"CWarningSwoop"
@@ -94,7 +92,7 @@
 		"wide"			"640"
 		"tall"			"480"
 		"visible"		"0"
-					
+
 		"UpgradeProgressTrack"
 		{
 			"ControlName"	"CMvMBombCarrierProgress"
@@ -257,5 +255,4 @@
 			"fgcolor"		"tanlight"		
 		}
 	}
-	
 }

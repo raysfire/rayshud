@@ -29,7 +29,7 @@
 		"scaleImage"	"1"
 		"fillcolor"		"0 0 0 0"
 	}
-		"SidePanelBG"
+	"SidePanelBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SidePanelBG"
@@ -82,7 +82,7 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 100"
 	}
-		"SpectateBackground"
+	"SpectateBackground"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpectateBackground"
@@ -95,8 +95,6 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 100"
 	}
-	
-
 
 	"SysMenu"
 	{
@@ -364,8 +362,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 7"
-		
-	}	
+	}
 	
 	"ShadedBar"
 	{
@@ -386,7 +383,7 @@
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
-	}		
+	}
 	
 	"BlueCount"
 	{
@@ -427,7 +424,7 @@
 		"brighttext"	"1"
 		"font"			"Cerbetica14"
 		"fgcolor"		"255 255 255 175"
-	}		
+	}
 	
 	"RedCount"
 	{
@@ -448,7 +445,7 @@
 		"brighttext"	"1"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"255 255 255 255"
-	}	
+	}
 	"RedCountPlayers"
 	{
 		"ControlName"	"CExLabel"
@@ -468,7 +465,7 @@
 		"brighttext"	"1"
 		"font"			"Cerbetica14"
 		"fgcolor"		"255 255 255 175"
-	}	
+	}
 	
 	"bluedoor"
 	{
@@ -484,9 +481,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
-		
-	
-	}	
+	}
 	
 	"reddoor"
 	{
@@ -502,8 +497,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
-		
-	}		
+	}
 	
 	"autodoor"
 	{
@@ -519,9 +513,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
-		
-	
-	}		
+	}
 	
 	"spectate"
 	{
@@ -537,10 +529,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
-		
-	}			
+	}
 
-	
 	"HighlanderLabel" [$WIN32] 
 	{
 		"ControlName"	"CExLabel"
@@ -567,8 +557,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HighlanderLabelShadow"
-		"xpos"			"1"
-		"ypos"			"c96"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"6"
 		"wide"			"255"
 		"tall"			"50"
@@ -583,6 +573,10 @@
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"TransparentBlack"
 		"centerwrap"	"1"
+		
+		"pin_to_sibling"	"HighlanderLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
 	"TeamsFullLabel" [$WIN32] 
@@ -611,8 +605,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamsFullLabelShadow"
-		"xpos"			"c-49"
-		"ypos"			"c151"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"6"
 		"wide"			"105"
 		"tall"			"35"
@@ -627,6 +621,10 @@
 		"font"			"CerbeticaBold12"
 		"fgcolor"		"TransparentBlack"
 		"centerwrap"	"1"
+		
+		"pin_to_sibling"	"TeamsFullLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"TeamsFullArrow" [$WIN32]
@@ -644,4 +642,3 @@
 		"scaleImage"	"1"	
 	}
 }
-

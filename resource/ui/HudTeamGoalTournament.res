@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"HudStopWatchObjective"
 		"xpos"				"9999"
-		"ypos"				"99999"
+		"ypos"				"9999"
 		"zpos"				"1"
 		"wide"				"275"
 		"tall"				"190"

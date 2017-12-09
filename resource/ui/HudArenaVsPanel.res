@@ -25,10 +25,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_blu"
-				
+			
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
-					
+	
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
@@ -47,8 +47,7 @@
 			"image"			""
 			"scaleImage"	"1"	
 			"color_outline"	"52 48 45 255"
-		}	
-		
+		}
 		
 		"teamname"
 		{
@@ -67,7 +66,7 @@
 			"labelText"		"%blueleader%"
 			"textAlignment"	"west"
 			"fgcolor"		"HudOffWhite"
-		}	
+		}
 	}
 	
 	"vslabel"
@@ -114,10 +113,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_red"
-				
+			
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
-					
+			
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
@@ -136,7 +135,7 @@
 			"image"			""
 			"scaleImage"	"1"	
 			"color_outline"	"52 48 45 255"
-		}	
+		}
 		
 		"teamname"
 		{
@@ -155,6 +154,6 @@
 			"labelText"		"%redleader%"
 			"textAlignment"	"west"
 			"fgcolor"		"HudOffWhite"
-		}	
+		}
 	}
 }

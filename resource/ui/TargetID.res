@@ -1,37 +1,36 @@
 "Resource/UI/TargetID.res"
 {
-		"TargetBG"
-		{
-			"ControlName" "ImagePanel"
-			"fieldName" "TargetBG"
-			"xpos" 		"0"
-			"ypos" 		"15"
-			"zpos" 		"6"
-			"wide" 		"600"
-			"tall" 		"14"
-			"autoResize" "0"
-			"pinCorner" "0"
-			"visible" 	"1"
-			"enabled" 	"1"
-			"fillcolor" "0 0 0 128"
-			
-		}
-			"TargetBackground2"
-		{
-			"ControlName" "ImagePanel"
-			"fieldName" "TargetBackground2"
-			"xpos" 		"0"
-			"ypos" 		"15"
-			"zpos" 		"6"
-			"wide" 		"600"
-			"tall" 		"15"
-			"autoResize" "0"
-			"pinCorner" "0"
-			"visible" 	"1"
-			"enabled" 	"1"
-			
-			
-		}
+	"TargetBG"
+	{
+		"ControlName" "ImagePanel"
+		"fieldName" "TargetBG"
+		"xpos" 		"0"
+		"ypos" 		"15"
+		"zpos" 		"6"
+		"wide" 		"600"
+		"tall" 		"14"
+		"autoResize" "0"
+		"pinCorner" "0"
+		"visible" 	"1"
+		"enabled" 	"1"
+		"fillcolor" "0 0 0 128"
+	}
+	
+	"TargetBackground2"
+	{
+		"ControlName" "ImagePanel"
+		"fieldName" "TargetBackground2"
+		"xpos" 		"0"
+		"ypos" 		"15"
+		"zpos" 		"6"
+		"wide" 		"600"
+		"tall" 		"15"
+		"autoResize" "0"
+		"pinCorner" "0"
+		"visible" 	"1"
+		"enabled" 	"1"
+	}
+	
 	"TargetIDBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -53,9 +52,9 @@
 		"teambg_3"		"../hud/color_panel_blu"
 		"teambg_3_lodef"	"../hud/color_panel_blu"
 		
-		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
-			
+	
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
 	}
@@ -75,9 +74,9 @@
 		"image"			"../hud/color_panel_blu"
 		"image_lodef"	"../hud/color_panel_blu"
 		
-		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
-			
+	
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
 	}
@@ -97,7 +96,7 @@
 		"image"			"../hud/color_panel_red"
 		"image_lodef"	"../hud/color_panel_red"
 		
-		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
 			
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -129,7 +128,7 @@
 		"fieldName"		"TargetDataLabel"
 		"font"			"Cerbetica12"
 		"xpos"			"45"
-		"ypos"			"28"	
+		"ypos"			"28"
 		"zpos"			"6"
 		"wide"			"300"
 		"tall"			"15"
@@ -174,7 +173,7 @@
 		"TFFont"			"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"			"HudOffWhite"
-	}	
+	}
 	
 	"MoveableSubPanel"
 	{
@@ -203,7 +202,6 @@
 			"iconColor"		"HudBlack"
 			"scaleImage"	"1"
 		}
-		
 		"MoveableIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -234,7 +232,7 @@
 			"drawcolor"		"ProgressOffWhite"
 			"scaleImage"	"1"
 		}
-				"MoveableKeyText"
+		"MoveableKeyText"
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"MoveableKeyText"
@@ -244,19 +242,18 @@
 			"zpos"			"6"
 			"wide"			"12"
 			"tall"			"0"
-			"autoResize"		"0"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"Pick Up"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"dulltext"		"0"
-			"brighttext"		"0"
+			"brighttext"	"0"
 		}
-
 		"MoveableKeyLabel"
 		{	
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"MoveableKeyLabel"
 			"font_minmode"	"Cerbetica12"
 			"xpos"			"0"
@@ -264,15 +261,14 @@
 			"zpos"			"6"
 			"wide"			"12"
 			"tall"			"0"
-			"autoResize"		"0"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%movekey%"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"dulltext"		"0"
-			"brighttext"		"0"
+			"brighttext"	"0"
 		}
-
 	}
 }

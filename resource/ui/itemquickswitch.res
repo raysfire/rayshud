@@ -22,7 +22,7 @@
 		"itempanel_ydelta"	"0"
 		"border"			"NoBorder"
 		
-		"itemskv"	
+		"itemskv"
 		{
 			"wide"			"220"
 			"tall"			"40"
@@ -33,7 +33,7 @@
 			
 			"model_xpos"	"25"
 			"model_ypos"	"3"
-			"model_wide"	"58"		
+			"model_wide"	"58"
 			"model_tall"	"34"
 			
 			"text_center"	"1"
