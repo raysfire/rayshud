@@ -3,27 +3,33 @@
 	// MAIN MENU
 	"GeneralStoreButton"
 	{
-		"label" "Shop"
-		"command" "engine open_store"
-		"subimage" ""
+		"label" 		"Mann Co. Store"
+		"command" 		"engine open_store"
 	}	
 	"CharacterSetupButton"
 	{
-		"label" "Items"
-		"command" "engine open_charinfo"
-		"subimage" ""
+		"label" 		"Inventory"
+		"command" 		"engine open_charinfo"
 	}
 	"ReplayBrowserButton"
 	{
-		"label" "Replays"
-		"command" "engine replay_reloadbrowser"
-		"subimage" ""
+		"label" 		"Replays"
+		"command" 		"engine replay_reloadbrowser"
 	}
 	"SteamWorkshopButton"
 	{
-		"label" "#MMenu_SteamWorkshop"
-		"command" "engine OpenSteamWorkshopDialog"
-		"subimage" ""
+		"label" 		"#MMenu_SteamWorkshop"
+		"command" 		"engine OpenSteamWorkshopDialog"
+	}
+	"SettingsButton"
+	{
+		"label" 		"Options"
+		"command" 		"OpenOptionsDialog"
+	}
+	"TF2SettingsButton"
+	{
+		"label" 		"Adv. Options"
+		"command" 		"opentf2options"
 	}
 	"AchievementsButton"
 	{
@@ -31,13 +37,6 @@
 		"command"		"OpenAchievementsDialog"
 		"subimage" 		"glyph_achievements"
 		"tooltip" 		"Achievements"
-	}
-	"ReportBugButton"
-	{
-		"label"			""
-		"command"		"engine bug"
-		"subimage"		"glyph_bug"
-		"tooltip"		"Report Bug"
 	}
 	"ReportPlayerButton"
 	{
