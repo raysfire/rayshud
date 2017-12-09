@@ -2,16 +2,23 @@
 
 "Resource/UI/build_menu/dispenser_active.res"
 {
-	"ItemNameLabel" {
+	"ItemNameLabel"
+	{	
 		"labelText"		"#TF_Object_Dispenser"
 	}
-	"BuildingIcon" {
+	
+	"BuildingIcon"	
+	{
 		"icon"			"hud_menu_dispenser_build"
 	}
-	"NumberLabel" {
+	
+	"NumberLabel"
+	{	
 		"labelText"		"2"
 	}
-	"NumberLabelShadow" {
+	
+	"NumberLabelShadow"
+	{	
 		"labelText"		"2"
 	}
 }

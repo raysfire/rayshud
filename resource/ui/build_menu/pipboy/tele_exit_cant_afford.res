@@ -2,13 +2,17 @@
 
 "Resource/UI/build_menu/tele_exit_cant_afford.res"
 {
-	"ItemNameLabel" {
+	"ItemNameLabel"
+	{	
 		"labelText"		"#TF_Object_tele_exit_360"
 	}
-	"NumberLabel" {
+	
+	"NumberLabel"
+	{	
 		"labelText"		"4"
 	}
-	"NumberLabelShadow" {
+			"NumberLabelShadow"
+	{	
 		"labelText"		"4"
 	}
 }

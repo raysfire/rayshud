@@ -92,8 +92,8 @@
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"CerbeticaBold32"
 		"fgcolor"		"TransparentBlack"
-		"xpos"			"-2"			// align me to the left edge of the first selection
-		"ypos"			"-2"
+		"xpos"			"36"			// align me to the left edge of the first selection
+		"ypos"			"-8"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"38"
@@ -105,14 +105,10 @@
 		"textAlignment"	"Left"
 		"dulltext"		"1"
 		"brighttext"	"0"
-		
-		"pin_to_sibling"	"TitleLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
 	"CancelLabel"
-	{
+	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"SpectatorKeyHints"
@@ -142,7 +138,7 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"1"
-	}
+	}	
 	
 	"available_target_2"
 	{
@@ -154,8 +150,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"1"
-	}
-	
+	}	
+
 	"unavailable_target_1"
 	{
 		"ControlName"	"EditablePanel"
@@ -166,7 +162,7 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}
+	}	
 	
 	"unavailable_target_2"
 	{
@@ -178,5 +174,5 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}
+	}	
 }

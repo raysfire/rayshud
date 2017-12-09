@@ -41,7 +41,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"ItemBackground"
 	{
 		"ControlName"	"CIconPanel"
@@ -58,7 +58,7 @@
 		"iconColor"		"ProgressOffWhite"
 	}
 	
-	"BuildingIcon"
+	"BuildingIcon"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildingIcon"
@@ -170,8 +170,8 @@
 		"fieldName"		"NumberLabel"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TransparentBlack"
-		"xpos"			"-1"
-		"ypos"			"-1"
+		"xpos"			"1"
+		"ypos"			"96"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"18"
@@ -183,9 +183,5 @@
 		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"
-		
-		"pin_to_sibling"	"NumberLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 }
