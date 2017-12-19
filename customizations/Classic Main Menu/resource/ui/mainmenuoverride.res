@@ -1207,7 +1207,7 @@
 			"use_proportional_insets" "1"
 			"font"			"CerbeticaBold20"
 			"textAlignment"	"center"
-			"labelText"		"rayshud v2017.12.10"
+			"labelText"		"rayshud v2017.12.18"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
