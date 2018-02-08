@@ -25,7 +25,7 @@ Screenshots
 To Download
 --------
 
-Click the green `Clone or Download` button at the top of the page and then `Download ZIP` in order to download the most recent version of my hud! It should be at the top of the page. 
+Click [this link](https://github.com/raysfire/rayshud/archive/master.zip) or the green `Clone or Download` button at the top of the page and then `Download ZIP` in order to download the most recent version of my hud! It should be at the top of the page. 
 
 To Install
 --------
