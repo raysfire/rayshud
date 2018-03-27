@@ -8,6 +8,8 @@
 		"text_xpos_collection"	"0"
 		"text_ypos"			"15"
 		"text_forcesize" "0"
+		"text_xpos"		"15"
+		"text_wide"		"270"
 		//"model_xpos_collection"	"77"
 		//"model_ypos_collection"	"20"
 		//"model_wide_collection"	"156"
@@ -134,8 +136,6 @@
 			"fgcolor"		"200 80 60 255"
 			"bgcolor_override"		"0 0 0 255"
 			"PaintBackgroundType"	"2"
-			"PaintBackgroundType"	"0"
-			"border"		"NoBorder"
 		}
 		
 		"paint_icon"
@@ -160,7 +160,7 @@
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
-			"wide"			"18"
+			"wide"			"10"
 			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -170,8 +170,7 @@
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
 			"bgcolor_override"		"0 0 0 255"
-			"PaintBackgroundType"	"0"
-			"border"		"NoBorder"
+			"PaintBackgroundType"	"2"
 		}
 
 		"serieslabel"
@@ -182,7 +181,7 @@
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
-			"wide"			"18"
+			"wide"			"14"
 			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -192,8 +191,7 @@
 			"textAlignment"	"center"
 			"fgcolor"		"200 180 60 255"
 			"bgcolor_override"		"0 40 30 255"
-			"PaintBackgroundType"	"0"
-			"border"		"NoBorder"
+			"PaintBackgroundType"	"2"
 		}
 		
 		"matcheslabel"
@@ -204,7 +202,7 @@
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
-			"wide"			"24"
+			"wide"			"20"
 			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -212,7 +210,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"center"
-			"border"		"NoBorder"
 			"fgcolor"		"200 180 60 255"
 			"bgcolor_override"		"0 40 30 255"
 			"PaintBackgroundType"	"2"
@@ -227,13 +224,12 @@
 			"zpos"			"2"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"wide"			"20"
-			"border"		"NoBorder"
+			"wide"			"16"
 			"tall"			"16"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			}
+		}
 
 		"is_strange_icon"
 		{

@@ -1,6 +1,5 @@
 //SourceScheme.res edited by rays, originally by:
 // Doodles - DoodleHUD - http://doodlesstuff.com
-//
 #base "SourceSchemeBase.res"
 Scheme
 {

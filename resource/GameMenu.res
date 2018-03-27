@@ -49,6 +49,13 @@
 		"subimage"		"glyph_bug"
 		"tooltip"		"Report Bug"
 	}
+	"ConsoleButton"
+	{
+		"label"			""
+		"command"		"engine toggleconsole"
+		"subimage"		"glyph_options"
+		"tooltip"		"Console"
+	}
 	"CallVoteButton"
 	{
 		"label"			""

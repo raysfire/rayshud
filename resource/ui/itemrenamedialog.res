@@ -9,10 +9,10 @@
 		"ypos"					"105"
 		"wide"					"400"
 		"tall"					"240"
-		"settitlebarvisible"	"0"
-		"paintbackgroundtype"	"2"
-		"paintbackground"		"1"
 		"bgcolor_override"		"30 30 30 255"
+		"paintbackgroundtype"	"2"
+		"settitlebarvisible"	"0"
+		"paintbackground"		"1"
 		"border"				"CyanBorder"
 	}
 

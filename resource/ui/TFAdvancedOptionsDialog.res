@@ -13,12 +13,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
+		"bgcolor_override"		"25 25 25 255"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
 		"paintborder"			"1"
 		"paintbackground"		"1"
 		"border"				"NoBorder"
-		"bgcolor_override"		"25 25 25 255"
 		
 		"control_w"			"500"
 		"control_h"			"25"

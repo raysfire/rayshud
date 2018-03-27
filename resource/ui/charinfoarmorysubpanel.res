@@ -256,24 +256,6 @@
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
 		
-		"BackColor"
-    	{
-    		"ControlName"		"EditablePanel"
-    		"fieldName"			"BackColor"
-    		"xpos"				"0"
-    		"ypos"				"0"
-    		"zpos"				"-1"
-    		"wide"				"f0"
-    		"tall"	 			"f0"
-    		"visible"			"1"
-    		"enabled"			"1"
-			"pinCorner"		"0"
-			"autoResize"	"0"
-			"PaintBackgroundType"	"0"
-			"border"		"NoBorder"
-			"bgcolor_override"	"30 30 30 255"
-    	}
-		
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"0"

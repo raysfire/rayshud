@@ -63,5 +63,3 @@ Credits
 * Whoever makes PVHUD - Inspiration, occasional reference.
 * My team - For dealing with me and giving me constructive feedback all the time.
 * Flame - If it weren't for your guide, I couldn't have made this at all. Thanks a million, man.
-
-v2017.10.29
