@@ -23,6 +23,11 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
+			
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
 
 			"ParticleEffects"
 			{
@@ -112,6 +117,11 @@
 
 			"paintbackground"	"0"
 
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
+			
 			"ParticleEffects"
 			{
 				"0"

@@ -18,7 +18,7 @@
 		"settitlebarvisible"	"0"
 		"paintborder"			"1"
 		"paintbackground"		"1"
-		"border"				"NoBorder"
+		"border"				"CyanBorder"
 		
 		"control_w"			"500"
 		"control_h"			"25"
