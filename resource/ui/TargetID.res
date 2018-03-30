@@ -5,7 +5,7 @@
 		"ControlName" "ImagePanel"
 		"fieldName" "TargetBG"
 		"xpos" 		"0"
-		"ypos" 		"15"
+		"ypos" 		"29"
 		"zpos" 		"6"
 		"wide" 		"600"
 		"tall" 		"14"
@@ -13,7 +13,7 @@
 		"pinCorner" "0"
 		"visible" 	"1"
 		"enabled" 	"1"
-		"fillcolor" "0 0 0 128"
+		"fillcolor" "0 0 0 220"
 	}
 	
 	"TargetBackground2"
@@ -109,7 +109,7 @@
 		"fieldName"		"TargetNameLabel"
 		"font"			"Cerbetica14"
 		"xpos"			"45"
-		"ypos"			"14"
+		"ypos"			"28"
 		"zpos"			"7"
 		"wide"			"300"
 		"tall"			"15"
@@ -127,8 +127,8 @@
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
 		"font"			"Cerbetica12"
-		"xpos"			"45"
-		"ypos"			"28"
+		"xpos"			"15"
+		"ypos"			"15"
 		"zpos"			"6"
 		"wide"			"300"
 		"tall"			"15"
@@ -146,8 +146,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"41"
-		"ypos"			"30"
+		"xpos"			"45"
+		"ypos"			"16"
 		"zpos"			"12"
 		"wide"			"12"
 		"tall"			"12"
@@ -157,12 +157,42 @@
 		"scaleImage"	"1"
 	}
 	
+	"KillStreakIconAnchor"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"KillStreakIconAnchor"
+		"xpos"				"2"
+		"ypos"				"18"
+		"wide"				"8"
+		"tall"				"8"
+		"visible"			"1"
+		"enabled"			"1"
+	}
+
+	"KillStreakIcon"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"KillStreakIcon"
+		"xpos"				"0"
+		"ypos"				"1"
+		"zpos"				"12"
+		"wide"				"12"
+		"tall"				"12"
+		"visible"			"0"
+		"enabled"			"1"
+		"image"				"../hud/leaderboard_streak"
+		"scaleImage"		"1"
+		"pin_to_sibling"	"KillStreakIconAnchor"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
+	}
+	
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"SpectatorGUIHealth"
 		"xpos"				"-2"
-		"ypos"				"-3"
+		"ypos"				"12"
 		"zpos"				"10"
 		"wide"				"38"
 		"tall"				"42"
