@@ -1152,5 +1152,27 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		
+		"KonrWings24"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"24"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"KonrWingsOutline24"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"24"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
 	}
 }
