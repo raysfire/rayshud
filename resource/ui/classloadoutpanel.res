@@ -64,6 +64,7 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
+				"inventory_image_type"	"1"
 			}
 		}
 		
@@ -186,7 +187,7 @@
 		"enabled"		"1"
 		"render_texture""0"
 		"fov"			"30"
-		"allow_rot"		"1"
+		"allow_manip"	"1"
 		
 		"model"
 		{
