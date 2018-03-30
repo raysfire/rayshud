@@ -7,7 +7,7 @@
 	//--------------------------------------------------------------
 	// KNUCKLESCROSSES
 	//--------------------------------------------------------------
-	KnucklesCrosses
+	"KnucklesCrosses"
 	{
 		"visible" 			"0"
 		"enabled" 			"0"
@@ -26,7 +26,7 @@
 	//--------------------------------------------------------------
 	// RAYSHUD CROSSHAIRS
 	//--------------------------------------------------------------
-	xHairCircle
+	"xHairCircle"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"xHairCircle"
@@ -44,7 +44,7 @@
 		"fgcolor"		"255 255 255 100"
 	}
 	
-	ScatterSpread
+	"ScatterSpread"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"ScatterSpread"
@@ -62,7 +62,7 @@
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	BasicCross
+	"BasicCross"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"BasicCross"
@@ -79,7 +79,7 @@
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	BasicCrossSmall
+	"BasicCrossSmall"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"BasicCrossSmall"
@@ -96,7 +96,7 @@
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	BasicCrossLarge
+	"BasicCrossLarge"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"BasicCrossLarge"
@@ -113,7 +113,7 @@
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	BasicDot
+	"BasicDot"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"BasicDot"
@@ -130,7 +130,7 @@
 		"fgcolor"		"255 255 255 255"
 	}
 
-	CircleDot
+	"CircleDot"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"CircleDot"
@@ -147,7 +147,7 @@
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	ThinCircle
+	"ThinCircle"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"ThinCircle"
@@ -164,7 +164,7 @@
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	WingsPlus
+	"WingsPlus"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"WingsPlus"
@@ -181,7 +181,7 @@
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	Wings
+	"Wings"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"Wings"
@@ -198,7 +198,7 @@
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	WingsSmallDot
+	"WingsSmallDot"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"WingsSmallDot"
@@ -215,7 +215,7 @@
 		"fgcolor"		"0 0 0 0"
 	}
 	
-	WingsSmall
+	"WingsSmall"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"WingsSmall"
@@ -232,7 +232,7 @@
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	OpenCross
+	"OpenCross"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"OpenCross"
@@ -249,7 +249,7 @@
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	OpenCrossDot
+	"OpenCrossDot"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"OpenCrossDot"
@@ -266,7 +266,7 @@
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	ThinCross
+	"ThinCross"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"ThinCross"
@@ -283,7 +283,7 @@
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	KonrWings
+	"KonrWings"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"KonrWings"
@@ -920,8 +920,8 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-100"
-		"ypos"		"c25"
-		"ypos_minmode"	"c105"
+		"ypos"		"265"
+		"ypos_minmode"	"345"
 		"zpos"		"1"
 		"wide"	 	"600"
 		"tall"	 	"45"
@@ -934,7 +934,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-100"
-		"ypos"		"c25"
+		"ypos"		"270"
 		"zpos"		"1"
 		"wide"	 	"600"
 		"tall"	 	"45"
@@ -950,7 +950,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos" 		"c-100"
-		"ypos" 		"c65"
+		"ypos"		"305"
 		"zpos"		"1"
 		"wide" 		"600"
 		"tall" 		"45"
@@ -1141,7 +1141,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r592"	[$WIN32]
-		"ypos"	 "12"	[$WIN32]
+		"ypos"	 "20"	[$WIN32]
 		"wide"	 "580"
 		"tall"	 "468"
 
@@ -1152,7 +1152,7 @@
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"CerbeticaBold14"
+		"TextFont"		"CerbeticaBold12"
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"

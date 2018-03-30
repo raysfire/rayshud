@@ -250,7 +250,7 @@
 				"wide"	"f0"
 				"textAlignment"	"north-west"
 			}
-	
+			
 			"fonts"
 			{
 				"0"		"HudFontSmallestBold"
@@ -263,16 +263,16 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"65"
-			"ypos"			"29"
-			"wide"			"195"
+			"xpos"			"0"
+			"ypos"			"32"
+			"wide"			"170"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north-west"
+			"fgcolor_override"	"White"
+			"textAlignment"	"center"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
 
