@@ -51,8 +51,8 @@ tf
 
 Help/Support
 --------
-* If you have a MAC, replace the current fonts (CERBETICA, CERBETICA_EDITED) with those that have a "-MAC" suffix. If you don't do this, the in-game font will not render properly.
-* If you're on a 4:3 resolution, (800x600, 1024x768, etc.), then after installing raysHUD, copy the contents of `rayshud/customizations/4_by_3_ratio` folder into `rayshud/resource/ui`.
+* If you have a MAC, remove the existing clientscheme.res file in the `rayshud/resources` folder and rename the file clientscheme_mac to clientscheme. If you don't do this, the in-game font will not render properly, or maybe still won't.
+* If you're experiencing 4:3 resolution issues, copy the contents of `rayshud/customizations/4_by_3_ratio` folder into `rayshud/resource/ui`. If issues persist, open an issue ticket.
 * If you've found a bug, need help or have a suggestion - either [open a support ticket here on GitHub](https://github.com/raysfire/rayshud/issues/new) or [make a post on the Steam Group](https://steamcommunity.com/groups/rayshud).
 
 Credits
