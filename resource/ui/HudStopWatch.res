@@ -152,10 +152,10 @@
 		
 		if_comp
 		{
-			"font"	"Cerbetica12"
+			"font"	"Cerbetica10"
 			"textAlignment"	"center"
 			"wide"	"80"
-			"xpos"	"100"
+			"xpos"	"110"
 			"ypos"	"28"
 		}
 	}

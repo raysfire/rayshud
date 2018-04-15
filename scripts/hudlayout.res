@@ -924,7 +924,7 @@
 		"ypos_minmode"	"345"
 		"zpos"		"1"
 		"wide"	 	"600"
-		"tall"	 	"45"
+		"tall"	 	"47"
 		"priority"	"100"
 	}
 	
@@ -937,7 +937,7 @@
 		"ypos"		"270"
 		"zpos"		"1"
 		"wide"	 	"600"
-		"tall"	 	"45"
+		"tall"	 	"47"
 		"priority"	"40"
 		
 		"x_offset" "20"
