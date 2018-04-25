@@ -1,32 +1,70 @@
 "Resource/HudLayout.res"
 {
 	//--------------------------------------------------------------
-	// Set visible and enabled to 1 to use. Change labelText to the
-	// corresponding crosshair in KnucklesCrosses.png. Change xpos
-	// and ypos values if not perfectly centered.
+	// Set visible and enabled to 1 to use.
+	// Change xpos and ypos values if not perfectly centered.
+	//--------------------------------------------------------------
+	// RAYSHUD CROSSHAIRS
+	//--------------------------------------------------------------
+	"RaysCrosshair"
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"RaysCrosshair"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+		"xpos"			"c-102"
+		"ypos"			"c-99"
+		"wide"			"200"
+		"tall"			"200"
+		"font"			"Crosshairs26"
+		"labelText"		"2"
+		"textAlignment"	"center"
+		"fgcolor"		"Crosshair"
+	}
+	//--------------------------------------------------------------
+	// KONRWINGS
+	//--------------------------------------------------------------
+	"KonrWings"
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"KonrWings"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+		"xpos"			"c-108"
+		"ypos"			"c-99"
+		"wide"			"200"
+		"tall"			"200"
+		"font"			"KonrWings24"
+		"labelText"		"i"
+		"textAlignment"	"center"
+		"fgcolor"		"Crosshair"
+	}
 	//--------------------------------------------------------------
 	// KNUCKLESCROSSES
 	//--------------------------------------------------------------
 	"KnucklesCrosses"
 	{
-		"controlName"		"CExLabel"
-		"fieldName"	 		"KnucklesCrosses"
-		"visible" 			"0"
-		"enabled" 			"0"
-		"zpos"				"0"
-		"xpos" 		 		"c-25"
-		"ypos" 		 		"c-24"
-		"wide" 		 		"50"
-		"tall" 		 		"50"
-		"font"				"size:26,outline:off"
-		"labelText"			"i"
-		"textAlignment"		"center"
-		"fgcolor" 			"Crosshair"
+		"controlName"	"CExLabel"
+		"fieldName"	 	"KnucklesCrosses"
+		"visible" 		"0"
+		"enabled" 		"0"
+		"zpos"			"0"
+		"xpos" 		 	"c-25"
+		"ypos" 		 	"c-24"
+		"wide" 		 	"50"
+		"tall" 		 	"50"
+		"font"			"size:26,outline:off"
+		"labelText"		"i"
+		"textAlignment"	"center"
+		"fgcolor" 		"Crosshair"
 	}
+
 	//--------------------------------------------------------------
-	// RAYSHUD CROSSHAIRS
+	// CROSSHAIRS
 	//--------------------------------------------------------------
-	
+
 	"BasicCross"
 	{
 		"controlName"	"CExLabel"
@@ -43,7 +81,7 @@
 		"textAlignment"	"center"
 		"fgcolor"		"Crosshair"
 	}
-	
+
 	"BasicCrossLarge"
 	{
 		"controlName"	"CExLabel"
@@ -108,23 +146,6 @@
 		"tall"			"200"
 		"font"			"Crosshairs34"
 		"labelText"		"8"
-		"textAlignment"	"center"
-		"fgcolor"		"Crosshair"
-	}
-	
-	"KonrWings"
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"KonrWings"
-		"visible"		"0"
-		"enabled"		"0"
-		"zpos"			"2"
-		"xpos"			"c-108"
-		"ypos"			"c-99"
-		"wide"			"200"
-		"tall"			"200"
-		"font"			"KonrWings24"
-		"labelText"		"i"
 		"textAlignment"	"center"
 		"fgcolor"		"Crosshair"
 	}
@@ -298,7 +319,6 @@
 		"textAlignment"	"center"
 		"fgcolor"		"Crosshair"
 	}
-	
 	
 	//fighter pilot crosshair, enable all of then together for best results (16x9 resolution)
 	

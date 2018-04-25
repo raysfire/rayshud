@@ -2280,58 +2280,6 @@ Scheme
 			}
 		}
 		
-		"KonrWings16"
-		{
-			"1"
-			{
-			"name"			"Garm3nFont"
-			"tall"			"16"
-			"weight"		"0"
-			"antialias"		"1"
-			}
-		}
-		"KonrWings24"
-		{
-			"1"
-			{
-			"name"			"Garm3nFont"
-			"tall"			"24"
-			"weight"		"0"
-			"antialias"		"1"
-			}
-		}
-		"KonrWingsOutline24"
-		{
-			"1"
-			{
-			"name"			"Garm3nFont"
-			"tall"			"24"
-			"weight"		"0"
-			"antialias"		"1"
-			"outline"		"1"
-			}
-		}
-		"KonrWings32"
-		{
-			"1"
-			{
-			"name"			"Garm3nFont"
-			"tall"			"32"
-			"weight"		"0"
-			"antialias"		"1"
-			}
-		}
-		"KonrWings40"
-		{
-			"1"
-			{
-			"name"			"Garm3nFont"
-			"tall"			"40"
-			"weight"		"0"
-			"antialias"		"1"
-			}
-		}
-		
 		"Cerbetica7"
 		{
 			"1"
