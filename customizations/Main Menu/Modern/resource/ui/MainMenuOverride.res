@@ -10,9 +10,8 @@
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
-		
-	//	"bgcolor_override"	"0 0 0 100"
 
+	//	"bgcolor_override"	"0 0 0 100"
 		"update_url"	"http://store.steampowered.com/news/?filter=updates&appids=440"
 		"blog_url"		"http://www.teamfortress.com/"
 		
@@ -241,22 +240,6 @@
 			"image"			"glyph_quit"
 		}				
 	}
-
-	"JungleInfernoImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"JungleInfernoImage"
-		"xpos"			"c-290+64"
-		"ypos"			"64"
-		"zpos"			"1"
-		"wide"			"o4"
-		"tall"			"32"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../logo/inferno_logo_anim"
-		"scaleImage"	"1"
-		"mouseinputenabled"	"0"
-	}
 	
 	"TFCharacterImage"
 	{
@@ -280,7 +263,7 @@
 		"ypos"			"cs-0.5-17"
 		"zpos"			"-51"
 		"wide"			"170"
-		"tall"			"1000"
+		"tall"			"800"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
@@ -359,7 +342,7 @@
 		"scaleImage"	"1"	
 		"alpha"			"75"
 	}
-	
+
 	"RankPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
@@ -414,7 +397,7 @@
 		"image"			"gc_dc"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
-	}	
+	}
 
 	"RankBorder"
 	{
@@ -611,7 +594,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"noti_hide"
-
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanLight"
@@ -1429,7 +1411,6 @@
 		"wide"			"260"
 		"tall"			"195"
 		"visible"		"1"
-
 		"border"			"NoBorder"
 		"bgcolor_override"	"0 0 0 200"
 
@@ -1541,7 +1522,6 @@
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
-
 			"bgcolor_override"	"0 0 0 100"
 		}
 	}
@@ -1936,7 +1916,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"image"			"glyph_options"
-		}			
+		}
 	}
 
 	"VersionNumber"
