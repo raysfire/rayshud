@@ -266,7 +266,7 @@
 		"labelText"		"%maptype%"
 		"textAlignment"	"west"
 		"xpos"			"6"
-		"ypos"			"64"
+		"ypos"			"69"
 		"zpos"			"50"
 		"wide"			"f0"
 		"tall"			"24"

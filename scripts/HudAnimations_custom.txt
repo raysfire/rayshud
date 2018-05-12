@@ -85,19 +85,15 @@ event HitMarker
 event HudSpyDisguiseFadeIn
 {
 	//RunEvent HudSpyDisguiseChanged	0
-	//Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1	
-	
-	//Uncomment the line below for spy disguise image.
+	//Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1
 	//Animate PlayerStatusClassImage			Alpha		"255"			Linear 0.0 0.0
 }
 
 event HudSpyDisguiseFadeOut
 {
 	//RunEvent HudSpyDisguiseChanged	0
-	//Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.9 0.1	
-	
-	//Uncomment the line below for spy disguise image.
-	//Animate PlayerStatusClassImage			Alpha		"0"				Linear 0.0 0.0	
+	//Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.9 0.1
+	//Animate PlayerStatusClassImage			Alpha		"0"				Linear 0.0 0.0
 }
 
 //====================================
@@ -105,9 +101,9 @@ event HudSpyDisguiseFadeOut
 
 event HudMedicCharged
 {
-	//RunEvent HudMedicRainbowCharged 0.0
-	//RunEvent HudMedicSolidColorCharge 0.0
 	RunEvent HudMedicOrangePulseCharge 0.0
+	//RunEvent HudMedicSolidColorCharge 0.0
+	//RunEvent HudMedicRainbowCharged 0.0
 	
 	RunEvent HudMedicChargedLoop	0.6
 }

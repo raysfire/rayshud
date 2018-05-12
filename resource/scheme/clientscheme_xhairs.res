@@ -893,7 +893,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
 		"xHairCircleOutline"
 		{
 			"1"
@@ -916,6 +915,17 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"Crosshairs8Outline"
+		{
+			"1"
+			{
+				"name"			"Crosshairs"
+				"tall" 			"8"
+				"weight" 		"0"
+				"antialias" 	"1"
+				"outline"		"1"
+			}
+		}
 		
 		"Crosshairs10"
 		{
@@ -925,6 +935,17 @@ Scheme
 				"tall" 			"10"
 				"weight" 		"0"
 				"antialias" 	"1"
+			}
+		}
+		"Crosshairs10Outline"
+		{
+			"1"
+			{
+				"name"			"Crosshairs"
+				"tall" 			"10"
+				"weight" 		"0"
+				"antialias" 	"1"
+				"outline"		"1"
 			}
 		}
 		
@@ -938,6 +959,17 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"Crosshairs12Outline"
+		{
+			"1"
+			{
+				"name"			"Crosshairs"
+				"tall" 			"12"
+				"weight" 		"0"
+				"antialias" 	"1"
+				"outline"		"1"
+			}
+		}
 		
 		"Crosshairs14"
 		{
@@ -947,6 +979,17 @@ Scheme
 				"tall" 			"14"
 				"weight" 		"0"
 				"antialias" 	"1"
+			}
+		}
+		"Crosshairs14Outline"
+		{
+			"1"
+			{
+				"name"			"Crosshairs"
+				"tall" 			"14"
+				"weight" 		"0"
+				"antialias" 	"1"
+				"outline"		"1"
 			}
 		}
 		
@@ -960,6 +1003,17 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"Crosshairs16Outline"
+		{
+			"1"
+			{
+				"name"			"Crosshairs"
+				"tall" 			"16"
+				"weight" 		"0"
+				"antialias" 	"1"
+				"outline"		"1"
+			}
+		}
 		
 		"Crosshairs18"
 		{
@@ -971,8 +1025,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
-		"CrosshairsOutline18"
+		"Crosshairs18Outline"
 		{
 			"1"
 			{
@@ -994,6 +1047,17 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"Crosshairs20Outline"
+		{
+			"1"
+			{
+				"name"			"Crosshairs"
+				"tall" 			"20"
+				"weight" 		"0"
+				"antialias" 	"1"
+				"outline"		"1"
+			}
+		}
 		
 		"Crosshairs22"
 		{
@@ -1003,6 +1067,17 @@ Scheme
 				"tall" 			"22"
 				"weight" 		"0"
 				"antialias" 	"1"
+			}
+		}
+		"Crosshairs22Outline"
+		{
+			"1"
+			{
+				"name"			"Crosshairs"
+				"tall" 			"22"
+				"weight" 		"0"
+				"antialias" 	"1"
+				"outline"		"1"
 			}
 		}
 		
@@ -1016,8 +1091,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
-		"CrosshairsOutline24"
+		"Crosshairs24Outline"
 		{
 			"1"
 			{
@@ -1039,8 +1113,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
-		"CrosshairsOutline26"
+		"Crosshairs26Outline"
 		{
 			"1"
 			{
@@ -1062,6 +1135,17 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"Crosshairs28Outline"
+		{
+			"1"
+			{
+				"name"			"Crosshairs"
+				"tall" 			"28"
+				"weight" 		"0"
+				"antialias" 	"1"
+				"outline"		"1"
+			}
+		}
 		
 		"Crosshairs30"
 		{
@@ -1071,6 +1155,17 @@ Scheme
 				"tall" 			"30"
 				"weight" 		"0"
 				"antialias" 	"1"
+			}
+		}
+		"Crosshairs30Outline"
+		{
+			"1"
+			{
+				"name"			"Crosshairs"
+				"tall" 			"30"
+				"weight" 		"0"
+				"antialias" 	"1"
+				"outline"		"1"
 			}
 		}
 		
@@ -1084,8 +1179,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
-		"CrosshairsOutline32"
+		"Crosshairs32Outline"
 		{
 			"1"
 			{
@@ -1107,8 +1201,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
-		"CrosshairsOutline34"
+		"Crosshairs34Outline"
 		{
 			"1"
 			{
@@ -1130,6 +1223,17 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"Crosshairs36Outline"
+		{
+			"1"
+			{
+				"name"			"Crosshairs"
+				"tall" 			"36"
+				"weight" 		"0"
+				"antialias" 	"1"
+				"outline"		"1"
+			}
+		}
 		
 		"Crosshairs38"
 		{
@@ -1139,6 +1243,17 @@ Scheme
 				"tall" 			"38"
 				"weight" 		"0"
 				"antialias" 	"1"
+			}
+		}
+		"Crosshairs38Outline"
+		{
+			"1"
+			{
+				"name"			"Crosshairs"
+				"tall" 			"38"
+				"weight" 		"0"
+				"antialias" 	"1"
+				"outline"		"1"
 			}
 		}
 		
@@ -1152,6 +1267,40 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"Crosshairs40Outline"
+		{
+			"1"
+			{
+				"name"			"Crosshairs"
+				"tall" 			"40"
+				"weight" 		"0"
+				"antialias" 	"1"
+				"outline"		"1"
+			}
+		}
+		
+		"KonrWings16"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"16"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"KonrWings16Outline"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"16"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
 		
 		"KonrWings24"
 		{
@@ -1163,12 +1312,59 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"KonrWingsOutline24"
+		
+		"KonrWings24Outline"
 		{
 			"1"
 			{
 				"name"			"Garm3nFont"
 				"tall"			"24"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		
+		"KonrWings32"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"32"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"KonrWings32Outline"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"32"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		
+		"KonrWings40"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"40"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"KonrWings40Outline"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"40"
 				"weight"		"0"
 				"antialias"		"1"
 				"outline"		"1"

@@ -14,7 +14,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"avatar_width"		"54"
-		"medal_width"		"14"
+		"medal_width"		"23"
 		"name_width"		"0"
 		"name_width_short"	"65"
 		"spacer"			"5"
@@ -29,17 +29,16 @@
 	"BlueScoreBG"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"			"BlueScoreBG"
-		"xpos"				"c-270"
-		"ypos"				"144"
-		"ypos_minmode"  	"279"
-		"wide"				"270"
-		"tall"				"25"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"fillcolor"			"70 130 180 153"
+		"fieldName"		"BlueScoreBG"
+		"xpos"			"c-270"
+		"ypos"			"144"
+		"wide"			"270"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"70 130 180 153"
 		"scaleImage"		"1"
 		
 		if_mvm {
@@ -49,33 +48,31 @@
 	"BlueLeaderAvatar"
 	{
 		"ControlName"		"CAvatarImagePanel"
-		"fieldName"			"BlueLeaderAvatar"
-		"xpos"				"c-295"
-		"ypos"				"144"
-		"ypos_minmode"		"279"
-		"zpos"				"5"
-		"wide"				"25"
-		"tall"				"25"
-		"visible"			"0"
-		"enabled"			"1"
-		"image"				""
-		"scaleImage"		"1"	
-		"color_outline"		"52 48 45 255"
+		"fieldName"		"BlueLeaderAvatar"
+		"xpos"			"c-295"
+		"ypos"			"144"
+		"zpos"			"5"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"	
+		"color_outline"	"52 48 45 255"
 	}
 	"RedScoreBG"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"			"RedScoreBG"
-		"xpos"				"c0"
-		"ypos"				"144"
-		"ypos_minmode"  	"279"
-		"wide"				"270"
-		"tall"				"25"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"fillcolor"			"205 50 50 153"
+		"fieldName"		"RedScoreBG"
+		"xpos"			"c0"
+		"ypos"			"144"
+		"wide"			"270"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"205 50 50 153"
 		"scaleImage"		"1"
 		
 		if_mvm {
@@ -85,31 +82,30 @@
 	"RedLeaderAvatar"
 	{
 		"ControlName"		"CAvatarImagePanel"
-		"fieldName"			"RedLeaderAvatar"
-		"xpos"				"c270"
-		"ypos"				"144"
-		"ypos_minmode"		"279"
-		"zpos"				"5"
-		"wide"				"25"
-		"tall"				"25"
-		"visible"			"0"
-		"enabled"			"1"
-		"image"				""
-		"scaleImage"		"1"	
-		"color_outline"		"52 48 45 255"
+		"fieldName"		"RedLeaderAvatar"
+		"xpos"			"c270"
+		"ypos"			"144"
+		"zpos"			"5"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"	
+		"color_outline"	"52 48 45 255"
 	}
 	"MainBG"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"			"MainBG"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"-1"
-		"wide"				"9999"
-		"tall"				"9999"
-		"pinCorner"			"0"
-		"visible"			"0"
-		"enabled"			"0"
+		"fieldName"		"MainBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"9999"
+		"tall"			"9999"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
 		
 		if_mvm {
 			"visible"		"0"
@@ -121,7 +117,6 @@
 		"fieldName"		"ScoreboardBackground"
 		"xpos"			"c-270"
 		"ypos"			"169"
-		"ypos_minmode"  "304"
 		"zpos"			"-1"
 		"wide"			"540"
 		"tall"			"500"
@@ -130,8 +125,7 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 100"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"	"0"
 		}
 	}
@@ -150,8 +144,7 @@
 		"enabled"		"0"
 		"fillcolor"		"0 0 0 100"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"	"0"
 		}		
 	}
@@ -161,21 +154,16 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ScoreboardBackground"
 		"xpos"			"9999"
-		"xpos_minmode"	"c65"
 		"ypos"			"9999"
-		"ypos_minmode"	"265"
 		"zpos"			"-1"
-		"wide_minmode"	"240"
 		"tall"			"100"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"0 0 0 100"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
-
 		}
 	}
 	"Blue6sBackground"
@@ -183,9 +171,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ScoreboardBackground"
 		"xpos"			"9999"
-		"xpos_minmode"	"c65"
 		"ypos"			"9999"
-		"ypos_minmode"	"121"
 		"zpos"			"-1"
 		"wide"			"240"
 		"tall"			"100"
@@ -194,10 +180,8 @@
 		"enabled"		"0"
 		"fillcolor"		"0 0 0 100"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
-
 		}
 	}			
 	"BlueTeamLabel1"
@@ -209,7 +193,6 @@
 		"textAlignment"		"west"
 		"xpos"			"c-268"
 		"ypos"			"138"
-		"ypos_minmode"	"273"
 		"wide"			"200"
 		"tall"			"37"
 		"autoResize"		"0"
@@ -217,8 +200,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 	}							
@@ -231,7 +213,6 @@
 		"textAlignment"		"east"
 		"xpos"			"c-106"
 		"ypos"			"128"
-		"ypos_minmode"	"263"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -240,8 +221,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 	}
@@ -254,8 +234,7 @@
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"c-105"
-		"ypos"			"129" 
-		"ypos_minmode"	"264"
+		"ypos"			"129"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -264,8 +243,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 	}							
@@ -278,7 +256,6 @@
 		"textAlignment"		"west"
 		"xpos"			"c-270"
 		"ypos"			"122"
-		"ypos_minmode"	"257"
 		"wide"			"100"
 		"tall"			"29"
 		"autoResize"		"0"
@@ -286,8 +263,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 	}							
@@ -300,7 +276,6 @@
 		"textAlignment"		"east"
 		"xpos"			"c68"
 		"ypos"			"138"
-		"ypos_minmode"	"273"
 		"wide"			"200"
 		"tall"			"37"
 		"autoResize"	"0"
@@ -308,8 +283,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 	}
@@ -322,7 +296,6 @@
 		"textAlignment"		"west"
 		"xpos"			"c6"
 		"ypos"			"128"
-		"ypos_minmode"	"263"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -333,8 +306,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 	}
@@ -348,7 +320,6 @@
 		"textAlignment"		"west"
 		"xpos"			"c7"
 		"ypos"			"129"
-		"ypos_minmode"	"264"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -357,8 +328,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 	}							
@@ -371,7 +341,6 @@
 		"textAlignment"		"east"
 		"xpos"			"c140"
 		"ypos"			"122"
-		"ypos_minmode"	"257"
 		"wide"			"130"
 		"tall"			"29"
 		"autoResize"	"0"
@@ -379,8 +348,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 	}							
@@ -392,7 +360,7 @@
 		"labelText"		"%server%"
 		"textAlignment"		"west"
 		"xpos"			"-34"
-		"ypos"			"2"
+		"ypos"			"14"
 		"zpos"			"999"
 		"wide"			"600"
 		"tall"			"20"
@@ -401,15 +369,15 @@
 		"visible"		"1"	[$WIN32]
 		"enabled"		"1"
 	}
-	"ServerTimeLeftValue"
+	"ServerTimeValue"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"ServerTimeLeftValue"
-		"font"			"Cerbetica14"
+		"fieldName"		"ServerTimeValue"
+		"font"			"Cerbetica20"
 		"labelText"		"%servertime%"
 		"textAlignment"		"west"
 		"xpos"			"2"
-		"ypos"			"16"
+		"ypos"			"2"
 		"zpos"			"999"
 		"wide"			"600"
 		"tall"			"20"
@@ -424,11 +392,9 @@
 		"fieldName"		"BluePlayerList"
 		"xpos"			"c-270"
 		"ypos"			"166"
-		"ypos_minmode"	"304"
 		"zpos"			"20"
 		"wide"			"270"
 		"tall"			"236"
-		"tall_minmode"	"98"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -439,8 +405,7 @@
 		"linegap"		"0"
 		"show_columns"	"0"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 	}
@@ -450,11 +415,9 @@
 		"fieldName"		"RedPlayerList"
 		"xpos"			"c0"
 		"ypos"			"166"
-		"ypos_minmode"	"304"
 		"zpos"			"20"
 		"wide"			"270"
 		"tall"			"236"
-		"tall_minmode"	"98"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -465,8 +428,7 @@
 		"linegap"		"0"
 		"show_columns"	"0"		
 		
- 		if_mvm
- 		{
+ 		if_mvm {
  			"visible"		"0"
  		}
 	}
@@ -491,8 +453,7 @@
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 	}
@@ -530,8 +491,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 	}							
@@ -552,8 +512,7 @@
 		"fillcolor"		"32 32 32 125"
 		"PaintBackgroundType"	"0"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"1"
 		}
 	}
@@ -574,8 +533,7 @@
 		"fillcolor"		"32 32 32 125"
 		"PaintBackgroundType"	"0"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"1"
 		}
 	}
@@ -593,8 +551,7 @@
 		"image"			"../hud/class_scoutred"
 		"scaleImage"		"1"	
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"1"
 		}
 	}
@@ -616,8 +573,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"1"
 		}
 	}							
@@ -641,8 +597,7 @@
 		"fillcolor"		"127 127 127 153"
 		"PaintBackgroundType"	"0"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"1"
 		}
 	}
@@ -663,8 +618,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 	}
@@ -676,7 +630,7 @@
 		"labelText"		"%mapname%"
 		"textAlignment"		"west"
 		"xpos"			"3"
-		"ypos"			"30"	
+		"ypos"			"25"	
 		"zpos"			"3"
 		"wide"			"480"
 		"tall"			"20"
@@ -701,8 +655,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"0"
 		}
 
@@ -912,11 +865,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"1"
 		}
-
+		
 		"KillsLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -933,7 +885,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"DeathsLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -950,7 +902,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}						
+		}
 		"AssistsLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1019,7 +971,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "TanLight"
-		}		
+		}
 		"Deaths"
 		{
 			"ControlName"		"CExLabel"
@@ -1799,7 +1751,7 @@
 		"wide_hidef"	"595"
 		"tall"			"150"
 		"visible"		"1"
-										
+	
 		"SelectHintIcon"
 		{
 			"ControlName"	"CExLabel"
@@ -1925,9 +1877,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-		
-		
-	}				
+	}
 	
 	"MvMScoreboard"
 	{
@@ -1939,12 +1889,10 @@
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"
-		"enabled"			"1"
-		
+		"enabled"			"1"	
 		"verbose"			"1"
 		
-		if_mvm
-		{
+		if_mvm {
 			"visible"		"1"
 		}
 	}

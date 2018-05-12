@@ -2851,7 +2851,7 @@ Scheme
 			}
 		}
 
-		"CrosshairsOutline18"
+		"Crosshairs18Outline"
 		{
 			"1"
 			{
@@ -2896,7 +2896,7 @@ Scheme
 			}
 		}
 		
-		"CrosshairsOutline24"
+		"Crosshairs24Outline"
 		{
 			"1"
 			{
@@ -2919,7 +2919,7 @@ Scheme
 			}
 		}
 		
-		"CrosshairsOutline26"
+		"Crosshairs26Outline"
 		{
 			"1"
 			{
@@ -2964,7 +2964,7 @@ Scheme
 			}
 		}
 
-		"CrosshairsOutline32"
+		"Crosshairs32Outline"
 		{
 			"1"
 			{
@@ -2987,7 +2987,7 @@ Scheme
 			}
 		}
 		
-		"CrosshairsOutline34"
+		"Crosshairs34Outline"
 		{
 			"1"
 			{
@@ -3042,7 +3042,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"KonrWingsOutline24"
+		"KonrWings24Outline"
 		{
 			"1"
 			{
