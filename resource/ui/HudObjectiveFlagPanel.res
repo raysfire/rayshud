@@ -6,11 +6,11 @@
 		"fieldName"			"ObjectiveStatusFlagPanel"
 		"xpos"				"0"
 		"ypos"				"0"
-<<<<<<< HEAD
+//<<<<<<< HEAD
 		"xpos_minmode"		"9999"
 		"ypos_minmode"		"9999"
-=======
->>>>>>> f4ea0a5791ac9a9f25f4c602623d3aa7090623e8
+//=======
+//>>>>>>> f4ea0a5791ac9a9f25f4c602623d3aa7090623e8
 		"zpos"				"1"
 		"wide"				"f0"
 		"tall"				"480"
@@ -28,11 +28,11 @@
 		"fieldName"		"LeftSideBG"
 		"xpos"			"c-120"
 		"ypos"			"r20"
-<<<<<<< HEAD
+//<<<<<<< HEAD
 		"xpos_minmode"	"9999"
 		"ypos_minmode"	"9999"
-=======
->>>>>>> f4ea0a5791ac9a9f25f4c602623d3aa7090623e8
+//=======
+//>>>>>>> f4ea0a5791ac9a9f25f4c602623d3aa7090623e8
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"14"
@@ -60,11 +60,11 @@
 		"fieldName"		"RightSideBG"
 		"xpos"			"c0"
 		"ypos"			"r20"	[$WIN32]
-<<<<<<< HEAD
+//<<<<<<< HEAD
 		"xpos_minmode"	"9999"
 		"ypos_minmode"	"9999"
-=======
->>>>>>> f4ea0a5791ac9a9f25f4c602623d3aa7090623e8
+//=======
+//>>>>>>> f4ea0a5791ac9a9f25f4c602623d3aa7090623e8
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"14"
@@ -265,11 +265,11 @@
 		}
 		
 		"if_specialdelivery" {
-<<<<<<< HEAD
+//<<<<<<< HEAD
 			"visible"	"r142"
-=======
-			"visible"	"1"
->>>>>>> f4ea0a5791ac9a9f25f4c602623d3aa7090623e8
+//=======
+//			"visible"	"1"
+//>>>>>>> f4ea0a5791ac9a9f25f4c602623d3aa7090623e8
 		}
 	}		
 	
@@ -310,11 +310,11 @@
 		"fieldName"		"PlayingToBG"
 		"xpos"			"c-50"	[$WIN32]
 		"ypos"			"r50"	[$WIN32]
-<<<<<<< HEAD
+//<<<<<<< HEAD
 		"xpos_minmode"	"9999"
 		"ypos_minmode"	"9999"
-=======
->>>>>>> f4ea0a5791ac9a9f25f4c602623d3aa7090623e8
+//=======
+//>>>>>>> f4ea0a5791ac9a9f25f4c602623d3aa7090623e8
 		"zpos"			"3"
 		"wide"			"100"	[$WIN32]
 		"tall"			"20"	[$WIN32]

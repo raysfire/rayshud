@@ -3,50 +3,30 @@
 	// MAIN MENU
 	"CharacterSetupButton"
 	{
-<<<<<<< HEAD
 		"label" 		"バックパック！"
-=======
-		"label" 		"Inventory"
->>>>>>> f4ea0a5791ac9a9f25f4c602623d3aa7090623e8
 		"command" 		"engine open_charinfo"
 		"subimage" 		""
 	}
 	"GeneralStoreButton"
 	{
-<<<<<<< HEAD
 		"label" 		"Mann Co.ストア"
-=======
-		"label" 		"Mann Co. Store"
->>>>>>> f4ea0a5791ac9a9f25f4c602623d3aa7090623e8
 		"command" 		"engine open_store"
 		"subimage" 		""
 	}
 	"ReplayBrowserButton"
 	{
-<<<<<<< HEAD
 		"label" 		"リプレイ"
-=======
-		"label" 		"Replay"
->>>>>>> f4ea0a5791ac9a9f25f4c602623d3aa7090623e8
 		"command" 		"engine replay_reloadbrowser"
 		"subimage" 		""
 	}
 	"SettingsButton"
 	{
-<<<<<<< HEAD
 		"label" 		"設定!"
-=======
-		"label" 		"Options"
->>>>>>> f4ea0a5791ac9a9f25f4c602623d3aa7090623e8
 		"command" 		"OpenOptionsDialog"
 	}
 	"TF2SettingsButton"
 	{
-<<<<<<< HEAD
 		"label" 		"(詳細)　設定！"
-=======
-		"label" 		"Adv. Options"
->>>>>>> f4ea0a5791ac9a9f25f4c602623d3aa7090623e8
 		"command" 		"opentf2options"
 	}
 	"CreateServerButton"

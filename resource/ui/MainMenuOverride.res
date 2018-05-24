@@ -207,11 +207,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-<<<<<<< HEAD
-		"labelText"		"surepy" // "rayshud"
-=======
-		"labelText"		"rayshud"
->>>>>>> f4ea0a5791ac9a9f25f4c602623d3aa7090623e8
+		"labelText"		"hudname"
+		//	name it whatever you want
 		"font"			"Cerbetica20"
 		"textAlignment"	"west"
 		"textinsetx"	"0"
@@ -1884,11 +1881,7 @@
 		"tabPosition"	"0"
 		"font"			"Cerbetica16"
 		"textAlignment"	"west"
-<<<<<<< HEAD
 		"labelText"		"最小モード"
-=======
-		"labelText"		"Minmode Toggle"
->>>>>>> f4ea0a5791ac9a9f25f4c602623d3aa7090623e8
 		"textinsetx"	"24"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1931,11 +1924,8 @@
 		"ControlName"	"CExLabel"
 		"fieldname"		"VersionNumber"
 		"font"			"Cerbetica14"
-<<<<<<< HEAD
-		"labelText"		"rayshud (modded) v2018.05.12"
-=======
-		"labelText"		"v2018.05.12"
->>>>>>> f4ea0a5791ac9a9f25f4c602623d3aa7090623e8
+		"labelText"		"rayshud"
+		//"labelText"		"v2018.05.12"
 		"xpos"			"r55"
 		"ypos"			"r13"
 		"wide"			"80"
