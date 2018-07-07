@@ -79,26 +79,29 @@ event HitMarker
 {
 	Animate KnucklesCrosses	 		FgColor 	"CrosshairDamage" 	Linear 0.0 0.0
 	Animate KnucklesCrosses	 		FgColor 	"Crosshair" 		Linear 0.15 0.0
+	Animate RaysCrosshair	 		FgColor 	"CrosshairDamage" 	Linear 0.0 0.0
+	Animate RaysCrosshair	 		FgColor 	"Crosshair" 		Linear 0.15 0.0
+	Animate KonrWings	 			FgColor 	"CrosshairDamage" 	Linear 0.0 0.0
+	Animate KonrWings	 			FgColor 	"Crosshair" 		Linear 0.15 0.0
 }
 //===========================================
-// Spy Disguise
+//Spy Disguise
 event HudSpyDisguiseFadeIn
 {
-	//RunEvent HudSpyDisguiseChanged	0
+	//RunEvent HudSpyDisguiseChanged			0
 	//Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1
 	//Animate PlayerStatusClassImage			Alpha		"255"			Linear 0.0 0.0
 }
 
 event HudSpyDisguiseFadeOut
 {
-	//RunEvent HudSpyDisguiseChanged	0
+	//RunEvent HudSpyDisguiseChanged			0
 	//Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.9 0.1
 	//Animate PlayerStatusClassImage			Alpha		"0"				Linear 0.0 0.0
 }
 
-//====================================
-// Flash the medic charge hud when we have full charge
-
+===========================================
+//Ubercharge Meters
 event HudMedicCharged
 {
 	RunEvent HudMedicOrangePulseCharge 0.0
@@ -183,7 +186,7 @@ event CompetitiveGame_ShowDisconnectButton
 	Animate DisconnectButton ypos r30 Accel 0 0.4
 }
 
-//==================================================================================
+//===========================================
 // Do not move chat window
 event CompetitiveGame_LowerChatWindow	{ }
 event CompetitiveGame_RestoreChatWindow	{ }
