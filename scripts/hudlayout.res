@@ -13,12 +13,12 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"zpos"			"2"
-		"xpos"			"c-102"
-		"ypos"			"c-99"
+		"xpos"			"c-85"
+		"ypos"			"c-100"
 		"wide"			"200"
 		"tall"			"200"
-		"font"			"Crosshairs26"
-		"labelText"		"2"
+		"font"			"Crosshairs24"
+		"labelText"		"i"
 		"textAlignment"	"center"
 		"fgcolor"		"Crosshair"
 	}
@@ -48,8 +48,8 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"KnucklesCrosses"
-		"visible" 		"0"
-		"enabled" 		"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"zpos"			"0"
 		"xpos" 		 	"c-25"
 		"ypos" 		 	"c-24"
@@ -703,6 +703,7 @@
 		"scaleImage"		"1"
 	}
 	//--------------------------------------------------------------
+
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -713,6 +714,7 @@
 		"wide"	"f0"
 		"tall"	"480"
 	}
+
 	HudWeaponAmmo
 	{
 		"fieldName" "HudWeaponAmmo"
@@ -739,13 +741,14 @@
 	
 	HudKothTimeStatus
 	{
-		"fieldName" "HudKothTimeStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"c-75"
-		"ypos"	"0"
-		"wide"	"200"
-		"tall"	"60"
+		"fieldName" 	"HudKothTimeStatus"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"c-75"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"200"
+		"tall"			"60"
 		
 		"blue_active_xpos"	"25"
 		"red_active_xpos"	"75"
@@ -771,8 +774,8 @@
 		"enabled"		"1"
 		"xpos"			"c-150"	
 		"ypos"			"c20"
-		"xpos_minmode"	"c-62"	
-		"ypos_minmode"	"c24"	
+		"xpos_minmode"	"c-62"
+		"ypos_minmode"	"c24"
 		"wide"			"500"
 		"tall"			"500"
 	}
@@ -796,8 +799,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-100"	
-		"ypos"			"c111"	
-		"xpos_minmode"	"c-75"	
+		"ypos"			"c111"
+		"xpos_minmode"	"c-75"
 		"ypos_minmode"	"c46"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"500"
@@ -818,7 +821,7 @@
 		"ypos_minmode"	"r40"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
-		"zpos"			"1"			// draw in front of ammo
+		"zpos"			"1"
 		"wide"			"60"
 		"wide_minmode"	"50"
 		"tall"			"8"
@@ -833,7 +836,7 @@
 		"enabled"		"1"
 		"xpos"			"c-100"
 		"ypos"			"42"
-		"zpos"			"0"			// draw in front of ammo
+		"zpos"			"0"
 		"wide"			"200"
 		"tall"			"50"
 		"MeterFG"		"Red"
@@ -987,7 +990,6 @@
 		"ypos_minmode"	"c-20"	[$WIN32]
 		"wide"		"640"
 		"tall"		"480"
-		
 		"PaintBackgroundType"	"2"
 	}
 	
@@ -1004,7 +1006,6 @@
 		"ypos_lodef"		"25"
 		"wide"		"640"
 		"tall"		"480"
-		
 		"PaintBackgroundType"	"2"
 	}
 	
@@ -1018,7 +1019,6 @@
 		"zpos"		"1"
 		"wide"		"f0"
 		"tall"		"480"
-		
 		"PaintBackgroundType"	"2"
 	}
 	
@@ -1031,9 +1031,7 @@
 		"tall"  "15"
 		"visible" "1"
 		"enabled" "1"
-
 		"BorderThickness" "1"
-
 		"PaintBackgroundType"	"2"
 	}
 
@@ -1046,11 +1044,8 @@
 		"tall"  "40"
 		"visible" "1"
 		"enabled" "1"
-		
 		"PaintBackgroundType"	"2"
-
-		"FlashColor" "HudIcon_Red"		
-
+		"FlashColor" "HudIcon_Red"
 		"icon_xpos"		"0"
 		"icon_ypos"		"2"
 		"digit_xpos"	"34"
@@ -1066,9 +1061,7 @@
 		"tall"  "44"
 		"visible" "1"
 		"enabled" "1"
-
 		"PaintBackgroundType"	"2"
-
 		"IconColor"				"Hostage_Yellow"	
 	}
 	
@@ -1081,11 +1074,9 @@
 		"ypos"	"370"
 		"wide"	"102"
 		"tall"	"20"
-		
 		"text_xpos" "8"
 		"text_ypos" "6"
 		"TextColor"	"255 170 0 220"
-
 		"PaintBackgroundType"	"2"
 	}
 
@@ -1095,12 +1086,12 @@
 //		"visible" "1"
 //		"enabled" "1"
 //		"MinimumWidth" "10"
-//		"MaximumWidth" "10"		
+//		"MaximumWidth" "10"
 //		"StartRadius" "80"
 //		"EndRadius" "80"
 //		"MinimumHeight" "30"
 //		"MaximumHeight" "60"
-//		"MinimumTime" "1" 
+//		"MinimumTime" "1"
 	}
 
 	HudCommentary
@@ -1112,25 +1103,21 @@
 		"tall"  "50"
 		"visible" "1"
 		"enabled" "1"
-		
 		"PaintBackgroundType"	"2"
 		"BackgroundOverrideColor" "0 0 0 128"
-		
 		"bar_xpos"		"50"
 		"bar_ypos"		"20"
 		"bar_height"	"8"
 		"bar_width"		"320"
 		"speaker_xpos"	"50"
 		"speaker_ypos"	"8"
-		"count_xpos_from_right"	"10"	// Counts from the right side
+		"count_xpos_from_right"	"10"
 		"count_ypos"	"8"
-		
 		"icon_texture"	"vgui/hud/icon_commentary"
 		"icon_xpos"		"0"
 		"icon_ypos"		"0"		
 		"icon_width"	"40"
 		"icon_height"	"40"
-
 		"use_script_bgcolor"	"1"
 	}
 
@@ -1164,21 +1151,17 @@
 		"ypos"	 "20"	[$WIN32]
 		"wide"	 "580"
 		"tall"	 "468"
-
 		"MaxDeathNotices" "8"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "14"
 		"LineSpacing"	  "0"
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
-		
 		"TextFont"		"CerbeticaBold12"
-		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
-
 		"BaseBackgroundColor"	"46 43 42 125"		[$WIN32]
 		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
 	}
@@ -1246,7 +1229,6 @@
 		"wide"	 "640"
 		"tall"	 "480"
 		"zpos" "1"
-
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
 		"ItemFontPulsing"		"Default"
@@ -1264,7 +1246,6 @@
 		"ypos"			"c90"
 		"xpos_minmode"	"c-115"
 		"ypos_minmode"	"c37"
-		
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
 		"ItemFontPulsing"		"Default"
@@ -1283,9 +1264,7 @@
 		"ypos_minmode"		"273"	[$WIN32]
 		"wide_minmode"		"100"
 		"tall_minmode"		"40"
-
 		"BgAlpha"	"0"
-
 		"GrowTime"		"0.25"
 		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
 		"ItemFadeInTime"	"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
@@ -1331,6 +1310,7 @@
 		"wide"	 "640"
 		"tall"	 "480"
 	}
+
 	HudAnimationInfo
 	{
 		"fieldName" "HudAnimationInfo"
@@ -1339,6 +1319,7 @@
 		"wide"	 "640"
 		"tall"	 "480"
 	}
+
 	CBudgetPanel
 	{
 		"fieldName" "CBudgetPanel"
@@ -1347,6 +1328,7 @@
 		"wide"	 "640"
 		"tall"	 "480"
 	}
+
 	CTextureBudgetPanel
 	{
 		"fieldName" "CTextureBudgetPanel"
@@ -1364,7 +1346,6 @@
 		"wide"	 "1280"
 		"tall"	 "1024"
 	}
-
 
 	HudLocation
 	{
@@ -1422,27 +1403,22 @@
 		"ypos" "0" [$X360]
 		"wide" "145"
 		"tall" "400"
-
 		"item_wide"	"135"
-		
 		"show_avatar"		"1"
 		"avatar_ypos"		"1"
 		"avatar_xpos"		"1"
 		"avatar_wide"		"14"
 		"avatar_tall"		"14"
-		
 		"show_dead_icon"	"1"
 		"dead_xpos"			"118"
 		"dead_ypos"			"0"
 		"dead_wide"			"16"
 		"dead_tall"			"16"
-		
 		"show_voice_icon"	"1"
 		"icon_ypos"			"0"
 		"icon_xpos"			"28"
 		"icon_tall"			"16"
 		"icon_wide"			"16"
-		
 		"text_xpos"			"49"
 	}
 
@@ -1476,7 +1452,6 @@
 		"text_xgap"	"8"
 		"text_ygap"	"8"
 		"TextColor"	"255 170 0 220"
-
 		"PaintBackgroundType"	"2"
 	}
 	
@@ -1524,16 +1499,6 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"icon_space"			"2"
-	}
-	
-	HUDAutoAim
-	{
-
-	}	
-	
-	HudHDRDemo
-	{
-
 	}
 
 	WinPanel
@@ -1612,11 +1577,6 @@
 		"wide"					"100"
 		"tall"					"50"
 	}
-	
-	AnnotationsPanel
-	{
-		
-	}
 
 	WaitingForPlayersPanel
 	{
@@ -1642,8 +1602,8 @@
 
 	"HudChat"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName" 		"HudChat"
+		"ControlName"	"EditablePanel"
+		"fieldName" 	"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"10"	[$WIN32]
@@ -1726,7 +1686,6 @@
 		"tall"					"0"
 	}
 
-
 	HudTeamGoalTournament
 	{
 		"fieldName"				"HudTeamGoalTournament"
@@ -1745,7 +1704,7 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"75"
-		"ypos_hidef"				"90"
+		"ypos_hidef"			"90"
 		"ypos_lodef"			"90"
 		"wide"					"320"
 		"tall"					"100"
@@ -1758,8 +1717,8 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"75"
-		"ypos_hidef"				"90"
-		"ypos_lodef"				"90"
+		"ypos_hidef"			"90"
+		"ypos_lodef"			"90"
 		"wide"					"320"
 		"tall"					"150"
 	}
@@ -1783,10 +1742,11 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"65"
-		"ypos_lodef"				"75"
+		"ypos_lodef"			"75"
 		"wide"					"320"
 		"tall"					"100"
 	}
+
 	HudTournament
 	{
 		"fieldName"				"HudTournament"
@@ -1810,7 +1770,7 @@
 		"enabled"				"1"
 		"xpos"					"c-90"
 		"ypos"					"-70"
-		"ypos_lodef"				"75"
+		"ypos_lodef"			"75"
 		"wide"					"180"
 		"tall"					"65"
 	}
@@ -1820,10 +1780,11 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
+		"xpos"					"0"
 		"ypos"					"0"
-		"wide"					"300"
-		"tall"					"f0"
+		"zpos"					"5"
+		"wide"					"f0"
+		"tall"					"70"
 	}
 	
 	NotificationPanel
@@ -1844,8 +1805,7 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"180"
-		"wide"					"f10"	[$WIN32]
-		"wide"					"f60"	[$X360]
+		"wide"					"f10"
 		"tall"					"100"
 	}
 
@@ -1917,16 +1877,6 @@
 		"ypos"					"50"
 		"wide"					"200"
 		"tall"					"300"
-	}
-	
-	HudTrainingMsg
-	{
-		
-	}
-	
-	TrainingComplete
-	{
-		
 	}
 
 	HudInspectPanel
@@ -2171,4 +2121,10 @@
 		"mouseinputenabled"		"0"
 		"alpha"					"100"
 	}
+
+	HUDAutoAim			{ }
+	HudHDRDemo			{ }
+	HudTrainingMsg		{ }
+	TrainingComplete	{ }
+	AnnotationsPanel	{ }
 }
