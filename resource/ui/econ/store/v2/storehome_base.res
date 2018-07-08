@@ -18,21 +18,16 @@
 		"bgcolor_override"	"25 25 25 255"
 		"infocus_bgcolor_override" "25 25 25 255"
 		"outoffocus_bgcolor_override" "25 25 25 255"
-		
 		"item_controls_xoffset"	"2"
 		"item_controls_yoffset"	"2"
-		
 		"max_cart_model_panels"	"8"
-		
 		"item_ypos"		"40"
 		"item_mod_wide"	"40"
-		
 		"item_panels"			"12"
 		"item_columns"			"4"
 		"item_offcenter_x"		"-230"
 		"item_xdelta"			"8"
-		"item_ydelta"			"8"
-		
+		"item_ydelta"			"8"	
 		"item_backdrop_zpos"				"1"
 		"show_item_backdrop"				"1"
 		"item_backdrop_color"				"25 25 25 255"
@@ -41,13 +36,10 @@
 		"item_backdrop_top_margin"			"9"
 		"item_backdrop_bottom_margin"		"42"
 		"item_backdrop_paintbackgroundtype"	"2"
-
 		"item_backdrop_zpos"				"1"
-		
 		"item_panel_bgcolor"			"51 47 46 255"
 		"item_panel_bgcolor_mouseover"	"156 146 128 255"
 		"item_panel_bgcolor_selected"	"176 166 148 255"
-		
 		"classicon_xdelta"		"5"
 
 		"modelpanels_kv"
@@ -136,6 +128,7 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
+				"inventory_image_type" 	"1"
 				"allow_rot"				"0"
 			}
 			
@@ -169,9 +162,9 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"0 0 0 255"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		
 		"BackColor"
@@ -190,37 +183,13 @@
 			"PaintBackgroundType""1"
 			"border"			"NoBorder"
 			"bgcolor_override"	"35 35 35 255"
+		}
 			
-			"attriblabel"
-			{
-				"font"			"ItemFontAttribLarge"
-				"xpos"			"0"
-				"ypos"			"30"
-				"zpos"			"101"
-				"wide"			"140"
-				"tall"			"60"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"labelText"		"%attriblist%"
-				"textAlignment"	"center"
-				"fgcolor"		"117 107 94 255"
-				"centerwrap"	"1"
-			}
-    	}
-		
-		"text_ypos"			"20"
-		"text_center"		"1"
-		"model_hide"		"1"
-		"resize_to_text"	"1"
-		"padding_height"	"15"
-		
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
-			"ypos"			"32"
+			"ypos"			"30"
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
@@ -331,13 +300,13 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		
 		"auto_scale"		"1"
 		"auto_layout"		"1"
 		"selected_button_default"	"0"
 		"auto_layout_horizontal_buffer"	"9"
 		"display_vertically"	"0"
 		"border" "NoBorder"
+
 		"ButtonSettings"
 		{
 			"wide"				"100"
@@ -366,7 +335,6 @@
 			
 			"paintbackground"	"1"
 			"paintborder"		"1"
-			
 			"border"				"ButtonBorder"
 			
 			"stayselectedonclick"	"1"
@@ -389,7 +357,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"&A"
-		"font"			"HudFontSmallBold"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -442,7 +410,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"&D"
-		"font"			"HudFontSmallBold"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -496,7 +464,6 @@
 		"PaintBackgroundType"	"2"
 		"textinsetx"	"15"
 		"border"		"NoBorder"
-		
 		"Command"		"viewcart"
 		"font"			"HudFontSmallBold"
 		"sound_depressed"	"UI/buttonclick.wav"

@@ -53,7 +53,7 @@
 		}
 		"countshadow"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"countshadow"
 			"xpos"			"9999"
 			"ypos"			"9999"
@@ -141,8 +141,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"countshadow"
-			"xpos"			"9999"
-			"ypos"			"9999"
+			"xpos"			"-1"
+			"ypos"			"-1"
 			"zpos"			"1"
 			"wide"			"30"
 			"tall"			"25"
@@ -154,6 +154,10 @@
 			"labelText"		"%red_alive%"
 			"textAlignment"	"center"
 			"fgcolor"		"Black"
+			
+			"pin_to_sibling"		"count"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 		
 		"playerimage"

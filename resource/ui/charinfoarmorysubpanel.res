@@ -16,14 +16,11 @@
 		"bgcolor_override"				"25 25 25 255"
 		"infocus_bgcolor_override" 		"25 25 25 255"
 		"outoffocus_bgcolor_override"	"25 25 25 255"
-		
 		"thumbnail_bgcolor"				"51 47 46 255"
 		"thumbnail_bgcolor_mouseover"	"156 146 128 255"
 		"thumbnail_bgcolor_selected"	"176 166 148 255"
-		
 		"thumbnails_rows"		"4"
 		"thumbnails_columns"	"4"
-		
 		"thumbnails_x"			"c-300"
 		"thumbnails_y"			"60"
 		"thumbnails_delta_x"	"8"
@@ -40,7 +37,6 @@
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
-			
 			"model_xpos"	"7"
 			"model_ypos"	"5"
 			"model_wide"	"58"
@@ -48,7 +44,6 @@
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
-			
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
 			
@@ -78,6 +73,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 128 255 255"
 	}
+
 	"ArmoryLabel"
 	{
 		"ControlName"	"Label"
@@ -197,10 +193,9 @@
 		"wide"			"260"
 		"tall"			"135"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"Transparent"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
-		
 		"model_hide"	"1"
 		"text_center"	"1"
 		"resize_to_text" "1"
@@ -212,6 +207,7 @@
 			"allow_rot"				"0"
 		}
 	}
+
 	"SelectedItemImageModelPanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -222,10 +218,9 @@
 		"wide"			"290"
 		"tall"			"140"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"Transparent"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
-		
 		"model_ypos"	"10"
 		"model_tall"	"120"
 		"name_only"		"0"
@@ -251,11 +246,10 @@
 		"wide"			"250"
 		"tall"			"180"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"0 0 0 255"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
-		
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"0"
@@ -289,7 +283,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"&A"
-		"font"			"HudFontSmallBold"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -340,7 +334,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"&D"
-		"font"			"HudFontSmallBold"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -427,11 +421,11 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"StoreButton"
-		"xpos"			"c-138"
-		"ypos"			"323"
+		"xpos"			"c-298"
+		"ypos"			"290"
 		"zpos"			"20"
-		"wide"			"200"
-		"tall"			"25"
+		"wide"			"100"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
