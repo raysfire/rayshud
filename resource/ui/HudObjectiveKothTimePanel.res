@@ -2,7 +2,8 @@
 {	
 	"HudKothTimeStatus"
 	{
-		if_match {
+		if_match
+		{
 			"zpos"		"5"
 		}
 	}
@@ -120,7 +121,6 @@
 			if_match
 			{
 				"proportionaltoparent"	"1"
-
 				"xpos"			"rs1-15"
 				"ypos"			"9"
 				"wide"			"35"
@@ -128,7 +128,6 @@
 				"font"			"HudFontSmall"
 				"font_minmode"	"HudFontSmall"
 				"font_lodef"	"HudFontSmall"
-			
 			}			
 		}	
 	}

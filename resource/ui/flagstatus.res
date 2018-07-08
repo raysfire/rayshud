@@ -13,6 +13,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 	}
+
 	"Briefcase"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -33,6 +34,7 @@
 			"tall"		"24"
 		}
 	}
+
 	"StatusIcon"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -47,7 +49,8 @@
 		"image"			"../hud/objectives_flagpanel_ico_flag_home"
 		"scaleImage"	"1"
 		
-		"if_mvm" {
+		"if_mvm"
+		{
 			"visible"	"0"
 		}
 	}

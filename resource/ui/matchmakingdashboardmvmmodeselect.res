@@ -91,7 +91,6 @@
 			"scaleimage"	"1"
 			"mouseinputenabled"	"0"
 			"alpha"		"255"
-
 			"image"		"gradient_pure_black"
 		}
 
@@ -212,7 +211,6 @@
 			"scaleimage"	"1"
 			"mouseinputenabled"	"0"
 			"alpha"		"255"
-
 			"image"		"gradient_pure_black"
 		}
 

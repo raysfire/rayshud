@@ -1,5 +1,3 @@
-//tick 52000
-
 "Resource/UI/HudTournament.res"
 {
 	HudTournament
@@ -43,7 +41,8 @@
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
 
-			if_competitive {
+			if_competitive
+			{
 				"visible"		"1"
 			}
 		}		
@@ -175,15 +174,18 @@
 				"bgcolor_override"		"0 0 0 100"
 				"PaintBackgroundType"	"0"
 				
-				if_mvm {
+				if_mvm 
+				{
 					"visible"		"1"
 				}
 				
-				if_competitive {
+				if_competitive
+				{
 					"visible"		"1"
 				}
 
-				if_readymode {
+				if_readymode
+				{
 					"visible"		"1"
 				}
 			}
@@ -227,17 +229,20 @@
 				"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"0"
 				
-				if_mvm {
+				if_mvm
+				{
 					"visible"		"1"
 					"zpos"			"-2"
 				}
 
-				if_competitive {
+				if_competitive
+				{
 					"visible"		"1"
 					"zpos"			"-2"					
 				}
 				
-				if_readymode {
+				if_readymode
+				{
 					"visible"		"1"
 					"zpos"			"-2"	
 				}					
@@ -260,15 +265,18 @@
 				"fillcolor"	"15 165 165 255"
 				"scaleImage"		"1"
 
-				if_mvm {
+				if_mvm
+				{
 					"visible"		"1"
 				}
 				
-				if_competitive {
+				if_competitive
+				{
 					"visible"		"1"
 				}
 
-				if_readymode {
+				if_readymode
+				{
 					"visible"		"1"
 				}
 			}
@@ -308,7 +316,8 @@
 				"textAlignment"	"north"
 				"fgcolor"		"0 255 0 255"
 				
-				if_mvm {	
+				if_mvm
+				{
 					"visible"		"0"
 				}
 			}
@@ -444,9 +453,11 @@
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
 		
-		if_mvm {
+		if_mvm
+				{
 			"visible"		"0"
 		}
+
 		if_competitive
 		{
 			"xpos"			"200"
@@ -481,7 +492,8 @@
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
 		
-		if_mvm {
+		if_mvm
+				{
 			"visible"		"0"
 		}
 		
@@ -496,8 +508,8 @@
 			"xpos"			"200"
 			"visible"		"0"
 		}
-		
 	}
+
 	"TournamentBLUELabel"
 	{	
 		"ControlName"		"Label"
@@ -516,7 +528,8 @@
 		"labelText"		"%bluenamelabel%"
 		"textAlignment"		"west"
 		
-		if_mvm {
+		if_mvm
+		{
 			"visible"		"0"
 		}
 		
@@ -532,9 +545,10 @@
 			"visible"		"0"
 		}
 	}
+
 	"TournamentBLUEStateLabel"
 	{	
-		"ControlName"		"Label"
+		"ControlName"	"Label"
 		"fieldName"		"TournamentBLUEStateLabel"
 		"font"			"Cerbetica16"
 		"xpos"			"c-69"
@@ -542,15 +556,16 @@
 		"zpos"			"1"
 		"wide"			"65"
 		"tall"			"15"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"%bluestate%"
-		"textAlignment"		"east"
+		"textAlignment"	"east"
 		
-		if_mvm {
+		if_mvm
+		{
 			"visible"		"0"
 		}
 		
@@ -569,7 +584,7 @@
 
 	"HudTournamentREDBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"HudTournamentREDBG"
 		"xpos"			"c0"
 		"ypos"			"10"
@@ -588,25 +603,25 @@
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
 		
-		if_mvm {
+		if_mvm
+		{
 			"visible"		"0"
 		}
-		
 		if_competitive
 		{
 			"xpos"			"320"
 			"visible"		"0"
 		}
-
 		if_readymode
 		{
 			"xpos"			"320"
 			"visible"		"0"
 		}
 	}
+
 	"TournamentREDLabel"
 	{	
-		"ControlName"		"Label"
+		"ControlName"	"Label"
 		"fieldName"		"TournamentREDLabel"
 		"font"			"Cerbetica16"
 		"xpos"			"c55"
@@ -614,15 +629,16 @@
 		"zpos"			"1"
 		"wide"			"65"
 		"tall"			"15"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"%rednamelabel%"
-		"textAlignment"		"east"
+		"textAlignment"	"east"
 		
-		if_mvm {
+		if_mvm
+		{
 			"visible"		"0"
 		}
 		
@@ -638,9 +654,10 @@
 			"visible"		"0"
 		}
 	}
+
 	"TournamentREDStateLabel"
 	{	
-		"ControlName"		"Label"
+		"ControlName"	"Label"
 		"fieldName"		"TournamentREDStateLabel"
 		"font"			"Cerbetica16"
 		"xpos"			"c5"
@@ -648,7 +665,7 @@
 		"zpos"			"1"
 		"wide"			"65"
 		"tall"			"15"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -671,8 +688,8 @@
 			"xpos"			"325"
 			"visible"		"0"
 		}
-	
 	}
+
 	"TournamentConditionLabel"
 	{	
 		"ControlName"		"CExLabel"
@@ -692,7 +709,8 @@
 		"labelText"		"%winconditions%"
 		"textAlignment"		"center"
 		
-		if_mvm {
+		if_mvm
+		{
 			"visible"		"0"
 		}
 		
@@ -710,9 +728,7 @@
 			"ypos"			"24"
 		}
 	}
-	
-	//used for matchmaking to eliminate the need for a blank bg
-	
+
 	"TournamentConditionLabelShadow"
 	{	
 		"ControlName"		"CExLabel"
@@ -732,7 +748,8 @@
 		"labelText"		"%winconditions%"
 		"textAlignment"		"center"
 		
-		if_mvm {
+		if_mvm
+		{
 			"visible"		"0"
 		}
 		

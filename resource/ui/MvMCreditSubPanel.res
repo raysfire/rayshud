@@ -110,20 +110,6 @@
 		"tall"			"12"
 		"fgcolor"		"CreditsGreen"
 	}
-		
-	"CreditRatingLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CreditRatingLabelShadow"
-		"font"			"HudFontMediumBold"
-		"labelText"		"%ratingshadow%"
-		"textAlignment" "center"
-		"xpos"			"126"
-		"ypos"			"26"
-		"wide"			"70"
-		"tall"			"20"
-		"fgcolor"		"Black"
-	}
 	
 	"CreditRatingLabel"
 	{
@@ -137,5 +123,19 @@
 		"wide"			"70"
 		"tall"			"20"
 		"fgcolor"		"tanlight"
+	}
+		
+	"CreditRatingLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CreditRatingLabelShadow"
+		"font"			"HudFontMediumBold"
+		"labelText"		"%ratingshadow%"
+		"textAlignment" "center"
+		"xpos"			"126"
+		"ypos"			"26"
+		"wide"			"70"
+		"tall"			"20"
+		"fgcolor"		"Black"
 	}
 }

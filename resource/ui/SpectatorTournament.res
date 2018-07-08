@@ -415,10 +415,12 @@
 		"wrap"			"1"
 		"centerwrap"	"1"
 	
-		if_mvm {
+		if_mvm 
+		{
 			"visible"		"1"
 		}	
 	}
+
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"

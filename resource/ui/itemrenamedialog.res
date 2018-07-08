@@ -149,13 +149,14 @@
 		"model_ypos"	"5"
 		"model_wide"	"80"
 		"model_tall"	"54"
-		"text_ypos"		"100"		// Hide it off the bottom
+		"text_ypos"		"100"
 		"text_center"	"1"
 		"name_only"		"1"
 		
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}	
@@ -205,7 +206,7 @@
 		"wide"			"84"
 		"tall"			"64"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"Transparent"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
@@ -214,13 +215,14 @@
 		"model_ypos"	"5"
 		"model_wide"	"80"
 		"model_tall"	"54"
-		"text_ypos"		"100"		// Hide it off the bottom
+		"text_ypos"		"100"
 		"text_center"	"1"
 		"name_only"		"1"
 		
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}	
@@ -244,6 +246,7 @@
 		"bgcolor_override" "0 0 0 255"
 		"paintbackgroundtype" "2"
 	}
+
 	"OldItemNameDescLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -263,6 +266,7 @@
 		"fgcolor_override" "117 107 94 255"
 		"paintbackground" "0"
 	}
+
 	"OldItemNameLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -301,6 +305,7 @@
 		"bgcolor_override" "0 0 0 255"
 		"paintbackgroundtype" "2"
 	}
+
 	"NewItemNameDescLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -320,6 +325,7 @@
 		"fgcolor_override" "117 107 94 255"
 		"paintbackground" "0"
 	}
+
 	"CustomNameEntry"
 	{
 		"ControlName"		"TextEntry"

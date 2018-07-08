@@ -47,7 +47,7 @@
 	
 	"CaratLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel"
 		"font"			"CerbeticaBold12"
 		"labelText"		">>"
@@ -63,6 +63,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 128 255 255"
 	}
+
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -83,7 +84,7 @@
 
 	"ItemSlotLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ItemSlotLabel"
 		"font"			"HudFontSmallestBold"
 		"labelText"		"#PrimaryWeapon"

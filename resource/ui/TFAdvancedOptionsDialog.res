@@ -25,6 +25,7 @@
 		"slider_w"			"500"
 		"slider_h"			"25"
 	}
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -43,6 +44,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "TanLight"
 	}
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
@@ -77,6 +79,7 @@
 		"border_default"			"ButtonHover"
 		"border_armed"				"ButtonHover"
 	}
+
 	"OkButton"
 	{
 		"ControlName"	"CExButton"

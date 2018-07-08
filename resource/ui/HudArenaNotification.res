@@ -53,6 +53,7 @@
 		"labelText"		""
 		"textAlignment"	"west"
 	}
+
 	"BalanceLabelTip"
 	{	
 		"ControlName"	"Label"

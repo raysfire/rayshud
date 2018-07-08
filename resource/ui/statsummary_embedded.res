@@ -12,6 +12,7 @@
 		"enabled"	"1"
 		"bgcolor_override"	"25 25 25 255"
 	}
+
 	"MainBackground"
 	{
 		"ControlName"		"ImagePanel"
@@ -25,6 +26,7 @@
 		"image"			""
 		"scaleImage"		"1"
 	}
+
 	"OnYourWayLabel" [$WIN32]
 	{
 		"ControlName"		"CExLabel"
@@ -42,6 +44,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}					
+
 	"MapLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -65,6 +68,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
+
 	"MapType" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
@@ -82,6 +86,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
+
 	"StatData"
 	{
 		"ControlName"	"EditablePanel"

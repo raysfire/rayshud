@@ -9,7 +9,7 @@
 		"zpos"			"-1"
 		"wide"			"180"
 		"tall"			"65"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -24,7 +24,7 @@
 
 	"TournamentSetupLabel"
 	{	
-		"ControlName"		"Label"
+		"ControlName"	"Label"
 		"fieldName"		"TournamentLabel"
 		"font"			"Cerbetica16"
 		"xpos"			"0"
@@ -32,18 +32,18 @@
 		"zpos"			"1"
 		"wide"			"180"
 		"tall"			"35"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 	}
 
 	"TournamentTeamNameLabel"
 	{	
-		"ControlName"		"Label"
+		"ControlName"	"Label"
 		"fieldName"		"TournamentTeamNameLabel"
 		"font"			"Cerbetica12"
 		"xpos"			"87"
@@ -51,13 +51,13 @@
 		"zpos"			"1"
 		"wide"			"74"
 		"tall"			"15"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"#Tournament_TeamNamePanel"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 	}
 
 	"TournamentNameEdit"
@@ -88,7 +88,7 @@
 
 	"HudTournamentNameBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"HudTournamentNameBG"
 		"xpos"		"30"
 		"ypos"		"28"

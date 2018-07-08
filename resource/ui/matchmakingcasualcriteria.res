@@ -12,10 +12,8 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"
-
 		"pinCorner"		"2"
 		"autoResize"	"1"
-
 
 		"RankImage"
 		{
@@ -30,7 +28,6 @@
 			"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
-
 			"matchgroup"	"MatchGroup_Casual_12v12"
 		}
 	
@@ -46,9 +43,7 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
-
 			"matchgroup"	"MatchGroup_Casual_12v12"
-
 			"show_model"	"0"
 			"show_name"		"0"
 		}
@@ -80,6 +75,7 @@
 			"proportionaltoparent"	"1"
 			"image_drawcolor"	"242 242 242 255"
 			"image_armedcolor"	"169 123 53 255"
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -123,6 +119,7 @@
 			"proportionaltoparent"	"1"
 			"image_drawcolor"	"242 242 242 255"
 			"image_armedcolor"	"169 123 53 255"
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -179,7 +176,6 @@
 			"labeltext"		"#TF_Casual_MapSelection"
 			"textAlignment"	"west"
 			"font"			"CerbeticaBold15"
-		
 			"mouseinputenabled"	"0"
 		}
 
@@ -197,7 +193,6 @@
 			"textAlignment"	"west"
 			"font"			"HudFontSmallest"
 			"fgcolor_override"	"TanDark"
-		
 			"mouseinputenabled"	"1"
 		}
 
@@ -217,7 +212,6 @@
 			"fgcolor_override"	"TanLight"
 			"textinsetx"	"5"
 			"visible"	"0"
-		
 			"mouseinputenabled"	"0"
 		}
 
@@ -248,7 +242,6 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"restrict_width" "0"
-
 			"border"		"MainMenuBGBorder"
 
 			"ScrollBar"

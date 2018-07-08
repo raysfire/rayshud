@@ -29,7 +29,7 @@
 	"BossStatusPanel"
 	{
 		"ControlName"		"CMvMBossStatusPanel"
-		"fieldName"			"MvMBossStatusPanel"
+		"fieldName"			"BossStatusPanel"
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"0"
@@ -179,7 +179,6 @@
 		"fieldName"			"VictorySplash"
 		"xpos"				"0"
 		"ypos"				"0"
-		//"zpos"				"102"
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"
@@ -220,7 +219,7 @@
 		
 		"Background"
 		{
-			"ControlName"		"ScalableImagePanel"
+			"ControlName"	"ScalableImagePanel"
 			"fieldName"		"Background"
 			"xpos"			"c-150"
 			"ypos"			"400"

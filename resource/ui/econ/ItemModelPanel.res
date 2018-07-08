@@ -49,7 +49,6 @@
 		{
 			"ControlName"		"CEmbeddedItemModelPanel"
 			"fieldName"		"itemmodelpanel"
-		
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"		
@@ -60,13 +59,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"useparentbg"		"1"
-			
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-
 			"fov"			"54"
 			"start_framed"		"1"
-
 			"disable_manipulation"	"1"
 
 			"model"
@@ -97,6 +93,7 @@
 			"fgcolor"		"235 226 202 255"
 			"centerwrap"	"1"
 		}
+
 		"attriblabel"
 		{
 			"ControlName"	"CExLabel"
@@ -149,7 +146,6 @@
 			"tall"			"16"
 			"visible"		"0"
 			"enabled"		"1"
-
 		}
 
 		"quantitylabel"
@@ -246,6 +242,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
+
 		"is_unusual_icon"
 		{
 			"ControlName"	"ImagePanel"
@@ -261,6 +258,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
+
 		"is_loaner_icon"
 		{
 			"ControlName"	"ImagePanel"
@@ -291,9 +289,7 @@
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			"useparentbg"	"0"
-			
 			"enabled"		"1"
-			
 			"model_xpos"	"1"
 			"model_ypos"	"1"
 			"model_wide"	"16"
@@ -301,7 +297,6 @@
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"model_only"	"1"
-			
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
 			

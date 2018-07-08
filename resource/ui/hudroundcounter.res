@@ -67,7 +67,7 @@
 	
 	"BlueScoreBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"BlueScoreBG"
 		"xpos"			"c-36"
 		"ypos"			"0"
@@ -95,7 +95,7 @@
 	
 	"TimerBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"TimerBG"
 		"xpos"			"c-36"
 		"ypos"			"12"
@@ -105,6 +105,5 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 100"
-
 	}
 }
