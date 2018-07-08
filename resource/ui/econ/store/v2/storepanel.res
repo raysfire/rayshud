@@ -18,15 +18,13 @@
 		"bgcolor_override"				"46 43 42 0"
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
-		
 		"title"				"#StoreTitle"
 		"title_font"		"HudFontMediumBold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"			"200 187 161 255"
 		"titlebardisabledfgcolor_override"	"200 187 161 255"
-		"titlebarbgcolor_override"			"46 43 42 255"
-		
+		"titlebarbgcolor_override"			"46 43 42 255"	
 		"clientinsetx_override"	"0"
 		"sheetinset_bottom"		"40"
 	}
@@ -45,6 +43,7 @@
 		"image"			"loadout_header"
 		"tileImage"		"1"
 	}
+
 	"BackgroundHeader2"
 	{
 		"ControlName"	"ImagePanel"
@@ -59,6 +58,7 @@
 		"fillcolor"		"15 15 15 175"
 		"tileImage"		"1"
 	}		
+
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -87,6 +87,7 @@
 		"fillcolor"		"15 15 15 220"
 		"tileImage"		"1"
 	}			
+
 	"FooterLine"
 	{
 		"ControlName"	"EditablePanel"
@@ -232,7 +233,7 @@
 		"zpos"				"5"
 		"wide"				"70"
 		"tall"				"100"
-		"font"				"HudFontSmallest"
+		"font"				"Cerbetica10"
 		"wrap"				"1"
 		"labelText"			"#Store_ConfirmStampDonationAddTitle"
 		"visible"			"0"

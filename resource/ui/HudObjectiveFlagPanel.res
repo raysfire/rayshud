@@ -12,7 +12,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"zpos"			"-1"
 		}
 	}
@@ -31,15 +32,18 @@
 		"fillcolor"		"70 130 180 153"
 		"scaleImage"	"1"	
 		
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"visible"	"0"
 		}
 		
-		"if_mvm" {
+		"if_mvm"
+		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"visible"	"0"
 		}
 	}
@@ -58,15 +62,18 @@
 		"fillcolor"		"205 50 50 153"
 		"scaleImage"	"1"	
 		
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"visible"	"0"
 		}
 		
-		"if_mvm" {
+		"if_mvm"
+		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"visible"	"0"
 		}
 	}
@@ -86,15 +93,18 @@
 		"image"			"../hud/objectives_flagpanel_bg_outline"
 		"scaleImage"	"1"	
 		
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"visible"	"0"
 		}
 		
-		"if_mvm" {
+		"if_mvm"
+		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"visible"	"0"
 		}
 	}
@@ -115,15 +125,18 @@
 		"font"			"Cerbetica40"
 		"fgcolor"		"TanLight"
 		
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"visible"	"0"
 		}
 		
-		"if_mvm" {
+		"if_mvm"
+		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"visible"	"0"
 		}
 	}	
@@ -144,15 +157,18 @@
 		"font"			"Cerbetica40"
 		"fgcolor"		"Black"
 		
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"visible"	"0"
 		}
 		
-		"if_mvm" {
+		"if_mvm"
+		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"visible"	"0"
 		}
 	}	
@@ -171,17 +187,20 @@
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
-		"fgcolor"		"TanLight"		
+		"fgcolor"		"TanLight"
 		
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"visible"	"0"
 		}
 		
-		"if_mvm" {
+		"if_mvm"
+		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"visible"	"0"
 		}
 	}	
@@ -202,15 +221,18 @@
 		"font"			"Cerbetica40"
 		"fgcolor"		"Black"		
 		
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"visible"	"0"
 		}
 		
-		"if_mvm" {
+		"if_mvm"
+		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"visible"	"0"
 		}
 	}	
@@ -220,8 +242,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"OutlineImage"
 		"xpos"			"c-50"
-		"ypos"			"r127"	[$WIN32]
-		"ypos"			"r148"	[$X360]
+		"ypos"			"r127"
 		"zpos"			"9"
 		"wide"			"100"
 		"tall"			"50"
@@ -236,22 +257,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
 		"xpos"			"9999"
-		"ypos"			"9999"	[$WIN32]
-		"zpos"			"10"
-		"wide"			"100"
-		"tall"			"100"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_carried_red"
-		"scaleImage"	"1"
-		
-		"if_hybrid" {
-			"ypos"		"r142"
-		}
-		
-		"if_specialdelivery" {
-			"visible"	"1"
-		}
 	}		
 	
 	"PlayingTo"
@@ -272,15 +277,18 @@
 		"font"			"Cerbetica14"
 		"fgcolor"		"TanLight"
 		
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"visible"	"0"
 		}
 		
-		"if_mvm" {
+		"if_mvm"
+		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"visible"	"0"
 		}
 	}	
@@ -299,15 +307,18 @@
 		"fillcolor"		"0 0 0 0"
 		"scaleImage"	"1"	
 		
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"visible"	"0"
 		}
 		
-		"if_mvm" {
+		"if_mvm"
+		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"visible"	"0"
 		}
 	}	
@@ -342,11 +353,13 @@
 			"ypos"		"r113"
 		}
 
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"ypos"		"r75"
 		}
 		
-		"if_no_flags" {
+		"if_no_flags"
+		{
 			"visible"	"0"
 		}
 	}
@@ -369,19 +382,23 @@
 			"ypos"		"r110"
 		}
 		
-		"if_hybrid_single" {
+		"if_hybrid_single"
+		{
 			"xpos"		"c-80"
 		}
 		
-		"if_hybrid_double" {
+		"if_hybrid_double"
+		{
 			"xpos"		"c-45"
 		}
 
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"ypos"		"r75"
 		}
 		
-		"if_no_flags" {
+		"if_no_flags"
+		{
 			"visible"	"0"
 		}
 	}	
@@ -398,11 +415,13 @@
 		"visible"		"0"
 		"enabled"		"1"
 		
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"ypos"		"r100"
 		}
 		
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"ypos"		"r100"
 		}
 	}

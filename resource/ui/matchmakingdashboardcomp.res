@@ -28,7 +28,6 @@
 		"textAlignment"	"west"
 		"font"			"CerbeticaBold24"
 		"fgcolor_override"	"242 242 242 255"
-		
 		"mouseinputenabled"	"0"
 	}
 
@@ -43,8 +42,8 @@
 		"tall"			"o1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"?"
 		"font"			"HudFontSmallBold"
@@ -68,7 +67,8 @@
 		"zpos"			"1000"
 		"wide"			"8"
 		"tall"			"8"
-		"visible"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
 		"image"			"info"
