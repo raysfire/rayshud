@@ -34,7 +34,7 @@
 		"centerwrap"	"0"
 		"labelText"		""
 		"textAlignment"		"center"
-		"bgcolor_override" 	"Transparent
+		"bgcolor_override" 	"Transparent"
 	}
 	
 	"RecipeItemModelPanel"
