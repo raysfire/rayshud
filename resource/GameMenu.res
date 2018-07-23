@@ -26,6 +26,13 @@
 		"label" 		"Adv. Options"
 		"command" 		"opentf2options"
 	}
+	"SteamWorkshopButton"
+	{
+		"label" 		""
+		"command" 		"engine OpenSteamWorkshopDialog"
+		"subimage" 		"glyph_steamworkshop"
+		"tooltip" 		"Steam Workshop"
+	}
 	"AchievementsButton"
 	{
 		"label"			""
