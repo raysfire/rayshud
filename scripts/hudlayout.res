@@ -787,7 +787,7 @@
 		"enabled"		"1"
 		"xpos"			"c-75"	[$WIN32]
 		"ypos"			"c25"	[$WIN32]
-		"wide"			"150"
+		"wide"			"200"
 		"tall"			"500"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -799,11 +799,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-100"	
-		"ypos"			"c111"
+		"ypos"			"c25"
 		"xpos_minmode"	"c-75"
 		"ypos_minmode"	"c46"
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"500"
+		"wide"			"200"
 		"tall"			"500"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"

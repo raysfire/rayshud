@@ -8,7 +8,7 @@
 		"xpos"			"c-75"	[$WIN32]
 		"ypos"			"c113"	[$WIN32]
 		"ypos_minmode"	"c46"	[$WIN32]
-		"wide"			"500"
+		"wide"			"200"
 		"tall"			"500"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -38,12 +38,12 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"0"
+		"xpos"					"125"
 		"ypos"					"0"
 		"xpos_minmode"			"9999"
 		"ypos_minmode"			"9999"
-		"zpos"					"2"
-		"wide"					"150"
+		"zpos"					"3"
+		"wide"					"80"
 		"tall"					"8"
 		"autoResize"			"1"
 		"pinCorner"				"2"
@@ -51,10 +51,10 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
-		"textAlignment"			"center"
+		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Cerbetica12"
+		"font"					"Cerbetica10"
 		"fgcolor_override"		"150 150 150 255"
 	}
 
@@ -67,7 +67,7 @@
 		"xpos_minmode"			"15"
 		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"150"
+		"wide"					"120"
 		"tall"					"8"
 		"wide_minmode"			"120"
 		"tall_minmode"			"5"
