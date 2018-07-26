@@ -2689,6 +2689,7 @@ Scheme
 				"tall" 		 "56"
 				"additive"	 "0"
 				"antialias"	 "1"
+				"outline"	 "1"
 			}
 		}
 		"CerbeticaBold64"
