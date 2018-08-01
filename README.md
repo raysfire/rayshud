@@ -51,7 +51,7 @@ tf
 
 Help/Support
 --------
-* If you have a MAC, remove the existing clientscheme.res file in the `rayshud/resources` folder and rename the file clientscheme_mac to clientscheme. If you don't do this, the in-game font will not render properly, or maybe still won't.
+* If you have a Mac, remove the existing clientscheme.res file in the `rayshud/resources` folder and rename the file clientscheme_mac to clientscheme. If you don't do this, the in-game font will not render properly, or maybe still won't.
 * If you've found a bug, need help or have a suggestion - either [open a support ticket here on GitHub](https://github.com/raysfire/rayshud/issues/new) or [make a post on the Steam Group](https://steamcommunity.com/groups/rayshud).
 
 Credits
