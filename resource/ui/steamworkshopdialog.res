@@ -671,8 +671,8 @@
 			"armedFgColor_override" 	"TanLight"
 			"depressedFgColor_override" "TanDark"
 			
-			"border_default"			"NoBorder"
-			"border_armed"				"NoBorder"
+			"border_default"			"ButtonHover"
+			"border_armed"				"ButtonHover"
 		}
 
 		"CancelButton"
@@ -707,8 +707,8 @@
 			"armedFgColor_override" 	"TanLight"
 			"depressedFgColor_override" "TanDark"
 			
-			"border_default"			"NoBorder"
-			"border_armed"				"NoBorder"
+			"border_default"			"ButtonHover"
+			"border_armed"				"ButtonHover"
 		}
 	}
 }
