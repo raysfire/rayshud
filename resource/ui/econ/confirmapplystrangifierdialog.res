@@ -1,8 +1,8 @@
-"Resource/UI/ConfirmApplyDecodeDialog.res"
+"Resource/UI/ConfirmApplyStrangifierDialog.res"
 {
-	"ConfirmApplyDecodeDialog"
+	"ConfirmApplyStrangifierDialog"
 	{
-		"fieldName"				"ConfirmApplyDecodeDialog"
+		"fieldName"				"ConfirmApplyStrangifierDialog"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-200"
@@ -35,13 +35,13 @@
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-
+		
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
 			"ypos"			"30"
-			"zpos"			"101"
+			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
 			"autoResize"	"0"
@@ -53,7 +53,7 @@
 			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"1"
 		}
-    }
+	}
 
 	"TitleLabel"
 	{
@@ -93,22 +93,6 @@
 		"paintbackground" "0"
 		"border"		"BackpackItemBorder_SelfMade"
 	}
-	"tool_icon"
-	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"tool_icon"
-		"xpos"			"10"
-		"ypos"			"10"
-		"zpos"			"2"
-		"wide"			"16"
-		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"backpack_jewel_modify_target_b_g"
-		"tileImage"		"0"
-		"tileVertically" "0"
-		"drawcolor"		"112 176 74 255"
-	}				
 	"tool_modelpanel"
 	{		
 		"ControlName"	"CItemModelPanel"
@@ -127,7 +111,7 @@
 		"model_ypos"	"5"
 		"model_wide"	"80"
 		"model_tall"	"54"
-		"text_ypos"		"100"
+		"text_ypos"		"100"		// Hide it off the bottom
 		"text_center"	"1"
 		"name_only"		"1"
 		"paint_icon_hide" "1"
@@ -158,22 +142,6 @@
 		"paintbackground" "0"
 		"border"		"BackpackItemBorder_Vintage"
 	}
-	"subject_icon"
-	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"subject_icon"
-		"xpos"			"300"
-		"ypos"			"10"
-		"zpos"			"2"
-		"wide"			"16"
-		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"backpack_jewel_modify_target_b_g"
-		"tileImage"		"0"
-		"tileVertically" "0"
-		"drawcolor"		"71 98 145 255"
-	}	
 	"subject_modelpanel"
 	{		
 		"ControlName"	"CItemModelPanel"
@@ -192,7 +160,7 @@
 		"model_ypos"	"5"
 		"model_wide"	"80"
 		"model_tall"	"54"
-		"text_ypos"		"100"
+		"text_ypos"		"100"		// Hide it off the bottom
 		"text_center"	"1"
 		"name_only"		"1"
 
@@ -202,24 +170,25 @@
 			"allow_rot"				"0"
 			"inventory_image_type"	"1"
 		}
-	}
-
+	}	
+	
 	"ConfirmLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ConfirmLabel"
 		"font"			"HudFontSmall"
-		"labelText"		"#ToolDecodeConfirm"
+		"labelText"		"#ToolStrangifierConfirm"
 		"textAlignment"	"center"
 		"xpos"			"20"
 		"ypos"			"80"
 		"zpos"			"0"
 		"wide"			"360"
-		"tall"			"20"
+		"tall"			"100"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"centerwrap"	"1"
 		"fgcolor_override" "Yellow"
 	}
 
@@ -249,7 +218,7 @@
 		"border_default"	"ButtonHover"
 		"border_armed"		"ButtonHover"
 	}
-
+	
 	"OkButton"
 	{
 		"ControlName"	"CExButton"

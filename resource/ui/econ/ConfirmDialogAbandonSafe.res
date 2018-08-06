@@ -2,7 +2,7 @@
 {
 	"ConfirmDialog"
 	{
-		"ControlName"		"Frame"
+		"ControlName"	"Frame"
 		"fieldName"		"ConfirmDialog"
 		"xpos"			"c-150"
 		"ypos"			"140"
@@ -12,16 +12,17 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
+		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"paintborder"			"2"
 		"paintbackground"		"1"
 		"border"				"CyanBorderThick"
 		"bgcolor_override"		"25 25 25 255"
 	}
+
 	"TitleLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"Cerbetica32"
 		"labelText"		"#ConfirmTitle"
@@ -37,6 +38,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "Base Color"
 	}
+
 	"ExplanationLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -56,6 +58,7 @@
 		"centerwrap"	"1"
 		"fgcolor_override" "TanLight"
 	}
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
@@ -89,6 +92,7 @@
 		"border_default"			"ButtonHover"
 		"border_armed"				"ButtonHover"
 	}
+
 	"ConfirmButton"
 	{
 		"ControlName"	"CExButton"
