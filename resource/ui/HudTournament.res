@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"HudTournament"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"-10"
 		"wide"				"f0"
 		"tall"				"480"
 
@@ -817,7 +817,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"		"50 50 50 255"
 		
 		if_mvm {
 			"visible"		"0"
@@ -841,7 +841,7 @@
 		"fieldName"		"TournamentInstructionsLabel"
 		"font"			"Cerbetica11"
 		"xpos"			"c-125"
-		"ypos"			"52"
+		"ypos"			"44"
 		"wide"			"250"
 		"tall"			"13"
 		"zpos"			"1"
@@ -885,14 +885,14 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"InstructionBackground"
 		"xpos"			"c-125"
-		"ypos"			"50"
+		"ypos"			"42"
 		"zpos"			"-1"
 		"wide"			"250"
 		"tall"			"16"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"		"0 0 0 150"
 		
 		if_mvm {
 			"visible"		"0"

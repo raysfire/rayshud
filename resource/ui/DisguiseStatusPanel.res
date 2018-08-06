@@ -105,7 +105,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 64"
+		"fillcolor"		"0 0 0 164"
 	}
 
 	"SpectatorGUIHealth"

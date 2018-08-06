@@ -335,6 +335,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
+		if_mvm
+		{
+			"ypos"		"r95"	[$WIN32]
+		}
+		
 		"if_hybrid"
 		{
 			"visible"	"0"

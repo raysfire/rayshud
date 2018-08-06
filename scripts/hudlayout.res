@@ -1151,7 +1151,7 @@
 		"ypos"	 "20"	[$WIN32]
 		"wide"	 "580"
 		"tall"	 "468"
-		"MaxDeathNotices" "8"
+		"MaxDeathNotices" "6"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "14"
 		"LineSpacing"	  "0"
@@ -1162,7 +1162,7 @@
 		"TeamRed"		"HUDRedTeamSolid"
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
-		"BaseBackgroundColor"	"46 43 42 125"		[$WIN32]
+		"BaseBackgroundColor"	"46 43 42 175"		[$WIN32]
 		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
 	}
 

@@ -2,18 +2,18 @@
 {
 	"info"
 	{
-		"ControlName"			"CTFTextWindow"
-		"fieldName"				"info"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"480"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"settitlebarvisible"	"0"
+		"ControlName"	"CTFTextWindow"
+		"fieldName"		"info"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"settitlebarvisible" "0"
 	}
 	
 	"MainBG"
@@ -29,7 +29,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"		"0 0 0 200"
 	}
 	
 	"TFMessageTitle"
@@ -147,12 +147,12 @@
 		{
 			"modelname"	"models/vgui/UI_welcome01_screen.mdl"
 			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "290"
-			"origin_y" "0"
-			"origin_z" "-39"
+			"angles_x"	"0"
+			"angles_y"	"180"
+			"angles_z"	"0"
+			"origin_x"	"290"
+			"origin_y"	"0"
+			"origin_z"	"-39"
 		}
 	}
 	
