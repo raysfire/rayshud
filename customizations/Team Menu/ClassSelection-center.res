@@ -107,7 +107,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"scout"
-		"xpos"				"c80"
+		"xpos"				"c81"
 		"ypos"				"193"
 		"zpos"				"6"
 		"wide"				"150"
@@ -1353,29 +1353,25 @@
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
-		
 		"xpos"			"c-360"
 		"ypos"			"0"
 		"zpos"			"6"		
 		"wide"			"480"
 		"tall"			"480"
-		
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
 		"fov"			"25"
 		"allow_rot"		"0"
-
-		"paintbackground" "1"		
+		"paintbackground" "1"	
+		"render_texture"	"0"	
 		"paintbackgroundenabled" "1"
 		"bgcolor_override" "255 255 255 0"
 		
 		"model"
 		{
 			"force_pos"	"1"
-
 			"angles_x" "0"
 			"angles_y" "180"
 			"angles_z" "0"
@@ -1386,9 +1382,7 @@
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
-		
 			"modelname"		""
-			"vcd"		"class_select.vcd"
 		}
 	}
 	
