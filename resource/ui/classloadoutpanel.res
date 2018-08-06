@@ -88,16 +88,10 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"fgcolor_override"		"Base Color"
-			
-			"bgcolor_override"		"255 0 0 255"
-			"noitem_textcolor"		"117 107 94 255"
-			"PaintBackgroundType"	"2"
-			"paintborder"			"1"
-			
-			"border_default"		"NoBorder"
-			"border_armed"			"NoBorder"
-			"border_depressed"		"NoBorder"
+			"paintbackground"	"0"
+			"defaultFgColor_override"	"ColorWhite"
+			"armedFgColor_override"		"ColorCyan"
+			"depressedFgColor_override"	"ColorCyan"
 		}
 	}
 	
