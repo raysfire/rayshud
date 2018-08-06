@@ -262,7 +262,7 @@
 		"bgcolor_override"		"0 0 0 255"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"0"
+		"paintborder"	"1"
 
 		"text_ypos"			"20"
 		"text_center"		"1"
@@ -283,17 +283,17 @@
     		"enabled"			"1"
 			"pinCorner"			"0"
 			"autoResize"		"0"
-			"PaintBackgroundType""1"
-			"border"			"NoBorder"
-			"bgcolor_override"	"35 35 35 255"
+			"PaintBackgroundType"	"2"
+			"border"				"NoBorder"
+			"bgcolor_override"		"35 35 35 255"
     	}
-			
+		
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
 			"ypos"			"30"
-			"zpos"			"101"
+			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
 			"autoResize"	"0"
