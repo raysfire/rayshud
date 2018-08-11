@@ -11,6 +11,9 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
+
+	"specgui" { }
+
 	"topbar"
 	{
 		"ControlName"	"Panel"
@@ -30,13 +33,11 @@
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
 		"xpos"			"9999"
-		"ypos"			"9999"	[$WIN32]
-		"tall"			"0"	
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
+		"ypos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"
 	}
 	"bottombarblank"
 	{
@@ -62,8 +63,8 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"c-300"	[$WIN32]
-		"ypos"			"50"	
-		"wide"			"600"	
+		"ypos"			"50"
+		"wide"			"600"
 		"tall"			"24"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -73,6 +74,7 @@
 		"textAlignment"		"center"
 		"font"			"Cerbetica24"
 	}
+
 	"BuyBackLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -91,209 +93,61 @@
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
+
 	"MapLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"HudFontSmall"
-		"font_hidef"		"HudFontMedium"
-		"xpos"			"9999"	[$WIN32]
-		"ypos"			"9999"	[$WIN32]
-		"tall"			"20"
-		"tall_hidef"		"30"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"visible_minmode"		"0"
-		"enabled"		"1"
-		"labelText"		"map: cp_bridge"
-		"textAlignment"		"east"
+		"xpos"			"9999"
 	}
 	"ClassOrTeamLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ClassOrTeamLabel"
 		"xpos"			"9999"
-		"xpos_hidef"	"c-65"
-		"xpos_lodef"	"40"
-		"ypos"			"9999"
-		"ypos_hidef"	"90"
-		"ypos_lodef"	"30"	
-		"wide"			"170"
-		"wide_hidef"	"130"
-		"wide_lodef"	"220"
-		"tall"			"15"
-		"tall_lodef"	"25"
-		"zpos"			"2"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_ChangeTeam"
-		"textAlignment"		"center"
-		"textAlignment_lodef"		"north-west"
-		"font"			"SpectatorKeyHints"
-		"font_hidef"	"HudFontSmallest"
-		"font_lodef"	"HudFontSmall"
-		"wrap_lodef"			"1"
 	}
 	"SwitchCamModeKeyLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
-		"xpos"			"9999"		[$WIN32]
-		"ypos"			"9999"	[$WIN32]
-		"xpos"			"53"	[$X360]
-		"ypos"			"40"	[$X360]
-		"wide"			"60"	[$WIN32]
-		"wide"			"60"	[$X360]
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_ChangeTeam"
-		"textAlignment"		"east"
-		"font"			"SpectatorKeyHints"
+		"xpos"			"9999"
 		
 	}
 	"SwitchCamModeLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"SwitchCamModeLabel"
-		"xpos"			"9999"	[$WIN32]
-		"ypos"			"9999"	[$WIN32]
-		"xpos"			"128"	[$X360]
-		"ypos"			"40"	[$X360]		
-		"wide"			"125"	[$WIN32]
-		"wide"			"95"	[$X360]		
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_SwitchCamMode"
-		"textAlignment"		"west"
-		"font"			"SpectatorKeyHints"
+		"xpos"			"9999"
 	}
 	"CycleTargetFwdKeyLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetFwdKeyLabel"
-		"xpos"			"9999"	[$WIN32]
-		"ypos"			"9999"	[$WIN32]
-		"xpos"			"53"	[$X360]
-		"ypos"			"50"	[$X360]		
-		"wide"			"60"	[$WIN32]
-		"wide"			"60"	[$X360]
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_ClassOrTeamKey"
-		"textAlignment"		"east"
-		"font"			"SpectatorKeyHints"
+		"xpos"			"9999"
 	}
 	"CycleTargetFwdLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetFwdLabel"
-		"xpos"			"9999"	[$WIN32]
-		"ypos"			"9999"	[$WIN32]
-		"xpos"			"128"	[$X360]
-		"ypos"			"50"	[$X360]		
-		"wide"			"125"	[$WIN32]
-		"wide"			"95"	[$X360]	
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_CycleTargetFwd"
-		"textAlignment"		"west"
-		"font"			"SpectatorKeyHints"
+		"xpos"			"9999"
 	}
 	"CycleTargetRevKeyLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetRevKeyLabel"
-		"xpos"			"9999"	[$WIN32]
-		"ypos"			"9999"	[$WIN32]
-		"xpos"			"53"	[$X360]
-		"ypos"			"60"	[$X360]		
-		"wide"			"60"	[$WIN32]
-		"wide"			"60"	[$X360]		
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_ClassOrTeamKey"
-		"textAlignment"		"east"
-		"font"			"SpectatorKeyHints"
+		"xpos"			"9999"
 	}
 	"CycleTargetRevLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetRevLabel"
-		"xpos"			"9999"	[$WIN32]
-		"ypos"			"9999"	[$WIN32]
-		"xpos"			"128"	[$X360]
-		"ypos"			"60"	[$X360]		
-		"wide"			"125"	[$WIN32]
-		"wide"			"95"	[$X360]
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
-		"enabled"		"1"
-		"labelText"		"#TF_Spectator_CycleTargetRev"
-		"textAlignment"		"west"
-		"font"			"SpectatorKeyHints"
+		"xpos"			"9999"
 	}
 	"TipLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TipLabel"
 		"xpos"			"9999"
-		"xpos_hidef"	"60"
-		"xpos_lodef"	"45"
-		"ypos"			"9999"
-		"ypos_lodef"		"28"
-		"ypos_hidef"		"35"
-		"wide"			"130"
-		"wide_hidef"	"230"
-		"wide_lodef"	"240"
-		"tall"			"54"
-		"tall_hidef"	"70"
-		"tall_lodef"	"70"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"visible_minmode"		"0"
-		"enabled"		"1"
-		"labelText"		"%tip%"
-		"textAlignment"		"center"	[$WIN32]
-		"textAlignment"		"north-west"	[$X360]
-		"font"			"SpectatorKeyHints"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"DefaultVerySmall"
-		"wrap"			"1"
 	}
 	"itempanel"
 	{
@@ -382,6 +236,7 @@
 			"brighttext"	"0"
 		}
 	}
+
 	"spectator_extras"
 	{
 		"ControlName"	"EditablePanel"

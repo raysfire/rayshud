@@ -36,7 +36,6 @@
 			"text_center"	"0"
 			"text_yoffset"	"2"
 			"inset_eq_y"	"55"
-
 			"deferred_description"	"1"
 			"deferred_icon"			"1"
 		}
@@ -48,7 +47,7 @@
 			"wide"			"54"
 			"tall"			"42"
 			"visible"		"0"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"Transparent"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
@@ -63,14 +62,13 @@
 			
 			"inset_eq_x"	"4"
 			"inset_eq_y"	"2"
-
 			"deferred_description"	"1"
 			
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
-				"allow_rot"				"0"
 				"inventory_image_type"	"1"
+				"allow_rot"				"0"
 			}
 			
 			"use_item_sounds"	"1"
@@ -91,7 +89,7 @@
 	
 	"CaratLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel"
 		"font"			"Cerbetica16"
 		"labelText"		">>"
@@ -146,7 +144,7 @@
 
 	"NameFilterTextEntry"
 	{
-		"ControlName"		"TextEntry"
+		"ControlName"	"TextEntry"
 		"fieldName"		"NameFilterTextEntry"
 		"xpos"		"c+205"
 		"ypos"		"30"
@@ -200,7 +198,7 @@
 		
 	"ItemSlotLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ItemSlotLabel"
 		"font"			"HudFontMediumBold"
 		"labelText"		"#PrimaryWeapon"
@@ -354,7 +352,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"&A"
-		"font"			"HudFontSmallBold"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -408,7 +406,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"&D"
-		"font"			"HudFontSmallBold"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

@@ -15,10 +15,10 @@
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"background"
-			"xpos"			"5"
+			"xpos"			"9"
 			"ypos"			"7"
 			"zpos"			"0"
-			"wide"			"50"
+			"wide"			"46"
 			"tall"			"23"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -53,10 +53,10 @@
 		}
 		"countshadow"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"countshadow"
-			"xpos"			"9999"
-			"ypos"			"9999"
+			"xpos"			"-1"
+			"ypos"			"-1"
 			"zpos"			"1"
 			"wide"			"30"
 			"tall"			"25"
@@ -64,10 +64,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontMedium"
+			"font"			"Cerbetica24"
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"center"
 			"fgcolor"		"Black"
+			
+			"pin_to_sibling"		"count"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 		
 		"playerimage"
@@ -90,7 +94,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"redteam"
-		"xpos"			"c-5"
+		"xpos"			"c-4"
 		"ypos"			"-7"
 		"zpos"			"0"
 		"wide"			"60"
@@ -104,7 +108,7 @@
 			"xpos"			"5"
 			"ypos"			"7"
 			"zpos"			"0"
-			"wide"			"50"
+			"wide"			"46"
 			"tall"			"23"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -141,8 +145,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"countshadow"
-			"xpos"			"9999"
-			"ypos"			"9999"
+			"xpos"			"-1"
+			"ypos"			"-1"
 			"zpos"			"1"
 			"wide"			"30"
 			"tall"			"25"
@@ -150,10 +154,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontMedium"
+			"font"			"Cerbetica24"
 			"labelText"		"%red_alive%"
 			"textAlignment"	"center"
 			"fgcolor"		"Black"
+			
+			"pin_to_sibling"		"count"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 		
 		"playerimage"

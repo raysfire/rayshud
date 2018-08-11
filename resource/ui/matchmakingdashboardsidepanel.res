@@ -12,7 +12,6 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
-
 		"bgcolor_override"	"0 0 0 255"
 	}
 
@@ -32,7 +31,6 @@
 		"scaleimage"	"1"
 		"mouseinputenabled"	"0"
 		"alpha"		"180"
-
 		"image"		"gradient_pure_black"
 	}
 	
@@ -55,11 +53,9 @@
 		"zpos"	"1000"
 		"visible"		"0"
 		"enabled"		"0"
-
 		"proportionaltoparent"	"1"
 		"scaleimage"	"1"
 		"mouseinputenabled"	"0"
-
 		"image"		"gradient_pure_black"
 	}
 
@@ -82,13 +78,10 @@
 		"zpos"	"1000"
 		"visible"		"0"
 		"enabled"		"0"
-
-
 		"proportionaltoparent"	"1"
 		"scaleimage"	"1"
 		"mouseinputenabled"	"0"
 		"alpha"		"255"
-
 		"image"		"gradient_pure_black"
 	}
 
@@ -112,13 +105,11 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"nav_close"
-
 		"textAlignment"	"east"
 		"font"			"Cerbetica14"
 
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
-
 		"defaultFgColor_override"	"242 242 242 255"
 		"armedFgColor_override"	"169 123 53 255"
 	}
@@ -144,13 +135,11 @@
 		"proportionaltoparent"	"1"
 		"command"		"nav_to"
 		"labelText"		"<"
-
 		"textAlignment"	"west"
 		"font"			"Cerbetica14"
 
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
-
 		"defaultFgColor_override"	"242 242 242 255"
 		"armedFgColor_override"	"169 123 53 255"
 	}
@@ -166,7 +155,6 @@
 		"tall"			"f-20"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-
 		"border"		"TeamMenuBorder"
 		"bgcolor_override"	"27 27 27 255"
 	}

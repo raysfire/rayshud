@@ -8,7 +8,6 @@
 		"wide"					"f0"
 		"tall"					"50"
 		"proportionaltoparent"	"1"
-
 		"collapsed_height"	"57"
 		"resize_time"	"0.2"
 	
@@ -39,7 +38,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"mouseinputenabled"	"0"
-		
 			"proportionaltoparent"	"1"
 			"bgcolor_override"	"0 0 0 255"
 		}
@@ -69,29 +67,22 @@
 			"wide"			"f0"
 			"tall"			"9"
 			"proportionaltoparent"	"1"
-
 			"actionsignallevel"	"2"
 			"command"		"toggle_collapse"
 			"labeltext"		"#TF_Casual_ViewMaps"
 			"textAlignment"	"west"
 			"font"	"MMenuPlayListDesc"
 			"textinsetx"	"40"
-
 			"stay_armed_on_click"	"1"
-
 			"border_default"	"NoBorder"
 			"defaultBgColor_override"	"235 226 202 20"
-
 			"border_armed"		"NoBorder"
 			"armedBgColor_override"	"LightOrange"
 			"selectedBGColor_override" "Orange"
-
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
 			"image_default"	"glyph_expand"
-
 			"button_activation_type"	"1"
 
 			"SubImage"
@@ -106,7 +97,6 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-
 				"proportionaltoparent"	"1"
 			}	
 		}
@@ -121,9 +111,8 @@
 			"wide"				"f0"
 			"tall"				"57"
 			"mouseinputenabled"	"0"
-
 			"proportionaltoparent"	"1"
-			"bgcolor_override"	"0 0 0 0"
+			"bgcolor_override"	"Transparent"
 		}
 
 		"Checkbutton"
@@ -138,7 +127,6 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		""
 			"smallcheckimage"	"1"
-
 			"sound_depressed"	"UI/buttonclickrelease.wav"	
 			"button_activation_type"	"1"
 		}
@@ -164,7 +152,6 @@
 			"default"		"1"
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
-
 			"fgcolor"		"TanLight"
 		}	
 
@@ -209,7 +196,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
 			"wrap"			"1"
 			"fgcolor_override" "TanLight"
 			"proportionaltoparent" "1"
@@ -232,7 +218,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
 			"wrap"			"1"
 			"fgcolor_override" "7 7 7 255"
 			"proportionaltoparent" "1"
@@ -268,14 +253,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
-
 		"border"		"InnerShadowBorder"
-
 		"pinCorner"		"2"
 		"autoResize"	"1"
-
 		"skip_autoresize"	"1"
-
 		"bgcolor_override"	"0 0 0 150"
 	}
 }

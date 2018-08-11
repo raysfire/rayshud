@@ -18,7 +18,7 @@
 	
 	"CenterPositioner"
 	{	
-		"ControlName"		"Label"
+		"ControlName"	"Label"
 		"fieldName"		"CenterPositioner"
 		"font"			"HudFontSmallBold"
 		"xpos"			"0"
@@ -34,7 +34,7 @@
 		"centerwrap"	"0"
 		"labelText"		""
 		"textAlignment"		"center"
-		"bgcolor_override" "0 0 0 0"
+		"bgcolor_override" 	"Transparent"
 	}
 	
 	"RecipeItemModelPanel"
@@ -62,17 +62,18 @@
 		"centerwrap"	"1"
 		"labelText"		"%updatetext%"
 		"textAlignment"		"center"
-		"fgcolor_override" "TanLight"
-		"bgcolor_override" "0 0 0 0"
+		"fgcolor_override" 	"TanLight"
+		"bgcolor_override" 	"Transparent"
 		"auto_wide_tocontents" "1"
 		
 		"pin_to_sibling"               "CenterPositioner"
         "pin_corner_to_sibling"        "4"
         "pin_to_sibling_corner"        "4"
 	}
+
 	"EllipsesLabel"
 	{	
-		"ControlName"		"Label"
+		"ControlName"	"Label"
 		"fieldName"		"EllipsesLabel"
 		"font"			"HudFontSmallBold"
 		"xpos"			"0"
@@ -80,14 +81,14 @@
 		"zpos"			"0"
 		"wide"			"200"
 		"tall"			"60"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%ellipses%"
 		"textAlignment"		"west"
 		"fgcolor_override" "TanLight"
-		"bgcolor_override" "0 0 0 0"
+		"bgcolor_override" "Transparent"
 		
 		"pin_to_sibling"               "TitleLabel"
         "pin_corner_to_sibling"        "0"

@@ -199,6 +199,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"command"		"view_more"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 

@@ -11,7 +11,6 @@
 		"wide"			"f0"
 		"tall"			"f0"
 
-	//	"bgcolor_override"	"0 0 0 100"
 		"update_url"	"http://store.steampowered.com/news/?filter=updates&appids=440"
 		"blog_url"		"http://www.teamfortress.com/"
 		
@@ -217,6 +216,8 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"paintbackground""0"
+		"sound_depressed"	""
+		"sound_released"	"UI/wooo_tree.wav"
 		
 		"defaultFgColor_override" "TanLight"
 		"armedFgColor_override" "Button Color"
@@ -245,8 +246,8 @@
 	{
 		//"ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"		"9999"
-		"ypos"		"9999"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"-99"
 		"wide"			"600"
 		"tall"			"600"
@@ -301,7 +302,7 @@
 	
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"1"
+		"paintbackground"	"0"
 		"paintborder"		"0"
 		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"255 255 255 255"
@@ -366,7 +367,7 @@
 		"fieldName"		"NoGCMessage"
 		"xpos"			"c-290"
 		"ypos"			"94"
-		"zpos"			"-99"
+		"zpos"			"99"
 		"wide"			"260"
 		"tall"			"100"
 		"visible"		"1"
@@ -549,7 +550,7 @@
 				"tall"			"16"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"replay/thumbnails/buttons/alert"
+				"image"			"replay/thumbnails/alert"
 				"scaleImage"	"1"
 			}
 		}
@@ -719,7 +720,7 @@
 				"tall"			"0"
 				"visible"		"0"
 				"enabled"		"0"
-				"image"			"replay/thumbnails/buttons/motd"
+				"image"			"replay/thumbnails/motd"
 				"scaleImage"	"1"
 			}
 		}
@@ -805,7 +806,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-				"image"			"replay/thumbnails/buttons/contracts"
+				"image"			"replay/thumbnails/contracts"
 			}
 		}
 	}
@@ -814,7 +815,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
-		"xpos"			"125"
+		"xpos"			"r28"
 		"ypos"			"62"
 		"zpos"			"1"
 		"wide"			"20"
@@ -884,7 +885,7 @@
 	{
 		"ControlName"	"CTFStreamListPanel"
 		"fieldName"		"StreamListPanel"
-		"xpos"			"300"
+		"xpos"			"c100"
 		"ypos"			"90"
 		"zpos"			"1"
 		"wide"			"300"
@@ -899,6 +900,76 @@
 		"navLeft"		"WatchStreamButton"
 	}
 
+	"SteamWorkshopButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"SteamWorkshopButton"
+		"xpos"			"125"
+		"ypos"			"62"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"20"
+			"tall"			"20"
+			"zpos"			"5"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		""
+			"font"			""
+			"Command"		"engine bug"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"actionsignallevel" "2"
+			"proportionaltoparent"	"1"
+
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			
+			"defaultFgColor_override" "TanLight"
+			"armedFgColor_override" "Button Color"
+			"depressedFgColor_override" "Button Color"
+
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"72 255 255 255"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"3"
+				"ypos"			"1"
+				"zpos"			"1"
+				"wide"			"15"
+				"tall"			"15"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"glyph_bug"
+			}
+		}
+	}
+	
 	"ReportBugButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -1039,81 +1110,11 @@
 		}
 	}
 	
-	"CreateServerButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"CreateServerButton"
-		"xpos"			"185"
-		"ypos"			"62"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"20"
-			"tall"			"20"
-			"zpos"			"5"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		""
-			"font"			""
-			"Command"		"engine bug"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"actionsignallevel" "2"
-			"proportionaltoparent"	"1"
-
-			"paintbackground"	"0"
-			"paintborder"		"0"
-			
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
-
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"72 255 255 255"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"3"
-				"ypos"			"1"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"image"			"glyph_create"
-			}
-		}
-	}
-	
 	"ConsoleButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ConsoleButton"
-		"xpos"			"205"
+		"xpos"			"185"
 		"ypos"			"62"
 		"zpos"			"1"
 		"wide"			"20"
@@ -1183,7 +1184,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"225"
+		"xpos"			"205"
 		"ypos"			"62"
 		"zpos"			"1"
 		"wide"			"20"
@@ -1253,7 +1254,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"245"
+		"xpos"			"225"
 		"ypos"			"62"
 		"zpos"			"1"
 		"wide"			"20"
@@ -1323,7 +1324,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"265"
+		"xpos"			"245"
 		"ypos"			"62"
 		"zpos"			"1"
 		"wide"			"20"
@@ -1389,6 +1390,76 @@
 		}
 	}
 
+	"RequestCoachButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"RequestCoachButton"
+		"xpos"			"265"
+		"ypos"			"62"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"20"
+			"tall"			"20"
+			"zpos"			"5"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		""
+			"font"			""
+			"Command"		"engine cl_coach_find_coach"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"actionsignallevel" "2"
+			"proportionaltoparent"	"1"
+
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			
+			"defaultFgColor_override" "TanLight"
+			"armedFgColor_override" "Button Color"
+			"depressedFgColor_override" "Button Color"
+
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"72 255 255 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"3"
+				"ypos"			"1"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"glyph_create"
+			}
+		}
+	}
+
 	"CompetitiveAccessInfoPanel"
 	{
 		"ControlName"	"CCompetitiveAccessInfoPanel"
@@ -1412,7 +1483,7 @@
 		"tall"			"195"
 		"visible"		"1"
 		"border"			"NoBorder"
-		"bgcolor_override"	"0 0 0 200"
+		"bgcolor_override"	"TransparentPanelBG"
 
 		"TitleLabel"
 		{
@@ -1925,7 +1996,8 @@
 		"fieldname"		"VersionNumber"
 		"font"			"Cerbetica14"
 		"labelText"		"rayshud"
-		//"labelText"		"v2018.05.12"
+//		"labelText"		"v2018.0805"
+
 		"xpos"			"r55"
 		"ypos"			"r13"
 		"wide"			"80"

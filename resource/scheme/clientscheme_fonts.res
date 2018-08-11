@@ -2226,60 +2226,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
-		// rays fonts and stuff
-		"Symbol16"
-		{
-			"1"
-			{
-			"name"			"Symbol"
-			"tall"			"16"
-			"weight"		"0"
-			"antialias"		"1"
-			}
-		}
-		"Symbol24"
-		{
-			"1"
-			{
-			"name"			"Symbol"
-			"tall"			"24"
-			"weight"		"0"
-			"antialias"		"1"
-			}
-		}
-		"SymbolOutline24"
-		{
-			"1"
-			{
-			"name"			"Symbol"
-			"tall"			"24"
-			"weight"		"0"
-			"antialias"		"1"
-			"outline"		"1"
-			}
-		}
-		"Symbol32"
-		{
-			"1"
-			{
-			"name"			"Symbol"
-			"tall"			"32"
-			"weight"		"0"
-			"antialias"		"1"
-			}
-		}
-		"Symbol40"
-		{
-			"1"
-			{
-			"name"			"Symbol"
-			"tall"			"40"
-			"weight"		"0"
-			"antialias"		"1"
-			}
-		}
-		
+
 		"Cerbetica7"
 		{
 			"1"
@@ -2742,6 +2689,7 @@ Scheme
 				"tall" 		 "56"
 				"additive"	 "0"
 				"antialias"	 "1"
+				"outline"	 "1"
 			}
 		}
 		"CerbeticaBold64"
@@ -2843,11 +2791,68 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"MenuArrows"
+		{
+			"1"
+			{
+				"name"			"FlawHUDIcons"
+				"tall"			"15"
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
 	}
-	//////////////////////// BITMAP FONT FILES /////////////////////////////
+	
 	BitmapFontFiles
 	{
 		// UI buttons, custom font, (256x64)
 		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
+	}
+	
+	CustomFontFiles
+	{
+		"1" "resource/tf.ttf"
+		"2" "resource/tfd.ttf"
+		"3"
+		{
+			"font" "resource/TF2.ttf"
+			"name" "TF2"
+		}
+		"4" 
+		{
+			"font" "resource/TF2Secondary.ttf"
+			"name" "TF2 Secondary"
+		}
+		"5" 
+		{
+			"font" "resource/TF2Professor.ttf"
+			"name" "TF2 Professor"
+		}	
+		"6" 
+		{
+			"font" "resource/TF2Build.ttf"
+			"name" "TF2 Build"
+		}
+		"7"
+		{
+			"font" "resource/fonts/Cerbetica.ttf"
+			"name" "Cerbetica"
+		}
+		"8"
+		{
+			"font" "resource/fonts/Cerbetica_edited.ttf"
+			"name" "Cerbetica_edited"
+		}
+		"9"
+		{
+			"font" "resource/fonts/Cerbetica_bold.ttf"
+			"name" "Cerbetica Bold"
+		}
+		"10"
+		{
+			"font"	"resource/fonts/FlawHUDIcons.otf"
+			"name"	"FlawHUDIcons"
+		}
 	}
 }

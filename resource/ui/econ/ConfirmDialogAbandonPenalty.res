@@ -19,6 +19,7 @@
 		"border"				"CyanBorderThick"
 		"bgcolor_override"		"25 25 25 255"
 	}	
+
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -35,8 +36,9 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override" "Base Color"
+		"fgcolor_override" 	"Base Color"
 	}
+
 	"AbandonIcon"
 	{
 		"ControlName"		"ImagePanel"
@@ -50,6 +52,7 @@
 		"enabled"			"1"
 		"scaleImage"		"1"
 	}
+
 	"ExplanationLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -102,6 +105,7 @@
 		"border_default"			"ButtonHover"
 		"border_armed"				"ButtonHover"
 	}
+
 	"ConfirmButton"
 	{
 		"ControlName"	"CExButton"

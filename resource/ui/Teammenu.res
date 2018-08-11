@@ -165,7 +165,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"jointeam blue"
-		"team"				"3"		// team blue
+		"team"			"3"		// team blue
 		"font"			"CerbeticaBold20"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"TanLight"
@@ -192,7 +192,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"jointeam red"
-		"team"				"4"		// team red
+		"team"			"4"		// team red
 		"font"			"CerbeticaBold20"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"TanLight"

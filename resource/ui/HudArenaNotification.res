@@ -13,7 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"		"0 0 0 200"
 	}
 	
 	"WarningLabel"
@@ -53,12 +53,13 @@
 		"labelText"		""
 		"textAlignment"	"west"
 	}
+	
 	"BalanceLabelTip"
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"BalanceLabelTip"
 		"font"			"CerbeticaBold16"
-		"xpos"			"75"
+		"xpos"			"70"
 		"ypos"			"94"
 		"zpos"			"1"
 		"wide"			"230"

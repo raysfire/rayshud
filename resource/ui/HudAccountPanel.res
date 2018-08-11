@@ -101,13 +101,13 @@
 		"font"			"Cerbetica24"
 		"font_minmode"	"Cerbetica20"
 	}
-	"AccountValueBackground"
+
+	"AccountValueShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"AccountValueBackgorund"
-		"xpos"			"2"
-		"ypos"			"113"
-		"ypos_minmode"	"63"
+		"fieldName"		"AccountValueShadow"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"26"
@@ -123,5 +123,9 @@
 		"font"			"Cerbetica24"
 		"font_minmode"	"Cerbetica20"
 		"fgcolor"		"TransparentBlack"
+
+		"pin_to_sibling"		"AccountValue"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 }

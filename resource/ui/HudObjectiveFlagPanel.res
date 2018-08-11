@@ -6,18 +6,14 @@
 		"fieldName"			"ObjectiveStatusFlagPanel"
 		"xpos"				"0"
 		"ypos"				"0"
-//<<<<<<< HEAD
-		"xpos_minmode"		"9999"
-		"ypos_minmode"		"9999"
-//=======
-//>>>>>>> f4ea0a5791ac9a9f25f4c602623d3aa7090623e8
 		"zpos"				"1"
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"1"
 		"enabled"			"1"
 		
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"zpos"			"-1"
 		}
 	}
@@ -28,11 +24,6 @@
 		"fieldName"		"LeftSideBG"
 		"xpos"			"c-120"
 		"ypos"			"r20"
-//<<<<<<< HEAD
-		"xpos_minmode"	"9999"
-		"ypos_minmode"	"9999"
-//=======
-//>>>>>>> f4ea0a5791ac9a9f25f4c602623d3aa7090623e8
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"14"
@@ -41,15 +32,18 @@
 		"fillcolor"		"70 130 180 153"
 		"scaleImage"	"1"	
 		
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"visible"	"0"
 		}
 		
-		"if_mvm" {
+		"if_mvm"
+		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"visible"	"0"
 		}
 	}
@@ -60,11 +54,6 @@
 		"fieldName"		"RightSideBG"
 		"xpos"			"c0"
 		"ypos"			"r20"	[$WIN32]
-//<<<<<<< HEAD
-		"xpos_minmode"	"9999"
-		"ypos_minmode"	"9999"
-//=======
-//>>>>>>> f4ea0a5791ac9a9f25f4c602623d3aa7090623e8
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"14"
@@ -73,15 +62,18 @@
 		"fillcolor"		"205 50 50 153"
 		"scaleImage"	"1"	
 		
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"visible"	"0"
 		}
 		
-		"if_mvm" {
+		"if_mvm"
+		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"visible"	"0"
 		}
 	}
@@ -101,15 +93,18 @@
 		"image"			"../hud/objectives_flagpanel_bg_outline"
 		"scaleImage"	"1"	
 		
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"visible"	"0"
 		}
 		
-		"if_mvm" {
+		"if_mvm"
+		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"visible"	"0"
 		}
 	}
@@ -130,15 +125,18 @@
 		"font"			"Cerbetica40"
 		"fgcolor"		"TanLight"
 		
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"visible"	"0"
 		}
 		
-		"if_mvm" {
+		"if_mvm"
+		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"visible"	"0"
 		}
 	}	
@@ -159,15 +157,18 @@
 		"font"			"Cerbetica40"
 		"fgcolor"		"Black"
 		
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"visible"	"0"
 		}
 		
-		"if_mvm" {
+		"if_mvm"
+		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"visible"	"0"
 		}
 	}	
@@ -186,17 +187,20 @@
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
-		"fgcolor"		"TanLight"		
+		"fgcolor"		"TanLight"
 		
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"visible"	"0"
 		}
 		
-		"if_mvm" {
+		"if_mvm"
+		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"visible"	"0"
 		}
 	}	
@@ -217,15 +221,18 @@
 		"font"			"Cerbetica40"
 		"fgcolor"		"Black"		
 		
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"visible"	"0"
 		}
 		
-		"if_mvm" {
+		"if_mvm"
+		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"visible"	"0"
 		}
 	}	
@@ -235,8 +242,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"OutlineImage"
 		"xpos"			"c-50"
-		"ypos"			"r127"	[$WIN32]
-		"ypos"			"r148"	[$X360]
+		"ypos"			"r127"
 		"zpos"			"9"
 		"wide"			"100"
 		"tall"			"50"
@@ -251,26 +257,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
 		"xpos"			"9999"
-		"ypos"			"9999"	[$WIN32]
-		"zpos"			"10"
-		"wide"			"100"
-		"tall"			"100"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_carried_red"
-		"scaleImage"	"1"
-		
-		"if_hybrid" {
-			"ypos"		"r142"
-		}
-		
-		"if_specialdelivery" {
-//<<<<<<< HEAD
-			"visible"	"r142"
-//=======
-//			"visible"	"1"
-//>>>>>>> f4ea0a5791ac9a9f25f4c602623d3aa7090623e8
-		}
 	}		
 	
 	"PlayingTo"
@@ -291,15 +277,18 @@
 		"font"			"Cerbetica14"
 		"fgcolor"		"TanLight"
 		
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"visible"	"0"
 		}
 		
-		"if_mvm" {
+		"if_mvm"
+		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"visible"	"0"
 		}
 	}	
@@ -310,11 +299,6 @@
 		"fieldName"		"PlayingToBG"
 		"xpos"			"c-50"	[$WIN32]
 		"ypos"			"r50"	[$WIN32]
-//<<<<<<< HEAD
-		"xpos_minmode"	"9999"
-		"ypos_minmode"	"9999"
-//=======
-//>>>>>>> f4ea0a5791ac9a9f25f4c602623d3aa7090623e8
 		"zpos"			"3"
 		"wide"			"100"	[$WIN32]
 		"tall"			"20"	[$WIN32]
@@ -323,15 +307,18 @@
 		"fillcolor"		"0 0 0 0"
 		"scaleImage"	"1"	
 		
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"visible"	"0"
 		}
 		
-		"if_mvm" {
+		"if_mvm"
+		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"visible"	"0"
 		}
 	}	
@@ -347,6 +334,11 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		if_mvm
+		{
+			"ypos"		"r95"	[$WIN32]
+		}
 		
 		"if_hybrid"
 		{
@@ -366,11 +358,13 @@
 			"ypos"		"r113"
 		}
 
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"ypos"		"r75"
 		}
 		
-		"if_no_flags" {
+		"if_no_flags"
+		{
 			"visible"	"0"
 		}
 	}
@@ -393,19 +387,23 @@
 			"ypos"		"r110"
 		}
 		
-		"if_hybrid_single" {
+		"if_hybrid_single"
+		{
 			"xpos"		"c-80"
 		}
 		
-		"if_hybrid_double" {
+		"if_hybrid_double"
+		{
 			"xpos"		"c-45"
 		}
 
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"ypos"		"r75"
 		}
 		
-		"if_no_flags" {
+		"if_no_flags"
+		{
 			"visible"	"0"
 		}
 	}	
@@ -422,11 +420,13 @@
 		"visible"		"0"
 		"enabled"		"1"
 		
-		"if_hybrid" {
+		"if_hybrid"
+		{
 			"ypos"		"r100"
 		}
 		
-		"if_specialdelivery" {
+		"if_specialdelivery"
+		{
 			"ypos"		"r100"
 		}
 	}

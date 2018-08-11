@@ -119,7 +119,6 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
-
 			"paintbackground"	"0"
 
 			if_mini
@@ -174,7 +173,6 @@
 			"command"	"medal_clicked"
 			"actionsignallevel"	"2"
 			"labeltext"	""
-
 			"paintbackground"	"0"
 			"backgroundenabled"	"0"
 		}
@@ -335,7 +333,7 @@
 					"ControlName"	"Label"
 					"fieldName"		"CurrentXPLabel"
 					"xpos"			"15"
-					"ypos"			"rs1-11"
+					"ypos"			"rs1-7"
 					"zpos"			"0"
 					"wide"			"140"
 					"tall"			"20"

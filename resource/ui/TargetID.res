@@ -58,6 +58,7 @@
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
 	}
+
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -80,6 +81,7 @@
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
 	}
+
 	"TargetIDBG_Spec_Red"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -122,6 +124,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
+
 	"TargetDataLabel"
 	{	
 		"ControlName"		"Label"
@@ -232,6 +235,7 @@
 			"iconColor"		"HudBlack"
 			"scaleImage"	"1"
 		}
+
 		"MoveableIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -262,6 +266,7 @@
 			"drawcolor"		"ProgressOffWhite"
 			"scaleImage"	"1"
 		}
+
 		"MoveableKeyText"
 		{	
 			"ControlName"	"CExLabel"
@@ -281,6 +286,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
+
 		"MoveableKeyLabel"
 		{	
 			"ControlName"	"Label"

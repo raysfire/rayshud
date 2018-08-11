@@ -9,7 +9,7 @@
 		"ypos"					"105"
 		"wide"					"400"
 		"tall"					"240"
-		"bgcolor_override"		"30 30 30 255"
+		"bgcolor_override"		"25 25 25 255"
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	"0"
 		"paintbackground"		"1"
@@ -29,16 +29,14 @@
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
+		"paintborder"		"1"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
-		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
+
 		"BackColor"
     	{
     		"ControlName"		"EditablePanel"
@@ -52,29 +50,29 @@
     		"enabled"			"1"
 			"pinCorner"			"0"
 			"autoResize"		"0"
-			"PaintBackgroundType""1"
-			"border"			"NoBorder"
-			"bgcolor_override"	"35 35 35 255"
+			"PaintBackgroundType"	"1"
+			"border"				"NoBorder"
+			"bgcolor_override"		"35 35 35 255"
+		}
 			
-			"attriblabel"
-			{
-				"font"			"ItemFontAttribLarge"
-				"xpos"			"0"
-				"ypos"			"30"
-				"zpos"			"101"
-				"wide"			"140"
-				"tall"			"60"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"labelText"		"%attriblist%"
-				"textAlignment"	"center"
-				"fgcolor"		"117 107 94 255"
-				"centerwrap"	"1"
-			}
-    	}
-	}
+		"attriblabel"
+		{
+			"font"			"ItemFontAttribLarge"
+			"xpos"			"0"
+			"ypos"			"30"
+			"zpos"			"101"
+			"wide"			"140"
+			"tall"			"60"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%attriblist%"
+			"textAlignment"	"center"
+			"fgcolor"		"117 107 94 255"
+			"centerwrap"	"1"
+		}
+    }
 
 	"TitleLabel"
 	{
@@ -149,13 +147,14 @@
 		"model_ypos"	"5"
 		"model_wide"	"80"
 		"model_tall"	"54"
-		"text_ypos"		"100"		// Hide it off the bottom
+		"text_ypos"		"100"
 		"text_center"	"1"
 		"name_only"		"1"
 		
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}	
@@ -205,7 +204,7 @@
 		"wide"			"84"
 		"tall"			"64"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"Transparent"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
@@ -214,13 +213,14 @@
 		"model_ypos"	"5"
 		"model_wide"	"80"
 		"model_tall"	"54"
-		"text_ypos"		"100"		// Hide it off the bottom
+		"text_ypos"		"100"
 		"text_center"	"1"
 		"name_only"		"1"
 		
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}	
@@ -244,14 +244,15 @@
 		"bgcolor_override" "0 0 0 255"
 		"paintbackgroundtype" "2"
 	}
+
 	"OldItemNameDescLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"OldItemNameDescLabel"
 		"font"			"HudFontSmallBold"
 		"labelText"		"#ToolItemRenameOldItemName"
-		"textAlignment"	"east"
-		"xpos"			"10"
+		"textAlignment"	"west"
+		"xpos"			"20"
 		"ypos"			"90"
 		"zpos"			"0"
 		"wide"			"185"
@@ -260,9 +261,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "117 107 94 255"
+		"fgcolor_override" "255 255 255 255"
 		"paintbackground" "0"
 	}
+
 	"OldItemNameLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -270,9 +272,9 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		"%oldname%"
 		"textAlignment"	"west"
-		"xpos"			"200"
+		"xpos"			"120"
 		"ypos"			"94"
-		"wide"			"180"
+		"wide"			"260"
 		"tall"			"24"
 		"autoResize"	"1"
 		"pinCorner"		"0"
@@ -301,14 +303,15 @@
 		"bgcolor_override" "0 0 0 255"
 		"paintbackgroundtype" "2"
 	}
+
 	"NewItemNameDescLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NewItemNameDescLabel"
 		"font"			"HudFontSmallBold"
 		"labelText"		"#ToolItemRenameNewItemName"
-		"textAlignment"	"east"
-		"xpos"			"10"
+		"textAlignment"	"west"
+		"xpos"			"20"
 		"ypos"			"130"
 		"zpos"			"0"
 		"wide"			"185"
@@ -317,16 +320,17 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "117 107 94 255"
+		"fgcolor_override" "255 255 255 255"
 		"paintbackground" "0"
 	}
+
 	"CustomNameEntry"
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"			"CustomNameEntry"
-		"xpos"				"200"
+		"xpos"				"120"
 		"ypos"				"134"
-		"wide"				"180"
+		"wide"				"260"
 		"tall"				"24"
 		"autoResize"		"1"
 		"pinCorner"			"0"
@@ -424,7 +428,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
-		"defaultBgColor_override"	"15 15 15 255k"
+		"defaultBgColor_override"	"15 15 15 255"
 		"armedBgColor_override"		"25 25 25 255"
 		"depressedBgColor_override"	"25 25 25 255"
 		"defaultFgColor_override"	"TanLight"

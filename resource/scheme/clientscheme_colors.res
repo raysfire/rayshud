@@ -87,8 +87,10 @@ Scheme
 		"ColorGreyMid"					"128 128 128 255"
 		"ColorGreyLight"				"192 192 192 255"
 		"ColorWhite"					"255 255 255 255"
+		
+		"Transparent"					"0 0 0 0"
 		//end rayshud colors
-			
+		
 		// base colors
 		"Orange"						"Base Color"
 		"OrangeDim"						"Base Color"

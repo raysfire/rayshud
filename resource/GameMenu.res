@@ -5,19 +5,16 @@
 	{
 		"label" 		"バックパック！"
 		"command" 		"engine open_charinfo"
-		"subimage" 		""
 	}
 	"GeneralStoreButton"
 	{
 		"label" 		"Mann Co.ストア"
 		"command" 		"engine open_store"
-		"subimage" 		""
 	}
 	"ReplayBrowserButton"
 	{
 		"label" 		"リプレイ"
 		"command" 		"engine replay_reloadbrowser"
-		"subimage" 		""
 	}
 	"SettingsButton"
 	{
@@ -29,11 +26,12 @@
 		"label" 		"(詳細)　設定！"
 		"command" 		"opentf2options"
 	}
-	"CreateServerButton"
+	"SteamWorkshopButton"
 	{
 		"label" 		""
-		"command" 		"OpenCreateMultiplayerGameDialog"
-		"tooltip" 		"Create Server"
+		"command" 		"engine OpenSteamWorkshopDialog"
+		"subimage" 		"glyph_steamworkshop"
+		"tooltip" 		"Steam Workshop"
 	}
 	"AchievementsButton"
 	{
@@ -47,7 +45,7 @@
 		"label"			""
 		"command"		"engine bug"
 		"subimage"		"glyph_bug"
-		"tooltip"		"Report Bug"
+		"tooltip"		"Report a Bug"
 	}
 	"ConsoleButton"
 	{
@@ -60,24 +58,32 @@
 	{
 		"label"			""
 		"command"		"callvote"
+		"OnlyInGame"	"1"
 		"subimage" 		"icon_checkbox"
 		"tooltip" 		"Call Vote"
-		"OnlyInGame"	"1"
 	}
 	"MutePlayersButton"
 	{
 		"label"			""
 		"command"		"OpenPlayerListDialog"
-		"subimage" 		"glyph_muted"
-		"tooltip" 		"Mute Player"
 		"OnlyInGame"	"1"
+		"subimage" 		"glyph_muted"
+		"tooltip" 		"Mute Players"
 	}
 	"ReportPlayerButton"
 	{
 		"label"			""
 		"command"		"OpenReportPlayerDialog"
+		"OnlyInGame"	"1"
 		"subimage"		"glyph_commentary"
 		"tooltip"		"Report Player"
+	}
+	"RequestCoachButton"
+	{
+		"label"			""
+		"command"		"engine cl_coach_find_coach"
 		"OnlyInGame"	"1"
+		"subimage" 		"icon_whistle"
+		"tooltip" 		"Request a Coach"
 	}
 }

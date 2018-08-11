@@ -59,6 +59,7 @@
 		"fillcolor"		"15 15 15 175"
 		"tileImage"		"1"
 	}		
+
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"

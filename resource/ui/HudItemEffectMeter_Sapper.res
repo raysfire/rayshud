@@ -8,7 +8,7 @@
 		"xpos"			"c-75"	
 		"ypos"			"c103"
 		"ypos_minmode"	"c53"
-		"wide"			"500"
+		"wide"			"200"
 		"tall"			"500"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"

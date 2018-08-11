@@ -91,6 +91,7 @@
 		"text_ypos"		"100"		// Hide it off the bottom
 		"text_center"	"1"
 		"name_only"		"1"
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -153,6 +154,7 @@
 		"text_ypos"		"100"		// Hide it off the bottom
 		"text_center"	"1"
 		"name_only"		"1"
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"

@@ -2,7 +2,7 @@
 {
 	"TeamScoresPanel"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"TeamScoresPanel"
 		"xpos"			"0"
 		"ypos"			"16"
@@ -12,7 +12,7 @@
 
 		"BlueScoreBG"
 		{
-			"ControlName"		"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"BlueScoreBG"
 			"xpos"			"0"
 			"ypos"			"15"
@@ -23,11 +23,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"70 130 180 153"
-			"scaleImage"		"1"
+			"scaleImage"	"1"
 		}
 		"RedScoreBG"
 		{
-			"ControlName"		"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"RedScoreBG"
 			"xpos"			"100"
 			"ypos"			"15"
@@ -38,7 +38,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"205 50 50 153"
-			"scaleImage"		"1"
+			"scaleImage"	"1"
 		}
 		"BlueTeamLabel"
 		{
@@ -59,11 +59,11 @@
 		}
 		"BlueTeamScore"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamScore"
 			"font"			"Cerbetica44"
 			"labelText"		"%blueteamscore%"
-			"textAlignment"		"east"
+			"textAlignment"	"east"
 			"xpos"			"15"
 			"ypos"			"-19"
 			"zpos"			"3"
@@ -76,11 +76,11 @@
 		}
 		"BlueTeamScoreDropshadow"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
 			"font"			"Cerbetica44"
 			"labelText"		"%blueteamscore%"
-			"textAlignment"		"east"
+			"textAlignment"	"east"
 			"xpos"			"-2"
 			"ypos"			"-2"
 			"zpos"			"3"
@@ -92,13 +92,13 @@
 			"enabled"		"1"
 			"fgcolor"		"TransparentBlack"
 		
-			"pin_to_sibling"	"BlueTeamScore"
+			"pin_to_sibling"		"BlueTeamScore"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 		"BlueLeaderAvatar"
 		{
-			"ControlName"		"CAvatarImagePanel"
+			"ControlName"	"CAvatarImagePanel"
 			"fieldName"		"BlueLeaderAvatar"
 			"xpos"			"2"
 			"ypos"			"17"
@@ -113,11 +113,11 @@
 		}
 		"RedTeamLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"RedTeamLabel"
 			"font"			"Cerbetica24"
 			"labelText"		"%redteamname%"
-			"textAlignment"		"east"
+			"textAlignment"	"east"
 			"xpos"			"122"
 			"ypos"			"13"
 			"zpos"			"1"
@@ -130,11 +130,11 @@
 		}
 		"RedTeamScore"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"RedTeamScore"
 			"font"			"Cerbetica44"
 			"labelText"		"%redteamscore%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"105"
 			"ypos"			"-19"
 			"zpos"			"3"
@@ -147,11 +147,11 @@
 		}
 		"RedTeamScoreDropshadow"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"RedTeamScoreDropshadow"
 			"font"			"Cerbetica44"
 			"labelText"		"%redteamscore%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"xpos"			"-2"
 			"ypos"			"-2"
 			"zpos"			"2"
@@ -163,13 +163,13 @@
 			"enabled"		"1"
 			"fgcolor"		"TransparentBlack"
 		
-			"pin_to_sibling"	"RedTeamScore"
+			"pin_to_sibling"		"RedTeamScore"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 		"RedLeaderAvatar"
 		{
-			"ControlName"		"CAvatarImagePanel"
+			"ControlName"	"CAvatarImagePanel"
 			"fieldName"		"RedLeaderAvatar"
 			"xpos"			"177"
 			"ypos"			"17"
@@ -194,7 +194,7 @@
 		"tall"			"80"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"		"1"	
+		"scaleImage"	"1"	
 		"border"		"TFFatLineBorderBlueBG"
 		"proportionaltoparent"	"1"
 	}
@@ -209,16 +209,16 @@
 		"tall"			"152"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"		"1"	
-		"fillcolor"		"0 0 0 100"
-		"src_corner_height" "3"
-		"src_corner_width" "3"
-		"draw_corner_width" "0"
-		"draw_corner_height" "0"		
+		"scaleImage"	"1"	
+		"fillcolor"		"0 0 0 245"
+		"src_corner_height" 	"3"
+		"src_corner_width" 		"3"
+		"draw_corner_width" 	"0"
+		"draw_corner_height" 	"0"		
 	}
 	"WinningTeamLabel"
 	{	
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"WinningTeamLabel"
 		"font"			"CerbeticaBold20"
 		"xpos"			"10"
@@ -226,18 +226,18 @@
 		"zpos"			"1"
 		"wide"			"180"
 		"tall"			"40"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%WinningTeamLabel%"
-		"textAlignment"		"Center"
+		"textAlignment"	"Center"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 	}
 	"WinningTeamLabelDropshadow"
 	{	
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TransparentBlack"
@@ -246,16 +246,16 @@
 		"zpos"			"1"
 		"wide"			"180"
 		"tall"			"40"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%WinningTeamLabel%"
-		"textAlignment"		"Center"
+		"textAlignment"	"Center"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 		
-		"pin_to_sibling"	"WinningTeamLabel"
+		"pin_to_sibling"		"WinningTeamLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}

@@ -514,7 +514,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"replay/thumbnails/buttons/motd"
+				"image"			"replay/thumbnails/motd"
 				"scaleImage"	"1"
 			}
 		}
@@ -616,7 +616,7 @@
 				"tall"			"20"
 				"visible"		"0"
 				"enabled"		"0"
-				"image"			"replay/thumbnails/buttons/alert"
+				"image"			"replay/thumbnails/alert"
 				"scaleImage"	"1"
 			}
 		}
@@ -1465,7 +1465,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-				"image"			"replay/thumbnails/buttons/contracts"
+				"image"			"replay/thumbnails/contracts"
 			}
 		}
 	}
@@ -1850,7 +1850,7 @@
 		"ControlName"	"CExLabel"
 		"fieldname"		"VersionNumber"
 		"font"			"CerbeticaBold20"
-		"labelText"		"rayshud v2018.05.12"
+		"labelText"		"rayshud v2018.0805"
 		"xpos"			"112"
 		"ypos"			"35"
 		"wide"			"130"

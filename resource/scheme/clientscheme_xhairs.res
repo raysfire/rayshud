@@ -1370,5 +1370,81 @@ Scheme
 				"outline"		"1"
 			}
 		}
+		
+		"Symbol16"
+		{
+			"1"
+			{
+				"name"			"Symbol"
+				"tall"			"16"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Symbol24"
+		{
+			"1"
+			{
+				"name"			"Symbol"
+				"tall"			"24"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"SymbolOutline24"
+		{
+			"1"
+			{
+				"name"			"Symbol"
+				"tall"			"24"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		"Symbol32"
+		{
+			"1"
+			{
+				"name"			"Symbol"
+				"tall"			"32"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Symbol40"
+		{
+			"1"
+			{
+				"name"			"Symbol"
+				"tall"			"40"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+	}
+	
+	CustomFontFiles
+	{
+		"100" // Fog's xHairs
+		{
+			"font" "resource/fonts/crosshairs.ttf"
+			"name" "Crosshairs"
+		}
+		"101" // Thin Cross
+		{
+			"font" "resource/fonts/Symbol.ttf"
+			"name" "Symbol"
+		}
+		"102" // Konr Wings
+		{
+			"font" "resource/fonts/Garm3nFont.ttf"
+			"name" "Garm3nFont"
+		}
+		"103"
+		{
+			"font" "resource/fonts/KnucklesCrosses.ttf"
+			"name" "KnucklesCrosses"
+		}
 	}
 }

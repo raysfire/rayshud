@@ -1,6 +1,6 @@
 "Resource/UI/HudPlayerClass.res"
 {
-	// player class data
+	// Player Class Data
 	"HudPlayerClass"
 	{
 		"ControlName"	"EditablePanel"
@@ -31,9 +31,8 @@
 	"PlayerStatusSpyImage"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusSpyImage"
-		"xpos"			"9999"		[$WIN32]
-		"ypos"			"9999"	[$WIN32]
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"55"
@@ -42,7 +41,7 @@
 		"image"			"../hud/class_spyred"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/class_spyred"
-		"teambg_3"		"../hud/class_spyblue"			
+		"teambg_3"		"../hud/class_spyblue"		
 	}	
 	"PlayerStatusSpyOutlineImage"
 	{
@@ -62,38 +61,14 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"			"9999"		[$WIN32]
-		"ypos"			"9999"	[$WIN32]
-		"zpos"			"1"		
-		"wide"			"100"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/character_red_bg"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/character_red_bg"
-		"teambg_2_lodef"	"../hud/character_red_bg_lodef"
-		"teambg_3"		"../hud/character_blue_bg"
-		"teambg_3_lodef"	"../hud/character_blue_bg_lodef"
+		"xpos"			"9999"
 	}
 	
 	"classmodelpanelBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
-		"xpos"			"9999"		[$WIN32]
-		"ypos"			"9999 "	[$WIN32]
-		"zpos"			"1"		
-		"wide"			"109"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"				"../hud/character_red_bg_clipped"	
-		"teambg_2"			"../hud/character_red_bg_clipped"
-		"teambg_2_lodef"	"../hud/character_red_bg_lodef_clipped"
-		"teambg_3"			"../hud/character_blue_bg_clipped"
-		"teambg_3_lodef"	"../hud/character_blue_bg_lodef_clipped"
+		"xpos"			"9999"
 	}
 
 	"classmodelpanel"

@@ -16,6 +16,7 @@
 		"TextColor"		"HudOffWhite"
 		"autoResize"	"1"
 	}
+
 	"SpectatorGUIHealth"
 	{
 		"ControlName"	"EditablePanel"

@@ -26,7 +26,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"100 100 100 100"
+		"fillcolor"		"0 0 0 200"
 	}
 	"MainBG"
 	{
@@ -40,7 +40,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"255 255 255 10"
+		"fillcolor"		"0 0 0 200"
 	}
 	"SidePanelBG"
 	{
@@ -67,7 +67,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"
+		"fillcolor"		"0 0 0 200"
 	}
 
 	"SysMenu"
@@ -87,7 +87,7 @@
 
 	"MapInfo"
 	{
-		"ControlName"		"HTML"
+		"ControlName"	"HTML"
 		"fieldName"		"MapInfo"
 		"xpos"			"100"
 		"ypos"			"34"
@@ -121,7 +121,7 @@
 	}
 	"teambutton2"
 	{
-		"ControlName"		"CTFTeamButton"
+		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton2"
 		"xpos"			"10"
 		"ypos"			"c-35"
@@ -140,16 +140,24 @@
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
 		"associated_model"	"autodoor"
-		"font"			"CerbeticaBold20"
-		"defaultFgColor_override" 	"255 255 255 128"
+		"font"				"CerbeticaBold20"
+		
+		"defaultFgColor_override"	"255 255 255 128"
+		"defaultBgColor_override"	"0 0 0 200"
+		
 		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"TanLight"
+		"armedBgColor_override"		"TanDarker"
+		
+		"depressedFgColor_override"	"255 255 255 128"
+		"depressedBgColor_override"	"0 0 0 200"
+		
+		"selectedFgColor_override"	"TanLight"
+		"selectedBgColor_override"	"TanDarker"
 	}
 	
 	"teambutton3"
 	{
-		"ControlName"		"CTFTeamButton"
+		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton3"
 		"xpos"			"10"
 		"ypos"			"c5"
@@ -169,10 +177,18 @@
 		"command"		"jointeam spectatearena"
 		"associated_model"	"spectate"	
 		"font"				"CerbeticaBold20"
-		"defaultFgColor_override" 	"255 255 255 128"
+		
+		"defaultFgColor_override"	"255 255 255 128"
+		"defaultBgColor_override"	"0 0 0 200"
+		
 		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"TanLight"
+		"armedBgColor_override"		"TanDarker"
+		
+		"depressedFgColor_override"	"255 255 255 128"
+		"depressedBgColor_override"	"0 0 0 200"
+		
+		"selectedFgColor_override"	"TanLight"
+		"selectedBgColor_override"	"TanDarker"
 	}
 	
 	"CancelButton" [$WIN32] 
@@ -399,25 +415,25 @@
 	
 	"Footer" [$X360]
 	{
-		"ControlName"		"CTFFooter"
-		"fieldName"			"Footer"
-		"zpos"				"6"
-		"tall"				"80"
-		"button_separator"	"10"
+		"ControlName"				"CTFFooter"
+		"fieldName"					"Footer"
+		"zpos"						"6"
+		"tall"						"80"
+		"button_separator"			"10"
 		"button_separator_lodef"	"5"
-		"buttongap"			"50"
-		"buttongap_hidef"		"35"
+		"buttongap"					"50"
+		"buttongap_hidef"			"35"
 		"buttongap_lodef"			"18"
-		"textadjust"		"3"
-		"textadjust_lodef"		"0"
-		"buttonoffsety"		"20"
+		"textadjust"				"3"
+		"textadjust_lodef"			"0"
+		"buttonoffsety"				"20"
 		"buttonoffsety_hidef"		"0"
 		"buttonoffsety_lodef"		"18"
-		"center"			"0"
+		"center"					"0"
 		"button_pin_right_lodef"	"55"
-		"fonttext"			"MatchmakingDialogMenuLarge"
+		"fonttext"					"MatchmakingDialogMenuLarge"
 		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
-		"fgcolor"			"HudOffWhite" 	
+		"fgcolor"					"HudOffWhite" 	
 		
 		"button"
 		{

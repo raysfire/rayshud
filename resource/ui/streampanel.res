@@ -15,7 +15,6 @@
 		"bgcolor_override"	"0 0 0 50"
 	}
 
-
 	"LoadingPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -41,7 +40,6 @@
 			"enable"		"1"
 			"scaleImage"	"1"
 			"image"			"animated/tf2_logo_hourglass"
-
 			"proportionaltoparent"	"1"
 		}
 
@@ -61,11 +59,9 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"56 53 49 255"
-
 			"proportionaltoparent"	"1"
 		}
 	}
-
 
 	"PreviewImage"
 	{

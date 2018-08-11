@@ -204,7 +204,6 @@
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-		
 	}
 
 	"BGFrame"
@@ -346,7 +345,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"max_size"		"19"
-
 		"6v6_gap"		"1"
 		"12v12_gap"		"1"
 
@@ -457,7 +455,7 @@
 				"textAlignment"			"Left"
 				"dulltext"				"0"
 				"brighttext"			"0"
-				"bgcolor_override"	   "0 0 0 0"
+				"bgcolor_override"	   "Transparent"
 				"fgcolor_override"	   "255 255 255 160"
 				"proportionaltoparent"	"1"
 			}
@@ -492,9 +490,10 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"image"			"../HUD/tournament_panel_brown"
-				"src_corner_height"	"22"				// pixels inside the image
+
+				"src_corner_height"	"22"
 				"src_corner_width"	"22"
-				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_width"	"3"
 				"draw_corner_height" 	"3"
 			}
 			"ReadyImage"
@@ -727,7 +726,8 @@
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
 			
-			if_large {
+			if_large
+			{
 				"tall"		"325"
 			}			
 		}
@@ -844,7 +844,8 @@
 			"linegap"		"4"
 			//"show_columns"	"1"
 			
-			if_large {
+			if_large
+			{
 				"tall"		"315"
 			}			
 		}
@@ -863,7 +864,8 @@
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
 			
-			if_large {
+			if_large
+			{
 				"tall"		"325"
 			}			
 		}
