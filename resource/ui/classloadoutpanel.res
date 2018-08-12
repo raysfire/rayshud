@@ -328,7 +328,7 @@
 		"tall"			"75"
 		"autoResize"	"1"
 		"visible"		"0"
-		"bgcolor_override"		"69 64 63 0"
+		"bgcolor_override"		"35 35 35 255"
 		"PaintBackgroundType"	"0"
 	}
 	
