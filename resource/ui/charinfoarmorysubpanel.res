@@ -246,19 +246,27 @@
 		"wide"			"250"
 		"tall"			"180"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 255"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"0"
+		"paintborder"	"1"
+		
+		"text_xpos"			"0"
 		"text_ypos"			"20"
+		"text_wide"			"250"
 		"text_center"		"1"
 		"model_hide"		"0"
 		"resize_to_text"	"0"
 		"padding_height"	"15"
 		"name_only"			"1"
+		
 		"model_ypos"	"40"
-		"model_tall"	"120"	
+		"model_xpos"	"50"
+		"model_wide"	"156"
+		"model_tall"	"100"
+		
 		"text_forcesize"	"1"
+		"is_mouseover"		"1"
 		
 		"itemmodelpanel"
 		{
@@ -296,8 +304,8 @@
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override" 	"TanLight"
 		"depressedFgColor_override" "TanLight"
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
+		"border_default"			"CyanBorderThick"
+		"border_armed"				"CyanBorderThick"
 	}
 	
 	"CurPageLabel"
@@ -347,8 +355,8 @@
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override" 	"TanLight"
 		"depressedFgColor_override" "TanLight"
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
+		"border_default"			"CyanBorderThick"
+		"border_armed"				"CyanBorderThick"
 	}
 	
 	"WikiButton"
@@ -380,8 +388,8 @@
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override" 	"TanLight"
 		"depressedFgColor_override" "TanLight"
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
+		"border_default"			"CyanBorderThick"
+		"border_armed"				"CyanBorderThick"
 	}
 	
 	"ViewSetButton"
@@ -413,8 +421,8 @@
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override" 	"TanLight"
 		"depressedFgColor_override" "TanLight"
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
+		"border_default"			"CyanBorderThick"
+		"border_armed"				"CyanBorderThick"
 	}
 	
 	"StoreButton"
@@ -424,7 +432,7 @@
 		"xpos"			"c-298"
 		"ypos"			"290"
 		"zpos"			"20"
-		"wide"			"100"
+		"wide"			"160"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -445,8 +453,8 @@
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override" 	"TanLight"
 		"depressedFgColor_override" "TanLight"
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
+		"border_default"			"CyanBorderThick"
+		"border_armed"				"CyanBorderThick"
 	}
 	
 	"ReloadSchemeButton"
@@ -478,7 +486,7 @@
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override" 	"TanLight"
 		"depressedFgColor_override" "TanLight"
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
+		"border_default"			"CyanBorderThick"
+		"border_armed"				"CyanBorderThick"
 	}
 }
