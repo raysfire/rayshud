@@ -102,16 +102,16 @@
 		"font_minmode"			"CerbeticaBold20"
 	}
 	
-	"ItemEffectMeterCountBG"
+	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCount"
+		"fieldName"				"ItemEffectMeterCountShadow"
 		"xpos"					"2"
 		"ypos"					"2"
 		"ypos_minmode"			"6"
 		"zpos"					"2"
 		"wide"					"150"
-		"tall"					"30"	
+		"tall"					"30"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"

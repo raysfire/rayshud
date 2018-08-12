@@ -2,34 +2,16 @@
 {
 	HudItemEffectMeter
 	{
-		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-75"
-		"ypos"			"c123"
-		"ypos_minmode"	"c60"
-		"wide"			"200"
-		"tall"			"500"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
-	}
-	
-	"ItemEffectMeterBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"0"
-		"wide"			"100"
-		"tall"			"50"
-		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_horiz1_blue"
-		"scaleImage"	"1"	
-		"teambg_2"			"../hud/misc_ammo_area_horiz1_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"			"../hud/misc_ammo_area_horiz1_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"
+		"fieldName"				"HudItemEffectMeter"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-75"
+		"ypos"					"c123"
+		"ypos_minmode"			"c60"
+		"wide"					"200"
+		"tall"					"500"
+		"MeterFG"				"White"
+		"MeterBG"				"Gray"
 	}
 	
 	"ItemEffectMeterLabel"
