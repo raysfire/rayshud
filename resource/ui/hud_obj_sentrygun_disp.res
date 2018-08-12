@@ -234,6 +234,7 @@
 				"image"			"../hud/hud_obj_status_kill_64"
 				"drawcolor"		"ProgressOffWhite"
 			}
+
 			"KillsLabel"
 			{	
 				"ControlName"	"CExLabel"
@@ -252,6 +253,7 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
+
 			"ShellIcon"
 			{
 				"ControlName"	"ImagePanel"

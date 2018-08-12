@@ -44,7 +44,7 @@
         "visible"		"1"
         "enabled"		"1"
     }
-
+	
 	"MainBackground"
 	{
 		"ControlName"	"ImagePanel"
@@ -58,7 +58,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}	
-
+	
 	"MapInfo"
 	{
 		"ControlName"	"EditablePanel"

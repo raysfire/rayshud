@@ -28,7 +28,7 @@
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
+		"paintborder"		"0"
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"

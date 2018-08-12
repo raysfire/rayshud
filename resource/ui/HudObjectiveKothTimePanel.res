@@ -4,7 +4,7 @@
 	{
 		if_match
 		{
-			"zpos"		"5"
+			"zpos"			"5"
 		}
 	}
 	
@@ -36,28 +36,28 @@
 		
 		"TimePanelValue"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TimePanelValue"
-			"font"			"Cerbetica22"
-			"fgcolor"		"TanLight"
-			"xpos"			"28"
-			"ypos"			"-4"
-			"zpos"			"3"
-			"wide"			"45"
-			"tall"			"31"
-			"visible"		"1"
-			"enabled"		"1"
-			"textAlignment"	"center"
-			"labelText"		"0:00"
+			"ControlName"		"CExLabel"
+			"fieldName"			"TimePanelValue"
+			"font"				"Cerbetica22"
+			"fgcolor"			"TanLight"
+			"xpos"				"28"
+			"ypos"				"-4"
+			"zpos"				"3"
+			"wide"				"45"
+			"tall"				"31"
+			"visible"			"1"
+			"enabled"			"1"
+			"textAlignment"		"center"
+			"labelText"			"0:00"
 			
 			if_match
 			{
-				"proportionaltoparent"	"1"
 				"xpos"			"10"
 				"ypos"			"9"
 				"tall"			"10"
 				"wide"			"35"
 				"font"			"HudFontSmall"
+				"proportionaltoparent"	"1"
 			}
 		}	
 	}
@@ -120,7 +120,6 @@
 			
 			if_match
 			{
-				"proportionaltoparent"	"1"
 				"xpos"			"rs1-15"
 				"ypos"			"9"
 				"wide"			"35"
@@ -128,6 +127,7 @@
 				"font"			"HudFontSmall"
 				"font_minmode"	"HudFontSmall"
 				"font_lodef"	"HudFontSmall"
+				"proportionaltoparent"	"1"
 			}			
 		}	
 	}

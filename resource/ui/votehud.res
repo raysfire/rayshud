@@ -475,7 +475,7 @@
 		"enabled"		"1"
 		"border"		"CyanBorderThick"
 		"bgcolor_override"	"25 25 25 255"
-				
+		
 		"FailedIcon"
 		{
 			"ControlName"	"ImagePanel"
@@ -546,7 +546,7 @@
 		"border"				"CyanBorderThick"
 		"bgcolor_override"		"30 30 30 255"
 		"PaintBackground"		"1"
-
+		
 		"header_font"				"ItemFontNameLarge"
 		"header_fgcolor"			"Orange"
 		"issue_width"				"180"

@@ -41,7 +41,7 @@
 			"zpos"			"-1"
 			"wide"			"275"
 			"tall"			"100"
-			"autoResize"		"0"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
@@ -74,8 +74,8 @@
 		{
 			"ControlName"	"CExRichText"
 			"fieldName"		"HudStopWatchObjectiveText1"
-			"xpos"			"25"	[$WIN32]
-			"ypos"			"35"	[$WIN32]
+			"xpos"			"25"
+			"ypos"			"35"
 			"wide"			"225"
 			"tall"			"150"
 			"wrap"			"1"
@@ -111,8 +111,8 @@
 		{
 			"ControlName"	"CExRichText"
 			"fieldName"		"HudStopWatchObjectiveText2"
-			"xpos"			"25"	[$WIN32]
-			"ypos"			"75"	[$WIN32]
+			"xpos"			"25"
+			"ypos"			"75"
 			"wide"			"225"
 			"tall"			"165"
 			"wrap"			"1"

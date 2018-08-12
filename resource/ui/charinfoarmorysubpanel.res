@@ -246,14 +246,12 @@
 		"wide"			"250"
 		"tall"			"180"
 		"visible"		"0"
-		"bgcolor_override"		"Transparent"
-		"noitem_textcolor"		"TextColor"
+		"bgcolor_override"		"0 0 0 255"
+		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
-		"text_xpos"			"0"
 		"text_ypos"			"20"
-		"text_wide"			"250"
 		"text_center"		"1"
 		"model_hide"		"0"
 		"resize_to_text"	"0"
@@ -304,8 +302,8 @@
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override" 	"TanLight"
 		"depressedFgColor_override" "TanLight"
-		"border_default"			"CyanBorderThick"
-		"border_armed"				"CyanBorderThick"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 	
 	"CurPageLabel"
@@ -355,8 +353,8 @@
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override" 	"TanLight"
 		"depressedFgColor_override" "TanLight"
-		"border_default"			"CyanBorderThick"
-		"border_armed"				"CyanBorderThick"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 	
 	"WikiButton"
@@ -432,7 +430,7 @@
 		"xpos"			"c-298"
 		"ypos"			"290"
 		"zpos"			"20"
-		"wide"			"160"
+		"wide"			"100"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"

@@ -51,8 +51,8 @@
 		"brighttext"	"0"
 		"font"			"Cerbetica24"
 		"fgcolor"		"TanLight"
-	}	
-
+	}
+	
 	"TextMessage"
 	{
 		"ControlName"	"TextEntry"
@@ -60,7 +60,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-
+	
 	"TFTextMessage"
 	{
 		"ControlName"	"CExRichText"

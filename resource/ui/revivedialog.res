@@ -3,19 +3,19 @@
 	"ConfirmDialog"
 	{
 		"ControlName"		"Frame"
-		"fieldName"		"ConfirmDialog"
-		"xpos"			"c-110"
-		"ypos"			"285"
-		"wide"			"220"
-		"tall"			"100"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"fieldName"			"ConfirmDialog"
+		"xpos"				"c-110"
+		"ypos"				"285"
+		"wide"				"220"
+		"tall"				"100"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
+		"paintborder"			"0"
 		
 		"BackColor"
     	{
@@ -28,10 +28,10 @@
     		"tall"	 			"f0"
     		"visible"			"1"
     		"enabled"			"1"
-			"pinCorner"		"0"
-			"autoResize"	"0"
+			"pinCorner"			"0"
+			"autoResize"		"0"
 			"PaintBackgroundType"	"0"
-			"border"		"NoBorder"
+			"border"			"NoBorder"
 			"bgcolor_override"	"15 15 15 175"
     	}
 
@@ -120,7 +120,7 @@
 			"TFFont"					"HudFontSmallest"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
 			"TextColor"					"HudOffWhite"
-			"autoResize"	"1"
+			"autoResize"				"1"
 		}
 	}
 }

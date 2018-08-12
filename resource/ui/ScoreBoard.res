@@ -667,7 +667,7 @@
 			"labelText"		"#TF_ScoreBoard_Dueling"
 			"textAlignment"	"center"
 			"xpos"			"250"
-			"ypos"			"2	"
+			"ypos"			"2"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"
@@ -1717,7 +1717,6 @@
 			"enabled"		"1"
 		}	
 	}
-
 
 	"ButtonLegendBG"		[$X360]
 	{

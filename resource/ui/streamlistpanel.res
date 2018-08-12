@@ -68,6 +68,7 @@
 		
 		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"200 80 60 255"
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"

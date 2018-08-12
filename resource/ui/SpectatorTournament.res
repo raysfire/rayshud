@@ -10,24 +10,24 @@
 		"pinCorner"		"0"
 		"enabled"		"1"
 
-		"team1_player_base_offset_x"		"0"
-		"team1_player_base_y"				"220"
-		"team1_player_delta_x"				"0"
-		"team1_player_delta_y"				"-16"
-		"team2_player_base_offset_x"		"0"
-		"team2_player_base_y"				"240"
-		"team2_player_delta_x"				"0"
-		"team2_player_delta_y"				"16"
+		"team1_player_base_offset_x"	"0"
+		"team1_player_base_y"			"220"
+		"team1_player_delta_x"			"0"
+		"team1_player_delta_y"			"-16"
+		"team2_player_base_offset_x"	"0"
+		"team2_player_base_y"			"240"
+		"team2_player_delta_x"			"0"
+		"team2_player_delta_y"			"16"
 		
 		"playerpanels_kv"
 		{
-			"visible"		"0"
-			"wide"			"156"
-			"tall"			"16"
-			"zpos"			"1"
-			"color_ready"	"0 255 0 220"
+			"visible"			"0"
+			"wide"				"156"
+			"tall"				"16"
+			"zpos"				"1"
+			"color_ready"		"0 255 0 220"
 			"color_notready"	"0 0 0 220"
-			"tabPosition"	"0"
+			"tabPosition"		"0"
 			
 			"PanelBackground"
 			{
@@ -170,13 +170,13 @@
 				"tall"			"18"
 				"visible"		"1"
 				"enabled"		"1"
-				"team1_image"			"../hud/class_scoutred"
+				"team1_image"	"../hud/class_scoutred"
 				"scaleImage"	"1"	
 			}
 			
 			"classimagebg"
 			{
-				"ControlName"		"Panel"
+				"ControlName"	"Panel"
 				"fieldName"		"classimagebg"
 				"xpos"			"9999"
 				"ypos"			"9999"
@@ -192,20 +192,20 @@
 			
 			"HealthIcon"
 			{
-				"ControlName" "EditablePanel"
-				"fieldName" "HealthIcon"
-				"xpos" "0"
-				"ypos" "0"
-				"zpos" "3"
-				"wide" "24"
-				"tall" "14"
-				"visible" "1"
-				"enabled" "1"
-				"HealthBonusPosAdj" "10"
-				"HealthDeathWarning" "0.49"
-				"TFFont" "HudFontSmallest"
-				"HealthDeathWarningColor" "HUDDeathWarning"
-				"TextColor" "HudOffWhite"
+				"ControlName" 	"EditablePanel"
+				"fieldName" 	"HealthIcon"
+				"xpos" 			"0"
+				"ypos" 			"0"
+				"zpos" 			"3"
+				"wide" 			"24"
+				"tall" 			"14"
+				"visible" 		"1"
+				"enabled" 		"1"
+				"HealthBonusPosAdj" 		"10"
+				"HealthDeathWarning" 		"0.49"
+				"TFFont" 					"HudFontSmallest"
+				"HealthDeathWarningColor" 	"HUDDeathWarning"
+				"TextColor" 				"HudOffWhite"
 			}
 
 			"ReadyBG"
@@ -223,16 +223,16 @@
 				"enabled"		"1"
 				"image"			"../HUD/tournament_panel_brown"
 
-				"src_corner_height"	"22"				// pixels inside the image
-				"src_corner_width"	"22"
+				"src_corner_height"		"22"			// pixels inside the image
+				"src_corner_width"		"22"
 			
-				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_width"		"3"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"3"
 			}
 			
 			"ReadyImage"
 			{
-				"ControlName"		"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"ReadyImage"
 				"xpos"			"32"
 				"ypos"			"8"
@@ -244,7 +244,7 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"image"			"hud/checkmark"
-				"scaleImage"		"1"
+				"scaleImage"	"1"
 			}
 			
 			"respawntime"
@@ -263,8 +263,8 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
 				"fgcolor"		"255 20 175 255"
-				
 			}
+			
 			"respawntimeBG"
 			{
 				"ControlName"	"CExLabel"
@@ -282,7 +282,8 @@
 				"textAlignment"	"west"
 				"fgcolor"		"TransparentBlack"
 			}
-			"healthcover"	//Blocks48
+			
+			"healthcover"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"healthcover"
@@ -317,6 +318,7 @@
 				"textAlignment"	"east"
 				"fgcolor"		"0 255 255 255"
 			}
+			
 			"chargeamountBG"
 			{
 				"ControlName"	"CExLabel"
@@ -394,7 +396,7 @@
 		"font"			"Cerbetica24"
 		
 		if_mvm{
-			"ypos"		"0"
+			"ypos"		"68"	[$WIN32]
 		}
 	}
 	"BuyBackLabel"
@@ -417,7 +419,7 @@
 	
 		if_mvm 
 		{
-			"visible"		"1"
+			"visible"	"1"
 		}	
 	}
 
@@ -494,10 +496,10 @@
 		"model_wide"		"90"
 		"model_tall"		"60"
 		
-		"text_xpos"		"10"
-		"text_ypos"		"10"
-		"text_wide"		"220"
-		"text_center"	"1"
+		"text_xpos"			"10"
+		"text_ypos"			"10"
+		"text_wide"			"220"
+		"text_center"		"1"
 		
 		"max_text_height"	"100"
 		"padding_height"	"10"
@@ -506,40 +508,41 @@
 		
 		"ItemBackground"
 		{
-			"ControlName" "ImagePanel"
-			"fieldName" "ItemBackground"
-			"xpos" "0"
-			"ypos" "0"
-			"zpos" "-1"
-			"wide" "240"
-			"tall" "900"
-			"autoResize" "0"
-			"pinCorner" "0"
-			"visible" "1"
-			"enabled" "1"
-			"fillcolor" "0 0 0 100"
+			"ControlName" 	"ImagePanel"
+			"fieldName" 	"ItemBackground"
+			"xpos" 			"0"
+			"ypos" 			"0"
+			"zpos" 			"-1"
+			"wide" 			"240"
+			"tall" 			"900"
+			"autoResize" 	"0"
+			"pinCorner" 	"0"
+			"visible" 		"1"
+			"enabled" 		"1"
+			"fillcolor" 	"0 0 0 100"
 		}
+		
 		"TitleBackground"
 		{
-			"ControlName" "ImagePanel"
-			"fieldName" "TitleBackground"
-			"xpos" "4"
-			"ypos" "4"
-			"zpos" "-1"
-			"wide" "232"
-			"tall" "14"
-			"autoResize" "0"
-			"pinCorner" "0"
-			"visible" "1"
-			"enabled" "1"
-			"fillcolor" "0 0 0 100"
+			"ControlName" 	"ImagePanel"
+			"fieldName" 	"TitleBackground"
+			"xpos" 			"4"
+			"ypos" 			"4"
+			"zpos" 			"-1"
+			"wide" 			"232"
+			"tall" 			"14"
+			"autoResize" 	"0"
+			"pinCorner" 	"0"
+			"visible" 		"1"
+			"enabled" 		"1"
+			"fillcolor" 	"0 0 0 100"
 		}
 		
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
+			"useparentbg"	"1"
 			"use_item_rendertarget" "0"
-			"useparentbg"		"1"
 			"inventory_image_type"	"1"
 		}
 		
@@ -563,6 +566,7 @@
 			"brighttext"	"0"
 		}
 	}
+	
 	"spectator_extras"
 	{
 		"ControlName"	"EditablePanel"

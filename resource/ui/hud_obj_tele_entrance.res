@@ -128,7 +128,6 @@
 			"iconColor"		"255 255 255 255"
 		}
 
-
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"

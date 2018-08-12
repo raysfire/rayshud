@@ -11,9 +11,9 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-
+	
 	"specgui" { }
-
+	
 	"topbar"
 	{
 		"ControlName"	"Panel"
@@ -28,6 +28,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
+	
 	"BottomBar"
 	{
 		"ControlName"	"Frame"
@@ -39,6 +40,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
+	
 	"bottombarblank"
 	{
 		"ControlName"	"Panel"
@@ -47,48 +49,49 @@
 		"ypos"			"9999"	[$WIN32]
 		"ypos"			"r90"	[$X360]		
 		"ypos_minmode"	"r0"
-		"tall"			"0"	[$WIN32]		// this needs to match the size of BottomBar
+		"tall"			"0"		[$WIN32]		// this needs to match the size of BottomBar
 		"tall_minmode"	"0"		
 		"tall"			"90"	[$X360]	
 		"wide"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmode"		"0"
+		"visible_minmode" "0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
+	
 	"ReinforcementsLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"c-300"	[$WIN32]
 		"ypos"			"50"
 		"wide"			"600"
 		"tall"			"24"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		"font"			"Cerbetica24"
 	}
 
 	"BuyBackLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"320"
 		"tall"			"30"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		""
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		"font"			"Cerbetica24"
 		"wrap"			"1"
 		"centerwrap"	"1"
@@ -167,10 +170,10 @@
 		"model_wide"		"90"
 		"model_tall"		"60"
 		
-		"text_xpos"		"10"
-		"text_ypos"		"10"
-		"text_wide"		"220"
-		"text_center"	"1"
+		"text_xpos"			"10"
+		"text_ypos"			"10"
+		"text_wide"			"220"
+		"text_center"		"1"
 		
 		"max_text_height"	"100"
 		"padding_height"	"10"
@@ -179,45 +182,46 @@
 		
 		"ItemBackground"
 		{
-			"ControlName" "ImagePanel"
-			"fieldName" "ItemBackground"
-			"xpos" "0"
-			"ypos" "0"
-			"zpos" "-1"
-			"wide" "240"
-			"tall" "900"
-			"autoResize" "0"
-			"pinCorner" "0"
-			"visible" "1"
-			"enabled" "1"
-			"fillcolor" "0 0 0 100"
+			"ControlName" 	"ImagePanel"
+			"fieldName" 	"ItemBackground"
+			"xpos" 			"0"
+			"ypos" 			"0"
+			"zpos" 			"-1"
+			"wide" 			"240"
+			"tall" 			"900"
+			"autoResize" 	"0"
+			"pinCorner" 	"0"
+			"visible" 		"1"
+			"enabled" 		"1"
+			"fillcolor" 	"0 0 0 100"
 		}
+		
 		"TitleBackground"
 		{
-			"ControlName" "ImagePanel"
-			"fieldName" "TitleBackground"
-			"xpos" "4"
-			"ypos" "4"
-			"zpos" "-1"
-			"wide" "232"
-			"tall" "14"
-			"autoResize" "0"
-			"pinCorner" "0"
-			"visible" "1"
-			"enabled" "1"
-			"fillcolor" "0 0 0 100"
+			"ControlName" 	"ImagePanel"
+			"fieldName" 	"TitleBackground"
+			"xpos" 			"4"
+			"ypos" 			"4"
+			"zpos" 			"-1"
+			"wide" 			"232"
+			"tall" 			"14"
+			"autoResize" 	"0"
+			"pinCorner" 	"0"
+			"visible" 		"1"
+			"enabled" 		"1"
+			"fillcolor" 	"0 0 0 100"
 		}
 		
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "0"
-			"useparentbg"		"1"
+			"useparentbg"	"1"
 			"inventory_image_type"	"1"
+			"use_item_rendertarget" "0"
 		}
 		
 		"ItemLabel"
-		{	
+		{
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"Cerbetica12"

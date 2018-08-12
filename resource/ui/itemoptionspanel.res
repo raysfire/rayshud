@@ -56,7 +56,7 @@
 			"wide"			"140"
 			"tall"			"14"
 			"autoResize"	"0"
-			"RoundedCorners""0"
+			"RoundedCorners" "0"
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
@@ -84,7 +84,7 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"set_style"
+			"Command"			"set_style"
 			
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"

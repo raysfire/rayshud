@@ -344,6 +344,7 @@
 		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
+
 		"max_size"		"19"
 		"6v6_gap"		"1"
 		"12v12_gap"		"1"

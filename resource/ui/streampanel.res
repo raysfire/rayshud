@@ -11,10 +11,9 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-
 		"bgcolor_override"	"0 0 0 50"
 	}
-
+	
 	"LoadingPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -26,7 +25,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-
+		
 		"SpinnerImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -42,7 +41,7 @@
 			"image"			"animated/tf2_logo_hourglass"
 			"proportionaltoparent"	"1"
 		}
-
+		
 		"DescriptionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -62,7 +61,7 @@
 			"proportionaltoparent"	"1"
 		}
 	}
-
+	
 	"PreviewImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -76,7 +75,7 @@
 		"enable"		"1"
 		"scaleImage"	"0"
 	}
-
+	
 	"DisplayNameLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -94,7 +93,7 @@
 		"enabled"		"1"
 		"fgcolor"		"TanLight"
 	}
-
+	
 	"TextDescriptionLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -112,7 +111,7 @@
 		"enabled"		"1"
 		"fgcolor"		"TanLight"
 	}
-
+	
 	"ViewerCountLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -130,7 +129,7 @@
 		"enabled"		"1"
 		"fgcolor"		"TanLight"
 	}
-
+	
 	"Stream_URLButton"
 	{
 		"ControlName"	"CExButton"
@@ -148,12 +147,12 @@
 		"tabPosition"	"0"
 		"default"		"1"
 		"command"		"stream"
-
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
+		
 		"border_armed"		"TeamMenuBorder"
-			
+		
 		"defaultFgColor_override" "0 0 0 0"
 		"defaultBgColor_override" "0 0 0 0"
 		"armedFgColor_override" "0 0 0 0"

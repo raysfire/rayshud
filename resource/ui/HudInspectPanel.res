@@ -43,21 +43,6 @@
 			"enabled" "1"
 			"fillcolor" "0 0 0 100"
 		}
-		"TitleBackground"
-		{
-			"ControlName" "ImagePanel"
-			"fieldName" "TitleBackground"
-			"xpos" "4"
-			"ypos" "4"
-			"zpos" "-1"
-			"wide" "232"
-			"tall" "14"
-			"autoResize" "0"
-			"pinCorner" "0"
-			"visible" "1"
-			"enabled" "1"
-			"fillcolor" "0 0 0 100"
-		}
 		
 		"itemmodelpanel"
 		{
