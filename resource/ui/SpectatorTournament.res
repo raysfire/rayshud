@@ -390,11 +390,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		"font"			"Cerbetica24"
 		
 		if_mvm{
-			"ypos"		"68"	[$WIN32]
+			"ypos"		"0"
 		}
 	}
 	"BuyBackLabel"
