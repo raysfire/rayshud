@@ -51,8 +51,8 @@ tf
 
 Help/Support
 --------
-* If you have a MacOS, remove the existing clientscheme.res file in the `rayshud/resources` folder and rename the file clientscheme_mac to clientscheme. If you don't do this, the in-game font will not render properly, or maybe still won't.
-* If you've found a bug, need help or have a suggestion - either [open a support ticket here on GitHub](https://github.com/raysfire/rayshud/issues/new) or [make a post on the Steam Group](https://steamcommunity.com/groups/rayshud).
+* If you can't see player health as Spy or the Medic, disable floating TargetID health by inputting `tf_hud_target_id_disable_floating_health 1` into the console or disabling the option in Advanced Options.
+* If you've found a bug or have a suggestion, [open a ticket on GitHub](https://github.com/raysfire/rayshud/issues/new) or [make a post on the Steam Group Forums](https://steamcommunity.com/groups/rayshud/discussions).
 
 Credits
 --------
@@ -63,4 +63,4 @@ Credits
 * My team - For dealing with me and giving me constructive feedback all the time.
 * Flame - If it weren't for your guide, I couldn't have made this at all. Thanks a million, man.
 
-v2018.08.05
+v2018.08.12
