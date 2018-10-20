@@ -15,7 +15,7 @@
 		"icon"			"hud_menu_bg"
 		"fillcolor"		"0 0 0 100"
 	}
-	
+
 	"BuildIcon"	
 	{
 		"ControlName"	"CIconPanel"

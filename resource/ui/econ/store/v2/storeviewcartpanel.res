@@ -148,6 +148,25 @@
 				"labelText"		"%price%"
 				"fgcolor_override" "130 120 104 255"
 			}
+			
+			"PreviewItemLabel"
+			{
+				"ControlName"	"Label"
+				"fieldname"		"PreviewItemLabel"
+				"font"			"HudFontSmallest"
+				"textAlignment"	"center"
+				"xpos"			"110"
+				"ypos"			"36"
+				"wide"			"250"
+				"tall"			"15"
+				"zpos"			"15"
+				"autoResize"	"1"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"%preview_item%"
+				"fgcolor_override" "130 120 104 255"
+			}
 		}
 	}
 	

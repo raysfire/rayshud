@@ -13,6 +13,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 	}
+	
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -27,6 +28,7 @@
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}
+	
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -41,6 +43,7 @@
 		"image"			"../hud/health_equip_bg"
 		"scaleImage"	"1"	
 	}
+	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -55,6 +58,7 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
+	
 	"PlayerStatusHealthValueSpectator"
 	{
 		"ControlName"	"CExLabel"
@@ -71,6 +75,7 @@
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"Spec Health Normal"
 	}
+	
 	"PlayerStatusHealthValueSpectatorBG"
 	{
 		"ControlName"	"CExLabel"

@@ -2,7 +2,7 @@ Scheme
 {
 	Borders
 	{
-	  //rayshud borders
+	  // rayshud borders
 	  	ButtonHover
 		{
 			"inset" "0 0 0 0"
@@ -263,6 +263,7 @@ Scheme
 				}
 			}
 		}
+		
 		CyanBorder
 		{
 			"inset" "0 0 0 0"

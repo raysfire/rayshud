@@ -12,8 +12,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		
-		"if_hybrid"
-		{
+		"if_hybrid" {
 			"zpos"			"-1"
 		}
 	}
@@ -32,18 +31,15 @@
 		"fillcolor"		"70 130 180 153"
 		"scaleImage"	"1"	
 		
-		"if_hybrid"
-		{
+		"if_hybrid" {
 			"visible"	"0"
 		}
 		
-		"if_mvm"
-		{
+		"if_mvm" {
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
-		{
+		"if_specialdelivery" {
 			"visible"	"0"
 		}
 	}
@@ -62,18 +58,15 @@
 		"fillcolor"		"205 50 50 153"
 		"scaleImage"	"1"	
 		
-		"if_hybrid"
-		{
+		"if_hybrid" {
 			"visible"	"0"
 		}
 		
-		"if_mvm"
-		{
+		"if_mvm" {
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
-		{
+		"if_specialdelivery" {
 			"visible"	"0"
 		}
 	}
@@ -93,18 +86,15 @@
 		"image"			"../hud/objectives_flagpanel_bg_outline"
 		"scaleImage"	"1"	
 		
-		"if_hybrid"
-		{
+		"if_hybrid" {
 			"visible"	"0"
 		}
 		
-		"if_mvm"
-		{
+		"if_mvm" {
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
-		{
+		"if_specialdelivery" {
 			"visible"	"0"
 		}
 	}

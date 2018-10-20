@@ -53,8 +53,8 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"scaleImage"		"1"
-		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"TanLight"
+		"PaintBackgroundType"	"2"
 		
 		if_verbose {
 			"visible"		"1"

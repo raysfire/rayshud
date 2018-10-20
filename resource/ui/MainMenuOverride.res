@@ -1997,7 +1997,6 @@
 		"font"			"Cerbetica14"
 		"labelText"		"rayshud"
 //		"labelText"		"v2018.0805"
-
 		"xpos"			"r55"
 		"ypos"			"r13"
 		"wide"			"80"

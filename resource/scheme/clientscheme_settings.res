@@ -191,44 +191,44 @@ Scheme
 		HudCaptureProgressBar.Active		"HudProgressBarActive"
 		HudCaptureProgressBar.InActive		"HudProgressBarInActive"
 
-		// scheme-specific colors
-		"FgColor"				"255 180 60 255"
-		"BgColor"				"TransparentBlack"
+		// Scheme-Specific Colors
+		"FgColor"							"255 180 60 255"
+		"BgColor"							"TransparentBlack"
 
-		"ViewportBG"			"Blank"
-		"TeamSpec"				"204 204 204 255"
-		"TeamRed"				"255 64 64 255"
-		"TeamBlue"				"153 204 255 255"
+		"ViewportBG"						"Blank"
+		"TeamSpec"							"204 204 204 255"
+		"TeamRed"							"255 64 64 255"
+		"TeamBlue"							"153 204 255 255"
 
-		"MapDescriptionText"	"Gray" 				// the text used in the map description window
-		"HudIcon_Green"			"0 160 0 255"
-		"HudIcon_Red"			"160 0 0 255"
+		"MapDescriptionText"				"Gray" 				// the text used in the map description window
+		"HudIcon_Green"						"0 160 0 255"
+		"HudIcon_Red"						"160 0 0 255"
 
 		// CHudMenu
-		"ItemColor"				"255 167 42 200"	// default 255 167 42 255
-		"MenuColor"				"233 208 173 255"
-		"MenuBoxBg"				"0 0 0 100"
+		"ItemColor"							"255 167 42 200"	// default 255 167 42 255
+		"MenuColor"							"233 208 173 255"
+		"MenuBoxBg"							"0 0 0 100"
 
-		// weapon selection colors
-		"SelectionNumberFg"		"251 235 202 255"
-		"SelectionTextFg"		"251 235 202 255"
-		"SelectionEmptyBoxBg" 	"0 0 0 80"
-		"SelectionBoxBg" 		"0 0 0 80"
-		"SelectionSelectedBoxBg" "0 0 0 190"
+		// Weapon Selection Colors
+		"SelectionNumberFg"					"251 235 202 255"
+		"SelectionTextFg"					"251 235 202 255"
+		"SelectionEmptyBoxBg" 				"0 0 0 80"
+		"SelectionBoxBg" 					"0 0 0 80"
+		"SelectionSelectedBoxBg" 			"0 0 0 190"
 
 		// Hint message colors
-		"HintMessageFg"			"255 255 255 255"
-		"HintMessageBg" 		"0 0 0 60"
+		"HintMessageFg"						"255 255 255 255"
+		"HintMessageBg"						"0 0 0 60"
 
-		"ProgressBarFg"			"255 30 13 255"
+		"ProgressBarFg"						"255 30 13 255"
 
 		// Top-left corner of the menu on the main screen
-		"Main.Menu.X"			"32"
-		"Main.Menu.Y"			"248"
+		"Main.Menu.X"						"32"
+		"Main.Menu.Y"						"248"
 
 		// Blank space to leave beneath the menu on the main screen
-		"Main.BottomBorder"		"32"
+		"Main.BottomBorder"					"32"
 		
-		"VguiScreenCursor"		"255 208 64 255"
+		"VguiScreenCursor"					"255 208 64 255"
 	}
 }

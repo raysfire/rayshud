@@ -54,7 +54,7 @@
 		"wrap"				"1"
 		"fgcolor_override"	"200 80 60 255"
 	}
-
+	
 	"ExplanationLabel2"
 	{
 		"ControlName"		"CExLabel"
@@ -74,7 +74,7 @@
 		"wrap"				"1"
 		"fgcolor_override"	"200 80 60 255"
 	}
-
+	
 	"ItemImagePanel"
 	{
 		"ControlName"		"ImagePanel"
@@ -90,7 +90,7 @@
 		"tabPosition"		"0"
 		"scaleImage"		"1"
 	}
-
+	
 	"ItemImagePanel2"
 	{
 		"ControlName"		"ImagePanel"
@@ -106,7 +106,7 @@
 		"tabPosition"		"0"
 		"scaleImage"		"1"
 	}
-
+	
 	"Nope"
 	{
 		"ControlName"		"CExButton"
@@ -129,8 +129,8 @@
 		"Command"			"nope"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}			
-
+	}
+	
 	"ConfirmButton"
 	{
 		"ControlName"		"CExButton"
@@ -155,7 +155,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/vote_success.wav"
 	}
-
+	
 	"PriceLabel"
 	{
 		"ControlName"		"CExLabel"

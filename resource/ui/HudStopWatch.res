@@ -20,7 +20,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"StopWatchImageCaptureTime"
-		"xpos"			"9999"		
+		"xpos"			"9999"
 	}
 
 	"ObjectiveStatusTimePanel"
@@ -49,7 +49,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"center"
-		}	
+		}
 	}
 
 	"StopWatchScoreToBeat"
