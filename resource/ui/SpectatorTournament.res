@@ -271,7 +271,7 @@
 				"fieldName"		"respawntimeBG"
 				"font"			"Cerbetica12"
 				"xpos"			"6"
-				"ypos"			"6"
+				"ypos"			"4"
 				"zpos"			"5"
 				"wide"			"23"
 				"tall"			"10"
@@ -396,7 +396,7 @@
 		"font"			"Cerbetica24"
 		
 		if_mvm{
-			"ypos"		"68"	[$WIN32]
+			"ypos"		"82"	[$WIN32]
 		}
 	}
 	"BuyBackLabel"

@@ -6,7 +6,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"c-190"
-		"ypos"				"r41"
+		"ypos"				"r21"
 		"wide"				"100"
 		"tall"				"60"
 		"MeterFG"			"White"
@@ -26,7 +26,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"0 0 0 100"
+		"fillcolor"			"0 0 0 200"
 	}
 	
 	"ItemEffectIcon"

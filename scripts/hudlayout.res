@@ -941,7 +941,7 @@
 		"visible" 			"0"
 		"enabled" 			"1"
 		"xpos"				"c-100"
-		"ypos"				"265"
+		"ypos"				"246"
 		"ypos_minmode"		"345"
 		"zpos"				"1"
 		"wide"	 			"600"
@@ -1235,7 +1235,7 @@
 	{
 		"fieldName" 		"HudSpellMenu"
 		"xpos"				"c-176"
-		"ypos"				"c90"
+		"ypos"				"c110"
 		"xpos_minmode"		"c-115"
 		"ypos_minmode"		"c37"
 		"zpos" 				"10"

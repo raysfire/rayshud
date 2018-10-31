@@ -89,6 +89,11 @@ Scheme
 		"ColorWhite"					"255 255 255 255"
 		
 		"Transparent"					"0 0 0 0"
+		"TextColor"						"117 107 94 255"
+		"DarkGrey"						"27 27 27 255"
+		"DarkerGrey"					"22 22 22 255"
+		
+		"Grey"							"51 47 46 255"
 		//end rayshud colors
 		
 		// base colors
