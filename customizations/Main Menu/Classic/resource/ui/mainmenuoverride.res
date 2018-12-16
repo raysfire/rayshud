@@ -1850,7 +1850,7 @@
 		"ControlName"	"CExLabel"
 		"fieldname"		"VersionNumber"
 		"font"			"CerbeticaBold20"
-		"labelText"		"rayshud v2018.0805"
+		"labelText"		"rayshud v2018.1201"
 		"xpos"			"112"
 		"ypos"			"35"
 		"wide"			"130"
