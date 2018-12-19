@@ -12,7 +12,7 @@ Scheme
 		"Health Buff"					"48 255 48 255"
 		"Health Hurt"					"255 153 0 255"
 		"Uber Bar Color"				"235 226 202 255"
-		"Solid Color Uber"				"255 50 255 255"
+		"Solid Color Uber"				"255 50 25 255"
 		"Flashing Uber Color1"			"255 165 0 255"
 		"Flashing Uber Color2"			"255 69 0 255"
 		"Heal Numbers"					"48 255 48 255"

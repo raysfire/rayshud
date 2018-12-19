@@ -95,7 +95,7 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 100"
 	}
-
+	
 	"SysMenu"
 	{
 		"ControlName"	"Menu"
@@ -110,7 +110,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 	}
-
+	
 	"MapInfo"
 	{
 		"ControlName"	"HTML"
@@ -125,7 +125,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 	}
-
+	
 	"mapname"
 	{
 		"ControlName"	"Label"
@@ -165,14 +165,14 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"jointeam blue"
-		"team"				"3"		// team blue
+		"team"			"3"		// team blue
 		"font"			"CerbeticaBold20"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"TanLight"
 	}
-
+	
 	"teambutton1"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -192,14 +192,14 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"jointeam red"
-		"team"				"4"		// team red
+		"team"			"4"		// team red
 		"font"			"CerbeticaBold20"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"TanLight"
 	}
-
+	
 	"teambutton2"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -293,7 +293,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_lodef"		"0"
+		"visible_lodef"	"0"
 		"enabled"		"1"
 		"labelText"		"#TF_SelectATeam"
 		"textAlignment"	"center"
@@ -347,7 +347,7 @@
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"white"
 	}
-
+	
 	"MenuBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -530,7 +530,7 @@
 		"enabled"		"1"
 		"fov"			"20"
 	}
-
+	
 	"HighlanderLabel" [$WIN32] 
 	{
 		"ControlName"	"CExLabel"
@@ -574,7 +574,7 @@
 		"fgcolor"		"TransparentBlack"
 		"centerwrap"	"1"
 		
-		"pin_to_sibling"	"HighlanderLabel"
+		"pin_to_sibling"		"HighlanderLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
@@ -622,11 +622,11 @@
 		"fgcolor"		"TransparentBlack"
 		"centerwrap"	"1"
 		
-		"pin_to_sibling"	"TeamsFullLabel"
+		"pin_to_sibling"		"TeamsFullLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-
+	
 	"TeamsFullArrow" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
