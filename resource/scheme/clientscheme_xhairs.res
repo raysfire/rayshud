@@ -1279,6 +1279,98 @@ Scheme
 			}
 		}
 		
+		"KonrWings8"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"8"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"KonrWings8Outline"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"8"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		
+		"KonrWings10"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"10"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"KonrWings10Outline"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"10"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		
+		"KonrWings12"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"12"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"KonrWings12Outline"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"12"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		
+		"KonrWings14"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"14"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"KonrWings14Outline"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"14"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		
 		"KonrWings16"
 		{
 			"1"
@@ -1296,6 +1388,75 @@ Scheme
 			{
 				"name"			"Garm3nFont"
 				"tall"			"16"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		
+		"KonrWings18"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"18"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"KonrWings18Outline"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"18"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		
+		"KonrWings20"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"20"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"KonrWings20Outline"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"20"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		
+		"KonrWings22"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"22"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"KonrWings22Outline"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"22"
 				"weight"		"0"
 				"antialias"		"1"
 				"outline"		"1"
@@ -1325,6 +1486,75 @@ Scheme
 			}
 		}
 		
+		"KonrWings26"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"26"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"KonrWings26Outline"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"26"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		
+		"KonrWings28"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"28"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"KonrWings28Outline"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"28"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		
+		"KonrWings30"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"30"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"KonrWings30Outline"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"30"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		
 		"KonrWings32"
 		{
 			"1"
@@ -1342,6 +1572,75 @@ Scheme
 			{
 				"name"			"Garm3nFont"
 				"tall"			"32"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		
+		"KonrWings34"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"34"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"KonrWings34Outline"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"34"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		
+		"KonrWings36"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"36"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"KonrWings36Outline"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"36"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		
+		"KonrWings38"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"38"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"KonrWings38Outline"
+		{
+			"1"
+			{
+				"name"			"Garm3nFont"
+				"tall"			"38"
 				"weight"		"0"
 				"antialias"		"1"
 				"outline"		"1"

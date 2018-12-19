@@ -8,6 +8,17 @@ Scheme
 		"Ammo In Reserve"				"72 255 255 255"
 		"Ammo In Clip Low"				"255 42 130 255"
 		"Ammo In Reserve Low"			"255 128 28 255"
+		"Health Normal"					"235 226 202 255"
+		"Health Buff"					"48 255 48 255"
+		"Health Hurt"					"255 153 0 255"
+		"Uber Bar Color"				"235 226 202 255"
+		"Solid Color Uber"				"255 50 255 255"
+		"Flashing Uber Color1"			"255 165 0 255"
+		"Flashing Uber Color2"			"255 69 0 255"
+		"Heal Numbers"					"48 255 48 255"
+		"Damage Numbers"				"72 255 255 255"
+		"Crosshair"						"242 242 242 255"
+		"CrosshairDamage"				"255 0 0 255"
 		
 		//refers to watching stvs/killcam shots
 		"Spec Health Normal"			"235 226 202 255"
@@ -19,31 +30,10 @@ Scheme
 		"Alternate Spec Health Buff"	"48 255 48 255"			
 		"Alternate Spec Health Hurt"	"255 153 0 255"
 		
-		//refers to player health/targetids
-		"Health Normal"					"235 226 202 255"
-		"Health Buff"					"48 255 48 255"
-		"Health Hurt"					"255 153 0 255"
-		
 		//alternate colors for flashing values
 		"Alternate Health Normal"		"235 226 202 255"
 		"Alternate Health Buff"			"48 255 48 255"			
 		"Alternate Health Hurt"			"255 153 0 255"
-		
-		"Uber Bar Color"				"235 226 202 255"
-		
-		//solid color uber disabled by default; to enable, uncomment lines in hudanimations_tf.txt
-		"Solid Color Uber"				"255 50 255 255"
-		
-		"Flashing Uber Color1"			"255 165 0 255"
-		"Flashing Uber Color2"			"255 69 0 255"
-		//"Ubercharge Amount"			"48 255 48 255" // disabled temporarily; currently controlled by ammo in clip color
-		
-		"Heal Numbers"					"48 255 48 255"
-		"Damage Numbers"				"72 255 255 255"
-		
-		//crosshair colors
-		"Crosshair"						"242 242 242 255"
-		"CrosshairDamage"				"255 0 0 255"
 		
 		//'Last DamageHeal Info' refers to the number that appears above hp
 		"Last DamageHeal Info"			"72 255 255 255"

@@ -15,10 +15,10 @@
 		"zpos"			"2"
 		"xpos"			"c-85"
 		"ypos"			"c-100"
+		"labelText"		"i"
 		"wide"			"200"
 		"tall"			"200"
 		"font"			"Crosshairs24"
-		"labelText"		"i"
 		"textAlignment"	"center"
 		"fgcolor"		"Crosshair"
 	}
