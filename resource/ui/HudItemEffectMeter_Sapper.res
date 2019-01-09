@@ -1,64 +1,15 @@
+#base "huditemeffectmeter.res"
+
 "Resource/UI/HudItemEffectMeter_SodaPopper.res"
 {
-	HudItemEffectMeter
-	{
-		"fieldName"				"HudItemEffectMeter"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-75"	
-		"ypos"					"c103"
-		"ypos_minmode"			"c53"
-		"wide"					"200"
-		"tall"					"500"
-		"MeterFG"				"White"
-		"MeterBG"				"Gray"
+	"HudItemEffectMeter"
+	{	
+		"ypos"				"c133"
+		"ypos_minmode"		"c46"
 	}
 	
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"0"
-		"ypos"					"0"
-		"xpos_minmode"			"9999"
-		"ypos_minmode"			"9999"
-		"zpos"					"2"
-		"wide"					"150"
-		"tall"					"8"
-		"wide_minmode"			"41"
-		"tall_minmode"			"15"
-		"autoResize"			"1"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"#TF_ENERGYDRINK"
-		"textAlignment"			"center"
-		"textAlignment_minmode"	"west"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"Cerbetica12"
-		"font_minmode"			"TFFontSmall"
-		"fgcolor_override"		"150 150 150 255"
-	}
-
-	"ItemEffectMeter"
-	{	
-		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ItemEffectMeter"
-		"font"					"Default"
-		"xpos"					"15"
-		"ypos"					"0"
-		"zpos"					"2"
-		"tall"					"5"
-		"wide"					"120"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"textAlignment"			"Center"
-		"textAlignment_minmode	"Left"
-		"dulltext"				"0"
-		"brighttext"			"0"
+		"labelText"			"#TF_ENERGYDRINK"
 	}
 }
