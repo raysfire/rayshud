@@ -11,7 +11,6 @@
 		"tall"					"300"
 		"settitlebarvisible"	""
 		"paintbackgroundtype"	"2"
-		"paintbackground"		"1"
 		"border"				"CyanBorderThick"
 		"bgcolor_override"		"35 35 35 255"
 		
@@ -100,7 +99,7 @@
 		"wide"			"380"
 		"tall"			"130"
 		"PaintBackgroundType"	"2"
-		"fgcolor_override"	"117 107 94 255"
+		"fgcolor_override"	"TextColor"
 		"bgcolor_override"	"0 0 0 64"
 		
 		"PlayerList"
@@ -143,7 +142,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "HudOffWhite"
 		}
 		
 		"subbutton0"
@@ -273,7 +272,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "HudOffWhite"
 		}	
 		
 		"EmptyPlayerListLabel"
@@ -294,7 +293,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "HudOffWhite"
 			"paintbackground"	"1"
 			"defaultBgColor_override"	"15 15 15 255"
 			"armedBgColor_override"		"25 25 25 255"
@@ -334,7 +333,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "HudOffWhite"
 		}	
 		
 		"EmptyPlayerListLabel"
@@ -355,7 +354,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "Base Color"
+			"fgcolor_override" "ColorCyan"
 		}	
 	}
 	"StatePanel3"
@@ -386,7 +385,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "Base Color"
+			"fgcolor_override" "ColorCyan"
 		}	
 		
 		"URLHelpLabel"
@@ -428,7 +427,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "Base Color"
+			"fgcolor_override" "ColorCyan"
 		}	
 		"URLSearchingLabel"
 		{
@@ -448,7 +447,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "Base Color"
+			"fgcolor_override" "ColorCyan"
 		}	
 		
 		"URLEntry"

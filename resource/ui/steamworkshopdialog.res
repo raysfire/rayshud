@@ -14,6 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"bgcolor_override"	"25 25 25 240"
+		"border"			"CyanBorderThick"
 	}
 
 	"Container"
@@ -95,7 +96,7 @@
 			"tabPosition"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"border"				"NoBorder"
+			"border"				"CyanBorderThick"
 
 			"TitleLabel"
 			{
@@ -302,7 +303,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"fgcolor_override" "Base Color"
+				"fgcolor_override" "ColorCyan"
 			}
 			
 			"NextPageButton"
@@ -325,6 +326,8 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"Command"		"nextpage"
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
 			}	
 		
 			"ViewPublishedButton"
@@ -637,6 +640,15 @@
 			"Command"		"learn_more"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground"	"1"
+			"defaultBgColor_override"	"15 15 15 255"
+			"armedBgColor_override"		"25 25 25 255"
+			"depressedBgColor_override"	"25 25 25 255"
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override" 	"TanLight"
+			"depressedFgColor_override" "TanLight"
+			"border_default"			"ButtonHover"
+			"border_armed"				"ButtonHover"
 		}
 
 		"ViewLegalAgreementButton"

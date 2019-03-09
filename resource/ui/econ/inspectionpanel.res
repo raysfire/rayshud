@@ -214,14 +214,15 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PaintkitPreviewContainer"
 		"xpos"			"cs-0.5"
-		"ypos"			"p.7"
+		"ypos"			"p.68"
 		"wide"			"300"
 		"tall"			"100"
 		"zpos"			"100"
-		"border"		"MainMenuBGBorder"
+		"border"		"CyanBorder"
 		"mouseinputenabled"	"1"
 		"proportionaltoparent"	"1"
 		"visible"		"0"
+		"bgcolor_override"	"DarkerGrey"
 		
 		"fixed_item"
 		{
@@ -396,7 +397,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"CodeLC12"
+			"font"			"Cerbetica12"
 			"labelText"		"#TF_ItemPreview_ItemPreview"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -498,6 +499,7 @@
 		{
 			"ControlName"	"Button"
 			"fieldName"		"NewSeedButton"
+			"font"			"HudFontSmallest"
 			"xpos"			"8"
 			"ypos"			"75"
 			
@@ -595,7 +597,7 @@
 			"wide"			"75"
 			"tall"			"20"
 			"labelText"		"#TF_ItemAd_ViewOnMarket"
-			"font"			"AdFont_PurchaseButton"
+			"font"			"Cerbetica10"
 			"textinsetx"	"0"
 			"textAlignment"	"center"
 			"proportionaltoparent"	"1"
@@ -606,7 +608,6 @@
 			
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
-			"border_default"			"NoBorder"
 			"defaultBgColor_override"	"72 103 32 255"
 			"armedBgColor_override"		"72 133 32 255"
 			

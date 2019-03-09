@@ -3,7 +3,7 @@
 	"class"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadeBG"
+		"fieldName"		"class"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
@@ -14,17 +14,6 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"fillcolor"		"0 0 0 128"
-	}
-	
-	"charInfo"
-	{
-		"fieldName"		"charInfo"
-		"xpos"			"0"
-		"ypos"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"wide"			"0"
-		"tall"			"0"
 	}
 	
 	"SysMenu"
@@ -42,6 +31,26 @@
 		"tabPosition"	"0"
 	}
 	
+	"SelectClassLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"SelectClassLabel"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"5"
+		"wide"			"255"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"visible_lodef"	"0"
+		"enabled"		"1"
+		"labelText"		"#TF_SelectAClass"
+		"textAlignment"	"center"
+		"font"			"CerbeticaBold28"
+		"fgcolor"		"HudOffWhite"
+	}
+
 	"SidePanelBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -56,67 +65,7 @@
 		"scaleImage"	"1"
 		"fillcolor"		"0 0 0 60"
 	}
-	
-	"random"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"random"
-		"xpos"				"30"
-		"ypos"				"419"
-		"zpos"				"6"
-		"wide"				"150"
-		"tall"				"16"
-		"autoResize"		"0"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"&R  Random"	[$WIN32]
-		"textAlignment"		"west"
-		"Command"			"joinclass random"
-		"Default"			"0"
-		"font"				"CerbeticaBold16"
-		"scaleImage"		"1"
-		"paintbackground"	"0"
-		
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"Button Color"
-		"depressedFgColor_override" "TanLight"
-		"selectedFgColor_override" 	"Button Color"
-	
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
-	
-		"stayselectedonclick"	"1"
-		"Default"				"1"
-		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"
-	}
-	
-	"Offense"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Offense"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"2"
-		"wide"			"90"
-		"tall"			"12"
-		"tall_lodef"	"22"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_Offense"
-		"textAlignment"	"left"
-		"font"			"MenuClassBuckets"
-		"font_lodef"	"MenuMainTitle"
-		"fgcolor"		"TanDark"
-		"fgcolor_lodef"	"TanLight"
-	}
+
 	"scout"
 	{
 		"ControlName"		"CExImageButton"
@@ -228,28 +177,6 @@
 		"keyboardinputenabled"	"0"
 	}
 	
-	"Defense"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Defense"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"2"
-		"wide"			"90"
-		"tall"			"12"
-		"tall_lodef"	"22"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_Defense"
-		"textAlignment"	"left"
-		"font"			"MenuClassBuckets"
-		"font_lodef"	"MenuMainTitle"
-		"fgcolor"		"TanDark"
-		"fgcolor_lodef"	"TanLight"
-	}
 	"demoman"
 	{
 		"ControlName"		"CExImageButton"
@@ -362,27 +289,6 @@
 		"keyboardinputenabled"	"0"
 	}
 
-	"Support"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Support"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"2"
-		"wide"			"90"
-		"tall"			"12"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_Support"
-		"textAlignment"	"left"
-		"font"			"MenuClassBuckets"
-		"font_lodef"	"MenuMainTitle"
-		"fgcolor"		"TanDark"
-		"fgcolor_lodef"	"TanLight"
-	}
 	"medic"
 	{
 		"ControlName"		"CExImageButton"
@@ -494,27 +400,42 @@
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 	}
-
-	"CancelButton" [$WIN32] 
+	"random"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CancelButton"
-		"xpos"			"30"
-		"ypos"			"r38"
-		"zpos"			"6"
-		"wide"			"75"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_ClassMenu_Cancel"
-		"textAlignment"	"west"
-		"paintbackground""0"
-		"Command"		"vguicancel"
-		"font"			"CerbeticaBold16"
-		"fgcolor"		"TanLight"
+		"ControlName"		"CExLabel"
+		"fieldName"			"random"
+		"xpos"				"30"
+		"ypos"				"419"
+		"zpos"				"6"
+		"wide"				"150"
+		"tall"				"16"
+		"autoResize"		"0"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"&R  Random"	[$WIN32]
+		"textAlignment"		"west"
+		"Command"			"joinclass random"
+		"Default"			"0"
+		"font"				"CerbeticaBold16"
+		"scaleImage"		"1"
+		"paintbackground"	"0"
+		
+		"fgcolor"					"TanLight"
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override"		"Button Color"
+		"depressedFgColor_override" "TanLight"
+		"selectedFgColor_override" 	"Button Color"
+	
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"UI/buttonrollover.wav"
+	
+		"stayselectedonclick"	"1"
+		"Default"				"1"
+		"selectonhover"			"1"
+		"keyboardinputenabled"	"0"
 	}
 	
 	"EditLoadoutButton" [$WIN32] 
@@ -536,6 +457,28 @@
 		"textAlignment"	"west"
 		"Command"		"openloadout"
 		"font"			"CerbeticaBold16"
+	}
+
+	"CancelButton" [$WIN32] 
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CancelButton"
+		"xpos"			"30"
+		"ypos"			"r38"
+		"zpos"			"6"
+		"wide"			"75"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"(&C)  CANCEL"
+		"textAlignment"	"west"
+		"paintbackground""0"
+		"Command"		"vguicancel"
+		"font"			"CerbeticaBold14"
+		"fgcolor"		"TanLight"
 	}
 	"LoadoutButtonBackground"
 	{
@@ -565,26 +508,6 @@
 		"textAlignment"	"center"
 		"Command"		"resetclass"
 		"font"			"CerbeticaBold16"
-	}
-
-	"ClassMenuSelect"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ClassMenuSelect"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"5"
-		"wide"			"255"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"visible_lodef"	"0"
-		"enabled"		"1"
-		"labelText"		"#TF_SelectAClass"
-		"textAlignment"	"center"
-		"font"			"CerbeticaBold28"
-		"fgcolor"		"HudOffWhite"
 	}
 	
 	"MenuBG"
@@ -668,63 +591,12 @@
 		"PaintBackgroundType"	"0"
 	}
 	
-	"Footer" [$X360]
-	{
-		"ControlName"		"CTFFooter"
-		"fieldName"			"Footer"
-		"zpos"				"6"
-		"tall"				"80"
-		"button_separator"	"10"
-		"button_separator_lodef"	"5"
-		"buttongap"			"50"
-		"buttongap_hidef"		"35"
-		"buttongap_lodef"			"18"
-		"textadjust"		"3"
-		"textadjust_lodef"		"0"
-		"buttonoffsety"		"20"
-		"buttonoffsety_hidef"		"0"
-		"buttonoffsety_lodef"		"18"
-		"center"			"0"
-		"button_pin_right_lodef"	"55"
-		"fonttext"			"MatchmakingDialogMenuLarge"
-		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
-		"fgcolor"			"HudOffWhite" 
-		
-		"button"
-		{
-			"name"		"cancel"
-			"text"		"#GameUI_Cancel"
-			"icon"		"#GameUI_Icons_B_BUTTON"
-		}
-		
-		"button"
-		{
-			"name"		"nextprev"
-			"text"		"#TF_NextPrev"
-			"icon"		"#GameUI_Icons_DPAD"
-		}
-		
-		"button"
-		{
-			"name"		"select"
-			"text"		"#GameUI_Select"
-			"icon"		"#GameUI_Icons_A_BUTTON"
-		}
-	}
-	
 	"localPlayerImage" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerImage"
 		"xpos"			"9999"
 		"ypos"			"9999"
-		"zpos"			"9"
-		"wide"			"45"
-		"tall"			"90"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			""
-		"scaleImage"	"1"
 	}
 	
 	"localPlayerBG"
@@ -732,24 +604,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerBG"
 		"xpos"			"9999"
-		"ypos"			"99999"
-		"zpos"			"2"
-		"wide"			"55"
-		"tall"			"80"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_clear"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/color_panel_clear"
-		"teambg_3"		"../hud/color_panel_clear"
-	
-		"src_corner_height"		"23"			// pixels inside the image
-		"src_corner_width"		"23"
-	
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"ypos"			"9999"
 	}
 	
 	"countImage0" [$WIN32]
@@ -915,26 +770,6 @@
 		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
-	}
-	
-	"CountLabel" [$WIN32]
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CountLabel"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"10"
-		"wide"			"150"
-		"tall"			"18"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_TeamCount"
-		"textAlignment"	"left"
-		"font"			"HudFontMediumSmallSecondary"
-		"fgcolor"		"TanLight"
 	}
 	
 	"numScout" [$WIN32]
@@ -1251,115 +1086,6 @@
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
-
-	"StartExplanation"
-	{
-		"ControlName"	"CExplanationPopup"
-		"fieldName"		"StartExplanation"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"10000"
-		"wide"			"250"
-		"tall"			"165"
-		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
-		
-		"force_close"	"1"
-		"end_x"			"c-170"
-		"end_y"			"115"
-		"end_wide"		"300"
-		"end_tall"		"240"
-		"callout_inparents_x"	"c-270"
-		"callout_inparents_y"	"40"
-		"next_explanation"		"VoucherExplanation"
-		
-		"TitleLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
-			"labelText"		"#TF_MvM_UpgradeExplanation_Title"
-			"textAlignment"	"north"
-			"xpos"			"20"
-			"ypos"			"10"
-			"wide"			"260"
-			"tall"			"30"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
-		}
-		
-		"TextLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
-			"labelText"		"#TF_MvM_UpgradeExplanation_Text"
-			"textAlignment"	"north-west"
-			"xpos"			"20"
-			"ypos"			"45"
-			"wide"			"260"
-			"tall"			"170"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
-		}
-		
-		"CloseButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"CloseButton"
-			"xpos"			"280"
-			"ypos"			"5"
-			"zpos"			"10"
-			"wide"			"14"
-			"tall"			"14"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"close"
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"close_button"
-				"scaleImage"	"1"
-			}
-		}
-	}
 	
 	"TFPlayerModel"
 	{
@@ -1403,15 +1129,6 @@
 		"ControlName"	"CTFClassTipsPanel"
 		"fieldName"		"ClassTipsPanel"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"7"
-		"wide"			"235"
-		"tall"			"165"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
 	}
 	
 	"ClassHighlightPanel"
@@ -1454,7 +1171,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "TanDarker"
 		}
 		
 		"ClassHighlightText"
@@ -1473,7 +1190,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "TanDarker"
 		}
 		
 		"CloseButton"
@@ -1501,12 +1218,12 @@
 			"Command"		"close"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "TanDarker"
+			"armedFgColor_override" "NeutralWhite"
+			"depressedFgColor_override" "TanDarker"
 			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
+			"image_drawcolor"	"TextColor"
+			"image_armedcolor"	"LightRed"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1518,7 +1235,7 @@
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"close_button"
+				"image"			"replay/thumbnails/close"
 				"scaleImage"	"1"
 			}
 		}

@@ -61,7 +61,7 @@
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"27 27 27 255"
+			"bgcolor_override"		"DarkGrey"
 			"proportionaltoparent"	"1"
 		}
 
@@ -87,7 +87,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"40"
+			"wide"			"30"
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -125,7 +125,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
-				"image"			"glyph_chat"
+				"image"			"replay/thumbnails/chat"
 			}
 		}
 
@@ -133,7 +133,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot0"
-			"xpos"			"40"
+			"xpos"			"30"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -153,7 +153,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot1"
-			"xpos"			"64"
+			"xpos"			"54"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -173,7 +173,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot2"
-			"xpos"			"88"
+			"xpos"			"78"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -193,7 +193,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot3"
-			"xpos"			"112"
+			"xpos"			"102"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -213,7 +213,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot4"
-			"xpos"			"136"
+			"xpos"			"126"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -233,7 +233,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot5"
-			"xpos"			"160"
+			"xpos"			"150"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -350,22 +350,6 @@
 				"labelText"		"%queue_state%"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
-
-				"fonts"
-				{
-					"0"
-					{
-						"font"	"HudFontSmallestBold" // TF2 Build 11
-					}
-					"1"
-					{
-						"font"	"StorePromotionsTitle" // TF2 Build 10
-					}
-					"2"
-					{
-						"font"	"FontStorePrice" // TF2 Build 9
-					}
-				}
 			}
 
 			"MultiQueuesManageButton"
@@ -373,7 +357,7 @@
 				"ControlName"	"CExImageButton"
 				"fieldName"		"MultiQueuesManageButton"
 				"xpos"			"rs1-6"
-				"ypos"			"11"
+				"ypos"			"12"
 				"zpos"			"10"
 				"wide"			"14"
 				"tall"			"14"
@@ -395,11 +379,11 @@
 				"actionsignallevel"	"3"
 				"paintbackground"	"0"
 			
-				"defaultFgColor_override" "46 43 42 255"
+				"defaultFgColor_override" "TanDarker"
 				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
-				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"200 80 60 255"
+				"depressedFgColor_override" "TanDarker"
+				"image_drawcolor"	"TextColor"
+				"image_armedcolor"	"LightRed"
 				
 				"SubImage"
 				{
@@ -444,11 +428,11 @@
 				"actionsignallevel"	"3"
 				"paintbackground"	"0"
 			
-				"defaultFgColor_override" "46 43 42 255"
+				"defaultFgColor_override" "TanDarker"
 				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
-				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"200 80 60 255"
+				"depressedFgColor_override" "TanDarker"
+				"image_drawcolor"	"TextColor"
+				"image_armedcolor"	"LightRed"
 				
 				"SubImage"
 				{
@@ -461,7 +445,7 @@
 					"tall"			"14"
 					"visible"		"1"
 					"enabled"		"1"
-					"image"			"close_button"
+					"image"			"replay/thumbnails/close"
 					"scaleImage"	"1"
 				}				
 			}		
@@ -719,8 +703,8 @@
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"TanLight"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
@@ -777,8 +761,8 @@
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"TanLight"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
