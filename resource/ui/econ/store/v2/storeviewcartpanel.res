@@ -15,17 +15,17 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"25 25 25 255"
-		"infocus_bgcolor_override" 		"25 25 25 255"
-		"outoffocus_bgcolor_override" 	"25 25 25 255"
+		"bgcolor_override"				"DarkGrey"
+		"infocus_bgcolor_override"		"DarkGrey"
+		"outoffocus_bgcolor_override"	"DarkGrey"
 		
 		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"				"200 187 161 255"
-		"titlebardisabledfgcolor_override"		"200 187 161 255"
-		"titlebarbgcolor_override"				"27 27 27 255"
+		"titlebarfgcolor_override"			"HudOffWhite"
+		"titlebardisabledfgcolor_override"	"HudOffWhite"
+		"titlebarbgcolor_override"			"DarkGrey"
 		
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
@@ -47,7 +47,7 @@
 				"tall"			"58"
 				"visible"		"1"
 				"bgcolor_override"		"0 0 0 255"
-				"noitem_textcolor"		"117 107 94 255"
+				"noitem_textcolor"		"TextColor"
 				"PaintBackgroundType"	"2"
 				"paintborder"	"0"
 				
@@ -241,10 +241,9 @@
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"Base Color"
+		"bgcolor_override"		"ColorCyan"
 	}				
 	
 	"ClientArea"
@@ -255,7 +254,7 @@
 		"ypos"			"55"
 		"wide"			"f0"
 		"tall"			"368"
-		"bgcolor_override"	"27 27 27 255"
+		"bgcolor_override"	"DarkGrey"
 		
 		"HeaderLine"
 		{
@@ -268,10 +267,9 @@
 			"tall"			"2"
 			"visible"		"1"
 			"enabled"		"1"
-			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"Base Color"
+			"bgcolor_override"		"ColorCyan"
 		}				
 		
 		"CartItemsLabel"
@@ -336,7 +334,7 @@
 			"tall"			"240"
 			"PaintBackgroundType"	"2"
 			"fgcolor_override"	"118 107 94 255"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
-			"bgcolor_override"	"27 27 27 255"
+			"bgcolor_override"	"DarkGrey"
 			"autohide_buttons" "1"
 			
 			"Scrollbar"
