@@ -4,19 +4,19 @@
 {
 	"ItemNameLabel"
 	{
-		"fgcolor"		"70 130 180 153"
+		"fgcolor"		"HUDBlueTeamSolid"
 		"labelText"		"#TF_Class_Name_Medic"
 	}
 	
 	"NewNumberLabel"
 	{
-		"fgcolor"		"70 130 180 153"
+		"fgcolor"		"HUDBlueTeamSolid"
 		"labelText"		"1"
 	}
 	
 	"NumberLabel"
 	{
-		"fgcolor"		"70 130 180 153"
+		"fgcolor"		"HUDBlueTeamSolid"
 		"labelText"		"7"
 	}
 }

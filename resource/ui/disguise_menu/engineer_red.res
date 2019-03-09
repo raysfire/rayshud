@@ -7,12 +7,6 @@
 		"labelText"		"#TF_Class_Name_Engineer"
 	}
 	
-	"NumberBg"	
-	{
-		"wide"			"0"
-		"tall"			"0"
-	}
-	
 	"NewNumberLabel"
 	{
 		"labelText"		"3"

@@ -4,7 +4,7 @@
 {
 	"ItemNameLabel"
 	{
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"ColorGreen"
 	}
 
 	"ItemBackground"
@@ -14,11 +14,11 @@
 	
 	"BuildingIcon"	
 	{
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"ColorGreen"
 	}
 	
 	"NumberLabel"
 	{
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"ColorGreen"
 	}
 }

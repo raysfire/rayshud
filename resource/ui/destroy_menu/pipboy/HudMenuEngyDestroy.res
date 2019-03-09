@@ -2,20 +2,15 @@
 
 "Resource/UI/build_menu/HudMenuEngyDestroy.res"
 {
-	"MainBackground"	
-	{
-		"fillcolor"		"50 255 50 50"
-	}
-	
 	"ItemBackground"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemBackground"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"-2"
-		"wide"			"450"
-		"tall"			"180"
+		"xpos"			"50"
+		"ypos"			"10"
+		"zpos"			"0"
+		"wide"			"400"
+		"tall"			"130"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -42,16 +37,16 @@
 	
 	"DestroyIcon"	
 	{
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"ColorGreen"
 	}
 	
 	"TitleLabel"
 	{
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"ColorGreen"
 	}
 	
 	"CancelLabel"
 	{
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"ColorGreen"
 	}
 }

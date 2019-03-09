@@ -4,19 +4,19 @@
 {
 	"ItemNameLabel"
 	{
-		"fgcolor"		"70 130 180 153"
+		"fgcolor"		"HUDBlueTeamSolid"
 		"labelText"		"#TF_Class_Name_Pyro"
 	}
 	
 	"NewNumberLabel"
 	{
-		"fgcolor"		"70 130 180 153"
+		"fgcolor"		"HUDBlueTeamSolid"
 		"labelText"		"3"
 	}
 	
 	"NumberLabel"
 	{
-		"fgcolor"		"70 130 180 153"
+		"fgcolor"		"HUDBlueTeamSolid"
 		"labelText"		"3"
 	}
 }

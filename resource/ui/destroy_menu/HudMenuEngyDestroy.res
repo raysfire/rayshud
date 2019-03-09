@@ -29,7 +29,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_demolish"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"TitleLabel"
@@ -58,8 +58,8 @@
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"CerbeticaBold32"
 		"fgcolor"		"TransparentBlack"
-		"xpos"			"70"			// align me to the left edge of the first selection
-		"ypos"			"-8"
+		"xpos"			"-1"			// align me to the left edge of the first selection
+		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"38"
@@ -71,6 +71,10 @@
 		"textAlignment"	"Left"
 		"dulltext"		"1"
 		"brighttext"	"0"
+		
+		"pin_to_sibling"		"TitleLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	
 	"CancelLabel"
@@ -95,7 +99,7 @@
 	
 	"active_item_1"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"CEngyDestroyMenuItem"
 		"fieldName"		"active_item_1"
 		"xpos"			"50"
 		"ypos"			"23"
@@ -107,7 +111,7 @@
 	
 	"active_item_2"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"CEngyDestroyMenuItem"
 		"fieldName"		"active_item_2"
 		"xpos"			"150"
 		"ypos"			"23"
@@ -119,7 +123,7 @@
 	
 	"active_item_3"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"CEngyDestroyMenuItem"
 		"fieldName"		"active_item_3"
 		"xpos"			"250"
 		"ypos"			"23"
@@ -131,7 +135,7 @@
 	
 	"active_item_4"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"CEngyDestroyMenuItem"
 		"fieldName"		"active_item_4"
 		"xpos"			"350"
 		"ypos"			"23"

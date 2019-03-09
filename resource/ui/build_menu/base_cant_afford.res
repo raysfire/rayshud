@@ -68,7 +68,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_sentry_build"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"MetalIcon"	
@@ -95,7 +95,7 @@
 		"fgcolor"		"RedSolid"
 		"xpos"			"49"
 		"ypos"			"16"
-		"zpos"			"1"
+		"zpos"			"2"
 		"wide"			"84"
 		"tall"			"13"
 		"autoResize"	"0"
@@ -104,6 +104,29 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"Left"	
+	}
+	
+	"CostLabelShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"CostLabelShadow"
+		"font"				"CerbeticaBold16"
+		"fgcolor"			"TransparentBlack"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"1"
+		"wide"				"84"
+		"tall"				"13"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"%metal%"
+		"textAlignment"		"Left"
+		
+		"pin_to_sibling"		"CostLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	
 	"ModeLabel"
@@ -138,7 +161,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NumberLabel"
@@ -149,26 +172,6 @@
 		"fgcolor"		"TanLight"
 		"xpos"			"0"
 		"ypos"			"95"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"1"
-		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
-	}
-	"NumberLabelShadow"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel"
-		"font"			"CerbeticaBold20"
-		"fgcolor"		"TransparentBlack"
-		"xpos"			"1"
-		"ypos"			"96"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"18"

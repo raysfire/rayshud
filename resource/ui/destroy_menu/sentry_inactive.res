@@ -112,24 +112,4 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-	"NumberLabelShadow"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel"
-		"font"			"CerbeticaBold20"
-		"fgcolor"		"TransparentBlack"
-		"xpos"			"1"
-		"ypos"			"96"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"1"
-		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
-	}
 }

@@ -42,16 +42,16 @@
 
 	"BuildIcon"	
 	{
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"ColorGreen"
 	}
 	
 	"TitleLabel"
 	{
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"ColorGreen"
 	}
 	
 	"CancelLabel"
 	{
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"ColorGreen"
 	}	
 }

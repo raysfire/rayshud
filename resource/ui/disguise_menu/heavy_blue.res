@@ -4,16 +4,19 @@
 {
 	"ItemNameLabel"
 	{
-		"fgcolor"		"70 130 180 153"
+		"fgcolor"		"HUDBlueTeamSolid"
+		"labelText"		"#TF_Class_Name_HWGuy"
 	}
 	
 	"NewNumberLabel"
 	{
-		"fgcolor"		"70 130 180 153"
+		"fgcolor"		"HUDBlueTeamSolid"
+		"labelText"		"2"
 	}
 	
 	"NumberLabel"
 	{
-		"fgcolor"		"70 130 180 153"
+		"fgcolor"		"HUDBlueTeamSolid"
+		"labelText"		"5"
 	}
 }

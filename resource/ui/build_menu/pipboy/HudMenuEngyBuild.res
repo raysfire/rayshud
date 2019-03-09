@@ -2,13 +2,25 @@
 
 "Resource/UI/build_menu/HudMenuEngyBuild.res"
 {
-	"MainBackground"	
+	"ItemBackground"
 	{
-		"fillcolor"		"50 255 50 50"
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"ItemBackground"
+		"xpos"				"50"
+		"ypos"				"10"
+		"zpos"				"0"
+		"wide"				"400"
+		"tall"				"130"
+		"visible"			"1"
+		"enabled"			"1"
+		"scaleImage"		"1"
+		"image"				"pipboy_overlay"
+		"tileImage"			"1"
+		"drawcolor"			"192 192 192 255"
 	}
 	
 	"TitleLabel"
 	{
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"ColorGreen"
 	}
 }

@@ -65,7 +65,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_dispenser"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 		
 	"NumberBg"	
@@ -81,7 +81,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NumberLabel"
@@ -92,26 +92,6 @@
 		"fgcolor"		"TanLight"
 		"xpos"			"0"
 		"ypos"			"95"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"2"
-		"textAlignment"	"Center"
-		"dulltext"		"1"
-		"brighttext"	"0"
-	}
-	"NumberLabelShadow"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel"
-		"font"			"CerbeticaBold20"
-		"fgcolor"		"TransparentBlack"
-		"xpos"			"1"
-		"ypos"			"96"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"18"
