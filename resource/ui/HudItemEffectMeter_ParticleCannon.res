@@ -4,8 +4,7 @@
 {
 	"HudItemEffectMeter"
 	{
-		"xpos"				"c-75"	[$WIN32]
-		"ypos"				"c113"	[$WIN32]
+		"ypos"				"c93"	[$WIN32]
 		"ypos_minmode"		"c46"	[$WIN32]
 	}
 	

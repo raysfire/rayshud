@@ -14,25 +14,6 @@
 		"MeterBG"		"Gray"
 	}
 	
-	"ItemEffectMeterBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"-30"
-		"ypos"			"28"
-		"zpos"			"0"
-		"wide"			"150"
-		"tall"			"75"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/misc_ammo_area_horiz2_blue"
-		"scaleImage"	"1"	
-		"teambg_2"			"../hud/misc_ammo_area_horiz2_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"			"../hud/misc_ammo_area_horiz2_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"
-	}
-	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -107,8 +88,8 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountShadow"
 		"xpos"					"2"
-		"ypos"					"2"
-		"ypos_minmode"			"6"
+		"xpos"					"-1"
+		"ypos"					"-1"
 		"zpos"					"2"
 		"wide"					"150"
 		"tall"					"30"
@@ -123,5 +104,9 @@
 		"font"					"CerbeticaBold28"
 		"font_minmode"			"CerbeticaBold20"
 		"fgcolor_override"		"TransparentBlack"
+		
+		"pin_to_sibling"		"ItemEffectMeterCount"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 }

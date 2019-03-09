@@ -1,10 +1,10 @@
 #base "huditemeffectmeter.res"
 
-"Resource/UI/HudItemEffectMeter_Cleaver.res"
+"Resource/UI/HudItemEffectMeter_Scout.res"
 {
 	"HudItemEffectMeter"
 	{
-		"ypos"				"c113"
+		"ypos"				"c93"
 		"ypos_minmode"		"c53"
 	}
 	
