@@ -1,4 +1,4 @@
-"Resource/UI/TextWindow.res"
+"Resource/UI/TextWindowCustomServer.res"
 {
 	"info"
 	{
@@ -132,8 +132,8 @@
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"MenuBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"0"		
 		"wide"			"f0"
 		"tall"			"480"

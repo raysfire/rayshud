@@ -47,7 +47,6 @@
 		"if_single_with_hills"
 		{
 			"ypos"			"120"
-			"ypos_minmode"	"120"
 			"tall"			"12"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}
@@ -479,7 +478,7 @@
 				"enabled"			"1"
 				"scaleImage"		"1"
 				"icon"				"cappoint_progressbar_teardrop"
-				"iconColor"			"255 255 255 255"
+				"iconColor"			"White"
 				
 				"if_multiple_trains"
 				{
@@ -528,7 +527,6 @@
 				"fieldName"			"Blocked"
 				"xpos"				"2"
 				"ypos"				"2"
-				"ypos_minmode"		"2"	
 				"zpos"				"1"
 				"wide"				"50"
 				"wide_minmode"		"31"
@@ -538,7 +536,7 @@
 				"enabled"			"1"
 				"scaleImage"		"1"
 				"icon"				"cappoint_progressbar_blocked"
-				"iconColor"			"255 255 255 255"
+				"iconColor"			"White"
 				
 				"if_multiple_trains"
 				{

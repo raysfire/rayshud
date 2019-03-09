@@ -109,7 +109,7 @@
 			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
-			"color_outline"	"52 48 45 255"
+			"color_outline"	"Grey"
 		}
 		"RedTeamLabel"
 		{
@@ -180,7 +180,7 @@
 			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
-			"color_outline"	"52 48 45 255"
+			"color_outline"	"Grey"
 		}
 	}
 	"WinPanelBGBorder"
@@ -198,10 +198,10 @@
 		"border"		"TFFatLineBorderBlueBG"
 		"proportionaltoparent"	"1"
 	}
-	"WinPanelBackground2"
+	"WinPanelBG2"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"WinPanelBackground2"
+		"fieldName"		"WinPanelBG2"
 		"xpos"			"0"
 		"ypos"			"55"
 		"zpos"			"0"
@@ -283,7 +283,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AdvancingTeamLabelDropshadow"
 		"font"			"CerbeticaBold20"
-		"fgcolor"		"black"
+		"fgcolor"		"TransparentBlack"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"1"
@@ -306,20 +306,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinReasonLabel"
-		"font"			"Cerbetica12"
+		"font"			"ScoreboardVerySmall"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"292"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%WinReasonLabel%"
-		"textAlignment"	"Center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	"DetailsLabel"
 	{	
@@ -345,17 +333,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"2"
-		"wide"			"268"
-		"tall"			"84"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 150"
-		"PaintBackgroundType"	"0"
 	}
 	"TopPlayersLabel"
 	{	

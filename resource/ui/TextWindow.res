@@ -29,7 +29,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 200"
+		"fillcolor"		"TransparentBlack"
 	}
 	
 	"TFMessageTitle"
@@ -57,8 +57,7 @@
 	{
 		"ControlName"	"TextEntry"
 		"fieldName"		"TextMessage"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"9999"
 	}
 	
 	"TFTextMessage"
@@ -144,8 +143,6 @@
 		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"50"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
@@ -158,7 +155,6 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"MessageTitle"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"9999"
 	}
 }

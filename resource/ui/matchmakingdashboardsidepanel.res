@@ -108,9 +108,9 @@
 		"textAlignment"	"east"
 		"font"			"Cerbetica14"
 
-		"armedBgColor_override"	"0 0 0 0"
-		"defaultBgColor_override"	"0 0 0 0"
-		"defaultFgColor_override"	"242 242 242 255"
+		"armedBgColor_override"		"Transparent"
+		"defaultBgColor_override"	"Transparent"
+		"defaultFgColor_override"	"White"
 		"armedFgColor_override"	"169 123 53 255"
 	}
 
@@ -138,9 +138,9 @@
 		"textAlignment"	"west"
 		"font"			"Cerbetica14"
 
-		"armedBgColor_override"	"0 0 0 0"
-		"defaultBgColor_override"	"0 0 0 0"
-		"defaultFgColor_override"	"242 242 242 255"
+		"armedBgColor_override"		"Transparent"
+		"defaultBgColor_override"	"Transparent"
+		"defaultFgColor_override"	"White"
 		"armedFgColor_override"	"169 123 53 255"
 	}
 	
@@ -156,6 +156,6 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"border"		"TeamMenuBorder"
-		"bgcolor_override"	"27 27 27 255"
+		"bgcolor_override"	"DarkGrey"
 	}
 }

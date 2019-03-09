@@ -11,7 +11,7 @@
 		"label" 		"Mann Co. Store"
 		"command" 		"engine open_store"
 	}
-	"ReplayBrowserButton"
+	"ReplayButton"
 	{
 		"label" 		"Replay"
 		"command" 		"engine replay_reloadbrowser"

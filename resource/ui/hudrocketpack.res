@@ -3,11 +3,8 @@
 {
 	HudItemEffectMeter
 	{
-		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
-		"enabled"		"1"
 		"xpos"			"c-75"
-		"ypos"			"c123"
+		"ypos"			"c103"
 		"ypos_minmode"	"c60"
 		"wide"			"200"
 		"tall"			"500"
@@ -17,19 +14,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"4"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"90"
-		"tall"			"45"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"1"	
-		"image"				"../hud/ammo_blue_bg"
-		"teambg_2"			"../hud/ammo_red_bg"
-		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
-		"teambg_3"			"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"					
+		"xpos"			"9999"				
 	}
 
 	"ItemEffectIcon"
@@ -50,31 +35,19 @@
 
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ItemEffectMeterLabel"
 		"xpos"			"32"
 		"ypos"			"12"
-		"zpos"			"2"
 		"wide"			"90"
 		"tall"			"15"
-		"autoResize"	"1"
-		"pinCorner"		"2"
 		"visible"		"0"
-		"enabled"		"0"
-		"tabPosition"	"0"
 		"labelText"		"#TF_RocketPack_Disabled"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"font"			"HudFontSmallest"
-		"fgcolor"		"178 0 0 255"
 	}
 
 	"ItemEffectMeter"
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter"
-		"font"			"Default"
 		"xpos"			"0"
 		"xpos_minmode"	"15"
 		"ypos"			"5"
@@ -98,7 +71,6 @@
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter2"
-		"font"			"Default"
 		"xpos"			"60"
 		"ypos"			"5"
 		"xpos_minmode"	"75"

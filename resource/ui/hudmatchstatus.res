@@ -102,7 +102,7 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"fgcolor"		"Black"
+		"fgcolor"		"TransparentBlack"
 		"proportionaltoparent"	"1"
 
 		if_readymode
@@ -292,7 +292,6 @@
 
 		if_match
 		{
-			"ypos"					"0"
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -327,7 +326,6 @@
 				"ypos"			"13"
 				"tall"			"10"
 				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
 				"font_lodef"	"HudFontSmall"
 			}
 		}	
@@ -373,8 +371,8 @@
 			"percentage_health_med"	"0.6"
 			"color_bar_health_low"	"191 58 58 255"
 			"percentage_health_low"	"0.3"
-			"color_portrait_blend_dead_red"	"255 255 255 255"
-			"color_portrait_blend_dead_blue" "255 255 255 255"
+			"color_portrait_blend_dead_red"	"White"
+			"color_portrait_blend_dead_blue" "White"
 			
 			"playername"
 			{
@@ -687,7 +685,7 @@
 			"tall"			"39"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override"	"117 107 94 255"
+			"bgcolor_override"	"TextColor"
 		}
 		"BluePlayerList"
 		{
@@ -825,7 +823,7 @@
 			"tall"			"39"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override"	"117 107 94 255"
+			"bgcolor_override"	"TextColor"
 		}
 		"RedPlayerList"
 		{

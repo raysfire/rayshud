@@ -16,9 +16,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"25 25 25 255"
-		"infocus_bgcolor_override" 		"25 25 25 255"
-		"outoffocus_bgcolor_override" 	"25 25 25 255"
+		"bgcolor_override"				"DarkGrey"
+		"infocus_bgcolor_override" 		"DarkGrey"
+		"outoffocus_bgcolor_override" 	"DarkGrey"
 		
 		"item_ypos"						"85"
 		"output_item_ypos"				"255"
@@ -38,7 +38,7 @@
 			"tall"			"45"
 			"visible"		"0"
 			"bgcolor_override"		"Transparent"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
@@ -85,7 +85,7 @@
 					"enabled"		"1"
 					"labelText"		"%itemname%"
 					"textAlignment"	"south"
-					"fgcolor"		"235 226 202 255"
+					"fgcolor"		"NeutralWhite"
 					"wrap"			"1"
 					"centerwrap"	"1"
 				}
@@ -107,9 +107,9 @@
 			"centerwrap"	"0"
 			"textAlignment" "west"
 			"textinsetx"	"0"
-			"defaultFgColor_override" "117 107 94 255"
+			"defaultFgColor_override" "TextColor"
 			"defaultBgColor_override" "Transparent"
-			"armedFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "NeutralWhite"
 			"armedBgColor_override" "Transparent"
 			"depressedFgColor_override" "178 82 22 255"
 			"depressedBgColor_override" "Transparent"
@@ -228,7 +228,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"TextColor"
 		}
 
 		"OutputLabel"
@@ -247,7 +247,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"TextColor"
 		}
 		
 		"CraftButton"
@@ -364,8 +364,8 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"	"Transparent"
+		"noitem_textcolor"	"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		"text_ypos"			"20"
@@ -388,7 +388,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"TextColor"
 			"centerwrap"	"1"
 		}
 	}
@@ -404,7 +404,7 @@
 		"tall"			"42"
 		"visible"		"0"
 		"bgcolor_override"		"Transparent"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		"model_ypos"	"5"

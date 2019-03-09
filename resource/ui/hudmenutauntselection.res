@@ -20,28 +20,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Divider"
-		"xpos"			"8"
-		"ypos"			"65"
-		"zpos"			"1"
-		"wide"			"0"
-		"tall"			"0"
-		"fillcolor"		"255 222 208 255"
+		"xpos"			"9999"
 	}
 
 	"IcoReelIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"IcoReelIcon"
-		"xpos"			"10"
-		"ypos"			"-3"
-		"zpos"			"1"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"0"
-		"scaleImage"	"0"	
-		"icon"			"hud_taunt_menu_icon"
-		"iconColor"		"255 255 255 255"
+		"xpos"			"9999"
 	}
 	
 	"TitleLabel"
@@ -70,8 +56,8 @@
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"CerbeticaBold32"
 		"fgcolor"		"TransparentBlack"
-		"xpos"			"20"			// align me to the left edge of the first selection
-		"ypos"			"2"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"3"
 		"wide"			"360"
 		"tall"			"38"
@@ -83,6 +69,10 @@
 		"textAlignment"	"Left"
 		"dulltext"		"1"
 		"brighttext"	"0"
+
+		"pin_to_sibling"		"TitleLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 
 	"WeaponTauntLabel"
@@ -135,8 +125,8 @@
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
@@ -174,7 +164,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NumberLabel1"
@@ -229,8 +219,8 @@
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 
@@ -323,8 +313,8 @@
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
@@ -418,8 +408,8 @@
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
@@ -456,7 +446,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NumberLabel4"
@@ -511,8 +501,8 @@
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
@@ -550,7 +540,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NumberLabel5"
@@ -605,8 +595,8 @@
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
@@ -644,7 +634,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NumberLabel6"
@@ -699,8 +689,8 @@
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
@@ -738,7 +728,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NumberLabel7"
@@ -793,8 +783,8 @@
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
@@ -832,7 +822,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NumberLabel8"

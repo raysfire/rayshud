@@ -27,7 +27,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"0 0 0 0"
+		"fillcolor"		"Transparent"
 	}
 	"SidePanelBG"
 	{
@@ -42,32 +42,6 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"fillcolor"		"0 0 0 60"
-	}
-	"BlueTeamBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BlueTeamBG"
-		"xpos"			"0"
-		"ypos"			"c-35"
-		"zpos"			"0"
-		"wide"			"255"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"70 130 180 125"
-	}
-	"RedTeamBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RedTeamBG"
-		"xpos"			"0"
-		"ypos"			"c5"
-		"zpos"			"0"
-		"wide"			"255"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"205 50 50 153"
 	}
 	"AutojoinBackground"
 	{
@@ -146,6 +120,27 @@
 		"fgcolor"		"TanLight"
 	}
 	
+	"TeamMenuSelect"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TeamMenuSelect"
+		"xpos"			"0"
+		"ypos"			"c165"
+		"zpos"			"6"
+		"wide"			"255"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"visible_lodef"	"0"
+		"enabled"		"1"
+		"labelText"		"#TF_SelectATeam"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"CerbeticaBold32"
+		"fgcolor"		"HudOffWhite"
+	}
 	"teambutton0"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -173,6 +168,19 @@
 		"selectedFgColor_override" 	"TanLight"
 	}
 	
+	"BlueTeamBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BlueTeamBG"
+		"xpos"			"0"
+		"ypos"			"c-35"
+		"zpos"			"0"
+		"wide"			"255"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"70 130 180 125"
+	}
 	"teambutton1"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -200,6 +208,19 @@
 		"selectedFgColor_override" 	"TanLight"
 	}
 	
+	"RedTeamBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RedTeamBG"
+		"xpos"			"0"
+		"ypos"			"c5"
+		"zpos"			"0"
+		"wide"			"255"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"205 50 50 153"
+	}
 	"teambutton2"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -254,55 +275,6 @@
 		"selectedFgColor_override" 	"TanLight"
 	}
 	
-	"CancelButton" [$WIN32] 
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CancelButton"
-		"xpos"			"0"
-		"ypos"			"r40"
-		"zpos"			"6"
-		"wide"			"255"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_Cancel"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"paintbackground""0"
-		"command"		"cancelmenu"
-		"font"			"CerbeticaBold16"
-		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"TanLight"
-	}
-	
-	"TeamMenuSelect"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TeamMenuSelect"
-		"xpos"			"0"
-		"ypos"			"c165"
-		"zpos"			"6"
-		"wide"			"255"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"visible_lodef"	"0"
-		"enabled"		"1"
-		"labelText"		"#TF_SelectATeam"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"CerbeticaBold32"
-		"fgcolor"		"HudOffWhite"
-	}
-	
 	"TeamMenuAuto"
 	{
 		"ControlName"	"CExLabel"
@@ -323,7 +295,7 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"MenuSmallFont"
-		"fgcolor"		"black"
+		"fgcolor"		"Black"
 	}
 	
 	"TeamMenuSpectate"
@@ -345,7 +317,7 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"CerbeticaBold16"
-		"fgcolor"		"white"
+		"fgcolor"		"White"
 	}
 	
 	"MenuBG"
@@ -362,27 +334,6 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 7"
-	}
-	
-	"ShadedBar"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"5"
-		"wide"			"0"
-		"tall"			"0"
-		"tall_lodef"	"74"
-		"tall_hidef"	"65"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"tabPosition"	"0"	
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
-		"PaintBackgroundType"	"0"
 	}
 	
 	"BlueCount"
@@ -405,26 +356,6 @@
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"255 255 255 255"
 	}
-	"BlueCountPlayers"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"BlueCountPlayers"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"90"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"players"
-		"textAlignment"	"east"
-		"dulltext"		"0"
-		"brighttext"	"1"
-		"font"			"Cerbetica14"
-		"fgcolor"		"255 255 255 175"
-	}
 	
 	"RedCount"
 	{
@@ -445,90 +376,6 @@
 		"brighttext"	"1"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"255 255 255 255"
-	}
-	"RedCountPlayers"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"RedCountPlayers"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"90"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"players"
-		"textAlignment"	"east"
-		"dulltext"		"0"
-		"brighttext"	"1"
-		"font"			"Cerbetica14"
-		"fgcolor"		"255 255 255 175"
-	}
-	
-	"bluedoor"
-	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"bluedoor"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"2"		
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fov"			"20"
-	}
-	
-	"reddoor"
-	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"reddoor"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"2"		
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fov"			"20"
-	}
-	
-	"autodoor"
-	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"autodoor"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"2"		
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fov"			"20"
-	}
-	
-	"spectate"
-	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"spectate"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"0"		
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fov"			"20"
 	}
 	
 	"HighlanderLabel" [$WIN32] 
@@ -627,18 +474,30 @@
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
-	"TeamsFullArrow" [$WIN32]
+	"CancelButton" [$WIN32] 
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TeamsFullArrow"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"ControlName"	"CExButton"
+		"fieldName"		"CancelButton"
+		"xpos"			"0"
+		"ypos"			"r40"
 		"zpos"			"6"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"255"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
 		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../HUD/arrow_big_down"
-		"scaleImage"	"1"	
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_Cancel"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"paintbackground""0"
+		"command"		"cancelmenu"
+		"font"			"CerbeticaBold16"
+		"defaultFgColor_override" 	"255 255 255 128"
+		"armedFgColor_override"		"TanLight"
+		"depressedFgColor_override" "255 255 255 128"
+		"selectedFgColor_override" 	"TanLight"
 	}
 }

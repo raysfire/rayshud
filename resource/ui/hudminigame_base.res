@@ -143,7 +143,7 @@
 		"tall"			"20"	[$WIN32]
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 0"
+		"fillcolor"		"Transparent"
 		"scaleImage"	"1"	
 	}
 

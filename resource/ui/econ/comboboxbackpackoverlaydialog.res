@@ -9,7 +9,7 @@
 		"ypos"				"105"
 		"wide"				"280"
 		"tall"				"240"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"DarkGrey"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"1"
 		"border"				"CyanBorderThick"
@@ -45,8 +45,8 @@
 		"tall"				"120"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"0 0 0 0"
-		"noitem_textcolor"	"117 107 94 255"
+		"bgcolor_override"	"Transparent"
+		"noitem_textcolor"	"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"		"1"
 		"model_xpos"		"2"
@@ -120,6 +120,8 @@
 		"Command"			"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"	"ButtonHover"
+		"border_armed"		"ButtonHover"
 	}
 	
 	"OkButton"

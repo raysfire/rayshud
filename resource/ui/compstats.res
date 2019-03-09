@@ -195,9 +195,9 @@
 					"armedFgColor_override"		"Orange"
 					"selectedFgColor_override" "TanLight"
 
-					"image_selectedcolor"	"255 255 255 255"
-					"image_armedcolor"		"0 0 0 0"
-					"image_drawcolor"		"0 0 0 0"
+					"image_selectedcolor"	"White"
+					"image_armedcolor"		"Transparent"
+					"image_drawcolor"		"Transparent"
 
 					"command"				"sort0"
 					"actionsignallevel"		"4"
@@ -228,9 +228,9 @@
 					"armedFgColor_override"	"Orange"
 					"selectedFgColor_override" "TanLight"
 
-					"image_selectedcolor"	"255 255 255 255"
-					"image_armedcolor"		"0 0 0 0"
-					"image_drawcolor"		"0 0 0 0"
+					"image_selectedcolor"	"White"
+					"image_armedcolor"		"Transparent"
+					"image_drawcolor"		"Transparent"
 
 					"command"				"sort1"
 					"actionsignallevel"		"4"	
@@ -261,9 +261,9 @@
 					"armedFgColor_override"	"Orange"
 					"selectedFgColor_override" "TanLight"
 
-					"image_selectedcolor"	"255 255 255 255"
-					"image_armedcolor"		"0 0 0 0"
-					"image_drawcolor"		"0 0 0 0"
+					"image_selectedcolor"	"White"
+					"image_armedcolor"		"Transparent"
+					"image_drawcolor"		"Transparent"
 
 					"command"	"sort2"
 					"actionsignallevel"	"4"
@@ -292,9 +292,9 @@
 					"armedFgColor_override"	"Orange"
 					"selectedFgColor_override" "TanLight"
 
-					"image_selectedcolor"	"255 255 255 255"
-					"image_armedcolor"		"0 0 0 0"
-					"image_drawcolor"		"0 0 0 0"
+					"image_selectedcolor"	"White"
+					"image_armedcolor"		"Transparent"
+					"image_drawcolor"		"Transparent"
 
 					"command"	"sort3"
 					"actionsignallevel"	"4"

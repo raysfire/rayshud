@@ -9,11 +9,10 @@
 		"ypos"					"c-200"
 		"wide"					"400"
 		"tall"					"240"
+		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"paintborder"			"2"
-		"paintbackground"		"1"
 		"border"				"CyanBorderThick"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"DarkGrey"
 	}
 
 	"mouseoveritempanel"
@@ -26,8 +25,8 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"		"1"
 		"text_ypos"			"20"
@@ -50,7 +49,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"TextColor"
 			"centerwrap"	"1"
 		}
 	}
@@ -103,8 +102,8 @@
 		"wide"			"84"
 		"tall"			"64"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		"model_xpos"	"2"
@@ -152,8 +151,8 @@
 		"wide"			"84"
 		"tall"			"64"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		"model_xpos"	"2"
@@ -168,7 +167,6 @@
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
-			"inventory_image_type"	"1"
 		}
 	}	
 	
@@ -207,7 +205,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"DfButton"
+		"font"			"HudFontSmall"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -234,7 +232,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#CraftNameConfirm"
-		"font"			"DfButton"
+		"font"			"HudFontSmall"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

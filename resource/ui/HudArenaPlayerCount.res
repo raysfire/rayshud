@@ -67,7 +67,7 @@
 			"font"			"Cerbetica24"
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"center"
-			"fgcolor"		"Black"
+			"fgcolor"		"TransparentBlack"
 			
 			"pin_to_sibling"		"count"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -157,7 +157,7 @@
 			"font"			"Cerbetica24"
 			"labelText"		"%red_alive%"
 			"textAlignment"	"center"
-			"fgcolor"		"Black"
+			"fgcolor"		"TransparentBlack"
 			
 			"pin_to_sibling"		"count"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"

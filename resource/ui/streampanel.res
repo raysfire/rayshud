@@ -153,9 +153,9 @@
 		
 		"border_armed"		"TeamMenuBorder"
 		
-		"defaultFgColor_override" "0 0 0 0"
-		"defaultBgColor_override" "0 0 0 0"
-		"armedFgColor_override" "0 0 0 0"
-		"armedBgColor_override"	"0 0 0 0"
+		"defaultFgColor_override" "Transparent"
+		"defaultBgColor_override" "Transparent"
+		"armedFgColor_override" "Transparent"
+		"armedBgColor_override"	"Transparent"
 	}
 }

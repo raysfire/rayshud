@@ -11,7 +11,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"CyanBorderThick"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"DarkGrey"
 		
 		"PassedIcon"
 		{
@@ -43,7 +43,7 @@
 			"brighttext"	"0"
 			"font"			"ScoreboardSmall"
 			"wrap"			"1"
-			"fgcolor_override"	"ColorWhite"
+			"fgcolor_override"	"White"
 		}
 		
 		"PassedResult"
@@ -62,7 +62,7 @@
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
-			"fgcolor_override"	"ColorWhite"
+			"fgcolor_override"	"White"
 			"noshortcutsyntax"	"1"
 		}
 	}
@@ -78,7 +78,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"CyanBorderThick"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"DarkGrey"
 		
 		"Header"
 		{
@@ -96,7 +96,7 @@
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
-			"fgcolor_override"	"128 128 128 255"
+			"fgcolor_override"	"ColorGreyMid"
 		}
 		
 		"Issue"
@@ -114,7 +114,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardSmall"
-			"fgcolor_override"	"ColorWhite"
+			"fgcolor_override"	"White"
 			"wrap"				"1"
 			"noshortcutsyntax"	"1"
 		}
@@ -142,7 +142,7 @@
 			"ypos"			"50"
 			"wide"			"130"
 			"tall"			"1"
-			"fillcolor"		"128 128 128 255"
+			"fillcolor"		"ColorGreyMid"
 			"zpos"			"0"
 		}
 		
@@ -163,7 +163,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
-			"fgcolor_override"	"ColorWhite"
+			"fgcolor_override"	"White"
 		}
 		
 		"Option1Background_Selected"
@@ -195,7 +195,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardSmall"
-			"fgcolor_override"	"ColorWhite"
+			"fgcolor_override"	"White"
 		}
 		
 		"LabelOption2"
@@ -214,7 +214,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
-			"fgcolor_override"	"ColorWhite"
+			"fgcolor_override"	"White"
 		}
 		
 		"Option2Background_Selected"
@@ -246,7 +246,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardSmall"
-			"fgcolor_override"	"ColorWhite"
+			"fgcolor_override"	"White"
 		}
 		
 		"LabelOption3"
@@ -265,7 +265,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
-			"fgcolor_override"	"ColorWhite"
+			"fgcolor_override"	"White"
 		}
 		
 		"Option3Background_Selected"
@@ -297,7 +297,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
-			"fgcolor_override"	"ColorWhite"
+			"fgcolor_override"	"White"
 		}
 		
 		"Option4Background_Selected"
@@ -329,7 +329,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
-			"fgcolor_override"	"ColorWhite"
+			"fgcolor_override"	"White"
 		}
 		
 		"Option5Background_Selected"
@@ -353,7 +353,7 @@
 			"ypos"			"100"
 			"wide"			"130"
 			"tall"			"1"
-			"fillcolor"		"128 128 128 255"
+			"fillcolor"		"ColorGreyMid"
 			"zpos"			"0"
 		}
 		
@@ -372,7 +372,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
-			"fgcolor_override"	"128 128 128 255"
+			"fgcolor_override"	"ColorGreyMid"
 		}
 		
 		// Vote Bar
@@ -407,7 +407,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"CyanBorderThick"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"DarkGrey"
 		
 		"FailedIcon"
 		{
@@ -458,7 +458,7 @@
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
-			"fgcolor_override"	"ColorWhite"
+			"fgcolor_override"	"White"
 		}
 	}
 	
@@ -474,7 +474,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"CyanBorderThick"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"DarkGrey"
 		
 		"FailedIcon"
 		{
@@ -525,7 +525,7 @@
 			"brighttext"	"0"
 			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
-			"fgcolor_override"	"ColorWhite"
+			"fgcolor_override"	"White"
 		}
 	}
 	
@@ -646,13 +646,13 @@
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
 			
-			"fgcolor_override"					"117 107 94 255"
-			"bgcolor_override"					"251 235 202 255"
-			"disabledFgColor_override" 			"117 107 94 255"
-			"disabledBgColor_override" 			"251 235 202 255"
-			"selectionColor_override"			"251 235 202 255"
-			"selectionTextColor_override" 		"117 107 94 255"
-			"defaultSelectionBG2Color_override" "251 235 202 255"
+			"fgcolor_override"					"TextColor"
+			"bgcolor_override"					"Yellow"
+			"disabledFgColor_override"			"TextColor"
+			"disabledBgColor_override"			"Yellow"
+			"selectionColor_override"			"Yellow"
+			"selectionTextColor_override"		"TextColor"
+			"defaultSelectionBG2Color_override" "Yellow"
 		}
 		
 		"CallVoteButton"
@@ -662,7 +662,7 @@
 			"xpos"			"75"
 			"ypos"			"275"
 			"wide"			"160"
-			"tall"			"24"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -683,7 +683,7 @@
 			"xpos"			"240"
 			"ypos"			"275"
 			"wide"			"80"
-			"tall"			"24"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"

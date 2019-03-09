@@ -12,7 +12,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
-		"bgcolor_override"		"27 27 27 255"
+		"bgcolor_override"		"DarkGrey"
 	}
 	
 	"RenderAllButton"
@@ -135,7 +135,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"bgcolor_override" "22 22 22 255"
+		"bgcolor_override" "DarkerGrey"
 	}
 	
 	"NoReplayItemsLabel"
@@ -151,7 +151,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
-		"fgcolor_override"	"117 107 94 255"
+		"fgcolor_override"	"TextColor"
 	}
 	
 	"ShowPrevButton"

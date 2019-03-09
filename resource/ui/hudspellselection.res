@@ -41,7 +41,7 @@
 		"ypos"			"9999"
 		"wide"			"100"
 		"tall"			"10"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"TanLight"
 		"visible"		"1"
 	}
 	
@@ -75,7 +75,7 @@
 		"ypos_minmode"	"50"
 		"wide"			"20"
 		"tall"			"30"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"TanLight"
 	}
 	
 	"CountTextShadow"
@@ -85,14 +85,16 @@
 		"font"			"CerbeticaBold28"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
-		"xpos"			"44"
-		"ypos"			"31"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"0"
 		"font_minmode"	"CerbeticaBold20"
-		"xpos_minmode"	"19"
-		"ypos_minmode"	"51"
 		"wide"			"20"
 		"tall"			"30"
-		"fgcolor"		"0 0 0 255"
+		"fgcolor"		"TransparentBlack"
+
+		"pin_to_sibling"		"CountText"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 }

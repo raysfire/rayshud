@@ -80,7 +80,7 @@
 		"unicode"			"0"
 		"wrap"				"0"
 		"fgcolor_override"	"235 226 202 255"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"Transparent"
 		"labelText"			"%teamname%"
 		"font" 				"Cerbetica12"
 		"textAlignment"		"west"
@@ -88,18 +88,9 @@
 
 	"HudTournamentNameBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HudTournamentNameBG"
-		"xpos"			"30"
-		"ypos"			"28"
-		"wide"			"0"
-		"tall"			"0"
-		"zpos"			"0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"fillcolor"		"255 0 0 255"
+		"xpos"			"9999"
 	}
 
 	"TournamentNotReadyButton"

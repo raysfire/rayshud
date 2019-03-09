@@ -43,7 +43,7 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"Transparent"
 	
 		"itemmodelpanel"
 		{
@@ -110,7 +110,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"south"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"TextColor"
 			"centerwrap"	"1"
 		}
 		
@@ -130,7 +130,7 @@
 			"enabled"		"1"
 			"labelText"		"#ItemPanelEquipped"
 			"textAlignment"	"center"
-			"fgcolor"		"200 80 60 255"
+			"fgcolor"		"LightRed"
 			"bgcolor_override"		"0 0 0 255"
 			"PaintBackgroundType"	"2"
 		}
@@ -164,7 +164,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"center"
-			"fgcolor"		"200 80 60 255"
+			"fgcolor"		"LightRed"
 			"bgcolor_override"		"0 0 0 255"
 			"PaintBackgroundType"	"2"
 		}
@@ -285,7 +285,7 @@
 			"tall"			"18"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 200"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			"useparentbg"	"0"

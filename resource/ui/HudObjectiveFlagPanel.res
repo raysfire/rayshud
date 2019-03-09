@@ -135,8 +135,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-56"
-		"ypos"			"r32"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"8"
 		"wide"			"50"
 		"tall"			"35"
@@ -145,7 +145,11 @@
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
 		"font"			"Cerbetica40"
-		"fgcolor"		"Black"
+		"fgcolor"		"TransparentBlack"
+		
+		"pin_to_sibling"		"BlueScore"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		
 		"if_hybrid"
 		{
@@ -199,8 +203,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"c8"
-		"ypos"			"r32"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"8"
 		"wide"			"50"
 		"tall"			"35"
@@ -209,7 +213,11 @@
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
-		"fgcolor"		"Black"		
+		"fgcolor"		"TransparentBlack"
+		
+		"pin_to_sibling"		"RedScore"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		
 		"if_hybrid"
 		{
@@ -294,7 +302,7 @@
 		"tall"			"20"	[$WIN32]
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 0"
+		"fillcolor"		"Transparent"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"

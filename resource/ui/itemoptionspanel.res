@@ -60,7 +60,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"fgcolor_override" "Base Color"
+			"fgcolor_override" "ColorCyan"
 		}
 
 		"SetStyleButton"
@@ -85,10 +85,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"set_style"
-			
-			"border_default"			"NoBorder"
-			"border_armed"				"NoBorder"
-			"border_depressed"			"NoBorder"
 		}
 	}
 }

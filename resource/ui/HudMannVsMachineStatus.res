@@ -251,7 +251,7 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"tanlight"		
+			"fgcolor"		"TanLight"		
 		}
 	}
 }

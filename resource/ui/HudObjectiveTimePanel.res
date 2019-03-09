@@ -34,7 +34,6 @@
 		"tall"				"20"
 		"tall_lodef"		"25"	
 		"visible"			"0"
-		"visible_minmode"	"0"
 		"enabled"			"1"
 		"scaleImage"		"1"
 		"image"				"../hud/objectives_timepanel_progressbar"

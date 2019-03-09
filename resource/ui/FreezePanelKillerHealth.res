@@ -61,10 +61,10 @@
 		"textAlignment"	"center"		
 	}
 
-	"PlayerStatusHealthValueFreezeBackground"
+	"PlayerStatusHealthValueFreezePanelShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueFreezeBackground"
+		"fieldName"		"PlayerStatusHealthValueFreezePanelShadow"
 		"xpos"			"4"
 		"ypos"			"4"
 		"zpos"			"5"

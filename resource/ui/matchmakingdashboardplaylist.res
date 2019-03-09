@@ -27,7 +27,7 @@
 		"labeltext"		"#TF_Matchmaking_HeaderModeSelect"
 		"textAlignment"	"west"
 		"font"			"CerbeticaBold24"
-		"fgcolor_override"	"242 242 242 255"
+		"fgcolor_override"	"White"
 		
 		"mouseinputenabled"	"0"
 	}

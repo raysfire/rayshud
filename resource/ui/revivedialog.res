@@ -70,7 +70,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "Base Color"
+			"fgcolor_override" "ColorCyan"
 		}
 
 		"ConfirmButton"

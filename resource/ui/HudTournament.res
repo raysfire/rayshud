@@ -57,10 +57,10 @@
 			"color_ready"		"0 255 0 220"
 			"color_notready"	"0 0 0 220"
 			
-			"BG"
+			"PanelBG"
 			{
 				"ControlName"	"ImagePanel"
-				"fieldName"		"BG"
+				"fieldName"		"PanelBG"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"0"
@@ -400,74 +400,14 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"HudTournamentBG"
-		"xpos"			"0"
-		"ypos"			"26"
-		"zpos"			"-1"
-		"wide"			"250"
-		"tall"			"0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../HUD/tournament_panel_brown"
-
-		"src_corner_height"		"23"			// pixels inside the image
-		"src_corner_width"		"23"
-		
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height"	"0"	
-		
-		if_mvm {
-			"visible"			"0"
-		}
-
-		if_competitive
-		{
-			"xpos"			"195"
-			"ypos"			"5"
-			"visible"		"0"
-		}
-		
-		if_readymode
-		{
-			"xpos"			"195"
-			"visible"		"0"
-		}		
+		"wide"			"0"		
 	}
+
 	"TournamentLabel"
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TournamentLabel"
-		"font"			"HudFontSmall"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"240"
-		"tall"			"19"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"0"
-		"labelText"		"%tournamentstatelabel%"
-		"textAlignment"	"center"
-		
-		if_mvm
-				{
-			"visible"		"0"
-		}
-
-		if_competitive
-		{
-			"xpos"			"200"
-			"visible"		"0"
-		}
-
-		if_readymode
-		{
-			"xpos"			"200"
-			"visible"		"0"
-		}
+		"wide"			"0"
 	}
 
 	"HudTournamentBLUEBG"
@@ -479,8 +419,6 @@
 		"zpos"			"-1"
 		"wide"			"125"
 		"tall"			"16"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_blu"
@@ -804,36 +742,6 @@
 		}
 	}
 	
-	"HelpBackground"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HelpBackground"
-		"xpos"			"c-125"
-		"ypos"			"26"
-		"zpos"			"-1"
-		"wide"			"250"
-		"tall"			"18"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"50 50 50 255"
-		
-		if_mvm {
-			"visible"	"0"
-		}
-
-		if_readymode {
-			"xpos"		"c-125"
-		}
-		
-		if_competitive
-		{
-			"xpos"		"c-125"
-			"ypos"		"32"
-			"visible"	"0"
-		}		
-	}
-	
 	"TournamentInstructionsLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -914,45 +822,7 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"CountdownBG"
-		"xpos"			"230"
-		"ypos"			"r55"
-		"zpos"			"-1"
-		"wide"			"40"
-		"tall"			"40"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../HUD/color_panel_red"
-
-		"src_corner_height"		"23"			// pixels inside the image
-		"src_corner_width"		"23"
-		
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height"	"5"
-		
-		"if_mvm" 
-		{
-			"visible"	"1"
-			"enabled"	"1"
-			"xpos"		"c-20"
-		}
-
-		if_competitive
-		{
-			"visible"	"0"
-			"enabled" 	"0"
-			"wide"		"0"
-			"tall"		"0"
-		}
-		
-		if_readymode
-		{
-			"visible"	"0"
-			"enabled" 	"0"
-			"wide"		"0"
-			"tall"		"0"
-		}
+		"wide"			"0"
 	}
 
 	"CountdownLabel"

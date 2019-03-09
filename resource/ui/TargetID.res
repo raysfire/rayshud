@@ -40,8 +40,6 @@
 		"zpos"			"-1"
 		"wide"			"640"
 		"tall"	 		"10"
-		"autoResize"		"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
@@ -107,7 +105,7 @@
 	
 	"TargetNameLabel"
 	{	
-		"ControlName"		"CExLabel"
+		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
 		"font"			"Cerbetica14"
 		"xpos"			"45"
@@ -115,14 +113,31 @@
 		"zpos"			"7"
 		"wide"			"300"
 		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+	}
+	
+	"TargetNameLabelShadow"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"TargetNameLabelShadow"
+		"font"				"Cerbetica14"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"1"
+		"wide"				"300"
+		"tall"				"15"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"%targetname%"
+		"textAlignment"		"west"
+		"fgcolor_override"	"TransparentBlack"
+		
+		"pin_to_sibling"		"TargetNameLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 
 	"TargetDataLabel"
@@ -135,16 +150,30 @@
 		"zpos"			"6"
 		"wide"			"300"
 		"tall"			"15"
-		"autoResize"		"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	
+	"SpectatorGUIHealth"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"SpectatorGUIHealth"
+		"xpos"				"-2"
+		"ypos"				"12"
+		"zpos"				"10"
+		"wide"				"38"
+		"tall"				"42"
+		"visible"			"1"
+		"enabled"			"1"	
+		"HealthBonusPosAdj"	"10"
+		"HealthDeathWarning""0.49"
+		"TFFont"			"HudFontSmall"
+		"HealthDeathWarningColor"	"HUDDeathWarning"
+		"TextColor"			"HudOffWhite"
+	}
+
 	"AmmoIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -160,10 +189,10 @@
 		"scaleImage"	"1"
 	}
 	
-	"KillStreakIconAnchor"
+	"KillStreakAnchor"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName"			"KillStreakIconAnchor"
+		"fieldName"			"KillStreakAnchor"
 		"xpos"				"2"
 		"ypos"				"18"
 		"wide"				"8"
@@ -185,27 +214,9 @@
 		"enabled"			"1"
 		"image"				"../hud/leaderboard_streak"
 		"scaleImage"		"1"
-		"pin_to_sibling"	"KillStreakIconAnchor"
+		"pin_to_sibling"	"KillStreakAnchor"
 		"pin_corner_to_sibling" "1"
 		"pin_to_sibling_corner" "1"
-	}
-	
-	"SpectatorGUIHealth"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"SpectatorGUIHealth"
-		"xpos"				"-2"
-		"ypos"				"12"
-		"zpos"				"10"
-		"wide"				"38"
-		"tall"				"42"
-		"visible"			"1"
-		"enabled"			"1"	
-		"HealthBonusPosAdj"	"10"
-		"HealthDeathWarning""0.49"
-		"TFFont"			"HudFontSmall"
-		"HealthDeathWarningColor"	"HUDDeathWarning"
-		"TextColor"			"HudOffWhite"
 	}
 	
 	"MoveableSubPanel"
@@ -291,7 +302,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"MoveableKeyLabel"
-			"font_minmode"	"Cerbetica12"
+			"font"			"Cerbetica12"
 			"xpos"			"0"
 			"ypos"			"29"
 			"zpos"			"6"

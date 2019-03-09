@@ -104,7 +104,7 @@
 	
 	"MvMPlayerList"
 	{
-		"ControlName"	"SectionedLsistPanel"
+		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
 		"xpos"			"c-260"
 		"ypos"			"248"
@@ -162,7 +162,7 @@
 			"xpos"			"9999"
 			"ypos"			"9999"
 			"wide"			"200"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"TanLight"
 		}
 		
 		"PreviousWaveCreditInfoPanel"
@@ -224,7 +224,7 @@
 			"ypos"			"8"
 			"wide"			"220"
 			"tall"			"40"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"TanLight"
 		}
 	}
 }

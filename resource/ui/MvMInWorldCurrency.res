@@ -1,50 +1,5 @@
 "Resource/UI/MvMInWorldCurrency.res"
 {
-	"BorderBG"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"BorderBG"
-		"xpos"				"9999"
-		"ypos"				"9999"
-		"zpos"				"1"
-		"wide"				"46"
-		"tall"				"100"
-		"visible"			"1"
-		"enabled"			"1"
-		"bgcolor_override"	"TanLight"
-		"PaintBackgroundType"	"0"
-	}
-	
-	"BackgroundGood"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"BackgroundGood"
-		"xpos"				"9999"
-		"ypos"				"9999"
-		"zpos"				"2"
-		"wide"				"44"
-		"tall"				"12"
-		"visible"			"1"
-		"enabled"			"1"
-		"bgcolor_override"	"221 182 72 250"
-		"PaintBackgroundType"	"0"
-	}
-	
-	"MoneyImagePanel"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"MoneyImagePanel"
-		"xpos"				"9999"
-		"ypos"				"9999"
-		"zpos"				"4"
-		"wide"				"14"
-		"tall"				"14"
-		"image"				"../HUD/mvm_cash"
-		"visible"			"1"
-		"enabled"			"1"
-		"scaleImage"		"1"
-	}
-	
 	"CurrencyBG"
 	{
 		"ControlName"		"ImagePanel"

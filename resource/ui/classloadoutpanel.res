@@ -14,9 +14,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"25 25 25 255"
-		"infocus_bgcolor_override" "25 25 25 255"
-		"outoffocus_bgcolor_override" "25 25 25 255"
+		"bgcolor_override"				"DarkGrey"
+		"infocus_bgcolor_override" 		"DarkGrey"
+		"outoffocus_bgcolor_override" 	"DarkGrey"
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
@@ -41,8 +41,8 @@
 			"wide"			"140"
 			"tall"			"70"
 			"visible"		"0"
-			"bgcolor_override"		"0 0 0 0"
-			"noitem_textcolor"		"117 107 94 255"
+			"bgcolor_override"		"Transparent"
+			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
@@ -213,8 +213,8 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+			"bgcolor_override"		"Transparent"
+			"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"		"1"
 		"text_ypos"			"0"
@@ -237,7 +237,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"TextColor"
 			"centerwrap"	"1"
 		}
    	}
@@ -331,16 +331,13 @@
 		
 		"fgcolor"					"TanLight"
 		"defaultFgColor_override" "250 68 17 255"
-		"armedFgColor_override" "Base Color"
+		"armedFgColor_override" "ColorCyan"
 		"depressedFgColor_override" "250 68 17 255"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"keyboardinputenabled"	"0"
-		"paintbackground"	"1"
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
-		"border_depressed"			"NoBorder"
+		"paintbackground"		"1"
 	}
 	
 	"BlueButton"
@@ -365,7 +362,7 @@
 		
 		"fgcolor"					"TanLight"
 		"defaultFgColor_override" "0 98 255 255"
-		"armedFgColor_override" "Base Color"
+		"armedFgColor_override" "ColorCyan"
 		"depressedFgColor_override" "0 98 255 255"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -373,9 +370,6 @@
 		
 		"keyboardinputenabled"	"0"
 		"paintbackground"		"1"
-		"border_default"		"NoBorder"
-		"border_armed"			"NoBorder"
-		"border_depressed"		"NoBorder"
 	}
 	
 	"CharacterLoadoutButton"
@@ -456,7 +450,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"image"			"../hud/ico_reel"
+			"image"			"../vgui/replay/thumbnails/reel"
 		}
 	}
 

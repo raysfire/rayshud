@@ -15,7 +15,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"DarkGrey"
 		"itempanel_xpos"		"0"
 		"itempanel_ydelta"		"0"
 		"border"				"NoBorder"
@@ -36,7 +36,7 @@
 			"text_xpos"		"60"
 			"text_wide"		"190"
 			"name_only"		"1"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"TextColor"
 		}
 	}
 	
@@ -150,8 +150,8 @@
 			"tall"			"40"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override" "200 80 60 255"
-			"bgcolor_override"	"0 0 0 0"
+			"fgcolor_override" "LightRed"
+			"bgcolor_override"	"Transparent"
 		}
 	}
 	
@@ -171,7 +171,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "LightRed"
 	}
 	
 	"loadout_preset_panel"

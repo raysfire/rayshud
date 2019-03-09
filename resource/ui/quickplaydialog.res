@@ -13,7 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"bgcolor_override"			"0 0 0 0"
+		"bgcolor_override"			"Transparent"
 		"event247_image"			"illustrations/gamemode_halloween2015"
 		"community_update_image"	"illustrations/gamemode_invasion"
 	}
@@ -959,7 +959,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"wrap"			"1"
-				"fgcolor_override" "46 43 42 255"
+				"fgcolor_override" "TanDarker"
 			}
 		
 			"TextLabel"
@@ -978,7 +978,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"wrap"			"1"
-				"fgcolor_override" "46 43 42 255"
+				"fgcolor_override" "TanDarker"
 				"proportionaltoparent"	"1"
 			}
 		
@@ -1009,12 +1009,12 @@
 			
 				"paintbackground"	"0"
 			
-				"defaultFgColor_override" "46 43 42 255"
+				"defaultFgColor_override" "TanDarker"
 				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
+				"depressedFgColor_override" "TanDarker"
 			
-				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"200 80 60 255"
+				"image_drawcolor"	"TextColor"
+				"image_armedcolor"	"LightRed"
 
 				"SubImage"
 				{

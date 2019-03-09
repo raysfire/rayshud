@@ -23,9 +23,9 @@
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"				"200 187 161 255"
-		"titlebardisabledfgcolor_override"		"200 187 161 255"
-		"titlebarbgcolor_override"				"46 43 42 255"
+		"titlebarfgcolor_override"			"HudOffWhite"
+		"titlebardisabledfgcolor_override"	"HudOffWhite"
+		"titlebarbgcolor_override"			"DarkGrey"
 		
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
@@ -100,10 +100,8 @@
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
-		"border"				"NoBorder"
-		"bgcolor_override"		"Base Color"
+		"bgcolor_override"		"ColorCyan"
 	}
 	
 	"Sheet"
@@ -128,10 +126,8 @@
 			"tall"			"2"
 			"visible"		"1"
 			"enabled"		"1"
-			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
-			"border"				"NoBorder"
-			"bgcolor_override"		"Base Color"
+			"bgcolor_override"		"ColorCyan"
 		}				
 		
 		"tabskv"
@@ -174,13 +170,6 @@
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"1"
-		"defaultBgColor_override"	"15 15 15 255"
-		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"25 25 25 255"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanLight"
 		"border_default"			"ButtonHover"
 		"border_armed"				"ButtonHover"
 	}

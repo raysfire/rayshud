@@ -66,9 +66,8 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIconBackground"
-		"xpos"			"1"
-		"ypos"			"121"
-		"ypos_minmode"	"71"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"10"
 		"tall"			"10"
@@ -77,6 +76,10 @@
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
 		"iconColor"		"TransparentBlack"
+
+		"pin_to_sibling"		"MetalIcon"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	
 	"AccountValue"

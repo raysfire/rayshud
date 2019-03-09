@@ -72,6 +72,31 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
+	
+	"DisguiseNameLabelShadow"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"DisguiseNameLabelShadow"
+		"font"				"Cerbetica14"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"1"
+		"wide"				"110"
+		"tall"				"24"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"%disguisename%"
+		"textAlignment"		"west"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"fgcolor_override"	"TransparentBlack"
+		
+		"pin_to_sibling"		"DisguiseNameLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+	}
 
 	"WeaponNameLabel"
 	{
@@ -91,6 +116,31 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
+	}
+	
+	"WeaponNameLabelShadow"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"WeaponNameLabelShadow"
+		"font"				"Cerbetica12"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"1"
+		"wide"				"110"
+		"tall"				"24"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"%weaponname%"
+		"textAlignment"		"west"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"fgcolor_override"	"TransparentBlack"
+		
+		"pin_to_sibling"		"WeaponNameLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	"WeaponBackground"
 	{
