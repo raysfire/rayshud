@@ -4,49 +4,49 @@
 {
 	"ItemBackground"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemBackground"
-		"xpos"			"50"
-		"ypos"			"10"
-		"zpos"			"0"
-		"wide"			"400"
-		"tall"			"130"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"pipboy_overlay"
-		"tileImage"		"1"
-		"drawcolor"		"192 192 192 255"
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"ItemBackground"
+		"xpos"				"50"
+		"ypos"				"10"
+		"zpos"				"0"
+		"wide"				"400"
+		"tall"				"130"
+		"visible"			"1"
+		"enabled"			"1"
+		"scaleImage"		"1"
+		"image"				"pipboy_overlay"
+		"tileImage"			"1"
+		"drawcolor"			"192 192 192 255"
 	}
 	"BackgroundEngineer"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"BackgroundEngineer"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"-1"
-		"wide"			"40"
-		"tall"			"40"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"pipboy_engineer"
-		"tileImage"		"0"
-		"tileVertically" "0"
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"BackgroundEngineer"
+		"xpos"				"9999"
+		"ypos"				"9999"
+		"zpos"				"-1"
+		"wide"				"40"
+		"tall"				"40"
+		"visible"			"1"
+		"enabled"			"1"
+		"scaleImage"		"1"	
+		"image"				"pipboy_engineer"
+		"tileImage"			"0"
+		"tileVertically"	"0"
 	}
 	
-	"DestroyIcon"	
+	"DestroyIcon"
 	{
-		"iconColor"		"ColorGreen"
+		"iconColor"			"ColorGreen"
 	}
 	
 	"TitleLabel"
 	{
-		"fgcolor"		"ColorGreen"
+		"fgcolor"			"ColorGreen"
 	}
 	
 	"CancelLabel"
 	{
-		"fgcolor"		"ColorGreen"
+		"fgcolor"			"ColorGreen"
 	}
 }

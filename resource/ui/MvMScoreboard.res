@@ -1,5 +1,5 @@
 "Resource/UI/MvMScoreboard.res"
-{		
+{
 	"WaveStatusPanel"
 	{
 		"ControlName"		"CWaveStatusPanel"
@@ -12,6 +12,39 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"verbose"			"1"
+	}
+	
+	"PopFileLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"PopFileLabel"
+		"font"				"Cerbetica24"
+		"labelText"			"%popfile%"
+		"textAlignment"		"center"
+		"xpos"				"c-270"
+		"ypos"				"c-30"
+		"wide"				"270"
+		"tall"				"30"
+		"fgcolor"			"TanLight"
+	}
+	
+	"PlayerListBackground"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"			"PlayerListBackground"
+		"xpos"				"9999"
+		"ypos"				"9999"
+		"zpos"				"-1"
+		"wide"				"400"
+		"tall"				"150"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/tournament_panel_brown"
+		"scaleImage"		"1"
+		"src_corner_height"		"22"
+		"src_corner_width"		"22"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"
 	}
 	
 	"ScoreboardBackground"
@@ -28,20 +61,6 @@
 		"enabled"			"1"
 		"fillcolor"			"0 0 0 200"
 	}
-	"PopFileLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"PopFileLabel"
-		"font"				"Cerbetica24"
-		"labelText"			"%popfile%"
-		"textAlignment"		"center"
-		"xpos"				"c-270"
-		"ypos"				"c-30"
-		"wide"				"270"
-		"tall"				"30"
-		"fgcolor"			"tanlight"
-	}
-
 	"DifficultyContainer"
 	{
 		"ControlName"		"EditablePanel"
@@ -81,54 +100,33 @@
 		}
 	}
 	
-	"PlayerListBackground"
-	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"PlayerListBackground"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"-1"
-		"wide"			"400"
-		"tall"			"150"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/tournament_panel_brown"
-		"scaleImage"	"1"
-		
-		"src_corner_height"		"22"		// pixels inside the image
-		"src_corner_width"		"22"
-	
-		"draw_corner_width"		"0"			// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
-	}
-	
 	"MvMPlayerList"
 	{
-		"ControlName"	"SectionedListPanel"
-		"fieldName"		"MvMPlayerList"
-		"xpos"			"c-260"
-		"ypos"			"248"
-		"wide"			"520"
-		"tall"			"148"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"autoresize"	"3"
-		"linespacing"	"22"
-		"textcolor"		"White"
-		"font"			"Cerbetica24"
+		"ControlName"		"SectionedListPanel"
+		"fieldName"			"MvMPlayerList"
+		"xpos"				"c-260"
+		"ypos"				"248"
+		"wide"				"520"
+		"tall"				"148"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"autoresize"		"3"
+		"linespacing"		"22"
+		"textcolor"			"White"
+		"font"				"Cerbetica24"
 	}
 	
 	"CreditStatsContainer"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"CreditStatsContainer"
-		"xpos"			"c-190"
-		"ypos"			"70"
-		"wide"			"480"
-		"tall"			"205"
-		"visible"		"1"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"CreditStatsContainer"
+		"xpos"				"c-190"
+		"ypos"				"70"
+		"wide"				"480"
+		"tall"				"205"
+		"visible"			"1"
 		
 		"CreditStatsBackground"
 		{
@@ -145,10 +143,9 @@
 			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_brown"
 
-			"src_corner_height"	"22"			// pixels inside the image
+			"src_corner_height"	"22"
 			"src_corner_width"	"22"
-		
-			"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"	"0"
 			"draw_corner_height" "0"	
 		}
 		

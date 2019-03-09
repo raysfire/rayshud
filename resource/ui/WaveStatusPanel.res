@@ -15,10 +15,10 @@
 		"enabled"			"1"
 		"image"				"../HUD/tournament_panel_brown"
 		
-		"src_corner_height"		"22"			// pixels inside the image
+		"src_corner_height"		"22"
 		"src_corner_width"		"22"
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_width"		"0"
+		"draw_corner_height"	"0"	
 	}
 	
 	"WaveCountLabel"
@@ -30,9 +30,9 @@
 		"xpos"				"200"
 		"ypos"				"5"
 		"zpos"				"5"
+		"xpos_minmode"		"150"
 		"wide"				"200"
 		"tall"				"15"
-		"xpos_minmode"		"150"
 		"wide_minmode"		"180"
 		"visible"			"1"
 		"enabled"			"1"
@@ -76,8 +76,8 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"scaleImage"		"1"
-		"bgcolor_override"	"TanLight"
 		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"TanLight"
 		
 		if_verbose {
 			"visible"		"1"
@@ -112,19 +112,16 @@
 		"xpos"				"211"
 		"ypos"				"22"
 		"zpos"				"3"
+		"ypos_minmode"		"10"
 		"wide"				"178"
 		"tall"				"7"
-		"xpos_minmode"		"211"
-		"ypos_minmode"		"10"
-		"wide_minmode"		"178"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				""
 		
-		"src_corner_height"		"22"			// pixels inside the image
+		"src_corner_height"		"22"
 		"src_corner_width"		"22"
-	
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"	
 	}
 	
@@ -135,9 +132,9 @@
 		"xpos"				"211"
 		"ypos"				"22"
 		"zpos"				"2"
+		"ypos_minmode"		"10"
 		"wide"				"178"
 		"tall"				"7"
-		"ypos_minmode"		"10"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -152,17 +149,16 @@
 		"xpos"				"210"
 		"ypos"				"19"
 		"zpos"				"3"
+		"ypos_minmode"		"7"
 		"wide"				"180"
 		"tall"				"12"
-		"ypos_minmode"		"7"
 		"visible"			"0"
 		"enabled"			"0"
 		"image"				"../HUD/tournament_panel_tan"
 		
-		"src_corner_height"		"22"			// pixels inside the image
+		"src_corner_height"		"22"
 		"src_corner_width"		"22"
-	
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"	
 	}
 }

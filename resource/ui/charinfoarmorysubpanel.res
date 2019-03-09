@@ -54,7 +54,7 @@
 			}
 		}
 	}
-
+	
 	"CaratLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -73,7 +73,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 128 255 255"
 	}
-
+	
 	"ArmoryLabel"
 	{
 		"ControlName"	"Label"
@@ -130,7 +130,6 @@
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
-		
 		"fgcolor_override"					"TanLight"
 		"bgcolor_override"					"Grey"
 		"disabledFgColor_override"			"TanLight"
@@ -153,7 +152,7 @@
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 		"border"		"StorePreviewBorder"
-
+		
 		"Data_TextRichText"
 		{
 			"ControlName"	"CEconItemDetailsRichText"
@@ -173,7 +172,7 @@
 			"wrap"			"1"
 			"highlight_color"	"ColorCyan"
 			"itemset_color"		"216 244 9 255"
-			"link_color" 		"200 128 255 255"
+			"link_color"		"200 128 255 255"
 			"image_up_arrow"				"scroll_up_off"
 			"image_up_arrow_mouseover"		"scroll_up_on"
 			"image_down_arrow"				"scroll_down_off"
@@ -185,34 +184,34 @@
 	
 	"SelectedItemModelPanel"
 	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"SelectedItemModelPanel"
-		"xpos"			"c25"
-		"ypos"			"40"
-		"zpos"			"1"
-		"wide"			"260"
-		"tall"			"135"
-		"visible"		"1"
+		"ControlName"		"CItemModelPanel"
+		"fieldName"			"SelectedItemModelPanel"
+		"xpos"				"c25"
+		"ypos"				"40"
+		"zpos"				"1"
+		"wide"				"260"
+		"tall"				"135"
+		"visible"			"1"
 		"bgcolor_override"		"Transparent"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"0"
-		"model_hide"	"1"
-		"text_center"	"1"
-		"resize_to_text" "1"
+		"paintborder"		"0"
+		"model_hide"		"1"
+		"text_center"		"1"
+		"resize_to_text" 	"1"
 		
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
-			"inventory_image_type" "1"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}
-
+	
 	"SelectedItemImageModelPanel"
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"SelectedItemImageModelPanel"
-		"xpos"			"c-280"		// Slightly right of center, because the photo background is
+		"xpos"			"c-280"
 		"ypos"			"160"
 		"zpos"			"1"
 		"wide"			"290"
@@ -231,7 +230,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
-			"inventory_image_type" "1"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}
@@ -249,7 +248,7 @@
 		"bgcolor_override"		"0 0 0 255"
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
+		"paintborder"		"1"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"
@@ -258,10 +257,10 @@
 		"padding_height"	"15"
 		"name_only"			"1"
 		
-		"model_ypos"	"40"
-		"model_xpos"	"50"
-		"model_wide"	"156"
-		"model_tall"	"100"
+		"model_ypos"		"40"
+		"model_xpos"		"50"
+		"model_wide"		"156"
+		"model_tall"		"100"
 		
 		"text_forcesize"	"1"
 		"is_mouseover"		"1"
@@ -368,8 +367,8 @@
 		"Command"		"wiki"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"			"CyanBorderThick"
-		"border_armed"				"CyanBorderThick"
+		"border_default"	"CyanBorderThick"
+		"border_armed"		"CyanBorderThick"
 	}
 	
 	"ViewSetButton"
@@ -395,8 +394,8 @@
 		"Command"		"viewset"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"			"CyanBorderThick"
-		"border_armed"				"CyanBorderThick"
+		"border_default"	"CyanBorderThick"
+		"border_armed"		"CyanBorderThick"
 	}
 	
 	"StoreButton"
@@ -421,8 +420,8 @@
 		"Command"		"openstore"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"			"CyanBorderThick"
-		"border_armed"				"CyanBorderThick"
+		"border_default"	"CyanBorderThick"
+		"border_armed"		"CyanBorderThick"
 	}
 	
 	"ReloadSchemeButton"
@@ -448,7 +447,7 @@
 		"Command"		"reloadscheme"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"			"CyanBorderThick"
-		"border_armed"				"CyanBorderThick"
+		"border_default"	"CyanBorderThick"
+		"border_armed"		"CyanBorderThick"
 	}
 }

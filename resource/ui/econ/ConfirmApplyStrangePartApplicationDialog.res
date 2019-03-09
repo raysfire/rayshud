@@ -9,10 +9,10 @@
 		"ypos"					"c-200"
 		"wide"					"400"
 		"tall"					"240"
+		"bgcolor_override"		"DarkGrey"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
 		"border"				"CyanBorderThick"
-		"bgcolor_override"		"DarkGrey"
 	}
 
 	"mouseoveritempanel"
@@ -28,13 +28,13 @@
 		"bgcolor_override"		"Transparent"
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
-		"paintborder"		"1"	
+		"paintborder"		"1"
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-
+		
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -52,7 +52,7 @@
 			"fgcolor"		"TextColor"
 			"centerwrap"	"1"
 		}
-    }
+	}
 
 	"TitleLabel"
 	{
@@ -130,7 +130,7 @@
 		"text_center"	"1"
 		"name_only"		"1"
 		"paint_icon_hide" "1"
-
+		
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -194,14 +194,14 @@
 		"text_ypos"		"100"		// Hide it off the bottom
 		"text_center"	"1"
 		"name_only"		"1"
-
+		
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
 	}
-
+	
 	"ConfirmLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -247,7 +247,7 @@
 		"border_default"	"ButtonHover"
 		"border_armed"		"ButtonHover"
 	}
-
+	
 	"OkButton"
 	{
 		"ControlName"	"CExButton"

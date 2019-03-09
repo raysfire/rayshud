@@ -200,10 +200,10 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"command"		"view_more"
-
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
+		
 		"defaultFgColor_override" "235 226 202 255"
 		"defaultBgColor_override" "TanDarker"
 		"armedFgColor_override" "235 226 202 255"

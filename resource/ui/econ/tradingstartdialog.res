@@ -9,10 +9,10 @@
 		"ypos"					"80"
 		"wide"					"400"
 		"tall"					"300"
-		"settitlebarvisible"	""
-		"paintbackgroundtype"	"2"
-		"border"				"CyanBorderThick"
 		"bgcolor_override"		"35 35 35 255"
+		"paintbackgroundtype"	"2"
+		"settitlebarvisible"	""
+		"border"				"CyanBorderThick"
 		
 		"button_kv"
 		{
@@ -20,7 +20,7 @@
 			"ypos"			"0"
 			"wide"			"350"
 			"tall"			"30"
-		
+			
 			"button"
 			{
 				"xpos"			"0"
@@ -113,7 +113,7 @@
 			"visible"		"1"
 		}
 	}
-
+	
 	"StatePanel0"
 	{
 		"ControlName"			"EditablePanel"
@@ -125,7 +125,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-	
+		
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -245,6 +245,7 @@
 			"border_armed"				"ButtonHover"
 		}
 	}
+	
 	"StatePanel1"
 	{
 		"ControlName"			"EditablePanel"
@@ -256,7 +257,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-	
+		
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -273,7 +274,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "HudOffWhite"
-		}	
+		}
 		
 		"EmptyPlayerListLabel"
 		{
@@ -303,8 +304,9 @@
 			"depressedFgColor_override" "TanLight"
 			"border_default"			"ButtonHover"
 			"border_armed"				"ButtonHover"
-		}	
+		}
 	}
+	
 	"StatePanel2"
 	{
 		"ControlName"			"EditablePanel"
@@ -316,7 +318,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-	
+		
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -334,7 +336,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "HudOffWhite"
-		}	
+		}
 		
 		"EmptyPlayerListLabel"
 		{
@@ -355,8 +357,9 @@
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor_override" "ColorCyan"
-		}	
+		}
 	}
+	
 	"StatePanel3"
 	{
 		"ControlName"			"EditablePanel"
@@ -368,7 +371,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-	
+		
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -386,7 +389,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "ColorCyan"
-		}	
+		}
 		
 		"URLHelpLabel"
 		{
@@ -407,7 +410,7 @@
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor_override" "TanLight"
-		}	
+		}
 		
 		"URLFailLabel"
 		{
@@ -448,7 +451,7 @@
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor_override" "ColorCyan"
-		}	
+		}
 		
 		"URLEntry"
 		{

@@ -15,7 +15,7 @@
 		"icon"			"hud_menu_bg"
 		"fillcolor"		"0 0 0 100"
 	}
-
+	
 	"Divider"
 	{
 		"ControlName"	"ImagePanel"
@@ -35,7 +35,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"CerbeticaBold32"
-		"xpos"			"18"			// align me to the left edge of the first selection
+		"xpos"			"18"
 		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"360"
@@ -136,7 +136,7 @@
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-
+		
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -173,8 +173,8 @@
 		"fieldName"		"NumberLabel1"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TanLight"
-		"ypos"			"95"
 		"xpos"			"34"
+		"ypos"			"95"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -183,7 +183,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"1"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -267,8 +267,8 @@
 		"fieldName"		"NumberLabel2"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TanLight"
-		"ypos"			"95"
 		"xpos"			"89"
+		"ypos"			"95"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -277,7 +277,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"2"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -288,8 +288,8 @@
 		"fieldName"		"NumberLabel2BG"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TransparentBlack"
-		"ypos"			"97"
 		"xpos"			"91"
+		"ypos"			"97"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -371,7 +371,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"3"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -465,7 +465,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"4"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -559,7 +559,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"5"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -653,7 +653,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"6"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -747,7 +747,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"7"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -768,7 +768,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"7"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -841,19 +841,19 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"8"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
 	
 	"NumberLabel8BG"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel8BG"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TransparentBlack"
-		"ypos"			"97"
 		"xpos"			"422"
+		"ypos"			"97"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -862,7 +862,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"8"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}

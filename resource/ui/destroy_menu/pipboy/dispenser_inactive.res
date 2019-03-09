@@ -6,17 +6,17 @@
 	{
 		"fgcolor"		"ColorGreen"
 	}
-
+	
 	"NotBuiltLabel"
 	{
 		"fgcolor"		"ColorGreen"
 	}
-
+	
 	"UnavailableLabel"
 	{
 		"fgcolor"		"ColorGreen"
 	}
-
+	
 	"NumberLabel"
 	{
 		"fgcolor"		"ColorGreen"

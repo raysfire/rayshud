@@ -9,7 +9,7 @@
 		"ypos"				"105"
 		"wide"				"280"
 		"tall"				"240"
-		"bgcolor_override"		"DarkGrey"
+		"bgcolor_override"	"DarkGrey"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"1"
 		"border"				"CyanBorderThick"
@@ -33,7 +33,7 @@
 		"enabled"			"1"
 		"centerwrap"		"1"
 	}
-
+	
 	"preview_model"
 	{		
 		"ControlName"		"CItemModelPanel"
@@ -66,7 +66,7 @@
 			"inventory_image_type" 	"1"
 		}
 	}
-
+	
 	"ComboBox"
 	{
 		"ControlName"		"ComboBox"
@@ -96,7 +96,7 @@
 		"selectionTextColor_override" "White"
 		"defaultSelectionBG2Color_override" "Black"
 	}
-		
+	
 	"CancelButton"
 	{
 		"ControlName"		"CExButton"

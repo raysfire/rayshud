@@ -19,8 +19,8 @@
 		"infocus_bgcolor_override"		"DarkGrey"
 		"outoffocus_bgcolor_override"	"DarkGrey"
 		
-		"title"			"#StoreTitle"
-		"title_font"	"HudFontMediumBold"
+		"title"				"#StoreTitle"
+		"title_font"		"HudFontMediumBold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"			"HudOffWhite"
@@ -36,7 +36,7 @@
 			"ypos"			"0"
 			"wide"			"580"
 			"tall"			"60"
-		
+			
 			"itempanel"
 			{
 				"ControlName"	"CItemModelPanel"
@@ -103,7 +103,7 @@
 				"enabled"		"1"
 				"image"			"loadout_solid_line"
 				"tileImage"		"1"
-			}			
+			}
 			
 			"RemoveButton"
 			{
@@ -128,7 +128,7 @@
 				"Command"		"remove"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-			}	
+			}
 			
 			"PriceLabel"
 			{
@@ -184,7 +184,7 @@
 		"image"			"loadout_header"
 		"tileImage"		"1"
 	}
-
+	
 	"BackgroundHeader2"
 	{
 		"ControlName"	"ImagePanel"
@@ -199,7 +199,7 @@
 		"fillcolor"		"15 15 15 175"
 		"tileImage"		"1"
 	}
-
+	
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -214,7 +214,7 @@
 		"image"			"loadout_header"
 		"tileImage"		"1"
 	}
-
+	
 	"BackgroundFooter2"
 	{
 		"ControlName"	"ImagePanel"
@@ -228,8 +228,8 @@
 		"enabled"		"1"
 		"fillcolor"		"15 15 15 220"
 		"tileImage"		"1"
-	}			
-
+	}
+	
 	"FooterLine"
 	{
 		"ControlName"	"EditablePanel"
@@ -244,7 +244,7 @@
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
 		"bgcolor_override"		"ColorCyan"
-	}				
+	}
 	
 	"ClientArea"
 	{
@@ -270,7 +270,7 @@
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
 			"bgcolor_override"		"ColorCyan"
-		}				
+		}
 		
 		"CartItemsLabel"
 		{
@@ -303,7 +303,7 @@
 			"enabled"		"1"
 			"image"			"loadout_solid_line"
 			"tileImage"		"1"
-		}				
+		}
 		
 		"EmptyCartLabel"
 		{
@@ -421,7 +421,7 @@
 						"visible"		"1"
 						"enabled"		"1"
 					}
-
+					
 					"WashingtonStateSalesTaxLabel"
 					{
 						"ControlName"	"CExLabel"
@@ -440,7 +440,7 @@
 						"enabled"		"1"
 						"fgcolor_override" "130 120 104 255"
 					}
-
+					
 					"TotalSubtextLabelB"
 					{
 						"ControlName"	"CExLabel"
@@ -481,7 +481,7 @@
 				}
 			}
 		}
-	}	
+	}
 	
 	"CloseButton"
 	{
@@ -506,7 +506,6 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
 		"defaultBgColor_override"	"15 15 15 255"
 		"armedBgColor_override"		"25 25 25 255"
 		"depressedBgColor_override"	"25 25 25 255"
@@ -515,7 +514,7 @@
 		"depressedFgColor_override" "TanLight"
 		"border_default"			"ButtonHover"
 		"border_armed"				"ButtonHover"
-	}		
+	}
 	
 	"CheckoutButton"
 	{
@@ -540,7 +539,6 @@
 		"Command"		"checkout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
 		"defaultBgColor_override"	"15 15 15 255"
 		"armedBgColor_override"		"25 25 25 255"
 		"depressedBgColor_override"	"25 25 25 255"

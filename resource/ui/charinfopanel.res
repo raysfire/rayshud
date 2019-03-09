@@ -58,8 +58,8 @@
 		"enabled"		"1"
 		"fillcolor"		"15 15 15 175"
 		"tileImage"		"1"
-	}		
-
+	}
+	
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -106,14 +106,14 @@
 	
 	"Sheet"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Sheet"
-		"tabxindent"	"80"
-		"tabxdelta"		"10"
-		"tabwidth"		"240"
-		"tabheight"		"20"
-		"transition_time" "0"
-		"yoffset"		"14"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"Sheet"
+		"tabxindent"		"80"
+		"tabxdelta"			"10"
+		"tabwidth"			"240"
+		"tabheight"			"20"
+		"transition_time" 	"0"
+		"yoffset"			"14"
 		
 		"HeaderLine"
 		{
@@ -128,7 +128,7 @@
 			"enabled"		"1"
 			"PaintBackgroundType"	"2"
 			"bgcolor_override"		"ColorCyan"
-		}				
+		}
 		
 		"tabskv"
 		{
@@ -137,13 +137,13 @@
 			"font"				"Cerbetica20"
 			"ypos"				"50"
 			"selectedcolor"		"TanLight"
-			"unselectedcolor"	"TanDark"	
-			"paintbackground"	"1"
+			"unselectedcolor"	"TanDark"
 			"defaultBgColor_override"	"25 25 25 255"
-			"unselectedBgColor_override"	"10 10 10 255"
-			"activeborder_override"	"CyanBorderTabs"
-			"depressedBgColor_override"		"10 10 10 255"
-			"normalborder_override" "CyanBorderTabsInactive"
+			"paintbackground"			"1"
+			"unselectedBgColor_override" "10 10 10 255"
+			"activeborder_override"		"CyanBorderTabs"
+			"depressedBgColor_override"	"10 10 10 255"
+			"normalborder_override" 	"CyanBorderTabsInactive"
 		}
 	}
 	
@@ -170,8 +170,8 @@
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"	"ButtonHover"
+		"border_armed"		"ButtonHover"
 	}
 	
 	"NotificationsPresentPanel"

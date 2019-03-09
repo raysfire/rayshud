@@ -221,7 +221,7 @@
 		"border"		"CyanBorder"
 		"mouseinputenabled"	"1"
 		"proportionaltoparent"	"1"
-		"visible"		"0"
+		"visible"			"0"
 		"bgcolor_override"	"DarkerGrey"
 		
 		"fixed_item"
@@ -607,8 +607,8 @@
 			"RoundedCorners"		"0"
 			
 			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"White"
 			"defaultBgColor_override"	"72 103 32 255"
+			"armedFgColor_override"		"White"
 			"armedBgColor_override"		"72 133 32 255"
 			
 			"sound_armed"		"ui/item_info_mouseover.wav"

@@ -29,7 +29,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"Currency"
 	}
 	

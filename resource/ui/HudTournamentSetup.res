@@ -15,10 +15,9 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 205"
 		
-		"src_corner_height"		"20"			// pixels inside the image
+		"src_corner_height"		"20"
 		"src_corner_width"		"20"
-		
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"	
 	}
 
@@ -62,28 +61,28 @@
 
 	"TournamentNameEdit"
 	{
-		"ControlName"		"Label"
-		"fieldName"			"TournamentNameEdit"
-		"xpos"				"30"
-		"ypos"				"27"
-		"wide"				"120"
-		"tall"				"16"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"textHidden"		"0"
-		"editable"			"1"
-		"maxchars"			"6"
+		"ControlName"	"Label"
+		"fieldName"		"TournamentNameEdit"
+		"xpos"			"30"
+		"ypos"			"27"
+		"wide"			"120"
+		"tall"			"16"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"textHidden"	"0"
+		"editable"		"1"
+		"maxchars"		"6"
 		"NumericInputOnly"	"0"
-		"unicode"			"0"
-		"wrap"				"0"
+		"unicode"		"0"
+		"wrap"			"0"
 		"fgcolor_override"	"235 226 202 255"
 		"bgcolor_override"	"Transparent"
 		"labelText"			"%teamname%"
-		"font" 				"Cerbetica12"
 		"textAlignment"		"west"
+		"font"				"Cerbetica12"
 	}
 
 	"HudTournamentNameBG"
@@ -118,7 +117,6 @@
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
-			
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override"		"Button Color"
 		"depressedFgColor_override" "Button Color"
@@ -150,7 +148,6 @@
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
-			
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override"		"Button Color"
 		"depressedFgColor_override" "Button Color"

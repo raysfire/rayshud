@@ -894,7 +894,7 @@
 			"brighttext"			"0"
 			"proportionaltoparent"	"1"
 		}
-
+		
 		"CancelButton"
 		{
 			"ControlName"		"CExButton"
@@ -942,7 +942,7 @@
 			"callout_inparents_x"	"25"
 			"callout_inparents_y"	"385"
 			"next_explanation"		""
-		
+			
 			"TitleLabel"
 			{
 				"ControlName"	"CExLabel"
@@ -961,7 +961,7 @@
 				"wrap"			"1"
 				"fgcolor_override" "TanDarker"
 			}
-		
+			
 			"TextLabel"
 			{
 				"ControlName"	"CExLabel"
@@ -981,7 +981,7 @@
 				"fgcolor_override" "TanDarker"
 				"proportionaltoparent"	"1"
 			}
-		
+			
 			"CloseButton"
 			{
 				"ControlName"	"CExImageButton"
@@ -1004,18 +1004,17 @@
 				"default"		"0"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				"Command"		"close"
+				"Command"			"close"
 				"proportionaltoparent"	"1"
-			
-				"paintbackground"	"0"
-			
+				"paintbackground"		"0"
+				
 				"defaultFgColor_override" "TanDarker"
 				"armedFgColor_override" "235 226 202 255"
 				"depressedFgColor_override" "TanDarker"
-			
+				
 				"image_drawcolor"	"TextColor"
 				"image_armedcolor"	"LightRed"
-
+				
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -1029,8 +1028,8 @@
 					"enabled"		"1"
 					"image"			"close_button"
 					"scaleImage"	"1"
-				}				
-			}		
-		}		
+				}
+			}
+		}
 	}
 }

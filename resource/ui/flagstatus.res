@@ -1,5 +1,5 @@
 "Resource/UI/FlagStatus.res"
-{	
+{
 	"Arrow"
 	{
 		"ControlName"	"CTFArrowPanel"
@@ -13,7 +13,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 	}
-
+	
 	"Briefcase"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -34,7 +34,7 @@
 			"tall"		"24"
 		}
 	}
-
+	
 	"StatusIcon"
 	{
 		"ControlName"	"CTFImagePanel"

@@ -2,18 +2,18 @@
 {	
 	"ObjectiveStatusFlagPanel"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"ObjectiveStatusFlagPanel"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"1"
-		"wide"				"f0"
-		"tall"				"480"
-		"visible"			"1"
-		"enabled"			"1"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ObjectiveStatusFlagPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
 		
 		"if_hybrid" {
-			"zpos"			"-1"
+			"zpos"		"-1"
 		}
 	}
 	
@@ -29,7 +29,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"70 130 180 153"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		
 		"if_hybrid" {
 			"visible"	"0"
@@ -49,7 +49,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RightSideBG"
 		"xpos"			"c0"
-		"ypos"			"r20"	[$WIN32]
+		"ypos"			"r20"
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"14"
@@ -70,21 +70,20 @@
 			"visible"	"0"
 		}
 	}
-		
+	
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"OutlineBG"
 		"xpos"			"c-140"
-		"ypos"			"r75"	[$WIN32]
-		"ypos"			"r96"	[$X360]
+		"ypos"			"r75"
 		"zpos"			"2"
 		"wide"			"280"
 		"tall"			"80"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_flagpanel_bg_outline"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		
 		"if_hybrid" {
 			"visible"	"0"
@@ -110,7 +109,7 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"TanLight"
@@ -129,7 +128,7 @@
 		{
 			"visible"	"0"
 		}
-	}	
+	}
 		
 	"BlueScoreShadow"
 	{
@@ -137,7 +136,7 @@
 		"fieldName"		"BlueScoreShadow"
 		"xpos"			"-1"
 		"ypos"			"-1"
-		"zpos"			"8"
+		"zpos"			"7"
 		"wide"			"50"
 		"tall"			"35"
 		"visible"		"1"
@@ -165,7 +164,7 @@
 		{
 			"visible"	"0"
 		}
-	}	
+	}
 
 	"RedScore"
 	{
@@ -178,7 +177,7 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"TanLight"
@@ -197,20 +196,20 @@
 		{
 			"visible"	"0"
 		}
-	}	
-		
+	}
+	
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
 		"xpos"			"-1"
 		"ypos"			"-1"
-		"zpos"			"8"
+		"zpos"			"7"
 		"wide"			"50"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"TransparentBlack"
@@ -233,7 +232,7 @@
 		{
 			"visible"	"0"
 		}
-	}	
+	}
 
 	"OutlineImage"
 	{
@@ -248,23 +247,23 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_outline"
 		"scaleImage"	"1"	
-	}		
+	}
 	
 	"CarriedImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
 		"xpos"			"9999"
-	}		
+	}
 	
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
-		"xpos"			"c-70"	[$WIN32]
-		"ypos"			"r54"	[$WIN32]
+		"xpos"			"c-70"
+		"ypos"			"r54"
 		"zpos"			"4"
-		"wide"			"140"	[$WIN32]
+		"wide"			"140"
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
@@ -289,17 +288,17 @@
 		{
 			"visible"	"0"
 		}
-	}	
-
+	}
+	
 	"PlayingToBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"c-50"	[$WIN32]
-		"ypos"			"r50"	[$WIN32]
+		"xpos"			"c-50"
+		"ypos"			"r50"
 		"zpos"			"3"
-		"wide"			"100"	[$WIN32]
-		"tall"			"20"	[$WIN32]
+		"wide"			"100"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"Transparent"
@@ -319,14 +318,14 @@
 		{
 			"visible"	"0"
 		}
-	}	
-		
+	}
+	
 	"BlueFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
 		"xpos"			"c-165"
-		"ypos"			"r75"	[$WIN32]
+		"ypos"			"r75"
 		"zpos"			"2"
 		"wide"			"160"
 		"tall"			"90"
@@ -335,7 +334,7 @@
 		
 		if_mvm
 		{
-			"ypos"		"r95"	[$WIN32]
+			"ypos"		"r95"
 		}
 		
 		"if_hybrid"
@@ -378,7 +377,7 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-
+		
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -404,14 +403,14 @@
 		{
 			"visible"	"0"
 		}
-	}	
+	}
 
 	"CaptureFlag"
 	{
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
 		"xpos"			"c-28"
-		"ypos"			"r100"	[$WIN32]
+		"ypos"			"r100"
 		"zpos"			"5"
 		"wide"			"56"
 		"tall"			"56"
@@ -459,14 +458,14 @@
 		"labelText"		"%redscore%"
 		"font"			"HudFontMediumBold"
 		"fgcolor"		"TanLight"
-	}	
+	}
 	
 	"SpecCarriedImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpecCarriedImage"
 		"xpos"			"9999"
-		"ypos"			"9999"	[$WIN32]
+		"ypos"			"9999"
 		"zpos"			"10"
 		"wide"			"100"
 		"tall"			"100"

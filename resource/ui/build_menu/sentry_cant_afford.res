@@ -3,14 +3,12 @@
 "Resource/UI/build_menu/sentry_cant_afford.res"
 {
 	"ItemNameLabel"
-	{	
-		"labelText"		"#TF_Object_Sentry"
-		"labelText_lodef"		"#TF_Object_Sentry_360"
+	{
+		"labelText"			"#TF_Object_Sentry"
 	}
 	
 	"NumberLabel"
-	{	
-		"labelText"		"1"
+	{
+		"labelText"			"1"
 	}
-	
 }

@@ -31,16 +31,16 @@
 			"paintborder"			"1"
 			"bgcolor_override"		"Grey"
 			
-			"model_xpos"	"0"
+			"model_xpos"		"0"
 			"model_center_y"	"1"
-			"model_tall"	"160"
-			"model_wide"	"240"
+			"model_tall"		"160"
+			"model_wide"		"240"
 			
 			"text_forcesize"	"1"
-			"text_xpos"		"250"
-			"text_wide"		"225"
-			"text_center"	"1"
-			"is_mouseover"	"1"
+			"text_xpos"			"250"
+			"text_wide"			"225"
+			"text_center"		"1"
+			"is_mouseover"		"1"
 			"hide_collection_panel"	"1"
 			
 			"itemmodelpanel"
@@ -119,7 +119,7 @@
 	
 	"ItemCountLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ItemCountLabel"
 		"font"			"HudFontSmallestBold"
 		"labelText"		"#Item"
@@ -134,9 +134,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
+	
 	"SelectedItemNumberLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"SelectedItemNumberLabel"
 		"font"			"HudFontMediumBigBold"
 		"labelText"		"#SelectedItemNumber"
@@ -154,7 +155,7 @@
 	
 	"NextButton"
 	{
-		"ControlName"		"CExButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"NextButton"
 		"xpos"			"c195"
 		"ypos"			"350"
@@ -183,8 +184,8 @@
 		"depressedFgColor_override" "TanLight"
 		"border_default"			"ButtonHover"
 		"border_armed"				"ButtonHover"
-
 	}
+	
 	"PrevButton"
 	{
 		"ControlName"	"CExButton"
@@ -251,6 +252,7 @@
 		"border_default"			"ButtonHover"
 		"border_armed"				"ButtonHover"
 	}
+	
 	"OpenLoadoutButton"
 	{
 		"ControlName"	"CExButton"
@@ -310,8 +312,7 @@
 		"defaultBgColor_override" "TextColor"
 		"armedBgColor_override" "145 73 59 255"
 		"depressedBgColor_override" "TextColor"
-			
-		"image_drawcolor"	"235 226 202 255"		
+		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"235 226 202 255"		
 		
 		"SubImage"
@@ -331,6 +332,7 @@
 			"proportionaltoparent"	"1"
 		}				
 	}		
+	
 	"DiscardButtonTooltip"
 	{
 		"ControlName"	"EditablePanel"
@@ -364,9 +366,10 @@
 			"centerwrap"	"1"
 		}
 	}
+	
 	"DiscardedLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"DiscardedLabel"
 		"font"			"HudFontMediumBold"
 		"labelText"		"#Discarded"

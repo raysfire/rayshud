@@ -4,12 +4,13 @@ Scheme
 {
 	Colors
 	{
-		// rayshud	
+		// HUD COLORS
+		//---------------------------------------------
 		"White"						"255 255 255 255"
 		"OffWhite"					"200 200 200 255"
 		"DullWhite"					"142 142 142 255"
 		"TransparentBlack"			"0 0 0 128"
-		"Black"						"10 10 10 255" 
+		"Black"						"10 10 10 255"
 		"Blank"						"0 0 0 0"
 		"RaysPrimary"				"15 255 255 255"
 		"RaysPrimaryLight"			"0 255 255 255"
@@ -18,18 +19,19 @@ Scheme
 		"RaysBlackTrans"			"15 15 15 190"
 		"RaysButtonHover"			"12 52 85 128"
 		
-		// TF2
+		// BASE COLORS
+		//---------------------------------------------
 	    "TFDarkBrown"               "60 56 53 255"
 	    "TFDarkBrownTransparent"    "60 56 53 190"
 	    "TFTanBright"               "236 227 203 150"
 	    "TFTanLight"                "201 188 162 150"
 	    "TFTanMedium"               "131 121 104 150"
-	    
+		
 	    "TFTanLightBright"          "229 223 211 90"
 	    "TFTanLightDark"            "96 90 78 90"
-	    
+		
 	    "TFOrangeBright"            "156 82 33 255"
-	    
+		
 	    "TFTextBright"              "251 236 203 150"
 	    "TFTextLight"               "201 188 162 255"
 	    "TFTextMedium"              "131 121 104 255"
@@ -41,7 +43,7 @@ Scheme
 		
 	    "QuickListBGDeselected"		"69 64 58 255"
 	    "QuickListBGSelected"		"131 121 104 150"
-	    
+		
 	    "Blank"						"0 0 0 0"
 		
 		"ControlBG"					"76 88 68 255"		// background color of controls
@@ -76,7 +78,7 @@ Scheme
 		CheckButton.Border1  			"Black"
 		CheckButton.Border2  			"Black"
 		CheckButton.Check				"White"
-		CheckButton.DisabledBgColor	   	"Blank"
+		CheckButton.DisabledBgColor		"Blank"
 		
 		ToggleButton.SelectedTextColor	"TFTextBright"
 		
@@ -106,41 +108,41 @@ Scheme
 		Label.DisabledFgColor1			"117 117 117 255"
 		Label.DisabledFgColor2			"30 30 30 255"
 		
-		ListPanel.TextColor				"OffWhite"
-		ListPanel.BgColor				"TransparentBlack"
-		ListPanel.SelectedBgColor		"RaysPrimary"
+		ListPanel.TextColor					"OffWhite"
+		ListPanel.BgColor					"TransparentBlack"
+		ListPanel.SelectedBgColor			"RaysPrimary"
 		ListPanel.SelectedOutOfFocusBgColor	"100 100 100 128"
 		
-		MainMenu.TextColor				"White"
-		MainMenu.ArmedTextColor			"RaysPrimary"
-		MainMenu.Inset					"32"
+		MainMenu.TextColor					"White"
+		MainMenu.ArmedTextColor				"RaysPrimary"
+		MainMenu.Inset						"32"
 		
-		Menu.TextInset					"6"
-		Menu.FgColor					"White"
-		Menu.BgColor					"160 160 160 64"
-		Menu.ArmedFgColor				"RaysPrimary"
-		Menu.ArmedBgColor				"RaysPrimary"
-		Menu.DividerColor				"BorderDark"
+		Menu.TextInset						"6"
+		Menu.FgColor						"White"
+		Menu.BgColor						"160 160 160 64"
+		Menu.ArmedFgColor					"RaysPrimary"
+		Menu.ArmedBgColor					"RaysPrimary"
+		Menu.DividerColor					"BorderDark"
 		
-		ScrollBarButton.FgColor			"White"
-		ScrollBarButton.BgColor			"Blank"
-		ScrollBarButton.ArmedFgColor	"White"
-		ScrollBarButton.ArmedBgColor	"Blank"
-		ScrollBarButton.DepressedFgColor "White"
-		ScrollBarButton.DepressedBgColor "Blank"
+		ScrollBarButton.FgColor				"White"
+		ScrollBarButton.BgColor				"Blank"
+		ScrollBarButton.ArmedFgColor		"White"
+		ScrollBarButton.ArmedBgColor		"Blank"
+		ScrollBarButton.DepressedFgColor	"White"
+		ScrollBarButton.DepressedBgColor	"Blank"
 		
-		ScrollBarSlider.FgColor			"100 100 100 150"
-		ScrollBarSlider.BgColor			"70 70 70 96"
+		ScrollBarSlider.BgColor				"70 70 70 96"
+		ScrollBarSlider.FgColor				"100 100 100 150"
 		
-		Slider.NobColor					"108 108 108 255"
-		Slider.TextColor				"180 180 180 255"
-		Slider.TrackColor				"31 31 31 255"
-		Slider.DisabledTextColor1		"117 117 117 255"
-		Slider.DisabledTextColor2		"30 30 30 255"
+		Slider.NobColor						"108 108 108 255"
+		Slider.TextColor					"180 180 180 255"
+		Slider.TrackColor					"31 31 31 255"
+		Slider.DisabledTextColor1			"117 117 117 255"
+		Slider.DisabledTextColor2			"30 30 30 255"
 		
-		TextEntry.TextColor				"OffWhite"
-		TextEntry.DisabledTextColor		"DullWhite"
-		TextEntry.SelectedBgColor		"RaysPrimary"
+		TextEntry.TextColor					"OffWhite"
+		TextEntry.DisabledTextColor	        "DullWhite"
+		TextEntry.SelectedBgColor			"RaysPrimary"
 	}
 	
 	Fonts
@@ -161,7 +163,7 @@ Scheme
 		{
 			"1"	[disabled]
 			{
-				"tall_disabled"	"24"
+				"tall_disabled"		"24"
 			}
 		}
 		
@@ -169,12 +171,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
-				"tall"			"35"
+				"name"		"TF2 Build"
+				"tall"		"35"
 				"tall_disabled"	"40"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		
@@ -182,9 +184,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana"
-				"tall"			"14"
-				"weight"		"500"
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"500"
 			}
 		}
 		
@@ -192,46 +194,46 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Tahoma"
-				"tall"			"16"
-				"weight"		"0"
-				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"			"480 599"
+				"name"		"Tahoma"
+				"tall"		"16"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"480 599"
 			}
 			"2"
 			{
-				"name"			"Tahoma"
-				"tall"			"16"
-				"weight"		"0"
-				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"			"600 767"
+				"name"		"Tahoma"
+				"tall"		"16"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"600 767"
 			}
 			"3"
 			{
-				"name"			"Tahoma"
-				"tall"			"16"
-				"weight"		"0"
-				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"			"768 1023"
-				"antialias"		"1"
+				"name"		"Tahoma"
+				"tall"		"16"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"768 1023"
+				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"			"Tahoma"
-				"tall"			"19"
-				"weight"		"0"
-				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"			"1024 1199"
-				"antialias"		"1"
+				"name"		"Tahoma"
+				"tall"		"19"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"1024 1199"
+				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"			"Tahoma"
-				"tall"			"19"
-				"weight"		"0"
-				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"			"1200 6000"
-				"antialias"		"1"
+				"name"		"Tahoma"
+				"tall"		"19"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"1200 6000"
+				"antialias"	"1"
 			}
 		}
 		
@@ -239,12 +241,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Arial" [!$OSX]
-				"name"			"Verdana Bold" [disabled]
-				"weight"		"1500"
-				"tall"			"16" [!$OSX]
-				"tall"			"18" [disabled]
-				"antialias"		"1"
+				"name"		"Arial" [!$OSX]
+				"name"		"Verdana Bold" [disabled]
+				"weight"	"1500"
+				"tall"		"16" [!$OSX]
+				"tall"		"18" [disabled]
+				"antialias"	"1"
 			}
 		}
 		
@@ -252,12 +254,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Arial" [!$OSX]
-				"name"			"Verdana Bold" [disabled]
-				"weight"		"1500"
-				"tall"			"18" [!$OSX]
-				"tall"			"19" [disabled]
-				"antialias"		"1"
+				"name"		"Arial" [!$OSX]
+				"name"		"Verdana Bold" [disabled]
+				"weight"	"1500"
+				"tall"		"18" [!$OSX]
+				"tall"		"19" [disabled]
+				"antialias"	"1"
 			}
 		}
 		
@@ -265,15 +267,15 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Arial" [!$OSX]
-				"name"			"Verdana" [disabled]
-				"weight"		"1000"
-				"tall"			"14" [!$OSX]
-				"tall"			"12" [disabled]
-				"antialias"		"1" [!$OSX]
+				"name"		"Arial" [!$OSX]
+				"name"		"Verdana" [disabled]
+				"weight"	"1000"
+				"tall"		"14" [!$OSX]
+				"tall"		"12" [disabled]
+				"antialias"	"1" [!$OSX]
 			}
 		}
-
+		
 		"DefaultFixedOutline" //edited by INsane 2010 for small netgraph font on all screen sizes
 		{
             "1" //For screen heights between 480 and 599 (eg 4:3 aspect Width 640x480 High, Width 720x576 High. 16:10 aspect Width 720x480 High)

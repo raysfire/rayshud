@@ -14,13 +14,13 @@
 		"fillcolor"		"70 130 180 153"
 		"scaleImage"	"1"	
 	}
-
+	
 	"RightSideBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RightSideBG"
 		"xpos"			"c0"
-		"ypos"			"r20"	[$WIN32]
+		"ypos"			"r20"
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"14"
@@ -29,7 +29,7 @@
 		"fillcolor"		"205 50 50 153"
 		"scaleImage"	"1"	
 	}
-
+	
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -60,8 +60,8 @@
 		"labelText"		"%bluescore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"TanLight"
-	}	
-		
+	}
+	
 	"BlueScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -73,12 +73,12 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"Black"
-	}	
-
+	}
+	
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
@@ -90,12 +90,12 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"TanLight"
 	}
-
+	
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -110,17 +110,17 @@
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
-		"fgcolor"		"Black"		
-	}	
-
+		"fgcolor"		"Black"
+	}
+	
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
-		"xpos"			"c-70"	[$WIN32]
-		"ypos"			"r54"	[$WIN32]
+		"xpos"			"c-70"
+		"ypos"			"r54"
 		"zpos"			"4"
-		"wide"			"140"	[$WIN32]
+		"wide"			"140"
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
@@ -130,23 +130,23 @@
 		"brighttext"	"0"
 		"font"			"Cerbetica14"
 		"fgcolor"		"TanLight"
-	}	
-
+	}
+	
 	"PlayingToBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"c-50"	[$WIN32]
-		"ypos"			"r50"	[$WIN32]
+		"xpos"			"c-50"
+		"ypos"			"r50"
 		"zpos"			"3"
-		"wide"			"100"	[$WIN32]
-		"tall"			"20"	[$WIN32]
+		"wide"			"100"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"Transparent"
 		"scaleImage"	"1"	
 	}
-
+	
 	"GameImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -159,6 +159,6 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 }

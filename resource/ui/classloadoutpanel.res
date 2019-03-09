@@ -20,17 +20,17 @@
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
-		"item_ypos"		"60"
-		"item_ydelta"	"75"
-		"item_mod_wide"	"40"
+		"item_ypos"				"60"
+		"item_ydelta"			"75"
+		"item_mod_wide"			"40"
 		
 		"item_backpack_offcenter_x"		"-288"
 		"item_backpack_xdelta"			"4"
 		"item_backpack_ydelta"			"3"
 		
 		"button_xpos_offcenter"	"175"
-		"button_ypos"	"85"
-		"button_ydelta"	"80"
+		"button_ypos"			"85"
+		"button_ydelta"			"80"
 		"button_override_delete_xpos" "0"
 		
 		"modelpanels_kv"
@@ -52,7 +52,7 @@
 			"model_wide"		"82"
 			"text_ypos"			"47"
 			"text_center"		"1"
-			"name_only"		"1"
+			"name_only"			"1"
 			
 			"attriblabel"
 			{
@@ -113,7 +113,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 128 255 255"
 	}
-
+	
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -182,9 +182,9 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"render_texture""0"
-		"fov"			"30"
-		"allow_manip"	"1"
+		"render_texture"	"0"
+		"fov"				"30"
+		"allow_manip"		"1"
 		
 		"model"
 		{
@@ -213,8 +213,8 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-			"bgcolor_override"		"Transparent"
-			"noitem_textcolor"		"TextColor"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"		"1"
 		"text_ypos"			"0"
@@ -240,7 +240,7 @@
 			"fgcolor"		"TextColor"
 			"centerwrap"	"1"
 		}
-   	}
+	}
 	
 	"PassiveAttribsLabel"
 	{
@@ -308,7 +308,7 @@
 		"fieldName"		"TauntHintLabel"
 		"xpos"			"9999"
 	}
-
+	
 	"RedButton"
 	{
 		"ControlName"		"CExImageButton"
@@ -330,9 +330,9 @@
 		"command"			"sv_cheats 1;r_skin 0"
 		
 		"fgcolor"					"TanLight"
-		"defaultFgColor_override" "250 68 17 255"
-		"armedFgColor_override" "ColorCyan"
-		"depressedFgColor_override" "250 68 17 255"
+		"defaultFgColor_override"	"250 68 17 255"
+		"armedFgColor_override"		"ColorCyan"
+		"depressedFgColor_override"	"250 68 17 255"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -361,9 +361,9 @@
 		"command"			"sv_cheats 1;r_skin 1"
 		
 		"fgcolor"					"TanLight"
-		"defaultFgColor_override" "0 98 255 255"
-		"armedFgColor_override" "ColorCyan"
-		"depressedFgColor_override" "0 98 255 255"
+		"defaultFgColor_override"	"0 98 255 255"
+		"armedFgColor_override"		"ColorCyan"
+		"depressedFgColor_override"	"0 98 255 255"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -393,7 +393,6 @@
 		"Command"		"characterloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
 		"image_drawcolor"	"TanLight"
 		"image_armedcolor"	"Button Color"
 		
@@ -412,7 +411,7 @@
 			"image"			"glyph_items"
 		}
 	}
-
+	
 	"TauntLoadoutButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -434,7 +433,6 @@
 		"Command"		"tauntloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
 		"image_drawcolor"	"TanLight"
 		"image_armedcolor"	"Button Color"
 		

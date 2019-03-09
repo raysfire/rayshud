@@ -95,7 +95,7 @@
 			"icon"			""
 			"iconColor"		"White"
 		}
-	
+		
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"

@@ -1527,25 +1527,25 @@ Scheme
 	
 	CustomFontFiles
 	{
-		"110" // Fog's xHairs
+		"110" // Knuckles Crosses
 		{
-			"font" "resource/fonts/crosshairs.ttf"
-			"name" "Crosshairs"
+			"font"	"resource/fonts/KnucklesCrosses.ttf"
+			"name"	"KnucklesCrosses"
 		}
-		"111" // Thin Cross
+		"111" // Fog's xHairs
 		{
-			"font" "resource/fonts/Symbol.ttf"
-			"name" "Symbol"
+			"font"	"resource/fonts/crosshairs.ttf"
+			"name"	"Crosshairs"
 		}
-		"112" // Konr Wings
+		"112" // Thin Cross
 		{
-			"font" "resource/fonts/Garm3nFont.ttf"
-			"name" "Garm3nFont"
+			"font"	"resource/fonts/Symbol.ttf"
+			"name"	"Symbol"
 		}
-		"113"
+		"113" // Konr Wings
 		{
-			"font" "resource/fonts/KnucklesCrosses.ttf"
-			"name" "KnucklesCrosses"
+			"font"	"resource/fonts/Garm3nFont.ttf"
+			"name"	"Garm3nFont"
 		}
 	}
 }

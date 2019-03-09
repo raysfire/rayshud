@@ -120,7 +120,7 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"paintbackground"	"0"
-
+			
 			if_mini
 			{
 				"xpos"		"cs-0.5-228"
@@ -293,7 +293,7 @@
 				"2"		"TanLight"
 			}
 		}
-
+		
 		"StatsContainer"
 		{
 			"ControlName"	"EditablePanel"

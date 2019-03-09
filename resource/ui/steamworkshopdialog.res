@@ -395,12 +395,11 @@
 				"depressedFgColor_override" "TanLight"
 				"border_default"			"ButtonHover"
 				"border_armed"				"ButtonHover"
+				"labelText"			"#TF_SteamWorkshop_Edit"
+				"command"			"edit"
 				
-				"labelText"		"#TF_SteamWorkshop_Edit"
-				"command"		"edit"
-				
-				"image_drawcolor"	"235 226 202 255"
-				"image_disabledcolor" "0 0 0 255"
+				"image_drawcolor"		"235 226 202 255"
+				"image_disabledcolor"	"0 0 0 255"
 
 				"SubImage"
 				{
@@ -440,6 +439,8 @@
 				"default"		"1"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"labelText"			"#TF_SteamWorkshop_View"
+				"command"			"view"
 				"paintbackground"	"1"
 				"defaultBgColor_override"	"15 15 15 255"
 				"armedBgColor_override"		"25 25 25 255"
@@ -447,14 +448,10 @@
 				"defaultFgColor_override"	"TanLight"
 				"armedFgColor_override" 	"TanLight"
 				"depressedFgColor_override" "TanLight"
+				"image_drawcolor"			"235 226 202 255"
+				"image_disabledcolor" 		"0 0 0 255"
 				"border_default"			"ButtonHover"
 				"border_armed"				"ButtonHover"
-				
-				"labelText"		"#TF_SteamWorkshop_View"
-				"command"		"view"				
-				
-				"image_drawcolor"	"235 226 202 255"
-				"image_disabledcolor" "0 0 0 255"
 
 				"SubImage"
 				{
@@ -494,6 +491,8 @@
 				"default"		"1"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"labelText"			"#TF_SteamWorkshop_Delete"
+				"command"			"delete_item"
 				"paintbackground"	"1"
 				"defaultBgColor_override"	"15 15 15 255"
 				"armedBgColor_override"		"25 25 25 255"
@@ -504,11 +503,8 @@
 				"border_default"			"ButtonHover"
 				"border_armed"				"ButtonHover"
 				
-				"labelText"		"#TF_SteamWorkshop_Delete"
-				"command"		"delete_item"
-				
-				"image_drawcolor"	"235 226 202 255"
-				"image_disabledcolor" "0 0 0 255"
+				"image_drawcolor"		"235 226 202 255"
+				"image_disabledcolor" 	"0 0 0 255"
 
 				"SubImage"
 				{

@@ -57,7 +57,7 @@
 			}
 		}
 	}
-
+	
 	"CountdownLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -192,7 +192,7 @@
 				"sequence"		"idle_closed"
 			}
 		}
-	}		
+	}
 
 	"RoundCounter"
 	{
@@ -219,7 +219,8 @@
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
 		
-		if_match {
+		if_match
+		{
 			"visible"		"1"
 		}
 	}
@@ -275,14 +276,13 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-55"
-		"ypos"				"0"	[$WIN32]
+		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"110"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"22"	[$WIN32]
-		"delta_item_x"			"115"	[$X360]
+		"delta_item_x"			"22"
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
 		"PositiveColor"			"0 255 0 255"
@@ -307,7 +307,6 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmall"
 			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"TanLight"
 			"xpos"			"28"
 			"ypos"			"-4"
@@ -321,12 +320,11 @@
 
 			if_match
 			{
-				"proportionaltoparent"	"1"
 				"xpos"			"cs-0.5"
 				"ypos"			"13"
 				"tall"			"10"
 				"font"			"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
+				"proportionaltoparent"	"1"
 			}
 		}	
 	}
@@ -347,12 +345,12 @@
 		"6v6_gap"		"1"
 		"12v12_gap"		"1"
 
-		"team1_grow_dir" "west"
-		"team1_base_x"	"c-45"
+		"team1_grow_dir" 	"west"
+		"team1_base_x"		"c-45"
 		"team1_max_expand"	"133"
 
-		"team2_grow_dir" "east"
-		"team2_base_x"	"c47"
+		"team2_grow_dir" 	"east"
+		"team2_base_x"		"c47"
 		"team2_max_expand"	"133"
 
 		"playerpanels_kv"
@@ -421,7 +419,7 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"healthbar"
-				"font"			"Default"																		
+				"font"			"Default"
 				"xpos"			"0"
 				"ypos"			"19"
 				"zpos"			"5"
@@ -438,38 +436,38 @@
 				"proportionaltoparent"	"1"
 			}
 			"overhealbar"
-			{	
-				"ControlName"			"ContinuousProgressBar"
-				"fieldName"				"overhealbar"
-				"font"					"Default"																		
-				"xpos"					"0"
-				"ypos"					"19"
-				"zpos"					"6"
-				"wide"					"f0"
-				"tall"					"2"				
-				"autoResize"			"0"
-				"pinCorner"				"0"
-				"visible"				"1"
-				"enabled"				"1"
-				"textAlignment"			"Left"
-				"dulltext"				"0"
-				"brighttext"			"0"
-				"bgcolor_override"	   "Transparent"
-				"fgcolor_override"	   "255 255 255 160"
+			{
+				"ControlName"	"ContinuousProgressBar"
+				"fieldName"		"overhealbar"
+				"font"			"Default"
+				"xpos"			"0"
+				"ypos"			"19"
+				"zpos"			"6"
+				"wide"			"f0"
+				"tall"			"2"				
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"textAlignment"	"Left"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"bgcolor_override"		"Transparent"
+				"fgcolor_override"		"255 255 255 160"
 				"proportionaltoparent"	"1"
 			}
 			"HealthIcon"
 			{
-				"ControlName"		"EditablePanel"
-				"fieldName"			"HealthIcon"
-				"xpos"				"22"
-				"ypos"				"-3"
-				"zpos"				"3"
-				"wide"				"32"
-				"tall"				"32"
-				"visible"			"0"
-				"enabled"			"1"	
-				"HealthBonusPosAdj"	"10"
+				"ControlName"	"EditablePanel"
+				"fieldName"		"HealthIcon"
+				"xpos"			"22"
+				"ypos"			"-3"
+				"zpos"			"3"
+				"wide"			"32"
+				"tall"			"32"
+				"visible"		"0"
+				"enabled"		"1"
+				"HealthBonusPosAdj"			"10"
 				"HealthDeathWarning"		"0.49"
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
@@ -685,7 +683,7 @@
 			"tall"			"39"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override"	"TextColor"
+			"bgcolor_override"		"TextColor"
 		}
 		"BluePlayerList"
 		{
@@ -728,7 +726,7 @@
 			if_large
 			{
 				"tall"		"325"
-			}			
+			}
 		}
 	}
 
@@ -846,7 +844,7 @@
 			if_large
 			{
 				"tall"		"315"
-			}			
+			}
 		}
 		"RedPlayerListBG"
 		{
@@ -866,7 +864,7 @@
 			if_large
 			{
 				"tall"		"325"
-			}			
+			}
 		}
 	}
 }

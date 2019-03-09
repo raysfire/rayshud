@@ -9,10 +9,10 @@
 		"ypos"					"c-200"
 		"wide"					"400"
 		"tall"					"240"
+		"bgcolor_override"		"DarkGrey"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
 		"border"				"CyanBorderThick"
-		"bgcolor_override"		"DarkGrey"
 	}
 
 	"mouseoveritempanel"
@@ -25,8 +25,8 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"		"1"
 		"text_ypos"			"20"
@@ -34,7 +34,7 @@
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-
+		
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -52,7 +52,7 @@
 			"fgcolor"		"TextColor"
 			"centerwrap"	"1"
 		}
-    }
+	}
 
 	"TitleLabel"
 	{
@@ -202,7 +202,7 @@
 			"inventory_image_type"	"1"
 		}
 	}
-
+	
 	"ConfirmLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -324,10 +324,10 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"	"ButtonHover"
+		"border_armed"		"ButtonHover"
 	}
-
+	
 	"OkButton"
 	{
 		"ControlName"	"CExButton"
@@ -351,7 +351,7 @@
 		"Command"		"apply"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"	"ButtonHover"
+		"border_armed"		"ButtonHover"
 	}
 }

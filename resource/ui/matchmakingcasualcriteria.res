@@ -75,7 +75,7 @@
 			"proportionaltoparent"	"1"
 			"image_drawcolor"	"White"
 			"image_armedcolor"	"169 123 53 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -119,7 +119,7 @@
 			"proportionaltoparent"	"1"
 			"image_drawcolor"	"White"
 			"image_armedcolor"	"169 123 53 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"

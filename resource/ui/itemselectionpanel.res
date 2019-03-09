@@ -17,25 +17,25 @@
 		"settitlebarvisible"	"0"
 		"bgcolor_override"		"DarkGrey"
 		
-		"item_ypos"		"60"
-		"item_ydelta"	"80"
-		"item_backpack_offcenter_x"		"-288"
-		"item_backpack_xdelta"			"4"
-		"item_backpack_ydelta"			"3"
+		"item_ypos"					"60"
+		"item_ydelta"				"80"
+		"item_backpack_offcenter_x"	"-288"
+		"item_backpack_xdelta"		"4"
+		"item_backpack_ydelta"		"3"
 
 		"modelpanels_selection_kv"
 		{
-			"wide"			"94"
-			"tall"			"70"
-			"model_xpos"	"2"
-			"model_wide"	"90"
-			"model_tall"	"50"
-			"model_center_x" "1"
-			"text_ypos"		"0"
-			"text_forcesize" "2"
-			"text_center"	"0"
-			"text_yoffset"	"2"
-			"inset_eq_y"	"55"
+			"wide"				"94"
+			"tall"				"70"
+			"model_xpos"		"2"
+			"model_wide"		"90"
+			"model_tall"		"50"
+			"model_center_x" 	"1"
+			"text_ypos"			"0"
+			"text_forcesize"	"2"
+			"text_center"		"0"
+			"text_yoffset"		"2"
+			"inset_eq_y"		"55"
 			"deferred_description"	"1"
 			"deferred_icon"			"1"
 		}
@@ -146,6 +146,7 @@
 	{
 		"ControlName"	"TextEntry"
 		"fieldName"		"NameFilterTextEntry"
+		"font"			"HudFontSmallest"
 		"xpos"			"c+205"
 		"ypos"			"30"
 		"zpos"			"2"
@@ -162,7 +163,6 @@
 		"fgcolor_override"	"TanLight"
 		"bgcolor_override"	"15 15 15 255"
 		"paintbackgroundtype" "2"
-		"font"		"HudFontSmallest"
 	}
 	
 	"TopLine"
@@ -275,7 +275,7 @@
 		"enabled"		"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
-	}	
+	}
 	
 	"ShowBackpack"
 	{
@@ -410,14 +410,14 @@
 		"bgcolor_override"		"Transparent"
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
+		"paintborder"			"1"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-
+		
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -435,5 +435,5 @@
 			"fgcolor"		"TextColor"
 			"centerwrap"	"1"
 		}
-    }
+	}
 }

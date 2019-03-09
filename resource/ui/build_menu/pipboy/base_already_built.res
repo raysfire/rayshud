@@ -1,19 +1,19 @@
 #base "../base_already_built.res"
 
 "Resource/UI/build_menu/base_already_built.res"
-{	
-	"CantBuildReason"
-	{
-		"fgcolor"		"ColorGreen"
-	}
-	
+{
 	"ItemNameLabel"
 	{
-		"fgcolor"		"ColorGreen"
+		"fgcolor"			"ColorGreen"
 	}
 	
 	"NumberLabel"
 	{
-		"fgcolor"		"ColorGreen"
+		"fgcolor"			"ColorGreen"
+	}
+	
+	"CantBuildReason"
+	{
+		"fgcolor"			"ColorGreen"
 	}
 }

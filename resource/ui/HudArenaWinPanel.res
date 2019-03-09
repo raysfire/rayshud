@@ -24,7 +24,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"70 130 180 153"
-			"scaleImage"		"1"
+			"scaleImage"	"1"
 		}
 		"RedScoreBG"
 		{
@@ -167,7 +167,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_black"
-			"scaleImage"		"1"
+			"scaleImage"	"1"
 			
 			"src_corner_height"	"23"
 			"src_corner_width"	"23"
@@ -228,7 +228,7 @@
 		"draw_corner_width" "0"
 		"draw_corner_height" "0"
 	}
-
+	
 	"WinningTeamLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -361,7 +361,6 @@
 		"enabled"		"1"
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 150"
-		"fillcolor_lodef"		"0 0 0 200"
 		"PaintBackgroundType"	"0"
 	}
 	"TopPlayersLabel"
@@ -417,7 +416,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Arena_Winpanel_HealingThisRound"
-		"textAlignment"		"west"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
@@ -476,7 +475,7 @@
 		"fillcolor"		"250 234 201 255"
 		"PaintBackgroundType"	"0"
 	}
-
+	
 	"ArenaWinPanelWinnersPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -487,7 +486,7 @@
 		"tall"			"218"
 		"visible"		"1"
 		"zpos"			"3"
-
+		
 		"Player1Avatar"
 		{
 			"ControlName"	"CAvatarImagePanel"
@@ -604,7 +603,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-		"Player2Avatar"	
+		"Player2Avatar"
 		{
 			"ControlName"	"CAvatarImagePanel"
 			"fieldName"		"Player2Avatar"
@@ -964,7 +963,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-		"Player2Avatar"	
+		"Player2Avatar"
 		{
 			"ControlName"	"CAvatarImagePanel"
 			"fieldName"		"Player2Avatar"

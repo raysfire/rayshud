@@ -151,11 +151,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"border_armed"		"TeamMenuBorder"
+		"defaultFgColor_override"	"Transparent"
+		"armedFgColor_override" 	"Transparent"
 		
-		"defaultFgColor_override" "Transparent"
-		"defaultBgColor_override" "Transparent"
-		"armedFgColor_override" "Transparent"
-		"armedBgColor_override"	"Transparent"
+		"defaultBgColor_override" 	"Transparent"
+		"armedBgColor_override"		"Transparent"
+		
+		"border_armed"		"TeamMenuBorder"
 	}
 }

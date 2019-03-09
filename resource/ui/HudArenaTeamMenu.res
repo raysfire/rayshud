@@ -108,17 +108,13 @@
 		"ypos"			"35"
 		"wide"			"235"
 		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"textAlignment"	"center"
+		"font"			"CerbeticaBold28"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		""
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"1"
-		"font"			"CerbeticaBold28"
 		"fgcolor"		"TanLight"
 	}
+	
 	"teambutton2"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -139,18 +135,16 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
-		"font"				"CerbeticaBold20"
+		"font"			"CerbeticaBold20"
 		
 		"defaultFgColor_override"	"255 255 255 128"
-		"defaultBgColor_override"	"0 0 0 200"
-		
 		"armedFgColor_override"		"TanLight"
-		"armedBgColor_override"		"TanDarker"
-		
 		"depressedFgColor_override"	"255 255 255 128"
-		"depressedBgColor_override"	"0 0 0 200"
-		
 		"selectedFgColor_override"	"TanLight"
+		
+		"defaultBgColor_override"	"0 0 0 200"
+		"armedBgColor_override"		"TanDarker"
+		"depressedBgColor_override"	"0 0 0 200"
 		"selectedBgColor_override"	"TanDarker"
 	}
 	
@@ -174,35 +168,19 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectatearena"
-		"font"				"CerbeticaBold20"
+		"font"			"CerbeticaBold20"
 		
 		"defaultFgColor_override"	"255 255 255 128"
-		"defaultBgColor_override"	"0 0 0 200"
-		
 		"armedFgColor_override"		"TanLight"
-		"armedBgColor_override"		"TanDarker"
-		
 		"depressedFgColor_override"	"255 255 255 128"
-		"depressedBgColor_override"	"0 0 0 200"
-		
 		"selectedFgColor_override"	"TanLight"
+		
+		"defaultBgColor_override"	"0 0 0 200"
+		"armedBgColor_override"		"TanDarker"
+		"depressedBgColor_override"	"0 0 0 200"
 		"selectedBgColor_override"	"TanDarker"
 	}
 	
-	"TeamMenuAuto"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TeamMenuAuto"
-		"xpos"			"9999"
-	}
-	
-	"TeamMenuSpectate"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TeamMenuSpectate"
-		"xpos"			"9999"
-	}
-
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"
@@ -233,6 +211,20 @@
 		}
 	}
 	
+	"TeamMenuAuto"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TeamMenuAuto"
+		"xpos"			"9999"
+	}
+	
+	"TeamMenuSpectate"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TeamMenuSpectate"
+		"xpos"			"9999"
+	}
+	
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
@@ -253,8 +245,8 @@
 		"fieldName"		"spectate"
 		"xpos"			"9999"
 	}
-
-	"CancelButton" [$WIN32] 
+	
+	"CancelButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"

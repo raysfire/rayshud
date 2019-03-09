@@ -4,16 +4,16 @@
 {
 	"ItemNameLabel"
 	{
-		"labelText"		"#TF_Class_Name_Soldier"
+		"labelText"			"#TF_Class_Name_Soldier"
 	}
 	
 	"NewNumberLabel"
 	{
-		"labelText"		"2"
+		"labelText"			"2"
 	}
 	
 	"NumberLabel"
 	{
-		"labelText"		"2"
+		"labelText"			"2"
 	}
 }

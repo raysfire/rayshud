@@ -17,41 +17,39 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"c210"	[$WIN32]
-		"ypos"			"r60"	[$WIN32]
+		"xpos"			"c210"
+		"ypos"			"r60"
 		"zpos"			"2"
 		"wide"			"60"
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 	"PlayerStatusSpyImage"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
-		"xpos"			"9999"		
-	}	
+		"xpos"			"9999"
+	}
 	"PlayerStatusSpyOutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyOutlineImage"
-		"xpos"			"3"		[$WIN32]
-		"ypos"			"r67"	[$WIN32]
-		"xpos_minmode"	"-5"	[$WIN32]
-		"ypos_minmode"	"r44"	[$WIN32]
-		"xpos"			"35"	[$X360]
-		"ypos"			"r89"	[$X360]
+		"xpos"			"3"
+		"ypos"			"r67"
+		"xpos_minmode"	"-5"
+		"ypos_minmode"	"r44"
 		"zpos"			"7"
 		"wide"			"55"
-		"wide_minmode"	"27"
 		"tall"			"55"
+		"wide_minmode"	"27"
 		"tall_minmode"	"27"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/class_spy_outline"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}		
 	"PlayerStatusClassImageBG"
 	{
@@ -71,32 +69,32 @@
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		"xpos"			"r210"	[$WIN32]
-		"ypos"			"r148"	[$WIN32]
+		"xpos"			"r210"
+		"ypos"			"r148"
 		"zpos"			"2"		
 		"wide"			"75"
 		"tall"			"150"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"render_texture"	"0"
 		"fov"			"12"
 		"allow_rot"		"1"
-	
+		
 		"model"
 		{
-			"force_pos"	"1"
-			"angles_x" "0"
-			"angles_y" "172"
-			"angles_z" "0"
-			"origin_x" "200"
-			"origin_y" "0"
-			"origin_z" "-60"
-			"frame_origin_x"	"0"
-			"frame_origin_y"	"0"
-			"frame_origin_z"	"0"
-			"spotlight" "1"
+			"force_pos"		"1"
+			"angles_x" 		"0"
+			"angles_y" 		"172"
+			"angles_z" 		"0"
+			"origin_x" 		"200"
+			"origin_y" 		"0"
+			"origin_z" 		"-60"
+			"frame_origin_x" "0"
+			"frame_origin_y" "0"
+			"frame_origin_z" "0"
+			"spotlight" 	"1"
 			"modelname"		""
 		}
 

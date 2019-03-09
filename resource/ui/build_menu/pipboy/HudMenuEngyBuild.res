@@ -21,6 +21,6 @@
 	
 	"TitleLabel"
 	{
-		"fgcolor"		"ColorGreen"
+		"fgcolor"			"ColorGreen"
 	}
 }

@@ -34,9 +34,9 @@
 		"brighttext"			"0"
 		"font"					"Cerbetica12"
 	}
-
+	
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
@@ -47,15 +47,15 @@
 		"zpos"					"2"
 		"wide"					"40"
 		"wide_minmode"			"50"
-		"tall"					"6"				
+		"tall"					"6"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"0"
-		"textAlignment"			"Center"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}					
+	}
 	
 	"ItemEffectMeterCount"
 	{
@@ -67,7 +67,7 @@
 		"ypos_minmode"			"5"
 		"zpos"					"2"
 		"wide"					"40"
-		"tall"					"20"	
+		"tall"					"20"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -88,7 +88,7 @@
 		"ypos"					"-1"
 		"zpos"					"2"
 		"wide"					"40"
-		"tall"					"20"	
+		"tall"					"20"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"

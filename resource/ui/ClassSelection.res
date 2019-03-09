@@ -40,17 +40,14 @@
 		"zpos"			"5"
 		"wide"			"255"
 		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_lodef"	"0"
 		"enabled"		"1"
 		"labelText"		"#TF_SelectAClass"
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold28"
 		"fgcolor"		"HudOffWhite"
 	}
-
+	
 	"SidePanelBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -65,7 +62,7 @@
 		"scaleImage"	"1"
 		"fillcolor"		"0 0 0 60"
 	}
-
+	
 	"scout"
 	{
 		"ControlName"		"CExImageButton"
@@ -80,9 +77,10 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"&1  Scout"	[$WIN32]
+		"labelText"			"&1  Scout"
 		"textAlignment"		"west"
 		"Command"			"joinclass scout"
+		"Default"			"1"
 		"font"				"CerbeticaBold16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
@@ -92,16 +90,16 @@
 		"armedFgColor_override"		"Button Color"
 		"depressedFgColor_override" "TanLight"
 		"selectedFgColor_override" 	"Button Color"
-	
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"stayselectedonclick"	"1"
-		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 	}
+	
 	"soldier"
 	{
 		"ControlName"		"CExImageButton"
@@ -116,7 +114,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"&2  Soldier"	[$WIN32]
+		"labelText"			"&2  Soldier"
 		"textAlignment"		"west"
 		"Command"			"joinclass soldier"
 		"Default"			"0"
@@ -129,16 +127,16 @@
 		"armedFgColor_override"		"Button Color"
 		"depressedFgColor_override" "TanLight"
 		"selectedFgColor_override" 	"Button Color"
-	
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"stayselectedonclick"	"1"
-		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 	}
+	
 	"pyro"
 	{
 		"ControlName"		"CExImageButton"
@@ -153,11 +151,11 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"&3  Pyro"	[$WIN32]
+		"labelText"			"&3  Pyro"
 		"textAlignment"		"west"
 		"Command"			"joinclass pyro"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"	
+		"font"				"CerbeticaBold16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
@@ -166,13 +164,12 @@
 		"armedFgColor_override"		"Button Color"
 		"depressedFgColor_override" "TanLight"
 		"selectedFgColor_override" 	"Button Color"
-	
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-
+		
 		"stayselectedonclick"	"1"
-		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 	}
@@ -191,11 +188,11 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"&4  Demoman"	[$WIN32]
+		"labelText"			"&4  Demoman"
 		"textAlignment"		"west"
 		"Command"			"joinclass demoman"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"	
+		"font"				"CerbeticaBold16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
@@ -204,16 +201,16 @@
 		"armedFgColor_override"		"Button Color"
 		"depressedFgColor_override" "TanLight"
 		"selectedFgColor_override" 	"Button Color"
-			
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"stayselectedonclick"	"1"
-		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-	}	
+	}
+
 	"heavyweapons"
 	{
 		"ControlName"		"CExLabel"
@@ -228,11 +225,11 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"&5  Heavy"	[$WIN32]
+		"labelText"			"&5  Heavy"
 		"textAlignment"		"west"
 		"Command"			"joinclass heavyweapons"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"	
+		"font"				"CerbeticaBold16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
@@ -241,16 +238,16 @@
 		"armedFgColor_override"		"Button Color"
 		"depressedFgColor_override" "TanLight"
 		"selectedFgColor_override" 	"Button Color"
-	
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-
+		
 		"stayselectedonclick"	"1"
-		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-	}	
+	}
+	
 	"engineer"
 	{
 		"ControlName"		"CExLabel"
@@ -265,30 +262,29 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"&6  Engineer"	[$WIN32]
+		"labelText"			"&6  Engineer"
 		"textAlignment"		"west"
 		"Command"			"joinclass engineer"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"	
+		"font"				"CerbeticaBold16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
-	
+		
 		"fgcolor"					"TanLight"
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override"		"Button Color"
 		"depressedFgColor_override" "TanLight"
 		"selectedFgColor_override" 	"Button Color"
-	
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"stayselectedonclick"	"1"
-		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 	}
-
+	
 	"medic"
 	{
 		"ControlName"		"CExImageButton"
@@ -303,11 +299,11 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"&7  Medic"	[$WIN32]
+		"labelText"			"&7  Medic"
 		"textAlignment"		"west"
 		"Command"			"joinclass medic"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"	
+		"font"				"CerbeticaBold16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
@@ -316,16 +312,16 @@
 		"armedFgColor_override"		"Button Color"
 		"depressedFgColor_override" "TanLight"
 		"selectedFgColor_override" 	"Button Color"
-			
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"stayselectedonclick"	"1"
-		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 	}
+
 	"sniper"
 	{
 		"ControlName"		"CExImageButton"
@@ -340,11 +336,11 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"&8  Sniper"	[$WIN32]
+		"labelText"			"&8  Sniper"
 		"textAlignment"		"west"
 		"Command"			"joinclass sniper"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"	
+		"font"				"CerbeticaBold16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
@@ -353,16 +349,16 @@
 		"armedFgColor_override"		"Button Color"
 		"depressedFgColor_override" "TanLight"
 		"selectedFgColor_override" 	"Button Color"
-	
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"stayselectedonclick"	"1"
-		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 	}
+	
 	"spy"
 	{
 		"ControlName"		"CExImageButton"
@@ -377,11 +373,11 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"&9  Spy"	[$WIN32]
+		"labelText"			"&9  Spy"
 		"textAlignment"		"west"
 		"Command"			"joinclass spy"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"	
+		"font"				"CerbeticaBold16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
@@ -390,16 +386,16 @@
 		"armedFgColor_override"		"Button Color"
 		"depressedFgColor_override" "TanLight"
 		"selectedFgColor_override" 	"Button Color"
-			
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"stayselectedonclick"	"1"
-		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 	}
+
 	"random"
 	{
 		"ControlName"		"CExLabel"
@@ -414,7 +410,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"&R  Random"	[$WIN32]
+		"labelText"			"&R  Random"
 		"textAlignment"		"west"
 		"Command"			"joinclass random"
 		"Default"			"0"
@@ -427,18 +423,17 @@
 		"armedFgColor_override"		"Button Color"
 		"depressedFgColor_override" "TanLight"
 		"selectedFgColor_override" 	"Button Color"
-	
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-	
+		
 		"stayselectedonclick"	"1"
-		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 	}
 	
-	"EditLoadoutButton" [$WIN32] 
+	"EditLoadoutButton" [$WIN32]
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"EditLoadoutButton"
@@ -452,14 +447,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"paintbackground""0"
-		"labelText"		"EDIT LOADOUT (&E)"
+		"paintbackground" "0"
+		"labelText"		"(&E)  EDIT LOADOUT"
 		"textAlignment"	"west"
 		"Command"		"openloadout"
 		"font"			"CerbeticaBold16"
 	}
-
-	"CancelButton" [$WIN32] 
+	
+	"CancelButton" [$WIN32]
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
@@ -475,10 +470,10 @@
 		"tabPosition"	"0"
 		"labelText"		"(&C)  CANCEL"
 		"textAlignment"	"west"
-		"paintbackground""0"
 		"Command"		"vguicancel"
 		"font"			"CerbeticaBold14"
-		"fgcolor"		"TanLight"
+		"paintbackground" "0"
+		"fgcolor"					"TanLight"
 	}
 	"LoadoutButtonBackground"
 	{
@@ -489,7 +484,7 @@
 		"wide"			"20"
 		"tall"			"0"
 	}
-	"ResetButton" [$WIN32] 
+	"ResetButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ResetButton"
@@ -533,8 +528,6 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "365"
-			"origin_x_lodef" "415"
-			"origin_x_hidef" "380"
 			"origin_y" "0"
 			"origin_z" "-40"
 		}
@@ -545,15 +538,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"Hint"
 		"xpos"			"c-300"
-		"xpos_hidef"	"c-287"
-		"xpos_lodef"	"c-260"
 		"ypos"			"95"
-		"ypos_hidef"	"101"
-		"ypos_lodef"	"115"
 		"zpos"			"2"
 		"wide"			"600"
 		"tall"			"50"
-		"tall_lodef"	"30"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"0"
@@ -563,9 +551,7 @@
 		"textAlignment"	"left"
 		"wrap"			"1"
 		"font"			"HudFontMediumSmallSecondary"
-		"font_lodef"	"HudFontMediumSmallSecondary"
 		"fgcolor"		"HudTrainingHint"
-		"fgcolor_lodef"	"HudTrainingHint"
 	}
 	
 	"ShadedBar"
@@ -574,37 +560,15 @@
 		"fieldName"		"ShadedBar"
 		"xpos"			"9999"
 		"ypos"			"r50"
-		"ypos_lodef"			"r74"
-		"ypos_hidef"			"r65"
 		"zpos"			"4"
 		"wide"			"f0"
 		"tall"			"50"
-		"tall_lodef"			"74"
-		"tall_hidef"			"65"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
-	}
-	
-	"localPlayerImage" [$WIN32]
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"localPlayerImage"
-		"xpos"			"9999"
-		"ypos"			"9999"
-	}
-	
-	"localPlayerBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"localPlayerBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
 	}
 	
 	"countImage0" [$WIN32]
@@ -618,8 +582,8 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage1" [$WIN32]
@@ -633,8 +597,8 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage2" [$WIN32]
@@ -648,8 +612,8 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage3" [$WIN32]
@@ -663,8 +627,8 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage4" [$WIN32]
@@ -678,8 +642,8 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage5" [$WIN32]
@@ -693,8 +657,8 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage6" [$WIN32]
@@ -708,8 +672,8 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage7" [$WIN32]
@@ -723,8 +687,8 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage8" [$WIN32]
@@ -738,8 +702,8 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage9" [$WIN32]
@@ -753,8 +717,8 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
 	"countImage10" [$WIN32]
@@ -768,11 +732,11 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
+		"image"			""
+		"scaleImage"	"1"
 	}
 	
-	"numScout" [$WIN32]
+	"numScout"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
@@ -790,9 +754,9 @@
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"TanLight"
-	}	
+	}
 	
-	"numSoldier" [$WIN32]
+	"numSoldier"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
@@ -810,9 +774,9 @@
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"TanLight"
-	}	
+	}
 	
-	"numPyro" [$WIN32]
+	"numPyro"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
@@ -830,9 +794,9 @@
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"TanLight"
-	}		
+	}
 	
-	"numDemoman" [$WIN32]
+	"numDemoman"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
@@ -852,7 +816,7 @@
 		"fgcolor"		"TanLight"
 	}
 	
-	"numHeavy" [$WIN32]
+	"numHeavy"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
@@ -872,7 +836,7 @@
 		"fgcolor"		"TanLight"
 	}
 	
-	"numEngineer" [$WIN32]
+	"numEngineer"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
@@ -890,9 +854,9 @@
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"TanLight"
-	}						
+	}
 	
-	"numMedic" [$WIN32]
+	"numMedic"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
@@ -912,7 +876,7 @@
 		"fgcolor"		"TanLight"
 	}
 	
-	"numSniper" [$WIN32]
+	"numSniper"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
@@ -932,7 +896,7 @@
 		"fgcolor"		"TanLight"
 	}
 	
-	"numSpy" [$WIN32]
+	"numSpy"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
@@ -1102,7 +1066,7 @@
 		"enabled"		"1"
 		"fov"			"25"
 		"allow_rot"		"0"
-		"paintbackground"	"1"		
+		"paintbackground"	"1"
 		"render_texture"	"0"
 		"paintbackgroundenabled" "1"
 		"bgcolor_override" "255 255 255 0"
@@ -1128,6 +1092,20 @@
 	{
 		"ControlName"	"CTFClassTipsPanel"
 		"fieldName"		"ClassTipsPanel"
+		"xpos"			"9999"
+	}
+	
+	"localPlayerImage" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"localPlayerImage"
+		"xpos"			"9999"
+	}
+	
+	"localPlayerBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"localPlayerBG"
 		"xpos"			"9999"
 	}
 	

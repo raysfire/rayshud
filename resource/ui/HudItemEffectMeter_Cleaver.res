@@ -11,5 +11,5 @@
 	"ItemEffectMeterLabel"
 	{
 		"labelText"			"#TF_Cleaver"
-	}				
+	}
 }

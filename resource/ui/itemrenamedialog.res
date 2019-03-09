@@ -17,14 +17,14 @@
 
 	"mouseoveritempanel"
 	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"mouseoveritempanel"
-		"xpos"			"c-70"
-		"ypos"			"270"
-		"zpos"			"100"
-		"wide"			"300"
-		"tall"			"300"
-		"visible"		"0"
+		"ControlName"		"CItemModelPanel"
+		"fieldName"			"mouseoveritempanel"
+		"xpos"				"c-70"
+		"ypos"				"270"
+		"zpos"				"100"
+		"wide"				"300"
+		"tall"				"300"
+		"visible"			"0"
 		"bgcolor_override"	"Transparent"
 		"noitem_textcolor"	"TextColor"
 		"PaintBackgroundType"	"2"
@@ -35,7 +35,7 @@
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-
+		
 		"BackColor"
     	{
     		"ControlName"		"EditablePanel"
@@ -53,7 +53,7 @@
 			"border"				"NoBorder"
 			"bgcolor_override"		"35 35 35 255"
 		}
-			
+		
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -71,7 +71,7 @@
 			"fgcolor"		"TextColor"
 			"centerwrap"	"1"
 		}
-    }
+	}
 
 	"TitleLabel"
 	{
@@ -392,8 +392,8 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"	"ButtonHover"
+		"border_armed"		"ButtonHover"
 	}
 	
 	"OkButton"
@@ -419,7 +419,7 @@
 		"Command"		"apply"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"	"ButtonHover"
+		"border_armed"		"ButtonHover"
 	}
 }

@@ -13,7 +13,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"settitlebarvisible" 	"0"
+		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 	}
 	

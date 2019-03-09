@@ -24,14 +24,14 @@
 	}
 
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ChargeMeter"
 		"xpos"				"0"
-		"ypos"				"99"
+		"ypos"				"97"
 		"xpos_minmode"		"15"
 		"ypos_minmode"		"35"
-		"zpos"				"1"
+		"zpos"				"2"
 		"wide"				"120"
 		"tall"				"8"
 		"tall_minmode"		"5"
@@ -39,11 +39,11 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"textAlignment"		"Left"
+		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-
+	
 	"PipesPresentPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -110,22 +110,22 @@
 	
 	"NoPipesPresentPanel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"NoPipesPresentPanel"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"50"
-		"visible"		"1"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"NoPipesPresentPanel"
+		"xpos"				"9999"
+		"ypos"				"9999"
+		"zpos"				"1"
+		"wide"				"100"
+		"tall"				"50"
+		"visible"			"1"
 		
 		"NumPipesLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
 			"xpos"			"50"
-			"xpos_minmode"	"42"
 			"ypos"			"18"
+			"xpos_minmode"	"42"
 			"ypos_minmode"	"12"
 			"zpos"			"2"
 			"wide"			"35"
@@ -142,7 +142,6 @@
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
 			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMediumBig"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -165,7 +164,6 @@
 			"brighttext"	"0"
 			"font"			"HudFontMedium"
 			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMediumBig"
 			"fgcolor"		"TransparentBlack"
 
 			"pin_to_sibling"		"NumPipesLabel"

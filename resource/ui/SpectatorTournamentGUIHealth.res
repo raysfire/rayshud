@@ -11,7 +11,7 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 	
 	"PlayerStatusHealthImageBG"
@@ -41,7 +41,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 	
 	"PlayerStatusHealthValueSpectator"
@@ -56,7 +56,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"Spec Health Normal"
 	}
@@ -73,7 +73,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"0 0 0 100"
 	}

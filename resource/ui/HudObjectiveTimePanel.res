@@ -11,16 +11,16 @@
 		"tall"				"24"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"../hud/objectives_timepanel_blue_bg"	
+		"image"				"../hud/objectives_timepanel_blue_bg"
 		"scaleImage"		"1"
 		"src_corner_height"	"3"
 		"src_corner_width"	"3"
 		"draw_corner_width"	"0"
 		"draw_corner_height" "0"
-
+		
 		if_match {
 			"visible"		"0"
-		}		
+		}
 	}
 	"TimePanelProgressBar"
 	{
@@ -30,9 +30,7 @@
 		"ypos"				"16"
 		"zpos"				"4"	
 		"wide"				"20"
-		"wide_lodef"		"25"
 		"tall"				"20"
-		"tall_lodef"		"25"	
 		"visible"			"0"
 		"enabled"			"1"
 		"scaleImage"		"1"
@@ -71,7 +69,7 @@
 			"font"			"Cerbetica10"
 			"proportionaltoparent"	"1"
 		}
-	}			
+	}
 	"WaitingForPlayersBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -106,12 +104,12 @@
 			"font"			"Cerbetica10"
 			"proportionaltoparent"	"1"
 		}
-	}			
+	}
 	"OvertimeBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"OvertimeBG"
-		"xpos"				"9999"	
+		"xpos"				"9999"
 	}
 
 	"SuddenDeathLabel"
@@ -120,8 +118,6 @@
 		"fieldName"			"SuddenDeathLabel"
 		"xpos"				"25"
 		"ypos"				"23"
-		"ypos_hidef"		"41"
-		"ypos_lodef"		"41"
 		"zpos"				"5"
 		"wide"				"50"
 		"tall"				"19"
@@ -141,14 +137,14 @@
 			"wide"			"p1"
 			"font"			"Cerbetica10"
 			"proportionaltoparent"	"1"
-		}		
-	}			
+		}
+	}
 	"SuddenDeathBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"SuddenDeathBG"
-		"xpos"				"9999"	
-	}	
+		"xpos"				"9999"
+	}
 
 	"SetupLabel"
 	{
@@ -175,8 +171,8 @@
 			"wide"			"p1"
 			"font"			"Cerbetica10"
 			"proportionaltoparent"	"1"
-		}		
-	}	
+		}
+	}
 	"SetupBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -192,11 +188,7 @@
 		"ypos"				"23"
 		"zpos"				"5"
 		"wide"				"50"
-		"wide_hidef"		"300"
-		"wide_lodef"		"300"
 		"tall"				"19"
-		"tall_hidef"		"19"
-		"tall_lodef"		"22"
 		"visible"			"0"
 		"enabled"			"1"
 		"labelText"			"%servertimeleft%"
@@ -219,6 +211,6 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"ServerTimeLimitLabelBG"
-		"xpos"				"9999"			
-	}	
+		"xpos"				"9999"
+	}
 }

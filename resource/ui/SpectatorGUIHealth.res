@@ -54,9 +54,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"font" 			"CerbeticaBold16"
-		"fgcolor"		"Health Normal"
 		"textAlignment"	"center"
+		"font"			"CerbeticaBold16"
+		"fgcolor"		"Health Normal"
 	}
 	
 	"PlayerStatusHealthValueSpecShadow"
@@ -71,8 +71,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"font" 			"CerbeticaBold16"
 		"textAlignment"	"center"
+		"font"			"CerbeticaBold16"
 		"fgcolor"		"TransparentBlack"
 		
 		"pin_to_sibling"		"PlayerStatusHealthValueSpec"

@@ -4,19 +4,19 @@
 {
 	"ItemNameLabel"
 	{
-		"fgcolor"		"HUDBlueTeamSolid"
-		"labelText"		"#TF_Class_Name_Medic"
+		"fgcolor"			"HUDBlueTeamSolid"
+		"labelText"			"#TF_Class_Name_Medic"
 	}
 	
 	"NewNumberLabel"
 	{
-		"fgcolor"		"HUDBlueTeamSolid"
-		"labelText"		"1"
+		"fgcolor"			"HUDBlueTeamSolid"
+		"labelText"			"1"
 	}
 	
 	"NumberLabel"
 	{
-		"fgcolor"		"HUDBlueTeamSolid"
-		"labelText"		"7"
+		"fgcolor"			"HUDBlueTeamSolid"
+		"labelText"			"7"
 	}
 }

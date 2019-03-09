@@ -70,7 +70,7 @@
 		"ypos_minmode"			"4"
 		"zpos"					"2"
 		"wide"					"150"
-		"tall"					"30"	
+		"tall"					"30"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"

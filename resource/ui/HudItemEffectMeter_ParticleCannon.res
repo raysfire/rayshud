@@ -4,17 +4,17 @@
 {
 	"HudItemEffectMeter"
 	{
-		"ypos"				"c93"	[$WIN32]
-		"ypos_minmode"		"c46"	[$WIN32]
+		"ypos"					"c93"
+		"ypos_minmode"			"c46"
 	}
 	
 	"ItemEffectMeterLabel"
 	{
-		"labelText"			"#TF_ENERGYDRINK"
+		"labelText"				"#TF_ENERGYDRINK"
 	}
 
 	"ItemEffectMeter"
 	{
-		"textAlignment"		"Left"
+		"textAlignment"			"Left"
 	}
 }

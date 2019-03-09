@@ -19,10 +19,10 @@
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
 		
-		"title"				"#Replay_Replay"
-		"title_font"		"CerbeticaBold36"
-		"titletextinsetX"	"40"
-		"titletextinsetY"	"0"
+		"title"							"#Replay_Replay"
+		"title_font"					"CerbeticaBold36"
+		"titletextinsetX"				"40"
+		"titletextinsetY"				"0"
 		"titlebarfgcolor_override"			"HudOffWhite"
 		"titlebardisabledfgcolor_override"	"HudOffWhite"
 		"titlebarbgcolor_override"			"DarkGrey"
@@ -42,7 +42,7 @@
 		"enabled"		"1"
 		"image"			"loadout_header"
 		"tileImage"		"1"
-	}			
+	}
 	"BackgroundHeader2"
 	{
 		"ControlName"	"ImagePanel"
@@ -56,7 +56,7 @@
 		"enabled"		"1"
 		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
-	}	
+	}
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -84,7 +84,7 @@
 		"enabled"		"1"
 		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
-	}					
+	}
 	"FooterLine"
 	{
 		"ControlName"	"EditablePanel"
@@ -100,7 +100,7 @@
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
 		"bgcolor_override"		"ColorCyan"
-	}							
+	}
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -125,7 +125,7 @@
 			"enabled"		"0"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
-		}						
+		}
 		
 		"tabskv"
 		{
@@ -133,7 +133,7 @@
 			"textinsety"		"-6"
 			"font"				"CerbeticaBold20"
 			"selectedcolor"		"White"
-			"unselectedcolor"	"DullWhite"	
+			"unselectedcolor"	"DullWhite"
 			"defaultBgColor_override"	"Blank"
 			"paintbackground"	"0"
 			"activeborder_override"	"NoBorder"
@@ -165,5 +165,5 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"ButtonHover"
 		"border_armed"		"ButtonHover"
-	}		
+	}
 }
