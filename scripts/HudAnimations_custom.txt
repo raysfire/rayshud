@@ -5,8 +5,8 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 		Alpha	"0"						Linear 0.2	0.4
 	
 	Animate PlayerStatusHealthValue 		 	FgColor "Health Buff" 			Accel 0.0	0.0
-	Animate PlayerStatusHealthValueSpectator 	FgColor "Spec Health Buff" 		Accel 0.0	0.0
-	Animate PlayerStatusHealthValueFreezePanel 	FgColor "Spec Health Buff" 		Accel 0.0	0.0
+	Animate PlayerStatusHealthValueSpectator 	FgColor "Health Buff" 		Accel 0.0	0.0
+	Animate PlayerStatusHealthValueFreezePanel 	FgColor "Health Buff" 		Accel 0.0	0.0
 
 	RunEvent HudHealthBonusPulseLoop			0.4
 }
@@ -17,11 +17,10 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulseLoop 			0.0
 	
 	Animate PlayerStatusHealthValue 			FgColor "Health Normal" 		Accel 0.0	0.0
-	Animate PlayerStatusHealthValueSpectator 	FgColor "Spec Health Normal" 	Accel 0.0	0.0
-	Animate PlayerStatusHealthValueFreezePanel 	FgColor "Spec Health Normal" 	Accel 0.0	0.0
+	Animate PlayerStatusHealthValueSpectator 	FgColor "Health Normal" 	Accel 0.0	0.0
+	Animate PlayerStatusHealthValueFreezePanel 	FgColor "Health Normal" 	Accel 0.0	0.0
 }
-
-//===========================================
+//==================================================================================
 // Low Health Pulse
 event HudHealthDyingPulse
 {
@@ -29,8 +28,8 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 		Alpha	"0"						Linear 0.2	0.2
 	
 	Animate PlayerStatusHealthValue 		 	FgColor	"Health Hurt" 			Accel 0.0	0.0
-	Animate PlayerStatusHealthValueSpectator 	FgColor "Spec Health Hurt" 		Accel 0.0	0.0
-	Animate PlayerStatusHealthValueFreezePanel	FgColor "Spec Health Hurt" 		Accel 0.0	0.0
+	Animate PlayerStatusHealthValueSpectator 	FgColor "Health Hurt" 		Accel 0.0	0.0
+	Animate PlayerStatusHealthValueFreezePanel	FgColor "Health Hurt" 		Accel 0.0	0.0
 	
 	RunEvent HudHealthDyingPulseLoop			0.4
 }
@@ -41,11 +40,10 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulseLoop 			0.0
 	
 	Animate PlayerStatusHealthValue 			FgColor	"Health Normal" 		Accel 0.0	0.0
-	Animate PlayerStatusHealthValueSpectator 	FgColor "Spec Health Normal" 	Accel 0.0	0.0
-	Animate PlayerStatusHealthValueFreezePanel	FgColor "Spec Health Normal" 	Accel 0.0	0.0
+	Animate PlayerStatusHealthValueSpectator 	FgColor "Health Normal" 	Accel 0.0	0.0
+	Animate PlayerStatusHealthValueFreezePanel	FgColor "Health Normal" 	Accel 0.0	0.0
 }
-
-//===========================================
+//==================================================================================
 // Low Ammo Pulse
 event HudLowAmmoPulse
 {
@@ -68,7 +66,7 @@ event HudLowAmmoPulseStop
 	Animate AmmoInReserve					FgColor	"Ammo In Reserve"			Accel 0.0	0.0
 	Animate AmmoNoClip						FgColor	"Ammo In Clip"				Accel 0.0	0.0
 }
-//===========================================
+//==================================================================================
 // Hitmarker Pulse
 event DamagedPlayer 
 {
@@ -85,23 +83,20 @@ event HitMarker
 	Animate KonrWings	 					FgColor	"CrosshairDamage" 			Linear 0.0	0.0
 	Animate KonrWings	 					FgColor	"Crosshair" 				Linear 0.15	0.0
 }
-//===========================================
+//==================================================================================
 // Spy Disguise
 event HudSpyDisguiseFadeIn
 {
 	//RunEvent HudSpyDisguiseChanged		0.0
 	//Animate PlayerStatusSpyImage			Alpha	"255"						Linear 0.9	0.1
-	//Animate PlayerStatusClassImage		Alpha	"255"						Linear 0.0	0.0
 }
 
 event HudSpyDisguiseFadeOut
 {
 	//RunEvent HudSpyDisguiseChanged		0.0
 	//Animate PlayerStatusSpyImage			Alpha	"0"							Linear 0.9	0.1
-	//Animate PlayerStatusClassImage		Alpha	"0"							Linear 0.0	0.0
 }
-
-//===========================================
+//==================================================================================
 // Ubercharge Meters
 event HudMedicCharged
 {
@@ -159,14 +154,15 @@ event HudMedicChargedStop
 	StopEvent HudMedicOrangePulseCharge		0.0
 	StopEvent HudMedicChargedLoop			0.0
 	
-	Animate	ChargeLabel 					FgColor	"Ammo In Clip"				Linear 0.0	0.0001
 	Animate	ChargeMeter						FgColor	"Uber Bar Color"			Linear 0.0	0.0001
+	Animate	ChargeLabel 					FgColor	"Ammo In Clip"				Linear 0.0	0.0001
+	
 }
 
 event HudReadyPulse
 {
-	Animate	TournamentInstructionsLabel 	FgColor	"255 165 0 255"				Linear 0.0	0.3
-	Animate	TournamentInstructionsLabel 	FgColor	"255 69 0 255"				Linear 0.3	0.3
+	Animate	TournamentInstructionsLabel 	FgColor	"Flashing Uber Color1"				Linear 0.0	0.3
+	Animate	TournamentInstructionsLabel 	FgColor	"Flashing Uber Color2"				Linear 0.3	0.3
 
 	RunEvent HudReadyPulseLoop				0.6
 }
@@ -180,8 +176,7 @@ event CompetitiveGame_ShowDisconnectButton
 {
 	Animate	DisconnectButton				ypos	r30							Accel 0.0	0.4
 }
-
-//===========================================
+//==================================================================================
 // Do not move chat window
 event CompetitiveGame_LowerChatWindow { }
 event CompetitiveGame_RestoreChatWindow { }

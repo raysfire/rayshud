@@ -57,7 +57,7 @@ Scheme
 		// scheme-specific colors
 		Border.Bright					"200 200 200 196"
 		Border.Dark						"40 40 40 196"
-		Border.Selection				"0 0 0 196"default/selected button
+		Border.Selection				"0 0 0 196"
 		
 		Button.TextColor				"196 196 196 255"
 		Button.BgColor					"120 120 120 128"
@@ -90,7 +90,7 @@ Scheme
 		RadioButton.ArmedTextColor		"TFTextMedium"
 		
 		Frame.BgColor					"40 40 40 245"
-		Frame.OutOfFocusBgColor			"40 40 40 100"
+		Frame.OutOfFocusBgColor			"40 40 40 245"
 		FrameGrip.Color1				"200 200 200 196"
 		FrameGrip.Color2				"0 0 0 196"
 		FrameTitleButton.FgColor		"200 200 200 196"
@@ -141,76 +141,139 @@ Scheme
 		TextEntry.TextColor				"OffWhite"
 		TextEntry.DisabledTextColor		"DullWhite"
 		TextEntry.SelectedBgColor		"RaysPrimary"
-		
-		// Borrowed from CS:S SourceScheme
-		Frame.TitleTextInsetX			"14"
-		Frame.ClientInsetY				"9"
-		Frame.ClientInsetX				"8"
-		Frame.FocusTransitionEffectTime	"0.3"
-		Frame.TransitionEffectTime		"0.3"
-		Frame.AutoSnapRange				"0"
-		FrameTitleButton.BgColor		"Blank"
-		FrameTitleButton.DisabledFgColor "255 255 255 192"
-		FrameTitleButton.DisabledBgColor "Blank"
-		FrameSystemButton.FgColor		"Blank"
-		FrameSystemButton.BgColor		"Blank"
-		FrameSystemButton.Icon			""
-		FrameSystemButton.DisabledIcon	""
-		FrameTitleBar.BgColor			"0 0 0 210"
-		FrameTitleBar.DisabledBgColor	"Blank"
-		GraphPanel.FgColor				"White"
-		GraphPanel.BgColor				"TransparentBlack"
-		ListPanel.TextBgColor			"Blank"
-		ListPanel.SelectedTextColor		"Black"
-		ListPanel.EmptyListInfoTextColor "OffWhite"
-		Menu.TextColor					"White"
-		Menu.ArmedTextColor				"Black"
-		Panel.FgColor					"DullWhite"
-		Panel.BgColor					"Blank"
-		ProgressBar.FgColor				"White"
-		ProgressBar.BgColor				"TransparentBlack"
-		PropertySheet.TextColor			"OffWhite"
-		PropertySheet.SelectedTextColor	"White"
-		PropertySheet.TransitionEffectTime	"0.25"
-		RichText.TextColor				"OffWhite"
-		RichText.BgColor				"TransparentBlack"
-		RichText.SelectedTextColor		"Black"
-		RichText.SelectedBgColor		"RaysPrimary"
-		ScrollBar.Wide					"17"
-		SectionedListPanel.HeaderTextColor	"White"
-		SectionedListPanel.HeaderBgColor	"Blank"
-		SectionedListPanel.DividerColor		"Black"
-		SectionedListPanel.TextColor		"DullWhite"
-		SectionedListPanel.BrightTextColor	"White"
-		SectionedListPanel.BgColor			"TransparentBlack"
-		SectionedListPanel.SelectedTextColor			"Black"
-		SectionedListPanel.SelectedBgColor				"RaysPrimary"
-		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"100 100 100 128"
-		TextEntry.BgColor				"TransparentBlack"
-		TextEntry.CursorColor			"OffWhite"
-		TextEntry.DisabledBgColor		"Blank"
-		TextEntry.SelectedTextColor		"Black"
-		TextEntry.OutOfFocusSelectedBgColor	"100 100 100 128"
-		TextEntry.FocusEdgeColor		"0 0 0 196"
-		ToggleButton.SelectedTextColor	"White"
-		Tooltip.TextColor				"0 0 0 196"
-		Tooltip.BgColor					"RaysPrimary"
-		TreeView.BgColor				"TransparentBlack"
-		WizardSubPanel.BgColor			"Blank"
-		MainMenu.DepressedTextColor		"150 150 150 128"
-		MainMenu.MenuItemHeight			"25"
-		MainMenu.Backdrop				"0 0 0 156"
-		Console.TextColor				"OffWhite"
-		Console.DevTextColor			"White"
-		NewGame.TextColor				"White"
-		NewGame.FillColor				"0 0 0 255"
-		NewGame.SelectionColor			"RaysPrimary"
-		NewGame.DisabledColor			"128 128 128 196"
 	}
 	
 	Fonts
 	{
+		"MainMenuFont"
+		{
+			"1"	[$WIN32]
+			{
+				"name"			"TF2 Build"
+				"tall"			"18"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		"MenuLarge"
+		{
+			"1"	[disabled]
+			{
+				"tall_disabled"	"24"
+			}
+		}
+		
+		"ServerBrowserTitle"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"35"
+				"tall_disabled"	"40"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		"Default" [disabled]
+		{
+			"1"
+			{
+				"name"			"Verdana"
+				"tall"			"14"
+				"weight"		"500"
+			}
+		}
+		
+		"ServerBrowserSmall"
+		{
+			"1"
+			{
+				"name"			"Tahoma"
+				"tall"			"16"
+				"weight"		"0"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"480 599"
+			}
+			"2"
+			{
+				"name"			"Tahoma"
+				"tall"			"16"
+				"weight"		"0"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"600 767"
+			}
+			"3"
+			{
+				"name"			"Tahoma"
+				"tall"			"16"
+				"weight"		"0"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"768 1023"
+				"antialias"		"1"
+			}
+			"4"
+			{
+				"name"			"Tahoma"
+				"tall"			"19"
+				"weight"		"0"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"1024 1199"
+				"antialias"		"1"
+			}
+			"5"
+			{
+				"name"			"Tahoma"
+				"tall"			"19"
+				"weight"		"0"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"1200 6000"
+				"antialias"		"1"
+			}
+		}
+		
+		AchievementItemTitle	[$WIN32]
+		{
+			"1"
+			{
+				"name"			"Arial" [!$OSX]
+				"name"			"Verdana Bold" [disabled]
+				"weight"		"1500"
+				"tall"			"16" [!$OSX]
+				"tall"			"18" [disabled]
+				"antialias"		"1"
+			}
+		}
+		
+		AchievementItemTitleLarge	[$WIN32]
+		{
+			"1"
+			{
+				"name"			"Arial" [!$OSX]
+				"name"			"Verdana Bold" [disabled]
+				"weight"		"1500"
+				"tall"			"18" [!$OSX]
+				"tall"			"19" [disabled]
+				"antialias"		"1"
+			}
+		}
+		
+		AchievementItemDescription	[$WIN32]
+		{
+			"1"
+			{
+				"name"			"Arial" [!$OSX]
+				"name"			"Verdana" [disabled]
+				"weight"		"1000"
+				"tall"			"14" [!$OSX]
+				"tall"			"12" [disabled]
+				"antialias"		"1" [!$OSX]
+			}
+		}
+
 		"DefaultFixedOutline" //edited by INsane 2010 for small netgraph font on all screen sizes
 		{
             "1" //For screen heights between 480 and 599 (eg 4:3 aspect Width 640x480 High, Width 720x576 High. 16:10 aspect Width 720x480 High)
@@ -284,143 +347,70 @@ Scheme
                 "antialias"  	"0"  			//not default added //smoothing the edges.
             }
 		}
-		
-		"MainMenuFont"
-		{
-			"1"	[$WIN32]
-			{
-				"name"			"TF2 Build"
-				"tall"			"18"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-		
-		"MenuLarge"
-		{
-			"1"	[$X360]
-			{
-				"tall_hidef"	"24"
-			}
-		}
-		
-		"ServerBrowserTitle"
-		{
-			"1"
-			{
-				"name"			"TF2 Build"
-				"tall"			"35"
-				"tall_lodef"	"40"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-		
-		"Default" [$OSX]
-		{
-			"1"
-			{
-				"name"			"Verdana"
-				"tall"			"14"
-				"weight"		"500"
-			}
-		}
-		
-		"ServerBrowserSmall"
-		{
-			"1"
-			{
-				"name"			"Tahoma"
-				"tall"			"16"
-				"weight"		"0"
-				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"			"480 599"
-			}
-			"2"
-			{
-				"name"			"Tahoma"
-				"tall"			"16"
-				"weight"		"0"
-				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"			"600 767"
-			}
-			"3"
-			{
-				"name"			"Tahoma"
-				"tall"			"16"
-				"weight"		"0"
-				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"			"768 1023"
-				"antialias"		"1"
-			}
-			"4"
-			{
-				"name"			"Tahoma"
-				"tall"			"19"
-				"weight"		"0"
-				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"			"1024 1199"
-				"antialias"		"1"
-			}
-			"5"
-			{
-				"name"			"Tahoma"
-				"tall"			"19"
-				"weight"		"0"
-				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"			"1200 6000"
-				"antialias"		"1"
-			}
-		}
-		
-		AchievementItemTitle	[$WIN32]
-		{
-			"1"
-			{
-				"name"			"Arial" [!$OSX]
-				"name"			"Verdana Bold" [$OSX]
-				"weight"		"1500"
-				"tall"			"16" [!$OSX]
-				"tall"			"18" [$OSX]
-				"antialias"		"1"
-			}
-		}
-		
-		AchievementItemTitleLarge	[$WIN32]
-		{
-			"1"
-			{
-				"name"			"Arial" [!$OSX]
-				"name"			"Verdana Bold" [$OSX]
-				"weight"		"1500"
-				"tall"			"18" [!$OSX]
-				"tall"			"19" [$OSX]
-				"antialias"		"1"
-			}
-		}
-		
-		AchievementItemDescription	[$WIN32]
-		{
-			"1"
-			{
-				"name"			"Arial" [!$OSX]
-				"name"			"Verdana" [$OSX]
-				"weight"		"1000"
-				"tall"			"14" [!$OSX]
-				"tall"			"12" [$OSX]
-				"antialias"		"1" [!$OSX]
-			}
-		}
 	}
 	
 	CustomFontFiles
 	{
-		"9"
+		"6"
 		{
 			"font" "resource/TF2Build.ttf"
 			"name" "TF2 Build"
+			"turkish"
+			{
+				"range" "0x0000 0x015F"
+			}
+			"swedish"
+			{
+				"range" "0x0000 0x00F6"
+			}
+			"spanish"
+			{
+				"range" "0x0000 0x00FC"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0x021B"
+			}
+			"polish"
+			{
+				"range" "0x0000 0x017C"
+			}
+			"norwegian"
+			{
+				"range" "0x0000 0x00F8"
+			}
+			"danish"
+			{
+				"range" "0x0000 0x00F8"
+			}
+			"hungarian"
+			{
+				"range" "0x0000 0x0171"
+			}
+			"german"
+			{
+				"range" "0x0000 0x00FC"
+			}
+			"french"
+			{
+				"range" "0x0000 0x0178"
+			}
+			"finnish"
+			{
+				"range" "0x0000 0x017E"
+			}
+			"czech"
+			{
+				"range" "0x0000 0x017E"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0x0451"
+			}
+			"russian"
+			{
+				"range" "0x0000 0x0451"
+			}
 		}
 	}
 }

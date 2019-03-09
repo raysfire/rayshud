@@ -770,8 +770,8 @@
 		"fieldName"			"HudMedicCharge"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-150"	
-		"ypos"				"c20"
+		"xpos"				"c-75"
+		"ypos"				"c25"
 		"xpos_minmode"		"c-62"
 		"ypos_minmode"		"c24"
 		"wide"				"500"
@@ -942,7 +942,7 @@
 		"enabled" 			"1"
 		"xpos"				"c-100"
 		"ypos"				"246"
-		"ypos_minmode"		"345"
+		"ypos_minmode"		"315"
 		"zpos"				"1"
 		"wide"	 			"600"
 		"tall"	 			"47"
@@ -970,7 +970,8 @@
 		"visible" 			"0"
 		"enabled" 			"1"
 		"xpos" 				"c-100"
-		"ypos"				"305"
+		"ypos"				"276"
+		"ypos_minmode"		"290"
 		"zpos"				"1"
 		"wide" 				"600"
 		"tall" 				"45"
@@ -1079,16 +1080,16 @@
 	
 	HudDamageIndicator
 	{
-		//"fieldName"		"HudDamageIndicator"
-		//"visible" 		"1"
-		//"enabled" 		"1"
-		//"MinimumWidth" 	"10"
-		//"MaximumWidth" 	"10"
-		//"StartRadius" 	"80"
-		//"EndRadius" 		"80"
-		//"MinimumHeight" 	"30"
-		//"MaximumHeight" 	"60"
-		//"MinimumTime" 	"1"
+		"fieldName"		"HudDamageIndicator"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"MinimumWidth" 	"10"
+		"MaximumWidth" 	"10"
+		"StartRadius" 	"80"
+		"EndRadius" 		"80"
+		"MinimumHeight" 	"30"
+		"MaximumHeight" 	"60"
+		"MinimumTime" 	"1"
 	}
 	
 	HudCommentary
@@ -1661,13 +1662,13 @@
 	
 	HudDemomanPipes
 	{
-		"fieldName"			"HudItemEffectMeter"
+		"fieldName"			"HudDemomanPipes"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c75"	[$WIN32]
-		"ypos"				"c137"	[$WIN32]
-		"wide"				"150"
-		"tall"				"50"
+		"xpos"				"c-75"	[$WIN32]
+		"ypos"				"c25"	[$WIN32]
+		"wide"				"500"
+		"tall"				"500"
 		"MeterFG"			"White"
 		"MeterBG"			"Gray"
 	}
@@ -1986,9 +1987,9 @@
 		"tall"				"150"
 	}
 	
-	"CTFKillStreakNotice"
+	"CTFStreakNotice"
 	{
-		"fieldName"			"CTFKillStreakNotice"
+		"fieldName"			"CTFStreakNotice"
 		"xpos"				"0"
 		"ypos"				"0"
 		"wide"				"640"

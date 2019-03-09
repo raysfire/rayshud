@@ -10,7 +10,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "ColorCyan"
 					"offset" "0 0"
 				}
 			}
@@ -18,7 +18,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "ColorCyan"
 					"offset" "0 0"
 				}
 			}
@@ -26,7 +26,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "ColorCyan"
 					"offset" "0 0"
 				}
 			}
@@ -34,7 +34,40 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "ColorCyan"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		MenuBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "Yellow"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Yellow"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "Yellow"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "Yellow"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "Yellow"
 					"offset" "0 0"
 				}
 			}
@@ -47,17 +80,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "ColorCyan"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Base Color"
+					"color" "ColorCyan"
 					"offset" "0 1"
 				}
 				"3"
 				{
-					"color" "Base Color"
+					"color" "ColorCyan"
 					"offset" "1 1"
 				}
 			}
@@ -2901,6 +2934,28 @@ Scheme
 			"image"					"inner_shadow_border"
 			"src_corner_height"		"5"				// pixels inside the image
 			"src_corner_width"		"5"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+		
+		OuterShadowBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"image"					"outer_shadow_border"
+			"src_corner_height"		"8"				// pixels inside the image
+			"src_corner_width"		"8"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+		
+		OuterShadowBorderThin
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"image"					"outer_shadow_border"
+			"src_corner_height"		"8"				// pixels inside the image
+			"src_corner_width"		"8"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
 		}

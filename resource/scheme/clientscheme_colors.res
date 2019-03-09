@@ -2,63 +2,8 @@ Scheme
 {
 	Colors
 	{	
-		//rayshud colors
-		"Tutorial Color"				"0 255 0 128"
-		"Ammo In Clip"					"48 255 48 255"
-		"Ammo In Reserve"				"72 255 255 255"
-		"Ammo In Clip Low"				"255 42 130 255"
-		"Ammo In Reserve Low"			"255 128 28 255"
-		"Health Normal"					"235 226 202 255"
-		"Health Buff"					"48 255 48 255"
-		"Health Hurt"					"255 153 0 255"
-		"Uber Bar Color"				"235 226 202 255"
-		"Solid Color Uber"				"255 50 25 255"
-		"Flashing Uber Color1"			"255 165 0 255"
-		"Flashing Uber Color2"			"255 69 0 255"
-		"Heal Numbers"					"48 255 48 255"
-		"Damage Numbers"				"72 255 255 255"
-		"Crosshair"						"242 242 242 255"
-		"CrosshairDamage"				"255 0 0 255"
-		
-		//refers to watching stvs/killcam shots
-		"Spec Health Normal"			"235 226 202 255"
-		"Spec Health Buff"				"48 255 48 255"			
-		"Spec Health Hurt"				"255 153 0 255"
-		
-		//alternate colors for flashing values
-		"Alternate Spec Health Normal"	"235 226 202 255"
-		"Alternate Spec Health Buff"	"48 255 48 255"			
-		"Alternate Spec Health Hurt"	"255 153 0 255"
-		
-		//alternate colors for flashing values
-		"Alternate Health Normal"		"235 226 202 255"
-		"Alternate Health Buff"			"48 255 48 255"			
-		"Alternate Health Hurt"			"255 153 0 255"
-		
-		//'Last DamageHeal Info' refers to the number that appears above hp
-		"Last DamageHeal Info"			"72 255 255 255"
-		
-		//Menu/Color scheme colors
-		"TransparentPanelBG"			"25 25 25 128"
-		"Base Color"					"15 255 255 255"
-		"Button Color"					"72 255 255 255"	
-		
-		"Inactive Tab"					"15 100 100 255"	
-		
-		"StatBar1"						"15 255 255 128"
-		"StatBar2"						"15 225 225 128"
-		"StatBar3"						"15 195 195 128"
-		"StatBar4"						"15 165 165 128"
-		"StatBar5"						"15 135 135 128"
-		"StatBar6"						"15 105 105 128"
-		"StatBar7"						"15 85 85 128"
-		"StatBar8"						"15 65 65 128"
-		"StatBar9"						"15 45 45 128"
-		
-		//item backdrop color, refers to background color when mousing over items
-		"ItemPanelBG"					"50 50 50 255"
-		
-		//Rainbow Uber Colors
+		// HUD COLORS
+		//---------------------------------------------
 		"ColorRed"						"255 0 0 255"
 		"ColorVermillion"				"255 64 0 255"
 		"ColorOrange"					"255 128 0 255"
@@ -77,20 +22,58 @@ Scheme
 		"ColorGreyMid"					"128 128 128 255"
 		"ColorGreyLight"				"192 192 192 255"
 		"ColorWhite"					"255 255 255 255"
-		
-		"Transparent"					"0 0 0 0"
+		"Tutorial Color"				"0 255 0 128"
 		"TextColor"						"117 107 94 255"
 		"DarkGrey"						"27 27 27 255"
 		"DarkerGrey"					"22 22 22 255"
-		
 		"Grey"							"51 47 46 255"
-		//end rayshud colors
-		
-		// base colors
-		"Orange"						"Base Color"
-		"OrangeDim"						"Base Color"
+		"DullWhite"						"132 132 132 255"
+		//---------------------------------------------
+		// Gameplay
+		"Ammo In Clip"					"48 255 48 255"
+		"Ammo In Reserve"				"72 255 255 255"
+		"Ammo In Clip Low"				"255 42 130 255"
+		"Ammo In Reserve Low"			"255 128 28 255"
+		"Health Normal"					"235 226 202 255"
+		"Health Buff"					"48 255 48 255"
+		"Health Hurt"					"255 153 0 255"
+		"Heal Numbers"					"48 255 48 255"
+		"Damage Numbers"				"72 255 255 255"
+		"Last DamageHeal Info"			"72 255 255 255"
+		"TransparentPanelBG"			"25 25 25 128"
+		"Base Color"					"15 255 255 255"
+		"Button Color"					"72 255 255 255"	
+		//---------------------------------------------
+		// Crosshair Colors
+		"Crosshair"						"242 242 242 255"
+		"CrosshairDamage"				"255 0 0 255"
+		"Inactive Tab"					"15 100 100 255"
+		//---------------------------------------------
+		// Ubercharge
+		"Uber Bar Color"				"235 226 202 255"
+		"Solid Color Uber"				"255 50 25 255"
+		"Flashing Uber Color1"			"255 165 0 255"
+		"Flashing Uber Color2"			"255 69 0 255"
+		//---------------------------------------------
+		// Player Stats
+		"StatBar1"						"15 255 255 128"
+		"StatBar2"						"15 225 225 128"
+		"StatBar3"						"15 195 195 128"
+		"StatBar4"						"15 165 165 128"
+		"StatBar5"						"15 135 135 128"
+		"StatBar6"						"15 105 105 128"
+		"StatBar7"						"15 85 85 128"
+		"StatBar8"						"15 65 65 128"
+		"StatBar9"						"15 45 45 128"
+		"ItemPanelBG"					"50 50 50 255"
+		"Transparent"					"0 0 0 0"
+		//---------------------------------------------
+		// DEFAULT COLORS
+		//---------------------------------------------
+		"Orange"						"ColorCyan"
+		"OrangeDim"						"ColorCyan"
 		"LightOrange"					"188 112 0 128"
-		"GoalOrange"					"255 133 0"
+		"GoalOrange"					"255 133 0 255"
 		"TFOrange"						"145 73 59 255"
 		"Purple"						"137 69 99 255"
 		
@@ -211,7 +194,7 @@ Scheme
 		"QualityColorNormal"					"178 178 178 255"
 		"QualityColorrarity1"					"77 116 85 255"
 		"QualityColorrarity2"					"141 131 75 255"
-		"QualityColorrarity3"					"112 85 15 255"
+		"QualityColorrarity3"					"204 204 250 255"
 		"QualityColorrarity4"					"134 80 172 255"
 		"QualityColorVintage"					"71 98 145 255"
 		"QualityColorUnique"					"255 215 0 255"
