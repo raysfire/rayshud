@@ -133,7 +133,7 @@
 				if_mvm
 				{
 					"xpos"		"7"
-					"ypos"		"1"
+					"ypos"		"0"
 					"wide"		"26"
 					"tall"		"26"
 					"image"		"../vgui/hud_connecting"
@@ -744,7 +744,7 @@
 		"fieldName"		"TournamentInstructionsLabel"
 		"font"			"Cerbetica11"
 		"xpos"			"c-125"
-		"ypos"			"44"
+		"ypos"			"42"
 		"wide"			"250"
 		"tall"			"13"
 		"zpos"			"1"
@@ -787,14 +787,14 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"InstructionBackground"
 		"xpos"			"c-125"
-		"ypos"			"42"
+		"ypos"			"26"
 		"zpos"			"-1"
 		"wide"			"250"
-		"tall"			"16"
+		"tall"			"30"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 150"
+		"fillcolor"		"DarkGrey"
 		
 		if_mvm {
 			"visible"	"0"
@@ -842,7 +842,8 @@
 		{
 			"visible"	"1"
 			"enabled"	"1"
-			"xpos"		"c-20"
+			"xpos"		"c-60"
+			"wide"		"140"
 		}
 	
 		if_competitive
@@ -884,7 +885,8 @@
 		{
 			"visible"		"1"
 			"enabled"		"1"
-			"xpos"			"c-20"
+			"xpos"			"c-60"
+			"wide"			"140"
 		}
 		
 		if_competitive

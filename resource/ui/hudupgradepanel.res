@@ -65,7 +65,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"bgcolor_override"	"HudBlack"
+		"bgcolor_override"	"0 0 0 230"
 	}
 	
 	"SelectWeaponPanel"
@@ -691,6 +691,8 @@
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"ButtonHover"
+			"border_armed"		"ButtonHover"	
 		}
 		
 		"CloseButton"
@@ -716,6 +718,8 @@
 			"Command"		"close"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"ButtonHover"
+			"border_armed"		"ButtonHover"	
 		}
 
 		"RespecButton"
@@ -741,6 +745,8 @@
 			"Command"		"respec"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"ButtonHover"
+			"border_armed"		"ButtonHover"	
 		}
 	}
 

@@ -1800,7 +1800,6 @@
 		"enabled"			"1"
 		"xpos"				"0"
 		"ypos"				"r320"
-		"zpos"				"11"
 		"wide"				"f0"
 		"tall"				"320"
 	}
@@ -1823,6 +1822,7 @@
 		"enabled"			"1"
 		"xpos"				"0"
 		"ypos"				"0"
+		"zpos"				"10"
 		"wide"				"f0"
 		"tall"				"50"
 	}

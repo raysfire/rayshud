@@ -46,7 +46,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"labelText"			"Ka-Boom!"
+		"labelText"			"#Hud_menu_demolish_title"
 		"textAlignment"		"Left"
 		"dulltext"			"0"
 		"brighttext"		"0"

@@ -139,7 +139,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabel"
-			"font"			"Cerbetica13"
+			"font"			"Cerbetica12"
 			"xpos"			"40"
 			"ypos"			"15"
 			"zpos"			"1"

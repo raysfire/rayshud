@@ -451,7 +451,7 @@
 		"labelText"		"(&E)  EDIT LOADOUT"
 		"textAlignment"	"west"
 		"Command"		"openloadout"
-		"font"			"CerbeticaBold16"
+		"font"			"CerbeticaBold14"
 	}
 	
 	"CancelButton" [$WIN32]
