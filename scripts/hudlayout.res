@@ -937,7 +937,7 @@
 		"ypos_minmode"			"315"
 		"zpos"					"1"
 		"wide"	 				"600"
-		"tall"	 				"47"
+		"tall"	 				"50"
 		"priority"				"100"
 	}
 	
@@ -950,7 +950,7 @@
 		"ypos"					"270"
 		"zpos"					"1"
 		"wide"	 				"600"
-		"tall"	 				"47"
+		"tall"	 				"50"
 		"priority"				"40"
 		"x_offset" 				"20"
 		"y_offset" 				"20"
@@ -962,11 +962,11 @@
 		"visible" 				"0"
 		"enabled" 				"1"
 		"xpos"					"c-100"
-		"ypos"					"276"
+		"ypos"					"c100"
 		"ypos_minmode"			"290"
 		"zpos"					"1"
 		"wide"					"600"
-		"tall"					"45"
+		"tall"					"50"
 		"priority"				"35"
 	}
 	

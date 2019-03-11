@@ -307,8 +307,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowSelection"
-		"xpos"			"c100"
-		"ypos"			"340"
+		"xpos"			"c-288"
+		"ypos"			"290"
 		"zpos"			"20"
 		"wide"			"200"
 		"tall"			"25"

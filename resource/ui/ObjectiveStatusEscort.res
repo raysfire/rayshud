@@ -365,8 +365,8 @@
 			"xpos"			"20"
 			"ypos"			"52"
 			"zpos"			"3"
-			"wide"			"4"
-			"tall"			"8"
+			"wide"			"3"
+			"tall"			"7"
 			"visible"		"0"
 			"enabled"		"1"
 			"image"			"capture_icon_white"
@@ -374,7 +374,7 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"		"20"
+				"xpos"		"19"
 				"wide"		"5"
 				"tall"		"10"
 			}
@@ -412,19 +412,19 @@
 			"if_multiple_trains"
 			{
 				"font"		"ItemFontAttribSmall"
-				"xpos"		"25"
+				"xpos"		"24"
 				"wide"		"30"
 				"tall"		"10"
 			}			
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"		"46"
+				"ypos"		"45"
 			}
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"		"82"
+				"ypos"		"81"
 			}	
 		}
 		

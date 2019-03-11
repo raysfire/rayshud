@@ -1,10 +1,10 @@
 // Bonus Health Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 		Alpha	"255"					Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 		Alpha	"0"						Linear 0.2 0.4
+	Animate	PlayerStatusHealthBonusImage 		Alpha	"255"				Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 		Alpha	"0"					Linear 0.2 0.4
 	
-	Animate PlayerStatusHealthValue 		 	FgColor "Health Buff" 			Accel 0.0 0.0
+	Animate PlayerStatusHealthValue				FgColor "Health Buff" 		Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpectator 	FgColor "Health Buff" 		Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel 	FgColor "Health Buff" 		Accel 0.0 0.0
 
@@ -13,7 +13,7 @@ event HudHealthBonusPulse
 
 event HudHealthBonusPulseStop
 {
-	Animate PlayerStatusHealthValue 			FgColor "Health Normal" 		Accel 0.0 0.0
+	Animate PlayerStatusHealthValue				FgColor "Health Normal" 	Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpectator 	FgColor "Health Normal" 	Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel 	FgColor "Health Normal" 	Accel 0.0 0.0
 	
@@ -24,10 +24,10 @@ event HudHealthBonusPulseStop
 // Low Health Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 		Alpha	"255"					Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 		Alpha	"0"						Linear 0.2 0.2
+	Animate	PlayerStatusHealthBonusImage 		Alpha	"255"				Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 		Alpha	"0"					Linear 0.2 0.2
 	
-	Animate PlayerStatusHealthValue 		 	FgColor	"Health Hurt" 			Accel 0.0 0.0
+	Animate PlayerStatusHealthValue				FgColor	"Health Hurt" 		Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpectator 	FgColor "Health Hurt" 		Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel	FgColor "Health Hurt" 		Accel 0.0 0.0
 	
@@ -36,7 +36,7 @@ event HudHealthDyingPulse
 
 event HudHealthDyingPulseStop
 {
-	Animate PlayerStatusHealthValue 			FgColor	"Health Normal" 		Accel 0.0 0.0
+	Animate PlayerStatusHealthValue				FgColor	"Health Normal" 	Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpectator 	FgColor "Health Normal" 	Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel	FgColor "Health Normal" 	Accel 0.0 0.0
 	
@@ -131,8 +131,8 @@ event HudMedicChargedStop
 // Hitmarker Pulse
 event DamagedPlayer 
 {
-//	StopEvent HitMarker 					0.0
-//	RunEvent HitMarker 						0.01
+//StopEvent HitMarker 					0.0
+//RunEvent HitMarker 						0.01
 }
 
 event HitMarker

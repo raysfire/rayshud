@@ -287,6 +287,7 @@
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 				"border"		"ReplayDefaultBorder"
+				"bgcolor_override"	"DarkGrey"
 			}
 
 			"QueueLogoButton"
@@ -432,7 +433,7 @@
 				"armedFgColor_override" "235 226 202 255"
 				"depressedFgColor_override" "TanDarker"
 				"image_drawcolor"	"TextColor"
-				"image_armedcolor"	"LightRed"
+				"image_armedcolor"	"255 0 0 255"
 				
 				"SubImage"
 				{
@@ -489,6 +490,7 @@
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 				"border"		"ReplayDefaultBorder"
+				"bgcolor_override"	"DarkGrey"
 			}
 
 			"PromptText"
@@ -692,8 +694,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-		//	"armedBgColor_override"		"CreditsGreen"
-		//	"defaultBgColor_override"	"GreenSolid"
+			"armedBgColor_override"		"170 221 183 155"
+			"defaultBgColor_override"	"170 221 183 55"
 
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override"		"TanLight"

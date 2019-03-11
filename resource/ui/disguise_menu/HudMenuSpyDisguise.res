@@ -13,7 +13,7 @@
 		"enabled"			"1"
 		"scaleImage"		"1"	
 		"icon"				"hud_menu_bg"
-		"iconColor"			"White"
+		"fillcolor"			"0 0 0 200"
 	}
 	
 	"TitleLabel"

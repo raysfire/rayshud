@@ -98,9 +98,9 @@
 		if_match
 		{
 			"font"			"HudFontSmallestBold"
-			"xpos"			"c0"
+			"xpos"			"13"
 			"wide"			"p1"
-			"ypos"			"22"
+			"ypos"			"23"
 			"font"			"Cerbetica10"
 			"proportionaltoparent"	"1"
 		}
