@@ -37,7 +37,6 @@ Scheme
 		"Health Buff"				"48 255 48 255"
 		"Health Hurt"				"255 153 0 255"
 		"Heal Numbers"				"48 255 48 255"
-		"Damage Numbers"			"72 255 255 255"
 		"Last DamageHeal Info"		"72 255 255 255"
 		"TransparentPanelBG"		"25 25 25 148"
 		"ItemPanelBG"				"50 50 50 255"

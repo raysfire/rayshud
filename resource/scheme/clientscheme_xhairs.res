@@ -2,7 +2,7 @@ Scheme
 {
 	Fonts
 	{
-		"size:10,outline:off"
+		"KnucklesCrosses10"
 		{
 			"1"
 			{
@@ -13,7 +13,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:11,outline:off"
+		"KnucklesCrosses11"
 		{
 			"1"
 			{
@@ -24,7 +24,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:12,outline:off"
+		"KnucklesCrosses12"
 		{
 			"1"
 			{
@@ -35,7 +35,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:13,outline:off"
+		"KnucklesCrosses13"
 		{
 			"1"
 			{
@@ -46,7 +46,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:14,outline:off"
+		"KnucklesCrosses14"
 		{
 			"1"
 			{
@@ -57,7 +57,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:15,outline:off"
+		"KnucklesCrosses15"
 		{
 			"1"
 			{
@@ -68,7 +68,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:16,outline:off"
+		"KnucklesCrosses16"
 		{
 			"1"
 			{
@@ -79,7 +79,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:17,outline:off"
+		"KnucklesCrosses17"
 		{
 			"1"
 			{
@@ -90,7 +90,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:18,outline:off"
+		"KnucklesCrosses18"
 		{
 			"1"
 			{
@@ -101,7 +101,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:19,outline:off"
+		"KnucklesCrosses19"
 		{
 			"1"
 			{
@@ -112,7 +112,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:20,outline:off"
+		"KnucklesCrosses20"
 		{
 			"1"
 			{
@@ -123,7 +123,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:21,outline:off"
+		"KnucklesCrosses21"
 		{
 			"1"
 			{
@@ -134,7 +134,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:22,outline:off"
+		"KnucklesCrosses22"
 		{
 			"1"
 			{
@@ -145,7 +145,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:23,outline:off"
+		"KnucklesCrosses23"
 		{
 			"1"
 			{
@@ -156,7 +156,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:24,outline:off"
+		"KnucklesCrosses24"
 		{
 			"1"
 			{
@@ -167,7 +167,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:25,outline:off"
+		"KnucklesCrosses25"
 		{
 			"1"
 			{
@@ -178,7 +178,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:26,outline:off"
+		"KnucklesCrosses26"
 		{
 			"1"
 			{
@@ -189,7 +189,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:27,outline:off"
+		"KnucklesCrosses27"
 		{
 			"1"
 			{
@@ -200,7 +200,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:28,outline:off"
+		"KnucklesCrosses28"
 		{
 			"1"
 			{
@@ -211,7 +211,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:29,outline:off"
+		"KnucklesCrosses29"
 		{
 			"1"
 			{
@@ -222,7 +222,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:30,outline:off"
+		"KnucklesCrosses30"
 		{
 			"1"
 			{
@@ -233,7 +233,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:31,outline:off"
+		"KnucklesCrosses31"
 		{
 			"1"
 			{
@@ -244,7 +244,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:32,outline:off"
+		"KnucklesCrosses32"
 		{
 			"1"
 			{
@@ -255,7 +255,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:33,outline:off"
+		"KnucklesCrosses33"
 		{
 			"1"
 			{
@@ -266,7 +266,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:34,outline:off"
+		"KnucklesCrosses34"
 		{
 			"1"
 			{
@@ -277,7 +277,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:35,outline:off"
+		"KnucklesCrosses35"
 		{
 			"1"
 			{
@@ -288,7 +288,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:36,outline:off"
+		"KnucklesCrosses36"
 		{
 			"1"
 			{
@@ -299,7 +299,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:37,outline:off"
+		"KnucklesCrosses37"
 		{
 			"1"
 			{
@@ -310,7 +310,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:38,outline:off"
+		"KnucklesCrosses38"
 		{
 			"1"
 			{
@@ -321,7 +321,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:39,outline:off"
+		"KnucklesCrosses39"
 		{
 			"1"
 			{
@@ -332,7 +332,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:40,outline:off"
+		"KnucklesCrosses40"
 		{
 			"1"
 			{
@@ -343,7 +343,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"size:10,outline:on"
+		"KnucklesCrosses10Outline"
 		{
 			"1"
 			{
@@ -354,7 +354,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:11,outline:on"
+		"KnucklesCrosses11Outline"
 		{
 			"1"
 			{
@@ -365,7 +365,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:12,outline:on"
+		"KnucklesCrosses12Outline"
 		{
 			"1"
 			{
@@ -376,7 +376,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:13,outline:on"
+		"KnucklesCrosses13Outline"
 		{
 			"1"
 			{
@@ -387,7 +387,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:14,outline:on"
+		"KnucklesCrosses14Outline"
 		{
 			"1"
 			{
@@ -398,7 +398,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:15,outline:on"
+		"KnucklesCrosses15Outline"
 		{
 			"1"
 			{
@@ -409,7 +409,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:16,outline:on"
+		"KnucklesCrosses16Outline"
 		{
 			"1"
 			{
@@ -420,7 +420,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:17,outline:on"
+		"KnucklesCrosses17Outline"
 		{
 			"1"
 			{
@@ -431,7 +431,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:18,outline:on"
+		"KnucklesCrosses18Outline"
 		{
 			"1"
 			{
@@ -442,7 +442,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:19,outline:on"
+		"KnucklesCrosses19Outline"
 		{
 			"1"
 			{
@@ -453,7 +453,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:20,outline:on"
+		"KnucklesCrosses20Outline"
 		{
 			"1"
 			{
@@ -464,7 +464,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:21,outline:on"
+		"KnucklesCrosses21Outline"
 		{
 			"1"
 			{
@@ -475,7 +475,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:22,outline:on"
+		"KnucklesCrosses22Outline"
 		{
 			"1"
 			{
@@ -486,7 +486,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:23,outline:on"
+		"KnucklesCrosses23Outline"
 		{
 			"1"
 			{
@@ -497,7 +497,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:24,outline:on"
+		"KnucklesCrosses24Outline"
 		{
 			"1"
 			{
@@ -508,7 +508,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:25,outline:on"
+		"KnucklesCrosses25Outline"
 		{
 			"1"
 			{
@@ -519,7 +519,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:26,outline:on"
+		"KnucklesCrosses26Outline"
 		{
 			"1"
 			{
@@ -530,7 +530,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:27,outline:on"
+		"KnucklesCrosses27Outline"
 		{
 			"1"
 			{
@@ -541,7 +541,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:28,outline:on"
+		"KnucklesCrosses28Outline"
 		{
 			"1"
 			{
@@ -552,7 +552,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:29,outline:on"
+		"KnucklesCrosses29Outline"
 		{
 			"1"
 			{
@@ -563,7 +563,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:30,outline:on"
+		"KnucklesCrosses30Outline"
 		{
 			"1"
 			{
@@ -574,7 +574,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:31,outline:on"
+		"KnucklesCrosses31Outline"
 		{
 			"1"
 			{
@@ -585,7 +585,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:32,outline:on"
+		"KnucklesCrosses32Outline"
 		{
 			"1"
 			{
@@ -596,7 +596,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:33,outline:on"
+		"KnucklesCrosses33Outline"
 		{
 			"1"
 			{
@@ -607,7 +607,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:34,outline:on"
+		"KnucklesCrosses34Outline"
 		{
 			"1"
 			{
@@ -618,7 +618,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:35,outline:on"
+		"KnucklesCrosses35Outline"
 		{
 			"1"
 			{
@@ -629,7 +629,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:36,outline:on"
+		"KnucklesCrosses36Outline"
 		{
 			"1"
 			{
@@ -640,7 +640,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:37,outline:on"
+		"KnucklesCrosses37Outline"
 		{
 			"1"
 			{
@@ -651,7 +651,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:38,outline:on"
+		"KnucklesCrosses38Outline"
 		{
 			"1"
 			{
@@ -662,7 +662,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:39,outline:on"
+		"KnucklesCrosses39Outline"
 		{
 			"1"
 			{
@@ -673,7 +673,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"size:40,outline:on"
+		"KnucklesCrosses40Outline"
 		{
 			"1"
 			{

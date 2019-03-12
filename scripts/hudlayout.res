@@ -56,7 +56,7 @@
 		"ypos" 		 	"c-24"
 		"wide" 		 	"50"
 		"tall" 		 	"50"
-		"font"			"size:26,outline:off"
+		"font"			"KnucklesCrosses26"
 		"labelText"		"i"
 		"textAlignment"	"center"
 		"fgcolor" 		"Crosshair"
