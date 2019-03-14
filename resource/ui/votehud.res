@@ -544,7 +544,7 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"border"				"CyanBorderThick"
-		"bgcolor_override"		"30 30 30 255"
+		"bgcolor_override"		"DarkGrey"
 		"PaintBackground"		"1"
 		
 		"header_font"				"ItemFontNameLarge"
@@ -675,6 +675,8 @@
 			"Command"			"CallVote"
 			"Default"			"0"
 			"font"				"HudFontSmallBold"
+			"border_default"	"ButtonHover"
+			"border_armed"		"ButtonHover"
 		}
 		"Button1"
 		{
@@ -696,6 +698,8 @@
 			"Command"			"Close"
 			"Default"			"0"
 			"font"				"HudFontSmallBold"
+			"border_default"	"ButtonHover"
+			"border_armed"		"ButtonHover"
 		}
 	}
 }

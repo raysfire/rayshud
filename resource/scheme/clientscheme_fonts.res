@@ -2327,7 +2327,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana"
+				"name"			"Cerbetica_edited"
 				"tall"			"7"
 				"weight"		"0"
 				"additive"		"1"

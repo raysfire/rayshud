@@ -452,6 +452,16 @@
 		"textAlignment"	"west"
 		"Command"		"openloadout"
 		"font"			"CerbeticaBold14"
+		
+		"fgcolor"					"TanLight"
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override"		"Button Color"
+		"depressedFgColor_override" "TanLight"
+		"selectedFgColor_override" 	"Button Color"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"UI/buttonrollover.wav"
 	}
 	
 	"CancelButton" [$WIN32]
@@ -474,6 +484,16 @@
 		"font"			"CerbeticaBold14"
 		"paintbackground" "0"
 		"fgcolor"					"TanLight"
+		
+		"fgcolor"					"TanLight"
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override"		"Button Color"
+		"depressedFgColor_override" "TanLight"
+		"selectedFgColor_override" 	"Button Color"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"UI/buttonrollover.wav"
 	}
 	"LoadoutButtonBackground"
 	{

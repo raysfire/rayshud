@@ -15,6 +15,9 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
+		"border"			"CyanBorderThick"
+		"bgcolor_override"	"DarkGrey"
+		"PaintBorder"		"1"
 	}
 	
 	"TitleLabel"
@@ -129,6 +132,8 @@
 		"Command"			"nope"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"	"ButtonHover"
+		"border_armed"		"ButtonHover"
 	}
 	
 	"ConfirmButton"
@@ -154,6 +159,8 @@
 		"Command"			"add_stamp_to_cart"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/vote_success.wav"
+		"border_default"	"ButtonHover"
+		"border_armed"		"ButtonHover"
 	}
 	
 	"PriceLabel"

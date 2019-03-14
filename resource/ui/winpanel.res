@@ -218,7 +218,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"fillcolor"		"0 0 0 245"
+		"fillcolor"		"0 0 0 250"
 		"src_corner_height" 	"3"
 		"src_corner_width" 		"3"
 		"draw_corner_width" 	"0"

@@ -544,8 +544,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButtonNew"
-		"xpos"			"105"
-		"ypos"			"62"
+		"xpos"			"r28"
+		"ypos"			"90"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -680,7 +680,7 @@
 	{
 		"ControlName"	"CTFStreamListPanel"
 		"fieldName"		"StreamListPanel"
-		"xpos"			"c100"
+		"xpos"			"c90"
 		"ypos"			"90"
 		"zpos"			"1"
 		"wide"			"300"
@@ -1253,7 +1253,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"AchievementsButton"
-		"xpos"			"165"
+		"xpos"			"145"
 		"ypos"			"62"
 		"zpos"			"1"
 		"wide"			"20"
@@ -1321,7 +1321,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ConsoleButton"
-		"xpos"			"185"
+		"xpos"			"165"
 		"ypos"			"62"
 		"zpos"			"1"
 		"wide"			"20"
@@ -1451,7 +1451,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportBugButton"
-		"xpos"			"145"
+		"xpos"			"125"
 		"ypos"			"62"
 		"zpos"			"1"
 		"wide"			"20"
@@ -1518,7 +1518,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SteamWorkshopButton"
-		"xpos"			"125"
+		"xpos"			"105"
 		"ypos"			"62"
 		"zpos"			"1"
 		"wide"			"20"
@@ -1586,7 +1586,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"225"
+		"xpos"			"205"
 		"ypos"			"62"
 		"zpos"			"1"
 		"wide"			"20"
@@ -1654,7 +1654,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"245"
+		"xpos"			"225"
 		"ypos"			"62"
 		"zpos"			"1"
 		"wide"			"20"
@@ -1721,7 +1721,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"205"
+		"xpos"			"185"
 		"ypos"			"62"
 		"zpos"			"1"
 		"wide"			"20"
@@ -1789,7 +1789,7 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldname"				"RequestCoachButton"
-		"xpos"					"265"
+		"xpos"					"245"
 		"ypos"					"62"
 		"zpos"					"1"
 		"wide"					"20"
