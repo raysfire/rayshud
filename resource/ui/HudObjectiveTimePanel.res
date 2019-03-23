@@ -61,13 +61,11 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Cerbetica10"
+		"font"				"Cerbetica12"
 		
 		if_match
 		{
-			"xpos"			"37"
-			"font"			"Cerbetica10"
-			"proportionaltoparent"	"1"
+			"xpos"			"30"
 		}
 	}
 	"WaitingForPlayersBG"
@@ -93,16 +91,11 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Cerbetica10"
+		"font"				"Cerbetica12"
 		
 		if_match
 		{
-			"font"			"HudFontSmallestBold"
-			"xpos"			"13"
-			"wide"			"p1"
-			"ypos"			"23"
-			"font"			"Cerbetica10"
-			"proportionaltoparent"	"1"
+			"xpos"			"30"
 		}
 	}
 	"OvertimeBG"
@@ -128,15 +121,11 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Cerbetica10"
+		"font"				"Cerbetica12"
 		
 		if_match
 		{
-			"xpos"			"cs-0.5"
-			"ypos"			"22"
-			"wide"			"p1"
-			"font"			"Cerbetica10"
-			"proportionaltoparent"	"1"
+			"xpos"			"30"
 		}
 	}
 	"SuddenDeathBG"
@@ -166,11 +155,7 @@
 		
 		if_match
 		{
-			"xpos"			"cs-0.5"
-			"ypos"			"23"
-			"wide"			"p1"
-			"font"			"Cerbetica10"
-			"proportionaltoparent"	"1"
+			"xpos"			"30"
 		}
 	}
 	"SetupBG"
@@ -196,15 +181,11 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Cerbetica10"
+		"font"				"Cerbetica12"
 		
 		if_match
 		{
-			"xpos"			"cs-0.5"
-			"ypos"			"22"
-			"wide"			"p1"
-			"font"			"Cerbetica10"
-			"proportionaltoparent"	"1"
+			"xpos"			"30"
 		}
 	}
 	"ServerTimeLimitLabelBG"

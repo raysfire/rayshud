@@ -46,10 +46,10 @@
 		"fieldName"		"MapInfo"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"bgcolor_override"	"TanDarker"
 		
 		"MainBG"
