@@ -109,10 +109,10 @@
 		"visible"		"0"
 		"enabled"		"0"
 		
-		 if_mvm
- 		{
- 			"visible"		"0"
- 		}
+		if_mvm
+		{
+			"visible"	"0"
+		}
 	}
 	"ScoreboardBackground"
 	{
@@ -128,10 +128,10 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 100"
 		
-		 if_mvm
- 		{
- 			"visible"		"0"
- 		}
+		if_mvm
+		{
+			"visible"	"0"
+		}
 	}
 	
 	"MvMScoreboardBackground"
@@ -148,10 +148,10 @@
 		"enabled"		"0"
 		"fillcolor"		"0 0 0 100"
 		
-		 if_mvm
- 		{
- 			"visible"		"0"
- 		}
+		if_mvm
+		{
+			"visible"	"0"
+		}
 	}
 	
 	"Red6sBackground"
@@ -167,10 +167,10 @@
 		"enabled"		"0"
 		"fillcolor"		"0 0 0 100"
 		
-		 if_mvm
- 		{
- 			"visible"		"0"
- 		}
+		if_mvm
+		{
+			"visible"	"0"
+		}
 	}
 	"Blue6sBackground"
 	{
@@ -186,10 +186,10 @@
 		"enabled"		"0"
 		"fillcolor"		"0 0 0 100"
 		
-		 if_mvm
- 		{
- 			"visible"		"0"
- 		}
+		if_mvm
+		{
+			"visible"	"0"
+		}
 	}
 	"BlueTeamLabel1"
 	{
@@ -209,7 +209,7 @@
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}
 	"BlueTeamScore"
@@ -231,7 +231,7 @@
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}
 	"BlueTeamScoreDropshadow"
@@ -254,7 +254,7 @@
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}
 	"BlueTeamPlayerCount"
@@ -275,7 +275,7 @@
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}
 	"RedTeamLabel1"
@@ -296,7 +296,7 @@
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}
 	"RedTeamScore"
@@ -318,7 +318,7 @@
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}
 	"RedTeamScoreDropshadow"
@@ -347,23 +347,23 @@
 	
 	"RedTeamPlayerCount"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"RedTeamPlayerCount"
-		"font"				"Cerbetica14"
-		"labelText"			"%redteamplayercount%"
-		"textAlignment"		"east"
-		"xpos"				"c140"
-		"ypos"				"122"
-		"wide"				"130"
-		"tall"				"29"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
+		"ControlName"	"CExLabel"
+		"fieldName"		"RedTeamPlayerCount"
+		"font"			"Cerbetica14"
+		"labelText"		"%redteamplayercount%"
+		"textAlignment"	"east"
+		"xpos"			"c140"
+		"ypos"			"122"
+		"wide"			"130"
+		"tall"			"29"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}
 	
@@ -423,7 +423,7 @@
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}
 	"RedPlayerList"
@@ -447,7 +447,7 @@
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}
 	"VerticalLine"

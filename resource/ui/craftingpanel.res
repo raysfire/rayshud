@@ -85,7 +85,7 @@
 					"enabled"		"1"
 					"labelText"		"%itemname%"
 					"textAlignment"	"south"
-					"fgcolor"		"NeutralWhite"
+					"fgcolor"		"TanLight"
 					"wrap"			"1"
 					"centerwrap"	"1"
 				}
@@ -109,7 +109,7 @@
 			"textinsetx"	"0"
 			"defaultFgColor_override"	"TextColor"
 			"defaultBgColor_override"	"Transparent"
-			"armedFgColor_override"		"NeutralWhite"
+			"armedFgColor_override"		"TanLight"
 			"armedBgColor_override"		"Transparent"
 			"depressedFgColor_override"	"178 82 22 255"
 			"depressedBgColor_override"	"Transparent"

@@ -1,35 +1,25 @@
-"GameMenu" [$WIN32]
+"GameMenu"
 {
 	// MAIN MENU
+	"CharacterSetupButton"
+	{
+		"label"			"Inventory"
+		"command"		"engine open_charinfo"
+	}
 	"GeneralStoreButton"
 	{
 		"label" 		"Mann Co. Store"
 		"command" 		"engine open_store"
-	}	
-	"CharacterSetupButton"
-	{
-		"label" 		"Inventory"
-		"command" 		"engine open_charinfo"
-	}
-	"ReplayBrowserButton"
-	{
-		"label" 		"Replays"
-		"command" 		"engine replay_reloadbrowser"
-	}
-	"SteamWorkshopButton"
-	{
-		"label" 		"#MMenu_SteamWorkshop"
-		"command" 		"engine OpenSteamWorkshopDialog"
 	}
 	"SettingsButton"
 	{
-		"label" 		"Options"
-		"command" 		"OpenOptionsDialog"
+		"label"			"Options"
+		"command"		"OpenOptionsDialog"
 	}
 	"TF2SettingsButton"
 	{
-		"label" 		"Adv. Options"
-		"command" 		"opentf2options"
+		"label"			"Adv. Options"
+		"command"		"opentf2options"
 	}
 	"AchievementsButton"
 	{
@@ -38,28 +28,38 @@
 		"subimage" 		"glyph_achievements"
 		"tooltip" 		"Achievements"
 	}
-	"ReportPlayerButton"
+	"ReplayButton"
 	{
-		"label"			""
-		"command"		"OpenReportPlayerDialog"
-		"subimage"		"glyph_commentary"
-		"tooltip"		"Report Player"
-		"OnlyInGame"	"1"
+		"label"			"Replay"
+		"command"		"engine replay_reloadbrowser"
+	}
+	"SteamWorkshopButton"
+	{
+		"label"			"#MMenu_SteamWorkshop"
+		"command"		"engine OpenSteamWorkshopDialog"
 	}
 	"CallVoteButton"
 	{
 		"label"			""
 		"command"		"callvote"
-		"subimage" 		"icon_checkbox"
-		"tooltip" 		"Call Vote"
 		"OnlyInGame"	"1"
+		"subimage"		"icon_checkbox"
+		"tooltip"		"Call Vote"
 	}
 	"MutePlayersButton"
 	{
 		"label"			""
 		"command"		"OpenPlayerListDialog"
-		"subimage" 		"glyph_muted"
-		"tooltip" 		"Mute Player"
 		"OnlyInGame"	"1"
+		"subimage"		"glyph_muted"
+		"tooltip"		"Mute Players"
+	}
+	"ReportPlayerButton"
+	{
+		"label"			""
+		"command"		"OpenReportPlayerDialog"
+		"OnlyInGame"	"1"
+		"subimage"		"glyph_commentary"
+		"tooltip"		"Report Player"
 	}
 }

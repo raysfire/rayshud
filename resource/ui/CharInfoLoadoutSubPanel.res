@@ -822,7 +822,7 @@
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"NeutralWhite"
+			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
 			
 			"SubImage"
@@ -978,7 +978,7 @@
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"NeutralWhite"
+			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
 			
 			"SubImage"
@@ -1044,7 +1044,7 @@
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"	
-			"image_drawcolor"	"NeutralWhite"
+			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
 			
 			"SubImage"
@@ -1150,7 +1150,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanDarker"
-			"armedFgColor_override" "NeutralWhite"
+			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TextColor"
 			"image_armedcolor"	"TanLight"
@@ -1199,7 +1199,7 @@
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"NeutralWhite"
+			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
 			
 			"SubImage"
@@ -1265,7 +1265,7 @@
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"NeutralWhite"
+			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
 			
 			"SubImage"
@@ -1371,7 +1371,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanDarker"
-			"armedFgColor_override" "NeutralWhite"
+			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TextColor"
 			"image_armedcolor"	"TanLight"
@@ -1420,7 +1420,7 @@
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"NeutralWhite"
+			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
 			
 			"SubImage"
@@ -1486,7 +1486,7 @@
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"NeutralWhite"
+			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
 			
 			"SubImage"
@@ -1592,7 +1592,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanDarker"
-			"armedFgColor_override" "NeutralWhite"
+			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TextColor"
 			"image_armedcolor"	"TanLight"
@@ -1641,7 +1641,7 @@
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "LightRed"
 			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"NeutralWhite"
+			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
 			
 			"SubImage"
@@ -1707,7 +1707,7 @@
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "LightRed"
 			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"NeutralWhite"
+			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
 			
 			"SubImage"
@@ -1813,7 +1813,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanDarker"
-			"armedFgColor_override" "NeutralWhite"
+			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TextColor"
 			"image_armedcolor"	"LightRed"
@@ -1862,7 +1862,7 @@
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"NeutralWhite"
+			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
 			
 			"SubImage"
@@ -1928,7 +1928,7 @@
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"NeutralWhite"
+			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
 			
 			"SubImage"
@@ -2033,7 +2033,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanDarker"
-			"armedFgColor_override" "NeutralWhite"
+			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TextColor"
 			"image_armedcolor"	"TanLight"
@@ -2082,7 +2082,7 @@
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
-			"image_drawcolor"	"NeutralWhite"
+			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
 			
 			"SubImage"

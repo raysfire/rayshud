@@ -198,7 +198,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"centerwrap"		"1"
-		"fgcolor_override"	"NeutralWhite"
+		"fgcolor_override"	"TanLight"
 	}
 
 	"WarningLabel"

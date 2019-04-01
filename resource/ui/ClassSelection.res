@@ -483,7 +483,7 @@
 		"Command"		"vguicancel"
 		"font"			"CerbeticaBold14"
 		"paintbackground" "0"
-		"fgcolor"					"TanLight"
+		"fgcolor"		"TanLight"
 		
 		"fgcolor"					"TanLight"
 		"defaultFgColor_override"	"TanLight"
@@ -1217,7 +1217,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanDarker"
-			"armedFgColor_override" "NeutralWhite"
+			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			
 			"image_drawcolor"	"TextColor"

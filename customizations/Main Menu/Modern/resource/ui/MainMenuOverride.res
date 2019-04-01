@@ -504,7 +504,7 @@
 			"dulltext"			"0"
 			"brighttext"		"0"
 			"default"			"1"
-			"actionsignallevel" "2"
+			"actionsignallevel"	"2"
 			
 			"Command"			"noti_show"
 			"fgcolor_override" 	"235 226 202 255"
@@ -540,10 +540,10 @@
 		}
 	}
 	
-	"QuestLogButtonNew"
+	"QuestLogButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"QuestLogButtonNew"
+		"fieldName"		"QuestLogButton"
 		"xpos"			"r28"
 		"ypos"			"90"
 		"zpos"			"1"
@@ -742,7 +742,7 @@
 			"brighttext"	"0"
 			"default"		"0"
 			"actionsignallevel"	"2"
-			"Command"		"noti_hide"
+			"Command"			"noti_hide"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"0"
