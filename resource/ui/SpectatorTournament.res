@@ -282,24 +282,6 @@
 				"fgcolor"		"TransparentBlack"
 			}
 			
-			"healthcover"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"healthcover"
-				"font"			"Cerbetica12"
-				"xpos"			"0"
-				"ypos"			"1"
-				"zpos"			"5"
-				"wide"			"26"
-				"tall"			"20"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"labelText"		"%respawntime%"
-				"textAlignment"	"west"
-				"fgcolor"		"15 15 15 110"
-			}
-			
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"
