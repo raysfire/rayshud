@@ -13,35 +13,21 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_bg"
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"		"0 0 0 200"
 	}
-
+	
 	"Divider"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Divider"
-		"xpos"			"8"
-		"ypos"			"65"
-		"zpos"			"1"
-		"wide"			"0"
-		"tall"			"0"
-		"fillcolor"		"255 222 208 255"
+		"xpos"			"9999"
 	}
 
 	"IcoReelIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"IcoReelIcon"
-		"xpos"			"10"
-		"ypos"			"-3"
-		"zpos"			"1"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"0"
-		"scaleImage"	"0"	
-		"icon"			"hud_taunt_menu_icon"
-		"iconColor"		"255 255 255 255"
+		"xpos"			"9999"
 	}
 	
 	"TitleLabel"
@@ -49,7 +35,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"CerbeticaBold32"
-		"xpos"			"18"			// align me to the left edge of the first selection
+		"xpos"			"18"
 		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"360"
@@ -70,8 +56,8 @@
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"CerbeticaBold32"
 		"fgcolor"		"TransparentBlack"
-		"xpos"			"20"			// align me to the left edge of the first selection
-		"ypos"			"2"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"3"
 		"wide"			"360"
 		"tall"			"38"
@@ -83,6 +69,10 @@
 		"textAlignment"	"Left"
 		"dulltext"		"1"
 		"brighttext"	"0"
+
+		"pin_to_sibling"		"TitleLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 
 	"WeaponTauntLabel"
@@ -135,8 +125,8 @@
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
@@ -146,7 +136,7 @@
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-
+		
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -174,7 +164,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NumberLabel1"
@@ -183,8 +173,8 @@
 		"fieldName"		"NumberLabel1"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TanLight"
-		"ypos"			"95"
 		"xpos"			"34"
+		"ypos"			"95"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -193,7 +183,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"1"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -204,8 +194,8 @@
 		"fieldName"		"NumberLabel1BG"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TransparentBlack"
-		"ypos"			"97"
-		"xpos"			"36"
+		"xpos"			"35"
+		"ypos"			"96"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -229,8 +219,8 @@
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 
@@ -277,8 +267,8 @@
 		"fieldName"		"NumberLabel2"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TanLight"
-		"ypos"			"95"
 		"xpos"			"89"
+		"ypos"			"95"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -287,7 +277,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"2"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -298,8 +288,8 @@
 		"fieldName"		"NumberLabel2BG"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TransparentBlack"
-		"ypos"			"97"
-		"xpos"			"91"
+		"xpos"			"90"
+		"ypos"			"96"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -323,8 +313,8 @@
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
@@ -381,7 +371,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"3"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -393,8 +383,8 @@
 		"fieldName"		"NumberLabel3BG"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TransparentBlack"
-		"ypos"			"97"
-		"xpos"			"146"
+		"ypos"			"96"
+		"xpos"			"145"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -418,8 +408,8 @@
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
@@ -456,7 +446,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NumberLabel4"
@@ -475,7 +465,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"4"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -486,8 +476,8 @@
 		"fieldName"		"NumberLabel4BG"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TransparentBlack"
-		"ypos"			"97"
-		"xpos"			"202"
+		"ypos"			"96"
+		"xpos"			"201"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -511,8 +501,8 @@
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
@@ -550,7 +540,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NumberLabel5"
@@ -569,7 +559,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"5"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -580,8 +570,8 @@
 		"fieldName"		"NumberLabel5BG"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TransparentBlack"
-		"ypos"			"97"
-		"xpos"			"258"
+		"ypos"			"96"
+		"xpos"			"257"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -605,8 +595,8 @@
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
@@ -644,7 +634,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NumberLabel6"
@@ -663,7 +653,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"6"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -674,8 +664,8 @@
 		"fieldName"		"NumberLabel6BG"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TransparentBlack"
-		"ypos"			"97"
-		"xpos"			"312"
+		"ypos"			"96"
+		"xpos"			"311"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -699,8 +689,8 @@
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
@@ -738,7 +728,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NumberLabel7"
@@ -757,7 +747,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"7"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -768,8 +758,8 @@
 		"fieldName"		"NumberLabel7BG"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TransparentBlack"
-		"ypos"			"97"
-		"xpos"			"366"
+		"ypos"			"96"
+		"xpos"			"365"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -778,7 +768,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"7"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
@@ -793,8 +783,8 @@
 		"wide"			"50"
 		"tall"			"40"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
@@ -832,7 +822,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NumberLabel8"
@@ -851,19 +841,19 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"8"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
 	
 	"NumberLabel8BG"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel8BG"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TransparentBlack"
-		"ypos"			"97"
-		"xpos"			"422"
+		"xpos"			"421"
+		"ypos"			"96"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -872,7 +862,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"8"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}

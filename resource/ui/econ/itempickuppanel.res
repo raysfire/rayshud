@@ -16,9 +16,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"25 25 25 255"
-		"infocus_bgcolor_override" "25 25 25 255"
-		"outoffocus_bgcolor_override" "25 25 25 255"
+		"bgcolor_override"				"DarkGrey"
+		"infocus_bgcolor_override"		"DarkGrey"
+		"outoffocus_bgcolor_override"	"DarkGrey"
 		
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"			"500"
@@ -31,16 +31,16 @@
 			"paintborder"			"1"
 			"bgcolor_override"		"Grey"
 			
-			"model_xpos"	"0"
+			"model_xpos"		"0"
 			"model_center_y"	"1"
-			"model_tall"	"160"
-			"model_wide"	"240"
+			"model_tall"		"160"
+			"model_wide"		"240"
 			
 			"text_forcesize"	"1"
-			"text_xpos"		"250"
-			"text_wide"		"225"
-			"text_center"	"1"
-			"is_mouseover"	"1"
+			"text_xpos"			"250"
+			"text_wide"			"225"
+			"text_center"		"1"
+			"is_mouseover"		"1"
 			"hide_collection_panel"	"1"
 			
 			"itemmodelpanel"
@@ -119,7 +119,7 @@
 	
 	"ItemCountLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ItemCountLabel"
 		"font"			"HudFontSmallestBold"
 		"labelText"		"#Item"
@@ -134,9 +134,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
+	
 	"SelectedItemNumberLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"SelectedItemNumberLabel"
 		"font"			"HudFontMediumBigBold"
 		"labelText"		"#SelectedItemNumber"
@@ -154,7 +155,7 @@
 	
 	"NextButton"
 	{
-		"ControlName"		"CExButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"NextButton"
 		"xpos"			"c195"
 		"ypos"			"350"
@@ -183,8 +184,8 @@
 		"depressedFgColor_override" "TanLight"
 		"border_default"			"ButtonHover"
 		"border_armed"				"ButtonHover"
-
 	}
+	
 	"PrevButton"
 	{
 		"ControlName"	"CExButton"
@@ -251,6 +252,7 @@
 		"border_default"			"ButtonHover"
 		"border_armed"				"ButtonHover"
 	}
+	
 	"OpenLoadoutButton"
 	{
 		"ControlName"	"CExButton"
@@ -307,11 +309,10 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override" "117 107 94 255"
+		"defaultBgColor_override" "TextColor"
 		"armedBgColor_override" "145 73 59 255"
-		"depressedBgColor_override" "117 107 94 255"
-			
-		"image_drawcolor"	"235 226 202 255"		
+		"depressedBgColor_override" "TextColor"
+		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"235 226 202 255"		
 		
 		"SubImage"
@@ -331,6 +332,7 @@
 			"proportionaltoparent"	"1"
 		}				
 	}		
+	
 	"DiscardButtonTooltip"
 	{
 		"ControlName"	"EditablePanel"
@@ -364,9 +366,10 @@
 			"centerwrap"	"1"
 		}
 	}
+	
 	"DiscardedLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"DiscardedLabel"
 		"font"			"HudFontMediumBold"
 		"labelText"		"#Discarded"
@@ -380,8 +383,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
-		"bgcolor_override"	"46 43 42 255"
+		"fgcolor_override" "LightRed"
+		"bgcolor_override"	"TanDarker"
 	}
 	
 	"ScoreEntry"

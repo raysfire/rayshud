@@ -50,7 +50,7 @@
 			"ControlName"	"CBaseModelPanel"
 			"fieldName"		"RankModel"
 			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
+			"ypos"			"cs-0.45"
 			"zpos"			"0"		
 			"wide"			"o1"
 			"tall"			"p0.12"
@@ -58,7 +58,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fov"			"70"
+			"fov"			"50"
 			"proportionaltoparent"	"1"
 
 			if_mini
@@ -120,7 +120,7 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"paintbackground"	"0"
-
+			
 			if_mini
 			{
 				"xpos"		"cs-0.5-228"
@@ -165,7 +165,7 @@
 			"ControlName"	"Button"
 			"fieldName"		"MedalButton"
 			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5+2"
+			"ypos"			"cs-0.4"
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"42"
@@ -293,7 +293,7 @@
 				"2"		"TanLight"
 			}
 		}
-
+		
 		"StatsContainer"
 		{
 			"ControlName"	"EditablePanel"
@@ -340,7 +340,7 @@
 					"visible"		"0"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
-					"fgcolor_override"	"255 255 255 255"
+					"fgcolor_override"	"White"
 					"textAlignment"	"center"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
@@ -412,7 +412,7 @@
 						"progress"		"1"
 
 						"fgcolor_override"	"20 20 20 180"
-						"bgcolor_override"	"0 0 0 0"
+						"bgcolor_override"	"Transparent"
 					}
 
 					"ContinuousProgressBar"

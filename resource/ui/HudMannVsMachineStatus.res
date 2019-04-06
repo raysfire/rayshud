@@ -39,8 +39,8 @@
 		"enabled"			"1"
 		
 		"pin_to_sibling"			"WaveStatusPanel"
-		"pin_corner_to_sibling"		"4"          
-		"pin_to_sibling_corner"		"6"  
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"6"
 	}
 	
 	"CurrencyStatusPanel"
@@ -57,12 +57,12 @@
 	
 	"InWorldCurrencyPanel"
 	{
-		"ControlName" 		"CInWorldCurrencyStatus"
-		"fieldName" 		"InWorldCurrencyPanel"
+		"ControlName"		"CInWorldCurrencyStatus"
+		"fieldName"			"InWorldCurrencyPanel"
 		"xpos"				"c-190"
-		"ypos" 				"r42"
-		"wide" 				"100"
-		"tall" 				"20"
+		"ypos"				"r42"
+		"wide"				"100"
+		"tall"				"20"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
@@ -80,7 +80,7 @@
 		"enabled"			"1"
 		"image"				"../sprites/obj_icons/warning_highlight"
 		"scaleImage"		"1"
-		"time"				"0.3"		
+		"time"				"0.3"
 	}
 	
 	"UpgradeLevelContainer"
@@ -92,7 +92,7 @@
 		"wide"				"640"
 		"tall"				"480"
 		"visible"			"0"
-
+		
 		"UpgradeProgressTrack"
 		{
 			"ControlName"	"CMvMBombCarrierProgress"
@@ -182,7 +182,7 @@
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"
-		"enabled"			"1"			
+		"enabled"			"1"
 	}
 	
 	"VictoryPanelContainer"
@@ -231,11 +231,10 @@
 			"enabled"		"1"
 			"image"			"../hud/color_panel_red"
 
-			"src_corner_height"	"22"				// pixels inside the image
+			"src_corner_height"	"22"
 			"src_corner_width"	"22"
-		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"	"5"
+			"draw_corner_height" "5"
 		}
 	
 		"ServerChangeLabel"
@@ -251,7 +250,7 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"tanlight"		
+			"fgcolor"		"TanLight"
 		}
 	}
 }

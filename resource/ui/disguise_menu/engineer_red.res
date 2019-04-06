@@ -4,22 +4,16 @@
 {
 	"ItemNameLabel"
 	{
-		"labelText"		"#TF_Class_Name_Engineer"
-	}
-	
-	"NumberBg"	
-	{
-		"wide"			"0"
-		"tall"			"0"
+		"labelText"			"#TF_Class_Name_Engineer"
 	}
 	
 	"NewNumberLabel"
 	{
-		"labelText"		"3"
+		"labelText"			"3"
 	}
 	
 	"NumberLabel"
 	{
-		"labelText"		"6"
+		"labelText"			"6"
 	}
 }

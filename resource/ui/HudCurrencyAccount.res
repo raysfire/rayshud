@@ -29,7 +29,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"Currency"
 	}
 	
@@ -38,7 +38,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"Currency"
 		"font"			"Cerbetica14"
-		"fgcolor"		"OmpText"
+		"fgcolor"		"CreditsGreen"
 		"xpos"			"45"
 		"ypos"			"0"
 		"zpos"			"3"
@@ -48,26 +48,5 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%currency%"
-	}
-	
-	"CurrencyShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CurrencyShadow"
-		"xpos"			"9999"
-	}
-	
-	"WhiteBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"WhiteBG"
-		"xpos"			"9999"
-	}	
-	
-	"GreenBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"WhiteBG"
-		"xpos"			"9999"
 	}
 }

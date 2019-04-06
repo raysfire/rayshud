@@ -37,7 +37,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sapper"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NotBuiltPanel"
@@ -54,7 +54,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"Cerbetica12"
+			"font"			"DefaultSmall"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -168,7 +168,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"	
 				"icon"			"obj_status_sentrygun_1"
-				"iconColor"		"255 255 255 255"
+				"iconColor"		"White"
 			}
 			
 			"TargetHealth"

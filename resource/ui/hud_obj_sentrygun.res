@@ -37,7 +37,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_1"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"Icon_Sentry_2"
@@ -52,7 +52,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_2"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"Icon_Sentry_3"
@@ -67,7 +67,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_3"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NotBuiltPanel"
@@ -84,7 +84,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"Cerbetica9"
+			"font"			"Cerbetica10"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -92,7 +92,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#Building_hud_sentry_not_built"
-			"labelText_lodef"		"#Building_hud_sentry_not_built_360"
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -122,7 +121,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_1"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
 		
 		"Icon_Upgrade_2"
@@ -138,7 +137,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_2"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
 		
 		"Icon_Upgrade_3"
@@ -154,7 +153,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_3"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
 		
 		"AlertTray"
@@ -185,7 +184,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_wrench"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
 		
 		"SapperIcon"
@@ -201,7 +200,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
 		
 		"Health"

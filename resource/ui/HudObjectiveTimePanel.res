@@ -11,16 +11,16 @@
 		"tall"				"24"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"../hud/objectives_timepanel_blue_bg"	
+		"image"				"../hud/objectives_timepanel_blue_bg"
 		"scaleImage"		"1"
 		"src_corner_height"	"3"
 		"src_corner_width"	"3"
 		"draw_corner_width"	"0"
 		"draw_corner_height" "0"
-
+		
 		if_match {
 			"visible"		"0"
-		}		
+		}
 	}
 	"TimePanelProgressBar"
 	{
@@ -30,11 +30,8 @@
 		"ypos"				"16"
 		"zpos"				"4"	
 		"wide"				"20"
-		"wide_lodef"		"25"
 		"tall"				"20"
-		"tall_lodef"		"25"	
 		"visible"			"0"
-		"visible_minmode"	"0"
 		"enabled"			"1"
 		"scaleImage"		"1"
 		"image"				"../hud/objectives_timepanel_progressbar"
@@ -53,10 +50,10 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"WaitingForPlayersLabel"
 		"xpos"				"25"
-		"ypos"				"23"
+		"ypos"				"20"
 		"zpos"				"5"
-		"wide"				"36"
-		"tall"				"19"
+		"wide"				"50"
+		"tall"				"24"
 		"visible"			"0"
 		"enabled"			"1"
 		"labelText"			"#game_WaitingForPlayers"
@@ -64,15 +61,13 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Cerbetica10"
+		"font"				"Cerbetica12"
 		
 		if_match
 		{
-			"xpos"			"37"
-			"font"			"Cerbetica10"
-			"proportionaltoparent"	"1"
+			"xpos"			"30"
 		}
-	}			
+	}
 	"WaitingForPlayersBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -85,10 +80,10 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"OvertimeLabel"
 		"xpos"				"25"
-		"ypos"				"23"
+		"ypos"				"20"
 		"zpos"				"5"
 		"wide"				"50"
-		"tall"				"19"
+		"tall"				"24"
 		"visible"			"0"
 		"enabled"			"1"
 		"labelText"			"#game_Overtime"
@@ -96,23 +91,18 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Cerbetica10"
+		"font"				"Cerbetica12"
 		
 		if_match
 		{
-			"font"			"HudFontSmallestBold"
-			"xpos"			"c0"
-			"wide"			"p1"
-			"ypos"			"22"
-			"font"			"Cerbetica10"
-			"proportionaltoparent"	"1"
+			"xpos"			"30"
 		}
-	}			
+	}
 	"OvertimeBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"OvertimeBG"
-		"xpos"				"9999"	
+		"xpos"				"9999"
 	}
 
 	"SuddenDeathLabel"
@@ -120,12 +110,10 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"SuddenDeathLabel"
 		"xpos"				"25"
-		"ypos"				"23"
-		"ypos_hidef"		"41"
-		"ypos_lodef"		"41"
+		"ypos"				"20"
 		"zpos"				"5"
 		"wide"				"50"
-		"tall"				"19"
+		"tall"				"24"
 		"visible"			"0"
 		"enabled"			"1"
 		"labelText"			"#game_SuddenDeath"
@@ -133,33 +121,29 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Cerbetica10"
+		"font"				"Cerbetica12"
 		
 		if_match
 		{
-			"xpos"			"cs-0.5"
-			"ypos"			"22"
-			"wide"			"p1"
-			"font"			"Cerbetica10"
-			"proportionaltoparent"	"1"
-		}		
-	}			
+			"xpos"			"30"
+		}
+	}
 	"SuddenDeathBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"SuddenDeathBG"
-		"xpos"				"9999"	
-	}	
+		"xpos"				"9999"
+	}
 
 	"SetupLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SetupLabel"
 		"xpos"				"25"
-		"ypos"				"23"
+		"ypos"				"20"
 		"zpos"				"5"
 		"wide"				"50"
-		"tall"				"19"
+		"tall"				"24"
 		"visible"			"0"
 		"enabled"			"1"
 		"labelText"			"#game_Setup"
@@ -171,13 +155,9 @@
 		
 		if_match
 		{
-			"xpos"			"cs-0.5"
-			"ypos"			"23"
-			"wide"			"p1"
-			"font"			"Cerbetica10"
-			"proportionaltoparent"	"1"
-		}		
-	}	
+			"xpos"			"30"
+		}
+	}
 	"SetupBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -190,14 +170,10 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"ServerTimeLimitLabel"
 		"xpos"				"25"
-		"ypos"				"23"
+		"ypos"				"20"
 		"zpos"				"5"
 		"wide"				"50"
-		"wide_hidef"		"300"
-		"wide_lodef"		"300"
-		"tall"				"19"
-		"tall_hidef"		"19"
-		"tall_lodef"		"22"
+		"tall"				"24"
 		"visible"			"0"
 		"enabled"			"1"
 		"labelText"			"%servertimeleft%"
@@ -205,21 +181,17 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Cerbetica10"
+		"font"				"Cerbetica12"
 		
 		if_match
 		{
-			"xpos"			"cs-0.5"
-			"ypos"			"22"
-			"wide"			"p1"
-			"font"			"Cerbetica10"
-			"proportionaltoparent"	"1"
+			"xpos"			"30"
 		}
 	}
 	"ServerTimeLimitLabelBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"ServerTimeLimitLabelBG"
-		"xpos"				"9999"			
-	}	
+		"xpos"				"9999"
+	}
 }

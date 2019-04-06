@@ -9,11 +9,12 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"enabled"		"1"
-
+		
 		"team1_player_base_offset_x"	"0"
 		"team1_player_base_y"			"220"
 		"team1_player_delta_x"			"0"
 		"team1_player_delta_y"			"-16"
+		
 		"team2_player_base_offset_x"	"0"
 		"team2_player_base_y"			"240"
 		"team2_player_delta_x"			"0"
@@ -171,7 +172,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"team1_image"	"../hud/class_scoutred"
-				"scaleImage"	"1"	
+				"scaleImage"	"1"
 			}
 			
 			"classimagebg"
@@ -187,7 +188,6 @@
 				"enabled"		"1"
 				"bgcolor_override"		"Black"
 				"PaintBackgroundType"	"0"
-				
 			}
 			
 			"HealthIcon"
@@ -223,10 +223,9 @@
 				"enabled"		"1"
 				"image"			"../HUD/tournament_panel_brown"
 
-				"src_corner_height"		"22"			// pixels inside the image
+				"src_corner_height"		"22"
 				"src_corner_width"		"22"
-			
-				"draw_corner_width"		"3"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_width"		"3"
 				"draw_corner_height" 	"3"
 			}
 			
@@ -281,24 +280,6 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
 				"fgcolor"		"TransparentBlack"
-			}
-			
-			"healthcover"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"healthcover"
-				"font"			"Cerbetica12"
-				"xpos"			"0"
-				"ypos"			"1"
-				"zpos"			"5"
-				"wide"			"26"
-				"tall"			"20"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"labelText"		"%respawntime%"
-				"textAlignment"	"west"
-				"fgcolor"		"15 15 15 110"
 			}
 			
 			"chargeamount"
@@ -356,7 +337,7 @@
 			}
 		}
 	}
-
+	
 	"topbar"
 	{
 		"ControlName"	"Panel"
@@ -383,9 +364,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-300"	[$WIN32]
-		"ypos"			"50"	[$WIN32]
-		"wide"			"600"	[$WIN32]
+		"xpos"			"c-300"
+		"ypos"			"50"
+		"wide"			"600"
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -396,7 +377,7 @@
 		"font"			"Cerbetica24"
 		
 		if_mvm{
-			"ypos"		"82"	[$WIN32]
+			"ypos"		"82"
 		}
 	}
 	"BuyBackLabel"
@@ -416,13 +397,13 @@
 		"font"			"Cerbetica20"
 		"wrap"			"1"
 		"centerwrap"	"1"
-	
-		if_mvm 
+		
+		if_mvm
 		{
 			"visible"	"1"
-		}	
+		}
 	}
-
+	
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"

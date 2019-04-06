@@ -4,23 +4,21 @@
 {
 	"ItemNameLabel"
 	{
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"			"ColorGreen"
 	}
 	
 	"NotBuiltLabel"
 	{
-		"font"			"CerbeticaBold20"
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"			"ColorGreen"
 	}
-
+	
 	"UnavailableLabel"
 	{
-		"fgcolor"		"0 255 0 255"
-		"brighttext"	"0"
+		"fgcolor"			"ColorGreen"
 	}
 	
 	"NumberLabel"
 	{
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"			"ColorGreen"
 	}
 }

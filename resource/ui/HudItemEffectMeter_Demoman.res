@@ -5,7 +5,7 @@
 		"fieldName"				"HudItemEffectMeter"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c25"
+		"xpos"					"c5"
 		"ypos"					"355"
 		"wide"					"500"
 		"tall"					"500"
@@ -19,10 +19,10 @@
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"190"
 		"xpos_minmode"			"192"
-		"ypos"					"-1"
+		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"40"
-		"tall"					"12"
+		"tall"					"11"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -34,28 +34,28 @@
 		"brighttext"			"0"
 		"font"					"Cerbetica12"
 	}
-
+	
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"25"
 		"ypos"					"23"
 		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
+		"xpos_minmode"			"50"
 		"zpos"					"2"
 		"wide"					"40"
 		"wide_minmode"			"50"
-		"tall"					"6"				
+		"tall"					"6"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"0"
-		"textAlignment"			"Center"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}					
+	}
 	
 	"ItemEffectMeterCount"
 	{
@@ -67,7 +67,7 @@
 		"ypos_minmode"			"5"
 		"zpos"					"2"
 		"wide"					"40"
-		"tall"					"20"	
+		"tall"					"20"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -84,13 +84,11 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountShadow"
-		"xpos"					"191"
-		"ypos"					"11"
-		"xpos_minmode"			"193"
-		"ypos_minmode"			"6"
+		"xpos"					"-1"
+		"ypos"					"-1"
 		"zpos"					"2"
 		"wide"					"40"
-		"tall"					"20"	
+		"tall"					"20"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -101,6 +99,10 @@
 		"brighttext"			"0"
 		"font"					"CerbeticaBold28"
 		"font_minmode"			"CerbeticaBold16"
-		"fgcolor"				"transparentblack"
+		"fgcolor"				"TransparentBlack"
+		
+		"pin_to_sibling"		"ItemEffectMeterCount"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 }

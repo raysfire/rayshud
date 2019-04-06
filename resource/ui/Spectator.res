@@ -20,7 +20,7 @@
 		"fieldName"		"TopBar"
 		"xpos"			"0"
 		"ypos"			"0"
-		"tall"			"0"	[$WIN32]
+		"tall"			"0"
 		"wide"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -46,12 +46,9 @@
 		"ControlName"	"Panel"
 		"fieldName"		"bottombarblank"
 		"xpos"			"9999"
-		"ypos"			"9999"	[$WIN32]
-		"ypos"			"r90"	[$X360]		
+		"ypos"			"9999"
 		"ypos_minmode"	"r0"
-		"tall"			"0"		[$WIN32]		// this needs to match the size of BottomBar
-		"tall_minmode"	"0"		
-		"tall"			"90"	[$X360]	
+		"tall"			"0"
 		"wide"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -65,7 +62,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-300"	[$WIN32]
+		"xpos"			"c-300"
 		"ypos"			"50"
 		"wide"			"600"
 		"tall"			"24"
@@ -198,26 +195,26 @@
 		
 		"TitleBackground"
 		{
-			"ControlName" 	"ImagePanel"
-			"fieldName" 	"TitleBackground"
-			"xpos" 			"4"
-			"ypos" 			"4"
-			"zpos" 			"-1"
-			"wide" 			"232"
-			"tall" 			"14"
-			"autoResize" 	"0"
-			"pinCorner" 	"0"
-			"visible" 		"1"
-			"enabled" 		"1"
-			"fillcolor" 	"0 0 0 100"
+			"ControlName"	"ImagePanel"
+			"fieldName"		"TitleBackground"
+			"xpos"			"4"
+			"ypos"			"4"
+			"zpos"			"-1"
+			"wide"			"232"
+			"tall"			"14"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"0 0 0 100"
 		}
 		
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
+			"use_item_rendertarget" "0"
 			"useparentbg"	"1"
 			"inventory_image_type"	"1"
-			"use_item_rendertarget" "0"
 		}
 		
 		"ItemLabel"

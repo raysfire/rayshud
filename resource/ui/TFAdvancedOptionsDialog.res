@@ -13,12 +13,12 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"DarkGrey"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
 		"paintborder"		"1"
 		"paintbackground"	"1"
-		"border"			"CyanBorder"
+		"border"			"CyanBorderThick"
 		"control_w"			"500"
 		"control_h"			"25"
 		"slider_w"			"500"
@@ -41,7 +41,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override" 	"TanLight"
+		"fgcolor_override"	"TanLight"
 	}
 	
 	"CancelButton"
@@ -68,7 +68,6 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
-		
 		"defaultBgColor_override"	"15 15 15 255"
 		"armedBgColor_override"		"25 25 25 255"
 		"depressedBgColor_override"	"25 25 25 255"
@@ -103,7 +102,6 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
-		
 		"defaultBgColor_override"	"15 15 15 255"
 		"armedBgColor_override"		"25 25 25 255"
 		"depressedBgColor_override"	"25 25 25 255"
@@ -127,7 +125,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"Transparent"
 	}
 	
 	"TooltipPanel"
@@ -140,10 +138,9 @@
 		"wide"				"240"
 		"tall"				"50"
 		"visible"			"0"
-		"paintborder"		"1"
 		"paintbackground"	"1"
 		"border"			"ButtonHover"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"DarkerGrey"
 		
 		"TipLabel"
 		{
@@ -161,7 +158,7 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"TanLight"
 			"wrap"				"1"
 			//"centerwrap"		"1"
 		}

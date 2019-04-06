@@ -56,15 +56,15 @@
 		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"%Health%"
-		"font" 			"CerbeticaBold16"
-		"textAlignment"	"center"		
+		"textAlignment"	"center"
+		"font"			"CerbeticaBold16"
+		"labeltext"		"%Health%"
 	}
 
-	"PlayerStatusHealthValueFreezeBackground"
+	"PlayerStatusHealthValueFreezePanelShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueFreezeBackground"
+		"fieldName"		"PlayerStatusHealthValueFreezePanelShadow"
 		"xpos"			"4"
 		"ypos"			"4"
 		"zpos"			"5"
@@ -72,9 +72,9 @@
 		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"%Health%"
-		"font" 			"CerbeticaBold16"
-		"fgcolor"		"0 0 0 255"
 		"textAlignment"	"center"
+		"font"			"CerbeticaBold16"
+		"fgcolor"		"TransparentBlack"
+		"labeltext"		"%Health%"
 	}
 }

@@ -11,13 +11,13 @@
 		"ypos"				"0"
 		"wide"				"300"
 		"tall"				"15"
-		"fgcolor"			"tanlight"
+		"fgcolor"			"TanLight"
 	}
 	
 	"TableBackground"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName"			"TestBackground"
+		"fieldName"			"TableBackground"
 		"xpos"				"0"
 		"ypos"				"14"
 		"zpos"				"-1"
@@ -38,7 +38,7 @@
 		"ypos"				"15"
 		"wide"				"70"
 		"tall"				"12"
-		"fgcolor"			"tanlight"
+		"fgcolor"			"TanLight"
 	}
 	
 	"CreditCollectedCountLabel"
@@ -66,7 +66,7 @@
 		"ypos"				"27"
 		"wide"				"70"
 		"tall"				"12"
-		"fgcolor"			"tanlight"
+		"fgcolor"			"TanLight"
 	}
 	
 	"CreditMissedCountLabel"
@@ -86,7 +86,7 @@
 	"CreditBonusTextLabel"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"			"CreditCollectedTextLabel"
+		"fieldName"			"CreditBonusTextLabel"
 		"font"				"HudFontSmall"
 		"labelText"			"#TF_PVE_Bonus"
 		"textAlignment"		"north-west"
@@ -94,13 +94,13 @@
 		"ypos"				"39"
 		"wide"				"70"
 		"tall"				"12"
-		"fgcolor"			"tanlight"
+		"fgcolor"			"TanLight"
 	}
 	
 	"CreditBonusCountLabel"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"			"CreditCollectedCountLabel"
+		"fieldName"			"CreditBonusCountLabel"
 		"font"				"HudFontSmall"
 		"labelText"			"%creditbonus%"
 		"textAlignment"		"north-east"
@@ -114,7 +114,7 @@
 	"CreditRatingLabel"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"			"CreditCollectedTextLabel"
+		"fieldName"			"CreditRatingLabel"
 		"font"				"HudFontMediumBold"
 		"labelText"			"%rating%"
 		"textAlignment"		"center"
@@ -123,21 +123,6 @@
 		"zpos"				"1"
 		"wide"				"70"
 		"tall"				"20"
-		"fgcolor"			"tanlight"
-	}
-		
-	"CreditRatingLabelShadow"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"CreditRatingLabelShadow"
-		"font"				"HudFontMediumBold"
-		"labelText"			"%ratingshadow%"
-		"textAlignment"		"center"
-		"xpos"				"126"
-		"ypos"				"26"
-		"zpos"				"0"
-		"wide"				"70"
-		"tall"				"20"
-		"fgcolor"			"Black"
+		"fgcolor"			"TanLight"
 	}
 }

@@ -15,17 +15,17 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"25 25 25 255"
-		"infocus_bgcolor_override" 		"25 25 25 255"
-		"outoffocus_bgcolor_override" 	"25 25 25 255"
+		"bgcolor_override"				"DarkGrey"
+		"infocus_bgcolor_override"		"DarkGrey"
+		"outoffocus_bgcolor_override"	"DarkGrey"
 		
-		"title"			"#StoreTitle"
-		"title_font"	"HudFontMediumBold"
+		"title"				"#StoreTitle"
+		"title_font"		"HudFontMediumBold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"				"200 187 161 255"
-		"titlebardisabledfgcolor_override"		"200 187 161 255"
-		"titlebarbgcolor_override"				"27 27 27 255"
+		"titlebarfgcolor_override"			"HudOffWhite"
+		"titlebardisabledfgcolor_override"	"HudOffWhite"
+		"titlebarbgcolor_override"			"DarkGrey"
 		
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
@@ -36,7 +36,7 @@
 			"ypos"			"0"
 			"wide"			"580"
 			"tall"			"60"
-		
+			
 			"itempanel"
 			{
 				"ControlName"	"CItemModelPanel"
@@ -47,7 +47,7 @@
 				"tall"			"58"
 				"visible"		"1"
 				"bgcolor_override"		"0 0 0 255"
-				"noitem_textcolor"		"117 107 94 255"
+				"noitem_textcolor"		"TextColor"
 				"PaintBackgroundType"	"2"
 				"paintborder"	"0"
 				
@@ -103,7 +103,7 @@
 				"enabled"		"1"
 				"image"			"loadout_solid_line"
 				"tileImage"		"1"
-			}			
+			}
 			
 			"RemoveButton"
 			{
@@ -128,7 +128,7 @@
 				"Command"		"remove"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-			}	
+			}
 			
 			"PriceLabel"
 			{
@@ -184,7 +184,7 @@
 		"image"			"loadout_header"
 		"tileImage"		"1"
 	}
-
+	
 	"BackgroundHeader2"
 	{
 		"ControlName"	"ImagePanel"
@@ -199,7 +199,7 @@
 		"fillcolor"		"15 15 15 175"
 		"tileImage"		"1"
 	}
-
+	
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -214,7 +214,7 @@
 		"image"			"loadout_header"
 		"tileImage"		"1"
 	}
-
+	
 	"BackgroundFooter2"
 	{
 		"ControlName"	"ImagePanel"
@@ -228,8 +228,8 @@
 		"enabled"		"1"
 		"fillcolor"		"15 15 15 220"
 		"tileImage"		"1"
-	}			
-
+	}
+	
 	"FooterLine"
 	{
 		"ControlName"	"EditablePanel"
@@ -241,11 +241,10 @@
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"Base Color"
-	}				
+		"bgcolor_override"		"ColorCyan"
+	}
 	
 	"ClientArea"
 	{
@@ -255,7 +254,7 @@
 		"ypos"			"55"
 		"wide"			"f0"
 		"tall"			"368"
-		"bgcolor_override"	"27 27 27 255"
+		"bgcolor_override"	"DarkGrey"
 		
 		"HeaderLine"
 		{
@@ -268,11 +267,10 @@
 			"tall"			"2"
 			"visible"		"1"
 			"enabled"		"1"
-			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"Base Color"
-		}				
+			"bgcolor_override"		"ColorCyan"
+		}
 		
 		"CartItemsLabel"
 		{
@@ -305,7 +303,7 @@
 			"enabled"		"1"
 			"image"			"loadout_solid_line"
 			"tileImage"		"1"
-		}				
+		}
 		
 		"EmptyCartLabel"
 		{
@@ -336,7 +334,7 @@
 			"tall"			"240"
 			"PaintBackgroundType"	"2"
 			"fgcolor_override"	"118 107 94 255"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
-			"bgcolor_override"	"27 27 27 255"
+			"bgcolor_override"	"DarkGrey"
 			"autohide_buttons" "1"
 			
 			"Scrollbar"
@@ -423,7 +421,7 @@
 						"visible"		"1"
 						"enabled"		"1"
 					}
-
+					
 					"WashingtonStateSalesTaxLabel"
 					{
 						"ControlName"	"CExLabel"
@@ -442,7 +440,7 @@
 						"enabled"		"1"
 						"fgcolor_override" "130 120 104 255"
 					}
-
+					
 					"TotalSubtextLabelB"
 					{
 						"ControlName"	"CExLabel"
@@ -483,7 +481,7 @@
 				}
 			}
 		}
-	}	
+	}
 	
 	"CloseButton"
 	{
@@ -508,7 +506,6 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
 		"defaultBgColor_override"	"15 15 15 255"
 		"armedBgColor_override"		"25 25 25 255"
 		"depressedBgColor_override"	"25 25 25 255"
@@ -517,7 +514,7 @@
 		"depressedFgColor_override" "TanLight"
 		"border_default"			"ButtonHover"
 		"border_armed"				"ButtonHover"
-	}		
+	}
 	
 	"CheckoutButton"
 	{
@@ -542,7 +539,6 @@
 		"Command"		"checkout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
 		"defaultBgColor_override"	"15 15 15 255"
 		"armedBgColor_override"		"25 25 25 255"
 		"depressedBgColor_override"	"25 25 25 255"

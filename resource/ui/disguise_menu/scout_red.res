@@ -4,16 +4,16 @@
 {
 	"ItemNameLabel"
 	{
-		"labelText"		"#TF_Class_Name_Scout"
+		"labelText"			"#TF_Class_Name_Scout"
 	}
 	
 	"NewNumberLabel"
 	{
-		"labelText"		"1"
+		"labelText"			"1"
 	}
 	
 	"NumberLabel"
 	{
-		"labelText"		"1"
+		"labelText"			"1"
 	}
 }

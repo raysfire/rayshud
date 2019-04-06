@@ -79,12 +79,12 @@
 		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
-		"textAlignment"		"west"	
+		"textAlignment"		"west"
 		"labelText"			"Powerups"
 	}
-
+	
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ItemEffectMeter"
 		"font"				"Default"
@@ -101,7 +101,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-
+	
 	"ItemEffectMeterCount"
 	{
 		"ControlName"		"CExLabel"

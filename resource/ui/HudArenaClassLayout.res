@@ -4,11 +4,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"background"
-		"xpos"			"c-100"
-		"ypos"			"130"
-		"zpos"			"-1"
+		"xpos"			"0"
+		"ypos"			"69"
+		"zpos"			"1"
 		"wide"			"20"
-		"tall"			"100"
+		"tall"			"60"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -17,6 +17,7 @@
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
+		"paintborder"	"0"
 	
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
@@ -30,7 +31,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerBG"
 		"xpos"			"0"
-		"ypos"			"140"
+		"ypos"			"40"
 		"zpos"			"2"
 		"wide"			"45"
 		"tall"			"80"
@@ -42,12 +43,13 @@
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/color_panel_clear"
 		"teambg_3"		"../hud/color_panel_clear"
+		"paintborder"	"0"
 	
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
 	
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 	
 	"title"
@@ -55,7 +57,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"title"
 		"xpos"			"c-200"
-		"ypos"			"107"
+		"ypos"			"22"
 		"zpos"			"6"
 		"wide"			"400"
 		"tall"			"20"
@@ -64,16 +66,16 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"font"			"CerbeticaBold20"
-		"labelText"		"Your Squadron"
+		"labelText"		"#TF_Arena_Team_Layout"
 		"textAlignment"	"center"
 		"fgcolor"		"TanLight"
 	}
 	"titleShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"CerbeticaBold24"
-		"xpos"			"c-199"
-		"ypos"			"108"
+		"fieldName"		"titleShadow"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"5"
 		"wide"			"400"
 		"tall"			"20"
@@ -82,9 +84,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"font"			"CerbeticaBold20"
-		"labelText"		"Your Squadron"
+		"labelText"		"#TF_Arena_Team_Layout"
 		"textAlignment"	"center"
 		"fgcolor"		"TransparentBlack"
+
+		"pin_to_sibling"		"title"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
 	"changeLabel"
@@ -92,7 +98,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"changeLabel"
 		"xpos"			"c-220"
-		"ypos"			"230"
+		"ypos"			"130"
 		"zpos"			"6"
 		"wide"			"440"
 		"tall"			"20"
@@ -109,8 +115,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"changeLabelShadow"
-		"xpos"			"c-219"
-		"ypos"			"231"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"5"
 		"wide"			"440"
 		"tall"			"20"
@@ -121,7 +127,11 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		"#TF_Arena_F4_ChangeClass"
 		"textAlignment"	"center"
-		"fgcolor"		"Black"
+		"fgcolor"		"TransparentBlack"
+
+		"pin_to_sibling"		"changeLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
 	"classImage0"
@@ -129,7 +139,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classImage0"
 		"xpos"			"0"
-		"ypos"			"125"
+		"ypos"			"25"
 		"zpos"			"3"
 		"wide"			"45"
 		"tall"			"90"

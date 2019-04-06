@@ -4,21 +4,21 @@
 {
 	"ItemNameLabel"
 	{
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"ColorGreen"
 	}
 	
 	"DestroyIcon"
 	{
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"ColorGreen"
 	}
 	
 	"BuildingIcon"	
 	{
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"ColorGreen"
 	}
 	
 	"NumberLabel"
 	{
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"ColorGreen"
 	}
 }

@@ -9,11 +9,10 @@
 		"ypos"					"c-200"
 		"wide"					"400"
 		"tall"					"240"
+		"bgcolor_override"		"DarkGrey"
+		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"paintborder"			"2"
-		"paintbackground"		"1"
 		"border"				"CyanBorderThick"
-		"bgcolor_override"		"25 25 25 255"
 	}
 
 	"mouseoveritempanel"
@@ -26,8 +25,8 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"		"1"
 		"text_ypos"			"20"
@@ -35,7 +34,7 @@
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-
+		
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -50,10 +49,10 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"TextColor"
 			"centerwrap"	"1"
 		}
-    }
+	}
 
 	"TitleLabel"
 	{
@@ -119,8 +118,8 @@
 		"wide"			"84"
 		"tall"			"64"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		"model_xpos"	"2"
@@ -184,8 +183,8 @@
 		"wide"			"84"
 		"tall"			"64"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		"model_xpos"	"2"
@@ -203,7 +202,7 @@
 			"inventory_image_type"	"1"
 		}
 	}
-
+	
 	"ConfirmLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -233,8 +232,8 @@
 		"wide"			"100"
 		"tall"			"100"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		"model_xpos"	"2"
@@ -263,8 +262,8 @@
 		"wide"			"100"
 		"tall"			"100"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		"model_xpos"	"2"
@@ -299,7 +298,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "Base Color"
+		"fgcolor_override" "ColorCyan"
 	}
 
 	"CancelButton"
@@ -317,7 +316,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"DfButton"
+		"font"			"HudFontSmall"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -325,17 +324,10 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"1"
-		"defaultBgColor_override"	"15 15 15 255"
-		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"25 25 25 255"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanLight"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"	"ButtonHover"
+		"border_armed"		"ButtonHover"
 	}
-
+	
 	"OkButton"
 	{
 		"ControlName"	"CExButton"
@@ -351,7 +343,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#CraftNameConfirm"
-		"font"			"DfButton"
+		"font"			"HudFontSmall"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -359,14 +351,7 @@
 		"Command"		"apply"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"1"
-		"defaultBgColor_override"	"15 15 15 255"
-		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"25 25 25 255"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanLight"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"	"ButtonHover"
+		"border_armed"		"ButtonHover"
 	}
 }

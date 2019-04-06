@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
-{	
+{
 	"HudKothTimeStatus"
 	{
 		if_match
@@ -40,11 +40,11 @@
 			"fieldName"			"TimePanelValue"
 			"font"				"Cerbetica22"
 			"fgcolor"			"TanLight"
-			"xpos"				"28"
-			"ypos"				"-4"
+			"xpos"				"25"
+			"ypos"				"0"
 			"zpos"				"3"
-			"wide"				"45"
-			"tall"				"31"
+			"wide"				"50"
+			"tall"				"24"
 			"visible"			"1"
 			"enabled"			"1"
 			"textAlignment"		"center"
@@ -52,14 +52,14 @@
 			
 			if_match
 			{
+				"proportionaltoparent"	"1"
+				"font"			"HudFontSmall"
 				"xpos"			"10"
 				"ypos"			"9"
 				"tall"			"10"
 				"wide"			"35"
-				"font"			"HudFontSmall"
-				"proportionaltoparent"	"1"
 			}
-		}	
+		}
 	}
 
 	"RedTimer"
@@ -71,8 +71,8 @@
 		"zpos"				"10"
 		"wide"				"100"
 		"tall"				"150"
-		"visible" 			"1"
-		"enabled" 			"1"
+		"visible"			"1"
+		"enabled"			"1"
 		"delta_item_x" 		"0"
 		"delta_item_start_y""50"
 		"delta_item_end_y" 	"70"
@@ -93,7 +93,7 @@
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
 			"delta_item_font"		"HudFontMediumSmall"
-		}		
+		}
 		
 		"TimePanelValue"
 		{
@@ -101,11 +101,11 @@
 			"fieldName"			"TimePanelValue"
 			"font"				"Cerbetica22"
 			"fgcolor"			"TanLight"
-			"xpos"				"28"
-			"ypos"				"-4"
+			"xpos"				"25"
+			"ypos"				"0"
 			"zpos"				"3"
-			"wide"				"45"
-			"tall"				"31"
+			"wide"				"50"
+			"tall"				"24"
 			"visible"			"1"
 			"enabled"			"1"
 			"delta_item_x" 		"22"
@@ -120,16 +120,14 @@
 			
 			if_match
 			{
+				"proportionaltoparent"	"1"
+				"font"			"HudFontSmall"
 				"xpos"			"rs1-15"
 				"ypos"			"9"
 				"wide"			"35"
 				"tall"			"10"
-				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
-				"proportionaltoparent"	"1"
-			}			
-		}	
+			}
+		}
 	}
 	
 	"ActiveTimerBG"

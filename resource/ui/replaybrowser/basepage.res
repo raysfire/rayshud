@@ -15,7 +15,7 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"		"27 27 27 255"
+		"bgcolor_override"		"DarkGrey"
 	}
 	
 	"SearchTextEntry"
@@ -40,7 +40,7 @@
 		"bgcolor_override"	"Black"
 		"Font"				"CerbeticaBold14"
 	}
-
+	
 	"ReplayList"
 	{
 		"ControlName"		"PanelListPanel"
@@ -53,7 +53,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"paintbackground"	"1"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"Transparent"
 		"autohide_scrollbar" "1"
 	}
 }

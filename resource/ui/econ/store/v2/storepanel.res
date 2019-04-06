@@ -2,17 +2,17 @@
 {
 	"store_panel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"store_panel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"store_panel"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"				"46 43 42 0"
@@ -22,11 +22,11 @@
 		"title_font"		"HudFontMediumBold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"			"200 187 161 255"
-		"titlebardisabledfgcolor_override"	"200 187 161 255"
-		"titlebarbgcolor_override"			"46 43 42 255"	
-		"clientinsetx_override"	"0"
-		"sheetinset_bottom"		"40"
+		"titlebarfgcolor_override"			"HudOffWhite"
+		"titlebardisabledfgcolor_override"	"HudOffWhite"
+		"titlebarbgcolor_override"			"TanDarker"
+		"clientinsetx_override"				"0"
+		"sheetinset_bottom"					"40"
 	}
 	
 	"BackgroundHeader"
@@ -43,7 +43,7 @@
 		"image"			"loadout_header"
 		"tileImage"		"1"
 	}
-
+	
 	"BackgroundHeader2"
 	{
 		"ControlName"	"ImagePanel"
@@ -57,8 +57,8 @@
 		"enabled"		"1"
 		"fillcolor"		"15 15 15 175"
 		"tileImage"		"1"
-	}		
-
+	}
+	
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -86,8 +86,8 @@
 		"enabled"		"1"
 		"fillcolor"		"15 15 15 220"
 		"tileImage"		"1"
-	}			
-
+	}
+	
 	"FooterLine"
 	{
 		"ControlName"	"EditablePanel"
@@ -99,11 +99,9 @@
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
-		"border"				"NoBorder"
-		"bgcolor_override"		"Base Color"
-	}					
+		"bgcolor_override"		"ColorCyan"
+	}
 	
 	"Sheet"
 	{
@@ -130,8 +128,8 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"Base Color"
-		}				
+			"bgcolor_override"		"ColorCyan"
+		}
 		
 		"tabskv"
 		{
@@ -173,7 +171,6 @@
 		"Command"			"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
 		"defaultBgColor_override"	"15 15 15 255"
 		"armedBgColor_override"		"25 25 25 255"
 		"depressedBgColor_override"	"25 25 25 255"
@@ -182,7 +179,7 @@
 		"depressedFgColor_override" "TanLight"
 		"border_default"			"ButtonHover"
 		"border_armed"				"ButtonHover"
-	}		
+	}
 	
 	"armory_panel"
 	{
@@ -195,7 +192,7 @@
 		"zpos"				"500"
 		"visible"			"0"
 	}
-
+	
 	"NotificationsPresentPanel"
 	{
 		"ControlName"		"CNotificationsPresentPanel"
@@ -208,7 +205,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 	}
-
+	
 	"SupportCommunityMapMakersCheckButton"
 	{
 		"ControlName"		"CheckButton"
@@ -222,7 +219,7 @@
 		"labelText"			""
 		"visible"			"0"
 	}
-
+	
 	"SupportCommunityMapMakersLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -262,7 +259,6 @@
 		"Command"			"checkout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	
 		"defaultBgColor_override"	"15 15 15 255"
 		"armedBgColor_override"		"25 25 25 255"
 		"depressedBgColor_override"	"25 25 25 255"

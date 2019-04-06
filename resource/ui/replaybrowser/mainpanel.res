@@ -19,13 +19,13 @@
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
 		
-		"title"				"#Replay_Replay"
-		"title_font"		"CerbeticaBold36"
-		"titletextinsetX"	"40"
-		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"				"200 187 161 255"
-		"titlebardisabledfgcolor_override"		"200 187 161 255"
-		"titlebarbgcolor_override"				"27 27 27 255"
+		"title"							"#Replay_Replay"
+		"title_font"					"CerbeticaBold36"
+		"titletextinsetX"				"40"
+		"titletextinsetY"				"0"
+		"titlebarfgcolor_override"			"HudOffWhite"
+		"titlebardisabledfgcolor_override"	"HudOffWhite"
+		"titlebarbgcolor_override"			"DarkGrey"
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
 	}
@@ -42,7 +42,7 @@
 		"enabled"		"1"
 		"image"			"loadout_header"
 		"tileImage"		"1"
-	}			
+	}
 	"BackgroundHeader2"
 	{
 		"ControlName"	"ImagePanel"
@@ -56,7 +56,7 @@
 		"enabled"		"1"
 		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
-	}	
+	}
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -84,21 +84,23 @@
 		"enabled"		"1"
 		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
-	}					
+	}
 	"FooterLine"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"FooterLine"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HeaderLine"
 		"xpos"			"0"
 		"ypos"			"420"
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"10"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"loadout_solid_line"
-		"scaleImage"	"1"
-	}							
+		"tall"			"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"autoResize"	"0"
+		"PaintBackgroundType"	"2"
+		"border"				"NoBorder"
+		"bgcolor_override"		"ColorCyan"
+	}
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -123,7 +125,7 @@
 			"enabled"		"0"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
-		}						
+		}
 		
 		"tabskv"
 		{
@@ -131,7 +133,7 @@
 			"textinsety"		"-6"
 			"font"				"CerbeticaBold20"
 			"selectedcolor"		"White"
-			"unselectedcolor"	"DullWhite"	
+			"unselectedcolor"	"DullWhite"
 			"defaultBgColor_override"	"Blank"
 			"paintbackground"	"0"
 			"activeborder_override"	"NoBorder"
@@ -146,14 +148,14 @@
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"100"
-		"tall"			"20"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"Back"
-		"font"			"CerbeticaBold14"
+		"labelText"		"<< Back (&Q)"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -161,5 +163,7 @@
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+		"border_default"	"ButtonHover"
+		"border_armed"		"ButtonHover"
+	}
 }

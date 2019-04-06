@@ -27,7 +27,7 @@
 			"enabled"		"1"
 			"image"			"../HUD/color_panel_browner"
 	
-			"src_corner_height"	"23"				// pixels inside the image
+			"src_corner_height"	"23"			// pixels inside the image
 			"src_corner_width"	"23"
 			"draw_corner_width"	"7"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"7"	
@@ -46,8 +46,8 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../HUD/color_panel_browner"
-
-			"src_corner_height"	"23"				// pixels inside the image
+			
+			"src_corner_height"	"23"			// pixels inside the image
 			"src_corner_width"	"23"
 			"draw_corner_width"	"7"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"7"	
@@ -129,17 +129,17 @@
 
 	"HudStopWatchObjectiveArrow"
 	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"HudStopWatchObjectiveArrow"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"-1"
-		"wide"			"80"
-		"tall"			"80"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../HUD/arrow_big"
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"			"HudStopWatchObjectiveArrow"
+		"xpos"				"9999"
+		"ypos"				"9999"
+		"zpos"				"-1"
+		"wide"				"80"
+		"tall"				"80"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"0"
+		"enabled"			"1"
+		"image"				"../HUD/arrow_big"
 	}
 }

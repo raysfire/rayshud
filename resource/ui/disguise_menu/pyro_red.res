@@ -4,16 +4,16 @@
 {
 	"ItemNameLabel"
 	{
-		"labelText"		"#TF_Class_Name_Pyro"
+		"labelText"			"#TF_Class_Name_Pyro"
 	}
 	
 	"NewNumberLabel"
 	{
-		"labelText"		"3"
+		"labelText"			"3"
 	}
 	
 	"NumberLabel"
 	{
-		"labelText"		"3"
+		"labelText"			"3"
 	}
 }

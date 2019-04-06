@@ -1,5 +1,5 @@
 "Resource/UI/HudKillStreakNotice.res"
-{	
+{
 	"Background"
 	{
 		"ControlName"	"EditablePanel"

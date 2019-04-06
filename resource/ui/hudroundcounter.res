@@ -63,10 +63,10 @@
 		"proportionaltoparent"	"1"
 	}
 	
-	"BlueScoreBG"
+	"BlueTeamBackground"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"BlueScoreBG"
+		"fieldName"		"BlueTeamBackground"
 		"xpos"			"c-36"
 		"ypos"			"0"
 		"wide"			"36"
@@ -77,10 +77,10 @@
 		"proportionaltoparent"	"1"
 	}
 	
-	"RedScoreBG"
+	"RedTeamBackground"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"RedScoreBG"
+		"fieldName"		"RedTeamBackground"
 		"xpos"			"c0"
 		"ypos"			"0"
 		"wide"			"36"

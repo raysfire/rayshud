@@ -16,18 +16,18 @@
 
 	"Title"
 	{
-		"ControlName"		"Label"
+		"ControlName"	"Label"
 		"fieldName"		"Title"
-		"xpos"		"8"
-		"ypos"		"23"
-		"zpos"		"99"
-		"wide"		"f0"
-		"tall"		"20"
+		"xpos"			"8"
+		"ypos"			"23"
+		"zpos"			"99"
+		"wide"			"f0"
+		"tall"			"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderCompetitive"
 		"textAlignment"	"west"
 		"font"			"CerbeticaBold24"
-		"fgcolor_override"	"242 242 242 255"
+		"fgcolor_override"	"White"
 		"mouseinputenabled"	"0"
 	}
 

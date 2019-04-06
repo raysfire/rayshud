@@ -2,23 +2,23 @@
 {
 	"crafting_panel"
 	{
-		"ControlName"	"Frame"
-		"fieldName"		"crafting_panel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"400"
-		"zpos"			"501"
-		"visible"		"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
+		"ControlName"		"Frame"
+		"fieldName"			"crafting_panel"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"400"
+		"zpos"				"501"
+		"visible"			"1"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"enabled"			"1"
+		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"25 25 25 255"
-		"infocus_bgcolor_override" 		"25 25 25 255"
-		"outoffocus_bgcolor_override" 	"25 25 25 255"
+		"bgcolor_override"				"DarkGrey"
+		"infocus_bgcolor_override" 		"DarkGrey"
+		"outoffocus_bgcolor_override" 	"DarkGrey"
 		
 		"item_ypos"						"85"
 		"output_item_ypos"				"255"
@@ -33,24 +33,24 @@
 		
 		"modelpanels_kv"
 		{
-			"ControlName"	"CItemModelPanel"
-			"wide"			"70"
-			"tall"			"45"
-			"visible"		"0"
-			"bgcolor_override"		"Transparent"
-			"noitem_textcolor"		"117 107 94 255"
+			"ControlName"		"CItemModelPanel"
+			"wide"				"70"
+			"tall"				"45"
+			"visible"			"0"
+			"bgcolor_override"	"Transparent"
+			"noitem_textcolor"	"TextColor"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"1"
+			"paintborder"			"1"
 			
-			"model_ypos"	"5"
-			"model_tall"	"35"
-			"text_center"	"1"
-			"name_only"		"1"
-			"text_forcesize" "3"
-			"noitem_use_fullpanel" "1"
+			"model_ypos"			"5"
+			"model_tall"			"35"
+			"text_center"			"1"
+			"name_only"				"1"
+			"text_forcesize"	 	"3"
+			"noitem_use_fullpanel" 	"1"
 			
-			"inset_eq_x"	"2"
-			"inset_eq_y"	"2"
+			"inset_eq_x"			"2"
+			"inset_eq_y"			"2"
 			
 			"MainContentsContainer"
 			{
@@ -62,14 +62,14 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"bgcolor_override"		"Transparent"
-			
+				
 				"itemmodelpanel"
 				{
 					"use_item_rendertarget" "0"
 					"inventory_image_type"	"1"
 					"allow_rot"				"0"
 				}
-			
+				
 				"namelabel"
 				{
 					"ControlName"	"CExLabel"
@@ -85,7 +85,7 @@
 					"enabled"		"1"
 					"labelText"		"%itemname%"
 					"textAlignment"	"south"
-					"fgcolor"		"235 226 202 255"
+					"fgcolor"		"TanLight"
 					"wrap"			"1"
 					"centerwrap"	"1"
 				}
@@ -107,12 +107,12 @@
 			"centerwrap"	"0"
 			"textAlignment" "west"
 			"textinsetx"	"0"
-			"defaultFgColor_override" "117 107 94 255"
-			"defaultBgColor_override" "Transparent"
-			"armedFgColor_override" "235 226 202 255"
-			"armedBgColor_override" "Transparent"
-			"depressedFgColor_override" "178 82 22 255"
-			"depressedBgColor_override" "Transparent"
+			"defaultFgColor_override"	"TextColor"
+			"defaultBgColor_override"	"Transparent"
+			"armedFgColor_override"		"TanLight"
+			"armedBgColor_override"		"Transparent"
+			"depressedFgColor_override"	"178 82 22 255"
+			"depressedBgColor_override"	"Transparent"
 		}
 		
 		"filter_xoffset"	"-290"
@@ -143,35 +143,35 @@
 	
 	"ClassLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ClassLabel"
-		"font"			"HudFontSmallBold"
-		"labelText"		"#CraftStep1"
-		"textAlignment"	"north-west"
-		"xpos"			"c-290"
-		"ypos"			"10"
-		"zpos"			"1"
-		"wide"			"240"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "200 187 161 255"
+		"ControlName"		"CExLabel"
+		"fieldName"			"ClassLabel"
+		"font"				"HudFontSmallBold"
+		"labelText"			"#CraftStep1"
+		"textAlignment"		"north-west"
+		"xpos"				"c-290"
+		"ypos"				"10"
+		"zpos"				"1"
+		"wide"				"240"
+		"tall"				"25"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"fgcolor_override"	"200 187 161 255"
 	}
 	
 	"selectedrecipecontainer"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"selectedrecipecontainer"
-		"xpos"			"c0"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"300"
-		"tall"			"350"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"selectedrecipecontainer"
+		"xpos"				"c0"
+		"ypos"				"0"
+		"zpos"				"5"
+		"wide"				"300"
+		"tall"				"350"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"200 187 161 0"
-
+		"bgcolor_override"		"200 187 161 0"
+		
 		"RecipeTitle"
 		{
 			"ControlName"	"CExLabel"
@@ -228,9 +228,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"TextColor"
 		}
-
+		
 		"OutputLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -247,7 +247,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"TextColor"
 		}
 		
 		"CraftButton"
@@ -273,7 +273,7 @@
 			"Command"		"craft"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-		}			
+		}
 		
 		"FreeAccountLabel"
 		{
@@ -294,7 +294,7 @@
 			"wrap"			"1"
 			"fgcolor"		"178 82 22 255"
 		}
-
+		
 		"UpgradeButton"
 		{
 			"ControlName"	"CExButton"
@@ -328,46 +328,46 @@
 	
 	"recipecontainerscroller"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"recipecontainerscroller"
-		"xpos"			"c-290"
-		"ypos"			"70"
-		"zpos"			"5"
-		"wide"			"280"
-		"tall"			"240"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"recipecontainerscroller"
+		"xpos"				"c-290"
+		"ypos"				"70"
+		"zpos"				"5"
+		"wide"				"280"
+		"tall"				"240"
 		"PaintBackgroundType"	"2"
 		"fgcolor_override"	"59 54 48 255"
 		"bgcolor_override"	"200 187 161 0"
-		"autohide_buttons" "1"
+		"autohide_buttons"	"1"
 	}
-
+	
 	"recipecontainer"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"recipecontainer"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"280"
-		"tall"			"240"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"recipecontainer"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"5"
+		"wide"				"280"
+		"tall"				"240"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"200 187 161 0"
+		"bgcolor_override"		"200 187 161 0"
 	}
 	
 	"mouseoveritempanel"
 	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"mouseoveritempanel"
-		"xpos"			"c-70"
-		"ypos"			"270"
-		"zpos"			"100"
-		"wide"			"300"
-		"tall"			"300"
-		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"ControlName"		"CItemModelPanel"
+		"fieldName"			"mouseoveritempanel"
+		"xpos"				"c-70"
+		"ypos"				"270"
+		"zpos"				"100"
+		"wide"				"300"
+		"tall"				"300"
+		"visible"			"0"
+		"bgcolor_override"	"Transparent"
+		"noitem_textcolor"	"TextColor"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
+		"paintborder"		"1"
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
@@ -388,30 +388,30 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"TextColor"
 			"centerwrap"	"1"
 		}
 	}
 	
 	"mousedragitempanel"
 	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"mousedragitempanel"
-		"xpos"			"c-70"
-		"ypos"			"270"
-		"zpos"			"100"
-		"wide"			"54"
-		"tall"			"42"
-		"visible"		"0"
-		"bgcolor_override"		"Transparent"
-		"noitem_textcolor"		"117 107 94 255"
+		"ControlName"		"CItemModelPanel"
+		"fieldName"			"mousedragitempanel"
+		"xpos"				"c-70"
+		"ypos"				"270"
+		"zpos"				"100"
+		"wide"				"54"
+		"tall"				"42"
+		"visible"			"0"
+		"bgcolor_override"	"Transparent"
+		"noitem_textcolor"	"TextColor"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
-		"model_ypos"	"5"
-		"model_tall"	"35"
-		"text_ypos"		"60"
-		"text_center"	"1"
-		"name_only"		"1"
+		"paintborder"		"1"
+		"model_ypos"		"5"
+		"model_tall"		"35"
+		"text_ypos"			"60"
+		"text_center"		"1"
+		"name_only"			"1"
 		
 		"itemmodelpanel"
 		{
@@ -422,16 +422,16 @@
 	
 	"TooltipPanel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"TooltipPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"100"
-		"wide"			"140"
-		"tall"			"50"
-		"visible"		"0"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"TooltipPanel"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"100"
+		"wide"				"140"
+		"tall"				"50"
+		"visible"			"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"border"			"MainMenuBGBorder"
 		
 		"TipLabel"
 		{
@@ -453,16 +453,16 @@
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}
-	}	
+	}
 	
 	"ShowExplanationsButton"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ShowExplanationsButton"
-		"xpos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"ControlName"		"CExButton"
+		"fieldName"			"ShowExplanationsButton"
+		"xpos"				"9999"
+		"wide"				"0"
+		"tall"				"0"
+		"visible"			"0"
+		"enabled"			"0"
 	}
 }

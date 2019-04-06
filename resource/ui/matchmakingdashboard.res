@@ -18,17 +18,17 @@
 	
 	"TopBar"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"TopBar"
-		"xpos"			"cs-0.5"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"35"
-		"visible"		"1"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"TopBar"
+		"xpos"				"cs-0.5"
+		"ypos"				"0"
+		"zpos"				"1"
+		"wide"				"f0"
+		"tall"				"35"
+		"visible"			"1"
+		"pinCorner"			"2"
+		"autoResize"		"1"
 		"proportionaltoparent"	"1"
-		"pinCorner"		"2"
-		"autoResize"	"1"
 		
 		"Gradient"
 		{
@@ -43,10 +43,10 @@
 			"enabled"		"1"
 			"rotation"		"2"
 			"proportionaltoparent"	"1"
-			"scaleimage"	"1"
+			"scaleimage"		"1"
 			"mouseinputenabled"	"0"
-			"alpha"			"100"
-			"image"			"gradient_pure_black"
+			"alpha"				"100"
+			"image"				"gradient_pure_black"
 		}
 
 		"BGPanel"
@@ -61,7 +61,7 @@
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"27 27 27 255"
+			"bgcolor_override"		"DarkGrey"
 			"proportionaltoparent"	"1"
 		}
 
@@ -87,7 +87,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"40"
+			"wide"			"30"
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -108,7 +108,7 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"TanLight"
 
@@ -125,7 +125,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
-				"image"			"glyph_chat"
+				"image"			"replay/thumbnails/chat"
 			}
 		}
 
@@ -133,7 +133,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot0"
-			"xpos"			"40"
+			"xpos"			"30"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -153,7 +153,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot1"
-			"xpos"			"64"
+			"xpos"			"54"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -173,7 +173,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot2"
-			"xpos"			"88"
+			"xpos"			"78"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -193,7 +193,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot3"
-			"xpos"			"112"
+			"xpos"			"102"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -213,7 +213,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot4"
-			"xpos"			"136"
+			"xpos"			"126"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -233,7 +233,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot5"
-			"xpos"			"160"
+			"xpos"			"150"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -287,6 +287,7 @@
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 				"border"		"ReplayDefaultBorder"
+				"bgcolor_override"	"DarkGrey"
 			}
 
 			"QueueLogoButton"
@@ -315,8 +316,8 @@
 				"button_activation_type"	"1"
 				"paintbackground"	"0"
 				"paintborder"		"0"				
-			}		
-
+			}
+			
 			"CTFLogoPanel"
 			{
 				"ControlName"	"CTFLogoPanel"
@@ -350,22 +351,6 @@
 				"labelText"		"%queue_state%"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
-
-				"fonts"
-				{
-					"0"
-					{
-						"font"	"HudFontSmallestBold" // TF2 Build 11
-					}
-					"1"
-					{
-						"font"	"StorePromotionsTitle" // TF2 Build 10
-					}
-					"2"
-					{
-						"font"	"FontStorePrice" // TF2 Build 9
-					}
-				}
 			}
 
 			"MultiQueuesManageButton"
@@ -373,7 +358,7 @@
 				"ControlName"	"CExImageButton"
 				"fieldName"		"MultiQueuesManageButton"
 				"xpos"			"rs1-6"
-				"ypos"			"11"
+				"ypos"			"12"
 				"zpos"			"10"
 				"wide"			"14"
 				"tall"			"14"
@@ -394,12 +379,12 @@
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
 				"paintbackground"	"0"
-			
-				"defaultFgColor_override" "46 43 42 255"
+				
+				"defaultFgColor_override" "TanDarker"
 				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
-				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"200 80 60 255"
+				"depressedFgColor_override" "TanDarker"
+				"image_drawcolor"	"TextColor"
+				"image_armedcolor"	"LightRed"
 				
 				"SubImage"
 				{
@@ -415,7 +400,7 @@
 					"image"			"glyph_options"
 					"scaleImage"	"1"
 				}				
-			}		
+			}
 
 			"CloseButton"
 			{
@@ -444,11 +429,11 @@
 				"actionsignallevel"	"3"
 				"paintbackground"	"0"
 			
-				"defaultFgColor_override" "46 43 42 255"
+				"defaultFgColor_override" "TanDarker"
 				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
-				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"200 80 60 255"
+				"depressedFgColor_override" "TanDarker"
+				"image_drawcolor"	"TextColor"
+				"image_armedcolor"	"255 0 0 255"
 				
 				"SubImage"
 				{
@@ -461,9 +446,9 @@
 					"tall"			"14"
 					"visible"		"1"
 					"enabled"		"1"
-					"image"			"close_button"
+					"image"			"replay/thumbnails/close"
 					"scaleImage"	"1"
-				}				
+				}
 			}		
 		}
 
@@ -505,6 +490,7 @@
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 				"border"		"ReplayDefaultBorder"
+				"bgcolor_override"	"DarkGrey"
 			}
 
 			"PromptText"
@@ -557,10 +543,8 @@
 				"mouseinputenabled"	"1"
 				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"3"
-
 				"armedBgColor_override"		"CreditsGreen"
 				"defaultBgColor_override"	"SaleGreen"
-
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
@@ -592,18 +576,16 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"RoundedCorners"	"0"
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"armedBgColor_override"		"192 28 0 150"
 			"defaultBgColor_override"	"192 28 0 50"
 
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
-
-			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"TanLight"
+			"defaultFgColor_override" 	"TanLight"
+			"armedFgColor_override" 	"TanLight"
+			"image_drawcolor"			"TanLight"
+			"image_armedcolor"			"TanLight"
 
 			"SubImage"
 			{
@@ -651,18 +633,16 @@
 			"textinsety"	"5"
 			"textinsetx"	"22"
 			"use_proportional_insets"	"1"
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"armedBgColor_override"		"192 28 0 150"
 			"defaultBgColor_override"	"192 28 0 50"
 
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
-
-			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"TanLight"
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"TanLight"
+			"image_drawcolor"			"TanLight"
+			"image_armedcolor"			"TanLight"
 
 			"SubImage"
 			{
@@ -714,13 +694,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-		//	"armedBgColor_override"		"CreditsGreen"
-		//	"defaultBgColor_override"	"GreenSolid"
+			"armedBgColor_override"		"170 221 183 155"
+			"defaultBgColor_override"	"170 221 183 55"
 
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"TanLight"
+			"image_drawcolor"			"TanLight"
+			"image_armedcolor"			"TanLight"
 
 			"SubImage"
 			{
@@ -765,8 +745,8 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
-			"textinsety"	"5"
-			"textinsetx"	"25"
+			"textinsetx"		"25"
+			"textinsety"		"5"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -775,10 +755,10 @@
 			"armedBgColor_override"		"CreditsGreen"
 			"defaultBgColor_override"	"GreenSolid"
 
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"TanLight"
+			"image_drawcolor"			"TanLight"
+			"image_armedcolor"			"TanLight"
 
 			"SubImage"
 			{

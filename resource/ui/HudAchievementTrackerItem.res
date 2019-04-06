@@ -1,11 +1,11 @@
 "Resource/UI/HudAchievementTrackerItem.res"
-{	
+{
 	"HudAchievementTrackerItem"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudAchievementTrackerItem"
-		"xpos"			"0"		[$WIN32]
-		"ypos"			"0"		[$WIN32]
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"190"
 		"tall"			"29"
@@ -28,6 +28,7 @@
 		"font"			"CerbeticaBold14"
 		"textAlignment"	"north-west"
 	}
+	
 	"AchievementNameGlow"
 	{
 		"ControlName"	"Label"
@@ -38,11 +39,12 @@
 		"wide"			"190"
 		"tall"			"10"
 		"zpos"			"4"
-		"fgcolor_override"		"235 226 202 255"
-		"font"			"AchievementTracker_NameGlow"
-		"textinsetx"	"5"
-		"textAlignment"	"north-west"
+		"fgcolor_override"	"235 226 202 255"
+		"font"				"AchievementTracker_NameGlow"
+		"textinsetx"		"5"
+		"textAlignment"		"north-west"
 	}
+	
 	"AchievementDesc"
 	{
 		"ControlName"	"Label"
@@ -54,10 +56,10 @@
 		"tall"			"18"
 		"zpos"			"4"
 		"textinsetx"	"5"
-		"fgcolor_override"		"235 226 202 255"
-		"font"			"AchievementTracker_Desc"
-		"wrap"			"1"
-		"TextAlignment"	"north-west"
+		"fgcolor_override"	"235 226 202 255"
+		"font"				"AchievementTracker_Desc"
+		"wrap"				"1"
+		"TextAlignment"		"north-west"
 	}
 	
 	"ProgressBarBG"
@@ -73,7 +75,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	"ProgressBar" // current completed
+	
+	"ProgressBar"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ProgressBar"

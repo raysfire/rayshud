@@ -13,8 +13,11 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"settitlebarvisible" 	"0"
+		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
+		"border"			"CyanBorderThick"
+		"bgcolor_override"	"DarkGrey"
+		"PaintBorder"		"1"
 	}
 	
 	"TitleLabel"
@@ -52,7 +55,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"wrap"				"1"
-		"fgcolor_override"	"200 80 60 255"
+		"fgcolor_override"	"LightRed"
 	}
 	
 	"ExplanationLabel2"
@@ -72,7 +75,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"wrap"				"1"
-		"fgcolor_override"	"200 80 60 255"
+		"fgcolor_override"	"LightRed"
 	}
 	
 	"ItemImagePanel"
@@ -129,6 +132,8 @@
 		"Command"			"nope"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"	"ButtonHover"
+		"border_armed"		"ButtonHover"
 	}
 	
 	"ConfirmButton"
@@ -154,6 +159,8 @@
 		"Command"			"add_stamp_to_cart"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/vote_success.wav"
+		"border_default"	"ButtonHover"
+		"border_armed"		"ButtonHover"
 	}
 	
 	"PriceLabel"

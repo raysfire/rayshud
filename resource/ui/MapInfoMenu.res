@@ -93,32 +93,24 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MapImage"
 		"xpos"			"9999"
-		"xpos_lodef"	"c35"
-		"xpos_hidef"	"c35"
 		"ypos"			"9999"
-		"ypos_lodef"	"100"
-		"ypos_hidef"	"100"
 		"zpos"			"2"
 		"wide"			"275"
-		"wide_hidef"	"225"
-		"wide_lodef"	"225"
 		"tall"			"275"
-		"tall_hidef"	"225"
-		"tall_lodef"	"225"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"	"1"		
+		"scaleImage"	"1"
 	}
 
-	"MapInfoContinue" [$WIN32]
+	"MapInfoContinue"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoContinue"
 		"xpos"			"9999"
 	}
 	
-	"MapInfoContinue2" [$WIN32]
+	"MapInfoContinue2"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoContinue2"
@@ -139,6 +131,7 @@
 		"default"		"1"
 		"font"			"Cerbetica24"
 		"paintbackground"	"0"
+		
 		"fgcolor"					"TanLight"
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override"		"TanDark"
@@ -146,7 +139,7 @@
 		"selectedFgColor_override" 	"TanDark"
 	}
 	
-	"MapInfoWatchIntro" [$WIN32]
+	"MapInfoWatchIntro"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoWatchIntro"
@@ -174,7 +167,7 @@
 		"selectedFgColor_override" 	"TanDark"
 	}
 	
-	"MapInfoBack" [$WIN32]
+	"MapInfoBack"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoBack"
@@ -194,6 +187,7 @@
 		"command"		"back"
 		"font"			"Cerbetica20"
 		"paintbackground"	"0"
+		
 		"fgcolor"					"TanLight"
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override"		"TanDark"
@@ -206,12 +200,12 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"9999"
-	}					
+	}
 
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"9999"
-	}	
+	}
 }

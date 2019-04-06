@@ -1,15 +1,15 @@
 #base "huditemeffectmeter.res"
 
-"Resource/UI/HudItemEffectMeter_SodaPopper.res"
+"Resource/UI/HudItemEffectMeter_SniperFocus.res"
 {
 	"HudItemEffectMeter"
 	{
-		"ypos"				"c111"
-		"ypos_minmode"		"c46"
+		"ypos"					"c93"
+		"ypos_minmode"			"c46"
 	}
 	
 	"ItemEffectMeterLabel"
 	{
-		"labelText"			"#TF_ENERGYDRINK"
+		"labelText"				"#TF_ENERGYDRINK"
 	}				
 }

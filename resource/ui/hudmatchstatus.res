@@ -57,7 +57,7 @@
 			}
 		}
 	}
-
+	
 	"CountdownLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -102,7 +102,7 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"fgcolor"		"Black"
+		"fgcolor"		"TransparentBlack"
 		"proportionaltoparent"	"1"
 
 		if_readymode
@@ -192,7 +192,7 @@
 				"sequence"		"idle_closed"
 			}
 		}
-	}		
+	}
 
 	"RoundCounter"
 	{
@@ -219,7 +219,8 @@
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
 		
-		if_match {
+		if_match
+		{
 			"visible"		"1"
 		}
 	}
@@ -275,14 +276,13 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-55"
-		"ypos"				"0"	[$WIN32]
+		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"110"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"22"	[$WIN32]
-		"delta_item_x"			"115"	[$X360]
+		"delta_item_x"			"22"
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
 		"PositiveColor"			"0 255 0 255"
@@ -292,7 +292,6 @@
 
 		if_match
 		{
-			"ypos"					"0"
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -308,13 +307,12 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmall"
 			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"TanLight"
-			"xpos"			"28"
-			"ypos"			"-4"
+			"xpos"			"25"
+			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"45"
-			"tall"			"31"
+			"wide"			"50"
+			"tall"			"24"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"center"
@@ -322,13 +320,11 @@
 
 			if_match
 			{
-				"proportionaltoparent"	"1"
 				"xpos"			"cs-0.5"
 				"ypos"			"13"
 				"tall"			"10"
 				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
+				"proportionaltoparent"	"1"
 			}
 		}	
 	}
@@ -349,12 +345,12 @@
 		"6v6_gap"		"1"
 		"12v12_gap"		"1"
 
-		"team1_grow_dir" "west"
-		"team1_base_x"	"c-45"
+		"team1_grow_dir" 	"west"
+		"team1_base_x"		"c-45"
 		"team1_max_expand"	"133"
 
-		"team2_grow_dir" "east"
-		"team2_base_x"	"c47"
+		"team2_grow_dir" 	"east"
+		"team2_base_x"		"c47"
 		"team2_max_expand"	"133"
 
 		"playerpanels_kv"
@@ -373,8 +369,8 @@
 			"percentage_health_med"	"0.6"
 			"color_bar_health_low"	"191 58 58 255"
 			"percentage_health_low"	"0.3"
-			"color_portrait_blend_dead_red"	"255 255 255 255"
-			"color_portrait_blend_dead_blue" "255 255 255 255"
+			"color_portrait_blend_dead_red"	"White"
+			"color_portrait_blend_dead_blue" "White"
 			
 			"playername"
 			{
@@ -423,12 +419,12 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"healthbar"
-				"font"			"Default"																		
+				"font"			"Default"
 				"xpos"			"0"
 				"ypos"			"19"
 				"zpos"			"5"
 				"wide"			"f0"
-				"tall"			"2"				
+				"tall"			"3"				
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -440,38 +436,38 @@
 				"proportionaltoparent"	"1"
 			}
 			"overhealbar"
-			{	
-				"ControlName"			"ContinuousProgressBar"
-				"fieldName"				"overhealbar"
-				"font"					"Default"																		
-				"xpos"					"0"
-				"ypos"					"19"
-				"zpos"					"6"
-				"wide"					"f0"
-				"tall"					"2"				
-				"autoResize"			"0"
-				"pinCorner"				"0"
-				"visible"				"1"
-				"enabled"				"1"
-				"textAlignment"			"Left"
-				"dulltext"				"0"
-				"brighttext"			"0"
-				"bgcolor_override"	   "Transparent"
-				"fgcolor_override"	   "255 255 255 160"
+			{
+				"ControlName"	"ContinuousProgressBar"
+				"fieldName"		"overhealbar"
+				"font"			"Default"
+				"xpos"			"0"
+				"ypos"			"19"
+				"zpos"			"6"
+				"wide"			"f0"
+				"tall"			"3"				
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"textAlignment"	"Left"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"bgcolor_override"		"Transparent"
+				"fgcolor_override"		"255 255 255 160"
 				"proportionaltoparent"	"1"
 			}
 			"HealthIcon"
 			{
-				"ControlName"		"EditablePanel"
-				"fieldName"			"HealthIcon"
-				"xpos"				"22"
-				"ypos"				"-3"
-				"zpos"				"3"
-				"wide"				"32"
-				"tall"				"32"
-				"visible"			"0"
-				"enabled"			"1"	
-				"HealthBonusPosAdj"	"10"
+				"ControlName"	"EditablePanel"
+				"fieldName"		"HealthIcon"
+				"xpos"			"22"
+				"ypos"			"-3"
+				"zpos"			"3"
+				"wide"			"32"
+				"tall"			"32"
+				"visible"		"0"
+				"enabled"		"1"
+				"HealthBonusPosAdj"			"10"
 				"HealthDeathWarning"		"0.49"
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
@@ -517,7 +513,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"Cerbetica13"
+				"font"			"Cerbetica9"
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"5"
@@ -687,7 +683,7 @@
 			"tall"			"39"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override"	"117 107 94 255"
+			"bgcolor_override"		"TextColor"
 		}
 		"BluePlayerList"
 		{
@@ -730,7 +726,7 @@
 			if_large
 			{
 				"tall"		"325"
-			}			
+			}
 		}
 	}
 
@@ -825,7 +821,7 @@
 			"tall"			"39"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override"	"117 107 94 255"
+			"bgcolor_override"	"TextColor"
 		}
 		"RedPlayerList"
 		{
@@ -848,7 +844,7 @@
 			if_large
 			{
 				"tall"		"315"
-			}			
+			}
 		}
 		"RedPlayerListBG"
 		{
@@ -868,7 +864,7 @@
 			if_large
 			{
 				"tall"		"325"
-			}			
+			}
 		}
 	}
 }

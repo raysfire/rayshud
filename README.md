@@ -62,5 +62,6 @@ Credits
 * Whoever makes PVHUD - Inspiration, occasional reference.
 * My team - For dealing with me and giving me constructive feedback all the time.
 * Flame - If it weren't for your guide, I couldn't have made this at all. Thanks a million, man.
+* clovervidia - For the updated closed captions. Check his Steam Guide on CC [here](https://steamcommunity.com/sharedfiles/filedetails/?id=167785751).
 
-v2018.1220
+v2019.0406

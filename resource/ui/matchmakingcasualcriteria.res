@@ -73,9 +73,9 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-			"image_drawcolor"	"242 242 242 255"
+			"image_drawcolor"	"White"
 			"image_armedcolor"	"169 123 53 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -117,9 +117,9 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-			"image_drawcolor"	"242 242 242 255"
+			"image_drawcolor"	"White"
 			"image_armedcolor"	"169 123 53 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"

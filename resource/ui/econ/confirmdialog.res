@@ -18,21 +18,21 @@
 		"paintbackground"		"1"
 		"paintborder"			"1"
 		"border"				"CyanBorderThick"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"DarkGrey"
 	}
 	
 	"TitleLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"TitleLabel"
-		"font"					"Cerbetica26"
+		"font"					"Cerbetica32"
 		"labelText"				"#ConfirmTitle"
-		"textAlignment"			"north"
+		"textAlignment"			"center"
 		"xpos"					"0"
 		"ypos"					"15"
 		"zpos"					"1"
 		"wide"					"324"
-		"tall"					"20"
+		"tall"					"23"
 		"autoResize"			"1"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -43,7 +43,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ExplanationLabel"
-		"font"					"HudFontSmall"
+		"font"					"EconFontSmall"
 		"labelText"				"%text%"
 		"textAlignment"			"center"
 		"xpos"					"40"
@@ -51,12 +51,10 @@
 		"zpos"					"1"
 		"wide"					"324"
 		"tall"					"170"
-		"autoResize"			"0"
+		"autoResize"			"1"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"centerwrap"			"1"
-		"fgcolor_override"		"Yellow"
 	}
 	
 	"CancelButton"

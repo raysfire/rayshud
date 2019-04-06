@@ -84,7 +84,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"image_default"	"glyph_expand"
 			"button_activation_type"	"1"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -118,14 +118,14 @@
 		"Checkbutton"
 		{
 			"ControlName"		"CExCheckButton"
-			"fieldName"		"Checkbutton"
-			"xpos"		"r27"
-			"ypos"		"-1"
-			"zpos"		"3"
-			"wide"		"25"
-			"tall"		"20"
+			"fieldName"			"Checkbutton"
+			"xpos"				"r27"
+			"ypos"				"-1"
+			"zpos"				"3"
+			"wide"				"25"
+			"tall"				"20"
 			"proportionaltoparent"	"1"
-			"labeltext"		""
+			"labeltext"			""
 			"smallcheckimage"	"1"
 			"sound_depressed"	"UI/buttonclickrelease.wav"	
 			"button_activation_type"	"1"
@@ -159,8 +159,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleShadow"
-			"xpos"			"rs1-23"
-			"ypos"			"3"
+			"xpos"			"-1"
+			"ypos"			"-1"
 			"zpos"			"2"
 			"wide"			"200"
 			"tall"			"15"
@@ -176,8 +176,11 @@
 			"default"		"1"
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
-
-			"fgcolor_override"		"7 7 7 255"
+			"fgcolor_override"		"TransparentBlack"
+			
+			"pin_to_sibling"		"Title"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 
 		"DescLabel"
@@ -209,8 +212,8 @@
 			"font"			"MMenuPlayListDesc"
 			"labelText"		"%desc_token%"
 			"textAlignment"	"north-west"
-			"xpos"			"rs1-4"
-			"ypos"			"19"
+			"xpos"			"-1"
+			"ypos"			"-1"
 			"zpos"			"1"
 			"wide"			"120"
 			"tall"			"40"
@@ -219,9 +222,13 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "7 7 7 255"
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
+			"fgcolor_override" "TransparentBlack"
+			
+			"pin_to_sibling"		"DescLabel"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 	}
 

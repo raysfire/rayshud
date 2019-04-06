@@ -6,14 +6,14 @@
 		"fieldName"		"HudWeaponAmmoBG"
 		"xpos"			"9999"
 	}
-
+	
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HudWeaponLowAmmoImage"
 		"xpos"			"9999"
 	}
-
+	
 	"AmmoInClip"
 	{
 		"ControlName"	"CExLabel"
@@ -30,7 +30,7 @@
 		"tall"			"80"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%Ammo%"
 	}
 	"AmmoInClipShadow"
@@ -54,7 +54,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-
+	
 	"AmmoInReserve"
 	{
 		"ControlName"	"CExLabel"
@@ -95,7 +95,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-
+	
 	"AmmoNoClip"
 	{
 		"ControlName"	"CExLabel"

@@ -37,7 +37,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_tele_entrance"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NotBuiltPanel"
@@ -54,7 +54,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"Cerbetica9"
+			"font"			"Cerbetica10"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -93,7 +93,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_1"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
 
 		"Icon_Upgrade_2"
@@ -109,7 +109,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_2"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
 
 		"Icon_Upgrade_3"
@@ -125,7 +125,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_3"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
 		
 		"AlertTray"
@@ -154,7 +154,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_wrench"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
 		
 		"SapperIcon"
@@ -170,7 +170,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
 
 		"Health"
@@ -321,7 +321,6 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"labelText"		"#Building_hud_tele_times_used"
-					"labelText_lodef"		"#Building_hud_tele_times_used_360"
 					"textAlignment"	"Left"
 					"dulltext"		"0"
 					"brighttext"	"0"
