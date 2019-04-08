@@ -241,7 +241,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"72"
 				"additive"		"0"
 				"antialias"		"1"
@@ -251,7 +251,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"60"
 				"additive"		"0"
 				"antialias"		"1"
@@ -261,7 +261,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"56"
 				"additive"		"0"
 				"antialias"		"1"
@@ -271,7 +271,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"55"
 				"additive"		"0"
 				"antialias"		"1"
@@ -282,7 +282,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"54"
 				"additive"		"0"
 				"antialias"		"1"
@@ -292,7 +292,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"52"
 				"additive"		"0"
 				"antialias"		"1"
@@ -302,7 +302,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"48"
 				"additive"		"0"
 				"antialias"		"1"
@@ -312,7 +312,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"44"
 				"additive"		"0"
 				"antialias"		"1"
@@ -322,7 +322,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"40"
 				"additive"		"0"
 				"antialias"		"1"
@@ -332,7 +332,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"36"
 				"additive"		"0"
 				"antialias"		"1"
@@ -342,7 +342,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"32"
 				"additive"		"0"
 				"antialias"		"1"
@@ -352,7 +352,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"26"
 				"additive"		"0"
 				"antialias"		"1"
@@ -362,7 +362,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"26"
 				"additive"		"0"
 				"antialias"		"1"
@@ -372,7 +372,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"24"
 				"additive"		"0"
 				"antialias"		"1"
@@ -382,7 +382,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"24"
 				"additive"	 "0"
 				"antialias"	 "1"
@@ -393,7 +393,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"22"
 				"additive"		"0"
 				"antialias"		"1"
@@ -403,7 +403,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"20"
 				"additive"		"0"
 				"antialias"		"1"
@@ -413,7 +413,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"16"
 				"additive"		"0"
 				"antialias"		"1"
@@ -423,7 +423,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"additive"		"0"
 				"antialias"		"1"
@@ -433,7 +433,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"additive"		"0"
 				"antialias"		"1"
@@ -443,7 +443,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"11"
 				"additive"		"0"
 				"antialias"		"1"
@@ -453,7 +453,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"10"
 				"additive"		"0"
 				"antialias"		"1"
@@ -463,7 +463,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"9"
 				"additive"		"0"
 				"antialias"		"1"
@@ -473,7 +473,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"8"
 				"additive"		"0"
 				"antialias"		"1"
@@ -483,7 +483,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"7"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -495,7 +495,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"antialias"		"1"
 			}
@@ -511,7 +511,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"10"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -522,7 +522,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"500"
 				"underline"		"1"
@@ -530,7 +530,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"11"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -540,7 +540,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -548,7 +548,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"13"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -556,7 +556,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -565,7 +565,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"20"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -574,7 +574,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"22"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -583,7 +583,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -593,7 +593,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -601,7 +601,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -609,7 +609,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -618,7 +618,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -627,7 +627,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"16"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -639,7 +639,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"18"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -647,7 +647,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"21"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -655,7 +655,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"22"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -664,7 +664,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"28"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -673,7 +673,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"30"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -682,14 +682,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -700,7 +700,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"18"
 				"weight"		"900"
 				"antialias"		"1"
@@ -712,7 +712,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"6"
 				"weight"		"500"
 				"additive"		"0"
@@ -724,7 +724,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"0"
 				"additive"		"0"
@@ -764,7 +764,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"32"
 				"weight"		"500"
 				"additive"		"0"
@@ -773,7 +773,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"44"
 				"weight"		"500"
 				"additive"		"0"
@@ -782,7 +782,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"48"
 				"weight"		"500"
 				"additive"		"0"
@@ -791,7 +791,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"52"
 				"weight"		"500"
 				"additive"		"0"
@@ -800,7 +800,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"72"
 				"weight"		"500"
 				"additive"		"0"
@@ -812,7 +812,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"64"
 				"weight"		"500"
 				"additive"		"0"
@@ -823,7 +823,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"48"
 				"weight"		"500"
 				"additive"		"0"
@@ -834,7 +834,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"44"
 				"weight"		"500"
 				"additive"		"0"
@@ -845,7 +845,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"36"
 				"weight"		"500"
 				"additive"		"0"
@@ -856,7 +856,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"36"
 				"weight"		"500"
 				"additive"		"0"
@@ -867,7 +867,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"32"
 				"weight"		"500"
 				"additive"		"0"
@@ -878,7 +878,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"32"
 				"weight"		"500"
 				"additive"		"0"
@@ -889,7 +889,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"28"
 				"weight"		"500"
 				"additive"		"0"
@@ -900,7 +900,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -911,7 +911,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"22"
 				"weight"		"500"
 				"additive"		"0"
@@ -922,7 +922,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"22"
 				"weight"		"500"
 				"additive"		"0"
@@ -933,7 +933,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -944,7 +944,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"16"
 				"weight"		"500"
 				"additive"		"0"
@@ -955,7 +955,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -966,7 +966,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -977,7 +977,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -988,7 +988,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -999,7 +999,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -1011,7 +1011,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -1023,7 +1023,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"10"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1034,7 +1034,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"16"
 				//"weight"		"500"
 				"additive"		"0"
@@ -1045,7 +1045,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"0"
 				"additive"		"0"
@@ -1056,7 +1056,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"10"
 				"weight"		"0"
 				"additive"		"0"
@@ -1067,7 +1067,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"8"
 				"weight"		"0"
 				"additive"		"0"
@@ -1078,7 +1078,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"400"
 				"additive"		"0"
@@ -1090,7 +1090,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
@@ -1162,7 +1162,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -1174,7 +1174,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"16"
 				"weight"		"500"
 				"additive"		"0"
@@ -1186,7 +1186,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"8"
 				"weight"		"500"
 				"additive"		"0"
@@ -1198,7 +1198,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"9"
 				"weight"		"500"
 				"additive"		"0"
@@ -1209,7 +1209,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"8"
 				"weight"		"500"
 				"additive"		"0"
@@ -1220,7 +1220,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"8"
 				"weight"		"500"
 				"additive"		"0"
@@ -1232,7 +1232,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"15"
 				"weight"		"700"
 				"antialias" 	"1"
@@ -1242,7 +1242,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"15"
 				"weight"		"700"
 				"antialias" 	"1"
@@ -1252,7 +1252,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"18"
 				"weight"		"900"
 				"antialias" 	"1"
@@ -1261,7 +1261,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"21"
 				"weight"		"900"
 				"antialias" 	"1"
@@ -1270,7 +1270,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"24"
 				"weight"		"1000"
 				"antialias" 	"1"
@@ -1283,7 +1283,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"400"
 				"outline"		"1"
@@ -1428,7 +1428,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"24"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -1438,7 +1438,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"11"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -1448,7 +1448,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -1471,7 +1471,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"28"
 				"additive"		"0"
 				"antialias"		"1"
@@ -1482,7 +1482,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"40"
 				"additive"		"0"
 				"antialias"		"1"
@@ -1493,7 +1493,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"24"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1504,7 +1504,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
 				"additive"		"0"
@@ -1528,7 +1528,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"400"
 				"additive"		"0"
@@ -1539,7 +1539,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"13"
 				"weight"		"400"
 				"additive"		"0"
@@ -1550,7 +1550,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1562,7 +1562,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"20"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1574,7 +1574,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"20"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1586,7 +1586,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1598,7 +1598,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"20"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1610,7 +1610,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"34"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1633,7 +1633,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"52"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1642,7 +1642,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"72"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1651,7 +1651,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"100"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1660,7 +1660,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"140"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1669,7 +1669,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"180"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1694,7 +1694,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"400"
 				"additive"		"0"
@@ -1705,7 +1705,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"20"
 				"weight"		"400"
 				"additive"		"0"
@@ -1717,7 +1717,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"400"
 				"additive"		"0"
@@ -1729,7 +1729,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
@@ -1740,7 +1740,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"7"
 				"weight"		"400"
 				"additive"		"0"
@@ -1752,7 +1752,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"400"
 				"additive"		"0"
@@ -1906,7 +1906,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"300"
@@ -1918,7 +1918,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"500"
 				"range"			"0x0000 0x017F"
@@ -1930,7 +1930,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"8"
 				"weight"		"500"
 				"range"			"0x0000 0x017F"
@@ -1979,7 +1979,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"36"
 				"weight"		"500"
 				"additive"		"0"
@@ -1990,7 +1990,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"30"
 				"weight"		"500"
 				"additive"		"0"
@@ -2001,7 +2001,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"28"
 				"weight"		"500"
 				"additive"		"0"
@@ -2030,7 +2030,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"22"
 				"weight"		"500"
 				"additive"		"0"
@@ -2041,7 +2041,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -2081,7 +2081,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"36"
 				"weight"		"500"
 				"additive"		"0"
@@ -2092,7 +2092,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"11"
 				"weight"		"600"
 				"additive"		"0"
@@ -2104,7 +2104,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"18"
 				"weight"		"400"
 				"additive"		"0"
@@ -2138,7 +2138,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
@@ -2150,7 +2150,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
@@ -2195,7 +2195,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -2206,7 +2206,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"13"
 				"weight"		"500"
 				"additive"		"0"
@@ -2217,7 +2217,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -2228,7 +2228,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -2239,7 +2239,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
@@ -2250,7 +2250,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"11"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -2260,7 +2260,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
@@ -2271,7 +2271,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -2282,7 +2282,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -2293,7 +2293,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"6"
 				"weight"		"500"
 				"additive"		"0"
@@ -2305,7 +2305,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"9"
 				"weight"		"500"
 				"additive"		"0"
@@ -2316,7 +2316,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"9"
 				"weight"		"500"
 				"additive"		"1"
@@ -2327,7 +2327,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"7"
 				"weight"		"0"
 				"additive"		"1"
@@ -2687,7 +2687,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"1"
@@ -2751,7 +2751,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"1"
@@ -2762,7 +2762,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"1"
@@ -2773,7 +2773,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"1"
@@ -2784,7 +2784,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"1"
@@ -2795,7 +2795,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"1"
@@ -2831,7 +2831,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"15"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -2844,7 +2844,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"9"
 				"weight"		"400"
 				"additive"		"0"
@@ -2856,7 +2856,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"11"
 				"weight"		"500"
 				"antialias" 	"1"
@@ -2867,7 +2867,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"11"
 				"weight"		"500"
 				"blur"			"3"
@@ -2880,7 +2880,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
