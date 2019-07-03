@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"bgcolor_override"	"25 25 25 240"
-		"border"			"CyanBorderThick"
+		"border"			"NoBorder"
 	}
 
 	"Container"
