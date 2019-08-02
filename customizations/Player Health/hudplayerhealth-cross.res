@@ -1,11 +1,7 @@
 "Resource/UI/HudPlayerHealth.res"
 {
 	// Player Health Data
-	"HudPlayerHealth"
-	{
-		"wide"			"0"
-		"tall"			"0"
-	}
+	//Change visible and enabled to "1" on "HPBorderPanel1" and "HPBorderPanel2" for team-colored cross.
 	"HPBorderPanel1"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -102,7 +98,6 @@
 		"tall"			"40"
 		"xpos_minmode"	"91"
 		"ypos_minmode"	"39"
-		"zpos_minmode"	"-1"
 		"wide_minmode"	"25"
 		"tall_minmode"	"25"
 	}

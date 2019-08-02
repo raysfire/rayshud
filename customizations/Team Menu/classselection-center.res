@@ -9,6 +9,11 @@
 		"font"			"CerbeticaBold32"
 	}
 	
+	"SidePanelBG"
+	{
+		"fillcolor"		"0 0 0 0"
+	}
+	
 	"scout"
 	{
 		"xpos"				"c81"
@@ -72,6 +77,7 @@
 	"EditLoadoutButton" [$WIN32]
 	{
 		"xpos"			"r180"
+		"wide"			"120"
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
 	}
