@@ -8,20 +8,6 @@ About
 
 A simplistic yet bold hud for TF2 made to cut out a lot of clutter included that of the stock hud. It includes both a 6s and 16v16 scoreboard that can be toggled by changing to and from the minimal mode, and a range of various vivid colors associated with both low health as well as ammo.
 
-Screenshots
---------
-
-* [Health/Ammo, Overheal, TargetID](http://puu.sh/188pJ)
-* [16v16 Scoreboard](http://puu.sh/188qq)
-* [6v6 Scoreboard](http://puu.sh/188qS)
-* [Low ammo, Killfeed](http://puu.sh/188r9)
-* [Charge Meter, Last Damage done location](http://puu.sh/188rV)
-* [Spectator TargetID](http://puu.sh/188tf)
-* [Tournament Spectator HUD, Inspect Panel, KOTH Timers](http://puu.sh/188wK)
-* [Capture the Flag HUD](http://puu.sh/188xO)
-* [Class Selection screen](http://puu.sh/19R5o)
-* [Team Selection screen](http://puu.sh/19R58)
-
 To Download
 --------
 
@@ -51,8 +37,7 @@ tf
 
 Help/Support
 --------
-* If you can't see player health as Spy or the Medic, disable floating TargetID health by inputting `tf_hud_target_id_disable_floating_health 1` into the console or disabling the option in Advanced Options.
-* If you've found a bug or have a suggestion, [open a ticket on GitHub](https://github.com/raysfire/rayshud/issues/new) or [make a post on the Steam Group Forums](https://steamcommunity.com/groups/rayshud/discussions).
+If you've found a bug or have a suggestion, [open a ticket on GitHub](https://github.com/raysfire/rayshud/issues/new) or [make a post on the Steam Group Forums](https://steamcommunity.com/groups/rayshud/discussions).
 
 Credits
 --------
@@ -64,4 +49,4 @@ Credits
 * Flame - If it weren't for your guide, I couldn't have made this at all. Thanks a million, man.
 * clovervidia - For the updated closed captions. Check his Steam Guide on CC [here](https://steamcommunity.com/sharedfiles/filedetails/?id=167785751).
 
-v2019.0406
+v2019.0802

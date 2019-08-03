@@ -50,7 +50,7 @@
 	"SteamWorkshopButton"
 	{
 		"label" 		""
-		"command" 		"engine OpenSteamWorkshopDialog"
+		"command"		"engine OpenSteamWorkshopDialog"
 		"subimage" 		"glyph_steamworkshop"
 		"tooltip" 		"Steam Workshop"
 	}
