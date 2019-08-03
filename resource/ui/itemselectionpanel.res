@@ -8,7 +8,7 @@
 		"ypos"			"0"
 		"zpos"			"500"
 		"wide"			"f0"
-		"tall"			"480"
+		"tall"			"400"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
