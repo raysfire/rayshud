@@ -1,2 +1,2 @@
-//#base "../../customizations/Main Menu/mainmenuoverride-classic.res"
-#base "../../customizations/Main Menu/mainmenuoverride.res"
+//#base "../../customizations/main_menu/mainmenuoverride-classic.res"
+#base "../../customizations/main_menu/mainmenuoverride.res"
