@@ -1,2 +1,2 @@
-//#base "../../customizations/Scoreboard/scoreboard-minimal.res"
-#base "../../customizations/Scoreboard/scoreboard.res"
+//#base "../../customizations/scoreboard/scoreboard-minimal.res"
+#base "../../customizations/scoreboard/scoreboard.res"

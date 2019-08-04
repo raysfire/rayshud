@@ -1,4 +1,4 @@
-//#base "../../customizations/Player Health/hudplayerhealth-broesel.res"
-//#base "../../customizations/Player Health/hudplayerhealth-cross.res"
-//#base "../../customizations/Player Health/hudplayerhealth-teambar.res"
-#base "../../customizations/Player Health/hudplayerhealth.res"
+//#base "../../customizations/player_health/hudplayerhealth-broesel.res"
+//#base "../../customizations/player_health/hudplayerhealth-cross.res"
+//#base "../../customizations/player_health/hudplayerhealth-teambar.res"
+#base "../../customizations/player_health/hudplayerhealth.res"
