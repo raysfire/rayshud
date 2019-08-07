@@ -983,7 +983,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"Cerbetica14"
-		"labelText"		"v2019.0802"
+		"labelText"		"v2019.0806"
 		"xpos"			"r57"
 		"ypos"			"r13"
 		"wide"			"80"
