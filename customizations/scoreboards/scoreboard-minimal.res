@@ -2,7 +2,7 @@
 {
 	"scores"
 	{
-		"medal_width"		"18"
+		"medal_width"	"18"
 	}
 	"BlueScoreBG"
 	{
@@ -63,7 +63,7 @@
 	}
 	"RedTeamScoreDropshadow"
 	{
-		"ypos"				"264"
+		"ypos"			"264"
 	}
 	
 	"RedTeamPlayerCount"

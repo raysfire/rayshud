@@ -17,8 +17,8 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"				"DarkGrey"
-		"infocus_bgcolor_override" 		"DarkGrey"
-		"outoffocus_bgcolor_override" 	"DarkGrey"
+		"infocus_bgcolor_override"		"DarkGrey"
+		"outoffocus_bgcolor_override"	"DarkGrey"
 		
 		"item_ypos"						"85"
 		"output_item_ypos"				"255"
@@ -449,7 +449,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"TanLight"
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}

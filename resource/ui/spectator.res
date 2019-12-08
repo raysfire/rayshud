@@ -93,7 +93,7 @@
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
-
+	
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -237,7 +237,7 @@
 			"brighttext"	"0"
 		}
 	}
-
+	
 	"spectator_extras"
 	{
 		"ControlName"	"EditablePanel"

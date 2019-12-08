@@ -56,8 +56,8 @@
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"CerbeticaBold32"
 		"fgcolor"		"TransparentBlack"
-		"xpos"			"-1"
-		"ypos"			"-1"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"3"
 		"wide"			"360"
 		"tall"			"38"
@@ -258,7 +258,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"ColorWhite"
 	}
 	
 	"NumberLabel2"
@@ -352,7 +352,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"ColorWhite"
 	}
 	
 	"NumberLabel3"
@@ -549,8 +549,8 @@
 		"fieldName"		"NumberLabel5"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TanLight"
-		"ypos"			"95"
 		"xpos"			"256"
+		"ypos"			"95"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -664,8 +664,8 @@
 		"fieldName"		"NumberLabel6BG"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TransparentBlack"
-		"ypos"			"96"
 		"xpos"			"311"
+		"ypos"			"96"
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"

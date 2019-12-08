@@ -539,8 +539,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Blank"
-					"offset" 	"1 0"
+					"color"		"Blank"
+					"offset"	"1 0"
 				}
 			}
 			Top
@@ -548,15 +548,15 @@ Scheme
 				"1"
 				{
 					"color"		"Blank"
-					"offset" 	"0 0"
+					"offset"	"0 0"
 				}
 			}
 			Bottom
 			{
 				"1"
 				{
-					"color" 	"Blank"
-					"offset" 	"0 0"
+					"color"		"Blank"
+					"offset"	"0 0"
 				}
 			}
 		}
@@ -568,32 +568,32 @@ Scheme
 			{
 				"1"
 				{
-					"color" 	"Blank"
-					"offset" 	"0 1"
+					"color"		"Blank"
+					"offset"	"0 1"
 				}
 			}
 			Right
 			{
 				"1"
 				{
-					"color" 	"Blank"
-					"offset" 	"1 0"
+					"color"		"Blank"
+					"offset"	"1 0"
 				}
 			}
 			Top
 			{
 				"1"
 				{
-					"color" 	"Blank"
-					"offset" 	"0 0"
+					"color"		"Blank"
+					"offset"	"0 0"
 				}
 			}
 			Bottom
 			{
 				"1"
 				{
-					"color" 	"Blank"
-					"offset" 	"0 0"
+					"color"		"Blank"
+					"offset"	"0 0"
 				}
 			}
 		}

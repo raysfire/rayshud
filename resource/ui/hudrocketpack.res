@@ -28,10 +28,10 @@
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"1"
-		"visible_minmode" "0"
 		"enabled"		"1"
 		"image"			"../hud/pyro_jetpack_off2"
 		"scaleImage"	"1"	
+		"visible_minmode"	"0"
 	}
 
 	"ItemEffectMeterLabel"

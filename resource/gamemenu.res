@@ -1,6 +1,5 @@
 "GameMenu"
 {
-	// MAIN MENU
 	"CharacterSetupButton"
 	{
 		"label"			"Inventory"
@@ -18,7 +17,7 @@
 	}
 	"TF2SettingsButton"
 	{
-		"label"			"Adv. Options"
+		"label" 		"Adv. Options"
 		"command"		"opentf2options"
 	}
 	"AchievementsButton"
@@ -60,7 +59,7 @@
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage"		"icon_checkbox"
-		"tooltip"		"Call Vote"
+		"tooltip"		"#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{
@@ -68,22 +67,22 @@
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 		"subimage"		"glyph_muted"
-		"tooltip"		"Mute Players"
-	}
-	"ReportPlayerButton"
-	{
-		"label"			""
-		"command"		"OpenReportPlayerDialog"
-		"OnlyInGame"	"1"
-		"subimage"		"glyph_commentary"
-		"tooltip"		"Report Player"
+		"tooltip"		"#MMenu_MutePlayers"
 	}
 	"RequestCoachButton"
 	{
 		"label"			""
 		"command"		"engine cl_coach_find_coach"
 		"OnlyInGame"	"1"
-		"subimage" 		"icon_whistle"
-		"tooltip" 		"Request a Coach"
+		"subimage"		"glyph_tutorial"
+		"tooltip"		"#MMenu_RequestCoach"
+	}
+	"ReportPlayerButton"
+	{
+		"label"			""
+		"command"		"OpenReportPlayerDialog"
+		"OnlyInGame"	"1"
+		"subimage"		"glyph_quest_icon"
+		"tooltip"		"#MMenu_ReportPlayer"
 	}
 }

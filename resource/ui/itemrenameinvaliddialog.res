@@ -98,7 +98,7 @@
 			"allow_rot"				"0"
 		}
 	}
-
+	
 	"SubjectBG"
 	{
 		"ControlName"		"CExLabel"
@@ -199,7 +199,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override"	"235 226 202 255"
+		"fgcolor_override"	"TanLight"
 	}
 
 	"WarningLabel"

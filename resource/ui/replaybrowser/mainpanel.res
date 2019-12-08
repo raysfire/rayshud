@@ -23,9 +23,9 @@
 		"title_font"					"CerbeticaBold36"
 		"titletextinsetX"				"40"
 		"titletextinsetY"				"0"
-		"titlebarfgcolor_override"			"HudOffWhite"
+		"titlebarfgcolor_override"		"HudOffWhite"
 		"titlebardisabledfgcolor_override"	"HudOffWhite"
-		"titlebarbgcolor_override"			"DarkGrey"
+		"titlebarbgcolor_override"		"DarkGrey"
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
 	}

@@ -11,7 +11,7 @@ Scheme
 		"ColorLime"					"128 255 0 255"
 		"ColorGreen"				"0 255 0 255"
 		"ColorTeal"					"0 255 128 255"
-		"ColorCyan"					"15 255 255 255"
+		"ColorCyan"					"72 255 255 255"
 		"ColorAqua"					"0 128 255 255"
 		"ColorBlue"					"0 0 255 255"
 		"ColorPurple"				"128 0 255 255"
@@ -159,7 +159,7 @@ Scheme
 		
 		"DisguiseMenuIconRed"					"192 56 63 255"
 		"DisguiseMenuIconBlue"					"92 128 166 255"
-
+		
 		"ProgressOffWhiteTransparent"			"251 235 202 128"
  		"MatchmakingDialogTitleColor"			"15 255 255 255"
  		"MatchmakingMenuItemBackground"			"46 43 42 255"
@@ -215,7 +215,7 @@ Scheme
 		"ItemRarityMythical_GreyedOut"			"45 24 85 255"
 		"ItemRarityLegendary_GreyedOut"			"70 15 77 255"
 		"ItemRarityAncient_GreyedOut"			"78 25 25 255"
-
+		
 		"QualityColorNormal_GreyedOut"			"44 44 44 255"
 		"QualityColorrarity1_GreyedOut"			"20 29 21 255"
 		"QualityColorrarity2_GreyedOut"			"35 33 19 255"

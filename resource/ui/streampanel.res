@@ -121,6 +121,7 @@
 		"textAlignment"	"west"
 		"xpos"			"90"
 		"ypos"			"31"
+		"zpos"			"3"
 		"wide"			"205"
 		"tall"			"12"
 		"autoResize"	"0"
@@ -128,6 +129,28 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"TanLight"
+	}
+	"ViewerCountLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ViewerCountLabelShadow"
+		"font"			"HudFontSmallest"
+		"labelText"		"%viewer_count%"
+		"textAlignment"	"west"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"2"
+		"wide"			"205"
+		"tall"			"12"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"TransparentBlack"
+		
+		"pin_to_sibling"		"ViewerCountLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
 	"Stream_URLButton"
@@ -151,12 +174,11 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
+		"border_armed"		"TeamMenuBorder"
+		
 		"defaultFgColor_override"	"Transparent"
 		"armedFgColor_override" 	"Transparent"
-		
-		"defaultBgColor_override" 	"Transparent"
+		"defaultBgColor_override"	"Transparent"
 		"armedBgColor_override"		"Transparent"
-		
-		"border_armed"		"TeamMenuBorder"
 	}
 }

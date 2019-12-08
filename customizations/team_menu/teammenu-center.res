@@ -2,11 +2,11 @@
 {
 	"MainBG"
 	{
-		"fillcolor"		"Transparent"
+		"fillcolor"		"0 0 0 0"
 	}
 	"SidePanelBG"
 	{
-		"fillcolor"		"Transparent"
+		"fillcolor"		"0 0 0 0"
 	}
 	"AutojoinBackground"
 	{

@@ -90,7 +90,7 @@
 			"enabled"		"1"
 			"labelText"		"%itemname%"
 			"textAlignment"	"south"
-			"fgcolor"		"235 226 202 255"
+			"fgcolor"		"TanLight"
 			"centerwrap"	"1"
 		}
 		
@@ -131,7 +131,7 @@
 			"labelText"		"#ItemPanelEquipped"
 			"textAlignment"	"center"
 			"fgcolor"		"LightRed"
-			"bgcolor_override"		"0 0 0 255"
+			"bgcolor_override"		"ColorBlack"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -165,7 +165,7 @@
 			"labelText"		""
 			"textAlignment"	"center"
 			"fgcolor"		"LightRed"
-			"bgcolor_override"		"0 0 0 255"
+			"bgcolor_override"		"ColorBlack"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -304,8 +304,8 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
+				"inventory_image_type"	"1"
 			}
-			
 			"use_item_sounds"	"1"
 		}
 	}

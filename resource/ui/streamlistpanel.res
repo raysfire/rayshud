@@ -60,13 +60,13 @@
 		"Command"			"hide_streams"
 		"paintbackground"	"0"
 		
-		//"defaultFgColor_override" "235 226 202 255"
+		//"defaultFgColor_override" "TanLight"
 		//"armedFgColor_override" "TanDarker"
 		"defaultFgColor_override" "TanLight"
 		"armedFgColor_override" "ColorCyan"
 		"depressedFgColor_override" "TanLight"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"TanLight"
 		"image_armedcolor"	"LightRed"
 		
 		"SubImage"
@@ -204,9 +204,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"defaultFgColor_override" "235 226 202 255"
+		"defaultFgColor_override" "TanLight"
 		"defaultBgColor_override" "TanDarker"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "235 226 202 255"
+		"armedFgColor_override" "TanLight"
+		"depressedFgColor_override" "TanLight"
 	}
 }

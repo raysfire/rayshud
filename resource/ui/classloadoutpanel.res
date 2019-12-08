@@ -15,8 +15,8 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"				"DarkGrey"
-		"infocus_bgcolor_override" 		"DarkGrey"
-		"outoffocus_bgcolor_override" 	"DarkGrey"
+		"infocus_bgcolor_override"		"DarkGrey"
+		"outoffocus_bgcolor_override"	"DarkGrey"
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
@@ -342,8 +342,8 @@
 	
 	"BlueButton"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"BlueButton"
+		"ControlName"		"CExImageButton"
+		"fieldName"			"BlueButton"
 		"xpos"				"c-85"
 		"ypos"				"22"
 		"zpos"				"12"

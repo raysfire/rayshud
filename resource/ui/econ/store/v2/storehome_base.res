@@ -18,6 +18,7 @@
 		"bgcolor_override"				"DarkGrey"
 		"infocus_bgcolor_override"		"DarkGrey"
 		"outoffocus_bgcolor_override"	"DarkGrey"
+		
 		"item_controls_xoffset"	"2"
 		"item_controls_yoffset"	"2"
 		"max_cart_model_panels"	"8"
@@ -54,7 +55,7 @@
 			"bgcolor_override"		"25 25 25 255"
 			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"0"
-			"paintborder"			"0"
+			"paintborder"	"0"
 			"model_xpos"	"24"
 			"model_ypos"	"6"
 			"model_wide"	"71"
@@ -76,7 +77,6 @@
 				"allow_rot"				"0"
 				"inventory_image_type"	"1"
 			}
-			
 			"use_item_sounds" "1"		
 		}
 		
@@ -106,10 +106,10 @@
 			"wide"			"32"
 			"tall"			"25"
 			"visible"		"0"
-			"bgcolor_override"		"0 0 0 255"
+			"bgcolor_override"		"ColorBlack"
 			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"0"
-			"paintborder"			"0"
+			"paintborder"	"0"
 			
 			"model_xpos"	"2"
 			"model_ypos"	"2"

@@ -52,13 +52,13 @@
 				"border_armed"		""
 				"paintbackground"	"0"
 				
-				"defaultFgColor_override"	"TanLight"
-				"armedFgColor_override"		"Button Color"
-				"depressedFgColor_override" "Button Color"
+				"defaultFgColor_override"	"235 226 202 255"
+				"armedFgColor_override"		"72 255 255 255"
+				"depressedFgColor_override" "72 255 255 255"
 				
-				"image_drawcolor"	"TanLight"
-				"image_armedcolor"	"Button Color"
-				"image_depressedcolor" "Button Color"
+				"image_drawcolor"	"235 226 202 255"
+				"image_armedcolor"	"72 255 255 255"
+				"image_depressedcolor" "72 255 255 255"
 
 				"SubImage"
 				{
@@ -130,8 +130,8 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"Transparent"
-		"noitem_textcolor"		"TextColor"
+		"bgcolor_override"		"0 0 0 0"
+		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		"border"		"MainMenuBGBorder"
@@ -156,7 +156,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"TextColor"
+			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"1"
 		}
 	}
@@ -230,7 +230,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"TransparentPanelBG"
+		"fillcolor"		"25 25 25 148"
 	}
 	
 	"HudName"
@@ -259,12 +259,12 @@
 		"sound_depressed"	""
 		"sound_released"	"UI/wooo_tree.wav"
 		
-		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "Button Color"
-		"depressedFgColor_override" "Button Color"
+		"defaultFgColor_override" "235 226 202 255"
+		"armedFgColor_override" "72 255 255 255"
+		"depressedFgColor_override" "72 255 255 255"
 		
-		"image_drawcolor"	"TanLight"
-		"image_armedcolor"	"Button Color"
+		"image_drawcolor"	"235 226 202 255"
+		"image_armedcolor"	"72 255 255 255"
 		
 		"SubImage"
 		{
@@ -331,7 +331,7 @@
 		"paintbackground"	"0"
 		"paintborder"		"0"
 		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"255 255 255 255"
+		"image_armedcolor"	"72 255 255 255"
 
 		"SubImage"
 		{
@@ -404,7 +404,7 @@
 		"textinsety"	"10"
 
 		"font"			"HudFontSmallestBold"
-		"fgcolor_override"	"TanLight"
+		"fgcolor_override"	"235 226 202 255"
 		"labelText"		"#TF_MM_NoGC_Rank"
 		"textAlignment"	"north-west"
 		"use_proportional_insets"	"1"
@@ -470,7 +470,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"TextColor"
+			"fgcolor_override"	"117 107 94 255"
 			"wrap"			"1"
 		}
 		
@@ -557,9 +557,9 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" 	"TanLight"
-			"armedFgColor_override"		"Button Color"
-			"depressedFgColor_override"	"Button Color"
+			"defaultFgColor_override" 	"235 226 202 255"
+			"armedFgColor_override"		"72 255 255 255"
+			"depressedFgColor_override"	"72 255 255 255"
 			
 			"image_drawcolor"			"235 226 202 255"
 			"image_armedcolor"			"72 255 255 255"
@@ -625,9 +625,9 @@
 			"paintbackground"	"0"
 			"paintborder"		"0"
 			
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"Button Color"
-			"depressedFgColor_override"	"Button Color"
+			"defaultFgColor_override"	"235 226 202 255"
+			"armedFgColor_override"		"72 255 255 255"
+			"depressedFgColor_override"	"72 255 255 255"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"72 255 255 255"
@@ -693,9 +693,9 @@
 			"paintbackground"	"0"
 			"paintborder"		"0"
 			
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"Button Color"
-			"depressedFgColor_override"	"Button Color"
+			"defaultFgColor_override"	"235 226 202 255"
+			"armedFgColor_override"		"72 255 255 255"
+			"depressedFgColor_override"	"72 255 255 255"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"72 255 255 255"
@@ -788,11 +788,11 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"Button Color"
-			"depressedFgColor_override"	"Button Color"
-			"image_drawcolor"			"TanLight"
-			"image_armedcolor"			"Button Color"
+			"defaultFgColor_override"	"235 226 202 255"
+			"armedFgColor_override"		"72 255 255 255"
+			"depressedFgColor_override"	"72 255 255 255"
+			"image_drawcolor"			"235 226 202 255"
+			"image_armedcolor"			"72 255 255 255"
 			
 			"SubImage"
 			{
@@ -825,7 +825,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"TanDarker"
+			"fgcolor_override"	"46 43 42 255"
 			"wrap"			"1"
 		}
 		
@@ -838,7 +838,7 @@
 			"wide"			"210"
 			"tall"			"135"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"TextColor"
+			"fgcolor_override"	"117 107 94 255"
 			
 			"Notifications_Control"
 			{
@@ -876,7 +876,7 @@
 		"tall"			"195"
 		"visible"		"1"
 		"border"			"NoBorder"
-		"bgcolor_override"	"TransparentPanelBG"
+		"bgcolor_override"	"25 25 25 148"
 
 		"TitleLabel"
 		{
@@ -954,7 +954,7 @@
 
 				"Slider"
 				{
-					"fgcolor_override"	"TanDark"
+					"fgcolor_override"	"117 107 94 255"
 				}
 		
 				"UpButton"
@@ -1033,7 +1033,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"242 242 242 255"
 	}
 	
 	"CharacterSetupButton"
@@ -1072,15 +1072,15 @@
 			"border_armed"		"MainMenuTabs"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
-			"depressedFgColor_override" "TanLight"
+			"defaultFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "235 226 202 255"
+			"depressedFgColor_override" "235 226 202 255"
 			
-			"defaultBgColor_override" "Transparent"
-			"armedBgColor_override" "TransparentPanelBG"
-			"depressedBgColor_override" "TransparentPanelBG"
+			"defaultBgColor_override" "0 0 0 0"
+			"armedBgColor_override" "25 25 25 148"
+			"depressedBgColor_override" "25 25 25 148"
 			
-			"image_drawcolor"	"TextColor"
+			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
 			
 			"SubImage"
@@ -1135,15 +1135,15 @@
 			"border_armed"		"MainMenuTabs"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"TanLight"
-			"depressedFgColor_override"	"TanLight"
+			"defaultFgColor_override"	"235 226 202 255"
+			"armedFgColor_override"		"235 226 202 255"
+			"depressedFgColor_override"	"235 226 202 255"
 			
-			"defaultBgColor_override" "Transparent"
-			"armedBgColor_override" "TransparentPanelBG"
-			"depressedBgColor_override" "TransparentPanelBG"
+			"defaultBgColor_override" "0 0 0 0"
+			"armedBgColor_override" "25 25 25 148"
+			"depressedBgColor_override" "25 25 25 148"
 			
-			"image_drawcolor"	"TextColor"
+			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
 			
 			"SubImage"
@@ -1199,15 +1199,15 @@
 			"border_armed"		"MainMenuTabs"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"TanLight"
-			"depressedFgColor_override" "TanLight"
+			"defaultFgColor_override"	"235 226 202 255"
+			"armedFgColor_override"		"235 226 202 255"
+			"depressedFgColor_override" "235 226 202 255"
 			
-			"defaultBgColor_override" "Transparent"
-			"armedBgColor_override" "TransparentPanelBG"
-			"depressedBgColor_override" "TransparentPanelBG"
+			"defaultBgColor_override" "0 0 0 0"
+			"armedBgColor_override" "25 25 25 148"
+			"depressedBgColor_override" "25 25 25 148"
 			
-			"image_drawcolor"	"TextColor"
+			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
 			
 			"SubImage"
@@ -1263,15 +1263,15 @@
 			"border_armed"		"MainMenuTabs"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"TanLight"
-			"depressedFgColor_override"	"TanLight"
+			"defaultFgColor_override"	"235 226 202 255"
+			"armedFgColor_override"		"235 226 202 255"
+			"depressedFgColor_override"	"235 226 202 255"
 			
-			"defaultBgColor_override" "Transparent"
-			"armedBgColor_override" "TransparentPanelBG"
-			"depressedBgColor_override" "TransparentPanelBG"
+			"defaultBgColor_override" "0 0 0 0"
+			"armedBgColor_override" "25 25 25 148"
+			"depressedBgColor_override" "25 25 25 148"
 			
-			"image_drawcolor"	"TextColor"
+			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
 			
 			"SubImage"
@@ -1335,9 +1335,9 @@
 			"paintbackground"	"0"
 			"paintborder"		"0"
 			
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"defaultFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "72 255 255 255"
+			"depressedFgColor_override" "72 255 255 255"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"72 255 255 255"
@@ -1402,9 +1402,9 @@
 			"paintbackground"	"0"
 			"paintborder"		"0"
 			
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"defaultFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "72 255 255 255"
+			"depressedFgColor_override" "72 255 255 255"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"72 255 255 255"
@@ -1461,15 +1461,15 @@
 			"border_armed"		"MainMenuTabs"
 			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
-			"depressedFgColor_override" "TanLight"
+			"defaultFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "235 226 202 255"
+			"depressedFgColor_override" "235 226 202 255"
 			
-			"defaultBgColor_override" "Transparent"
-			"armedBgColor_override" "TransparentPanelBG"
-			"depressedBgColor_override" "TransparentPanelBG"
+			"defaultBgColor_override" "0 0 0 0"
+			"armedBgColor_override" "25 25 25 148"
+			"depressedBgColor_override" "25 25 25 148"
 			
-			"image_drawcolor"	"TextColor"
+			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
 			
 			"SubImage"
@@ -1532,9 +1532,9 @@
 			"paintbackground"	"0"
 			"paintborder"		"0"
 			
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"defaultFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "72 255 255 255"
+			"depressedFgColor_override" "72 255 255 255"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"72 255 255 255"
@@ -1600,9 +1600,9 @@
 			"paintbackground"	"0"
 			"paintborder"		"0"
 			
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"defaultFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "72 255 255 255"
+			"depressedFgColor_override" "72 255 255 255"
 
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"72 255 255 255"
@@ -1668,9 +1668,9 @@
 			"paintbackground"	"0"
 			"paintborder"		"0"
 			
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"defaultFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "72 255 255 255"
+			"depressedFgColor_override" "72 255 255 255"
 
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"72 255 255 255"
@@ -1735,9 +1735,9 @@
 			"paintbackground"	"0"
 			"paintborder"		"0"
 			
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"defaultFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "72 255 255 255"
+			"depressedFgColor_override" "72 255 255 255"
 
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"72 255 255 255"
@@ -1803,9 +1803,9 @@
 			"paintbackground"	"0"
 			"paintborder"		"0"
 			
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"defaultFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "72 255 255 255"
+			"depressedFgColor_override" "72 255 255 255"
 
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"72 255 255 255"
@@ -1871,9 +1871,9 @@
 			"paintbackground"			"0"
 			"paintborder"				"0"
 			
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"Button Color"
-			"depressedFgColor_override"	"Button Color"
+			"defaultFgColor_override"	"235 226 202 255"
+			"armedFgColor_override"		"72 255 255 255"
+			"depressedFgColor_override"	"72 255 255 255"
 
 			"image_drawcolor"			"235 226 202 255"
 			"image_armedcolor"			"72 255 255 255"
@@ -1922,15 +1922,15 @@
 		"border_armed"		"MainMenuTabs"
 		"paintbackground"	"1"
 		
-		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "TanLight"
-		"depressedFgColor_override" "TanLight"
+		"defaultFgColor_override" "235 226 202 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "235 226 202 255"
 		
-		"defaultBgColor_override" "Transparent"
-		"armedBgColor_override" "TransparentPanelBG"
-		"depressedBgColor_override" "TransparentPanelBG"
+		"defaultBgColor_override" "0 0 0 0"
+		"armedBgColor_override" "25 25 25 148"
+		"depressedBgColor_override" "25 25 25 148"
 		
-		"image_drawcolor"	"TextColor"
+		"image_drawcolor"	"117 107 94 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"

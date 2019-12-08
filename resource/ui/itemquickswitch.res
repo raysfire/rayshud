@@ -16,6 +16,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"DarkGrey"
+		
 		"itempanel_xpos"		"0"
 		"itempanel_ydelta"		"0"
 		"border"				"NoBorder"
@@ -58,7 +59,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 128 255 255"
 	}
-
+	
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"

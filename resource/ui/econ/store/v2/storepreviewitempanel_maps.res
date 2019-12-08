@@ -508,7 +508,7 @@
 		"paintbackground"	"0"
 		
 		"image_drawcolor"	"White"
-		"image_armedcolor"	"255 0 0 255"
+		"image_armedcolor"	"ColorRed"
 		
 		"SubImage"
 		{

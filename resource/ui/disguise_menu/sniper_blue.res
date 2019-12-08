@@ -13,7 +13,7 @@
 		"fgcolor"			"HUDBlueTeamSolid"
 		"labelText"			"2"
 	}
-
+	
 	"NumberLabel"
 	{
 		"fgcolor"			"HUDBlueTeamSolid"

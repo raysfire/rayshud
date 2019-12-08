@@ -2,28 +2,28 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"					"12"
-		"delta_item_start_y"			"130"
-		"delta_item_end_y"				"150"
+		"delta_item_x"			"12"
+		"delta_item_start_y"	"130"
+		"delta_item_end_y"		"150"
+		"PositiveColor"			"ColorGreen"
+		"NegativeColor"			"ColorRed"
+		"delta_lifetime"		"1.5"
+		"delta_item_font"		"Cerbetica20"
 		"delta_item_start_y_minmode"	"75"
 		"delta_item_end_y_minmode"		"105"
-		"PositiveColor"					"0 255 0 255"
-		"NegativeColor"					"255 0 0 255"
-		"delta_lifetime"				"1.5"
-		"delta_item_font"				"Cerbetica20"
 		"delta_item_font_minmode"		"Cerbetica16"
 	}
 	"CHudAccountPanelOutline"
 	{
-		"delta_item_x"					"0"
-		"delta_item_start_y"			"120"
-		"delta_item_end_y"				"150"
+		"delta_item_x"			"0"
+		"delta_item_start_y"	"120"
+		"delta_item_end_y"		"150"
+		"PositiveColor"			"ColorGreen"
+		"NegativeColor"			"ColorRed"
+		"delta_lifetime"		"1.5"
+		"delta_item_font"		"Cerbetica20"
 		"delta_item_start_y_minmode"	"75"
 		"delta_item_end_y_minmode"		"105"
-		"PositiveColor"					"0 255 0 255"
-		"NegativeColor"					"255 0 0 255"
-		"delta_lifetime"				"1.5"
-		"delta_item_font"				"Cerbetica20"
 		"delta_item_font_minmode"		"Cerbetica16"
 	}
 	
@@ -60,10 +60,11 @@
 		"icon"			"ico_metal"
 		"iconColor"		"ProgressOffWhite"
 	}
-	"MetalIconBackground"	
+	
+	"MetalIconShadow"
 	{
 		"ControlName"	"CIconPanel"
-		"fieldName"		"MetalIconBackground"
+		"fieldName"		"MetalIconShadow"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"1"

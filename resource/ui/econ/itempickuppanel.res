@@ -61,7 +61,7 @@
 		"wide"			"36"
 		"tall"			"36"
 		"visible"		"1"
-		"bgcolor_override" "0 0 0 255"
+		"bgcolor_override" "ColorBlack"
 	}
 	
 	"classimage"
@@ -312,8 +312,8 @@
 		"defaultBgColor_override" "TextColor"
 		"armedBgColor_override" "145 73 59 255"
 		"depressedBgColor_override" "TextColor"
-		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"235 226 202 255"		
+		"image_drawcolor"	"TanLight"
+		"image_armedcolor"	"TanLight"		
 		
 		"SubImage"
 		{
@@ -361,7 +361,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"TanLight"
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}
@@ -406,8 +406,8 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		"wrap"				"0"
-		"fgcolor_override"	"235 226 202 255"
-		"bgcolor_override"	"0 0 0 255"
+		"fgcolor_override"	"TanLight"
+		"bgcolor_override"	"ColorBlack"
 		"labelText"			"Enter Score Here"
 		"textAlignment"		"center"
 	}

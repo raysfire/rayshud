@@ -29,7 +29,7 @@
 		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
-		"textAlignment"		"west"	
+		"textAlignment"		"west"
 		"labelText"			"Remaining"
 	}
 	
@@ -63,7 +63,7 @@
 		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
-		"textAlignment"		"east"	
+		"textAlignment"		"east"
 		"labelText"			"%currency%"
 	}
 }

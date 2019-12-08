@@ -1,24 +1,15 @@
-#base "../tele_entrance_inactive.res"
+#base "../base_inactive.res"
 
 "Resource/UI/build_menu/tele_entrance_inactive.res"
 {
 	"ItemNameLabel"
 	{
-		"fgcolor"			"ColorGreen"
-	}
-	
-	"NotBuiltLabel"
-	{
-		"fgcolor"			"ColorGreen"
-	}
-	
-	"UnavailableLabel"
-	{
-		"fgcolor"			"ColorGreen"
+		"labelText"			"#TF_Object_Tele_Entrance_360"
+		"fgcolor_override"	"ColorRed"
 	}
 	
 	"NumberLabel"
 	{
-		"fgcolor"			"ColorGreen"
+		"fgcolor_override"	"ColorRed"
 	}
 }

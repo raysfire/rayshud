@@ -5,7 +5,7 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 		Alpha	"0"					Linear 0.2 0.4
 	
 	Animate PlayerStatusHealthValue				FgColor "Health Buff" 		Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpectator 	FgColor "Health Buff" 		Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpectator	FgColor "Health Buff" 		Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel 	FgColor "Health Buff" 		Accel 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop			0.4
@@ -13,35 +13,35 @@ event HudHealthBonusPulse
 
 event HudHealthBonusPulseStop
 {
+	StopEvent HudHealthBonusPulse				0.0
+	StopEvent HudHealthBonusPulseLoop			0.0
+	
 	Animate PlayerStatusHealthValue				FgColor "Health Normal" 	Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpectator 	FgColor "Health Normal" 	Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel 	FgColor "Health Normal" 	Accel 0.0 0.0
-	
-	StopEvent HudHealthBonusPulse 				0.0
-	StopEvent HudHealthBonusPulseLoop 			0.0
 }
 //==================================================================================
 // Low Health Pulse
 event HudHealthDyingPulse
 {
+	RunEvent HudHealthDyingPulseLoop			0.4
+	
 	Animate	PlayerStatusHealthBonusImage 		Alpha	"255"				Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 		Alpha	"0"					Linear 0.2 0.2
 	
 	Animate PlayerStatusHealthValue				FgColor	"Health Hurt" 		Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpectator 	FgColor "Health Hurt" 		Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel	FgColor "Health Hurt" 		Accel 0.0 0.0
-	
-	RunEvent HudHealthDyingPulseLoop			0.4
 }
 
 event HudHealthDyingPulseStop
 {
+	StopEvent HudHealthDyingPulse 				0.0
+	StopEvent HudHealthDyingPulseLoop 			0.0
+	
 	Animate PlayerStatusHealthValue				FgColor	"Health Normal" 	Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpectator 	FgColor "Health Normal" 	Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel	FgColor "Health Normal" 	Accel 0.0 0.0
-	
-	StopEvent HudHealthDyingPulse 				0.0
-	StopEvent HudHealthDyingPulseLoop 			0.0
 }
 //==================================================================================
 // Low Ammo Pulse
@@ -59,12 +59,12 @@ event HudLowAmmoPulse
 
 event HudLowAmmoPulseStop
 {
+	StopEvent HudLowAmmoPulse 				0.0
+	StopEvent HudLowAmmoPulseLoop 			0.0
+	
 	Animate AmmoInClip						FgColor	"Ammo In Clip"				Accel 0.0 0.0
 	Animate AmmoInReserve					FgColor	"Ammo In Reserve"			Accel 0.0 0.0
 	Animate AmmoNoClip						FgColor	"Ammo In Clip"				Accel 0.0 0.0
-
-	StopEvent HudLowAmmoPulse 				0.0
-	StopEvent HudLowAmmoPulseLoop 			0.0
 }
 //==================================================================================
 // Ubercharge Meters
@@ -156,6 +156,15 @@ event HudSpyDisguiseFadeOut
 {
 //	RunEvent HudSpyDisguiseChanged		0.0
 //	Animate PlayerStatusSpyImage			Alpha	"0"							Linear 0.9	0.1
+}
+//==================================================================================
+
+event HudSnapShotReminderIn
+{
+    RunEvent HudHealthDyingPulseStop 	10.0
+    RunEvent HudHealthBonusPulseStop 	10.0
+    RunEvent HudLowAmmoPulseStop 		10.0
+    RunEvent HudMedicChargedStop 		10.0
 }
 //==================================================================================
 event HudReadyPulse

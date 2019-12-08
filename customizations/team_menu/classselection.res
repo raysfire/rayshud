@@ -45,7 +45,7 @@
 		"labelText"		"#TF_SelectAClass"
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold28"
-		"fgcolor"		"HudOffWhite"
+		"fgcolor"		"200 187 161 255"
 	}
 	
 	"SidePanelBG"
@@ -85,11 +85,11 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"Button Color"
-		"depressedFgColor_override" "TanLight"
-		"selectedFgColor_override" 	"Button Color"
+		"fgcolor"					"235 226 202 255"
+		"defaultFgColor_override"	"235 226 202 255"
+		"armedFgColor_override"		"72 255 255 255"
+		"depressedFgColor_override" "235 226 202 255"
+		"selectedFgColor_override" 	"72 255 255 255"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -122,11 +122,11 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"Button Color"
-		"depressedFgColor_override" "TanLight"
-		"selectedFgColor_override" 	"Button Color"
+		"fgcolor"					"235 226 202 255"
+		"defaultFgColor_override"	"235 226 202 255"
+		"armedFgColor_override"		"72 255 255 255"
+		"depressedFgColor_override" "235 226 202 255"
+		"selectedFgColor_override" 	"72 255 255 255"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -159,11 +159,11 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"Button Color"
-		"depressedFgColor_override" "TanLight"
-		"selectedFgColor_override" 	"Button Color"
+		"fgcolor"					"235 226 202 255"
+		"defaultFgColor_override"	"235 226 202 255"
+		"armedFgColor_override"		"72 255 255 255"
+		"depressedFgColor_override" "235 226 202 255"
+		"selectedFgColor_override" 	"72 255 255 255"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -196,11 +196,11 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"Button Color"
-		"depressedFgColor_override" "TanLight"
-		"selectedFgColor_override" 	"Button Color"
+		"fgcolor"					"235 226 202 255"
+		"defaultFgColor_override"	"235 226 202 255"
+		"armedFgColor_override"		"72 255 255 255"
+		"depressedFgColor_override" "235 226 202 255"
+		"selectedFgColor_override" 	"72 255 255 255"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -233,11 +233,11 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"Button Color"
-		"depressedFgColor_override" "TanLight"
-		"selectedFgColor_override" 	"Button Color"
+		"fgcolor"					"235 226 202 255"
+		"defaultFgColor_override"	"235 226 202 255"
+		"armedFgColor_override"		"72 255 255 255"
+		"depressedFgColor_override" "235 226 202 255"
+		"selectedFgColor_override" 	"72 255 255 255"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -270,11 +270,11 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"Button Color"
-		"depressedFgColor_override" "TanLight"
-		"selectedFgColor_override" 	"Button Color"
+		"fgcolor"					"235 226 202 255"
+		"defaultFgColor_override"	"235 226 202 255"
+		"armedFgColor_override"		"72 255 255 255"
+		"depressedFgColor_override" "235 226 202 255"
+		"selectedFgColor_override" 	"72 255 255 255"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -307,11 +307,11 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"Button Color"
-		"depressedFgColor_override" "TanLight"
-		"selectedFgColor_override" 	"Button Color"
+		"fgcolor"					"235 226 202 255"
+		"defaultFgColor_override"	"235 226 202 255"
+		"armedFgColor_override"		"72 255 255 255"
+		"depressedFgColor_override" "235 226 202 255"
+		"selectedFgColor_override" 	"72 255 255 255"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -344,11 +344,11 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"Button Color"
-		"depressedFgColor_override" "TanLight"
-		"selectedFgColor_override" 	"Button Color"
+		"fgcolor"					"235 226 202 255"
+		"defaultFgColor_override"	"235 226 202 255"
+		"armedFgColor_override"		"72 255 255 255"
+		"depressedFgColor_override" "235 226 202 255"
+		"selectedFgColor_override" 	"72 255 255 255"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -381,11 +381,11 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"Button Color"
-		"depressedFgColor_override" "TanLight"
-		"selectedFgColor_override" 	"Button Color"
+		"fgcolor"					"235 226 202 255"
+		"defaultFgColor_override"	"235 226 202 255"
+		"armedFgColor_override"		"72 255 255 255"
+		"depressedFgColor_override" "235 226 202 255"
+		"selectedFgColor_override" 	"72 255 255 255"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -418,11 +418,11 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"Button Color"
-		"depressedFgColor_override" "TanLight"
-		"selectedFgColor_override" 	"Button Color"
+		"fgcolor"					"235 226 202 255"
+		"defaultFgColor_override"	"235 226 202 255"
+		"armedFgColor_override"		"72 255 255 255"
+		"depressedFgColor_override" "235 226 202 255"
+		"selectedFgColor_override" 	"72 255 255 255"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -453,11 +453,11 @@
 		"Command"		"openloadout"
 		"font"			"CerbeticaBold14"
 		
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"Button Color"
-		"depressedFgColor_override" "TanLight"
-		"selectedFgColor_override" 	"Button Color"
+		"fgcolor"					"235 226 202 255"
+		"defaultFgColor_override"	"235 226 202 255"
+		"armedFgColor_override"		"72 255 255 255"
+		"depressedFgColor_override" "235 226 202 255"
+		"selectedFgColor_override" 	"72 255 255 255"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -483,13 +483,13 @@
 		"Command"		"vguicancel"
 		"font"			"CerbeticaBold14"
 		"paintbackground" "0"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"235 226 202 255"
 		
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"Button Color"
-		"depressedFgColor_override" "TanLight"
-		"selectedFgColor_override" 	"Button Color"
+		"fgcolor"					"235 226 202 255"
+		"defaultFgColor_override"	"235 226 202 255"
+		"armedFgColor_override"		"72 255 255 255"
+		"depressedFgColor_override" "235 226 202 255"
+		"selectedFgColor_override" 	"72 255 255 255"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -571,7 +571,7 @@
 		"textAlignment"	"left"
 		"wrap"			"1"
 		"font"			"HudFontMediumSmallSecondary"
-		"fgcolor"		"HudTrainingHint"
+		"fgcolor"		"212 160 23 255"
 	}
 	
 	"ShadedBar"
@@ -773,7 +773,7 @@
 		"labelText"		"%numScout%"
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"235 226 202 255"
 	}
 	
 	"numSoldier"
@@ -793,7 +793,7 @@
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"235 226 202 255"
 	}
 	
 	"numPyro"
@@ -813,7 +813,7 @@
 		"labelText"		"%numPyro%"
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"235 226 202 255"
 	}
 	
 	"numDemoman"
@@ -833,7 +833,7 @@
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"235 226 202 255"
 	}
 	
 	"numHeavy"
@@ -853,7 +853,7 @@
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"235 226 202 255"
 	}
 	
 	"numEngineer"
@@ -873,7 +873,7 @@
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"235 226 202 255"
 	}
 	
 	"numMedic"
@@ -893,7 +893,7 @@
 		"labelText"		"%numMedic%"
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"235 226 202 255"
 	}
 	
 	"numSniper"
@@ -913,7 +913,7 @@
 		"labelText"		"%numSniper%"
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"235 226 202 255"
 	}
 	
 	"numSpy"
@@ -933,7 +933,7 @@
 		"labelText"		"%numSpy%"
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"235 226 202 255"
 	}
 	
 	"MvMUpgradeImageScout"
@@ -1169,7 +1169,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "TanDarker"
+			"fgcolor_override" "46 43 42 255"
 		}
 		
 		"ClassHighlightText"
@@ -1188,7 +1188,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "TanDarker"
+			"fgcolor_override" "46 43 42 255"
 		}
 		
 		"CloseButton"
@@ -1216,12 +1216,12 @@
 			"Command"		"close"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "TanDarker"
-			"armedFgColor_override" "TanLight"
-			"depressedFgColor_override" "TanDarker"
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "235 226 202 255"
+			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"TextColor"
-			"image_armedcolor"	"LightRed"
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"

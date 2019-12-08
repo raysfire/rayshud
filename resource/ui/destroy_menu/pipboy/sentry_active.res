@@ -1,24 +1,25 @@
-#base "../sentry_active.res"
+#base "../base_active.res"
 
 "Resource/UI/destroy_menu/sentry_active.res"
 {
 	"ItemNameLabel"
 	{
-		"fgcolor"		"ColorGreen"
+		"labelText"			"#TF_Object_Sentry"
+		"fgcolor_override"	"ColorGreen"
 	}
 	
-	"DestroyIcon"	
+	"BuildingIcon"
 	{
-		"iconColor"		"ColorGreen"
+		"icon"				"obj_status_sentrygun_1"
 	}
 	
-	"BuildingIcon"	
+	"DestroyIcon"
 	{
-		"iconColor"		"ColorGreen"
+		"iconColor"			"ColorGreen"
 	}
 	
 	"NumberLabel"
 	{
-		"fgcolor"		"ColorGreen"
+		"fgcolor_override"	"ColorGreen"
 	}
 }

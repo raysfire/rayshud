@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectiveFlagPanel.res"
-{	
+{
 	"ObjectiveStatusFlagPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -75,27 +75,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"OutlineBG"
-		"xpos"			"c-140"
-		"ypos"			"r75"
-		"zpos"			"2"
-		"wide"			"280"
-		"tall"			"80"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/objectives_flagpanel_bg_outline"
-		"scaleImage"	"1"
-		
-		"if_hybrid" {
-			"visible"	"0"
-		}
-		
-		"if_mvm" {
-			"visible"	"0"
-		}
-		
-		"if_specialdelivery" {
-			"visible"	"0"
-		}
+		"xpos"			"9999"
 	}
 	
 	"BlueScore"
@@ -134,14 +114,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"-1"
-		"ypos"			"-1"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"7"
 		"wide"			"50"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"TransparentBlack"
@@ -165,7 +145,7 @@
 			"visible"	"0"
 		}
 	}
-
+	
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
@@ -202,8 +182,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"-1"
-		"ypos"			"-1"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"7"
 		"wide"			"50"
 		"tall"			"35"
@@ -233,7 +213,7 @@
 			"visible"	"0"
 		}
 	}
-
+	
 	"OutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -365,7 +345,7 @@
 			"visible"	"0"
 		}
 	}
-
+	
 	"RedFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
@@ -404,7 +384,7 @@
 			"visible"	"0"
 		}
 	}
-
+	
 	"CaptureFlag"
 	{
 		"ControlName"	"CTFArrowPanel"

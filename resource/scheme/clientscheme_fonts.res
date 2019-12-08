@@ -777,7 +777,7 @@ Scheme
 				"tall"			"44"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 				"yres"			"600 767"
 			}
 			"3"
@@ -786,7 +786,7 @@ Scheme
 				"tall"			"48"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 				"yres"			"768 1023"
 			}
 			"4"
@@ -849,7 +849,7 @@ Scheme
 				"tall"			"36"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"HudFontMediumBigBold"
@@ -1026,7 +1026,7 @@ Scheme
 				"name"			"Cerbetica_edited"
 				"tall"			"10"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		
@@ -1508,7 +1508,7 @@ Scheme
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 				"weight"		"500"
 			}
 		}
@@ -2252,7 +2252,7 @@ Scheme
 			{
 				"name"			"Cerbetica_edited"
 				"tall"			"11"
-				"antialias" 	"1"
+				"antialias"		"1"
 				"weight"		"500"
 			}
 		}
@@ -2835,7 +2835,7 @@ Scheme
 				"tall"			"15"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
-				"antialias" 	"1"
+				"antialias"		"1"
 				"additive"		"0"
 			}
 		}

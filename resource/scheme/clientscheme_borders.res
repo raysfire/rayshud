@@ -761,7 +761,7 @@ Scheme
 			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		
 		TFThinLineBorder
@@ -773,7 +773,7 @@ Scheme
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		
 		TFFatLineBorderOpaque
@@ -850,7 +850,7 @@ Scheme
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height" 	"0"
 		}
 		
 		TFFatLineBorderBlueBGMoreOpaque
@@ -941,7 +941,6 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"loadout_rect"
-			//"color"				"ItemPanelBG"
 			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
@@ -2223,7 +2222,7 @@ Scheme
 			"src_corner_height"		"4"				// pixels inside the image
 			"src_corner_width"		"4"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_height"	"4"	
 		}
 		MainMenuButtonGlow2
 		{
@@ -2234,7 +2233,7 @@ Scheme
 			"src_corner_height"		"4"				// pixels inside the image
 			"src_corner_width"		"4"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_height"	"4"	
 		}
 		MainMenuButtonDefault
 		{
@@ -2244,7 +2243,7 @@ Scheme
 			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		MainMenuButtonArmed
 		{
@@ -2254,7 +2253,7 @@ Scheme
 			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		MainMenuButtonDisabled
 		{
@@ -2264,7 +2263,7 @@ Scheme
 			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		MainMenuMiniButtonDefault
 		{
@@ -2274,7 +2273,7 @@ Scheme
 			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		MainMenuMiniButtonArmed
 		{
@@ -2284,7 +2283,7 @@ Scheme
 			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		MainMenuBGBorder
 		{
@@ -2294,7 +2293,7 @@ Scheme
 			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		MainMenuBGBorderAlpha
 		{
@@ -2304,7 +2303,7 @@ Scheme
 			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		MainMenuBlogTabBG
 		{
@@ -2314,7 +2313,7 @@ Scheme
 			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		MainMenuHighlightBorder
 		{
@@ -2324,7 +2323,7 @@ Scheme
 			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		
 		TrainingResultsBG
@@ -2335,7 +2334,7 @@ Scheme
 			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		
 		StoreInnerShadowBorder
@@ -2346,7 +2345,7 @@ Scheme
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		StoreNewBorder
 		{
@@ -2356,7 +2355,7 @@ Scheme
 			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		StoreHighlightedBorder
 		{
@@ -2366,7 +2365,7 @@ Scheme
 			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_height"	"4"	
 		}
 		StoreHighlightedBackgroundBorder
 		{
@@ -2386,7 +2385,7 @@ Scheme
 			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		StorePreviewBorder
 		{
@@ -2396,7 +2395,7 @@ Scheme
 			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		StoreAddToCart
 		{
@@ -2406,7 +2405,7 @@ Scheme
 			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		StorePreviewTabSelected
 		{
@@ -2416,7 +2415,7 @@ Scheme
 			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		StorePreviewTabUnselected
 		{
@@ -2426,7 +2425,7 @@ Scheme
 			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		StorePromotion
 		{
@@ -2436,7 +2435,7 @@ Scheme
 			"src_corner_height"		"16"			// pixels inside the image
 			"src_corner_width"		"16"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		
 		ArmoryScrollbarBox
@@ -2447,7 +2446,7 @@ Scheme
 			"src_corner_height"		"16"			// pixels inside the image
 			"src_corner_width"		"16"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		ArmoryScrollbarWell
 		{
@@ -2457,7 +2456,7 @@ Scheme
 			"src_corner_height"		"16"			// pixels inside the image
 			"src_corner_width"		"16"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		
 		QuickplayBorder
@@ -2526,7 +2525,7 @@ Scheme
 				"1"
 				{
 					"color"		"TanDark"
-					"offset" 	"1 0"
+					"offset"	"1 0"
 				}
 			}
 			Top
@@ -2534,7 +2533,7 @@ Scheme
 				"1"
 				{
 					"color"		"TanDark"
-					"offset" 	"0 0"
+					"offset"	"0 0"
 				}
 			}
 			Bottom
@@ -2555,7 +2554,7 @@ Scheme
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		ReplayFatLineBorderOpaque
 		{
@@ -2565,7 +2564,7 @@ Scheme
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		ReplayGrayDialogBorder
 		{
@@ -2575,7 +2574,7 @@ Scheme
 			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		ReplayOutlinedGreyBox
 		{
@@ -2585,7 +2584,7 @@ Scheme
 			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		ReplayOutlinedDullGreyBox
 		{
@@ -2595,7 +2594,7 @@ Scheme
 			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		ReplayThinLineBorder
 		{
@@ -2606,7 +2605,7 @@ Scheme
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		ReplayDefaultBorder
 		{
@@ -2616,7 +2615,7 @@ Scheme
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		ReplayHighlightBorder
 		{
@@ -2626,7 +2625,7 @@ Scheme
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		ReplayBalloonBorder
 		{
@@ -2636,7 +2635,7 @@ Scheme
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height"	"0"	
 		}
 		ReplayBrowser.ScrollBar.SliderButton.Border
 		{

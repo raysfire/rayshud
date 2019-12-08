@@ -157,7 +157,7 @@
 			"sound_armed"			"UI/buttonrollover.wav"
 			"paintbackground"		"0"
 			"paintbackgroundtype"	"0"
-			"defaultBgColor_Override"	"0 0 0 255"
+			"defaultBgColor_Override"	"ColorBlack"
 			"paintborder"			"0"
 			"image_drawcolor"		"255 255 255 77"
 			"image_armedcolor"		"255 255 255 128"
@@ -221,7 +221,7 @@
 		"border"		"CyanBorder"
 		"mouseinputenabled"	"1"
 		"proportionaltoparent"	"1"
-		"visible"			"0"
+		"visible"		"0"
 		"bgcolor_override"	"DarkerGrey"
 		
 		"fixed_item"
@@ -377,13 +377,13 @@
 			"unicode"			"0"
 			"default"			"0"
 			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
 			
 			"fixed_item"
 			{
 				"visible"	"0"
 			}
 			
-			"proportionaltoparent"	"1"
 			"fgcolor_override"	"White"
 			"bgcolor_override"	"Transparent"
 			"disabledFgColor_override" "TanDark"

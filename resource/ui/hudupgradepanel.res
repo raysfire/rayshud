@@ -105,7 +105,7 @@
 			"draw_corner_height" "8"	
 
 		}
-
+		
 		"OutPanelBG"
 		{
 			"ControlName"	"ImagePanel"
@@ -210,7 +210,8 @@
 			
 			"PaintBackgroundType" "0"
 			"bgcolor_override"	"White"
-		}		
+		}
+		
 		"InnerBGPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -225,7 +226,7 @@
 			"border"			"DarkGrey"
 			"bgcolor_override"	"DarkerGrey"
 		}
-	
+		
 		"PlayerUpgradeButton"
 		{
 			"ControlName"	"CExButton"
@@ -538,7 +539,6 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			
 			"bgcolor_override"	"HudTimerProgressInActive"
 		}
 		
@@ -632,7 +632,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 		}
-
+		
 		"CreditsLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -749,7 +749,7 @@
 			"border_armed"		"ButtonHover"	
 		}
 	}
-
+	
 	"TipPanel"
 	{
 		"ControlName"	"EditablePanel"

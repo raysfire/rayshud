@@ -47,7 +47,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"bgcolor_override"	"0 0 0 255"
+			"bgcolor_override"	"ColorBlack"
 		}
 
 		"WorkshopBranding"
@@ -78,7 +78,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"bgcolor_override"	"0 0 0 255"
+			"bgcolor_override"	"ColorBlack"
 		}
 
 		"NoItemsContainer"
@@ -398,8 +398,8 @@
 				"labelText"			"#TF_SteamWorkshop_Edit"
 				"command"			"edit"
 				
-				"image_drawcolor"		"235 226 202 255"
-				"image_disabledcolor"	"0 0 0 255"
+				"image_drawcolor"		"TanLight"
+				"image_disabledcolor"	"ColorBlack"
 
 				"SubImage"
 				{
@@ -448,8 +448,8 @@
 				"defaultFgColor_override"	"TanLight"
 				"armedFgColor_override" 	"TanLight"
 				"depressedFgColor_override" "TanLight"
-				"image_drawcolor"			"235 226 202 255"
-				"image_disabledcolor" 		"0 0 0 255"
+				"image_drawcolor"			"TanLight"
+				"image_disabledcolor" 		"ColorBlack"
 				"border_default"			"ButtonHover"
 				"border_armed"				"ButtonHover"
 
@@ -503,8 +503,8 @@
 				"border_default"			"ButtonHover"
 				"border_armed"				"ButtonHover"
 				
-				"image_drawcolor"		"235 226 202 255"
-				"image_disabledcolor" 	"0 0 0 255"
+				"image_drawcolor"		"TanLight"
+				"image_disabledcolor"	"ColorBlack"
 
 				"SubImage"
 				{
@@ -670,15 +670,12 @@
 			"Command"		"view_legal_agreement"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"defaultBgColor_override"	"0 0 0 255"
-			"armedBgColor_override"		"35 35 35 255"
-			"depressedBgColor_override"	"0 0 0 255"
-			
+			"defaultBgColor_override"	"15 15 15 255"
+			"armedBgColor_override"		"25 25 25 255"
+			"depressedBgColor_override"	"25 25 25 255"
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanDark"
-			
+			"depressedFgColor_override" "TanLight"
 			"border_default"			"ButtonHover"
 			"border_armed"				"ButtonHover"
 		}
@@ -706,15 +703,12 @@
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"defaultBgColor_override"	"0 0 0 255"
-			"armedBgColor_override"		"35 35 35 255"
-			"depressedBgColor_override"	"0 0 0 255"
-			
+			"defaultBgColor_override"	"15 15 15 255"
+			"armedBgColor_override"		"25 25 25 255"
+			"depressedBgColor_override"	"25 25 25 255"
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanDark"
-			
+			"depressedFgColor_override" "TanLight"
 			"border_default"			"ButtonHover"
 			"border_armed"				"ButtonHover"
 		}

@@ -159,7 +159,7 @@
 		"tall"				"18"
 		"visible"			"1"
 		"enabled"			"1"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}

@@ -7,9 +7,9 @@
 		"fgcolor"			"ColorGreen"
 	}
 	
-	"NumberLabel"
+	"MetalIcon"	
 	{
-		"fgcolor"			"ColorGreen"
+		"iconColor"			"ColorGreen"
 	}
 	
 	"CantBuildReason"

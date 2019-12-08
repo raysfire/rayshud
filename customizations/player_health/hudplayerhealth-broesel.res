@@ -65,7 +65,7 @@
 		"wide"			"56"
 		"tall"			"56"
 		"alpha"			"255"
-		"fgcolor_override"	"0 0 0 255"
+		"fgcolor_override"	"255 255 255 255"
 	}
 
 	"PlayerStatusHealthImageBG"

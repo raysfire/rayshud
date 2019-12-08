@@ -857,8 +857,8 @@
 		"LargeBoxWide"			"110"
 		"LargeBoxTall"			"77"
 		"BoxGap"				"4"
-		"SelectionNumberXPos" 	"12"
-		"SelectionNumberYPos" 	"4"
+		"SelectionNumberXPos"	"12"
+		"SelectionNumberYPos"	"4"
 		"IconXPos"				"8"
 		"IconYPos"				"0"
 		"TextYPos"				"70"
@@ -935,8 +935,8 @@
 		"ypos"					"246"
 		"ypos_minmode"			"320"
 		"zpos"					"1"
-		"wide"	 				"600"
-		"tall"	 				"50"
+		"wide"					"600"
+		"tall"					"50"
 		"priority"				"100"
 	}
 	
@@ -948,8 +948,8 @@
 		"xpos"					"c-100"
 		"ypos"					"270"
 		"zpos"					"1"
-		"wide"	 				"600"
-		"tall"	 				"50"
+		"wide"					"600"
+		"tall"					"50"
 		"priority"				"40"
 		"x_offset" 				"20"
 		"y_offset" 				"20"
@@ -1022,7 +1022,7 @@
 	
 	HudRoundTimer
 	{
-		"fieldName" 			"HudRoundTimer"
+		"fieldName"				"HudRoundTimer"
 		"xpos"					"c-20"
 		"ypos"					"440"
 		"wide"					"120"
@@ -1100,7 +1100,7 @@
 		"count_ypos"			"8"
 		"icon_texture"			"vgui/hud/icon_commentary"
 		"icon_xpos"				"0"
-		"icon_ypos"				"0"		
+		"icon_ypos"				"0"
 		"icon_width"			"40"
 		"icon_height"			"40"
 		"use_script_bgcolor"	"1"
@@ -1577,7 +1577,7 @@
 		"xpos"				"c-200"
 		"ypos"				"260"
 		"wide"				"400"
-		"tall"				"160"		
+		"tall"				"160"
 	}
 	
 	"HudChat"
@@ -1591,7 +1591,7 @@
 		"ypos"				"275"
 		"wide"	 			"320"
 		"tall"	 			"120"
-		"PaintBackgroundType" "2"
+		"PaintBackgroundType"	"2"
 	}
 	
 	"HudMenuEngyBuild"
@@ -1601,9 +1601,10 @@
 		"enabled" 			"1"
 		"xpos"				"c-250"
 		"ypos"				"c-75"
+		"zpos"				"1"
 		"wide"				"500"
 		"tall"				"200"
-		"PaintBackgroundType" "0"
+		"PaintBackgroundType"	"0"
 	}
 	
 	"HudMenuEngyDestroy"
@@ -1613,9 +1614,10 @@
 		"enabled" 			"1"
 		"xpos"				"c-250"
 		"ypos"				"c-75"
+		"zpos"				"1"
 		"wide"				"500"
 		"tall"				"200"
-		"PaintBackgroundType" "0"
+		"PaintBackgroundType"	"0"
 	}
 	
 	"HudEurekaEffectTeleportMenu"
@@ -1625,9 +1627,10 @@
 		"enabled" 			"1"
 		"xpos"				"c-125"
 		"ypos"				"c-55"
+		"zpos"				"1"
 		"wide"				"500"
 		"tall"				"200"
-		"PaintBackgroundType" "0"
+		"PaintBackgroundType"	"0"
 	}
 	
 	"HudMenuSpyDisguise"
@@ -1637,9 +1640,10 @@
 		"enabled" 			"1"
 		"xpos"				"c90"
 		"ypos"				"c-72"
+		"zpos"				"1"
 		"wide"				"490"
 		"tall"				"220"
-		"PaintBackgroundType" "0"
+		"PaintBackgroundType"	"0"
 	}
 	
 	HudDemomanPipes

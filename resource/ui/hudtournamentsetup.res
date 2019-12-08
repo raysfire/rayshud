@@ -78,7 +78,7 @@
 		"NumericInputOnly"	"0"
 		"unicode"		"0"
 		"wrap"			"0"
-		"fgcolor_override"	"235 226 202 255"
+		"fgcolor_override"	"TanLight"
 		"bgcolor_override"	"Transparent"
 		"labelText"			"%teamname%"
 		"textAlignment"		"west"

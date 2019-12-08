@@ -127,7 +127,7 @@
 			"icon"			"obj_status_upgrade_3"
 			"iconColor"		"White"
 		}
-
+		
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"

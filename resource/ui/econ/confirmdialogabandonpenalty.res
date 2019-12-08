@@ -72,6 +72,7 @@
 		"wrap"					"1"
 		"fgcolor_override"		"ColorCyan"
 	}
+	
 	"CancelButton"
 	{
 		"ControlName"			"CExButton"

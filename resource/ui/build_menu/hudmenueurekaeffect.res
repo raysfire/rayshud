@@ -11,7 +11,7 @@
 		"tall"				"120"
 		"visible"			"1"
 		"enabled"			"1"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"hud_menu_bg"
 		"fillcolor"			"0 0 0 100"
 	}
@@ -25,15 +25,15 @@
 		"zpos"				"1"
 		"wide"				"48"
 		"tall"				"48"
-		"visible"			"1"
-		"enabled"			"1"
-		"scaleImage"		"1"	
+		"visible"			"0"
+		"enabled"			"0"
+		"scaleImage"		"1"
 		"icon"				"ico_build"
 		"iconColor"			"White"
 	}
 	
 	"TitleLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
 		"font"				"CerbeticaBold32"
@@ -58,8 +58,8 @@
 		"fieldName"			"TitleLabelDropshadow"
 		"font"				"CerbeticaBold32"
 		"fgcolor"			"TransparentBlack"
-		"xpos"				"-1"
-		"ypos"				"-1"
+		"xpos"				"-2"
+		"ypos"				"-2"
 		"zpos"				"1"
 		"wide"				"300"
 		"tall"				"38"
@@ -71,7 +71,7 @@
 		"textAlignment"		"Left"
 		"dulltext"			"1"
 		"brighttext"		"0"
-
+		
 		"pin_to_sibling"		"TitleLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
@@ -89,8 +89,8 @@
 		"tall"				"13"
 		"autoResize"		"0"
 		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"labelText"			"#Hud_Menu_Build_Cancel"
 		"textAlignment"		"East"
 		"dulltext"			"0"

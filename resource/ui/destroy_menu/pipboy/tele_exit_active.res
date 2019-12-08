@@ -1,24 +1,25 @@
-#base "../tele_exit_active.res"
+#base "../base_active.res"
 
 "Resource/UI/destroy_menu/tele_exit_active.res"
 {
 	"ItemNameLabel"
 	{
-		"fgcolor"		"ColorGreen"
+		"labelText"			"#TF_Object_Tele_Exit_360"
+		"fgcolor_override"	"ColorGreen"
 	}
 	
-	"DestroyIcon"	
-	{
-		"iconColor"		"ColorGreen"
-	}
-		
 	"BuildingIcon"	
 	{
-		"iconColor"		"ColorGreen"
+		"icon"				"obj_status_tele_exit"
+	}
+	
+	"DestroyIcon"
+	{
+		"iconColor"			"ColorGreen"
 	}
 	
 	"NumberLabel"
 	{
-		"fgcolor"		"ColorGreen"
+		"fgcolor_override"	"ColorGreen"
 	}
 }

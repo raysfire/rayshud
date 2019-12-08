@@ -85,8 +85,8 @@
 			"fgcolor"			"TransparentBlack"
 			"labelText"			"%blueteamscore%"
 			"textAlignment"		"east"
-			"xpos"				"-1"
-			"ypos"				"-1"
+			"xpos"				"-2"
+			"ypos"				"-2"
 			"zpos"				"3"
 			"wide"				"80"
 			"tall"				"70"
@@ -115,7 +115,7 @@
 			"scaleImage"		"1"	
 			"color_outline"		"Grey"
 		}
-
+		
 		"RedTeamLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -133,7 +133,7 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-
+		
 		"RedTeamScore"
 		{
 			"ControlName"		"CExLabel"
@@ -156,10 +156,11 @@
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamScoreDropshadow"
 			"font"				"Cerbetica48"
+			"fgcolor"			"TransparentBlack"
 			"labelText"			"%redteamscore%"
 			"textAlignment"		"west"
-			"xpos"				"-1"
-			"ypos"				"-1"
+			"xpos"				"-2"
+			"ypos"				"-2"
 			"zpos"				"2"
 			"wide"				"80"
 			"tall"				"70"
@@ -167,7 +168,6 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-			"fgcolor"			"TransparentBlack"
 			
 			"pin_to_sibling"		"RedTeamScore"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -186,11 +186,11 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"image"				""
-			"scaleImage"		"1"	
+			"scaleImage"		"1"
 			"color_outline"		"Grey"
 		}
 	}
-
+	
 	"WinPanelBGBorder"
 	{
 		"ControlName"	"EditablePanel"
@@ -202,7 +202,7 @@
 		"tall"			"80"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"border"		"TFFatLineBorderBlueBG"
 		"proportionaltoparent"	"1"
 	}
@@ -413,7 +413,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-	
 	"Player1Avatar"
 	{
 		"ControlName"	"CAvatarImagePanel"
@@ -498,7 +497,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-	
 	"Player2Avatar"
 	{
 		"ControlName"	"CAvatarImagePanel"
@@ -511,7 +509,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"color_outline"	"52 48 45 255"
 	}
 	"Player2Name"
@@ -583,7 +581,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-	
 	"Player3Avatar"
 	{
 		"ControlName"	"CAvatarImagePanel"
@@ -596,7 +593,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"color_outline"	"52 48 45 255"
 	}
 	"Player3Name"
@@ -724,7 +721,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-	
 	"KillStreakPlayer1Avatar"
 	{
 		"ControlName"	"CAvatarImagePanel"

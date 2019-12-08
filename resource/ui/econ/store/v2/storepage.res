@@ -48,7 +48,7 @@
 			"wide"			"111"
 			"tall"			"62"
 			"visible"		"0"
-			"bgcolor_override"		"0 0 0 255"
+			"bgcolor_override"		"ColorBlack"
 			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
@@ -74,7 +74,6 @@
 				"allow_rot"				"0"
 				"inventory_image_type" "1"
 			}
-			
 			"use_item_sounds" "1"
 		}
 		
@@ -103,7 +102,7 @@
 			"wide"			"32"
 			"tall"			"25"
 			"visible"		"0"
-			"bgcolor_override"		"0 0 0 255"
+			"bgcolor_override"		"ColorBlack"
 			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"

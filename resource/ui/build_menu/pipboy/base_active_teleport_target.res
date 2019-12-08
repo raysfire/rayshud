@@ -6,11 +6,6 @@
 	{
 		"fgcolor"			"ColorGreen"
 	}
-
-	"ItemBackground"
-	{
-		"iconColor"			"0 0 0 255"
-	}
 	
 	"BuildingIcon"	
 	{

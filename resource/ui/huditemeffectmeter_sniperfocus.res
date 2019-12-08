@@ -7,9 +7,4 @@
 		"ypos"					"c93"
 		"ypos_minmode"			"c46"
 	}
-	
-	"ItemEffectMeterLabel"
-	{
-		"labelText"				"#TF_ENERGYDRINK"
-	}				
 }

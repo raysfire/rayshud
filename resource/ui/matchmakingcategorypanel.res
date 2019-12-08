@@ -39,7 +39,7 @@
 			"enabled"		"1"
 			"mouseinputenabled"	"0"
 			"proportionaltoparent"	"1"
-			"bgcolor_override"	"0 0 0 255"
+			"bgcolor_override"	"ColorBlack"
 		}
 
 		"BGImage"
@@ -222,9 +222,9 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
+			"fgcolor_override" "TransparentBlack"
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
-			"fgcolor_override" "TransparentBlack"
 			
 			"pin_to_sibling"		"DescLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"

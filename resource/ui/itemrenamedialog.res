@@ -240,10 +240,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override" "0 0 0 255"
+		"bgcolor_override" "ColorBlack"
 		"paintbackgroundtype" "2"
 	}
-
+	
 	"OldItemNameDescLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -263,7 +263,7 @@
 		"fgcolor_override" "White"
 		"paintbackground" "0"
 	}
-
+	
 	"OldItemNameLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -299,10 +299,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override" "0 0 0 255"
+		"bgcolor_override" "ColorBlack"
 		"paintbackgroundtype" "2"
 	}
-
+	
 	"NewItemNameDescLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -322,7 +322,7 @@
 		"fgcolor_override" "White"
 		"paintbackground" "0"
 	}
-
+	
 	"CustomNameEntry"
 	{
 		"ControlName"		"TextEntry"

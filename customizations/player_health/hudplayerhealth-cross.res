@@ -1,7 +1,7 @@
 "Resource/UI/HudPlayerHealth.res"
 {
 	// Player Health Data
-	//Change visible and enabled to "1" on "HPBorderPanel1" and "HPBorderPanel2" for team-colored cross.
+	// Change visible and enabled to "1" on "HPBorderPanel1" and "HPBorderPanel2" for team-colored cross.
 	"HPBorderPanel1"
 	{
 		"ControlName"	"CTFImagePanel"

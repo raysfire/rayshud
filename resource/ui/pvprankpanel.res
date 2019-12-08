@@ -157,7 +157,7 @@
 				}
 			}
 
-			"paintbackground"	"1"	
+			"paintbackground"	"1"
 		}
 
 		"MedalButton"

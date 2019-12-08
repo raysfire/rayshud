@@ -9,7 +9,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-
+	
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -19,7 +19,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-
+	
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -29,7 +29,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-
+	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -44,7 +44,7 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
-
+	
 	"PlayerStatusHealthValueFreezePanel"
 	{
 		"ControlName"	"CExLabel"
@@ -60,7 +60,7 @@
 		"font"			"CerbeticaBold16"
 		"labeltext"		"%Health%"
 	}
-
+	
 	"PlayerStatusHealthValueFreezePanelShadow"
 	{
 		"ControlName"	"CExLabel"

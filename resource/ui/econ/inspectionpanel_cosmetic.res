@@ -39,7 +39,7 @@
 			"enabled"		"1"
 			"paintbackground"		"1"
 			"PaintBackgroundType"	"0"
-			"bgcolor_override" 		"0 0 0 255"
+			"bgcolor_override" 		"ColorBlack"
 			"proportionaltoparent"	"1"
 			
 			"fullscreen_fade_to_black_duration"	"0.32"
@@ -298,7 +298,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"132 132 132 255"
+					"fgcolor"		"DullWhite"
 				}
 				
 				"RestrictionsLabel"
@@ -349,7 +349,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"132 132 132 255"
+					"fgcolor"		"DullWhite"
 				}
 				
 				"UsedByTextLabel"
@@ -382,7 +382,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"132 132 132 255"
+					"fgcolor"		"DullWhite"
 				}
 				
 				"SlotTextLabel"
@@ -490,9 +490,9 @@
 		"render_texture" "0"
 		"fov"			"40"
 		"allow_rot"		"1"
-		"paintbackground" 		"1"		
+		"paintbackground"		"1"
 		"paintbackgroundenabled" "1"
-		"bgcolor_override" 		"255 255 255 0"
+		"bgcolor_override"		"255 255 255 0"
 		
 		"model"
 		{
@@ -552,7 +552,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "255 255 255 255"
+		"panel_bgcolor_mouseover" "ColorWhite"
 		"image_indent"			"0"
 		"PaintBackgroundType"	"2"
 		
@@ -568,14 +568,14 @@
 			"visible"		"1"
 			"enabled"		"0"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override" "51 47 46 255"
+			"bgcolor_override" "Grey"
 		}
 		
 		"itempanel"
 		{
-			"fieldName"		"itempanel"		
+			"fieldName"		"itempanel"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"	
+			"paintborder"	"0"
 			"model_xpos"	"1"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -836,7 +836,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"			"options"
-		"paintbackground"	"0"	
+		"paintbackground"	"0"
 		"image_drawcolor"	"118 107 94 200"
 		"image_armedcolor"	"246 247 213 255"
 		
@@ -871,8 +871,8 @@
 		"enabled"			"1"
 		"auto_scale"		"1"
 		"auto_layout"		"1"
-		"selected_button_default"	  "0"
-		"auto_layout_vertical_buffer" "-4"
+		"selected_button_default"		"0"
+		"auto_layout_vertical_buffer"	"-4"
 		"display_vertically"	"1"
 		"align"					"west"
 		
@@ -899,13 +899,13 @@
 			
 			"paintbackground"			"0"
 			"paintbackgroundtype"		"0"
-			"defaultBgColor_Override"	"0 0 0 255"
+			"defaultBgColor_Override"	"ColorBlack"
 			
 			"paintborder"				"0"
 			
 			"image_drawcolor"		"255 255 255 77"
 			"image_armedcolor"		"255 255 255 128"
-			"image_selectedcolor"	"255 255 255 255"
+			"image_selectedcolor"	"ColorWhite"
 			
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"

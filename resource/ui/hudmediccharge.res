@@ -12,7 +12,7 @@
 		"visible"			"0"
 		"enabled"			"0"
 		"image"				"../hud/medic_charge_blue_bg"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"teambg_2"			"../hud/medic_charge_red_bg"
 		"teambg_3"			"../hud/medic_charge_blue_bg"
 	}
@@ -119,7 +119,7 @@
 		"bgcolor" 			"32 32 32 128"
 		"fgcolor_override"	"Uber Bar Color"
 	}
-
+	
 	"ChargeMeter1"
 	{
 		"ControlName"		"ContinuousProgressBar"

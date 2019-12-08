@@ -162,7 +162,6 @@
 			"fieldName"		"AlertTray"
 			"xpos"			"114"
 			"ypos"			"0"
-			"ypos"			"0"
 			"zpos"			"-2"
 			"wide"			"44"
 			"tall"			"60"
@@ -314,7 +313,7 @@
 				"brighttext"	"0"
 			}
 			
-			"ShellIcon"	
+			"ShellIcon"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"ShellIcon"

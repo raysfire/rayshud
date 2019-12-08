@@ -138,7 +138,7 @@
 			"font"				"Cerbetica20"
 			"ypos"				"50"
 			"selectedcolor"		"TanLight"
-			"unselectedcolor"	"TanDark"	
+			"unselectedcolor"	"TanDark"
 			"paintbackground"	"1"
 			"defaultBgColor_override"		"25 25 25 255"
 			"unselectedBgColor_override"	"10 10 10 255"

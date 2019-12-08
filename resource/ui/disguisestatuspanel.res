@@ -26,6 +26,22 @@
 		}
 	}
 	
+	"ShadedBar"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"ShadedBar"
+		"xpos"				"50"
+		"ypos"				"26"
+		"zpos"				"-1"
+		"wide"				"140"
+		"tall"				"16"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"fillcolor"			"0 0 0 164"
+	}
+	
 	"DisguiseStatusBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -39,15 +55,15 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"
 		"image"			"../hud/color_panel_brown"
+		"scaleImage"	"1"
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
 	
 	"DisguiseNameLabel"
@@ -140,22 +156,6 @@
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
-	"WeaponBackground"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"WeaponBackground"
-		"xpos"				"50"
-		"ypos"				"26"
-		"zpos"				"-1"
-		"wide"				"140"
-		"tall"	 			"16"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"fillcolor"			"0 0 0 164"
-	}
-	
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"
@@ -167,7 +167,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"HealthBonusPosAdj"	"10"
-		"HealthDeathWarning"		"0.49"
+		"HealthDeathWarning"	"0.49"
 		"TFFont"					"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"					"HudOffWhite"

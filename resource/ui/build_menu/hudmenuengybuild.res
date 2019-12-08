@@ -27,7 +27,7 @@
 		"tall"				"48"
 		"visible"			"1"
 		"enabled"			"1"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"ico_build"
 	}
 	
@@ -57,8 +57,8 @@
 		"fieldName"			"TitleLabelDropshadow"
 		"font"				"CerbeticaBold32"
 		"fgcolor"			"TransparentBlack"
-		"xpos"				"-1"
-		"ypos"				"-1"
+		"xpos"				"-2"
+		"ypos"				"-2"
 		"zpos"				"1"
 		"wide"				"300"
 		"tall"				"38"

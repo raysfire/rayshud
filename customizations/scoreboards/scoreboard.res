@@ -239,7 +239,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamScoreDropshadow"
 		"font"			"CerbeticaBold36"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"0 0 0 200"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"	"east"
 		"xpos"			"c-105"
@@ -326,7 +326,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"RedTeamScoreDropshadow"
 		"font"				"CerbeticaBold36"
-		"fgcolor"			"Black"
+		"fgcolor"			"255 255 255 255"
 		"labelText"			"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"				"c7"
@@ -417,7 +417,7 @@
 		"tabPosition"	"0"
 		"autoresize"	"3"
 		"linespacing"	"14"
-		"fgcolor"		"blue"
+		"fgcolor"		"0 28 162 140"
 		"linegap"		"0"
 		"show_columns"	"0"
 		
@@ -441,7 +441,7 @@
 		"tabPosition"	"0"
 		"autoresize"	"3"
 		"linespacing"	"14"
-		"textcolor"		"red"
+		"fgcolor"		"192 28 0 140"
 		"linegap"		"0"
 		"show_columns"	"0"		
 		
@@ -728,7 +728,7 @@
 				"tall"			"36"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"bgcolor_override"	"TextColor"
+				"bgcolor_override"	"117 107 94 255"
 			}
 			"AvatarImage"
 			{
@@ -749,7 +749,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"TanLight"
+				"fgcolor"		"235 226 202 255"
 				"xpos"			"50"
 				"ypos"			"7"
 				"zpos"			"2"
@@ -807,7 +807,7 @@
 				"tall"			"36"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"bgcolor_override"	"TextColor"
+				"bgcolor_override"	"117 107 94 255"
 			}
 			"AvatarImage"
 			{
@@ -828,7 +828,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"TanLight"
+				"fgcolor"		"235 226 202 255"
 				"xpos"			"50"
 				"ypos"			"7"
 				"zpos"			"2"
@@ -932,7 +932,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "235 226 202 255"
 		}
 		
 		"DeathsLabel"
@@ -985,7 +985,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "235 226 202 255"
 		}
 		"GameType"
 		{
@@ -1055,7 +1055,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "235 226 202 255"
 		}
 		
 		"DestructionLabel"
@@ -1108,7 +1108,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "235 226 202 255"
 		}
 		
 		"RevengeLabel"
@@ -1179,7 +1179,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "235 226 202 255"
 		}
 		
 		"DefensesLabel"
@@ -1232,7 +1232,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "235 226 202 255"
 		}
 		"DominationLabel"
 		{
@@ -1284,7 +1284,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "235 226 202 255"
 		}
 		"Revenge"
 		{
@@ -1319,7 +1319,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "235 226 202 255"
 		}
 		"HealingLabel"
 		{
@@ -1371,7 +1371,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "235 226 202 255"
 		}
 		"InvulnLabel"
 		{
@@ -1423,7 +1423,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "235 226 202 255"
 		}
 		"TeleportsLabel"
 		{
@@ -1679,7 +1679,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"235 226 202 255"
 		}
 		"DamageLabel"
 		{

@@ -28,8 +28,8 @@
 			"delta_item_x"			"10"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
+			"PositiveColor"			"ColorGreen"
+			"NegativeColor"			"ColorRed"
 			"delta_lifetime"		"1.5"
 			"delta_item_font"		"HudFontMediumSmall"
 		}
@@ -53,11 +53,11 @@
 			if_match
 			{
 				"proportionaltoparent"	"1"
-				"font"			"HudFontSmall"
 				"xpos"			"10"
 				"ypos"			"9"
 				"tall"			"10"
 				"wide"			"35"
+				"font"			"HudFontSmall"
 			}
 		}
 	}
@@ -76,8 +76,8 @@
 		"delta_item_x" 		"0"
 		"delta_item_start_y""50"
 		"delta_item_end_y" 	"70"
-		"PositiveColor" 	"0 255 0 255"
-		"NegativeColor" 	"255 0 0 255"
+		"PositiveColor" 	"ColorGreen"
+		"NegativeColor" 	"ColorRed"
 		"delta_lifetime" 	"1.5"
 		"delta_item_font" 	"Cerbetica22"
 		
@@ -89,8 +89,8 @@
 			"delta_item_x"			"50"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
+			"PositiveColor"			"ColorGreen"
+			"NegativeColor"			"ColorRed"
 			"delta_lifetime"		"1.5"
 			"delta_item_font"		"HudFontMediumSmall"
 		}
@@ -111,8 +111,8 @@
 			"delta_item_x" 		"22"
 			"delta_item_start_y""50"
 			"delta_item_end_y" 	"70"
-			"PositiveColor" 	"0 255 0 255"
-			"NegativeColor" 	"255 0 0 255"
+			"PositiveColor" 	"ColorGreen"
+			"NegativeColor" 	"ColorRed"
 			"delta_lifetime" 	"1.5"
 			"delta_item_font" 	"Cerbetica20"
 			"textAlignment"		"center"
@@ -121,11 +121,11 @@
 			if_match
 			{
 				"proportionaltoparent"	"1"
-				"font"			"HudFontSmall"
 				"xpos"			"rs1-15"
 				"ypos"			"9"
 				"wide"			"35"
 				"tall"			"10"
+				"font"			"HudFontSmall"
 			}
 		}
 	}

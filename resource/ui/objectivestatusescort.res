@@ -24,7 +24,7 @@
 	"LevelBar"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"			"LevelBar"	
+		"fieldName"			"LevelBar"
 		"xpos"				"73"
 		"ypos"				"123"
 		"zpos"				"0"

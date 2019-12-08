@@ -16,17 +16,9 @@
 	
 	"PlayerStatusHealthImageBG"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"3"
-		"wide"			"16"
-		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
+		"visible"		"0"
+		"xpos"			"r0"
+		"ypos"			"r0"
 	}
 	
 	"PlayerStatusHealthBonusImage"

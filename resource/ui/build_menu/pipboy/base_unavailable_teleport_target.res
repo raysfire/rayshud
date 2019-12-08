@@ -11,9 +11,4 @@
 	{
 		"fgcolor"			"ColorGreen"
 	}
-	
-	"NumberLabel"
-	{
-		"fgcolor"			"ColorGreen"
-	}
 }

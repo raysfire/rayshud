@@ -1,7 +1,7 @@
 "Resource/UI/disguise_menu/heavy_red.res"
 {
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemName"
 		"font"				"CerbeticaBold14"
@@ -32,7 +32,7 @@
 		"tall"				"90"
 		"visible"			"1"
 		"enabled"			"1"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"hud_menu_scout_red"
 	}
 	
@@ -47,7 +47,7 @@
 		"tall"				"15"
 		"visible"			"1"
 		"enabled"			"1"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}

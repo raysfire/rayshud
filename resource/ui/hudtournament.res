@@ -69,7 +69,7 @@
 				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"0"
-				"fillcolor"		"0 0 0 255"
+				"fillcolor"		"ColorBlack"
 			}
 			
 			"playername"
@@ -293,7 +293,7 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
-				//"fgcolor"		"235 226 202 255"
+				//"fgcolor"		"TanLight"
 			}
 			
 			"chargeamount"
@@ -311,7 +311,7 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"north"
-				"fgcolor"		"0 255 0 255"
+				"fgcolor"		"ColorGreen"
 				
 				if_mvm
 				{
@@ -334,7 +334,7 @@
 				"visible"		"0"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
+				//"fgcolor"		"TanLight"
 			}
 			
 			if_mvm
@@ -443,7 +443,7 @@
 			"visible"		"0"
 		}
 	}
-
+	
 	"TournamentBLUELabel"
 	{	
 		"ControlName"	"Label"
@@ -479,7 +479,7 @@
 			"visible"		"0"
 		}
 	}
-
+	
 	"TournamentBLUEStateLabel"
 	{	
 		"ControlName"	"Label"
@@ -587,7 +587,7 @@
 			"visible"		"0"
 		}
 	}
-
+	
 	"TournamentREDStateLabel"
 	{	
 		"ControlName"	"Label"
@@ -623,7 +623,7 @@
 			"visible"		"0"
 		}
 	}
-
+	
 	"TournamentConditionLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -664,7 +664,7 @@
 	}
 
 	"TournamentConditionLabelShadow"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TournamentConditionLabelShadow"
 		"font"			"Cerbetica14"
@@ -840,25 +840,25 @@
 		
 		"if_mvm" 
 		{
-			"visible"	"1"
-			"enabled"	"1"
-			"xpos"		"c-60"
-			"wide"		"140"
+			"visible"		"1"
+			"enabled"		"1"
+			"xpos"			"c-60"
+			"wide"			"140"
 		}
-	
+		
 		if_competitive
 		{
-			"xpos"		"c-20"
-			"ypos"		"130"
-			"tall"		"40"
-			"zpos"		"11"
+			"xpos"			"c-20"
+			"ypos"			"130"
+			"tall"			"40"
+			"zpos"			"11"
 		}
 
 		if_readymode
 		{
-			"xpos"		"c-20"
-			"ypos"		"130"
-			"tall"		"20"
+			"xpos"			"c-20"
+			"ypos"			"130"
+			"tall"			"20"
 		}
 	}
 	
@@ -881,7 +881,7 @@
 		"textAlignment"	"center"
 		"fgcolor"		"Black"
 		
-		"if_mvm" 
+		if_mvm
 		{
 			"visible"		"1"
 			"enabled"		"1"

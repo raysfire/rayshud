@@ -12,7 +12,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"		"0"
-		"bgcolor_override"		"0 0 0 255"
+		"bgcolor_override"		"ColorBlack"
 	}
 
 	"TitleGradient"
@@ -50,7 +50,7 @@
 		"scaleimage"			"1"
 		"mouseinputenabled"		"0"
 		"image"					"gradient_pure_black"
-
+		
 		if_left
 		{
 			"xpos"		"rs1-3"
@@ -75,7 +75,7 @@
 		"mouseinputenabled"		"0"
 		"alpha"					"255"
 		"image"					"gradient_pure_black"
-
+		
 		if_left
 		{
 			"xpos"		"0"
@@ -127,12 +127,12 @@
 		"labelText"		"<"
 		"textAlignment"	"west"
 		"font"			"Cerbetica14"
-
+		
 		"armedBgColor_override"		"Transparent"
 		"defaultBgColor_override"	"Transparent"
 		"defaultFgColor_override"	"White"
-		"armedFgColor_override"	"169 123 53 255"
-
+		"armedFgColor_override"		"169 123 53 255"
+		
 		if_left
 		{
 			"xpos"		"rs1-3"

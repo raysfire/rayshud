@@ -18,7 +18,7 @@
 		"src_corner_height"		"22"
 		"src_corner_width"		"22"
 		"draw_corner_width"		"0"
-		"draw_corner_height"	"0"	
+		"draw_corner_height"	"0"
 	}
 	
 	"WaveCountLabel"
@@ -122,7 +122,7 @@
 		"src_corner_height"		"22"
 		"src_corner_width"		"22"
 		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
 	
 	"NewProgressBarBG"
@@ -159,6 +159,6 @@
 		"src_corner_height"		"22"
 		"src_corner_width"		"22"
 		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
+		"draw_corner_height"	"0"
 	}
 }

@@ -31,7 +31,7 @@
 		"tall"				"105"
 		"visible"			"0"
 		"enabled"			"0"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"hud_menu_item_bg"
 		"iconColor"			"ProgressOffWhite"
 	}
@@ -47,7 +47,7 @@
 		"tall"				"56"
 		"visible"			"1"
 		"enabled"			"1"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"hud_menu_sentry_build"
 		"iconColor"			"White"
 	}
@@ -68,7 +68,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			""
-		"textAlignment"		"East"	
+		"textAlignment"		"East"
 	}
 	
 	"NumberBg"
@@ -82,7 +82,7 @@
 		"tall"				"18"
 		"visible"			"0"
 		"enabled"			"0"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}

@@ -26,9 +26,9 @@
 		"wide"				"f0"
 		"tall"				"35"
 		"visible"			"1"
+		"proportionaltoparent"	"1"
 		"pinCorner"			"2"
 		"autoResize"		"1"
-		"proportionaltoparent"	"1"
 		
 		"Gradient"
 		{
@@ -381,8 +381,9 @@
 				"paintbackground"	"0"
 				
 				"defaultFgColor_override" "TanDarker"
-				"armedFgColor_override" "235 226 202 255"
+				"armedFgColor_override" "TanLight"
 				"depressedFgColor_override" "TanDarker"
+				
 				"image_drawcolor"	"TextColor"
 				"image_armedcolor"	"LightRed"
 				
@@ -430,10 +431,11 @@
 				"paintbackground"	"0"
 			
 				"defaultFgColor_override" "TanDarker"
-				"armedFgColor_override" "235 226 202 255"
+				"armedFgColor_override" "TanLight"
 				"depressedFgColor_override" "TanDarker"
+				
 				"image_drawcolor"	"TextColor"
-				"image_armedcolor"	"255 0 0 255"
+				"image_armedcolor"	"ColorRed"
 				
 				"SubImage"
 				{
@@ -543,8 +545,10 @@
 				"mouseinputenabled"	"1"
 				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"3"
+				
 				"armedBgColor_override"		"CreditsGreen"
 				"defaultBgColor_override"	"SaleGreen"
+				
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
@@ -576,14 +580,16 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"RoundedCorners"	"0"
+			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"armedBgColor_override"		"192 28 0 150"
 			"defaultBgColor_override"	"192 28 0 50"
-
-			"defaultFgColor_override" 	"TanLight"
-			"armedFgColor_override" 	"TanLight"
+			
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"TanLight"
+			
 			"image_drawcolor"			"TanLight"
 			"image_armedcolor"			"TanLight"
 
@@ -633,6 +639,7 @@
 			"textinsety"	"5"
 			"textinsetx"	"22"
 			"use_proportional_insets"	"1"
+			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 

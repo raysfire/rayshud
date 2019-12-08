@@ -27,7 +27,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"Transparent"
+		"fillcolor"		"0 0 0 0"
 	}
 	"SidePanelBG"
 	{
@@ -117,7 +117,7 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"CerbeticaBold28"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"235 226 202 255"
 	}
 	
 	"SelectTeamLabel"
@@ -134,7 +134,7 @@
 		"font"			"CerbeticaBold32"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"HudOffWhite"
+		"fgcolor"		"200 187 161 255"
 	}
 	
 	"teambutton0"
@@ -159,9 +159,9 @@
 		"team"			"3"		// Blue Team
 		"font"			"CerbeticaBold20"
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"TanLight"
+		"armedFgColor_override"		"235 226 202 255"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"TanLight"
+		"selectedFgColor_override" 	"235 226 202 255"
 	}
 	
 	"BlueTeamBG"
@@ -201,9 +201,9 @@
 		"font"			"CerbeticaBold20"
 		
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"TanLight"
+		"armedFgColor_override"		"235 226 202 255"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"TanLight"
+		"selectedFgColor_override" 	"235 226 202 255"
 	}
 	
 	"RedTeamBG"
@@ -242,9 +242,9 @@
 		"command"		"jointeam auto"
 		"font"			"CerbeticaBold20"
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"TanLight"
+		"armedFgColor_override"		"235 226 202 255"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"TanLight"
+		"selectedFgColor_override" 	"235 226 202 255"
 	}
 	
 	"teambutton3"
@@ -269,9 +269,9 @@
 		"command"		"jointeam spectate"
 		"font"			"CerbeticaBold20"
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"TanLight"
+		"armedFgColor_override"		"235 226 202 255"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"TanLight"
+		"selectedFgColor_override" 	"235 226 202 255"
 	}
 	
 	"TeamMenuAuto"
@@ -315,7 +315,7 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"CerbeticaBold16"
-		"fgcolor"		"White"
+		"fgcolor"		"242 242 242 255"
 	}
 	
 	"MenuBG"
@@ -352,7 +352,7 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"CerbeticaBold20"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"242 242 242 255"
 	}
 	
 	"RedCount"
@@ -373,7 +373,7 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"CerbeticaBold20"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"242 242 242 255"
 	}
 	
 	"HighlanderLabel"
@@ -394,7 +394,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"CerbeticaBold16"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"235 226 202 255"
 		"centerwrap"	"1"
 	}
 	
@@ -416,7 +416,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"CerbeticaBold16"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"0 0 0 200"
 		"centerwrap"	"1"
 		
 		"pin_to_sibling"		"HighlanderLabel"
@@ -442,7 +442,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"CerbeticaBold12"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"235 226 202 255"
 		"centerwrap"	"1"
 	}
 	
@@ -464,7 +464,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"CerbeticaBold12"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"0 0 0 200"
 		"centerwrap"	"1"
 		
 		"pin_to_sibling"		"TeamsFullLabel"
@@ -494,8 +494,8 @@
 		"command"		"cancelmenu"
 		"font"			"CerbeticaBold16"
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"TanLight"
+		"armedFgColor_override"		"235 226 202 255"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"TanLight"
+		"selectedFgColor_override" 	"235 226 202 255"
 	}
 }

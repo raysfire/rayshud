@@ -15,9 +15,9 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"border"			"CyanBorderThick"
-		"bgcolor_override"	"DarkGrey"
-		"PaintBorder"		"1"
+		"paintborder"			"1"
+		"border"				"CyanBorderThick"
+		"bgcolor_override"		"DarkGrey"
 	}
 	
 	"TitleLabel"

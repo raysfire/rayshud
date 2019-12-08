@@ -13,7 +13,7 @@
 		"tall"				"15"
 		"fgcolor"			"TanLight"
 	}
-
+	
 	"TableBackground"
 	{
 		"ControlName"		"EditablePanel"

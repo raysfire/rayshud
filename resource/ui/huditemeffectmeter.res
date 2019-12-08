@@ -25,17 +25,12 @@
 		"zpos"				"3"
 		"wide"				"80"
 		"tall"				"8"
-		"autoResize"		"1"
-		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"labelText"			"#TF_Ball"
+		"fgcolor_override"	"ColorCyan"
 		"textAlignment"		"west"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"font"				"Cerbetica10"
-		"fgcolor_override"	"150 150 150 255"
 	}
 
 	"ItemEffectMeter"

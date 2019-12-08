@@ -13,7 +13,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor" 		"0 0 0 220"
+		"fillcolor"			"0 0 0 220"
 	}
 	
 	"TargetBackground2"
@@ -38,10 +38,8 @@
 		"xpos"				"9999"
 		"ypos"				"9999"
 		"zpos"				"-1"
-		"wide"				"640"
-		"tall"	 			"10"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"image"				"../hud/color_panel_brown"
 		"scaleImage"		"1"
 		"teambg_1"			"../hud/color_panel_brown"
@@ -223,7 +221,7 @@
 		"wide"				"32"
 		"tall"				"36"
 		"visible"			"1"
-		"enabled"			"1"	
+		"enabled"			"1"
 		
 		"MoveableIconBG"
 		{

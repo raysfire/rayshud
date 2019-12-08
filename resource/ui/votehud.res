@@ -130,7 +130,7 @@
 			"visible"			"0"
 			"enabled"			"1"
 			"image"				""
-			"scaleImage"		"1"	
+			"scaleImage"		"1"
 			"color_outline"		"52 48 45 255"
 		}
 		
