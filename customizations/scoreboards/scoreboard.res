@@ -326,7 +326,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"RedTeamScoreDropshadow"
 		"font"				"CerbeticaBold36"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"0 0 0 200"
 		"labelText"			"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"				"c7"

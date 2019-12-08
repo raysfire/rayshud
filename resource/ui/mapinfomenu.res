@@ -26,8 +26,8 @@
 		"tall"			"250"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fillcolor"		"0 0 0 100"
 	}
 	

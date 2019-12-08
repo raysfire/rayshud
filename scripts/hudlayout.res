@@ -1247,7 +1247,7 @@
 		"tall"				"60"
 		"xpos_minmode"		"c115"
 		"ypos_minmode"		"273"
-		"wide_minmode"		"100"
+		"wide_minmode"		"120"
 		"tall_minmode"		"40"
 		"BgAlpha"			"0"
 		"GrowTime"			"0.25"
