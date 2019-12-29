@@ -1976,4 +1976,10 @@
 			"angles_z"		"0"
 		}
 	}
+	
+	"DashboardDimmer"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
 }
