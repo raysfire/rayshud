@@ -107,7 +107,7 @@
 			"ypos" 			"15"
 			"zpos" 			"-1"
 			"wide" 			"240"
-			"tall" 			"14"
+			"tall" 			"31"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible" 		"1"
@@ -187,7 +187,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%killername%"
-			"textAlignment"	"Left"
+			"textAlignment"	"center"
 		}
 		
 		"AvatarImage"

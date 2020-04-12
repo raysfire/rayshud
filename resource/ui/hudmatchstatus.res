@@ -75,14 +75,8 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"proportionaltoparent"	"1"
 		"fgcolor"		"TanLight"
-
-		if_readymode
-		{
-			"xpos"			"300"
-			"ypos"			"130"
-		}
+		"proportionaltoparent"	"1"
 	}
 	
 	"CountdownLabelShadow"
@@ -90,8 +84,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"HudFontGiant"
-		"xpos"			"-2"
-		"ypos"			"-2"
+		"xpos"			"cs-0.48"
+		"ypos"			"cs-0.48"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"4"
@@ -104,10 +98,6 @@
 		"textAlignment"	"center"
 		"fgcolor"		"TransparentBlack"
 		"proportionaltoparent"	"1"
-		
-		"pin_to_sibling"		"CountdownLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"FrontParticlePanel"
@@ -212,15 +202,9 @@
 		"ypos"				"-5"
 		"zpos"				"0"
 		"wide"				"365"
-		"tall"				"0"
-		"visible"			"0"
+		"tall"				"28"
 		"proportionaltoaparent"	"1"
-		"border"			"TFFatLineBorder"
-		
-		if_match
-		{
-			"visible"		"1"
-		}
+		"border"			"NoBorder"
 	}
 	
 	"RankUpLabel"
@@ -304,7 +288,6 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmall"
-			"font_minmode"	"HudFontSmall"
 			"fgcolor"		"TanLight"
 			"xpos"			"25"
 			"ypos"			"0"
@@ -340,7 +323,7 @@
 		"enabled"		"1"
 		
 		"max_size"		"19"
-		"6v6_gap"		"1"
+		"6v6_gap"		"2"
 		"12v12_gap"		"1"
 
 		"team1_grow_dir" 	"west"
@@ -511,7 +494,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"Cerbetica9"
+				"font"			"Cerbetica8"
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"5"

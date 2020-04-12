@@ -5,8 +5,10 @@
 		"fieldName"			"HudItemEffectMeter"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-190"
-		"ypos"				"r21"
+		"xpos"				"c-327"
+		"xpos_minmode"		"c-250"
+		"ypos"				"r72"
+		"ypos_minmode"		"r146"
 		"wide"				"100"
 		"tall"				"60"
 		"MeterFG"			"White"
@@ -15,18 +17,17 @@
 	
 	"PowerupBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"PowerupBG"
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"0"
 		"wide"				"100"
 		"tall"				"20"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"0 0 0 200"
+		"bgcolor_override"	"0 0 0 200"
+		"PaintBackgroundType"	"2"
 	}
 	
 	"ItemEffectIcon"
@@ -34,7 +35,7 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"ItemEffectIcon"
 		"xpos"				"60"
-		"ypos"				"2"
+		"ypos"				"1"
 		"zpos"				"1"
 		"wide"				"18"
 		"tall"				"18"
@@ -80,7 +81,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"textAlignment"		"west"
-		"labelText"			"Powerups"
+		"labelText"			"#TF_Spell_Athletic"
 	}
 	
 	"ItemEffectMeter"

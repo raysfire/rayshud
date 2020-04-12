@@ -38,6 +38,11 @@
 		"textAlignment"	"west"
 	}
 	
+	"SelectTeamLabel"
+	{
+		"visible"		"0"
+	}
+	
 	"teambutton0"
 	{
 		"xpos"			"c-110"
@@ -87,6 +92,12 @@
 		"font"			"CerbeticaBold16"
 	}
 	
+	"AutoJoinBG"
+	{
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	
 	"teambutton3"
 	{
 		"xpos"			"c-110"
@@ -96,6 +107,12 @@
 		"labelText"		"&2. Spectate"	[$WIN32]
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
+	}
+	
+	"SpectateBG"
+	{
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"BlueCount"
@@ -155,23 +172,5 @@
 		"brighttext"	"1"
 		"font"			"Cerbetica14"
 		"fgcolor"		"255 255 255 175"
-	}
-	
-	"HighlanderLabel"
-	{
-		"xpos"			"c-50"
-		"ypos"			"c100"
-		"wide"			"105"
-	}
-	
-	"HighlanderLabelShadow"
-	{
-		"wide"			"105"
-	}
-	
-	"CancelButton"
-	{
-		"xpos"			"r190"
-		"wide"			"150"
 	}
 }

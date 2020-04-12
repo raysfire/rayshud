@@ -142,7 +142,7 @@
 			"ypos"				"50"
 			"wide"				"130"
 			"tall"				"1"
-			"fillcolor"			"ColorGreyMid"
+			"fillcolor"			"DullWhite"
 			"zpos"				"0"
 		}
 		
@@ -353,7 +353,7 @@
 			"ypos"				"100"
 			"wide"				"130"
 			"tall"				"1"
-			"fillcolor"			"ColorGreyMid"
+			"fillcolor"			"DullWhite"
 			"zpos"				"0"
 		}
 		
@@ -372,7 +372,7 @@
 			"dulltext"			"0"
 			"brighttext"		"0"
 			"font"				"ScoreboardVerySmall"
-			"fgcolor_override"	"ColorGreyMid"
+			"fgcolor_override"	"DullWhite"
 		}
 		
 		// Vote Bar
@@ -675,8 +675,6 @@
 			"Command"			"CallVote"
 			"Default"			"0"
 			"font"				"HudFontSmallBold"
-			"border_default"	"ButtonHover"
-			"border_armed"		"ButtonHover"
 		}
 		"Button1"
 		{
@@ -698,8 +696,6 @@
 			"Command"			"Close"
 			"Default"			"0"
 			"font"				"HudFontSmallBold"
-			"border_default"	"ButtonHover"
-			"border_armed"		"ButtonHover"
 		}
 	}
 }
