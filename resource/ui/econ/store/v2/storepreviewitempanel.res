@@ -93,7 +93,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"border"			"CyanBorder"
+		"border"			"CyanBorderThick"
 		"bgcolor_override"	"DarkGrey"
 		"PaintBorder"		"1"
 		
@@ -110,7 +110,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"1"
-			"border"		"CyanBorder"
+			"border"		"NoBorder"
 			"bgcolor_override"	"Grey"
 		}
 		
@@ -348,8 +348,6 @@
 					"command"		"viewwikipage"
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
-					"border_default"	"ButtonHover"
-					"border_armed"		"ButtonHover"
 				}
 				
 				"TradableLabel"
@@ -500,7 +498,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"render_texture" "0"
+		"render_texture"	"0"
 		"fov"			"40"
 		"allow_rot"		"1"
 		"paintbackground" "1"		
@@ -926,8 +924,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"<"
-		"font"			"CerbeticaBold18"
+		"labelText"		"&A"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -954,8 +952,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		">"
-		"font"			"CerbeticaBold18"
+		"labelText"		"&D"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1005,8 +1003,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"<"
-		"font"			"CerbeticaBold18"
+		"labelText"		"&A"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1034,8 +1032,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		">"
-		"font"			"CerbeticaBold18"
+		"labelText"		"&D"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1388,7 +1386,7 @@
 		"armedFgColor_override" "Blank"
 		"depressedFgColor_override" "Blank"
 		"image_drawcolor"	"White"
-		"image_armedcolor"	"ColorRed"
+		"image_armedcolor"	"255 0 0 255"
 		
 		"SubImage"
 		{
@@ -1420,7 +1418,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"Back"
+		"labelText"		"#TF_BackCarat"
 		"font"			"CerbeticaBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -1429,9 +1427,6 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"			"White"
-		"border_default"	"ButtonHover"
-		"border_armed"		"ButtonHover"
 	}
 	
 	"TryItOutButton"
@@ -1447,7 +1442,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"Try It Out"
+		"labelText"		"#Store_TryItOut"
 		"font"			"CerbeticaBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -1456,9 +1451,6 @@
 		"Command"		"tryitout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"			"White"
-		"border_default"	"ButtonHover"
-		"border_armed"		"ButtonHover"
 	}
 	
 	"AddToCartButton"
@@ -1483,9 +1475,6 @@
 		"Command"		"addtocart"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"			"White"
-		"border_default"	"ButtonHover"
-		"border_armed"		"ButtonHover"
 	}
 	
 	"mouseoveritempanel"

@@ -213,8 +213,6 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"ButtonHover"
-		"border_armed"		"ButtonHover"
 	}
 	
 	"OkButton"
@@ -240,7 +238,5 @@
 		"Command"		"apply"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"ButtonHover"
-		"border_armed"		"ButtonHover"
 	}
 }

@@ -9,10 +9,10 @@
 		"ypos"				"200"
 		"wide"				"200"
 		"tall"				"110"
-		"bgcolor_override"	"DarkGrey"
+		"bgcolor_override"	"DarkerGrey"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"CyanBorder"
+		"border"				"CyanBorderThick"
 	}
 	
 	"CenterPositioner"
@@ -117,7 +117,5 @@
 		"Command"			"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"ButtonHover"
-		"border_armed"		"ButtonHover"
 	}
 }

@@ -10,9 +10,9 @@
 		"wide"				"400"
 		"tall"				"240"
 		"bgcolor_override"	"DarkGrey"
-		"paintbackgroundtype"	"2"
+		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"CyanBorder"
+		"border"				"CyanBorderThick"
 	}
 	
 	"TitleLabel"
@@ -52,22 +52,6 @@
 		"enabled"			"1"
 		"paintbackground"	"0"
 		"border"			"BackpackItemBorder_SelfMade"
-	}
-	"tool_icon"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"			"tool_icon"
-		"xpos"				"10"
-		"ypos"				"10"
-		"zpos"				"2"
-		"wide"				"16"
-		"tall"				"16"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"backpack_jewel_modify_target_b_g"
-		"tileImage"			"0"
-		"tileVertically"	"0"
-		"drawcolor"			"112 176 74 255"
 	}
 	"tool_modelpanel"
 	{
@@ -117,22 +101,6 @@
 		"enabled"			"1"
 		"paintbackground"	"0"
 		"border"			"BackpackItemBorder_Vintage"
-	}
-	"subject_icon"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"			"subject_icon"
-		"xpos"				"300"
-		"ypos"				"10"
-		"zpos"				"2"
-		"wide"				"16"
-		"tall"				"16"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"backpack_jewel_modify_target_b_g"
-		"tileImage"			"0"
-		"tileVertically"	"0"
-		"drawcolor"			"71 98 145 255"
 	}
 	"subject_modelpanel"
 	{
@@ -244,7 +212,5 @@
 		"Command"			"backfrominvalid"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"ButtonHover"
-		"border_armed"		"ButtonHover"
 	}
 }

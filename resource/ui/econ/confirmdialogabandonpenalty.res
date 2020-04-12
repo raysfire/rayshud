@@ -17,7 +17,7 @@
 		"paintborder"			"2"
 		"paintbackground"		"1"
 		"border"				"CyanBorderThick"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"DarkGrey"
 	}
 	
 	"TitleLabel"
@@ -96,8 +96,6 @@
 		"Command"				"cancel"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
-		"border_default"		"ButtonHover"
-		"border_armed"			"ButtonHover"
 	}
 	
 	"ConfirmButton"
@@ -124,7 +122,5 @@
 		"Command"				"confirm"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
-		"border_default"		"ButtonHover"
-		"border_armed"			"ButtonHover"
 	}
 }

@@ -325,7 +325,6 @@
 		"paintborder"	"1"
 		"textinsetx"	"100"
 		"border"		"LoadoutItemPopupBorder"
-		"fgcolor"		"243 234 216 255"
 	}
 	
 	"PrevPageButton"
@@ -350,7 +349,7 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"defaultBgColor_override" "TanDarker"
+		"defaultBgColor_override" "DarkerGrey"
 	}
 	
 	"CurPageLabel"
@@ -394,7 +393,7 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"defaultBgColor_override" "TanDarker"
+		"defaultBgColor_override" "DarkerGrey"
 	}
 	
 	"PriceLabel"
@@ -734,8 +733,6 @@
 		"font"			"HudFontSmallBold"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"ButtonHover"
-		"border_armed"		"ButtonHover"
 	}
 	
 	"CartImage"
@@ -780,7 +777,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"RELOADSCHEME"
 		"font"			"HudFontSmallestBold"
