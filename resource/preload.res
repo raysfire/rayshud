@@ -1,65 +1,5 @@
 "Resource/UI/MainMenuOverride.res"
 {
-	"cpiconbluunlock"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconbluunlock"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_blu"
-	}
-	
-	"cpiconblulock"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconblulock"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_blu_locked"
-	}	
-	
-	"cpiconredunlock"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconredunlock"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_red"
-	}
-	
-	"cpiconredlock"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconredlock"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_red_locked"
-	}	
-	
-	"cpiconneutralunlock"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconneutralunlock"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_neutral"
-	}	
-	
-	"cpiconneutrallock"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconneutrallock"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_neutral_locked"
-	}
-	
 	"cpicona"
 	{
 		"ControlName"	"ImagePanel"
@@ -80,6 +20,26 @@
 		"image"			"../sprites/obj_icons/icon_obj_b"
 	}
 	
+	"cpiconbluunlock"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cpiconbluunlock"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_blu"
+	}
+	
+	"cpiconblulock"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cpiconblulock"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_blu_locked"
+	}	
+	
 	"cpiconc"
 	{
 		"ControlName"	"ImagePanel"
@@ -88,6 +48,16 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_c"
+	}
+	
+	"cpiconcapmask"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cpiconcapmask"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_cap_mask"
 	}
 	
 	"cpicond"
@@ -110,33 +80,43 @@
 		"image"			"../sprites/obj_icons/icon_obj_e"
 	}
 	
-	"cpiconcapblu"
+	"cpiconneutralunlock"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconcapblu"
+		"fieldName"		"cpiconneutralunlock"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_cap_blu"
+		"image"			"../sprites/obj_icons/icon_obj_neutral"
+	}	
+	
+	"cpiconneutrallock"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cpiconneutrallock"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_neutral_locked"
 	}
 	
-	"cpiconcapred"
+	"cpiconredunlock"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconcapred"
+		"fieldName"		"cpiconredunlock"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_cap_red"
+		"image"			"../sprites/obj_icons/icon_obj_red"
 	}
 	
-	"cpiconcapmask"
+	"cpiconredlock"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"cpiconcapmask"
+		"fieldName"		"cpiconredlock"
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_cap_mask"
+		"image"			"../sprites/obj_icons/icon_obj_red_locked"
 	}
 }
