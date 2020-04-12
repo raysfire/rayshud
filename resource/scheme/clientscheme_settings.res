@@ -26,6 +26,8 @@ Scheme
 		Econ.Button.PresetDefaultColorBg		"25 25 25 255"
 		Econ.Button.PresetArmedColorBg			"50 50 50 255"
 		Econ.Button.PresetDepressedColorBg		"25 25 25 255"
+		Econ.Button.Border.Default				"25 25 25 255"
+		Econ.Button.Border.Armed				"50 50 50 255"
 		
 		Border.Bright							"NoBorder"
 		Border.Dark								"NoBorder"
@@ -92,7 +94,7 @@ Scheme
 		ListPanel.EmptyListInfoTextColor		"Orange"
 		
 		Menu.TextColor							"TanLight"
-		Menu.BgColor							"TransparentBlack"
+		Menu.BgColor							"DarkGrey"
 		Menu.ArmedTextColor						"TanDark"
 		Menu.ArmedBgColor						"TanLight"
 		Menu.TextInset							"6"
@@ -203,8 +205,8 @@ Scheme
 		
 		// CHudMenu
 		"ItemColor"								"255 167 42 200"	// default 255 167 42 255
-		"MenuColor"								"233 208 173 255"
-		"MenuBoxBg"								"0 0 0 100"
+		"MenuColor"								"255 255 255 255"
+		"MenuBoxBg"								"HudBlack"
 		
 		// Weapon Selection Colors
 		"SelectionNumberFg"						"251 235 202 255"
