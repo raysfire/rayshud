@@ -93,7 +93,7 @@
 		"enabled"		"1"
 		"labelText"		"%button_token%"
 		"textinsetx"	"4"
-		"textinsety"	"20"
+		"textinsety"	"16"
 		"use_proportional_insets" "1"
 		"font"			"CerbeticaBold24"
 		"textAlignment"	"east"

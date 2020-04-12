@@ -30,7 +30,7 @@
 		"textAlignment"		"center"
 		"font"				"CerbeticaBold32"
 		"font_minmode"		"CerbeticaBold20"
-		"fgcolor"			"Last Damage"
+		"fgcolor"			"Last DamageHeal Info"
 	}
 	
 	"DamageAccountValueShadow"

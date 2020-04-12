@@ -79,7 +79,7 @@
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold56"
 		"font_minmode"	"CerbeticaBold32"
-		"fgcolor"		"235 226 202 255"
+		"fgcolor"		"Health Normal"
 	}
 	
 	"PlayerStatusHealthValueShadow"
