@@ -25,7 +25,7 @@
 		"tall"			"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderCompetitive"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"font"			"CerbeticaBold24"
 		"fgcolor_override"	"White"
 		"mouseinputenabled"	"0"
@@ -132,8 +132,5 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"armedBgColor_override"		"CreditsGreen"
-		"defaultBgColor_override"	"GreenSolid"
 	}
 }

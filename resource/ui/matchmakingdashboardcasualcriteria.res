@@ -4,32 +4,31 @@
 {
 	"CasualCriteria"
 	{
-		"fieldName"		"CasualCriteria"
-		"xpos"			"r0"
-		"ypos"			"10"
-		"zpos"			"1002"
-		"wide"			"270"
-		"tall"			"f70"
-		"visible"		"1"
+		"fieldName"				"CasualCriteria"
+		"xpos"					"r0"
+		"ypos"					"10"
+		"zpos"					"1002"
+		"wide"					"270"
+		"tall"					"f70"
+		"visible"				"1"
 		"proportionaltoparent"	"1"
 	}
 
 	"Title"
 	{
-		"ControlName"	"Label"
-		"fieldName"		"Title"
-		"xpos"			"8"
-		"ypos"			"23"
-		"zpos"			"99"
-		"wide"			"f0"
-		"tall"			"20"
+		"ControlName"			"Label"
+		"fieldName"				"Title"
+		"xpos"					"8"
+		"ypos"					"23"
+		"zpos"					"99"
+		"wide"					"f0"
+		"tall"					"20"
 		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_Matchmaking_HeaderCasual"
-		"textAlignment"	"west"
-		"font"			"CerbeticaBold24"
-		"fgcolor_override"	"White"
-		
-		"mouseinputenabled"	"0"
+		"labeltext"				"#TF_Matchmaking_HeaderCasual"
+		"textAlignment"			"center"
+		"font"					"CerbeticaBold24"
+		"fgcolor_override"		"White"
+		"mouseinputenabled"		"0"
 	}
 
 	"criteria"
@@ -43,23 +42,6 @@
 		"tall"			"f73"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-	}
-
-	"ToolTipButtonHack"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ToolTipButtonHack"
-		"xpos"			"cs-0.5"
-		"ypos"			"rs1-8"
-		"zpos"			"101"
-		"wide"			"f20"
-		"tall"			"20"
-		"visible"		"0"
-		"enabled"		"1"
-		"mouseinputenabled"	"1"
-		"eatmouseinput"	"0"	
-		"showtooltipswhenmousedisabled"	"1"
-		"proportionaltoparent" "1"
 	}
 
 	"QueueButton"

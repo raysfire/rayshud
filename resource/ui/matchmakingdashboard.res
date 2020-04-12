@@ -58,7 +58,7 @@
 			"zpos"			"-1"
 			"wide"			"p1.1"
 			"tall"			"f5"
-			"visible"		"1"
+			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
 			"bgcolor_override"		"DarkGrey"
@@ -74,7 +74,7 @@
 			"zpos"			"-2"
 			"wide"			"p1.1"
 			"tall"			"p1"
-			"visible"		"1"
+			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"border"		"OuterShadowBorder"
 			"proportionaltoparent"	"1"
@@ -105,12 +105,16 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"0"
+			"paintbackground"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"TanLight"
+			"image_armedcolor"	"72 255 255 255"
+
+			"armedBgColor_override"		"Transparent"
+			"defaultBgColor_override"	"Transparent"
 
 			"SubImage"
 			{
@@ -430,26 +434,27 @@
 				"actionsignallevel"	"3"
 				"paintbackground"	"0"
 			
-				"defaultFgColor_override" "TanDarker"
-				"armedFgColor_override" "TanLight"
-				"depressedFgColor_override" "TanDarker"
+				"defaultFgColor_override" "46 43 42 255"
+				"armedFgColor_override" "235 226 202 255"
+				"depressedFgColor_override" "46 43 42 255"
 				
-				"image_drawcolor"	"TextColor"
-				"image_armedcolor"	"ColorRed"
+				"image_drawcolor"	"235 226 202 255"
+				"image_armedcolor"	"255 0 0 255"
 				
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
 					"fieldName"		"SubImage"
-					"xpos"			"0"
-					"ypos"			"0"
+					"xpos"			"cs-0.5"
+					"ypos"			"cs-0.5"
 					"zpos"			"1"
-					"wide"			"14"
-					"tall"			"14"
+					"wide"			"9"
+					"tall"			"9"
 					"visible"		"1"
 					"enabled"		"1"
 					"image"			"replay/thumbnails/close"
 					"scaleImage"	"1"
+					"proportionaltoparent"	"1"
 				}
 			}		
 		}
@@ -600,8 +605,8 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"rs1-5"
 				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
+				"wide"			"15"
+				"tall"			"15"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"

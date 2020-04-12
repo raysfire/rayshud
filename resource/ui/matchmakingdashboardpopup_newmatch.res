@@ -15,7 +15,7 @@
 		"mouseinputenabled"		"1"
 
 		"collapsed_height"	"0"
-		"expanded_height"	"60"
+		"expanded_height"	"30"
 
 		"pinCorner"		"2"
 		"autoResize"	"1"
@@ -49,7 +49,7 @@
 			"tall"			"f5"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"CyanBorder"
+			"border"		"NoBorder"
 			"bgcolor_override"	"DarkGrey"
 			"proportionaltoparent"	"1"
 			"pinCorner"		"3"
@@ -59,7 +59,7 @@
 				"ControlName"	"CAutoFittingLabel"
 				"fieldName"		"DescLabel"
 				"xpos"			"0"
-				"ypos"			"7"
+				"ypos"			"5"
 				"wide"			"f0"
 				"zpos"			"100"
 				"tall"			"20"
@@ -127,8 +127,6 @@
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				"border_default"	"ButtonHover"
-				"border_armed"		"ButtonHover"
 			}
 
 			"SmallJoinButton"
@@ -165,8 +163,6 @@
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				"border_default"	"ButtonHover"
-				"border_armed"		"ButtonHover"
 			}
 
 			"WideJoinButton"
@@ -197,8 +193,6 @@
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				"border_default"	"ButtonHover"
-				"border_armed"		"ButtonHover"
 			}
 
 			"JoiningLabel"

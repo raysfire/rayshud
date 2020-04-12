@@ -16,7 +16,7 @@
 			"fieldName"		"HeaderLabel"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"labelText"		"Currently Live"
+			"labelText"		"Currently Live on Twitch"
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"300"
@@ -27,7 +27,7 @@
 			"enabled"		"1"
 			"PaintBackgroundType" "2"
 			"fgcolor_override"	"TanLight"
-			"bgcolor_override"	"25 25 25 255"
+			"bgcolor_override"	"100 65 165 255"
 		}
 	}
 	
@@ -45,30 +45,28 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labeltext"		"X"
-		"font"			"HudFontSmallBold"
+		"labeltext"		""
+		"font"			""
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"0"
-		
-		"navDown"			"MOTD_URLButton"
-		"navActivate"		"<QuickplayButton"
-		
+		"actionsignallevel"	"2"
+			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"			"hide_streams"
 		"paintbackground"	"0"
-		
+			
 		//"defaultFgColor_override" "TanLight"
 		//"armedFgColor_override" "TanDarker"
-		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "ColorCyan"
-		"depressedFgColor_override" "TanLight"
-		
+		"defaultFgColor_override" "Blank"
+		"armedFgColor_override" "Blank"
+		"depressedFgColor_override" "Blank"
+			
 		"image_drawcolor"	"TanLight"
-		"image_armedcolor"	"LightRed"
-		
+		"image_armedcolor"	"255 0 0 255"
+			
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -78,9 +76,9 @@
 			"zpos"			"1"
 			"wide"			"14"
 			"tall"			"14"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"close_button"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/close"
 			"scaleImage"	"1"
 		}
 	}
@@ -101,6 +99,23 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor"		"56 53 49 255"
+	}
+	
+	"StreamsBg"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"StreamsBg"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-55"
+		"wide"			"90"
+		"tall"			"261"
+		"pinCorner"		"0"
+		"autoResize"	"0"
+		"visible"		"1"
+		"enable"		"1"
+		"paintbackground"	"0"
+		"bgcolor_override"	"DarkGrey"
 	}
 	
 	"Stream1"
