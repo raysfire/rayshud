@@ -12,7 +12,17 @@
 		"iconColor"			"ColorGreen"
 	}
 	
+	"CostLabel"
+	{
+		"fgcolor_override"	"ColorGreen"
+	}
+	
 	"CantBuildReason"
+	{
+		"fgcolor"			"ColorGreen"
+	}
+	
+	"NumberLabel"
 	{
 		"fgcolor"			"ColorGreen"
 	}

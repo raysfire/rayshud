@@ -5,10 +5,10 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemNameLabel"
 		"font"				"CerbeticaBold16"
-		"xpos"				"15"
-		"ypos"				"4"
+		"xpos"				"0"
+		"ypos"				"10"
 		"zpos"				"1"
-		"wide"				"70"
+		"wide"				"100"
 		"tall"				"15"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -33,7 +33,7 @@
 		"enabled"			"0"
 		"scaleImage"		"1"
 		"icon"				"hud_menu_item_bg"
-		"iconColor"			"ProgressOffWhite"
+		"iconColor"			"Black"
 	}
 	
 	"BuildingIcon"	
@@ -41,7 +41,7 @@
 		"ControlName"		"CIconPanel"
 		"fieldName"			"BuildingIcon"
 		"xpos"				"22"
-		"ypos"				"23"
+		"ypos"				"43"
 		"zpos"				"2"
 		"wide"				"56"
 		"tall"				"56"
@@ -53,7 +53,7 @@
 	}
 	
 	"ModeLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ModeLabel"
 		"font"				"DefaultSmall"
@@ -76,7 +76,7 @@
 		"ControlName"		"CIconPanel"
 		"fieldName"			"NumberBg"
 		"xpos"				"41"
-		"ypos"				"99"
+		"ypos"				"106"
 		"zpos"				"0"
 		"wide"				"18"
 		"tall"				"18"
@@ -88,16 +88,16 @@
 	}
 	
 	"NumberLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
 		"font"				"CerbeticaBold20"
 		"fgcolor"			"TanLight"
 		"xpos"				"0"
-		"ypos"				"85"
+		"ypos"				"105"
 		"zpos"				"1"
 		"wide"				"100"
-		"tall"				"18"
+		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"

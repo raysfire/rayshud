@@ -6,8 +6,8 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"ItemBackground"
-		"xpos"				"50"
-		"ypos"				"10"
+		"xpos"				"0"
+		"ypos"				"20"
 		"zpos"				"0"
 		"wide"				"400"
 		"tall"				"130"
