@@ -29,7 +29,7 @@
 		{
 			"PaintBackgroundType"	"0"
 			"paintborder"			"1"
-			"bgcolor_override"		"Grey"
+			"bgcolor_override"		"DarkGrey"
 			
 			"model_xpos"		"0"
 			"model_center_y"	"1"
@@ -84,11 +84,11 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemsFoundLabel"
 		"font"			"HudFontMediumBigBold"
+		"fgcolor"		"TanLight"
 		"labelText"		"#NewItemsAcquired"
 		"textAlignment"	"center"
-		"fgcolor"		"TanLight"
 		"xpos"			"0"
-		"ypos"			"30"
+		"ypos"			"40"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"35"
@@ -175,15 +175,6 @@
 		"Command"		"nextitem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"1"
-		"defaultBgColor_override"	"15 15 15 255k"
-		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"25 25 25 255"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanLight"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
 	}
 	
 	"PrevButton"
@@ -208,15 +199,6 @@
 		"Command"		"previtem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"1"
-		"defaultBgColor_override"	"15 15 15 255k"
-		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"25 25 25 255"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanLight"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
 	}
 	
 	"CloseButton"
@@ -242,15 +224,6 @@
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"1"
-		"defaultBgColor_override"	"15 15 15 255"
-		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"25 25 25 255"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanLight"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
 	}
 	
 	"OpenLoadoutButton"
@@ -275,15 +248,6 @@
 		"Command"		"changeloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"1"
-		"defaultBgColor_override"	"15 15 15 255"
-		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"25 25 25 255"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanLight"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
 	}
 	
 	"DiscardButton"
@@ -309,11 +273,11 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override" "TextColor"
-		"armedBgColor_override" "145 73 59 255"
-		"depressedBgColor_override" "TextColor"
+		"defaultBgColor_override" "Transparent"
+		"armedBgColor_override" "Transparent"
+		"depressedBgColor_override" "Transparent"
 		"image_drawcolor"	"TanLight"
-		"image_armedcolor"	"TanLight"		
+		"image_armedcolor"	"ColorCyan"
 		
 		"SubImage"
 		{
@@ -344,7 +308,9 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
+		"paintbackground"	"1"
 		"border"		"NoBorder"
+		"bgcolor_override"	"DarkerGrey"
 		
 		"TipLabel"
 		{

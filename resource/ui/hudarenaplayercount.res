@@ -7,8 +7,8 @@
 		"xpos"			"c-46"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"60"
-		"tall"			"33"
+		"wide"			"46"
+		"tall"			"23"
 		"visible"		"1"
 		
 		"background"
@@ -47,8 +47,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"countshadow"
-			"xpos"			"-1"
-			"ypos"			"-1"
+			"xpos"			"-2"
+			"ypos"			"-2"
 			"zpos"			"1"
 			"wide"			"30"
 			"tall"			"23"
@@ -89,8 +89,8 @@
 		"xpos"			"c0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"60"
-		"tall"			"33"
+		"wide"			"46"
+		"tall"			"23"
 		"visible"		"1"
 		
 		"background"
@@ -129,8 +129,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"countshadow"
-			"xpos"			"-1"
-			"ypos"			"-1"
+			"xpos"			"-2"
+			"ypos"			"-2"
 			"zpos"			"1"
 			"wide"			"30"
 			"tall"			"23"

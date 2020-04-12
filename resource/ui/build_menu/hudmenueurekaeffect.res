@@ -2,21 +2,19 @@
 {
 	"MainBackground"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"MainBackground"
-		"xpos"				"25"
-		"ypos"				"10"
+		"xpos"				"0"
+		"ypos"				"20"
 		"zpos"				"0"
 		"wide"				"200"
-		"tall"				"120"
+		"tall"				"130"
 		"visible"			"1"
 		"enabled"			"1"
-		"scaleImage"		"1"
-		"icon"				"hud_menu_bg"
-		"fillcolor"			"0 0 0 100"
+		"paintbackground" 	"0"
 	}
 	
-	"BuildIcon"
+	"BuildIcon"	
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"BuildIcon"
@@ -29,7 +27,6 @@
 		"enabled"			"0"
 		"scaleImage"		"1"
 		"icon"				"ico_build"
-		"iconColor"			"White"
 	}
 	
 	"TitleLabel"
@@ -37,11 +34,11 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
 		"font"				"CerbeticaBold32"
-		"xpos"				"34"
-		"ypos"				"-10"
+		"xpos"				"10"
+		"ypos"				"0"
 		"zpos"				"2"
-		"wide"				"300"
-		"tall"				"38"
+		"wide"				"380"
+		"tall"				"25"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -61,8 +58,8 @@
 		"xpos"				"-2"
 		"ypos"				"-2"
 		"zpos"				"1"
-		"wide"				"300"
-		"tall"				"38"
+		"wide"				"380"
+		"tall"				"25"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -78,7 +75,7 @@
 	}
 	
 	"CancelLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CancelLabel"
 		"font"				"SpectatorKeyHints"
@@ -101,11 +98,11 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"available_target_1"
-		"xpos"				"25"
-		"ypos"				"23"
-		"zpos"				"10"
+		"xpos"				"0"
+		"ypos"				"20"
+		"zpos"				"1"
 		"wide"				"100"
-		"tall"				"124"
+		"tall"				"130"
 		"visible"			"1"
 	}
 	
@@ -113,11 +110,11 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"available_target_2"
-		"xpos"				"125"
-		"ypos"				"23"
+		"xpos"				"100"
+		"ypos"				"20"
 		"zpos"				"1"
 		"wide"				"100"
-		"tall"				"124"
+		"tall"				"130"
 		"visible"			"1"
 	}
 	
@@ -125,23 +122,38 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"unavailable_target_1"
-		"xpos"				"25"
-		"ypos"				"23"
+		"xpos"				"0"
+		"ypos"				"20"
 		"zpos"				"1"
 		"wide"				"100"
-		"tall"				"124"
-		"visible"			"0"
+		"tall"				"130"
+		"visible"			"1"
 	}
 	
 	"unavailable_target_2"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"unavailable_target_2"
-		"xpos"				"125"
-		"ypos"				"23"
+		"xpos"				"100"
+		"ypos"				"20"
 		"zpos"				"1"
 		"wide"				"100"
-		"tall"				"124"
-		"visible"			"0"
+		"tall"				"130"
+		"visible"			"1"
+	}
+	
+	"MenuBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"MenuBG"
+		"xpos"				"0"
+		"ypos"				"20"
+		"zpos"				"1"
+		"wide"				"200"
+		"tall"				"130"
+		"visible"			"1"
+		"enabled"			"1"
+		"bgcolor_override"	"TransparentBlack"
+		"PaintBackgroundType"	"2"
 	}
 }

@@ -24,7 +24,6 @@
 	{
 		"ypos"			"304"
 	}
-	
 	"Red6sBackground"
 	{
 		"xpos"			"c65"
@@ -36,41 +35,38 @@
 		"xpos"			"c65"
 		"ypos"			"121"
 	}
-	"BlueTeamLabel1"
+	"BlueTeamName"
 	{
-		"ypos"			"273"
+		"ypos"			"279"
 	}
 	"BlueTeamScore"
 	{
-		"ypos"			"263"
+		"ypos"			"278"
 	}
 	"BlueTeamScoreDropshadow"
 	{
-		"fgcolor"		"Black"
-		"ypos"			"264"
+		"ypos"			"280"
 	}
 	"BlueTeamPlayerCount"
 	{
-		"ypos"			"257"
+		"ypos"			"265"
 	}
-	"RedTeamLabel1"
+	"RedTeamName"
 	{
-		"ypos"			"273"
+		"ypos"			"279"
 	}
 	"RedTeamScore"
 	{
-		"ypos"			"263"
+		"ypos"			"278"
 	}
 	"RedTeamScoreDropshadow"
 	{
-		"ypos"			"264"
+		"ypos"			"280"
 	}
-	
 	"RedTeamPlayerCount"
 	{
-		"ypos"			"257"
+		"ypos"			"265"
 	}
-	
 	"BluePlayerList"
 	{
 		"ypos"			"304"

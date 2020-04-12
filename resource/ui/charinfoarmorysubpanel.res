@@ -59,19 +59,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		">>"
-		"textAlignment"	"west"
-		"xpos"			"c-300"
-		"ypos"			"7"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"15"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "200 128 255 255"
+		"xpos"			"9999"
 	}
 	
 	"ArmoryLabel"
@@ -81,8 +69,8 @@
 		"font"			"HudFontMediumSmallBold"
 		"labelText"		"#Armory"
 		"textAlignment"	"west"
-		"xpos"			"c-280"
-		"ypos"			"2"
+		"xpos"			"c-300"
+		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"560"
 		"tall"			"25"
@@ -106,8 +94,8 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"FilterComboBox"
@@ -115,7 +103,7 @@
 		"ControlName"		"ComboBox"
 		"fieldName"			"FilterComboBox"
 		"font"				"HudFontSmallestBold"
-		"xpos"				"c-240"
+		"xpos"				"c-300"
 		"ypos"				"32"
 		"zpos"				"1"
 		"wide"				"150"
@@ -132,12 +120,12 @@
 		"unicode"			"0"
 		
 		"fgcolor_override"					"TanLight"
-		"bgcolor_override"					"Grey"
+		"bgcolor_override"					"DarkerGrey"
 		"disabledFgColor_override"			"TanLight"
-		"disabledBgColor_override"			"Grey"
-		"selectionColor_override"			"Grey"
+		"disabledBgColor_override"			"DarkerGrey"
+		"selectionColor_override"			"DarkerGrey"
 		"selectionTextColor_override"		"TanLight"
-		"defaultSelectionBG2Color_override"	"Grey"
+		"defaultSelectionBG2Color_override"	"DarkerGrey"
 	}
 	
 	"DataPanel"
@@ -146,13 +134,13 @@
 		"fieldName"		"DataPanel"
 		"xpos"			"c20"
 		"ypos"			"30"
-		"zpos"			"0"
+		"zpos"			"1"
 		"wide"			"270"
 		"tall"			"253"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
-		"border"		"StorePreviewBorder"
+		"border"		"NoBorder"
 		
 		"Data_TextRichText"
 		{
@@ -194,7 +182,7 @@
 		"tall"				"135"
 		"visible"			"1"
 		"bgcolor_override"		"Transparent"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintborder"		"0"
 		"model_hide"		"1"
 		"text_center"		"1"
@@ -296,8 +284,6 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"CyanBorderThick"
-		"border_armed"		"CyanBorderThick"
 	}
 	
 	"CurPageLabel"
@@ -341,8 +327,6 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"CyanBorderThick"
-		"border_armed"		"CyanBorderThick"
 	}
 	
 	"WikiButton"
@@ -368,8 +352,6 @@
 		"Command"		"wiki"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"CyanBorderThick"
-		"border_armed"		"CyanBorderThick"
 	}
 	
 	"ViewSetButton"
@@ -395,8 +377,6 @@
 		"Command"		"viewset"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"CyanBorderThick"
-		"border_armed"		"CyanBorderThick"
 	}
 	
 	"StoreButton"
@@ -421,8 +401,6 @@
 		"Command"		"openstore"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"CyanBorderThick"
-		"border_armed"		"CyanBorderThick"
 	}
 	
 	"ReloadSchemeButton"
@@ -448,7 +426,5 @@
 		"Command"		"reloadscheme"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"CyanBorderThick"
-		"border_armed"		"CyanBorderThick"
 	}
 }

@@ -45,7 +45,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"border"			"CyanBorder"
+		"border"			"CyanBorderThick"
 		"bgcolor_override"	"DarkGrey"
 		"PaintBorder"		"1"
 		
@@ -138,11 +138,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"CerbeticaBold16"
+		"font"			"CerbeticaBold18"
 		"labelText"		"%selectiontitle%"
 		"textAlignment"	"center"
 		"xpos"			"c-130"
-		"ypos"			"c-124"
+		"ypos"			"c-130"
 		"wide"			"260"
 		"tall"			"33"
 		"autoResize"	"1"
@@ -264,8 +264,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"<"
-		"font"			"CerbeticaBold18"
+		"labelText"		"&A"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -288,8 +288,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		">"
-		"font"			"CerbeticaBold18"
+		"labelText"		"&D"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -335,8 +335,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"<"
-		"font"			"CerbeticaBold18"
+		"labelText"		"&A"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -359,8 +359,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		">"
-		"font"			"CerbeticaBold18"
+		"labelText"		"&D"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -458,7 +458,7 @@
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
@@ -477,7 +477,7 @@
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
@@ -508,7 +508,7 @@
 		"paintbackground"	"0"
 		
 		"image_drawcolor"	"White"
-		"image_armedcolor"	"ColorRed"
+		"image_armedcolor"	"255 0 0 255"
 		
 		"SubImage"
 		{
@@ -549,8 +549,6 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"ButtonHover"
-		"border_armed"		"ButtonHover"
 	}
 	
 	"AddToCartButton"
@@ -575,7 +573,5 @@
 		"Command"		"addtocart"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"ButtonHover"
-		"border_armed"		"ButtonHover"
 	}
 }

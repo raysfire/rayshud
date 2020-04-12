@@ -235,7 +235,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"icon"			"obj_status_alert_background_tall_nocolor"
-			"iconColor"		"HudBlack"
+			"iconColor"		"65 65 65 255"
 			"scaleImage"	"1"
 		}
 		
@@ -309,5 +309,21 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
+	}
+	
+	"AvatarImage"
+	{
+		"ControlName"		"CAvatarImagePanel"
+		"fieldName"			"AvatarImage"
+		"xpos"				"0"
+		"ypos"				"28"
+		"zpos"				"99"
+		"wide"				"17"
+		"tall"				"17"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				""
+		"scaleImage"		"1"	
+		"color_outline"		"HudTimerProgressInActive"
 	}
 }

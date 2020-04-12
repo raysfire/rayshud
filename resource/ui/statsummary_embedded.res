@@ -1350,7 +1350,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"RecordsLabel1"
-			"font"			"ScoreboardMediumSmall"
+			"font"			"ScoreboardMedium"
 			"labelText"		"#StatSummary_Label_BestMoments"
 			"textAlignment"	"west"
 			"xpos"			"c+124"
@@ -1945,7 +1945,7 @@
 	{
 		"ControlName"	"Button"
 		"fieldName"		"NextTipButton"
-		"xpos"			"c-248"
+		"xpos"			"c-285"
 		"ypos"			"310"
 		"zpos"			"6"
 		"wide"			"90"

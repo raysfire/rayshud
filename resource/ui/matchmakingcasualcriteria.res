@@ -14,7 +14,7 @@
 		"proportionaltoparent"	"1"
 		"pinCorner"		"2"
 		"autoResize"	"1"
-
+		
 		"RankImage"
 		{
 			"ControlName"	"CTFLocalPlayerBadgePanel"
@@ -24,7 +24,7 @@
 			"zpos"			"110"
 			"wide"			"o1"
 			"tall"			"60"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
@@ -40,7 +40,7 @@
 			"zpos"			"100"
 			"wide"			"330"
 			"tall"			"92"
-			"visible"		"1"
+			"visible"		"0"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 			"matchgroup"	"MatchGroup_Casual_12v12"
@@ -53,7 +53,7 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"RestoreCasualSearchCriteria"
 			"xpos"			"rs1-49"
-			"ypos"			"49"
+			"ypos"			"15"
 			"zpos"			"100"
 			"wide"			"15"
 			"tall"			"o1"
@@ -91,13 +91,13 @@
 				"scaleImage"	"1"
 			}
 		}
-
+		
 		"SaveCasualSearchCriteria"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SaveCasualSearchCriteria"
 			"xpos"			"rs1-29"
-			"ypos"			"49"
+			"ypos"			"15"
 			"zpos"			"100"
 			"wide"			"15"
 			"tall"			"o1"
@@ -135,7 +135,7 @@
 				"scaleImage"	"1"
 			}
 		}
-
+		
 		"ShowExplanationsButton"
 		{
 			"ControlName"	"CExButton"
@@ -151,7 +151,7 @@
 			"ControlName"	"Label"
 			"fieldName"		"Title"
 			"xpos"			"10"
-			"ypos"			"46"
+			"ypos"			"15"
 			"zpos"			"0"
 			"wide"			"f0"
 			"tall"			"20"
@@ -167,7 +167,7 @@
 			"ControlName"	"Label"
 			"fieldName"		"SelectedCount"
 			"xpos"			"10"
-			"ypos"			"33"
+			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"f0"
 			"tall"			"20"
@@ -207,7 +207,7 @@
 			"zpos"			"101"
 			"wide"			"f15"
 			"tall"			"f65"
-			"visible"		"1"
+			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"border"		"InnerShadowBorder"
 			"proportionaltoparent"	"1"
@@ -219,9 +219,9 @@
 			"ControlName"	"CScrollableList"
 			"fieldName"		"GameModesList"
 			"xpos"			"cs-0.5"
-			"ypos"			"65"
+			"ypos"			"35"
 			"wide"			"f15"
-			"tall"			"f65"
+			"tall"			"f40"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"restrict_width" "0"

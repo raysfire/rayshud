@@ -15,12 +15,12 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"46 43 42 0"
-		"infocus_bgcolor_override"		"46 43 42 0"
-		"outoffocus_bgcolor_override"	"46 43 42 0"
+		"bgcolor_override"				"27 27 27 0"
+		"infocus_bgcolor_override"		"27 27 27 0"
+		"outoffocus_bgcolor_override"	"27 27 27 0"
 		
 		"title"			"#CharInfoAndSetup"
-		"title_font"	"HudFontMediumBold"
+		"title_font"	"HudFontSmallBold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"HudOffWhite"
@@ -56,7 +56,7 @@
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"15 15 15 175"
+		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
 	}
 	
@@ -85,14 +85,14 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"15 15 15 220"
+		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
 	}
 	
 	"FooterLine"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"HeaderLine"
+		"fieldName"		"FooterLine"
 		"xpos"			"0"
 		"ypos"			"420"
 		"zpos"			"2"
@@ -134,16 +134,15 @@
 		{
 			"textinsetx"		"25"
 			"textAlignment"		"center"
-			"font"				"Cerbetica20"
-			"ypos"				"50"
+			"font"				"Cerbetica18"
 			"selectedcolor"		"TanLight"
 			"unselectedcolor"	"TanDark"
 			"defaultBgColor_override"	"25 25 25 255"
 			"paintbackground"			"1"
-			"unselectedBgColor_override" "10 10 10 255"
 			"activeborder_override"		"CyanBorderTabs"
-			"depressedBgColor_override"	"10 10 10 255"
-			"normalborder_override" 	"CyanBorderTabsInactive"
+			"normalborder_override"		"CyanBorderTabsInactive"
+			"unselectedBgColor_override"	"10 10 10 255"
+			"depressedBgColor_override"		"10 10 10 255"
 		}
 	}
 	
@@ -170,8 +169,6 @@
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"ButtonHover"
-		"border_armed"		"ButtonHover"
 	}
 	
 	"NotificationsPresentPanel"

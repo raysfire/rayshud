@@ -231,7 +231,7 @@
 					"visible"		"1"
 					"zpos"			"-2"
 				}
-
+				
 				if_competitive
 				{
 					"visible"		"1"
@@ -433,13 +433,11 @@
 		
 		if_competitive
 		{
-			"xpos"			"200"
 			"visible"		"0"
 		}
 
 		if_readymode
 		{
-			"xpos"			"200"
 			"visible"		"0"
 		}
 	}
@@ -469,13 +467,11 @@
 		
 		if_competitive
 		{
-			"xpos"			"207"
 			"visible"		"0"
 		}
 
 		if_readymode
 		{
-			"xpos"			"207"
 			"visible"		"0"
 		}
 	}
@@ -505,13 +501,11 @@
 		
 		if_competitive
 		{
-			"xpos"			"251"
 			"visible"		"0"
 		}
 
 		if_readymode
 		{
-			"xpos"			"251"
 			"visible"		"0"
 		}
 	}
@@ -542,12 +536,10 @@
 		}
 		if_competitive
 		{
-			"xpos"			"320"
 			"visible"		"0"
 		}
 		if_readymode
 		{
-			"xpos"			"320"
 			"visible"		"0"
 		}
 	}
@@ -577,13 +569,11 @@
 		
 		if_competitive
 		{
-			"xpos"			"370"
 			"visible"		"0"
 		}
 		
 		if_readymode
 		{
-			"xpos"			"370"
 			"visible"		"0"
 		}
 	}
@@ -613,13 +603,11 @@
 		
 		if_competitive
 		{
-			"xpos"			"325"
 			"visible"		"0"
 		}
 		
 		if_readymode
 		{
-			"xpos"			"325"
 			"visible"		"0"
 		}
 	}
@@ -646,13 +634,6 @@
 		if_mvm
 		{
 			"visible"		"0"
-		}
-		
-		if_readymode
-		{
-			"wide"			"f0"
-			"xpos"			"0"
-			"ypos"			"16"
 		}
 		
 		if_competitive
@@ -690,17 +671,11 @@
 		if_competitive
 		{
 			"visible"		"0"
-			"enabled"		"0"
-			"wide"			"f0"
-			"xpos"			"1"
-			"ypos"			"25"
 		}
 		
 		if_readymode
 		{
-			"wide"			"f0"
-			"xpos"			"0"
-			"ypos"			"16"
+			"visible"		"0"
 		}
 	}
 
@@ -708,34 +683,7 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"HudTournamentBGHelp"
-		"xpos"			"0"
-		"ypos"			"49"
-		"zpos"			"-1"
-		"wide"			"250"
-		"tall"			"12"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../HUD/tournament_panel_brown"
-
-
-		"src_corner_height"		"23"
-		"src_corner_width"		"23"
-		"draw_corner_width"		"0"
-		"draw_corner_height"	"0"	
-		
-		if_mvm {
-			"visible"	"0"
-		}
-		
-		if_competitive {
-			"visible"	"0"
-		}
-
-		if_readymode {
-			"visible"	"0"
-		}
+		"wide"			"0"
 	}
 	
 	"TournamentInstructionsLabel"
@@ -829,7 +777,7 @@
 		"ypos"			"r55"
 		"wide"			"40"
 		"tall"			"40"
-		"zpos"			"1"
+		"zpos"			"2"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -838,11 +786,11 @@
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"	"center"
 		
-		"if_mvm" 
+		if_mvm
 		{
 			"visible"		"1"
 			"enabled"		"1"
-			"xpos"			"c-60"
+			"xpos"			"c-80"
 			"wide"			"140"
 		}
 		
@@ -867,8 +815,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"Cerbetica24"
-		"xpos"			"231"
-		"ypos"			"r54"
+		"xpos"			"229"
+		"ypos"			"r53"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"1"
@@ -885,7 +833,7 @@
 		{
 			"visible"		"1"
 			"enabled"		"1"
-			"xpos"			"c-60"
+			"xpos"			"c-78"
 			"wide"			"140"
 		}
 		

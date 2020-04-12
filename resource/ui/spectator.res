@@ -24,7 +24,7 @@
 		"wide"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
@@ -45,15 +45,13 @@
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"bottombarblank"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"ypos_minmode"	"r0"
+		"xpos"			"0"
+		"ypos"			"r0"
 		"tall"			"0"
 		"wide"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"visible_minmode" "0"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
@@ -74,7 +72,7 @@
 		"textAlignment"	"center"
 		"font"			"Cerbetica24"
 	}
-
+	
 	"BuyBackLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -87,11 +85,16 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		""
+		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"Cerbetica24"
 		"wrap"			"1"
 		"centerwrap"	"1"
+		"font"			"Cerbetica24"
+		
+		if_mvm
+		{
+			"visible"		"1"
+		}
 	}
 	
 	"MapLabel"
@@ -160,6 +163,7 @@
 		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
+		"paintbackground"		"1"
 		"PaintBackgroundType"	"0"
 		
 		"model_ypos"		"10"
@@ -177,36 +181,20 @@
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
 		
-		"ItemBackground"
-		{
-			"ControlName" 	"ImagePanel"
-			"fieldName" 	"ItemBackground"
-			"xpos" 			"0"
-			"ypos" 			"0"
-			"zpos" 			"-1"
-			"wide" 			"240"
-			"tall" 			"900"
-			"autoResize" 	"0"
-			"pinCorner" 	"0"
-			"visible" 		"1"
-			"enabled" 		"1"
-			"fillcolor" 	"0 0 0 100"
-		}
-		
-		"TitleBackground"
+		"ItemBG"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"TitleBackground"
-			"xpos"			"4"
-			"ypos"			"4"
+			"fieldName"		"ItemBG"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"-1"
-			"wide"			"232"
-			"tall"			"14"
+			"wide"			"240"
+			"tall"			"900"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"0 0 0 100"
+			"fillcolor"		"HudBlack"
 		}
 		
 		"itemmodelpanel"

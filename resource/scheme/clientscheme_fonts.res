@@ -33,15 +33,25 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"CerbeticaBoldMedic56"
+		"CerbeticaBoldOutline56"
 		{
 			"1"
 			{
 				"name"			"Cerbetica Bold"
-				"tall" 			 "56"
+				"tall" 			"56"
 				"additive"	 	"0"
 				"antialias"	 	"1"
 				"outline"	 	"1"
+			}
+		}
+		"CerbeticaBold50"
+		{
+			"1"
+			{
+				"name"			"Cerbetica Bold"
+				"tall" 		 	"50"
+				"additive"		"0"
+				"antialias"		"1"
 			}
 		}
 		"CerbeticaBold48"
@@ -80,6 +90,16 @@ Scheme
 			{
 				"name"			"Cerbetica Bold"
 				"tall"			"42"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"CerbeticaBold37"
+		{
+			"1"
+			{
+				"name"			"Cerbetica Bold"
+				"tall"			"37"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -125,6 +145,16 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"CerbeticaBold27"
+		{
+			"1"
+			{
+				"name"			"Cerbetica Bold"
+				"tall"			"27"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 		"CerbeticaBold24"
 		{
 			"1"
@@ -144,6 +174,16 @@ Scheme
 				"additive"	 	"0"
 				"antialias"	 	"1"
 				"outline"	 	"1"
+			}
+		}
+		"CerbeticaBold22"
+		{
+			"1"
+			{
+				"name"			"Cerbetica Bold"
+				"tall"			"22"
+				"additive"		"0"
+				"antialias"		"1"
 			}
 		}
 		"CerbeticaBold20"
@@ -233,6 +273,26 @@ Scheme
 			{
 				"name"			"Cerbetica Bold"
 				"tall"			"12"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"CerbeticaBold10"
+		{
+			"1"
+			{
+				"name"			"Cerbetica Bold"
+				"tall"			"10"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"CerbeticaBold8"
+		{
+			"1"
+			{
+				"name"			"Cerbetica Bold"
+				"tall"			"8"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -384,9 +444,9 @@ Scheme
 			{
 				"name"			"Cerbetica_edited"
 				"tall"			"24"
-				"additive"	 "0"
-				"antialias"	 "1"
-				"outline"	 "1"
+				"additive"	 	"0"
+				"antialias"	 	"1"
+				"outline"	 	"1"
 			}
 		}
 		"Cerbetica22"
@@ -409,12 +469,32 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"Cerbetica18"
+		{
+			"1"
+			{
+				"name"			"Cerbetica_edited"
+				"tall"			"18"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 		"Cerbetica16"
 		{
 			"1"
 			{
 				"name"			"Cerbetica_edited"
 				"tall"			"16"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Cerbetica15"
+		{
+			"1"
+			{
+				"name"			"Cerbetica_edited"
+				"tall"			"15"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -496,15 +576,16 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"12"
+				"tall"			"10"
+				"additive"		"0"
 				"antialias"		"1"
 			}
 			"2"
 			{
 				"name"			"Cerbetica_bold"
-				"tall"			"72"
+				"tall"			"12"
+				"range"			"0x0000 0x00FF"
 				"weight"		"800"
-				"antialias"		"1"
 			}
 		}
 		"DefaultOutline"
@@ -701,10 +782,11 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
+				"name"			"Helvetica" [$OSX]
 				"tall"			"18"
 				"weight"		"900"
 				"antialias"		"1"
-				"additive"		"0"
+				"additive"		"1"
 			}
 		}
 		
@@ -725,7 +807,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"12"
+				"tall"			"10"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
@@ -765,7 +847,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"32"
+				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -774,7 +856,7 @@ Scheme
 			"2"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"44"
+				"tall"			"32"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias"		"1"
@@ -783,7 +865,7 @@ Scheme
 			"3"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"48"
+				"tall"			"44"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias"		"1"
@@ -792,7 +874,7 @@ Scheme
 			"4"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"52"
+				"tall"			"48"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -801,7 +883,7 @@ Scheme
 			"5"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"72"
+				"tall"			"52"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -813,7 +895,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"64"
+				"tall"			"44"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -824,7 +906,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"48"
+				"tall"			"35"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias"		"1"
@@ -835,7 +917,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"44"
+				"tall"			"36"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -846,7 +928,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"36"
+				"tall"			"30"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias"		"1"
@@ -857,7 +939,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"36"
+				"tall"			"30"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias"		"1"
@@ -868,7 +950,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"32"
+				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias"		"1"
@@ -879,7 +961,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"32"
+				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -890,7 +972,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"28"
+				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -901,7 +983,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"24"
+				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -912,7 +994,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"22"
+				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -923,7 +1005,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"22"
+				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -971,6 +1053,7 @@ Scheme
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
+				"dropshadow"	"1"
 			}
 		}
 		"HudFontSmallest"
@@ -978,7 +1061,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"12"
+				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -989,10 +1072,11 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"12"
+				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
+				"dropshadow"	"1"
 			}
 		}
 		"HudFontSmallestBold"
@@ -1000,7 +1084,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"12"
+				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1012,7 +1096,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"12"
+				"tall"			"4"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias"		"1"
@@ -1046,7 +1130,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"12"
+				"tall"			"9"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1057,7 +1141,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"10"
+				"tall"			"9"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1068,7 +1152,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"8"
+				"tall"			"6"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1186,7 +1270,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Verdana"
 				"tall"			"8"
 				"weight"		"500"
 				"additive"		"0"
@@ -1198,7 +1282,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Verdana"
 				"tall"			"9"
 				"weight"		"500"
 				"additive"		"0"
@@ -1209,7 +1293,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Verdana"
 				"tall"			"8"
 				"weight"		"500"
 				"additive"		"0"
@@ -1220,7 +1304,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Verdana"
 				"tall"			"8"
 				"weight"		"500"
 				"additive"		"0"
@@ -1283,7 +1367,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Courier New"
 				"tall"			"14"
 				"weight"		"400"
 				"outline"		"1"
@@ -1353,7 +1437,8 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica Bold"
-				"tall"			"32"
+				"tall"			"24"
+				"antialias" 	"1"
 				"weight"		"500"
 				"range"			"0x0000 0x017F"
 			}
@@ -1363,7 +1448,8 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica Bold"
-				"tall"			"32"
+				"tall"			"24"
+				"antialias" 	"1"
 				"weight"		"500"
 				"italic"		"1"
 				"range"			"0x0000 0x017F"
@@ -1374,7 +1460,8 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica Bold"
-				"tall"			"32"
+				"tall"			"24"
+				"antialias" 	"1"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
 			}
@@ -1384,7 +1471,8 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica Bold"
-				"tall"			"32"
+				"tall"			"24"
+				"antialias" 	"1"
 				"weight"		"900"
 				"italic"		"1"
 				"range"			"0x0000 0x017F"
@@ -1395,7 +1483,8 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica Bold"
-				"tall"			"32"
+				"tall"			"16"
+				"antialias" 	"1"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
 			}
@@ -1473,8 +1562,8 @@ Scheme
 			{
 				"name"			"Cerbetica_edited"
 				"tall"			"28"
-				"additive"		"0"
 				"antialias"		"1"
+				"custom"		"1" [$OSX]
 				"weight"		"500"
 			}
 		}
@@ -1484,8 +1573,8 @@ Scheme
 			{
 				"name"			"Cerbetica_edited"
 				"tall"			"40"
-				"additive"		"0"
 				"antialias"		"1"
+				"custom"		"1" [$OSX]
 				"weight"		"500"
 			}
 		}
@@ -1495,8 +1584,8 @@ Scheme
 			{
 				"name"			"Cerbetica_edited"
 				"tall"			"24"
-				"additive"		"0"
 				"antialias" 	"1"
+				"custom"		"1" [$OSX]
 				"weight"		"500"
 			}
 		}
@@ -1507,8 +1596,8 @@ Scheme
 				"name"			"Cerbetica_edited"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
-				"additive"		"0"
 				"antialias"		"1"
+				"custom"		"1" [$OSX]
 				"weight"		"500"
 			}
 		}
@@ -1529,7 +1618,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"12"
+				"tall"			"8"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1540,7 +1629,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"13"
+				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias"		"1"
@@ -1551,7 +1640,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"14"
+				"tall"			"10"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
 				"antialias" 	"1"
@@ -1599,7 +1688,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"20"
+				"tall"			"14"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
 				"antialias"		"1"
@@ -1753,7 +1842,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"12"
+				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1982,8 +2071,6 @@ Scheme
 				"name"			"Cerbetica_edited"
 				"tall"			"36"
 				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
 			}
 		}
 		MatchmakingDialogSessionOptionsTitle
@@ -1993,8 +2080,6 @@ Scheme
 				"name"			"Cerbetica_edited"
 				"tall"			"30"
 				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
 			}
 		}
 		MatchmakingDialogMenuLarge
@@ -2004,8 +2089,6 @@ Scheme
 				"name"			"Cerbetica_edited"
 				"tall"			"28"
 				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
 			}
 		}
 		MatchmakingDialogMenuBrowserHostname
@@ -2033,8 +2116,6 @@ Scheme
 				"name"			"Cerbetica_edited"
 				"tall"			"22"
 				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
 			}
 		}
 		MatchmakingDialogMenuMediumSmall
@@ -2044,8 +2125,6 @@ Scheme
 				"name"			"Cerbetica_edited"
 				"tall"			"18"
 				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
 			}
 		}
 		MatchmakingDialogMenuSmall
@@ -2138,7 +2217,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Verdana"
 				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
@@ -2151,10 +2230,9 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"10"
+				"tall"			"8"
 				"weight"		"400"
 				"additive"		"0"
-				"dropshadow"	"1"
 				"antialias"		"1"
 			}
 		}
@@ -2196,7 +2274,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"12"
+				"tall"			"8"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2207,7 +2285,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"13"
+				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2218,7 +2296,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"14"
+				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2240,7 +2318,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"10"
+				"tall"			"8"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2251,7 +2329,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"11"
+				"tall"			"8"
 				"antialias"		"1"
 				"weight"		"500"
 			}
@@ -2261,7 +2339,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"11"
+				"tall"			"8"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2272,7 +2350,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"12"
+				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2319,6 +2397,7 @@ Scheme
 				"name"			"Cerbetica_edited"
 				"tall"			"9"
 				"weight"		"500"
+				"blur"			"3"
 				"additive"		"1"
 				"antialias" 	"1"
 			}
@@ -2366,7 +2445,6 @@ Scheme
 				"blur"			"3"
 				"additive"		"1"
 				"antialias" 	"1"
-				"custom"		"1"
 			}
 		}
 		
@@ -2688,9 +2766,9 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"12"
+				"tall"			"11"
 				"weight"		"500"
-				"additive"		"1"
+				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
@@ -2754,7 +2832,7 @@ Scheme
 				"name"			"Cerbetica_edited"
 				"tall"			"11"
 				"weight"		"500"
-				"additive"		"1"
+				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
@@ -2765,7 +2843,7 @@ Scheme
 				"name"			"Cerbetica_edited"
 				"tall"			"14"
 				"weight"		"500"
-				"additive"		"1"
+				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
@@ -2776,7 +2854,7 @@ Scheme
 				"name"			"Cerbetica_edited"
 				"tall"			"18"
 				"weight"		"500"
-				"additive"		"1"
+				"additive"		"0"
 				"antialias"		"1"
 			}
 		}
@@ -2787,7 +2865,7 @@ Scheme
 				"name"			"Cerbetica_edited"
 				"tall"			"24"
 				"weight"		"500"
-				"additive"		"1"
+				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
@@ -2798,7 +2876,7 @@ Scheme
 				"name"			"Cerbetica_edited"
 				"tall"			"18"
 				"weight"		"500"
-				"additive"		"1"
+				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
@@ -2973,21 +3051,57 @@ Scheme
 		{
 			"font"	"resource/TF2.ttf"
 			"name"	"TF2"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 		}
 		"4" 
 		{
 			"font"	"resource/TF2Secondary.ttf"
 			"name"	"TF2 Secondary"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 		}
 		"5" 
 		{
 			"font"	"resource/TF2Professor.ttf"
 			"name"	"TF2 Professor"
+			"russian"
+			{
+				"range" "0x0000 0x00FF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0x00FF"
+			}
 		}	
 		"6" 
 		{
 			"font"	"resource/TF2Build.ttf"
 			"name"	"TF2 Build"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"turkish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 		}
 		"7"
 		{

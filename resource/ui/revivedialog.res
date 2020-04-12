@@ -32,7 +32,7 @@
 			"autoResize"		"0"
 			"PaintBackgroundType"	"0"
 			"border"			"NoBorder"
-			"bgcolor_override"	"HudBlack"
+			"bgcolor_override"	"65 65 65 255"
     	}
     	
 		"TitleLabel"

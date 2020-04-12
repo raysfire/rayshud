@@ -355,6 +355,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
+		"allcaps"			"1"
 		
 		"pin_to_sibling"			"ShowCraftingButton"
 		"pin_corner_to_sibling"		"4"
@@ -392,7 +393,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"ShowArmoryLabel"
 		"font"				"CerbeticaBold16"
-		"labelText"			"CATALOG"
+		"labelText"			"#Armory"
 		"textAlignment"		"north"
 		"xpos"				"0"
 		"ypos"				"5"
@@ -452,6 +453,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"wrap"				"0"
+		"allcaps"			"1"
 		
 		"pin_to_sibling"               "ShowTradeButton"
 		"pin_corner_to_sibling"        "4"
@@ -599,7 +601,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override"	"TextColor"
+		"fgcolor_override"	"TanLight"
 	}
 	
 	"LoadoutChangesLabel"

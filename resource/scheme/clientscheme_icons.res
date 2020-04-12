@@ -26,6 +26,18 @@ Scheme
 			}
 		}
 		
+		"ClassIconsSmall"
+		{
+			"1"
+			{
+				"name"			"FlawHUDIcons"
+				"tall"			"42"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		
 		"CustomIcons10"
 		{
 			"1"

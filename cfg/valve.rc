@@ -1,22 +1,19 @@
-// load the base configuration
-//exec default.cfg
-r_decal_cullsize 1
+// Forcing settings to improve HUD experience. Created by Wiethoofd (https://github.com/Wiethoofd)
+cl_showbackpackrarities 			1		// Border colors in backpack
+tf_time_loading_item_panels 		0.005 	// Decrease loading backpack item load times
+tf_backpack_page_button_delay 		0.25 	// Decrease time hovering over page before switching
 
-// Setup custom controller
-exec joystick.cfg
+cl_promotional_codes_button_show 	0		// Hide the Promo Code button in the main menu behind friends
+cl_mvm_wave_status_visible_during_wave 	1 	// Show enemycountpanel contents during wave
+cl_use_tournament_specgui 			1		// Tournament hud
+tf_hud_show_servertimelimit 		1		// Show server time remaining at round timer
+tf_spec_xray 						2		// Show outlines for both teams (server setting)
 
-// run a user script file if present
-exec autoexec.cfg
+tf_healthicon_height_offset 		4		// Health above head offset
+tf_hud_target_id_show_avatars 		1		// Avatars in TargetID (0-Disable,1-Everyone,2-Friends)
 
-//
-// stuff command line statements
-//
-stuffcmds
-
-// display the startup level
-startupmenu
-
-sv_unlockedchapters 99
-
-//remove dimmer
-wait 5; showconsole; wait; incrementvar mat_antialias -100 100 1; hideconsole; wait 5; incrementvar mat_antialias -100 100 -1
+hud_escort_interp 					0.1 	// Faster updating of cart HUD element
+cc_captiontrace 					0		// Display errors for missing captions (0=disabled,1=console,2=caption box)
+cc_predisplay_time 					0		// Decrease time before showing caption
+cc_sentencecaptionnorepeat			2		// How often a caption can repeat
+vgui_drawtree_draw_selected 		1		// Highlight panels in vgui_drawtree with a red border

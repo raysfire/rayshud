@@ -11,7 +11,9 @@
 	
 	"SidePanelBG"
 	{
-		"fillcolor"		"0 0 0 0"
+		"wide"			"f0"
+		"tall"			"f0"
+		"fillcolor"		"0 0 0 150"
 	}
 	
 	"scout"
@@ -71,23 +73,19 @@
 	"random"
 	{
 		"xpos"				"c80"
-		"ypos"				"c101"
+		"ypos"				"c100"
 	}
 	
 	"EditLoadoutButton" [$WIN32]
 	{
-		"xpos"			"r180"
-		"wide"			"120"
-		"textAlignment"	"center"
-		"font"			"CerbeticaBold16"
+		"xpos"			"c80"
+		"ypos"			"c120"
 	}
 	
 	"CancelButton" [$WIN32]
 	{
-		"xpos"			"c-295"
-		"wide"			"100"
-		"textAlignment"	"center"
-		"font"			"CerbeticaBold16"
+		"xpos"			"c180"
+		"ypos"			"c100"
 	}
 	"numScout"
 	{

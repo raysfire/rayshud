@@ -24,14 +24,14 @@ event HudHealthBonusPulseStop
 // Low Health Pulse
 event HudHealthDyingPulse
 {
-	RunEvent HudHealthDyingPulseLoop			0.4
-	
 	Animate	PlayerStatusHealthBonusImage 		Alpha	"255"				Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 		Alpha	"0"					Linear 0.2 0.2
 	
 	Animate PlayerStatusHealthValue				FgColor	"Health Hurt" 		Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpectator 	FgColor "Health Hurt" 		Accel 0.0 0.0
 	Animate PlayerStatusHealthValueFreezePanel	FgColor "Health Hurt" 		Accel 0.0 0.0
+	
+	RunEvent HudHealthDyingPulseLoop			0.4
 }
 
 event HudHealthDyingPulseStop
@@ -54,7 +54,7 @@ event HudLowAmmoPulse
 	Animate AmmoInReserve 					FgColor "Ammo In Reserve Low" 		Linear 0.0 0.0
 	Animate AmmoNoClip 						FgColor "Ammo In Clip Low"			Linear 0.0 0.0
 	
-	RunEvent HudLowAmmoPulseLoop			0.25
+	RunEvent HudLowAmmoPulseLoop			0.4
 }
 
 event HudLowAmmoPulseStop
@@ -165,24 +165,6 @@ event HudSnapShotReminderIn
     RunEvent HudHealthBonusPulseStop 	10.0
     RunEvent HudLowAmmoPulseStop 		10.0
     RunEvent HudMedicChargedStop 		10.0
-}
-//==================================================================================
-event HudReadyPulse
-{
-	Animate	TournamentInstructionsLabel 	FgColor	"Flashing Uber Color1"				Linear 0.0	0.3
-	Animate	TournamentInstructionsLabel 	FgColor	"Flashing Uber Color2"				Linear 0.3	0.3
-
-	RunEvent HudReadyPulseLoop				0.6
-}
-
-event CompetitiveGame_HideDisconnectButton
-{
-	Animate	DisconnectButton				ypos	r-100						Accel 0.0	0.0
-}
-
-event CompetitiveGame_ShowDisconnectButton
-{
-	Animate	DisconnectButton				ypos	r30							Accel 0.0	0.4
 }
 //==================================================================================
 // Do not move chat window

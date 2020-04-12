@@ -37,7 +37,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"fgcolor_override"	"White"
-		"bgcolor_override"	"Black"
+		"bgcolor_override"	"DarkerGrey"
 		"Font"				"CerbeticaBold14"
 	}
 	
