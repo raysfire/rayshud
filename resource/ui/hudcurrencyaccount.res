@@ -19,18 +19,17 @@
 	
 	"CurrencyBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"CurrencyBG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 200"
+		"bgcolor_override"	"0 0 0 200"
+		"PaintBackgroundType"	"2"
 	}
 	
 	"CurrencyLabel"
@@ -47,6 +46,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"
-		"labelText"		"Currency"
+		"labelText"		"#TF_PVE_Currency"
 	}
 }

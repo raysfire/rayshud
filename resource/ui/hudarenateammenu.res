@@ -15,33 +15,6 @@
 		"tabPosition"	"0"
 	}
 	
-	"JoinBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"JoinBG"
-		"xpos"			"0"
-		"ypos"			"c-35"
-		"zpos"			"0"
-		"wide"			"255"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 200"
-	}
-	"MainBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MainBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"fillcolor"		"0 0 0 200"
-	}
 	"SidePanelBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -55,19 +28,6 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"fillcolor"		"0 0 0 60"
-	}
-	"SpecBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"SpecBG"
-		"xpos"			"0"
-		"ypos"			"c5"
-		"zpos"			"0"
-		"wide"			"255"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 200"
 	}
 
 	"SysMenu"
@@ -104,8 +64,9 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"mapname"
-		"xpos"			"10"
+		"xpos"			"0"
 		"ypos"			"35"
+		"zpos"			"1"
 		"wide"			"255"
 		"tall"			"30"
 		"textAlignment"	"center"
@@ -129,7 +90,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"1"
-		"labelText"		"&3 Fight!"
+		"labelText"		"#TF_Arena_Menu_Fight"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -148,6 +109,20 @@
 		"selectedBgColor_override"	"TanDarker"
 	}
 	
+	"JoinBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"JoinBG"
+		"xpos"			"0"
+		"ypos"			"c-35"
+		"zpos"			"0"
+		"wide"			"255"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 200"
+	}
+	
 	"teambutton3"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -162,7 +137,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"2"
-		"labelText"		"&2 Spectate"
+		"labelText"		"#TF_Spectate"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -181,9 +156,23 @@
 		"selectedBgColor_override"	"TanDarker"
 	}
 	
+	"SpecBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"SpecBG"
+		"xpos"			"0"
+		"ypos"			"c5"
+		"zpos"			"0"
+		"wide"			"255"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 200"
+	}
+	
 	"MenuBG"
 	{
-		"ControlName"	"CModelPanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -194,21 +183,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fov"			"20"
-		
-		"model"
-		{
-			"modelname"	"models/vgui/ui_arena01.mdl"
-			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "290"
-			"origin_x_hidef" "305"
-			"origin_x_lodef" "320"
-			"origin_y" "0"
-			"origin_z" "-34"
-		}
+		"fillcolor"		"255 255 255 200"
 	}
 	
 	"TeamMenuAuto"
@@ -250,26 +225,6 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"0"
-		"ypos"			"r40"
-		"zpos"			"6"
-		"wide"			"255"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_Cancel"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"paintbackground""0"
-		"command"		"cancelmenu"
-		"font"			"CerbeticaBold16"
-		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"TanLight"
+		"wide"			"0"
 	}
 }

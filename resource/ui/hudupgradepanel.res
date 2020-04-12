@@ -65,7 +65,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"bgcolor_override"	"0 0 0 230"
+		"bgcolor_override"	"HudBlack"
 	}
 	
 	"SelectWeaponPanel"
@@ -119,7 +119,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"0 0 0 230"
+			"fillcolor"		"HudBlack"
 		}
 		"BetweenBG"
 		{
@@ -241,7 +241,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"PLAYER"
+			"labelText"		"#TF_Bot_Generic_ClassName"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
@@ -691,8 +691,6 @@
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"border_default"	"ButtonHover"
-			"border_armed"		"ButtonHover"	
 		}
 		
 		"CloseButton"
@@ -718,8 +716,6 @@
 			"Command"		"close"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"border_default"	"ButtonHover"
-			"border_armed"		"ButtonHover"	
 		}
 
 		"RespecButton"
@@ -745,8 +741,6 @@
 			"Command"		"respec"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"border_default"	"ButtonHover"
-			"border_armed"		"ButtonHover"	
 		}
 	}
 	
