@@ -49,4 +49,4 @@ Credits
 * Flame - If it weren't for your guide, I couldn't have made this at all. Thanks a million, man.
 * clovervidia - For the updated closed captions. Check his Steam Guide on CC [here](https://steamcommunity.com/sharedfiles/filedetails/?id=167785751).
 
-v2020.0412
+v2020.0414

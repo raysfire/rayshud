@@ -1394,7 +1394,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"Cerbetica14"
-		"labelText"		"v2020.0412"
+		"labelText"		"v2020.0414"
 		"xpos"			"r85"
 		"ypos"			"r15"
 		"wide"			"80"

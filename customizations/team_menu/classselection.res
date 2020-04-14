@@ -27,7 +27,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"0 0 0 120"
+		"fillcolor"		"0 0 0 200"
 	}
 	
 	"SysMenu"
