@@ -640,7 +640,7 @@
 	{
 		"ControlName"	"CTFStreamListPanel"
 		"fieldName"		"StreamListPanel"
-		"xpos"			"c90"
+		"xpos"			"r330"
 		"ypos"			"65"
 		"zpos"			"1"
 		"wide"			"300"
@@ -789,7 +789,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
-		"xpos"			"c90"
+		"xpos"			"r330"
 		"ypos"			"65"
 		"zpos"			"100"
 		"wide"			"300"
