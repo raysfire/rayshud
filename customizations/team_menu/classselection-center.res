@@ -19,55 +19,55 @@
 	"scout"
 	{
 		"xpos"				"c81"
-		"ypos"				"193"
+		"ypos"				"180"
 	}
 	
 	"soldier"
 	{
 		"xpos"				"c80"
-		"ypos"				"207"
+		"ypos"				"196"
 	}
 	
 	"pyro"
 	{
 		"xpos"				"c80"
-		"ypos"				"221"
+		"ypos"				"212"
 	}
 	
 	"demoman"
 	{
 		"xpos"				"c80"
-		"ypos"				"241"
+		"ypos"				"232"
 	}
 
 	"heavyweapons"
 	{
 		"xpos"				"c80"
-		"ypos"				"255"
+		"ypos"				"248"
 	}
 	
 	"engineer"
 	{
 		"xpos"				"c80"
-		"ypos"				"269"
+		"ypos"				"264"
 	}
 	
 	"medic"
 	{
 		"xpos"				"c80"
-		"ypos"				"289"
+		"ypos"				"284"
 	}
 
 	"sniper"
 	{
 		"xpos"				"c80"
-		"ypos"				"303"
+		"ypos"				"300"
 	}
 	
 	"spy"
 	{
 		"xpos"				"c80"
-		"ypos"				"317"
+		"ypos"				"316"
 	}
 
 	"random"
@@ -171,12 +171,12 @@
 	"TFPlayerModel"
 	{
 		"xpos"			"c-360"
-		"wide"			"480"
+		"wide"			"420"
 		"tall"			"480"
 		
 		"model"
 		{
-			"origin_x" "320"
+			"origin_x" "290"
 		}
 	}
 }
