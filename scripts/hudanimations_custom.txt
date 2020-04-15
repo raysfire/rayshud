@@ -137,12 +137,38 @@ event DamagedPlayer
 
 event HitMarker
 {
-	Animate KnucklesCrosses	 				FgColor	"CrosshairDamage" 			Linear 0.0	0.0
-	Animate KnucklesCrosses	 				FgColor	"Crosshair" 				Linear 0.15	0.0
 	Animate RaysCrosshair	 				FgColor	"CrosshairDamage" 			Linear 0.0	0.0
 	Animate RaysCrosshair	 				FgColor	"Crosshair" 				Linear 0.15	0.0
 	Animate KonrWings	 					FgColor	"CrosshairDamage" 			Linear 0.0	0.0
 	Animate KonrWings	 					FgColor	"Crosshair" 				Linear 0.15	0.0
+	Animate KnucklesCrosses	 				FgColor	"CrosshairDamage" 			Linear 0.0	0.0
+	Animate KnucklesCrosses	 				FgColor	"Crosshair" 				Linear 0.15	0.0
+	Animate BasicCross	 					FgColor	"CrosshairDamage" 			Linear 0.0	0.0
+	Animate BasicCross	 					FgColor	"Crosshair" 				Linear 0.15	0.0
+	Animate BasicCrossLarge	 				FgColor	"CrosshairDamage" 			Linear 0.0	0.0
+	Animate BasicCrossLarge	 				FgColor	"Crosshair" 				Linear 0.15	0.0
+	Animate BasicCrossSmall	 				FgColor	"CrosshairDamage" 			Linear 0.0	0.0
+	Animate BasicCrossSmall	 				FgColor	"Crosshair" 				Linear 0.15	0.0
+	Animate BasicDot	 					FgColor	"CrosshairDamage" 			Linear 0.0	0.0
+	Animate BasicDot	 					FgColor	"Crosshair" 				Linear 0.15	0.0
+	Animate CircleDot	 					FgColor	"CrosshairDamage" 			Linear 0.0	0.0
+	Animate CircleDot	 					FgColor	"Crosshair" 				Linear 0.15	0.0
+	Animate OpenCross	 					FgColor	"CrosshairDamage" 			Linear 0.0	0.0
+	Animate OpenCross	 					FgColor	"Crosshair" 				Linear 0.15	0.0
+	Animate OpenCrossDot	 				FgColor	"CrosshairDamage" 			Linear 0.0	0.0
+	Animate OpenCrossDot	 				FgColor	"Crosshair" 				Linear 0.15	0.0
+	Animate ScatterSpread	 				FgColor	"CrosshairDamage" 			Linear 0.0	0.0
+	Animate ScatterSpread	 				FgColor	"Crosshair" 				Linear 0.15	0.0
+	Animate ThinCircle	 					FgColor	"CrosshairDamage" 			Linear 0.0	0.0
+	Animate ThinCircle	 					FgColor	"Crosshair" 				Linear 0.15	0.0
+	Animate Wings	 						FgColor	"CrosshairDamage" 			Linear 0.0	0.0
+	Animate Wings	 						FgColor	"Crosshair" 				Linear 0.15	0.0
+	Animate WingsPlus	 					FgColor	"CrosshairDamage" 			Linear 0.0	0.0
+	Animate WingsPlus	 					FgColor	"Crosshair" 				Linear 0.15	0.0
+	Animate WingsSmall	 					FgColor	"CrosshairDamage" 			Linear 0.0	0.0
+	Animate WingsSmall	 					FgColor	"Crosshair" 				Linear 0.15	0.0
+	Animate WingsSmallDot	 				FgColor	"CrosshairDamage" 			Linear 0.0	0.0
+	Animate WingsSmallDot	 				FgColor	"Crosshair" 				Linear 0.15	0.0
 }
 //==================================================================================
 // Spy Disguise
