@@ -18,62 +18,62 @@
 	
 	"scout"
 	{
-		"xpos"				"c81"
-		"ypos"				"180"
+		"xpos"			"c81"
+		"ypos"			"180"
 	}
 	
 	"soldier"
 	{
-		"xpos"				"c80"
-		"ypos"				"196"
+		"xpos"			"c80"
+		"ypos"			"196"
 	}
 	
 	"pyro"
 	{
-		"xpos"				"c80"
-		"ypos"				"212"
+		"xpos"			"c80"
+		"ypos"			"212"
 	}
 	
 	"demoman"
 	{
-		"xpos"				"c80"
-		"ypos"				"232"
+		"xpos"			"c80"
+		"ypos"			"232"
 	}
 
 	"heavyweapons"
 	{
-		"xpos"				"c80"
-		"ypos"				"248"
+		"xpos"			"c80"
+		"ypos"			"248"
 	}
 	
 	"engineer"
 	{
-		"xpos"				"c80"
-		"ypos"				"264"
+		"xpos"			"c80"
+		"ypos"			"264"
 	}
 	
 	"medic"
 	{
-		"xpos"				"c80"
-		"ypos"				"284"
+		"xpos"			"c80"
+		"ypos"			"284"
 	}
 
 	"sniper"
 	{
-		"xpos"				"c80"
-		"ypos"				"300"
+		"xpos"			"c80"
+		"ypos"			"300"
 	}
 	
 	"spy"
 	{
-		"xpos"				"c80"
-		"ypos"				"316"
+		"xpos"			"c80"
+		"ypos"			"316"
 	}
 
 	"random"
 	{
-		"xpos"				"c80"
-		"ypos"				"c100"
+		"xpos"			"c80"
+		"ypos"			"c100"
 	}
 	
 	"EditLoadoutButton" [$WIN32]
@@ -90,82 +90,127 @@
 	"numScout"
 	{
 		"xpos"			"c158"
-		"ypos"			"195"
+		"ypos"			"180"
 		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 	}
 	
 	"numSoldier"
 	{
 		"xpos"			"c158"
-		"ypos"			"209"
+		"ypos"			"196"
 		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 	}
 	
 	"numPyro"
 	{
 		"xpos"			"c158"
-		"ypos"			"223"
+		"ypos"			"212"
 		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 	}
 	
 	"numDemoman"
 	{
 		"xpos"			"c158"
-		"ypos"			"243"
+		"ypos"			"232"
 		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 	}
 	
 	"numHeavy"
 	{
 		"xpos"			"c158"
-		"ypos"			"257"
+		"ypos"			"248"
 		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 	}
 	
 	"numEngineer"
 	{
 		"xpos"			"c158"
-		"ypos"			"271"
+		"ypos"			"264"
 		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 	}
 	
 	"numMedic"
 	{
 		"xpos"			"c158"
-		"ypos"			"291"
+		"ypos"			"284"
 		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 	}
 	
 	"numSniper"
 	{
 		"xpos"			"c158"
-		"ypos"			"305"
+		"ypos"			"300"
 		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 	}
 	
 	"numSpy"
 	{
 		"xpos"			"c158"
-		"ypos"			"319"
+		"ypos"			"316"
 		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
+	}
+	
+	"MvMUpgradeImageScout"
+	{
+		"xpos"			"9999"
+	}
+	
+	"MvMUpgradeImageSolider"
+	{
+		"xpos"			"9999"
+	}
+	
+	"MvMUpgradeImagePyro" 
+	{
+		"xpos"			"9999"
+	}
+	
+	"MvMUpgradeImageDemoman" 
+	{
+		"xpos"			"9999"
+	}
+	
+	"MvMUpgradeImageHeavy"
+	{
+		"xpos"			"9999"
+	}
+	
+	"MvMUpgradeImageEngineer"
+	{
+		"xpos"			"9999"
+	}
+	
+	"MvMUpgradeImageMedic"
+	{
+		"xpos"			"9999"
+	}
+	
+	"MvMUpgradeImageSniper"
+	{
+		"xpos"			"9999"
+	}
+	
+	"MvMUpgradeImageSpy"
+	{
+		"xpos"			"9999"
 	}
 	
 	"TFPlayerModel"
