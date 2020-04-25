@@ -589,8 +589,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"192 28 0 255"
-			"defaultBgColor_override"	"192 28 0 205"
+			"armedBgColor_override"		"195 20 0 255"
+			"defaultBgColor_override"	"175 25 11 255"
 			
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override"		"TanLight"
@@ -648,8 +648,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"192 28 0 255"
-			"defaultBgColor_override"	"192 28 0 205"
+			"armedBgColor_override"		"195 20 0 255"
+			"defaultBgColor_override"	"175 25 11 255"
 
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override"		"TanLight"
@@ -706,8 +706,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"170 221 183 255"
-			"defaultBgColor_override"	"170 221 183 205"
+			"armedBgColor_override"		"140 180 150 255"
+			"defaultBgColor_override"	"100 120 100 255"
 
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override"		"TanLight"
@@ -764,8 +764,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"CreditsGreen"
-			"defaultBgColor_override"	"GreenSolid"
+			"armedBgColor_override"		"94 150 49 255"
+			"defaultBgColor_override"	"76 107 34 255"
 
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override"		"TanLight"

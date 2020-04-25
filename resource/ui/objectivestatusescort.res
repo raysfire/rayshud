@@ -229,7 +229,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"Cerbetica10"
+			"font"			"Cerbetica8"
 			"xpos"			"27"
 			"ypos"			"78"
 			"zpos"			"2"
@@ -382,19 +382,17 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"		"22"
-				"wide"		"8"
-				"tall"		"8"
+				"xpos"		"23"
 			}
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"		"46"
+				"ypos"		"47"
 			}	
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"		"83"
+				"ypos"		"84"
 			}	
 		}
 		
@@ -434,9 +432,9 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"Cerbetica10"
-			"xpos"			"32"
-			"ypos"			"79"
+			"font"			"Cerbetica8"
+			"xpos"			"31"
+			"ypos"			"78"
 			"zpos"			"5"
 			"wide"			"15"
 			"tall"			"8"

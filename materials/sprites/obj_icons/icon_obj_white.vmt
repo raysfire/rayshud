@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
 	"$translucent"		"1"
-	"$baseTexture"		"vgui\replay\thumbnails\cp_icons\icon_obj_red_locked"
+	"$baseTexture"		"vgui\replay\thumbnails\cp_icons\icon_obj_white"
 	"$alpha"			"1"
 	"$vertexalpha"		"1"
 	"$vertexcolor"		"1"

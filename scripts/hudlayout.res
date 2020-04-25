@@ -663,8 +663,8 @@
 		"zpos"				"-100"
 		"wide"				"f0"
 		"tall"				"480"
-		"visible"			"0"		// Change to "1" to enable
-		"enabled"			"0"		// Change to "1" to enable
+		"visible"			"0"
+		"enabled"			"0"
 		"image"				"replay/thumbnails/transparent"
 		"scaleImage"		"1"
 	}
@@ -940,7 +940,6 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"0"
-		"ypos_minmode"			"c-20"
 		"wide"					"640"
 		"tall"					"480"
 		"PaintBackgroundType"	"2"
