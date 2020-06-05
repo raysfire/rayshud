@@ -37,9 +37,29 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"CerbeticaBoldOutline56"
-		"font_minmode"		"CerbeticaBoldOutline32"
+		"font"				"CerbeticaBold56"
+		"font_minmode"		"CerbeticaBold32"
 		"fgcolor"			"Ammo In Clip"
+	}
+
+	"ChargeLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ChargeLabelShadow"
+		"xpos"			"152"
+		"ypos"			"37"
+		"xpos_minmode"		"108"
+		"ypos_minmode"		"-3"
+		"zpos"			"2"
+		"wide"			"120"
+		"tall"			"72"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_UberchargeMinHUD"
+		"textAlignment"	"center"
+		"font"			"CerbeticaBold56"
+		"font_minmode"	"CerbeticaBold32"
+		"fgcolor"		"0 0 0 200"
 	}
 	
 	"IndividualChargesLabel"
