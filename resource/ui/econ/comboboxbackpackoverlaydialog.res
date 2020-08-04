@@ -14,7 +14,7 @@
 		"settitlebarvisible"	"1"
 		"border"				"CyanBorderThick"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -33,9 +33,9 @@
 		"enabled"			"1"
 		"centerwrap"		"1"
 	}
-	
+
 	"preview_model"
-	{		
+	{
 		"ControlName"		"CItemModelPanel"
 		"fieldName"			"preview_model"
 		"xpos"				"60"
@@ -57,7 +57,7 @@
 		"text_center"		"1"
 		"name_only"			"1"
 		"paint_icon_hide"	"1"
-		
+
 		"itemmodelpanel"
 		{
 			"force_use_model"		"1"
@@ -66,7 +66,7 @@
 			"inventory_image_type" 	"1"
 		}
 	}
-	
+
 	"ComboBox"
 	{
 		"ControlName"		"ComboBox"
@@ -87,7 +87,7 @@
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
-		
+
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"Black"
 		"disabledFgColor_override" "White"
@@ -96,7 +96,7 @@
 		"selectionTextColor_override" "White"
 		"defaultSelectionBG2Color_override" "Black"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"		"CExButton"
@@ -121,7 +121,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"		"CExButton"

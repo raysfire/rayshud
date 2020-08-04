@@ -29,7 +29,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/pyro_jetpack_off2"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"visible_minmode"	"0"
 	}
 

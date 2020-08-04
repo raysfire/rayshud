@@ -16,10 +16,10 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"DarkGrey"
-		
+
 		"itempanel_xpos"		"0"
 		"itempanel_ydelta"		"0"
-		
+
 		"itemskv"
 		{
 			"wide"			"205"
@@ -40,14 +40,14 @@
 			"noitem_textcolor"		"TextColor"
 		}
 	}
-	
+
 	"CaratLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel"
 		"xpos"			"9999"
 	}
-	
+
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -61,14 +61,14 @@
 		"fieldName"		"ItemSlotLabel"
 		"xpos"			"9999"
 	}
-	
+
 	"NoItemsLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NoItemsLabel"
 		"xpos"			"9999"
 	}
-	
+
 	"TopLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -83,8 +83,8 @@
 		"image"			"loadout_dotted_line"
 		"tileImage"		"1"
 		"tileVertically" "0"
-	}				
-		
+	}
+
 	"itemcontainerscroller"
 	{
 		"ControlName"	"EditablePanel"
@@ -98,7 +98,7 @@
 		"bgcolor_override"	"200 187 161 0"
 		"autohide_buttons" "1"
 	}
-		
+
 	"itemcontainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -109,7 +109,7 @@
 		"tall"			"125"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"200 187 161 0"
-		
+
 		"CurrentlyEquippedBackground"
 		{
 			"ControlName"	"CExLabel"
@@ -128,7 +128,7 @@
 			"bgcolor_override"	"Transparent"
 		}
 	}
-	
+
 	"loadout_preset_panel"
 	{
 		"ControlName"	"CLoadoutPresetPanel"

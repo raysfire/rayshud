@@ -16,7 +16,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintborder"			"0"
-		
+
 		"BackColor"
     	{
     		"ControlName"		"EditablePanel"
@@ -34,7 +34,7 @@
 			"border"			"NoBorder"
 			"bgcolor_override"	"65 65 65 255"
     	}
-    	
+
 		"TitleLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -52,7 +52,7 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-		
+
 		"ExplanationLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -72,7 +72,7 @@
 			"centerwrap"		"1"
 			"fgcolor_override"	"ColorCyan"
 		}
-		
+
 		"ConfirmButton"
 		{
 			"ControlName"		"CExButton"
@@ -103,7 +103,7 @@
 			"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
 			"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
 		}
-		
+
 		"SpectatorGUIHealth"
 		{
 			"ControlName"		"EditablePanel"
@@ -114,7 +114,7 @@
 			"wide"				"48"
 			"tall"				"48"
 			"visible"			"1"
-			"enabled"			"1"	
+			"enabled"			"1"
 			"HealthBonusPosAdj"	"10"
 			"HealthDeathWarning"		"0.49"
 			"TFFont"					"HudFontSmallest"

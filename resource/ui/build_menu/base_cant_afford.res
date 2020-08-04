@@ -20,7 +20,7 @@
 		"brighttext"		"0"
 		"fgcolor"			"ColorRed"
 	}
-	
+
 	"ItemBackground"
 	{
 		"ControlName"		"CIconPanel"
@@ -36,7 +36,7 @@
 		"icon"				"hud_menu_item_bg"
 		"iconColor"			"Black"
 	}
-	
+
 	"BuildingIcon"
 	{
 		"ControlName"		"CIconPanel"
@@ -48,11 +48,11 @@
 		"tall"				"56"
 		"visible"			"1"
 		"enabled"			"1"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"icon"				"hud_menu_sentry_build"
 		"iconColor"			"White"
 	}
-	
+
 	"CantBuildReason"
 	{
 		"ControlName"		"CExLabel"
@@ -71,8 +71,8 @@
 		"textAlignment"		"center"
 		"fgcolor"			"ColorRed"
 	}
-	
-	"MetalIcon"	
+
+	"MetalIcon"
 	{
 		"ControlName"		"CIconPanel"
 		"fieldName"			"MetalIcon"
@@ -87,7 +87,7 @@
 		"icon"				"ico_metal"
 		"iconColor"			"ColorRed"
 	}
-	
+
 	"CostLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -107,7 +107,7 @@
 		"textAlignment"		"Left"
 		"fgcolor_override"	"ColorRed"
 	}
-	
+
 	"CostLabelShadow"
 	{
 		"ControlName"		"CExLabel"
@@ -125,12 +125,12 @@
 		"enabled"			"1"
 		"labelText"			"%metal%"
 		"textAlignment"		"Left"
-		
+
 		"pin_to_sibling"		"CostLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
-	
+
 	"ModeLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -149,7 +149,7 @@
 		"labelText"			""
 		"textAlignment"		"East"
 	}
-	
+
 	"NumberBg"
 	{
 		"ControlName"		"CIconPanel"
@@ -165,7 +165,7 @@
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}
-	
+
 	"NumberLabel"
 	{
 		"ControlName"		"CExLabel"

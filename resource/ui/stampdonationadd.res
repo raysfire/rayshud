@@ -20,7 +20,7 @@
 		"border"				"CyanBorderThick"
 		"bgcolor_override"		"DarkGrey"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -38,7 +38,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -58,7 +58,7 @@
 		"wrap"				"1"
 		"fgcolor_override"	"LightRed"
 	}
-	
+
 	"ExplanationLabel2"
 	{
 		"ControlName"		"CExLabel"
@@ -78,7 +78,7 @@
 		"wrap"				"1"
 		"fgcolor_override"	"LightRed"
 	}
-	
+
 	"ItemImagePanel"
 	{
 		"ControlName"		"ImagePanel"
@@ -94,7 +94,7 @@
 		"tabPosition"		"0"
 		"scaleImage"		"1"
 	}
-	
+
 	"ItemImagePanel2"
 	{
 		"ControlName"		"ImagePanel"
@@ -110,7 +110,7 @@
 		"tabPosition"		"0"
 		"scaleImage"		"1"
 	}
-	
+
 	"Nope"
 	{
 		"ControlName"		"CExButton"
@@ -134,7 +134,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ConfirmButton"
 	{
 		"ControlName"		"CExButton"
@@ -159,7 +159,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/vote_success.wav"
 	}
-	
+
 	"PriceLabel"
 	{
 		"ControlName"		"CExLabel"

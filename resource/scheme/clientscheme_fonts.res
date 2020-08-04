@@ -337,7 +337,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"Cerbetica54"
 		{
 			"1"
@@ -776,7 +776,7 @@ Scheme
 				"weight"		"800"
 			}
 		}
-		
+
 		CenterPrintText
 		{
 			"1"
@@ -789,7 +789,7 @@ Scheme
 				"additive"		"1"
 			}
 		}
-		
+
 		"PlayerPanelPlayerName"
 		{
 			"1"
@@ -801,7 +801,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		HudHintText
 		{
 			"1"
@@ -841,7 +841,7 @@ Scheme
 				"yres"			"1200 10000"
 			}
 		}
-		
+
 		"HudFontGiant"
 		{
 			"1"
@@ -1021,7 +1021,7 @@ Scheme
 				"additive"		"0"
 				"antialias" 	"1"
 			}
-		}	
+		}
 		"HudFontSmallishBold"
 		{
 			"1"
@@ -1090,7 +1090,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"PerformanceModeSmall"
 		{
 			"1"
@@ -1102,7 +1102,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"StorePromotionsTitle"
 		{
 			"1"
@@ -1113,7 +1113,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"FontCartPrice"
 		{
 			"1"
@@ -1169,7 +1169,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"TextTooltipFont"
 		{
 			"1"
@@ -1181,7 +1181,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		GameUIButtons
 		{
 			"1"	//[$X360]
@@ -1253,7 +1253,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"HudClassHealth"
 		{
 			"1"
@@ -1265,7 +1265,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"SpectatorKeyHints"
 		{
 			"1"
@@ -1277,7 +1277,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"ClockSubText"
 		{
 			"1"
@@ -1311,7 +1311,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"HudSelectionText"
 		{
 			"1"
@@ -1362,7 +1362,7 @@ Scheme
 				"range"			"0x0000 0x017F"
 			}
 		}
-		
+
 		DebugOverlay
 		{
 			"1"
@@ -1374,7 +1374,7 @@ Scheme
 				"range"			"0x0000 0x017F"
 			}
 		}
-		
+
 		TFTypeDeath
 		{
 			"1"
@@ -1386,7 +1386,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		Icons
 		{
 			"1"
@@ -1398,7 +1398,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"BetaFont"
 		{
 			"1"
@@ -1411,7 +1411,7 @@ Scheme
 				"additive"		"0"
 			}
 		}
-		
+
 		HudNumbers
 		{
 			"1"
@@ -1431,7 +1431,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"CloseCaption_Normal"
 		{
 			"1"
@@ -1489,7 +1489,7 @@ Scheme
 				"range"			"0x0000 0x017F"
 			}
 		}
-		
+
 		"Marlett"
 		{
 			"1"
@@ -1512,7 +1512,7 @@ Scheme
 				"range"			"0x0000 0x007F"
 			}
 		}
-		
+
 		"MenuMainTitle"
 		{
 			"1"
@@ -1543,7 +1543,7 @@ Scheme
 				"weight"		"500"
 			}
 		}
-		
+
 		"GoalText"
 		{
 			"1"
@@ -1555,7 +1555,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"ChalkboardTitle"
 		{
 			"1"
@@ -1601,7 +1601,7 @@ Scheme
 				"weight"		"500"
 			}
 		}
-		
+
 		"ScoreboardSmallest"
 		{
 			"1"
@@ -1766,7 +1766,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"MatchSummaryTeamScores"
 		{
 			"1"
@@ -1801,7 +1801,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"CompMatchStartTeamNames"
 		{
 			"1"
@@ -1813,7 +1813,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"ControlPointTimer"
 		{
 			"1"
@@ -1836,7 +1836,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"Link"
 		{
 			"1"
@@ -1848,7 +1848,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"TargetID"
 		{
 			"1"
@@ -1892,7 +1892,7 @@ Scheme
 				"dropshadow"	"0"
 			}
 		}
-		
+
 		"ChatFont"
 		{
 			"1"
@@ -1979,7 +1979,7 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
-		
+
 		MenuSmallestFont
 		{
 			"1"
@@ -2002,7 +2002,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		CapPlayerFont
 		{
 			"1"
@@ -2027,7 +2027,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		TFFontSmall
 		{
 			"1"
@@ -2050,7 +2050,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		InstructionalText
 		{
 			"1"
@@ -2063,7 +2063,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		MatchmakingDialogTitle
 		{
 			"1"
@@ -2145,7 +2145,7 @@ Scheme
 				"weight"		"900"
 			}
 		}
-		
+
 		RankingDialogHeaders
 		{
 			"1"
@@ -2155,7 +2155,7 @@ Scheme
 				"weight"		"900"
 			}
 		}
-		
+
 		"TeamMenuBold"
 		{
 			"1"
@@ -2178,7 +2178,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"IntroMenuCaption"
 		{
 			"1"
@@ -2190,7 +2190,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"AchievementNotification"
 		{
 			"1"
@@ -2201,7 +2201,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"ImportToolSmallestBold"
 		{
 			"1"
@@ -2224,7 +2224,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"SpectatorVerySmall"
 		{
 			"1"
@@ -2236,7 +2236,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		// Used by scoreboard and spectator UI for names which don't map in the normal fashion
 		"DefaultVerySmallFallBack"
 		{
@@ -2268,7 +2268,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"ItemFontNameSmallest"
 		{
 			"1"
@@ -2378,7 +2378,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"AchievementTracker_Name"
 		{
 			"1"
@@ -2413,7 +2413,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"QuestObjectiveTracker_Desc"
 		{
 			"1"
@@ -2447,7 +2447,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"ItemTrackerScore_InGame"
 		{
 			"1"
@@ -2458,7 +2458,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"QuestFlavorText"
 		{
 			"1"
@@ -2656,7 +2656,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"AdFont_ItemName"
 		{
 			"1"
@@ -2689,7 +2689,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"TradeUp_Text"
 		{
 			"1"
@@ -2713,7 +2713,7 @@ Scheme
 				"italic"		"1"
 			}
 		}
-		
+
 		//////////////////// REPLAY FONTS //////////////////////////////
 		"ReplayVerySmall"
 		{
@@ -2880,7 +2880,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		//////////////////// ECON FONTS //////////////////////////////
 		"EconFontSmall"
 		{
@@ -2904,7 +2904,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		ControllerHintText
 		{
 			"1"
@@ -2917,7 +2917,7 @@ Scheme
 				"additive"		"0"
 			}
 		}
-		
+
 		"MMenuPlayListDesc"
 		{
 			"1"
@@ -2929,7 +2929,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"XPSource"
 		{
 			"1"
@@ -2953,7 +2953,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"MapVotesPercentage"
 		{
 			"1"
@@ -2966,7 +2966,7 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
-		
+
 		"TF2ComboBox"
 		{
 			"1"
@@ -2978,7 +2978,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"QuestMap_Small_Blur"
 		{
 			"1"
@@ -3036,13 +3036,13 @@ Scheme
 			}
 		}
 	}
-	
+
 	BitmapFontFiles
 	{
 		// UI buttons, custom font, (256x64)
 		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
 	}
-	
+
 	CustomFontFiles
 	{
 		"1" "resource/tf.ttf"
@@ -3060,7 +3060,7 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"4" 
+		"4"
 		{
 			"font"	"resource/TF2Secondary.ttf"
 			"name"	"TF2 Secondary"
@@ -3073,7 +3073,7 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"5" 
+		"5"
 		{
 			"font"	"resource/TF2Professor.ttf"
 			"name"	"TF2 Professor"
@@ -3085,8 +3085,8 @@ Scheme
 			{
 				"range" "0x0000 0x00FF"
 			}
-		}	
-		"6" 
+		}
+		"6"
 		{
 			"font"	"resource/TF2Build.ttf"
 			"name"	"TF2 Build"

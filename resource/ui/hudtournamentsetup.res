@@ -14,15 +14,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 205"
-		
+
 		"src_corner_height"		"20"
 		"src_corner_width"		"20"
 		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
 
 	"TournamentSetupLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"TournamentLabel"
 		"font"			"Cerbetica16"
@@ -41,7 +41,7 @@
 	}
 
 	"TournamentTeamNameLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"TournamentTeamNameLabel"
 		"font"			"Cerbetica12"
@@ -113,7 +113,7 @@
 		"default"		"1"
 		"font"			"CerbeticaBold12"
 		"fgcolor"		"Red"
-		
+
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
@@ -139,12 +139,12 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"command"		"teamready" 
+		"command"		"teamready"
 		"paintborder"	"0"
 		"default"		"1"
 		"font"			"CerbeticaBold12"
 		"fgcolor"		"FooterBGBlack"
-		
+
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"

@@ -11,12 +11,12 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"if_hybrid" {
 			"zpos"		"-1"
 		}
 	}
-	
+
 	"LeftSideBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -30,20 +30,20 @@
 		"enabled"		"1"
 		"fillcolor"		"70 130 180 153"
 		"scaleImage"	"1"
-		
+
 		"if_hybrid" {
 			"visible"	"0"
 		}
-		
+
 		"if_mvm" {
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery" {
 			"visible"	"0"
 		}
 	}
-	
+
 	"RightSideBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -56,28 +56,28 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"205 50 50 153"
-		"scaleImage"	"1"	
-		
+		"scaleImage"	"1"
+
 		"if_hybrid" {
 			"visible"	"0"
 		}
-		
+
 		"if_mvm" {
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery" {
 			"visible"	"0"
 		}
 	}
-	
+
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"OutlineBG"
 		"xpos"			"9999"
 	}
-	
+
 	"BlueScore"
 	{
 		"ControlName"	"CExLabel"
@@ -93,23 +93,23 @@
 		"labelText"		"%bluescore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"TanLight"
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
 	}
-		
+
 	"BlueScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -125,27 +125,27 @@
 		"labelText"		"%bluescore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"TransparentBlack"
-		
+
 		"pin_to_sibling"		"BlueScore"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
 	}
-	
+
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
@@ -161,23 +161,23 @@
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"TanLight"
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
 	}
-	
+
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -193,27 +193,27 @@
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"TransparentBlack"
-		
+
 		"pin_to_sibling"		"RedScore"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
 	}
-	
+
 	"OutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -226,16 +226,16 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_outline"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-	
+
 	"CarriedImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
 		"xpos"			"9999"
 	}
-	
+
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
@@ -253,23 +253,23 @@
 		"brighttext"	"0"
 		"font"			"Cerbetica14"
 		"fgcolor"		"TanLight"
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
 	}
-	
+
 	"PlayingToBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -282,24 +282,24 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"Transparent"
-		"scaleImage"	"1"	
-		
+		"scaleImage"	"1"
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
 	}
-	
+
 	"BlueFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
@@ -311,24 +311,24 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		if_mvm
 		{
 			"ypos"		"r95"
 		}
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 			"ypos"		"r113"
 		}
-		
+
 		"if_hybrid_single"
 		{
 			"xpos"		"c-80"
 			"ypos"		"r113"
 		}
-		
+
 		"if_hybrid_double"
 		{
 			"xpos"		"c-115"
@@ -339,13 +339,13 @@
 		{
 			"ypos"		"r75"
 		}
-		
+
 		"if_no_flags"
 		{
 			"visible"	"0"
 		}
 	}
-	
+
 	"RedFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
@@ -357,18 +357,18 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 			"ypos"		"r110"
 		}
-		
+
 		"if_hybrid_single"
 		{
 			"xpos"		"c-80"
 		}
-		
+
 		"if_hybrid_double"
 		{
 			"xpos"		"c-45"
@@ -378,13 +378,13 @@
 		{
 			"ypos"		"r75"
 		}
-		
+
 		"if_no_flags"
 		{
 			"visible"	"0"
 		}
 	}
-	
+
 	"CaptureFlag"
 	{
 		"ControlName"	"CTFArrowPanel"
@@ -396,18 +396,18 @@
 		"tall"			"56"
 		"visible"		"0"
 		"enabled"		"1"
-		
+
 		"if_hybrid"
 		{
 			"ypos"		"r100"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"ypos"		"r100"
 		}
 	}
-	
+
 	"PoisonIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -434,12 +434,12 @@
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"labelText"		"%redscore%"
 		"font"			"HudFontMediumBold"
 		"fgcolor"		"TanLight"
 	}
-	
+
 	"SpecCarriedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -453,5 +453,5 @@
 		"enabled"		"0"
 		"image"			"../hud/objectives_flagpanel_carried_red"
 		"scaleImage"	"1"
-	}			
+	}
 }

@@ -6,12 +6,12 @@
 	{
 		"labelText"			"#TF_Class_Name_Scout"
 	}
-	
+
 	"NewNumberLabel"
 	{
 		"labelText"			"1"
 	}
-	
+
 	"NumberLabel"
 	{
 		"labelText"			"1"

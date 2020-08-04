@@ -15,7 +15,7 @@
 		"border"			"CyanBorderThick"
 		"bgcolor_override"	"25 25 25 255"
 	}
-	
+
 	"mouseoveritempanel"
 	{
 		"ControlName"		"CItemModelPanel"
@@ -35,7 +35,7 @@
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+
 		"BackColor"
     	{
     		"ControlName"		"EditablePanel"
@@ -52,7 +52,7 @@
 			"PaintBackgroundType" "1"
 			"border"			"NoBorder"
 			"bgcolor_override"	"35 35 35 255"
-			
+
 			"attriblabel"
 			{
 				"font"			"ItemFontAttribLarge"
@@ -72,7 +72,7 @@
 			}
     	}
 	}
-	
+
 	"ToolBG"
 	{
 		"ControlName"		"CExLabel"
@@ -88,7 +88,7 @@
 		"paintbackground"	"0"
 		"border"			"BackpackItemBorder_SelfMade"
 	}
-	
+
 	"tool_icon"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -105,7 +105,7 @@
 		"tileVertically"	"0"
 		"drawcolor"			"112 176 74 255"
 	}
-	
+
 	"tool_modelpanel"
 	{
 		"ControlName"		"CItemModelPanel"
@@ -128,14 +128,14 @@
 		"text_center"		"1"
 		"name_only"			"1"
 		"paint_icon_hide"	"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -150,7 +150,7 @@
 		"tall"				"60"
 		"centerwrap"		"1"
 	}
-	
+
 	"SubjectBG"
 	{
 		"ControlName"		"CExLabel"
@@ -166,7 +166,7 @@
 		"paintbackground"	 "0"
 		"border"			"BackpackItemBorder_3"
 	}
-	
+
 	"subject_icon"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -183,7 +183,7 @@
 		"tileVertically"	"0"
 		"drawcolor"			"71 98 145 255"
 	}
-	
+
 	"subject_modelpanel"
 	{
 		"ControlName"		"CItemModelPanel"
@@ -205,14 +205,14 @@
 		"text_ypos"			"100"
 		"text_center"		"1"
 		"name_only"			"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
 	}
-	
+
 	"paint_model"
 	{
 		"ControlName"		"CItemModelPanel"
@@ -232,7 +232,7 @@
 		"model_tall"		"160"
 		"model_only"		"1"
 		"paint_icon_hide"	"1"
-		
+
 		"itemmodelpanel"
 		{
 			"force_use_model"		"1"
@@ -240,7 +240,7 @@
 			"allow_rot"				"1"
 		}
 	}
-	
+
 	"SelectImagePage"
 	{
 		"ControlName"		"EditablePanel"
@@ -251,7 +251,7 @@
 		"tall"				"260"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		"PageTitleLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -275,11 +275,11 @@
 			"wide"				"350"
 			"tall"				"200"
 			"border"			"GrayDialogBorder"
-			
+
 			"UseAvatarRadio"
 			{
 				"ControlName"	"RadioButton"
-				"fieldName"		"UseAvatarRadio"	
+				"fieldName"		"UseAvatarRadio"
 				"xpos"			"10"
 				"ypos"			"10"
 				"wide"			"330"
@@ -348,7 +348,7 @@
 			"wide"			"180"
 			"tall"			"200"
 			"border"		"GrayDialogBorder"
-			
+
 			"PreviewCroppedImage"
 			{
 				"ControlName"	"CRGBAImagePanel"
@@ -428,7 +428,7 @@
 			"border_armed"				"ButtonHover"
 		}
 	}
-	
+
 	"AdjustFilterPage"
 	{
 		"ControlName"	"EditablePanel"
@@ -439,7 +439,7 @@
 		"tall"			"260"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"PageTitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -464,7 +464,7 @@
 			"wide"			"160"
 			"tall"			"200"
 			"border"		"GrayDialogBorder"
-			
+
 			"FilterLabel"
 			{
 				"ControlName"	"CExLabel"
@@ -505,7 +505,7 @@
 				"zpos"			"-1"
 				"wide"			"140"
 				"tall"			"150"
-				
+
 				"FilterDescriptionLabel"
 				{
 					"ControlName"	"CExLabel"
@@ -529,7 +529,7 @@
 				"zpos"			"-1"
 				"wide"			"140"
 				"tall"			"150"
-				
+
 				"FilterDescriptionLabel"
 				{
 					"ControlName"	"CExLabel"
@@ -645,7 +645,7 @@
 			"wide"			"180"
 			"tall"			"200"
 			"border"		"GrayDialogBorder"
-			
+
 			"PreviewFilteredImage"
 			{
 				"ControlName"	"CRGBAImagePanel"
@@ -667,7 +667,7 @@
 			"wide"			"180"
 			"tall"			"200"
 			"border"		"GrayDialogBorder"
-			
+
 			"GradientBgPanel"
 			{
 				"ControlName"	"ImagePanel"
@@ -776,7 +776,7 @@
 			"border_armed"				"ButtonHover"
 		}
 	}
-	
+
 	"FinalConfirmPage"
 	{
 		"ControlName"	"EditablePanel"
@@ -785,7 +785,7 @@
 		"ypos"			"80"
 		"wide"			"540"
 		"tall"			"260"
-		
+
 		"PageTitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -810,7 +810,7 @@
 			"wide"			"350"
 			"tall"			"200"
 			"border"		"GrayDialogBorder"
-			
+
 			"WarningText"
 			{
 				"ControlName"	"CExLabel"
@@ -835,7 +835,7 @@
 			"wide"			"180"
 			"tall"			"200"
 			"border"		"GrayDialogBorder"
-			
+
 			"GradientBgPanel"
 			{
 				"ControlName"	"ImagePanel"
@@ -946,7 +946,7 @@
 			"border_armed"				"ButtonHover"
 		}
 	}
-	
+
 	"PerformingActionPage"
 	{
 		"ControlName"	"EditablePanel"
@@ -955,7 +955,7 @@
 		"ypos"			"80"
 		"wide"			"540"
 		"tall"			"260"
-		
+
 		"PleaseWaitLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -980,7 +980,7 @@
 			"wide"			"180"
 			"tall"			"200"
 			"border"		"GrayDialogBorder"
-			
+
 			"GradientBgPanel"
 			{
 				"ControlName"	"ImagePanel"

@@ -6,7 +6,7 @@
 		"fieldName"		"ModelContainer"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
-		"zpos"			"3"		
+		"zpos"			"3"
 		"wide"			"f0"
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
@@ -23,7 +23,7 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
-			
+
 			if_mini
 			{
 				"xpos"		"cs-0.5-228"
@@ -42,7 +42,7 @@
 				}
 			}
 
-			"paintbackground"	"0"	
+			"paintbackground"	"0"
 		}
 
 		"RankModel"
@@ -51,7 +51,7 @@
 			"fieldName"		"RankModel"
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
-			"zpos"			"0"		
+			"zpos"			"0"
 			"wide"			"o1"
 			"tall"			"p0.12"
 			"autoResize"	"0"
@@ -71,7 +71,7 @@
 
 			"paintbackground"	"0"
 			"render_texture"	"0"
-		
+
 			"model"
 			{
 				"force_pos"		"1"
@@ -96,7 +96,7 @@
 					"default"	"1"
 				}
 			}
-		
+
 			"lights"
 			{
 				"default"
@@ -120,12 +120,12 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"paintbackground"	"0"
-			
+
 			if_mini
 			{
 				"xpos"		"cs-0.5-228"
 			}
-			
+
 			"ParticleEffects"
 			{
 				"0"
@@ -248,7 +248,7 @@
 				"wide"	"f0"
 				"textAlignment"	"north-west"
 			}
-			
+
 			"fonts"
 			{
 				"0"		"HudFontSmallestBold"
@@ -256,7 +256,7 @@
 				"2"		"FontStorePrice"
 			}
 		}
-		
+
 		"DescLine2"
 		{
 			"ControlName"	"CAutoFittingLabel"
@@ -293,7 +293,7 @@
 				"2"		"TanLight"
 			}
 		}
-		
+
 		"StatsContainer"
 		{
 			"ControlName"	"EditablePanel"
@@ -473,7 +473,7 @@
 					"proportionaltoparent"	"1"
 					"border"		"NoBorder"
 				}
-				
+
 				// First column
 				"GamesLabel"
 				{

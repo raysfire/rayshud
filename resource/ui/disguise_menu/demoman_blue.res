@@ -7,13 +7,13 @@
 		"fgcolor"			"HUDBlueTeamSolid"
 		"labelText"			"#TF_Class_Name_Demoman"
 	}
-	
+
 	"NewNumberLabel"
 	{
 		"fgcolor"			"HUDBlueTeamSolid"
 		"labelText"			"1"
 	}
-	
+
 	"NumberLabel"
 	{
 		"fgcolor"			"HUDBlueTeamSolid"

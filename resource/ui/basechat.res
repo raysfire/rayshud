@@ -12,7 +12,7 @@
 		"tall"					"100"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	ChatInputLine
 	{
 		"ControlName"			"EditablePanel"
@@ -25,7 +25,7 @@
 		"tall"					"0"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"ChatFiltersButton"
 	{
 		"ControlName"			"Button"
@@ -45,7 +45,7 @@
 		"brighttext"			"0"
 		"Default"				"0"
 	}
-	
+
 	"HudChatHistory"
 	{
 		"ControlName"			"RichText"

@@ -19,7 +19,7 @@
 		"border"				"CyanBorderThick"
 		"bgcolor_override"		"DarkGrey"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -38,7 +38,7 @@
 		"enabled"				"1"
 		"fgcolor_override" 		"ColorCyan"
 	}
-	
+
 	"AbandonIcon"
 	{
 		"ControlName"			"ImagePanel"
@@ -52,7 +52,7 @@
 		"enabled"				"1"
 		"scaleImage"			"1"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -72,7 +72,7 @@
 		"wrap"					"1"
 		"fgcolor_override"		"ColorCyan"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"			"CExButton"
@@ -97,7 +97,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ConfirmButton"
 	{
 		"ControlName"			"CExButton"

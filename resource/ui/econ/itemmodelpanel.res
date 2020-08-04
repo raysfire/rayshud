@@ -15,7 +15,7 @@
 		//"model_wide_collection"	"156"
 		//"model_tall_collection"	"100"
 	}
-	
+
 	"LoadingSpinner"
 	{
 		"ControlName"	"ImagePanel"
@@ -33,7 +33,7 @@
 		"image"			"animated/tf2_logo_hourglass"
 		"scaleImage"	"1"
 	}
-	
+
 	"MainContentsContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -44,7 +44,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"bgcolor_override"		"Transparent"
-		
+
 		"itemmodelpanel"
 		{
 			"ControlName"	"CEmbeddedItemModelPanel"
@@ -64,7 +64,7 @@
 			"fov"			"54"
 			"start_framed"	"1"
 			"disable_manipulation"	"1"
-			
+
 			"model"
 			{
 				"angles_x"		"10"
@@ -73,7 +73,7 @@
 				"spotlight"		"1"
 			}
 		}
-		
+
 		"namelabel"
 		{
 			"ControlName"	"CExLabel"
@@ -93,7 +93,7 @@
 			"fgcolor"		"TanLight"
 			"centerwrap"	"1"
 		}
-		
+
 		"attriblabel"
 		{
 			"ControlName"	"CExLabel"
@@ -113,7 +113,7 @@
 			"fgcolor"		"TextColor"
 			"centerwrap"	"1"
 		}
-		
+
 		"equippedlabel"
 		{
 			"ControlName"	"CExLabel"
@@ -134,7 +134,7 @@
 			"bgcolor_override"		"ColorBlack"
 			"PaintBackgroundType"	"2"
 		}
-		
+
 		"paint_icon"
 		{
 			"ControlName"	"CItemMaterialCustomizationIconPanel"
@@ -147,7 +147,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 		}
-		
+
 		"quantitylabel"
 		{
 			"ControlName"	"CExLabel"
@@ -168,7 +168,7 @@
 			"bgcolor_override"		"ColorBlack"
 			"PaintBackgroundType"	"2"
 		}
-		
+
 		"serieslabel"
 		{
 			"ControlName"	"CExLabel"
@@ -189,7 +189,7 @@
 			"bgcolor_override"		"0 40 30 255"
 			"PaintBackgroundType"	"2"
 		}
-		
+
 		"matcheslabel"
 		{
 			"ControlName"	"CExLabel"
@@ -210,7 +210,7 @@
 			"bgcolor_override"		"0 40 30 255"
 			"PaintBackgroundType"	"2"
 		}
-		
+
 		"vision_restriction_icon"
 		{
 			"ControlName"	"ImagePanel"
@@ -226,7 +226,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
-		
+
 		"is_strange_icon"
 		{
 			"ControlName"	"ImagePanel"
@@ -242,7 +242,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
-		
+
 		"is_unusual_icon"
 		{
 			"ControlName"	"ImagePanel"
@@ -258,7 +258,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
-		
+
 		"is_loaner_icon"
 		{
 			"ControlName"	"ImagePanel"
@@ -274,7 +274,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
-		
+
 		"contained_item_panel"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -299,7 +299,7 @@
 			"model_only"	"1"
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"

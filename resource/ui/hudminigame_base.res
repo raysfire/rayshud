@@ -5,16 +5,16 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideBG"
 		"xpos"			"c-120"
-		"ypos"			"r20"	
+		"ypos"			"r20"
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"70 130 180 153"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-	
+
 	"RightSideBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -27,9 +27,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"205 50 50 153"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-	
+
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -42,9 +42,9 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_flagpanel_bg_outline"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-	
+
 	"BlueScore"
 	{
 		"ControlName"	"CExLabel"
@@ -56,12 +56,12 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"TanLight"
 	}
-	
+
 	"BlueScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -78,7 +78,7 @@
 		"font"			"Cerbetica40"
 		"fgcolor"		"Black"
 	}
-	
+
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
@@ -95,7 +95,7 @@
 		"font"			"Cerbetica40"
 		"fgcolor"		"TanLight"
 	}
-	
+
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -107,12 +107,12 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"Black"
 	}
-	
+
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
@@ -131,7 +131,7 @@
 		"font"			"Cerbetica14"
 		"fgcolor"		"TanLight"
 	}
-	
+
 	"PlayingToBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -144,9 +144,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"Transparent"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-	
+
 	"GameImage"
 	{
 		"ControlName"	"ImagePanel"

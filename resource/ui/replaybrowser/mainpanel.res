@@ -18,7 +18,7 @@
 		"bgcolor_override"				"27 27 27 0"
 		"infocus_bgcolor_override"		"27 27 27 0"
 		"outoffocus_bgcolor_override"	"27 27 27 0"
-		
+
 		"title"							"#Replay_Replay"
 		"title_font"					"HudFontSmallBold"
 		"titletextinsetX"				"40"
@@ -26,11 +26,11 @@
 		"titlebarfgcolor_override"		"HudOffWhite"
 		"titlebardisabledfgcolor_override"	"HudOffWhite"
 		"titlebarbgcolor_override"		"DarkGrey"
-		
+
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
 	}
-	
+
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -59,7 +59,7 @@
 		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
 	}
-	
+
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -88,7 +88,7 @@
 		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
 	}
-	
+
 	"FooterLine"
 	{
 		"ControlName"	"EditablePanel"
@@ -103,7 +103,7 @@
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"ColorCyan"
 	}
-	
+
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -114,7 +114,7 @@
 		"tabheight"		"20"
 		"transition_time" "0"
 		"yoffset"		"14"
-		
+
 		"HeaderLine"
 		{
 			"ControlName"	"EditablePanel"
@@ -129,7 +129,7 @@
 			"PaintBackgroundType"	"2"
 			"bgcolor_override"		"ColorCyan"
 		}
-		
+
 		"tabskv"
 		{
 			"textinsetx"		"25"
@@ -145,7 +145,7 @@
 			"depressedBgColor_override"		"10 10 10 255"
 		}
 	}
-	
+
 	"BackButton"
 	{
 		"ControlName"	"CExButton"

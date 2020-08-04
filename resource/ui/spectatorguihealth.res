@@ -8,7 +8,7 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
-	
+
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -17,7 +17,7 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
-	
+
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -26,7 +26,7 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
-	
+
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -41,7 +41,7 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"
 	}
-	
+
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
@@ -58,7 +58,7 @@
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"Health Normal"
 	}
-	
+
 	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -74,12 +74,12 @@
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"TransparentBlack"
-		
+
 		"pin_to_sibling"		"PlayerStatusHealthValue"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatusPlayerLevel"
 	{
 		"ControlName"	"CExLabel"

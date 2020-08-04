@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
 	"SidePanelBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -75,7 +75,7 @@
 		"enabled"		"1"
 		"fgcolor"		"TanLight"
 	}
-	
+
 	"teambutton2"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -97,18 +97,18 @@
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
 		"font"			"CerbeticaBold20"
-		
+
 		"defaultFgColor_override"	"255 255 255 128"
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override"	"255 255 255 128"
 		"selectedFgColor_override"	"TanLight"
-		
+
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"TanDarker"
 		"depressedBgColor_override"	"0 0 0 200"
 		"selectedBgColor_override"	"TanDarker"
 	}
-	
+
 	"JoinBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -122,7 +122,7 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 200"
 	}
-	
+
 	"teambutton3"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -144,18 +144,18 @@
 		"paintborder"	"0"
 		"command"		"jointeam spectatearena"
 		"font"			"CerbeticaBold20"
-		
+
 		"defaultFgColor_override"	"255 255 255 128"
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override"	"255 255 255 128"
 		"selectedFgColor_override"	"TanLight"
-		
+
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"TanDarker"
 		"depressedBgColor_override"	"0 0 0 200"
 		"selectedBgColor_override"	"TanDarker"
 	}
-	
+
 	"SpecBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -169,7 +169,7 @@
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 200"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -185,42 +185,42 @@
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 200"
 	}
-	
+
 	"TeamMenuAuto"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
 		"xpos"			"9999"
 	}
-	
+
 	"TeamMenuSpectate"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSpectate"
 		"xpos"			"9999"
 	}
-	
+
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"9999"
 	}
-	
+
 	"autodoor"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"autodoor"
 		"xpos"			"9999"
 	}
-	
+
 	"spectate"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"spectate"
 		"xpos"			"9999"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"

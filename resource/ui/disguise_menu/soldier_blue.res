@@ -7,13 +7,13 @@
 		"fgcolor"			"HUDBlueTeamSolid"
 		"labelText"			"#TF_Class_Name_Soldier"
 	}
-	
+
 	"NewNumberLabel"
 	{
 		"fgcolor"			"HUDBlueTeamSolid"
 		"labelText"			"2"
 	}
-	
+
 	"NumberLabel"
 	{
 		"fgcolor"			"HUDBlueTeamSolid"

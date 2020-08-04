@@ -6,7 +6,7 @@
 		"fieldName"		"classmodelpanel"
 		"xpos"			"15"
 		"ypos"			"r200"
-		"zpos"			"2"		
+		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"200"
 		"autoResize"	"0"
@@ -16,7 +16,7 @@
 		"render_texture"	"0"
 		"fov"			"12"
 		"allow_rot"		"1"
-		
+
 		"model"
 		{
 			"force_pos"		"1"
@@ -37,7 +37,7 @@
 		{
 			"undefined"
 			{
-				
+
 			}
 			"Scout"
 			{

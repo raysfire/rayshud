@@ -14,7 +14,7 @@
 		"bgcolor_override"	"0 0 0 200"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	"CurrencyLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -31,7 +31,7 @@
 		"textAlignment"		"west"
 		"labelText"			"#TF_PVE_Missed"
 	}
-	
+
 	"CurrencyGood"
 	{
 		"ControlName"		"CExLabel"
@@ -48,7 +48,7 @@
 		"textAlignment"		"east"
 		"labelText"			"%currency%"
 	}
-	
+
 	"CurrencyBad"
 	{
 		"ControlName"		"CExLabel"

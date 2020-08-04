@@ -20,7 +20,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"ClassIcon"
 	{
 		"ControlName"		"CIconPanel"
@@ -35,7 +35,7 @@
 		"scaleImage"		"1"
 		"icon"				"hud_menu_scout_red"
 	}
-	
+
 	"NumberBg"
 	{
 		"ControlName"		"CIconPanel"
@@ -51,9 +51,9 @@
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}
-	
+
 	"NewNumberLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
 		"font"				"CerbeticaBold14"
@@ -72,9 +72,9 @@
 		"dulltext"			"1"
 		"brighttext"		"0"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
 		"font"				"CerbeticaBold14"

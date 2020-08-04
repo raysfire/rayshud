@@ -10,7 +10,7 @@
 		"paintbackground"	"0"
 		"zpos"				"20"
 		"visible"			"0"
-		
+
 		"AnimBluePlayerListParent"			"p.47"
 		"AnimBlueTeamScore"					"p.46"
 		"AnimBlueTeamScoreDropshadow"		"p.46"
@@ -35,13 +35,13 @@
 		"AnimBlueTeamLabel12v12YPos"		"47"
 		"AnimRedTeamLabel12v12YPos"			"47"
 		"AnimStatsContainer12v12YPos"		"-10"
-		
+
 		if_large {
 			"AnimBlueMedalsYPos"			"50"
 			"AnimRedMedalsYPos"				"50"
 		}
 	}
-	
+
 	"RankBorder"
 	{
 		"ControlName"	"EditablePanel"
@@ -60,7 +60,7 @@
 			"visible"		"1"
 		}
 	}
-	
+
 	"RankPanel"
 	{
 		"ControlName"	"CMiniPvPRankPanel"
@@ -82,7 +82,7 @@
 			"show_model"	"0"
 		}
 	}
-	
+
 	"RankModelPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
@@ -103,7 +103,7 @@
 			"visible"		"0"
 		}
 	}
-	
+
 	"StatsBgPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -118,7 +118,7 @@
 		"PaintBackgroundType"	"1"
 		"bgcolor_override" "0 0 0 250"
 	}
-	
+
 	"DrawingPanel"
 	{
 		"ControlName"	"CDrawingPanel"
@@ -134,7 +134,7 @@
 		"linecolor"			"RedSolid"
 		"team_colors"		"1"
 	}
-	
+
 	"MainStatsContainer"
 	{
 		"Controlname"	"EditablePanel"
@@ -145,7 +145,7 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
-		
+
 		"ParticlePanel"
 		{
 			"ControlName"	"CTFParticlePanel"
@@ -157,7 +157,7 @@
 			"tall"			"f0"
 			"visible"		"1"
 		}
-		
+
 		"StatsLabelPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -170,7 +170,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"autoResize"	"0"
-			
+
 			"StatsAndMedals"
 			{
 				"ControlName"	"CExLabel"
@@ -188,7 +188,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 			}
-			
+
  			"StatsAndMedalsShadow"
 			{
 				"ControlName"	"CExLabel"
@@ -206,13 +206,13 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				
+
 				"pin_to_sibling"		"StatsAndMedals"
 				"pin_corner_to_sibling"	"PIN_TOPLEFT"
 				"pin_to_sibling_corner"	"PIN_TOPLEFT"
 			}
 		}
-		
+
 		"TeamScoresPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -224,7 +224,7 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+
 			"BlueTeamPanel"
 			{
 	 			"ControlName"	"EditablePanel"
@@ -236,7 +236,7 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-				
+
 				"BlueTeamScoreBG"
 				{
 					"ControlName"	"EditablePanel"
@@ -339,7 +339,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					
+
 					"pin_to_sibling"		"BlueTeamWinner"
 					"pin_corner_to_sibling"	"PIN_TOPLEFT"
 					"pin_to_sibling_corner"	"PIN_TOPLEFT"
@@ -395,7 +395,7 @@
 					"visible"		"0"
 					"enabled"		"1"
 					"image"			""
-					"scaleImage"	"1"	
+					"scaleImage"	"1"
 					"color_outline"	"HudTimerProgressInActive"
 
 					if_large {
@@ -521,7 +521,7 @@
 					{
 						"ypos"		"39"
 					}
-				}						
+				}
 				"RedTeamScore"
 				{
 					"ControlName"	"CExLabel"
@@ -604,7 +604,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					
+
 					"pin_to_sibling"		"RedTeamWinner"
 					"pin_corner_to_sibling"	"PIN_TOPLEFT"
 					"pin_to_sibling_corner"	"PIN_TOPLEFT"
@@ -656,7 +656,7 @@
 					"visible"		"0"
 					"enabled"		"1"
 					"image"			""
-					"scaleImage"	"1"	
+					"scaleImage"	"1"
 					"color_outline"	"HudTimerProgressInActive"
 
 					if_large {
@@ -696,7 +696,7 @@
 						"ypos"		"77"
 						"tall"		"340"
 					}
-			
+
 					"RedPlayerList"
 					{
 						"ControlName"	"TFSectionedListPanel"

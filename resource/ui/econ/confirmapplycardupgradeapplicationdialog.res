@@ -15,7 +15,7 @@
 		"border"			"CyanBorderThick"
 		"bgcolor_override"	"25 25 25 255"
 	}
-	
+
 	"mouseoveritempanel"
 	{
 		"ControlName"		"CItemModelPanel"
@@ -35,7 +35,7 @@
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -54,7 +54,7 @@
 			"centerwrap"	"1"
 		}
     }
-    
+
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -73,7 +73,7 @@
 		"enabled"			"1"
 		"centerwrap"		"1"
 	}
-	
+
 	"ToolBG"
 	{
 		"ControlName"		"CExLabel"
@@ -108,9 +108,9 @@
 		"tileImage"			"0"
 		"tileVertically"	"0"
 		"drawcolor"			"112 176 74 255"
-	}				
+	}
 	"tool_modelpanel"
-	{		
+	{
 		"ControlName"		"CItemModelPanel"
 		"fieldName"			"tool_modelpanel"
 		"xpos"				"10"
@@ -131,7 +131,7 @@
 		"text_center"		"1"
 		"name_only"			"1"
 		"paint_icon_hide"	"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -173,9 +173,9 @@
 		"tileImage"			"0"
 		"tileVertically"	"0"
 		"drawcolor"			"71 98 145 255"
-	}	
+	}
 	"subject_modelpanel"
-	{		
+	{
 		"ControlName"		"CItemModelPanel"
 		"fieldName"			"subject_modelpanel"
 		"xpos"				"300"
@@ -195,7 +195,7 @@
 		"text_ypos"			"100"
 		"text_center"		"1"
 		"name_only"			"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"

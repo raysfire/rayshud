@@ -22,14 +22,14 @@
 		"wide"			"220"
 		"tall"			"20"
 	}
-	
+
 	"mapname"
 	{
 		"xpos"			"c-100"
 		"ypos"			"c-100"
 		"wide"			"200"
 	}
-	
+
 	"SelectTeamLabel"
 	{
 		"xpos"			"30"
@@ -37,12 +37,12 @@
 		"wide"			"450"
 		"textAlignment"	"west"
 	}
-	
+
 	"SelectTeamLabel"
 	{
 		"visible"		"0"
 	}
-	
+
 	"teambutton0"
 	{
 		"xpos"			"c-110"
@@ -53,7 +53,7 @@
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
 	}
-	
+
 	"BlueTeamBG"
 	{
 		"xpos"			"c-110"
@@ -61,7 +61,7 @@
 		"wide"			"110"
 		"tall"			"40"
 	}
-	
+
 	"teambutton1"
 	{
 		"xpos"			"c0"
@@ -72,7 +72,7 @@
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
 	}
-	
+
 	"RedTeamBG"
 	{
 		"xpos"			"c0"
@@ -80,7 +80,7 @@
 		"wide"			"110"
 		"tall"			"40"
 	}
-	
+
 	"teambutton2"
 	{
 		"xpos"			"c-110"
@@ -91,13 +91,13 @@
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
 	}
-	
+
 	"AutoJoinBG"
 	{
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"teambutton3"
 	{
 		"xpos"			"c-110"
@@ -108,13 +108,13 @@
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
 	}
-	
+
 	"SpectateBG"
 	{
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"BlueCount"
 	{
 		"xpos"			"c-157"
@@ -143,7 +143,7 @@
 		"font"			"Cerbetica14"
 		"fgcolor"		"255 255 255 175"
 	}
-	
+
 	"RedCount"
 	{
 		"xpos"			"c-51"
@@ -152,7 +152,7 @@
 		"labelText"		"%redcount%"
 		"font"			"Cerbetica14"
 		"fgcolor"		"255 255 255 175"
-	}	
+	}
 	"RedCountPlayers"
 	{
 		"ControlName"	"CExLabel"

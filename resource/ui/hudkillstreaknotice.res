@@ -15,7 +15,7 @@
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"		"HudBlack"
 	}
-	
+
 	"SplashLabel"
 	{
 		"ControlName"	"CExLabel"

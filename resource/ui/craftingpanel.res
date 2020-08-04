@@ -19,18 +19,18 @@
 		"bgcolor_override"				"DarkGrey"
 		"infocus_bgcolor_override"		"DarkGrey"
 		"outoffocus_bgcolor_override"	"DarkGrey"
-		
+
 		"item_ypos"						"85"
 		"output_item_ypos"				"255"
 		"item_crafting_offcenter_x"		"0"
 		"item_backpack_xdelta"			"2"
 		"item_backpack_ydelta"			"4"
-		
+
 		"button_xpos_offcenter"			"175"
 		"button_ypos"					"85"
 		"button_ydelta"					"80"
 		"button_override_delete_xpos"	"0"
-		
+
 		"modelpanels_kv"
 		{
 			"ControlName"		"CItemModelPanel"
@@ -41,17 +41,17 @@
 			"noitem_textcolor"	"TextColor"
 			"PaintBackgroundType"	"2"
 			"paintborder"			"1"
-			
+
 			"model_ypos"			"5"
 			"model_tall"			"35"
 			"text_center"			"1"
 			"name_only"				"1"
 			"text_forcesize"	 	"3"
 			"noitem_use_fullpanel" 	"1"
-			
+
 			"inset_eq_x"			"2"
 			"inset_eq_y"			"2"
-			
+
 			"MainContentsContainer"
 			{
 				"ControlName"	"EditablePanel"
@@ -62,14 +62,14 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"bgcolor_override"		"Transparent"
-				
+
 				"itemmodelpanel"
 				{
 					"use_item_rendertarget" "0"
 					"inventory_image_type"	"1"
 					"allow_rot"				"0"
 				}
-				
+
 				"namelabel"
 				{
 					"ControlName"	"CExLabel"
@@ -91,7 +91,7 @@
 				}
 			}
 		}
-		
+
 		"recipebuttons_kv"
 		{
 			"font"			"HudFontSmallestBold"
@@ -114,12 +114,12 @@
 			"depressedFgColor_override"	"178 82 22 255"
 			"depressedBgColor_override"	"Transparent"
 		}
-		
+
 		"filter_xoffset"	"-290"
 		"filter_ypos"		"30"
 		"filter_xdelta"		"10"
 		"filter_ydelta"		"10"
-		
+
 		"recipefilterbuttons_kv"
 		{
 			"zpos"				"2"
@@ -140,7 +140,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 	}
-	
+
 	"ClassLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -159,7 +159,7 @@
 		"enabled"			"1"
 		"fgcolor_override"	"200 187 161 255"
 	}
-	
+
 	"selectedrecipecontainer"
 	{
 		"ControlName"		"EditablePanel"
@@ -171,7 +171,7 @@
 		"tall"				"350"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"200 187 161 0"
-		
+
 		"RecipeTitle"
 		{
 			"ControlName"	"CExLabel"
@@ -191,7 +191,7 @@
 			"fgcolor"		"200 187 161 255"
 			"wrap"			"1"
 		}
-		
+
 		"RecipeInputStringLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -211,7 +211,7 @@
 			"fgcolor"		"153 204 255 255"
 			"wrap"			"1"
 		}
-		
+
 		"InputLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -230,7 +230,7 @@
 			"enabled"		"1"
 			"fgcolor"		"TextColor"
 		}
-		
+
 		"OutputLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -249,7 +249,7 @@
 			"enabled"		"1"
 			"fgcolor"		"TextColor"
 		}
-		
+
 		"CraftButton"
 		{
 			"ControlName"	"CExButton"
@@ -274,7 +274,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
-		
+
 		"FreeAccountLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -294,7 +294,7 @@
 			"wrap"			"1"
 			"fgcolor"		"178 82 22 255"
 		}
-		
+
 		"UpgradeButton"
 		{
 			"ControlName"	"CExButton"
@@ -318,14 +318,14 @@
 			"Command"		"upgrade"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"defaultBgColor_override"	"102 122 42 255"
 			"armedBgColor_override"		"143 167 57 255"
 			"depressedBgColor_override"	"143 167 57 255"
 			"selectedBgColor_override"	"143 167 57 255"
 		}
 	}
-	
+
 	"recipecontainerscroller"
 	{
 		"ControlName"		"EditablePanel"
@@ -340,7 +340,7 @@
 		"bgcolor_override"	"200 187 161 0"
 		"autohide_buttons"	"1"
 	}
-	
+
 	"recipecontainer"
 	{
 		"ControlName"		"EditablePanel"
@@ -353,7 +353,7 @@
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"200 187 161 0"
 	}
-	
+
 	"mouseoveritempanel"
 	{
 		"ControlName"		"CItemModelPanel"
@@ -373,7 +373,7 @@
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -392,7 +392,7 @@
 			"centerwrap"	"1"
 		}
 	}
-	
+
 	"mousedragitempanel"
 	{
 		"ControlName"		"CItemModelPanel"
@@ -412,14 +412,14 @@
 		"text_ypos"			"60"
 		"text_center"		"1"
 		"name_only"			"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
 	}
-	
+
 	"TooltipPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -432,7 +432,7 @@
 		"visible"			"0"
 		"PaintBackgroundType"	"2"
 		"border"			"MainMenuBGBorder"
-		
+
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -454,7 +454,7 @@
 			"centerwrap"	"1"
 		}
 	}
-	
+
 	"ShowExplanationsButton"
 	{
 		"ControlName"		"CExButton"

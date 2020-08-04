@@ -46,7 +46,7 @@
 			"Default"		"0"
 			"Command"		"particle_use_head_clicked"
 		}
-	
+
 		"HatParticleSlider"
 		{
 			"ControlName"	"CCvarSlider"

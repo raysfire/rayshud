@@ -34,7 +34,7 @@
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+
 		"BackColor"
     	{
     		"ControlName"		"EditablePanel"
@@ -51,7 +51,7 @@
 			"PaintBackgroundType" "1"
 			"border"			"NoBorder"
 			"bgcolor_override"	"35 35 35 255"
-			
+
 			"attriblabel"
 			{
 				"font"			"ItemFontAttribLarge"
@@ -146,7 +146,7 @@
 		"text_center"		"1"
 		"name_only"			"1"
 		"paint_icon_hide"	"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"

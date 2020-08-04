@@ -13,7 +13,7 @@
 		"tall"			"300"
 		"visible"		"1"
 		"enabled"		"1"
-	
+
 		"MannCoImage"
 		{
 			"ControlName"	"ImagePanel"

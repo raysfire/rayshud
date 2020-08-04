@@ -19,7 +19,7 @@
 		"border"				"CyanBorderThick"
 		"bgcolor_override"		"25 25 25 255"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -37,7 +37,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -57,7 +57,7 @@
 		"centerwrap"		"1"
 		"fgcolor_override"	"ColorCyan"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"		"CExButton"
@@ -91,7 +91,7 @@
 		"border_default"			"ButtonHover"
 		"border_armed"				"ButtonHover"
 	}
-	
+
 	"ConfirmButton"
 	{
 		"ControlName"		"CExButton"
@@ -119,7 +119,7 @@
 		"border_default"	"ButtonHover"
 		"border_armed"		"ButtonHover"
 	}
-	
+
 	"OptOutCheckbox"
 	{
 		"ControlName"		"CheckButton"

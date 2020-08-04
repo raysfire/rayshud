@@ -8,7 +8,7 @@
 		"name_width"	"57"
 		"horiz_inset"	"2"
 	}
-	
+
 	"RoundSignModel"
 	{
 		"ControlName"	"CModelPanel"
@@ -24,7 +24,7 @@
 		"enabled"		"1"
 		"fov"			"70"
 		"proportionaltoparent"	"1"
-		
+
 		"model"
 		{
 			"modelname"	"models/props_ui/banner.mdl"
@@ -49,7 +49,7 @@
 				"name"			"intro"
 				"sequence"		"intro"
 			}
-			
+
 			"animation"
 			{
 				"name"			"outro"
@@ -57,9 +57,9 @@
 			}
 		}
 	}
-	
+
 	"CountdownLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
 		"font"			"HudFontGiant"
@@ -78,9 +78,9 @@
 		"fgcolor"		"TanLight"
 		"proportionaltoparent"	"1"
 	}
-	
+
 	"CountdownLabelShadow"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"HudFontGiant"
@@ -125,7 +125,7 @@
 			}
 		}
 
-		"paintbackground"	"0"	
+		"paintbackground"	"0"
 	}
 
 	"MatchDoors"
@@ -143,7 +143,7 @@
 		"enabled"		"1"
 		"fov"			"70"
 		"proportionaltoparent"	"1"
-		
+
 		"model"
 		{
 			"modelname"	"models/vgui/versus_doors.mdl"
@@ -167,7 +167,7 @@
 				"name"			"open"
 				"sequence"		"open"
 			}
-			
+
 			"animation"
 			{
 				"name"			"close"
@@ -187,7 +187,7 @@
 		"fieldName"		"RoundCounter"
 		"xpos"			"cs-0.5"
 		"ypos"			"-2"
-		"zpos"			"1"		
+		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"100"
 		"visible"		"1"
@@ -206,9 +206,9 @@
 		"proportionaltoaparent"	"1"
 		"border"			"NoBorder"
 	}
-	
+
 	"RankUpLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RankUpLabel"
 		"font"			"HudFontMediumSmallBold"
@@ -231,7 +231,7 @@
 	}
 
 	"RankUpShadowLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RankUpShadowLabel"
 		"font"			"HudFontMediumSmallBold"
@@ -282,7 +282,7 @@
 			"delta_lifetime"		"1.5"
 			"delta_item_font"		"HudFontMediumSmall"
 		}
-		
+
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"
@@ -307,9 +307,9 @@
 				"font"			"HudFontSmall"
 				"proportionaltoparent"	"1"
 			}
-		}	
+		}
 	}
-	
+
 	"TeamStatus"
 	{
 		"ControlName"	"CTFTeamStatus"
@@ -321,7 +321,7 @@
 		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"max_size"		"19"
 		"6v6_gap"		"2"
 		"12v12_gap"		"1"
@@ -352,7 +352,7 @@
 			"percentage_health_low"	"0.3"
 			"color_portrait_blend_dead_red"	"White"
 			"color_portrait_blend_dead_blue" "White"
-			
+
 			"playername"
 			{
 				"ControlName"	"CExLabel"
@@ -379,7 +379,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
-				"scaleImage"	"1"	
+				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 			}
 			"classimagebg"
@@ -468,7 +468,7 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"image"			"../HUD/tournament_panel_brown"
-				
+
 				"src_corner_height"	"22"
 				"src_corner_width"	"22"
 				"draw_corner_width"	"3"
@@ -552,9 +552,9 @@
 				"tall"			"24"
 				"visible"		"0"
 				"enabled"		"1"
-				"image"			"../HUD/comp_player_status"	
+				"image"			"../HUD/comp_player_status"
 				"scaleImage"	"1"
-				"proportionaltoparent"	"1"	
+				"proportionaltoparent"	"1"
 			}
 			"SkullPanel"
 			{
@@ -568,7 +568,7 @@
 				"enabled"		"1"
 				"image"			"../HUD/comp_player_status_skull"
 				"scaleImage"	"1"
-				"proportionaltoparent"	"1"	
+				"proportionaltoparent"	"1"
 			}
 		}
 	}
@@ -584,7 +584,7 @@
 		"tall"				"260"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		if_large
 		{
 			"ypos"			"65"
@@ -644,13 +644,13 @@
 			"fieldName"		"BlueLeaderAvatar"
 			"xpos"			"11"
 			"ypos"			"10"
-			"zpos"			"5"	
+			"zpos"			"5"
 			"wide"			"35"
 			"tall"			"35"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"color_outline"	"52 48 45 255"
 		}
 		"BlueLeaderAvatarBG"
@@ -683,7 +683,7 @@
 			"linespacing"	"26"
 			"linegap"		"4"
 			//"show_columns"	"1"
-			
+
 			if_large
 			{
 				"tall"		"315"
@@ -703,7 +703,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
-			
+
 			if_large
 			{
 				"tall"		"325"
@@ -722,7 +722,7 @@
 		"tall"				"260"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		if_large
 		{
 			"ypos"			"65"
@@ -788,7 +788,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"color_outline"	"52 48 45 255"
 		}
 		"RedLeaderAvatarBG"
@@ -821,7 +821,7 @@
 			"linespacing"	"26"
 			"linegap"		"4"
 			//"show_columns"	"1"
-			
+
 			if_large
 			{
 				"tall"		"315"
@@ -841,7 +841,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
-			
+
 			if_large
 			{
 				"tall"		"325"

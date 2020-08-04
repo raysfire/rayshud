@@ -13,7 +13,7 @@
 		"enabled"			"1"
 		"paintbackground" 	"0"
 	}
-	
+
 	"DestroyIcon"
 	{
 		"ControlName"		"CIconPanel"
@@ -28,7 +28,7 @@
 		"scaleImage"		"1"
 		"icon"				"ico_demolish"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -48,7 +48,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"TitleLabelDropshadow"
 	{
 		"ControlName"		"CExLabel"
@@ -68,12 +68,12 @@
 		"textAlignment"		"Left"
 		"dulltext"			"1"
 		"brighttext"		"0"
-		
+
 		"pin_to_sibling"		"TitleLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
-	
+
 	"CancelLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -93,7 +93,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"active_item_1"
 	{
 		"ControlName"		"CEngyDestroyMenuItem"
@@ -105,7 +105,7 @@
 		"tall"				"130"
 		"visible"			"1"
 	}
-	
+
 	"active_item_2"
 	{
 		"ControlName"		"CEngyDestroyMenuItem"
@@ -117,7 +117,7 @@
 		"tall"				"130"
 		"visible"			"1"
 	}
-	
+
 	"active_item_3"
 	{
 		"ControlName"		"CEngyDestroyMenuItem"
@@ -129,7 +129,7 @@
 		"tall"				"130"
 		"visible"			"1"
 	}
-	
+
 	"active_item_4"
 	{
 		"ControlName"		"CEngyDestroyMenuItem"
@@ -141,7 +141,7 @@
 		"tall"				"130"
 		"visible"			"1"
 	}
-	
+
 	"inactive_item_1"
 	{
 		"ControlName"		"CEngyDestroyMenuItem"
@@ -153,7 +153,7 @@
 		"tall"				"130"
 		"visible"			"1"
 	}
-	
+
 	"inactive_item_2"
 	{
 		"ControlName"		"CEngyDestroyMenuItem"
@@ -165,7 +165,7 @@
 		"tall"				"130"
 		"visible"			"1"
 	}
-	
+
 	"inactive_item_3"
 	{
 		"ControlName"		"CEngyDestroyMenuItem"
@@ -177,7 +177,7 @@
 		"tall"				"130"
 		"visible"			"1"
 	}
-	
+
 	"inactive_item_4"
 	{
 		"ControlName"		"CEngyDestroyMenuItem"
@@ -189,7 +189,7 @@
 		"tall"				"130"
 		"visible"			"1"
 	}
-	
+
 	"unavailable_item_1"
 	{
 		"ControlName"		"EditablePanel"
@@ -201,7 +201,7 @@
 		"tall"				"130"
 		"visible"			"1"
 	}
-	
+
 	"unavailable_item_2"
 	{
 		"ControlName"		"EditablePanel"
@@ -213,7 +213,7 @@
 		"tall"				"130"
 		"visible"			"1"
 	}
-	
+
 	"unavailable_item_3"
 	{
 		"ControlName"		"EditablePanel"
@@ -225,7 +225,7 @@
 		"tall"				"130"
 		"visible"			"1"
 	}
-	
+
 	"unavailable_item_4"
 	{
 		"ControlName"		"EditablePanel"
@@ -237,7 +237,7 @@
 		"tall"				"130"
 		"visible"			"1"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"		"EditablePanel"

@@ -16,7 +16,7 @@
 		"teambg_2"			"../hud/medic_charge_red_bg"
 		"teambg_3"			"../hud/medic_charge_blue_bg"
 	}
-	
+
 	"ChargeLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -41,7 +41,7 @@
 		"font_minmode"		"CerbeticaBoldOutline32"
 		"fgcolor"			"Ammo In Clip"
 	}
-	
+
 	"IndividualChargesLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -66,7 +66,7 @@
 		"font_minmode"		"CerbeticaBoldOutline32"
 		"fgcolor"			"Ammo In Clip"
 	}
-	
+
 	"ChargeMeterLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -89,9 +89,9 @@
 		"font"				"Cerbetica12"
 		"fgcolor"			"TanLight"
 	}
-	
+
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ChargeMeter"
 		"font"				"Default"
@@ -114,7 +114,7 @@
 		"bgcolor" 			"32 32 32 128"
 		"fgcolor_override"	"Uber Bar Color"
 	}
-	
+
 	"ChargeMeter1"
 	{
 		"ControlName"		"ContinuousProgressBar"
@@ -139,7 +139,7 @@
 		"brighttext"		"0"
 		"fgcolor_override"	"Uber Bar Color"
 	}
-	
+
 	"ChargeMeter2"
 	{
 		"ControlName"		"ContinuousProgressBar"
@@ -217,7 +217,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
-	
+
 	"ResistIconAnchor"
 	{
 		"ControlName"		"EditablePanel"
@@ -231,7 +231,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 	}
-	
+
 	"ResistIcon"
 	{
 		"ControlName"		"ImagePanel"

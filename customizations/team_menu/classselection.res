@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
 	"SidePanelBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -29,7 +29,7 @@
 		"scaleImage"	"1"
 		"fillcolor"		"0 0 0 200"
 	}
-	
+
 	"SysMenu"
 	{
 		"ControlName"	"Menu"
@@ -44,7 +44,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 	}
-	
+
 	"SelectClassLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -61,7 +61,7 @@
 		"enabled"		"0"
 		"fgcolor"		"TanLight"
 	}
-	
+
 	"scout"
 	{
 		"ControlName"		"CExImageButton"
@@ -83,22 +83,22 @@
 		"font"				"CerbeticaBold16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
-		
+
 		"fgcolor"					"235 226 202 255"
 		"defaultFgColor_override"	"235 226 202 255"
 		"armedFgColor_override"		"72 255 255 255"
 		"depressedFgColor_override"	"235 226 202 255"
 		"selectedFgColor_override"	"72 255 255 255"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
+
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 	}
-	
+
 	"soldier"
 	{
 		"ControlName"		"CExImageButton"
@@ -120,22 +120,22 @@
 		"font"				"CerbeticaBold16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
-		
+
 		"fgcolor"					"235 226 202 255"
 		"defaultFgColor_override"	"235 226 202 255"
 		"armedFgColor_override"		"72 255 255 255"
 		"depressedFgColor_override"	"235 226 202 255"
 		"selectedFgColor_override"	"72 255 255 255"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
+
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 	}
-	
+
 	"pyro"
 	{
 		"ControlName"		"CExImageButton"
@@ -157,22 +157,22 @@
 		"font"				"CerbeticaBold16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
-		
+
 		"fgcolor"					"235 226 202 255"
 		"defaultFgColor_override"	"235 226 202 255"
 		"armedFgColor_override"		"72 255 255 255"
 		"depressedFgColor_override" "235 226 202 255"
 		"selectedFgColor_override" 	"72 255 255 255"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
+
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 	}
-	
+
 	"demoman"
 	{
 		"ControlName"		"CExImageButton"
@@ -194,22 +194,22 @@
 		"font"				"CerbeticaBold16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
-		
+
 		"fgcolor"					"235 226 202 255"
 		"defaultFgColor_override"	"235 226 202 255"
 		"armedFgColor_override"		"72 255 255 255"
 		"depressedFgColor_override" "235 226 202 255"
 		"selectedFgColor_override" 	"72 255 255 255"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
+
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 	}
-	
+
 	"heavyweapons"
 	{
 		"ControlName"		"CExLabel"
@@ -231,22 +231,22 @@
 		"font"				"CerbeticaBold16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
-		
+
 		"fgcolor"					"235 226 202 255"
 		"defaultFgColor_override"	"235 226 202 255"
 		"armedFgColor_override"		"72 255 255 255"
 		"depressedFgColor_override" "235 226 202 255"
 		"selectedFgColor_override" 	"72 255 255 255"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
+
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 	}
-	
+
 	"engineer"
 	{
 		"ControlName"		"CExLabel"
@@ -268,22 +268,22 @@
 		"font"				"CerbeticaBold16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
-		
+
 		"fgcolor"					"235 226 202 255"
 		"defaultFgColor_override"	"235 226 202 255"
 		"armedFgColor_override"		"72 255 255 255"
 		"depressedFgColor_override" "235 226 202 255"
 		"selectedFgColor_override" 	"72 255 255 255"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
+
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 	}
-	
+
 	"medic"
 	{
 		"ControlName"		"CExImageButton"
@@ -305,22 +305,22 @@
 		"font"				"CerbeticaBold16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
-		
+
 		"fgcolor"					"235 226 202 255"
 		"defaultFgColor_override"	"235 226 202 255"
 		"armedFgColor_override"		"72 255 255 255"
 		"depressedFgColor_override" "235 226 202 255"
 		"selectedFgColor_override" 	"72 255 255 255"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
+
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 	}
-	
+
 	"sniper"
 	{
 		"ControlName"		"CExImageButton"
@@ -342,22 +342,22 @@
 		"font"				"CerbeticaBold16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
-		
+
 		"fgcolor"					"235 226 202 255"
 		"defaultFgColor_override"	"235 226 202 255"
 		"armedFgColor_override"		"72 255 255 255"
 		"depressedFgColor_override" "235 226 202 255"
 		"selectedFgColor_override" 	"72 255 255 255"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
+
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 	}
-	
+
 	"spy"
 	{
 		"ControlName"		"CExImageButton"
@@ -379,17 +379,17 @@
 		"font"				"CerbeticaBold16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
-		
+
 		"fgcolor"					"235 226 202 255"
 		"defaultFgColor_override"	"235 226 202 255"
 		"armedFgColor_override"		"72 255 255 255"
 		"depressedFgColor_override" "235 226 202 255"
 		"selectedFgColor_override" 	"72 255 255 255"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
+
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
@@ -414,18 +414,18 @@
 		"Command"			"joinclass random"
 		"font"				"CerbeticaBold16"
 		"paintbackground"	"0"
-		
+
 		"fgcolor"					"235 226 202 255"
 		"defaultFgColor_override"	"235 226 202 255"
 		"armedFgColor_override"		"72 255 255 255"
 		"depressedFgColor_override" "235 226 202 255"
 		"selectedFgColor_override" 	"72 255 255 255"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 	}
-	
+
 	"CancelButton" [$WIN32]
 	{
 		"ControlName"	"CExButton"
@@ -445,18 +445,18 @@
 		"Command"		"vguicancel"
 		"font"			"CerbeticaBold16"
 		"paintbackground" "0"
-		
+
 		"fgcolor"					"235 226 202 255"
 		"defaultFgColor_override"	"235 226 202 255"
 		"armedFgColor_override"		"72 255 255 255"
 		"depressedFgColor_override" "235 226 202 255"
 		"selectedFgColor_override" 	"72 255 255 255"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 	}
-	
+
 	"EditLoadoutButton" [$WIN32]
 	{
 		"ControlName"	"CExButton"
@@ -476,13 +476,13 @@
 		"textAlignment"	"west"
 		"Command"		"openloadout"
 		"font"			"CerbeticaBold16"
-		
+
 		"fgcolor"					"235 226 202 255"
 		"defaultFgColor_override"	"235 226 202 255"
 		"armedFgColor_override"		"72 255 255 255"
 		"depressedFgColor_override" "235 226 202 255"
 		"selectedFgColor_override" 	"72 255 255 255"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
@@ -516,14 +516,14 @@
 		"Command"		"resetclass"
 		"font"			"CerbeticaBold16"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"9999"
 		"ypos"			"9999"
-		"zpos"			"0"		
+		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
@@ -531,7 +531,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"16"
-		
+
 		"model"
 		{
 			"modelname"	"models/vgui/UI_class01.mdl"
@@ -544,7 +544,7 @@
 			"origin_z" "-40"
 		}
 	}
-	
+
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
@@ -559,7 +559,7 @@
 		"PaintBackgroundType"	"0"
 		"fillcolor"		"0 0 0 50"
 	}
-	
+
 	"countImage0" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -574,7 +574,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	
+
 	"countImage1" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -589,7 +589,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	
+
 	"countImage2" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -604,7 +604,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	
+
 	"countImage3" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -619,7 +619,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	
+
 	"countImage4" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -634,7 +634,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	
+
 	"countImage5" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -649,7 +649,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	
+
 	"countImage6" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -664,7 +664,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	
+
 	"countImage7" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -679,7 +679,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	
+
 	"countImage8" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -694,7 +694,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	
+
 	"countImage9" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -709,7 +709,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	
+
 	"countImage10" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
@@ -724,7 +724,7 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	
+
 	"numScout"
 	{
 		"ControlName"	"CExLabel"
@@ -744,7 +744,7 @@
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"235 226 202 255"
 	}
-	
+
 	"numSoldier"
 	{
 		"ControlName"	"CExLabel"
@@ -764,7 +764,7 @@
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"235 226 202 255"
 	}
-	
+
 	"numPyro"
 	{
 		"ControlName"	"CExLabel"
@@ -784,7 +784,7 @@
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"235 226 202 255"
 	}
-	
+
 	"numDemoman"
 	{
 		"ControlName"	"CExLabel"
@@ -804,7 +804,7 @@
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"235 226 202 255"
 	}
-	
+
 	"numHeavy"
 	{
 		"ControlName"	"CExLabel"
@@ -824,7 +824,7 @@
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"235 226 202 255"
 	}
-	
+
 	"numEngineer"
 	{
 		"ControlName"	"CExLabel"
@@ -844,7 +844,7 @@
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"235 226 202 255"
 	}
-	
+
 	"numMedic"
 	{
 		"ControlName"	"CExLabel"
@@ -864,7 +864,7 @@
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"235 226 202 255"
 	}
-	
+
 	"numSniper"
 	{
 		"ControlName"	"CExLabel"
@@ -884,7 +884,7 @@
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"235 226 202 255"
 	}
-	
+
 	"numSpy"
 	{
 		"ControlName"	"CExLabel"
@@ -904,7 +904,7 @@
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"235 226 202 255"
 	}
-	
+
 	"MvMUpgradeImageScout"
 	{
 		"ControlName"	"ImagePanel"
@@ -919,7 +919,7 @@
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
-	
+
 	"MvMUpgradeImageSolider"
 	{
 		"ControlName"	"ImagePanel"
@@ -934,8 +934,8 @@
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
-	
-	"MvMUpgradeImagePyro" 
+
+	"MvMUpgradeImagePyro"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImagePyro"
@@ -949,8 +949,8 @@
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
-	
-	"MvMUpgradeImageDemoman" 
+
+	"MvMUpgradeImageDemoman"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageDemoman"
@@ -964,7 +964,7 @@
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
-	
+
 	"MvMUpgradeImageHeavy"
 	{
 		"ControlName"	"ImagePanel"
@@ -979,7 +979,7 @@
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
-	
+
 	"MvMUpgradeImageEngineer"
 	{
 		"ControlName"	"ImagePanel"
@@ -994,7 +994,7 @@
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
-	
+
 	"MvMUpgradeImageMedic"
 	{
 		"ControlName"	"ImagePanel"
@@ -1009,7 +1009,7 @@
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
-	
+
 	"MvMUpgradeImageSniper"
 	{
 		"ControlName"	"ImagePanel"
@@ -1024,7 +1024,7 @@
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
-	
+
 	"MvMUpgradeImageSpy"
 	{
 		"ControlName"	"ImagePanel"
@@ -1039,7 +1039,7 @@
 		"image"			"mvm/class_upgraded"
 		"scaleImage"	"1"
 	}
-	
+
 	"TFPlayerModel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
@@ -1059,7 +1059,7 @@
 		"paintbackground"	"1"
 		"paintbackgroundenabled" "1"
 		"bgcolor_override" "255 255 255 0"
-		
+
 		"model"
 		{
 			"force_pos"	"1"
@@ -1076,28 +1076,28 @@
 			"modelname"		""
 		}
 	}
-	
+
 	"ClassTipsPanel"
 	{
 		"ControlName"	"CTFClassTipsPanel"
 		"fieldName"		"ClassTipsPanel"
 		"xpos"			"9999"
 	}
-	
+
 	"localPlayerImage" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerImage"
 		"xpos"			"9999"
 	}
-	
+
 	"localPlayerBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerBG"
 		"xpos"			"9999"
 	}
-	
+
 	"ClassHighlightPanel"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -1121,7 +1121,7 @@
 		"end_tall"		"150"
 		"callout_inparents_x"	"c-210"
 		"callout_inparents_y"	"437"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1140,7 +1140,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
-		
+
 		"ClassHighlightText"
 		{
 			"ControlName"	"CExLabel"
@@ -1159,7 +1159,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1184,11 +1184,11 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
-			
+
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"

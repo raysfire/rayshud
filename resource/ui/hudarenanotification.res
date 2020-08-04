@@ -16,9 +16,9 @@
 		"fillcolor"		"0 0 0 230"
 		"border"		"CyanBorderThick"
 	}
-	
+
 	"WarningLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"WarningLabel"
 		"font"			"CerbeticaBold72"
@@ -35,9 +35,9 @@
 		"labelText"		"!"
 		"textAlignment"	"center"
 	}
-	
+
 	"BalanceLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"BalanceLabel"
 		"font"			"CerbeticaBold20"
@@ -54,9 +54,9 @@
 		"labelText"		""
 		"textAlignment"	"west"
 	}
-	
+
 	"BalanceLabelTip"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"BalanceLabelTip"
 		"font"			"CerbeticaBold16"
@@ -73,7 +73,7 @@
 		"labelText"		"%notificationtip%"
 		"textAlignment"	"west"
 	}
-	
+
 	"SwitchImage"
 	{
 		"ControlName"	"CTFImagePanel"

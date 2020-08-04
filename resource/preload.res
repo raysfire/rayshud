@@ -9,7 +9,7 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_blu"
 	}
-	
+
 	"cpiconblulock"
 	{
 		"ControlName"	"ImagePanel"
@@ -18,8 +18,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_blu_locked"
-	}	
-	
+	}
+
 	"cpiconredunlock"
 	{
 		"ControlName"	"ImagePanel"
@@ -29,7 +29,7 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_red"
 	}
-	
+
 	"cpiconredlock"
 	{
 		"ControlName"	"ImagePanel"
@@ -38,8 +38,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_red_locked"
-	}	
-	
+	}
+
 	"cpiconneutralunlock"
 	{
 		"ControlName"	"ImagePanel"
@@ -48,8 +48,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_neutral"
-	}	
-	
+	}
+
 	"cpiconneutrallock"
 	{
 		"ControlName"	"ImagePanel"
@@ -59,7 +59,7 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_neutral_locked"
 	}
-	
+
 	"cpiconwhite"
 	{
 		"ControlName"	"ImagePanel"
@@ -69,7 +69,7 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_white"
 	}
-	
+
 	"cpicona"
 	{
 		"ControlName"	"ImagePanel"
@@ -79,7 +79,7 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_a"
 	}
-	
+
 	"cpiconb"
 	{
 		"ControlName"	"ImagePanel"
@@ -89,7 +89,7 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_b"
 	}
-	
+
 	"cpiconc"
 	{
 		"ControlName"	"ImagePanel"
@@ -99,7 +99,7 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_c"
 	}
-	
+
 	"cpicond"
 	{
 		"ControlName"	"ImagePanel"
@@ -109,7 +109,7 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_d"
 	}
-	
+
 	"cpicone"
 	{
 		"ControlName"	"ImagePanel"
@@ -119,7 +119,7 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_e"
 	}
-	
+
 	"cpiconcapblu"
 	{
 		"ControlName"	"ImagePanel"
@@ -129,7 +129,7 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_cap_blu"
 	}
-	
+
 	"cpiconcapred"
 	{
 		"ControlName"	"ImagePanel"
@@ -139,7 +139,7 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_cap_red"
 	}
-	
+
 	"cpiconcapmask"
 	{
 		"ControlName"	"ImagePanel"

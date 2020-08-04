@@ -6,12 +6,12 @@
 	{
 		"fgcolor"			"ColorGreen"
 	}
-	
-	"BuildingIcon"	
+
+	"BuildingIcon"
 	{
 		"iconColor"			"ColorGreen"
 	}
-	
+
 	"NumberLabel"
 	{
 		"fgcolor"			"ColorGreen"

@@ -10,10 +10,10 @@
 		"wide"			"190"
 		"tall"			"29"
 		"visible"		"0"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	"AchievementName"
 	{
 		"ControlName"	"Label"
@@ -28,7 +28,7 @@
 		"font"			"CerbeticaBold14"
 		"textAlignment"	"north-west"
 	}
-	
+
 	"AchievementNameGlow"
 	{
 		"ControlName"	"Label"
@@ -44,7 +44,7 @@
 		"textinsetx"		"5"
 		"textAlignment"		"north-west"
 	}
-	
+
 	"AchievementDesc"
 	{
 		"ControlName"	"Label"
@@ -61,7 +61,7 @@
 		"wrap"				"1"
 		"TextAlignment"		"north-west"
 	}
-	
+
 	"ProgressBarBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -75,7 +75,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"ProgressBar"
 	{
 		"ControlName"	"ImagePanel"

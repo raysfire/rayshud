@@ -17,18 +17,18 @@
 		"tall_minmode"	"11"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1" 
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"	"1"
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
-		
+
 		"src_corner_height"		"40"
 		"src_corner_width"		"40"
 		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
 	"HPBorderPanel2"
 	{
@@ -52,7 +52,7 @@
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
-		
+
 		"src_corner_height"		"40"
 		"src_corner_width"		"40"
 		"draw_corner_width"		"0"
@@ -88,7 +88,7 @@
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"
 	}
-	
+
 	"PlayerStatusHealthBonusImage"
 	{
 		"xpos"			"52"
@@ -113,7 +113,7 @@
 		"wide_minmode"	"24"
 		"tall_minmode"	"24"
 	}
-	
+
 	"PlayerStatusBleedImage"
 	{
 		"wide"			"32"
@@ -121,7 +121,7 @@
 		"wide_minmode"	"24"
 		"tall_minmode"	"24"
 	}
-	
+
 	"PlayerStatusMilkImage"
 	{
 		"wide"			"32"
@@ -129,7 +129,7 @@
 		"wide_minmode"	"24"
 		"tall_minmode"	"24"
 	}
-	
+
 	"PlayerStatusGasImage"
 	{
 		"wide"			"32"
@@ -137,7 +137,7 @@
 		"wide_minmode"	"24"
 		"tall_minmode"	"24"
 	}
-	
+
 	"PlayerStatusMarkedForDeathImage"
 	{
 		"wide"			"32"
@@ -145,7 +145,7 @@
 		"wide_minmode"	"24"
 		"tall_minmode"	"24"
 	}
-	
+
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
 		"wide"			"32"
@@ -153,7 +153,7 @@
 		"wide_minmode"	"24"
 		"tall_minmode"	"24"
 	}
-	
+
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
 		"wide"			"32"
@@ -161,7 +161,7 @@
 		"wide_minmode"	"24"
 		"tall_minmode"	"24"
 	}
-	
+
 	"PlayerStatus_MedicUberBlastResistImage"
 	{
 		"wide"			"32"
@@ -169,7 +169,7 @@
 		"wide_minmode"	"24"
 		"tall_minmode"	"24"
 	}
-	
+
 	"PlayerStatus_MedicUberFireResistImage"
 	{
 		"wide"			"32"
@@ -177,7 +177,7 @@
 		"wide_minmode"	"24"
 		"tall_minmode"	"24"
 	}
-	
+
 	"PlayerStatus_MedicSmallBulletResistImage"
 	{
 		"wide"			"32"
@@ -185,7 +185,7 @@
 		"wide_minmode"	"24"
 		"tall_minmode"	"24"
 	}
-	
+
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
 		"wide"			"32"
@@ -193,7 +193,7 @@
 		"wide_minmode"	"24"
 		"tall_minmode"	"24"
 	}
-	
+
 	"PlayerStatus_MedicSmallFireResistImage"
 	{
 		"wide"			"32"
@@ -201,7 +201,7 @@
 		"wide_minmode"	"24"
 		"tall_minmode"	"24"
 	}
-	
+
 	"PlayerStatus_WheelOfDoom"
 	{
 		"wide"			"32"
@@ -233,7 +233,7 @@
 		"wide_minmode"	"24"
 		"tall_minmode"	"24"
 	}
-	
+
 	"PlayerStatus_SpyMarked"
 	{
 		"wide"			"32"
@@ -241,7 +241,7 @@
 		"wide_minmode"	"24"
 		"tall_minmode"	"24"
 	}
-	
+
 	"PlayerStatus_Parachute"
 	{
 		"wide"			"32"
@@ -249,7 +249,7 @@
 		"wide_minmode"	"24"
 		"tall_minmode"	"24"
 	}
-	
+
 	"PlayerStatus_RuneStrength"
 	{
 		"wide"			"32"

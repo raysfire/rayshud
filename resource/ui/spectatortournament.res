@@ -9,17 +9,17 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"enabled"		"1"
-		
+
 		"team1_player_base_offset_x"	"0"
 		"team1_player_base_y"			"255"
 		"team1_player_delta_x"			"0"
 		"team1_player_delta_y"			"-16"
-		
+
 		"team2_player_base_offset_x"	"0"
 		"team2_player_base_y"			"275"
 		"team2_player_delta_x"			"0"
 		"team2_player_delta_y"			"16"
-		
+
 		"playerpanels_kv"
 		{
 			"visible"			"0"
@@ -29,7 +29,7 @@
 			"color_ready"		"0 255 0 220"
 			"color_notready"	"0 0 0 220"
 			"tabPosition"		"0"
-			
+
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
@@ -44,7 +44,7 @@
 				"team1_image"	"../hud/class_scoutred"
 				"scaleImage"	"1"
 			}
-			
+
 			"classimagebg"
 			{
 				"ControlName"	"Panel"
@@ -59,7 +59,7 @@
 				"bgcolor_override"		"Black"
 				"PaintBackgroundType"	"0"
 			}
-			
+
 			"PanelBackground"
 			{
 				"ControlName" 	"ImagePanel"
@@ -75,7 +75,7 @@
 				"enabled" 		"1"
 				"fillcolor" 	"15 15 15 50"
 			}
-			
+
 			"PanelLeftFringe"
 			{
 				"ControlName" 	"ImagePanel"
@@ -90,8 +90,8 @@
 				"visible" 		"1"
 				"enabled" 		"1"
 				"fillcolor" 	"15 15 15 64"
-			}			
-			
+			}
+
 			"PanelLeftHalf"
 			{
 				"ControlName" 	"ImagePanel"
@@ -107,7 +107,7 @@
 				"enabled" 		"1"
 				"fillcolor" 	"15 15 15 128"
 			}
-			
+
 			"PanelLeftFull"
 			{
 				"ControlName" 	"ImagePanel"
@@ -123,7 +123,7 @@
 				"enabled" 		"1"
 				"fillcolor" 	"15 15 15 110"
 			}
-			
+
 			"PanelFull"
 			{
 				"ControlName" 	"ImagePanel"
@@ -139,7 +139,7 @@
 				"enabled" 		"1"
 				"fillcolor" 	"15 15 15 100"
 			}
-			
+
 			"PanelBottom"
 			{
 				"ControlName" 	"ImagePanel"
@@ -155,7 +155,7 @@
 				"enabled" 		"0"
 				"fillcolor" 	"15 15 15 255"
 			}
-			
+
 			"PanelRight"
 			{
 				"ControlName" 	"ImagePanel"
@@ -171,7 +171,7 @@
 				"enabled" 		"0"
 				"fillcolor" 	"15 15 15 255"
 			}
-		
+
 			"playername"
 			{
 				"ControlName"	"CExLabel"
@@ -189,7 +189,7 @@
 				"textAlignment"	"west"
 				"fgcolor"		"TanLight"
 			}
-			
+
 			"HealthIcon"
 			{
 				"ControlName"	"EditablePanel"
@@ -207,27 +207,27 @@
 				"HealthDeathWarningColor" 	"HUDDeathWarning"
 				"TextColor" 				"HudOffWhite"
 			}
-			
+
 			"ReadyBG"
 			{
 				"ControlName"		"ScalableImagePanel"
 				"fieldName"			"ReadyBG"
 				"visible"			"0"
 			}
-			
+
 			"ReadyImage"
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"			"ReadyImage"
 				"visible"			"0"
 			}
-			
+
 			"specindex"
 			{
 				"fieldName"			"specindex"
 				"visible"			"0"
 			}
-			
+
 			"respawntime"
 			{
 				"ControlName"	"CExLabel"
@@ -245,7 +245,7 @@
 				"textAlignment"	"west"
 				"fgcolor"		"255 20 175 255"
 			}
-			
+
 			"respawntimeBG"
 			{
 				"ControlName"	"CExLabel"
@@ -263,7 +263,7 @@
 				"textAlignment"	"west"
 				"fgcolor"		"TransparentBlack"
 			}
-			
+
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"
@@ -281,7 +281,7 @@
 				"textAlignment"	"east"
 				"fgcolor"		"0 255 255 255"
 			}
-			
+
 			"chargeamountBG"
 			{
 				"ControlName"	"CExLabel"
@@ -301,7 +301,7 @@
 			}
 		}
 	}
-	
+
 	"topbar"
 	{
 		"ControlName"	"Panel"
@@ -339,7 +339,7 @@
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"	"center"
 		"font"			"Cerbetica24"
-		
+
 		if_mvm{
 			"ypos"		"82"
 		}
@@ -361,13 +361,13 @@
 		"font"			"Cerbetica20"
 		"wrap"			"1"
 		"centerwrap"	"1"
-		
+
 		if_mvm
 		{
 			"visible"	"1"
 		}
 	}
-	
+
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -385,7 +385,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"visible"		"0"
-		
+
 	}
 	"SwitchCamModeLabel"
 	{
@@ -435,22 +435,22 @@
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
-		
+
 		"model_ypos"		"20"
 		"model_center_x"	"1"
 		"model_wide"		"90"
 		"model_tall"		"60"
-		
+
 		"text_xpos"			"10"
 		"text_ypos"			"10"
 		"text_wide"			"220"
 		"text_center"		"1"
-		
+
 		"max_text_height"	"100"
 		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
-		
+
 		"ItemBackground"
 		{
 			"ControlName" 	"ImagePanel"
@@ -466,7 +466,7 @@
 			"enabled" 		"1"
 			"fillcolor" 	"0 0 0 100"
 		}
-		
+
 		"TitleBackground"
 		{
 			"ControlName" 	"ImagePanel"
@@ -482,7 +482,7 @@
 			"enabled" 		"1"
 			"fillcolor" 	"0 0 0 100"
 		}
-		
+
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
@@ -490,7 +490,7 @@
 			"use_item_rendertarget" "0"
 			"inventory_image_type"	"1"
 		}
-		
+
 		"ItemLabel"
 		{
 			"ControlName"	"Label"
@@ -511,7 +511,7 @@
 			"brighttext"	"0"
 		}
 	}
-	
+
 	"spectator_extras"
 	{
 		"ControlName"	"EditablePanel"

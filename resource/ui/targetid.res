@@ -15,7 +15,7 @@
 		"enabled"			"1"
 		"fillcolor"			"0 0 0 220"
 	}
-	
+
 	"TargetBackground2"
 	{
 		"ControlName"		"ImagePanel"
@@ -30,7 +30,7 @@
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
-	
+
 	"TargetIDBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -45,13 +45,13 @@
 		"teambg_1"			"../hud/color_panel_brown"
 		"teambg_2"			"../hud/color_panel_red"
 		"teambg_3"			"../hud/color_panel_blu"
-		
+
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
-	
+
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -66,13 +66,13 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"image"				"../hud/color_panel_blu"
-		
+
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
-	
+
 	"TargetIDBG_Spec_Red"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -87,13 +87,13 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"image"				"../hud/color_panel_red"
-		
+
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		"draw_corner_width"		"0"
 		"draw_corner_height"	"0"
 	}
-	
+
 	"TargetNameLabel"
 	{
 		"ControlName"		"Label"
@@ -109,7 +109,7 @@
 		"labelText"			"%targetname%"
 		"textAlignment"		"west"
 	}
-	
+
 	"TargetNameLabelShadow"
 	{
 		"ControlName"		"Label"
@@ -125,12 +125,12 @@
 		"labelText"			"%targetname%"
 		"textAlignment"		"west"
 		"fgcolor_override"	"TransparentBlack"
-		
+
 		"pin_to_sibling"		"TargetNameLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
-	
+
 	"TargetDataLabel"
 	{
 		"ControlName"		"Label"
@@ -146,7 +146,7 @@
 		"labelText"			"%targetdata%"
 		"textAlignment"		"west"
 	}
-	
+
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"
@@ -164,7 +164,7 @@
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"					"HudOffWhite"
 	}
-	
+
 	"AmmoIcon"
 	{
 		"ControlName"		"ImagePanel"
@@ -179,7 +179,7 @@
 		"image"				"../hud/leaderboard_class_heavy"
 		"scaleImage"		"1"
 	}
-	
+
 	"KillStreakAnchor"
 	{
 		"ControlName"		"EditablePanel"
@@ -205,12 +205,12 @@
 		"enabled"			"1"
 		"image"				"../hud/leaderboard_streak"
 		"scaleImage"		"1"
-		
+
 		"pin_to_sibling"		"KillStreakAnchor"
 		"pin_corner_to_sibling" "1"
 		"pin_to_sibling_corner" "1"
 	}
-	
+
 	"MoveableSubPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -222,7 +222,7 @@
 		"tall"				"36"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		"MoveableIconBG"
 		{
 			"ControlName"	"CIconPanel"
@@ -238,7 +238,7 @@
 			"iconColor"		"65 65 65 255"
 			"scaleImage"	"1"
 		}
-		
+
 		"MoveableIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -271,7 +271,7 @@
 		}
 
 		"MoveableKeyText"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MoveableKeyText"
 			"font_minmode"	"Cerbetica12"
@@ -291,7 +291,7 @@
 		}
 
 		"MoveableKeyLabel"
-		{	
+		{
 			"ControlName"	"Label"
 			"fieldName"		"MoveableKeyLabel"
 			"font"			"Cerbetica12"
@@ -310,7 +310,7 @@
 			"brighttext"	"0"
 		}
 	}
-	
+
 	"AvatarImage"
 	{
 		"ControlName"		"CAvatarImagePanel"
@@ -323,7 +323,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				""
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"color_outline"		"HudTimerProgressInActive"
 	}
 }

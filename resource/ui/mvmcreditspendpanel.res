@@ -1,5 +1,5 @@
 "Resource/UI/MvMCreditSpendPanel.res"
-{	
+{
 	"HeaderLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -13,7 +13,7 @@
 		"tall"				"15"
 		"fgcolor"			"TanLight"
 	}
-	
+
 	"TableBackground"
 	{
 		"ControlName"		"EditablePanel"
@@ -26,7 +26,7 @@
 		"visible"			"1"
 		"bgcolor_override"	"20 20 20 200"
 	}
-	
+
 	"UpgradesLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -40,7 +40,7 @@
 		"tall"				"20"
 		"fgcolor"			"TanLight"
 	}
-	
+
 	"UpgradesCountLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -54,7 +54,7 @@
 		"tall"				"20"
 		"fgcolor"			"TanLight"
 	}
-	
+
 	"BuyBackLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -68,7 +68,7 @@
 		"tall"				"20"
 		"fgcolor"			"TanLight"
 	}
-	
+
 	"BuyBackCountLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -82,7 +82,7 @@
 		"tall"				"20"
 		"fgcolor"			"TanLight"
 	}
-	
+
 	"BottleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -96,7 +96,7 @@
 		"tall"				"20"
 		"fgcolor"			"TanLight"
 	}
-	
+
 	"BottleCountLabel"
 	{
 		"ControlName"		"CExLabel"

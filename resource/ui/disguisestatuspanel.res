@@ -17,7 +17,7 @@
 		"fov"			"54"
 		"start_framed"	"1"
 		"disable_manipulation"	"1"
-		
+
 		"model"
 		{
 			"angles_x"		"10"
@@ -25,7 +25,7 @@
 			"angles_z"		"0"
 		}
 	}
-	
+
 	"ShadedBar"
 	{
 		"ControlName"		"EditablePanel"
@@ -40,7 +40,7 @@
 		"bgcolor_override"	"HudBlack"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"DisguiseStatusBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -64,7 +64,7 @@
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
-	
+
 	"DisguiseNameLabel"
 	{
 		"ControlName"		"Label"
@@ -84,7 +84,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"DisguiseNameLabelShadow"
 	{
 		"ControlName"		"Label"
@@ -104,12 +104,12 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"fgcolor_override"	"TransparentBlack"
-		
+
 		"pin_to_sibling"		"DisguiseNameLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"WeaponNameLabel"
 	{
 		"ControlName"		"Label"
@@ -129,7 +129,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-	
+
 	"WeaponNameLabelShadow"
 	{
 		"ControlName"		"Label"
@@ -149,12 +149,12 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"fgcolor_override"	"TransparentBlack"
-		
+
 		"pin_to_sibling"		"WeaponNameLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"

@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CLoadoutPresetPanel"
 		"fieldName"		"loadout_preset_panel"
-		
+
 		"presetbutton_kv"
 		{
 			"zpos"				"20"

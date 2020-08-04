@@ -29,13 +29,13 @@ Scheme
 		"ListBG"							"39 36 34 0"
 		"Green"								"63 185 73 255"
 	}
-	
+
 	BaseSettings
 	{
 		Border.Bright						"TFTanLightDark"
 		Border.Dark							"TFTanLightDark"
 		Border.Selection					"BorderSelection"
-		
+
 		Button.TextColor					"TFDarkBrown"
 		Button.BgColor						"TFTanLight"
 		Button.ArmedTextColor				"TFDarkBrown"
@@ -43,7 +43,7 @@ Scheme
 		Button.DepressedTextColor			"TFDarkBrown"
 		Button.DepressedBgColor				"TFTanLight"
 		Button.FocusBorderColor				"TransparentBlack"
-		
+
 		CheckButton.TextColor				"TFTextBright"
 		CheckButton.SelectedTextColor		"TFTextBright"
 		CheckButton.BgColor					"ListBG"
@@ -54,14 +54,14 @@ Scheme
 		CheckButton.Border2  				"Border.Bright"
 		CheckButton.Check					"TFTanBright"
 		CheckButton.DisabledBgColor	   	 	"ListBG"
-		
+
 		ComboBoxButton.ArrowColor			"TFTanLight"
 		ComboBoxButton.ArmedArrowColor		"TFTanBright"
 		ComboBoxButton.BgColor				"Blank"
 		ComboBoxButton.DisabledBgColor		"Blank"
-		
+
 		"Chat.TypingText"					"TFTextBright"
-		
+
 		Frame.BgColor						"TransparentBlack"
 		Frame.OutOfFocusBgColor				"TransparentBlack"
 		Frame.FocusTransitionEffectTime		"0.0"
@@ -81,10 +81,10 @@ Scheme
 		FrameTitleBar.BgColor				"Blank"
 		FrameTitleBar.DisabledTextColor		"Orange"
 		FrameTitleBar.DisabledBgColor		"Blank"
-		
+
 		GraphPanel.FgColor					"White"
 		GraphPanel.BgColor					"TransparentBlack"
-		
+
 		Label.TextDullColor					"TFTextDull"
 		Label.TextColor						"TFTextBright"
 		Label.TextBrightColor				"TFTextBright"
@@ -92,35 +92,35 @@ Scheme
 		Label.BgColor						"Blank"
 		Label.DisabledFgColor1				"TFTextDull"
 		Label.DisabledFgColor2				"Blank"
-		
+
 		ListPanel.TextColor					"TFTextBright"
 		ListPanel.BgColor					"ListBG"
 		ListPanel.SelectedBgColor			"SelectionBG"
 		ListPanel.SelectedOutOfFocusBgColor	"SelectionBG2"
-		
+
 		Menu.TextColor						"White"
 		Menu.BgColor						"ListBG"
 		Menu.ArmedTextColor					"TFTextBlack"
 		Menu.ArmedBgColor					"TFOrangeBright"
 		Menu.TextInset						"6"
-		
+
 		Panel.FgColor						"Blank"
 		Panel.BgColor						"TFDarkBrown"
-		
+
 		ProgressBar.FgColor					"White"
 		ProgressBar.BgColor					"TransparentBlack"
 		PropertySheet.TextColor				"OffWhite"
 		PropertySheet.SelectedTextColor		"White"
 		PropertySheet.TransitionEffectTime	"0"
-		
+
 		RadioButton.TextColor				"DullWhite"
 		RadioButton.SelectedTextColor		"White"
-		
+
 		RichText.TextColor					"White"
 		RichText.BgColor					"ListBG"
 		RichText.SelectedTextColor			"White"
 		RichText.SelectedBgColor			"TFOrangeBright"
-		
+
 		ScrollBar.Wide						"0"
 		ScrollBarButton.FgColor				"Blank"
 		ScrollBarButton.BgColor				"Blank"
@@ -130,7 +130,7 @@ Scheme
 		ScrollBarButton.DepressedBgColor	"Blank"
 		ScrollBarSlider.BgColor				"Blank"
 		ScrollBarSlider.FgColor				"Blank"
-		
+
 		SectionedListPanel.HeaderTextColor	"White"
 		SectionedListPanel.HeaderBgColor	"Blank"
 		SectionedListPanel.DividerColor		"Black"
@@ -141,13 +141,13 @@ Scheme
 		SectionedListPanel.SelectedBgColor				"Orange"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 155 0 128"
-		
+
 		Slider.NobColor						"108 108 108 255"
 		Slider.TextColor					"180 180 180 255"
 		Slider.TrackColor					"31 31 31 255"
 		Slider.DisabledTextColor1			"117 117 117 255"
 		Slider.DisabledTextColor2			"30 30 30 255"
-		
+
 		TextEntry.TextColor					"TFTextBright"
 		TextEntry.BgColor					"ListBG"
 		TextEntry.CursorColor				"OffWhite"
@@ -157,41 +157,41 @@ Scheme
 		TextEntry.SelectedBgColor			"TFOrangeBright"
 		TextEntry.OutOfFocusSelectedBgColor	"255 155 0 128"
 		TextEntry.FocusEdgeColor			"0 0 0 196"
-		
+
 		ToggleButton.SelectedTextColor		"TFOrangeBright"
-		
+
 		Tooltip.TextColor					"0 0 0 196"
 		Tooltip.BgColor						"TFOrangeBright"
-		
+
 		TreeView.BgColor					"TransparentBlack"
-		
+
 		WizardSubPanel.BgColor				"Blank"
-		
+
 		MainMenu.TextColor					"White"
 		MainMenu.ArmedTextColor				"200 200 200 255"
 		MainMenu.DepressedTextColor			"192 186 80 255"
 		MainMenu.MenuItemHeight				"16"
 		MainMenu.Inset						"32"
 		MainMenu.Backdrop					"0 0 0 156"
-		
+
 		Console.TextColor					"OffWhite"
 		Console.DevTextColor				"White"
-		
+
 		NewGame.TextColor					"White"
 		NewGame.FillColor					"0 0 0 255"
 		NewGame.SelectionColor				"Orange"
 		NewGame.DisabledColor				"128 128 128 196"
-		
+
 		TFColors.ChatTextYellow				"251 235 202 255"
 		TFColors.ChatTextTeamBlue			"153 204 255 255"
 		TFColors.ChatTextTeamRed			"255 63 53 255"
 	}
-	
+
 	BitmapFontFiles
 	{
 		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
 	}
-	
+
 	Fonts
 	{
 		"Default"
@@ -240,7 +240,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"Marlett"
 		{
 			"1"
@@ -284,7 +284,7 @@ Scheme
 				"symbol"		"1"
 			}
 		}
-		
+
 		"MarlettSmall"
 		{
 			"1"
@@ -328,7 +328,7 @@ Scheme
 				"symbol"		"1"
 			}
 		}
-		
+
 		"ChatFont"
 		{
 			"1"
@@ -372,7 +372,7 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
-		
+
 		"DefaultVerySmall"
 		{
 			"1"
@@ -420,7 +420,7 @@ Scheme
 			}
 		}
 	}
-	
+
 	Borders
 	{
 		BaseBorder			DepressedBorder
@@ -429,12 +429,12 @@ Scheme
 		MenuBorder			RaisedBorder
 		BrowserBorder		DepressedBorder
 		PropertySheetBorder	RaisedBorder
-		
+
 		FrameBorder
 		{
 			"backgroundtype"	"2"
 		}
-		
+
 		DepressedBorder
 		{
 			"inset"	"0 0 1 1"
@@ -471,7 +471,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		RaisedBorder
 		{
 			"inset"	"0 0 1 1"
@@ -508,22 +508,22 @@ Scheme
 				}
 			}
 		}
-		
+
 		TitleButtonBorder
 		{
 			"backgroundtype"	"0"
 		}
-		
+
 		TitleButtonDisabledBorder
 		{
 			"backgroundtype"	"0"
 		}
-		
+
 		TitleButtonDepressedBorder
 		{
 			"backgroundtype"	"0"
 		}
-		
+
 		ScrollBarButtonBorder
 		{
 			"inset"	"2 2 0 0"
@@ -560,7 +560,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		ScrollBarButtonDepressedBorder
 		{
 			"inset"	"2 2 0 0"
@@ -597,7 +597,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		TabBorder
 		{
 			"inset" "0 0 1 1"
@@ -626,7 +626,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		TabActiveBorder
 		{
 			"inset" "0 0 1 0"
@@ -655,7 +655,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		ToolTipBorder
 		{
 			"inset" "0 0 1 0"
@@ -692,7 +692,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		ButtonKeyFocusBorder
 		{
 			"inset" "0 0 1 1"
@@ -749,7 +749,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		ButtonDepressedBorder
 		{
 			"inset" "2 1 1 1"
@@ -787,7 +787,7 @@ Scheme
 			}
 		}
 	}
-	
+
 	CustomFontFiles
 	{
 		"1"		"resource/HALFLIFE2.ttf"

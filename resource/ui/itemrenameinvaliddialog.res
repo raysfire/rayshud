@@ -14,7 +14,7 @@
 		"settitlebarvisible"	"0"
 		"border"				"CyanBorderThick"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -74,7 +74,7 @@
 		"text_ypos"			"100"
 		"text_center"		"1"
 		"name_only"			"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -82,7 +82,7 @@
 			"allow_rot"				"0"
 		}
 	}
-	
+
 	"SubjectBG"
 	{
 		"ControlName"		"CExLabel"
@@ -123,15 +123,15 @@
 		"text_ypos"			"100"
 		"text_center"		"1"
 		"name_only"			"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
 			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
-	}	
-	
+	}
+
 	"ConfirmLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -150,7 +150,7 @@
 		"enabled"			"1"
 		"fgcolor_override"	"LightRed"
 	}
-	
+
 	"GivenName"
 	{
 		"ControlName"		"CExLabel"

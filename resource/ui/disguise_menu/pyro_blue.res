@@ -7,13 +7,13 @@
 		"fgcolor"			"HUDBlueTeamSolid"
 		"labelText"			"#TF_Class_Name_Pyro"
 	}
-	
+
 	"NewNumberLabel"
 	{
 		"fgcolor"			"HUDBlueTeamSolid"
 		"labelText"			"3"
 	}
-	
+
 	"NumberLabel"
 	{
 		"fgcolor"			"HUDBlueTeamSolid"

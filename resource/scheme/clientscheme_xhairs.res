@@ -178,7 +178,7 @@ Scheme
 				"outline"		"0"
 			}
 		}
-		
+
 		"KnucklesCrosses10Outline"
 		{
 			"1"
@@ -355,7 +355,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		
+
 		"Crosshairs10"
 		{
 			"1"
@@ -532,7 +532,7 @@ Scheme
 				"outline"		"0"
 			}
 		}
-		
+
 		"Crosshairs10Outline"
 		{
 			"1"
@@ -709,7 +709,7 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		
+
 		"KonrWings10"
 		{
 			"1"
@@ -886,7 +886,7 @@ Scheme
 				"outline"		"0"
 			}
 		}
-		
+
 		"KonrWings10Outline"
 		{
 			"1"
@@ -1064,7 +1064,7 @@ Scheme
 			}
 		}
 	}
-	
+
 	CustomFontFiles
 	{
 		"110" // Knuckles Crosses

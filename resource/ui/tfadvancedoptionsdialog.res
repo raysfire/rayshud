@@ -19,13 +19,13 @@
 		"paintborder"			"1"
 		"paintbackground"		"1"
 		"border"				"CyanBorderThick"
-		
+
 		"control_w"			"500"
 		"control_h"			"25"
 		"slider_w"			"500"
 		"slider_h"			"25"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -44,7 +44,7 @@
 		"enabled"			"1"
 		"fgcolor_override"	"TanLight"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"		"CExButton"
@@ -69,7 +69,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"		"CExButton"
@@ -94,7 +94,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"PanelListPanel"
 	{
 		"ControlName"		"CPanelListPanel"
@@ -110,7 +110,7 @@
 		"tabPosition"		"0"
 		"bgcolor_override"	"Transparent"
 	}
-	
+
 	"TooltipPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -124,7 +124,7 @@
 		"paintbackground"	"1"
 		"border"			"ButtonHover"
 		"bgcolor_override"	"DarkerGrey"
-		
+
 		"TipLabel"
 		{
 			"ControlName"		"CExLabel"

@@ -10,7 +10,7 @@
 		"wide"			"46"
 		"tall"			"23"
 		"visible"		"1"
-		
+
 		"background"
 		{
 			"ControlName"	"EditablePanel"
@@ -24,7 +24,7 @@
 			"enabled"		"1"
 			"bgcolor_override"	"104 124 155 255"
 		}
-		
+
 		"count"
 		{
 			"ControlName"	"CExLabel"
@@ -60,12 +60,12 @@
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"east"
 			"fgcolor"		"TransparentBlack"
-			
+
 			"pin_to_sibling"		"count"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
-		
+
 		"playerimage"
 		{
 			"ControlName"	"ImagePanel"
@@ -81,7 +81,7 @@
 			"scaleImage"	"1"
 		}
 	}
-	
+
 	"redteam"
 	{
 		"ControlName"	"EditablePanel"
@@ -92,7 +92,7 @@
 		"wide"			"46"
 		"tall"			"23"
 		"visible"		"1"
-		
+
 		"background"
 		{
 			"ControlName"	"EditablePanel"
@@ -106,7 +106,7 @@
 			"enabled"		"1"
 			"bgcolor_override"	"180 92 77 255"
 		}
-		
+
 		"count"
 		{
 			"ControlName"	"CExLabel"
@@ -142,12 +142,12 @@
 			"labelText"		"%red_alive%"
 			"textAlignment"	"west"
 			"fgcolor"		"TransparentBlack"
-			
+
 			"pin_to_sibling"		"count"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
-		
+
 		"playerimage"
 		{
 			"ControlName"	"ImagePanel"

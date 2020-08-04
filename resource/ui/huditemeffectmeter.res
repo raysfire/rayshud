@@ -13,7 +13,7 @@
 		"MeterFG"			"White"
 		"MeterBG"			"Gray"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -38,7 +38,7 @@
 	}
 
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ItemEffectMeter"
 		"font"				"Default"

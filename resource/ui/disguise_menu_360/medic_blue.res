@@ -2,5 +2,5 @@
 
 "Resource/UI/disguise_menu/medic_blue.res"
 {
-	
+
 }

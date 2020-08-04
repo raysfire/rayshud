@@ -7,17 +7,17 @@
 		"labelText"			"#TF_Object_Tele_Entrance_360"
 		"fgcolor_override"	"ColorGreen"
 	}
-	
+
 	"BuildingIcon"
 	{
 		"icon"				"obj_status_tele_entrance"
 	}
-	
+
 	"DestroyIcon"
 	{
 		"iconColor"			"ColorGreen"
 	}
-	
+
 	"NumberLabel"
 	{
 		"fgcolor_override"	"ColorGreen"

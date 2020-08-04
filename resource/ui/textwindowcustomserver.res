@@ -2,5 +2,5 @@
 
 "Resource/UI/TextWindowCustomServer.res"
 {
-	
+
 }

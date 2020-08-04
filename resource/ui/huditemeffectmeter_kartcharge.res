@@ -13,7 +13,7 @@
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -40,7 +40,7 @@
 	}
 
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
@@ -60,7 +60,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}
-	
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
@@ -82,7 +82,7 @@
 		"font"					"CerbeticaBold28"
 		"font_minmode"			"CerbeticaBold20"
 	}
-	
+
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"
@@ -103,7 +103,7 @@
 		"font"					"CerbeticaBold28"
 		"font_minmode"			"CerbeticaBold20"
 		"fgcolor_override"		"TransparentBlack"
-		
+
 		"pin_to_sibling"		"ItemEffectMeterCount"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"

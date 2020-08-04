@@ -19,7 +19,7 @@
 		"border"				"CyanBorderThick"
 		"bgcolor_override"		"DarkerGrey"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -38,7 +38,7 @@
 		"enabled"				"1"
 		"fgcolor_override"		"ColorCyan"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -58,7 +58,7 @@
 		"centerwrap"			"1"
 		"fgcolor_override"		"TanLight"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"			"CExButton"
@@ -83,7 +83,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ConfirmButton"
 	{
 		"ControlName"			"CExButton"

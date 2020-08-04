@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
 	"Background"
 	{
 		"ControlName"	"CIconPanel"
@@ -24,7 +24,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"Icon"
 	{
 		"ControlName"	"CIconPanel"
@@ -35,11 +35,11 @@
 		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"obj_status_sapper"
 		"iconColor"		"White"
 	}
-	
+
 	"NotBuiltPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -49,7 +49,7 @@
 		"wide"			"160"
 		"tall"			"31"
 		"visible"		"1"
-		
+
 		"NotBuiltLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -69,7 +69,7 @@
 			"brighttext"	"0"
 		}
 	}
-	
+
 	"BuiltPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -79,9 +79,9 @@
 		"wide"			"160"
 		"tall"			"43"
 		"visible"		"0"
-		
+
 		"Health"
-		{	
+		{
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
@@ -97,7 +97,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-		
+
 		"BuildingPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -107,7 +107,7 @@
 			"wide"			"100"
 			"tall"			"31"
 			"visible"		"0"
-			
+
 			"BuildingLabel"
 			{
 				"ControlName"	"CExLabel"
@@ -126,9 +126,9 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
-			
+
 			"BuildingProgress"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
 				"font"			"Default"
@@ -145,7 +145,7 @@
 				"brighttext"	"0"
 			}
 		}
-		
+
 		"RunningPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -155,7 +155,7 @@
 			"wide"			"100"
 			"tall"			"31"
 			"visible"		"0"
-			
+
 			"TargetIcon"
 			{
 				"ControlName"	"CIconPanel"
@@ -166,13 +166,13 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"scaleImage"	"1"	
+				"scaleImage"	"1"
 				"icon"			"obj_status_sentrygun_1"
 				"iconColor"		"White"
 			}
-			
+
 			"TargetHealth"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"TargetHealth"
 				"font"			"Default"

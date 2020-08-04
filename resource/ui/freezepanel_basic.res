@@ -12,22 +12,22 @@
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
-		
+
 		"model_ypos"		"20"
 		"model_center_x"	"1"
 		"model_wide"		"90"
 		"model_tall"		"60"
-		
+
 		"text_xpos"			"10"
 		"text_ypos"			"10"
 		"text_wide"			"220"
 		"text_center"		"1"
-		
+
 		"max_text_height"	"100"
 		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
-		
+
 		"ItemBackground"
 		{
 			"ControlName"	"ImagePanel"
@@ -43,7 +43,7 @@
 			"enabled"		"1"
 			"fillcolor"		"0 0 0 100"
 		}
-		
+
 		"TitleBackground"
 		{
 			"ControlName"	"ImagePanel"
@@ -59,7 +59,7 @@
 			"enabled"		"1"
 			"fillcolor"		"0 0 0 100"
 		}
-		
+
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
@@ -67,9 +67,9 @@
 			"useparentbg"			"1"
 			"inventory_image_type"	"1"
 		}
-		
+
 		"ItemLabel"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
 			"font"			"Cerbetica12"
@@ -88,7 +88,7 @@
 			"brighttext"	"0"
 		}
 	}
-	
+
 	"FreezePanelBase"
 	{
 		"ControlName"	"EditablePanel"
@@ -98,7 +98,7 @@
 		"wide"			"240"
 		"tall"			"200"
 		"visible"		"1"
-		
+
 		"FreezePanelBGTitle"
 		{
 			"ControlName"	"ImagePanel"
@@ -126,16 +126,16 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_blu"
-			"scaleImage"		"1"	
-			
+			"scaleImage"		"1"
+
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"	
+			"draw_corner_height" 	"0"
 		}
-		
+
 		"FreezeLabel"
-		{	
+		{
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabel"
 			"font"			"Cerbetica12"
@@ -153,7 +153,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-		
+
 		"FreezePanelHealth"
 		{
 			"ControlName"	"CTFFreezePanelHealth"
@@ -173,7 +173,7 @@
 		}
 
 		"FreezeLabelKiller"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabelKiller"
 			"font"			"Cerbetica12"
@@ -189,7 +189,7 @@
 			"labelText"		"%killername%"
 			"textAlignment"	"center"
 		}
-		
+
 		"AvatarImage"
 		{
 			"ControlName"	"CAvatarImagePanel"
@@ -202,10 +202,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"color_outline"	"HudTimerProgressInActive"
-		}	
-		
+		}
+
 		"NemesisSubPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -216,7 +216,7 @@
 			"enabled"		"0"
 		}
 	}
-	
+
 	"ScreenshotPanel"
 	{
 		"ControlName"	"EditablePanel"

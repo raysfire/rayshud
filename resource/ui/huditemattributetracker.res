@@ -1,5 +1,5 @@
 "Resource/UI/HudAchievementTrackerItem.res"
-{	
+{
 	"ItemAttributeTracker"
 	{
 		"fieldName" 	"ItemAttributeTracker"
@@ -26,7 +26,7 @@
 
 		"border"	"NoBorder"	//QuestStatusBorder
 		"paintborder"	"2"
-		
+
 		"Header"
 		{
 			"ControlName"	"Label"
@@ -75,8 +75,8 @@
 			"visible"		"0"	//1
 			"enabled"		"0"	//1
 			"image"			"tf2_folder_icon"
-			"scaleImage"	"1"	
-			"proportionaltoparent"	"1"	
+			"scaleImage"	"1"
+			"proportionaltoparent"	"1"
 		}
 	}
 }

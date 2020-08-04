@@ -28,7 +28,7 @@
 		"clientinsetx_override"				"0"
 		"sheetinset_bottom"					"40"
 	}
-	
+
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -43,7 +43,7 @@
 		"image"			"loadout_header"
 		"tileImage"		"1"
 	}
-	
+
 	"BackgroundHeader2"
 	{
 		"ControlName"	"ImagePanel"
@@ -58,7 +58,7 @@
 		"fillcolor"		"15 15 15 175"
 		"tileImage"		"1"
 	}
-	
+
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -87,7 +87,7 @@
 		"fillcolor"		"15 15 15 220"
 		"tileImage"		"1"
 	}
-	
+
 	"FooterLine"
 	{
 		"ControlName"	"EditablePanel"
@@ -102,7 +102,7 @@
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"ColorCyan"
 	}
-	
+
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -113,7 +113,7 @@
 		"tabheight"		"20"
 		"yoffset"		"14"
 		"transition_time" "0"
-		
+
 		"HeaderLine"
 		{
 			"ControlName"	"EditablePanel"
@@ -130,7 +130,7 @@
 			"border"				"NoBorder"
 			"bgcolor_override"		"ColorCyan"
 		}
-		
+
 		"tabskv"
 		{
 			"textinsetx"		"25"
@@ -147,7 +147,7 @@
 			"normalborder_override" 		"CyanBorderTabsInactive"
 		}
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"		"CExButton"
@@ -172,7 +172,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"armory_panel"
 	{
 		"ControlName"		"CArmoryPanel"
@@ -184,7 +184,7 @@
 		"zpos"				"500"
 		"visible"			"0"
 	}
-	
+
 	"NotificationsPresentPanel"
 	{
 		"ControlName"		"CNotificationsPresentPanel"
@@ -197,7 +197,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 	}
-	
+
 	"SupportCommunityMapMakersCheckButton"
 	{
 		"ControlName"		"CheckButton"
@@ -211,7 +211,7 @@
 		"labelText"			""
 		"visible"			"0"
 	}
-	
+
 	"SupportCommunityMapMakersLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -227,7 +227,7 @@
 		"labelText"			"#Store_ConfirmStampDonationAddTitle"
 		"visible"			"0"
 	}
-	
+
 	"CheckoutButton"
 	{
 		"ControlName"		"CExButton"

@@ -20,7 +20,7 @@
 		"border"				"CyanBorderThick"
 		"bgcolor_override"		"DarkGrey"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -38,7 +38,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -56,7 +56,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"			"CExButton"
@@ -81,7 +81,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ConfirmButton"
 	{
 		"ControlName"			"CExButton"

@@ -29,13 +29,13 @@
 		"noitem_textcolor"	"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"		"1"
-		
+
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+
 		"BackColor"
     	{
     		"ControlName"		"EditablePanel"
@@ -53,7 +53,7 @@
 			"border"				"NoBorder"
 			"bgcolor_override"		"DarkerGrey"
 		}
-		
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -91,7 +91,7 @@
 		"enabled"		"1"
 		"centerwrap"	"1"
 	}
-	
+
 	"ToolBG"
 	{
 		"ControlName"	"CExLabel"
@@ -112,7 +112,7 @@
 		"border"		"BackpackItemBorder_SelfMade"
 	}
 	"tool_modelpanel"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"tool_modelpanel"
 		"xpos"			"10"
@@ -125,7 +125,7 @@
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
-		
+
 		"model_xpos"	"2"
 		"model_ypos"	"5"
 		"model_wide"	"80"
@@ -133,15 +133,15 @@
 		"text_ypos"		"100"
 		"text_center"	"1"
 		"name_only"		"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
 			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
-	}	
-	
+	}
+
 	"SubjectBG"
 	{
 		"ControlName"	"CExLabel"
@@ -162,7 +162,7 @@
 		"border"		"BackpackItemBorder_Vintage"
 	}
 	"subject_modelpanel"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"subject_modelpanel"
 		"xpos"			"300"
@@ -175,7 +175,7 @@
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
-		
+
 		"model_xpos"	"2"
 		"model_ypos"	"5"
 		"model_wide"	"80"
@@ -183,15 +183,15 @@
 		"text_ypos"		"100"
 		"text_center"	"1"
 		"name_only"		"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
 			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
-	}	
-	
+	}
+
 	"OldItemNameBG"
 	{
 		"ControlName"	"CExLabel"
@@ -211,7 +211,7 @@
 		"bgcolor_override" "ColorBlack"
 		"paintbackgroundtype" "0"
 	}
-	
+
 	"OldItemNameDescLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -231,7 +231,7 @@
 		"fgcolor_override" "White"
 		"paintbackground" "0"
 	}
-	
+
 	"OldItemNameLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -270,7 +270,7 @@
 		"bgcolor_override" "ColorBlack"
 		"paintbackgroundtype" "0"
 	}
-	
+
 	"NewItemNameDescLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -290,7 +290,7 @@
 		"fgcolor_override" "White"
 		"paintbackground" "0"
 	}
-	
+
 	"CustomNameEntry"
 	{
 		"ControlName"		"TextEntry"
@@ -317,7 +317,7 @@
 		"font"				"HudFontSmall"
 		"textAlignment"		"west"
 	}
-	
+
 	"WarningLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -361,7 +361,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"	"CExButton"

@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
 	"Background"
 	{
 		"ControlName"	"CIconPanel"
@@ -24,7 +24,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"Icon_Sentry_1"
 	{
 		"ControlName"	"CIconPanel"
@@ -35,11 +35,11 @@
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"obj_status_sentrygun_1"
 		"iconColor"		"White"
 	}
-	
+
 	"NotBuiltPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -49,7 +49,7 @@
 		"wide"			"160"
 		"tall"			"20"
 		"visible"		"1"
-		
+
 		"NotBuiltLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -69,7 +69,7 @@
 			"brighttext"	"0"
 		}
 	}
-	
+
 	"BuiltPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -79,7 +79,7 @@
 		"wide"			"160"
 		"tall"			"20"
 		"visible"		"0"
-		
+
 		"Icon_Upgrade_1"
 		{
 			"ControlName"	"CIconPanel"
@@ -91,11 +91,11 @@
 			"tall"			"8"
 			"visible"		"0"
 			"enabled"		"0"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			""
 			"iconColor"		"White"
 		}
-		
+
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
@@ -106,10 +106,10 @@
 			"wide"			"44"
 			"tall"			"30"
 			"visible"		"0"
-			"enabled"		"0"	
+			"enabled"		"0"
 			"icon"			"obj_status_alert_background_tall"
 		}
-		
+
 		"WrenchIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -121,11 +121,11 @@
 			"tall"			"17"
 			"visible"		"0"
 			"enabled"		"0"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_icon_wrench"
 			"iconColor"		"White"
 		}
-		
+
 		"SapperIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -137,13 +137,13 @@
 			"tall"			"15"
 			"visible"		"0"
 			"enabled"		"0"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_icon_sapper"
 			"iconColor"		"White"
 		}
-		
+
 		"Health"
-		{	
+		{
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
@@ -157,9 +157,9 @@
 			"enabled"		"1"
 			"textAlignment"	"Left"
 			"dulltext"		"0"
-			"brighttext"	"0"	
+			"brighttext"	"0"
 		}
-		
+
 		"BuildingPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -169,7 +169,7 @@
 			"wide"			"100"
 			"tall"			"30"
 			"visible"		"0"
-			
+
 			"BuildingLabel"
 			{
 				"ControlName"	"CExLabel"
@@ -188,9 +188,9 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
-			
+
 			"BuildingProgress"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
 				"font"			"Default"
@@ -207,7 +207,7 @@
 				"brighttext"	"0"
 			}
 		}
-		
+
 		"RunningPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -217,7 +217,7 @@
 			"wide"			"100"
 			"tall"			"20"
 			"visible"		"0"
-			
+
 			"KillIcon"
 			{
 				"ControlName"	"ImagePanel"
@@ -233,9 +233,9 @@
 				"image"			"../hud/hud_obj_status_kill_64"
 				"drawcolor"		"ProgressOffWhite"
 			}
-			
+
 			"KillsLabel"
-			{	
+			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"KillsLabel"
 				"font"			"DefaultSmall"
@@ -252,7 +252,7 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
-			
+
 			"ShellIcon"
 			{
 				"ControlName"	"ImagePanel"
@@ -268,9 +268,9 @@
 				"image"			"../hud/hud_obj_status_ammo_64"
 				"drawcolor"		"ProgressOffWhite"
 			}
-			
+
 			"Shells"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Shells"
 				"font"			"Default"

@@ -14,7 +14,7 @@
 		"settitlebarvisible"	"0"
 		"border"				"CyanBorderThick"
 	}
-	
+
 	"mouseoveritempanel"
 	{
 		"ControlName"		"CItemModelPanel"
@@ -34,7 +34,7 @@
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -53,7 +53,7 @@
 			"centerwrap"	"1"
 		}
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -72,7 +72,7 @@
 		"enabled"			"1"
 		"centerwrap"		"1"
 	}
-	
+
 	"ToolBG"
 	{
 		"ControlName"		"CExLabel"
@@ -130,7 +130,7 @@
 		"text_center"		"1"
 		"name_only"			"1"
 		"paint_icon_hide"	"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -194,7 +194,7 @@
 		"text_ypos"			"100"
 		"text_center"		"1"
 		"name_only"			"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -202,7 +202,7 @@
 			"inventory_image_type"	"1"
 		}
 	}
-	
+
 	"ConfirmLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -221,7 +221,7 @@
 		"enabled"			"1"
 		"fgcolor_override"	"Yellow"
 	}
-	
+
 	"OptionalAppendLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -240,7 +240,7 @@
 		"enabled"			"1"
 		"fgcolor_override" 	"LightRed"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"		"CExButton"
@@ -265,7 +265,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"		"CExButton"

@@ -33,7 +33,7 @@
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"TimePanelBG"
 		{
 			"ControlName"	"ImagePanel"
@@ -41,7 +41,7 @@
 			"tall"			"0"
 			"visible"		"0"
 		}
-		
+
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"
@@ -76,7 +76,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-	
+
 	"StopWatchPointsLabel"
 	{
 		"ControlName"	"CExLabel"

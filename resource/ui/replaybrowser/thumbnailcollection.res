@@ -14,7 +14,7 @@
 		"settitlebarvisible"	"1"
 		"bgcolor_override"		"DarkGrey"
 	}
-	
+
 	"RenderAllButton"
 	{
 		"ControlName"	"CExButton"
@@ -31,7 +31,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"CaratLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -49,7 +49,7 @@
 		"wide"			"0"
 		"fgcolor"		"200 80 60 0"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -65,7 +65,7 @@
 		"wide"			"f0"
 		"fgcolor"		"White"
 	}
-	
+
 	"DateLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -80,7 +80,7 @@
 		"wide"			"f0"
 		"fgcolor_override" "White"
 	}
-	
+
 	"WarningLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -95,7 +95,7 @@
 		"wrap"			"1"
 		"fgcolor_override" "White"
 	}
-	
+
 	"Line"
 	{
 		"ControlName"	"Panel"
@@ -107,7 +107,7 @@
 		"enabled"		"0"
 		"bgcolor_override" "106 91 86 0"
 	}
-	
+
 	"CaratLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -125,7 +125,7 @@
 		"wide"			"f0"
 		"fgcolor_override" "199 80 48 255"
 	}
-	
+
 	"UnconvertedBg"
 	{
 		"ControlName"	"Panel"
@@ -137,7 +137,7 @@
 		"enabled"		"1"
 		"bgcolor_override" "DarkerGrey"
 	}
-	
+
 	"NoReplayItemsLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -153,7 +153,7 @@
 		"centerwrap"	"1"
 		"fgcolor_override"	"TextColor"
 	}
-	
+
 	"ShowPrevButton"
 	{
 		"ControlName"	"CExButton"

@@ -21,7 +21,7 @@
 		"brighttext"		"0"
 		"fgcolor_override"	"White"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"		"CExLabel"

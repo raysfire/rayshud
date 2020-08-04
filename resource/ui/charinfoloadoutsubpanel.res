@@ -31,7 +31,7 @@
 		"itemcountcolor"			"ColorCyan"
 		"itemcountcolor_noitems"	"TextColor"
 	}
-	
+
 	"scout"
 	{
 		"ControlName"		"ImageButton"
@@ -57,7 +57,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"soldier"
 	{
 		"ControlName"		"ImageButton"
@@ -83,7 +83,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"pyro"
 	{
 		"ControlName"		"ImageButton"
@@ -109,7 +109,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"demoman"
 	{
 		"ControlName"		"ImageButton"
@@ -135,7 +135,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"heavyweapons"
 	{
 		"ControlName"		"ImageButton"
@@ -161,7 +161,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"engineer"
 	{
 		"ControlName"		"ImageButton"
@@ -187,7 +187,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"medic"
 	{
 		"ControlName"		"ImageButton"
@@ -213,7 +213,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"sniper"
 	{
 		"ControlName"		"ImageButton"
@@ -239,7 +239,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"spy"
 	{
 		"ControlName"		"ImageButton"
@@ -265,7 +265,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ShowBackpackButton"
 	{
 		"ControlName"		"ImageButton"
@@ -307,12 +307,12 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		"pin_to_sibling"			"ShowBackpackButton"
 		"pin_corner_to_sibling"		"4"
 		"pin_to_sibling_corner"		"6"
 	}
-	
+
 	"ShowCraftingButton"
 	{
 		"ControlName"		"ImageButton"
@@ -338,7 +338,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ShowCraftingLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -356,12 +356,12 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"allcaps"			"1"
-		
+
 		"pin_to_sibling"			"ShowCraftingButton"
 		"pin_corner_to_sibling"		"4"
 		"pin_to_sibling_corner"		"6"
 	}
-	
+
 	"ShowArmoryButton"
 	{
 		"ControlName"		"ImageButton"
@@ -387,7 +387,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ShowArmoryLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -404,12 +404,12 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		"pin_to_sibling"			"ShowArmoryButton"
 		"pin_corner_to_sibling"		"4"
 		"pin_to_sibling_corner"		"6"
 	}
-	
+
 	"ShowTradeButton"
 	{
 		"ControlName"		"ImageButton"
@@ -435,7 +435,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ShowTradeLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -454,12 +454,12 @@
 		"enabled"			"1"
 		"wrap"				"0"
 		"allcaps"			"1"
-		
+
 		"pin_to_sibling"               "ShowTradeButton"
 		"pin_corner_to_sibling"        "4"
 		"pin_to_sibling_corner"        "6"
 	}
-	
+
 	"ShowPaintkitsButton"
 	{
 		"ControlName"		"ImageButton"
@@ -485,7 +485,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ShowPaintkitsLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -503,12 +503,12 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"wrap"				"0"
-		
+
 		"pin_to_sibling"               "ShowPaintkitsButton"
 		"pin_corner_to_sibling"        "4"
 		"pin_to_sibling_corner"        "6"
 	}
-	
+
 	"ClassLabel"
 	{
 		"ControlName"		"Label"
@@ -526,7 +526,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 	}
-	
+
 	"ItemsLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -546,7 +546,7 @@
 		"fgcolor"			"TextColor"
 		"centerwrap"		"1"
 	}
-	
+
 	"NoSteamLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -565,7 +565,7 @@
 		"enabled"			"1"
 		"fgcolor_override"	"TanLight"
 	}
-	
+
 	"NoGCLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -584,7 +584,7 @@
 		"enabled"			"1"
 		"fgcolor_override"	"TanLight"
 	}
-	
+
 	"SelectLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -603,7 +603,7 @@
 		"enabled"			"1"
 		"fgcolor_override"	"TanLight"
 	}
-	
+
 	"LoadoutChangesLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -622,7 +622,7 @@
 		"enabled"			"1"
 		"fgcolor_override"	"TanLight"
 	}
-	
+
 	"class_loadout_panel"
 	{
 		"ControlName"		"CClassLoadoutPanel"
@@ -634,7 +634,7 @@
 		"zpos"				"500"
 		"visible"			"0"
 	}
-	
+
 	"backpack_panel"
 	{
 		"ControlName"		"CBackpackPanel"
@@ -646,7 +646,7 @@
 		"zpos"				"500"
 		"visible"			"0"
 	}
-	
+
 	"ShowExplanationsButton"
 	{
 		"ControlName"	"CExButton"
@@ -671,7 +671,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"StartExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -693,7 +693,7 @@
 		"callout_inparents_x"	"c0"
 		"callout_inparents_y"	"150"
 		"next_explanation"		"BackpackExplanation"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -712,7 +712,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -731,7 +731,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -756,13 +756,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"close"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TextColor"
 			"image_armedcolor"	"TanLight"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -820,13 +820,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"nextexplanation"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -843,7 +843,7 @@
 			}
 		}
 	}
-	
+
 	"BackpackExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -857,7 +857,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
-		
+
 		"force_close"	"1"
 		"end_x"			"c-320"
 		"end_y"			"60"
@@ -866,7 +866,7 @@
 		"callout_inparents_x"	"c-255"
 		"callout_inparents_y"	"240"
 		"next_explanation"		"CraftingExplanation"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -885,7 +885,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -904,7 +904,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -929,13 +929,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"close"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TextColor"
 			"image_armedcolor"	"TanLight"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -951,7 +951,7 @@
 				"scaleImage"	"1"
 			}
 		}
-		
+
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -976,13 +976,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"prevexplanation"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -998,7 +998,7 @@
 				"scaleImage"	"1"
 			}
 		}
-		
+
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1017,7 +1017,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "TanLight"
 		}
-		
+
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1042,13 +1042,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"nextexplanation"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1065,7 +1065,7 @@
 			}
 		}
 	}
-	
+
 	"CraftingExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -1087,7 +1087,7 @@
 		"callout_inparents_x"	"c-130"
 		"callout_inparents_y"	"240"
 		"next_explanation"		"ArmoryExplanation"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1106,7 +1106,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1125,7 +1125,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1150,13 +1150,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"close"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TextColor"
 			"image_armedcolor"	"TanLight"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1172,7 +1172,7 @@
 				"scaleImage"	"1"
 			}
 		}
-		
+
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1197,13 +1197,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"prevexplanation"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1219,7 +1219,7 @@
 				"scaleImage"	"1"
 			}
 		}
-		
+
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1238,7 +1238,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "TanLight"
 		}
-		
+
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1263,13 +1263,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"nextexplanation"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1286,7 +1286,7 @@
 			}
 		}
 	}
-	
+
 	"ArmoryExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -1308,7 +1308,7 @@
 		"callout_inparents_x"	"c0"
 		"callout_inparents_y"	"240"
 		"next_explanation"		"TradingExplanation"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1327,7 +1327,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1346,7 +1346,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1371,13 +1371,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"close"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TextColor"
 			"image_armedcolor"	"TanLight"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1393,7 +1393,7 @@
 				"scaleImage"	"1"
 			}
 		}
-		
+
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1418,13 +1418,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"prevexplanation"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1440,7 +1440,7 @@
 				"scaleImage"	"1"
 			}
 		}
-		
+
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1459,7 +1459,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "TanLight"
 		}
-		
+
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1484,13 +1484,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"nextexplanation"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1507,7 +1507,7 @@
 			}
 		}
 	}
-	
+
 	"TradingExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -1529,7 +1529,7 @@
 		"callout_inparents_x"	"c130"
 		"callout_inparents_y"	"240"
 		"next_explanation"		"PatternsExplanation"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1548,7 +1548,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1567,7 +1567,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1592,13 +1592,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"close"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TextColor"
 			"image_armedcolor"	"TanLight"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1614,7 +1614,7 @@
 				"scaleImage"	"1"
 			}
 		}
-		
+
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1639,13 +1639,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"prevexplanation"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "LightRed"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1661,7 +1661,7 @@
 				"scaleImage"	"1"
 			}
 		}
-		
+
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1680,7 +1680,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "LightRed"
 		}
-		
+
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1705,13 +1705,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"nextexplanation"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "LightRed"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1728,7 +1728,7 @@
 			}
 		}
 	}
-	
+
 	"PatternsExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -1750,7 +1750,7 @@
 		"callout_inparents_x"	"c255"
 		"callout_inparents_y"	"240"
 		"next_explanation"		"ExplanationExplanation"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1769,7 +1769,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1788,7 +1788,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1813,13 +1813,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"close"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TextColor"
 			"image_armedcolor"	"LightRed"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1835,7 +1835,7 @@
 				"scaleImage"	"1"
 			}
 		}
-		
+
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1860,13 +1860,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"prevexplanation"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1882,7 +1882,7 @@
 				"scaleImage"	"1"
 			}
 		}
-		
+
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1901,7 +1901,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "TanLight"
 		}
-		
+
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1926,13 +1926,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"nextexplanation"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1949,7 +1949,7 @@
 			}
 		}
 	}
-	
+
 	"ExplanationExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -1970,7 +1970,7 @@
 		"end_tall"		"120"
 		"callout_inparents_x"	"c285"
 		"callout_inparents_y"	"30"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1989,7 +1989,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -2008,7 +2008,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "TanDarker"
 		}
-		
+
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2033,13 +2033,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"close"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TextColor"
 			"image_armedcolor"	"TanLight"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2055,7 +2055,7 @@
 				"scaleImage"	"1"
 			}
 		}
-		
+
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2080,13 +2080,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"prevexplanation"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanDarker"
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"White"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2102,7 +2102,7 @@
 				"scaleImage"	"1"
 			}
 		}
-		
+
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -2122,7 +2122,7 @@
 			"fgcolor_override" "TanLight"
 		}
 	}
-	
+
 	"armory_panel"
 	{
 		"ControlName"		"CArmoryPanel"
@@ -2134,7 +2134,7 @@
 		"zpos"				"500"
 		"visible"			"1"
 	}
-	
+
 	"InspectionPanel"
 	{
 		"fieldName"		"InspectionPanel"

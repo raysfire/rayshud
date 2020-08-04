@@ -16,7 +16,7 @@
 		"textAlignment"	"east"
 		"labelText"		"%currency%"
 	}
-	
+
 	"CurrencyBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -31,7 +31,7 @@
 		"bgcolor_override"	"0 0 0 200"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	"CurrencyLabel"
 	{
 		"ControlName"	"CExLabel"

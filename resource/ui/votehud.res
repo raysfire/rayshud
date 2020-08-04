@@ -12,7 +12,7 @@
 		"enabled"			"1"
 		"border"			"CyanBorderThick"
 		"bgcolor_override"	"DarkGrey"
-		
+
 		"PassedIcon"
 		{
 			"ControlName"		"ImagePanel"
@@ -26,7 +26,7 @@
 			"scaleImage"		"1"
 			"image"				"hud/vote_yes"
 		}
-		
+
 		"PassedTitle"
 		{
 			"ControlName"		"Label"
@@ -45,7 +45,7 @@
 			"wrap"				"1"
 			"fgcolor_override"	"White"
 		}
-		
+
 		"PassedResult"
 		{
 			"ControlName"		"Label"
@@ -66,7 +66,7 @@
 			"noshortcutsyntax"	"1"
 		}
 	}
-	
+
 	"VoteActive"
 	{
 		"ControlName"		"EditablePanel"
@@ -79,7 +79,7 @@
 		"enabled"			"1"
 		"border"			"CyanBorderThick"
 		"bgcolor_override"	"DarkGrey"
-		
+
 		"Header"
 		{
 			"ControlName"		"Label"
@@ -98,7 +98,7 @@
 			"wrap"				"1"
 			"fgcolor_override"	"ColorGreyMid"
 		}
-		
+
 		"Issue"
 		{
 			"ControlName"		"Label"
@@ -118,7 +118,7 @@
 			"wrap"				"1"
 			"noshortcutsyntax"	"1"
 		}
-		
+
 		"TargetAvatarImage"
 		{
 			"ControlName"		"CAvatarImagePanel"
@@ -133,7 +133,7 @@
 			"scaleImage"		"1"
 			"color_outline"		"52 48 45 255"
 		}
-		
+
 		"Divider"
 		{
 			"ControlName"		"ImagePanel"
@@ -145,7 +145,7 @@
 			"fillcolor"			"DullWhite"
 			"zpos"				"0"
 		}
-		
+
 		// Temp UI
 		"LabelOption1"
 		{
@@ -165,7 +165,7 @@
 			"font"				"ScoreboardVerySmall"
 			"fgcolor_override"	"White"
 		}
-		
+
 		"Option1Background_Selected"
 		{
 			"ControlName"		"ImagePanel"
@@ -178,7 +178,7 @@
 			"fillcolor"			"88 119 140 180"
 			"visible"			"1"
 		}
-		
+
 		"Option1CountLabel"
 		{
 			"ControlName"		"Label"
@@ -197,7 +197,7 @@
 			"font"				"ScoreboardSmall"
 			"fgcolor_override"	"White"
 		}
-		
+
 		"LabelOption2"
 		{
 			"ControlName"		"Label"
@@ -216,7 +216,7 @@
 			"font"				"ScoreboardVerySmall"
 			"fgcolor_override"	"White"
 		}
-		
+
 		"Option2Background_Selected"
 		{
 			"ControlName"		"ImagePanel"
@@ -229,7 +229,7 @@
 			"fillcolor"			"88 119 140 180"
 			"visible"			"1"
 		}
-		
+
 		"Option2CountLabel"
 		{
 			"ControlName"		"Label"
@@ -248,7 +248,7 @@
 			"font"				"ScoreboardSmall"
 			"fgcolor_override"	"White"
 		}
-		
+
 		"LabelOption3"
 		{
 			"ControlName"		"Label"
@@ -267,7 +267,7 @@
 			"font"				"ScoreboardVerySmall"
 			"fgcolor_override"	"White"
 		}
-		
+
 		"Option3Background_Selected"
 		{
 			"ControlName"		"ImagePanel"
@@ -280,7 +280,7 @@
 			"fillcolor"			"88 119 140 180"
 			"visible"			"0"
 		}
-		
+
 		"LabelOption4"
 		{
 			"ControlName"		"Label"
@@ -299,7 +299,7 @@
 			"font"				"ScoreboardVerySmall"
 			"fgcolor_override"	"White"
 		}
-		
+
 		"Option4Background_Selected"
 		{
 			"ControlName"		"ImagePanel"
@@ -312,7 +312,7 @@
 			"fillcolor"			"88 119 140 180"
 			"visible"			"0"
 		}
-		
+
 		"LabelOption5"
 		{
 			"ControlName"		"Label"
@@ -331,7 +331,7 @@
 			"font"				"ScoreboardVerySmall"
 			"fgcolor_override"	"White"
 		}
-		
+
 		"Option5Background_Selected"
 		{
 			"ControlName"		"ImagePanel"
@@ -344,7 +344,7 @@
 			"fillcolor"			"88 119 140 180"
 			"visible"			"0"
 		}
-		
+
 		"Divider2"
 		{
 			"ControlName"		"ImagePanel"
@@ -356,7 +356,7 @@
 			"fillcolor"			"DullWhite"
 			"zpos"				"0"
 		}
-		
+
 		"VoteCountLabel"
 		{
 			"ControlName"		"Label"
@@ -374,7 +374,7 @@
 			"font"				"ScoreboardVerySmall"
 			"fgcolor_override"	"DullWhite"
 		}
-		
+
 		// Vote Bar
 		"VoteBar"
 		{
@@ -394,7 +394,7 @@
 			"no_texture"		"vgui/hud/vote_no"
 		}
 	}
-	
+
 	// This is sent to the vote caller when they're not able to start the vote
 	"CallVoteFailed"
 	{
@@ -408,7 +408,7 @@
 		"enabled"			"1"
 		"border"			"CyanBorderThick"
 		"bgcolor_override"	"DarkGrey"
-		
+
 		"FailedIcon"
 		{
 			"ControlName"		"ImagePanel"
@@ -422,7 +422,7 @@
 			"scaleImage"		"1"
 			"image"				"hud/vote_no"
 		}
-		
+
 		"FailedTitle"
 		{
 			"ControlName"		"Label"
@@ -441,7 +441,7 @@
 			"wrap"				"1"
 			"fgcolor_override"	"200 30 30 255"
 		}
-		
+
 		"FailedReason"
 		{
 			"ControlName"		"Label"
@@ -461,7 +461,7 @@
 			"fgcolor_override"	"White"
 		}
 	}
-	
+
 	// This is shown to everyone when a vote fails due to lack of votes
 	"VoteFailed"
 	{
@@ -475,7 +475,7 @@
 		"enabled"			"1"
 		"border"			"CyanBorderThick"
 		"bgcolor_override"	"DarkGrey"
-		
+
 		"FailedIcon"
 		{
 			"ControlName"		"ImagePanel"
@@ -489,7 +489,7 @@
 			"scaleImage"		"1"
 			"image"				"hud/vote_no"
 		}
-		
+
 		"FailedTitle"
 		{
 			"ControlName"		"Label"
@@ -508,7 +508,7 @@
 			"wrap"				"1"
 			"fgcolor_override"	"200 30 30 255"
 		}
-		
+
 		"FailedReason"
 		{
 			"ControlName"		"Label"
@@ -528,7 +528,7 @@
 			"fgcolor_override"	"White"
 		}
 	}
-	
+
 	"VoteSetupDialog"
 	{
 		"ControlName"		"CVoteSetupDialog"
@@ -546,7 +546,7 @@
 		"border"				"CyanBorderThick"
 		"bgcolor_override"		"DarkGrey"
 		"PaintBackground"		"1"
-		
+
 		"header_font"				"ItemFontNameLarge"
 		"header_fgcolor"			"Orange"
 		"issue_width"				"180"
@@ -554,7 +554,7 @@
 		"issue_fgcolor"				"TanLight"
 		"issue_fgcolor_disabled"	"TanDark"
 		"parameter_width"			"200"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -572,7 +572,7 @@
 			"enabled"			"1"
 			"wrap"				"0"
 		}
-		
+
 		"VoteSetupList"
 		{
 			"ControlName"		"SectionedListPanel"
@@ -589,7 +589,7 @@
 			"autoresize"		"0"
 			"linespacing"		"16"
 		}
-		
+
 		"VoteParameterList"
 		{
 			"ControlName"		"SectionedListPanel"
@@ -606,7 +606,7 @@
 			"autoresize"		"0"
 			"linespacing"		"16"
 		}
-		
+
 		"ComboLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -624,7 +624,7 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-		
+
 		"ComboBox"
 		{
 			"ControlName"		"ComboBox"
@@ -645,7 +645,7 @@
 			"maxchars"			"-1"
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
-			
+
 			"fgcolor_override"					"TextColor"
 			"bgcolor_override"					"Yellow"
 			"disabledFgColor_override"			"TextColor"
@@ -654,7 +654,7 @@
 			"selectionTextColor_override"		"TextColor"
 			"defaultSelectionBG2Color_override" "Yellow"
 		}
-		
+
 		"CallVoteButton"
 		{
 			"ControlName"		"Button"

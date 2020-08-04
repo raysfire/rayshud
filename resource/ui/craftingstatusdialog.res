@@ -14,7 +14,7 @@
 		"settitlebarvisible"	"0"
 		"border"				"CyanBorderThick"
 	}
-	
+
 	"CenterPositioner"
 	{
 		"ControlName"		"Label"
@@ -35,14 +35,14 @@
 		"textAlignment"		"center"
 		"bgcolor_override"	"Transparent"
 	}
-	
+
 	"RecipeItemModelPanel"
 	{
 		"ControlName"		"CItemModelPanel"
 		"fieldName"			"RecipeItemModelPanel"
 		"visible"			"0"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"		"Label"
@@ -64,12 +64,12 @@
 		"fgcolor_override" 	"TanLight"
 		"bgcolor_override" 	"Transparent"
 		"auto_wide_tocontents" "1"
-		
+
 		"pin_to_sibling"			"CenterPositioner"
         "pin_corner_to_sibling"		"4"
         "pin_to_sibling_corner"		"4"
 	}
-	
+
 	"EllipsesLabel"
 	{
 		"ControlName"		"Label"
@@ -88,12 +88,12 @@
 		"textAlignment"		"west"
 		"fgcolor_override"	"TanLight"
 		"bgcolor_override"	"Transparent"
-		
+
 		"pin_to_sibling"               "TitleLabel"
         "pin_corner_to_sibling"        "0"
         "pin_to_sibling_corner"        "1"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"		"CExButton"

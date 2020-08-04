@@ -195,7 +195,7 @@
 				"enabled"		"1"
 				"fgcolor_override" "Black"
 			}
-			
+
 			"SteamWorkshopItem0"
 			{
 				"ControlName"	"CSteamWorkshopItemPanel"
@@ -243,7 +243,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 			}
-		
+
 			"PrevPageButton"
 			{
 				"ControlName"	"CExButton"
@@ -267,7 +267,7 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
-			
+
 			"CurPageLabel"
 			{
 				"ControlName"	"CExLabel"
@@ -286,7 +286,7 @@
 				"enabled"		"1"
 				"fgcolor_override" "Black"
 			}
-			
+
 			"NextPageButton"
 			{
 				"ControlName"	"CExButton"
@@ -309,8 +309,8 @@
 				"Command"		"nextpage"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-			}	
-		
+			}
+
 			"ViewPublishedButton"
 			{
 				"ControlName"	"CExButton"
@@ -335,7 +335,7 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
-		
+
 			"EditButton"
 			{
 				"ControlName"	"CExImageButton"
@@ -360,7 +360,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"labelText"			"#TF_SteamWorkshop_Edit"
 				"command"			"edit"
-				
+
 				"image_drawcolor"		"TanLight"
 				"image_disabledcolor"	"ColorBlack"
 
@@ -404,7 +404,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"labelText"			"#TF_SteamWorkshop_View"
 				"command"			"view"
-				
+
 				"image_drawcolor"			"TanLight"
 				"image_disabledcolor" 		"ColorBlack"
 
@@ -448,7 +448,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"labelText"			"#TF_SteamWorkshop_Delete"
 				"command"			"delete_item"
-				
+
 				"image_drawcolor"		"TanLight"
 				"image_disabledcolor"	"ColorBlack"
 

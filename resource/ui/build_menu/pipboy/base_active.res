@@ -6,22 +6,22 @@
 	{
 		"fgcolor"			"ColorGreen"
 	}
-	
-	"BuildingIcon"	
+
+	"BuildingIcon"
 	{
 		"iconColor"			"ColorGreen"
 	}
-	
-	"MetalIcon"	
+
+	"MetalIcon"
 	{
 		"iconColor"			"ColorGreen"
 	}
-	
+
 	"CostLabel"
 	{
 		"fgcolor"			"ColorGreen"
 	}
-	
+
 	"NumberLabel"
 	{
 		"fgcolor"			"ColorGreen"

@@ -20,7 +20,7 @@
 		"brighttext"		"0"
 		"fgcolor"			"ColorRed"
 	}
-	
+
 	"ItemBackground"
 	{
 		"ControlName"		"CIconPanel"
@@ -36,7 +36,7 @@
 		"icon"				"hud_menu_item_bg_outline"
 		"iconColor"			"Black"
 	}
-	
+
 	"NotBuiltLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -55,7 +55,7 @@
 		"textAlignment"		"center"
 		"fgcolor"			"ColorRed"
 	}
-	
+
 	"UnavailableLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -74,7 +74,7 @@
 		"textAlignment"		"center"
 		"fgcolor"			"ColorRed"
 	}
-	
+
 	"NumberBg"
 	{
 		"ControlName"		"CIconPanel"
@@ -90,7 +90,7 @@
 		"icon"				"ico_key_blank"
 		"iconColor"			"White"
 	}
-	
+
 	"NumberLabel"
 	{
 		"ControlName"		"CExLabel"

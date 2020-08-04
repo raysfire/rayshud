@@ -2,5 +2,5 @@
 
 "Resource/UI/build_menu/HudMenuEurekaEffect.res"
 {
-	
+
 }

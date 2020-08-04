@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
 	// Fullscreen background panel
 	"BgPanel"
 	{
@@ -31,7 +31,7 @@
 		"PaintBackgroundType"	"0"
 		"bgcolor_override" "0 0 0 128"
 	}
-	
+
 	// Rounded dialog border
 	"DialogFrame"
 	{
@@ -48,7 +48,7 @@
 		"border"			"CyanBorderThick"
 		"bgcolor_override"	"DarkGrey"
 		"PaintBorder"		"1"
-		
+
 		// Background for the player model & item preview panels
 		"PreviewViewportBg"
 		{
@@ -66,7 +66,7 @@
 			"bgcolor_override"	"Grey"
 		}
 	}
-	
+
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
@@ -83,10 +83,10 @@
 		"render_texture"	"0"
 		"fov"			"40"
 		"allow_rot"		"0"
-		"paintbackground" "1"		
+		"paintbackground" "1"
 		"paintbackgroundenabled" "1"
 		"bgcolor_override" "255 255 255 0"
-		
+
 		"model"
 		{
 			"force_pos"	"1"
@@ -103,7 +103,7 @@
 			"modelname"		""
 		}
 	}
-	
+
 	"PreviewItemModelPanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -125,7 +125,7 @@
 		"model_only"	"1"
 		"paint_icon_hide"	"0"
 		"text_ypos"		"10"
-		
+
 		"itemmodelpanel"
 		{
 			"inventory_image_type"	"2"
@@ -133,7 +133,7 @@
 			"force_square_image"	"1"
 		}
 	}
-	
+
 	"ItemNameLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -151,8 +151,8 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
-	}		
-	
+	}
+
 	"ClassUsageImage1"
 	{
 		"ControlName"	"CStorePreviewClassIcon"
@@ -249,7 +249,7 @@
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	"IconsMoveLeftButton"
 	{
 		"ControlName"	"CExButton"
@@ -273,7 +273,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"IconsMoveRightButton"
 	{
 		"ControlName"	"CExButton"
@@ -297,7 +297,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ClassUsageMouseoverLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -343,8 +343,8 @@
 		"Command"		"-1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
-	
+	}
+
 	"RotRightButton"
 	{
 		"ControlName"	"CPreviewRotButton"
@@ -368,7 +368,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"NextWeaponButton"
 	{
 		"ControlName"	"CExButton"
@@ -393,7 +393,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ZoomButton"
 	{
 		"ControlName"	"CExButton"
@@ -462,7 +462,7 @@
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
-	
+
 	"StyleNameLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -481,7 +481,7 @@
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -506,10 +506,10 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"			"close"
 		"paintbackground"	"0"
-		
+
 		"image_drawcolor"	"White"
 		"image_armedcolor"	"255 0 0 255"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -526,7 +526,7 @@
 			"proportionaltoparent"	"1"
 		}
 	}
-	
+
 	"BackButton"
 	{
 		"ControlName"	"CExButton"
@@ -550,7 +550,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"AddToCartButton"
 	{
 		"ControlName"	"CExButton"

@@ -18,13 +18,13 @@
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
 		"paintborder"	"0"
-		
+
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
 	}
-	
+
 	"localPlayerBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -43,14 +43,14 @@
 		"teambg_2"		"../hud/color_panel_clear"
 		"teambg_3"		"../hud/color_panel_clear"
 		"paintborder"	"0"
-		
+
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
-		
+
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
 	}
-	
+
 	"title"
 	{
 		"ControlName"	"CExLabel"
@@ -91,7 +91,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"changeLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -132,7 +132,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"classImage0"
 	{
 		"ControlName"	"CTFImagePanel"

@@ -18,9 +18,9 @@
 		"teambg_2"		"../hud/death_panel_red_bg"
 		"teambg_3"		"../hud/death_panel_blue_bg"
 	}
-	
+
 	"SwitchLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"SwitchLabel"
 		"font"			"HudFontSmallBold"
@@ -37,9 +37,9 @@
 		"labelText"		"#TF_teamswitch_attackers"
 		"textAlignment"	"North"
 	}
-	
+
 	"GoalLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"GoalLabel"
 		"font"			"HudFontSmall"
@@ -56,7 +56,7 @@
 		"labelText"		""
 		"textAlignment"	"North"
 	}
-	
+
 	"GoalImage"
 	{
 		"ControlName"	"CTFImagePanel"

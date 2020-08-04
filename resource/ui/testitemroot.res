@@ -15,7 +15,7 @@
 		"paintborder"			"0"
 		"paintbackground"		"1"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -34,7 +34,7 @@
 		"enabled"				"1"
 		"fgcolor_override"		"ColorCyan"
 	}
-	
+
 	"ClassUsagePanel"
 	{
 		"ControlName"			"EditablePanel"
@@ -46,7 +46,7 @@
 		"visible"				"1"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"0 0 0 128"
-		
+
 		"ClassUsageLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -64,7 +64,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 		}
-		
+
 		"ClassCheckBox0"
 		{
 			"ControlName"			"CheckButton"
@@ -264,9 +264,9 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"disabledfgcolor2_override"	"TextColor"
-		}	
+		}
 	}
-	
+
 	"TestingPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -278,7 +278,7 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"0 0 0 128"
-	
+
 		"CurrentlyTestingLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -296,7 +296,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		
+
 		"TestingWeaponLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -634,7 +634,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 	}
-	
+
 	"BotAdditionPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -646,7 +646,7 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"0 0 0 128"
-		
+
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -664,7 +664,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		
+
 		"AutoAddBotsCheckBox"
 		{
 			"ControlName"	"CheckButton"
@@ -684,8 +684,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"disabledfgcolor2_override"	"TextColor"
-		}	
-		
+		}
+
 		"BotsOnBlueTeamCheckBox"
 		{
 			"ControlName"	"CheckButton"
@@ -706,7 +706,7 @@
 			"brighttext"	"0"
 			"disabledfgcolor2_override"	"TextColor"
 		}
-		
+
 		"AddBotButton"
 		{
 			"ControlName"	"CExButton"
@@ -731,7 +731,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
-				
+
 		"BotSelectionComboBox"
 		{
 			"ControlName"		"ComboBox"
@@ -752,7 +752,7 @@
 			"maxchars"			"-1"
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
-			
+
 			"fgcolor_override"	"235 226 202 255"
 			"bgcolor_override"	"251 235 202 0"
 			"disabledFgColor_override" "117 107 94 0"
@@ -761,7 +761,7 @@
 			"selectionTextColor_override" "235 226 202 255"
 			"defaultSelectionBG2Color_override" "251 235 202 255"
 		}
-		
+
 		"KickAllBotsButton"
 		{
 			"ControlName"	"CExButton"
@@ -787,7 +787,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 	}
-	
+
 	"TestItemBotControls"
 	{
 		"fieldName"			"TestItemBotControls"
@@ -799,7 +799,7 @@
 		"tall"				"200"
 		"bgcolor_override"	"0 0 0 128"
 	}
-	
+
 	"ExportButton"
 	{
 		"ControlName"		"CExButton"
@@ -824,7 +824,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ImportButton"
 	{
 		"ControlName"		"CExButton"
@@ -849,7 +849,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ImportRecentButton"
 	{
 		"ControlName"		"CExButton"
@@ -874,7 +874,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"		"CExButton"
@@ -899,7 +899,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"		"CExButton"
@@ -924,7 +924,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"SteamWorkshopButton"
 	{
 		"ControlName"		"EditablePanel"
@@ -936,7 +936,7 @@
 		"tall"				"36"
 		"visible"			"1"
 		"PaintBackgroundType"	"2"
-		
+
 		"SteamWorkshopButtonSubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -960,14 +960,14 @@
 			"default"		"1"
 			"command"		"steamworkshop"
 			"labeltext"		"#MMenu_SteamWorkshop"
-			
+
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-			
+
 			"image_armedcolor"		"235 226 202 255"
 			"image_drawcolor"		"235 226 202 255"
 			"image_selectedcolor"	"46 43 42 255"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -981,10 +981,10 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"glyph_steamworkshop"
-			}		
+			}
 		}
 	}
-	
+
 	"ReloadSchemeButton"
 	{
 		"ControlName"		"CExButton"

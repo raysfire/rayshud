@@ -29,7 +29,7 @@
 		"scaleImage"	"1"
 		"fillcolor"		"0 0 0 120"
 	}
-	
+
 	"SysMenu"
 	{
 		"ControlName"	"Menu"
@@ -44,7 +44,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 	}
-	
+
 	"MapInfo"
 	{
 		"ControlName"	"HTML"
@@ -59,7 +59,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 	}
-	
+
 	"SelectTeamLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -76,7 +76,7 @@
 		"enabled"		"1"
 		"fgcolor"		"TanLight"
 	}
-	
+
 	"teambutton0"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -103,7 +103,7 @@
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"235 226 202 255"
 	}
-	
+
 	"BlueTeamBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -117,7 +117,7 @@
 		"enabled"		"1"
 		"bgcolor_override"		"70 130 180 125"
 	}
-	
+
 	"teambutton1"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -139,13 +139,13 @@
 		"command"		"jointeam red"
 		"team"			"4"		// Red Team
 		"font"			"CerbeticaBold20"
-		
+
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"235 226 202 255"
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"235 226 202 255"
 	}
-	
+
 	"RedTeamBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -159,7 +159,7 @@
 		"enabled"		"1"
 		"bgcolor_override"		"205 50 50 153"
 	}
-	
+
 	"teambutton2"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -180,14 +180,14 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam auto"
-		
+
 		"font"			"CerbeticaBold20"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"235 226 202 255"
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"235 226 202 255"
 	}
-	
+
 	"AutoJoinBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -201,7 +201,7 @@
 		"enabled"		"1"
 		"bgcolor_override"	"HudBlack"
 	}
-	
+
 	"teambutton3"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -222,14 +222,14 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
-		
+
 		"font"			"CerbeticaBold20"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"235 226 202 255"
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"235 226 202 255"
 	}
-	
+
 	"SpectateBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -243,14 +243,14 @@
 		"enabled"		"1"
 		"bgcolor_override"	"HudBlack"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"		
+		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
@@ -259,7 +259,7 @@
 		"enabled"		"0"
 		"fillcolor"		"255 255 255 7"
 	}
-	
+
 	"BlueCount"
 	{
 		"ControlName"	"CExLabel"
@@ -281,7 +281,7 @@
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"242 242 242 255"
 	}
-	
+
 	"RedCount"
 	{
 		"ControlName"	"CExLabel"
@@ -302,7 +302,7 @@
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"242 242 242 255"
 	}
-	
+
 	"HighlanderLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -324,7 +324,7 @@
 		"fgcolor"		"235 226 202 255"
 		"centerwrap"	"1"
 	}
-	
+
 	"HighlanderLabelShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -345,12 +345,12 @@
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"0 0 0 200"
 		"centerwrap"	"1"
-		
+
 		"pin_to_sibling"		"HighlanderLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"TeamsFullLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -372,7 +372,7 @@
 		"fgcolor"		"235 226 202 255"
 		"centerwrap"	"1"
 	}
-	
+
 	"TeamsFullLabelShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -393,12 +393,12 @@
 		"font"			"CerbeticaBold12"
 		"fgcolor"		"0 0 0 200"
 		"centerwrap"	"1"
-		
+
 		"pin_to_sibling"		"TeamsFullLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"

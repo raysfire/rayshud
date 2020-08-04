@@ -13,14 +13,14 @@
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
 	}
-	
+
 	"PlayerStatusHealthImageBG"
 	{
 		"visible"		"0"
 		"xpos"			"r0"
 		"ypos"			"r0"
 	}
-	
+
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -37,7 +37,7 @@
 		"proportionaltoparent"	"1"
 		"image"			""
 	}
-	
+
 	"PlayerStatusHealthValueSpectator"
 	{
 		"ControlName"	"CExLabel"
@@ -54,7 +54,7 @@
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"Spec Health Normal"
 	}
-	
+
 	"PlayerStatusHealthValueSpectatorBG"
 	{
 		"ControlName"	"CExLabel"

@@ -6,12 +6,12 @@
 	{
 		"labelText"			"#TF_Class_Name_Engineer"
 	}
-	
+
 	"NewNumberLabel"
 	{
 		"labelText"			"3"
 	}
-	
+
 	"NumberLabel"
 	{
 		"labelText"			"6"

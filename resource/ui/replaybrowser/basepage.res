@@ -17,7 +17,7 @@
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"		"DarkGrey"
 	}
-	
+
 	"SearchTextEntry"
 	{
 		"ControlName"		"TextEntry"
@@ -40,7 +40,7 @@
 		"bgcolor_override"	"DarkerGrey"
 		"Font"				"CerbeticaBold14"
 	}
-	
+
 	"ReplayList"
 	{
 		"ControlName"		"PanelListPanel"

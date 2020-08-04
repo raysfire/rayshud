@@ -13,7 +13,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"ClassIcons"
 		{
 			"1"
@@ -25,7 +25,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"ClassIconsSmall"
 		{
 			"1"
@@ -37,7 +37,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"CustomIcons10"
 		{
 			"1"
@@ -48,7 +48,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"CustomIcons12"
 		{
 			"1"
@@ -59,7 +59,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"CustomIcons14"
 		{
 			"1"
@@ -70,7 +70,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"CustomIcons18"
 		{
 			"1"
@@ -81,7 +81,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"CustomIcons20"
 		{
 			"1"
@@ -93,7 +93,7 @@ Scheme
 			}
 		}
 	}
-	
+
 	CustomFontFiles
 	{
 		"121"

@@ -13,14 +13,14 @@
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
 		"border"				"CyanBorderThick"
-		
+
 		"button_kv"
 		{
 			"xpos"			"10"
 			"ypos"			"0"
 			"wide"			"350"
 			"tall"			"30"
-			
+
 			"button"
 			{
 				"xpos"			"0"
@@ -43,7 +43,7 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
-			
+
 			"avatar"
 			{
 				"ControlName"	"CAvatarImagePanel"
@@ -56,12 +56,12 @@
 				"image"			""
 				"visible"		"1"
 				"enabled"		"1"
-				"scaleImage"	"1"	
+				"scaleImage"	"1"
 				"color_outline"	"52 48 45 255"
 			}
 		}
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -80,7 +80,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "TanLight"
 	}
-	
+
 	"PlayerListScroller"
 	{
 		"ControlName"	"ScrollableEditablePanel"
@@ -92,7 +92,7 @@
 		"PaintBackgroundType"	"2"
 		"fgcolor_override"	"TextColor"
 		"bgcolor_override"	"0 0 0 64"
-		
+
 		"PlayerList"
 		{
 			"ControlName"	"EditablePanel"
@@ -104,7 +104,7 @@
 			"visible"		"1"
 		}
 	}
-	
+
 	"StatePanel0"
 	{
 		"ControlName"			"EditablePanel"
@@ -116,7 +116,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-		
+
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -135,7 +135,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "HudOffWhite"
 		}
-		
+
 		"subbutton0"
 		{
 			"ControlName"	"CExButton"
@@ -209,7 +209,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 	}
-	
+
 	"StatePanel1"
 	{
 		"ControlName"			"EditablePanel"
@@ -221,7 +221,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-		
+
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -239,7 +239,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "HudOffWhite"
 		}
-		
+
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -261,7 +261,7 @@
 			"fgcolor_override" "HudOffWhite"
 		}
 	}
-	
+
 	"StatePanel2"
 	{
 		"ControlName"			"EditablePanel"
@@ -273,7 +273,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-		
+
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -292,7 +292,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "HudOffWhite"
 		}
-		
+
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -314,7 +314,7 @@
 			"fgcolor_override" "ColorCyan"
 		}
 	}
-	
+
 	"StatePanel3"
 	{
 		"ControlName"			"EditablePanel"
@@ -326,7 +326,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-		
+
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -345,7 +345,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "ColorCyan"
 		}
-		
+
 		"URLHelpLabel"
 		{
 			"ControlName"	"Label"
@@ -366,7 +366,7 @@
 			"centerwrap"	"1"
 			"fgcolor_override" "TanLight"
 		}
-		
+
 		"URLFailLabel"
 		{
 			"ControlName"	"Label"
@@ -386,7 +386,7 @@
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor_override" "ColorCyan"
-		}	
+		}
 		"URLSearchingLabel"
 		{
 			"ControlName"	"Label"
@@ -407,7 +407,7 @@
 			"centerwrap"	"1"
 			"fgcolor_override" "ColorCyan"
 		}
-		
+
 		"URLEntry"
 		{
 			"ControlName"		"TextEntry"
@@ -434,7 +434,7 @@
 			"font"				"HudFontSmall"
 			"textAlignment"		"west"
 		}
-		
+
 		"subbutton0"
 		{
 			"ControlName"	"CExButton"
@@ -460,7 +460,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"

@@ -18,17 +18,17 @@
 		"tileImage"			"1"
 		"drawcolor"			"192 192 192 255"
 	}
-	
+
 	"BuildIcon"
 	{
 		"iconColor"			"ColorGreen"
 	}
-	
+
 	"TitleLabel"
 	{
 		"fgcolor"			"ColorGreen"
 	}
-	
+
 	"CancelLabel"
 	{
 		"fgcolor"			"ColorGreen"

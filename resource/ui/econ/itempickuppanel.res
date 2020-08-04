@@ -19,30 +19,30 @@
 		"bgcolor_override"				"DarkGrey"
 		"infocus_bgcolor_override"		"DarkGrey"
 		"outoffocus_bgcolor_override"	"DarkGrey"
-		
+
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"			"500"
 		"modelpanels_height"		"260"
 		"modelpanels_ypos"			"110"
-		
-		"modelpanelskv"	
+
+		"modelpanelskv"
 		{
 			"PaintBackgroundType"	"0"
 			"paintborder"			"1"
 			"bgcolor_override"		"DarkGrey"
-			
+
 			"model_xpos"		"0"
 			"model_center_y"	"1"
 			"model_tall"		"160"
 			"model_wide"		"240"
-			
+
 			"text_forcesize"	"1"
 			"text_xpos"			"250"
 			"text_wide"			"225"
 			"text_center"		"1"
 			"is_mouseover"		"1"
 			"hide_collection_panel"	"1"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
@@ -50,7 +50,7 @@
 			}
 		}
 	}
-	
+
 	"classimageoutline"
 	{
 		"ControlName"	"EditablePanel"
@@ -63,7 +63,7 @@
 		"visible"		"1"
 		"bgcolor_override" "ColorBlack"
 	}
-	
+
 	"classimage"
 	{
 		"ControlName"	"ImagePanel"
@@ -78,7 +78,7 @@
 		"image"			"achievements/tf_medic_heal_grind"
 		"scaleImage"	"1"
 	}
-	
+
 	"ItemsFoundLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -97,7 +97,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"SelectedItemFoundMethodLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -116,7 +116,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"ItemCountLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -134,7 +134,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"SelectedItemNumberLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -152,7 +152,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"NextButton"
 	{
 		"ControlName"	"CExButton"
@@ -176,7 +176,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"PrevButton"
 	{
 		"ControlName"	"CExButton"
@@ -200,7 +200,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"	"CExButton"
@@ -225,7 +225,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"OpenLoadoutButton"
 	{
 		"ControlName"	"CExButton"
@@ -249,7 +249,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"DiscardButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -278,7 +278,7 @@
 		"depressedBgColor_override" "Transparent"
 		"image_drawcolor"	"TanLight"
 		"image_armedcolor"	"ColorCyan"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -294,9 +294,9 @@
 			"scaleImage"	"1"
 			"paintbackgroundtype" "0"
 			"proportionaltoparent"	"1"
-		}				
-	}		
-	
+		}
+	}
+
 	"DiscardButtonTooltip"
 	{
 		"ControlName"	"EditablePanel"
@@ -311,7 +311,7 @@
 		"paintbackground"	"1"
 		"border"		"NoBorder"
 		"bgcolor_override"	"DarkerGrey"
-		
+
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -332,7 +332,7 @@
 			"centerwrap"	"1"
 		}
 	}
-	
+
 	"DiscardedLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -352,7 +352,7 @@
 		"fgcolor_override" "LightRed"
 		"bgcolor_override"	"TanDarker"
 	}
-	
+
 	"ScoreEntry"
 	{
 		"ControlName"		"TextEntry"

@@ -9,7 +9,7 @@
 		"wide"			"300"
 		"tall"			"22"
 		"visible"		"1"
-		
+
 		"HeaderLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -30,7 +30,7 @@
 			"bgcolor_override"	"100 65 165 255"
 		}
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -52,21 +52,21 @@
 		"brighttext"	"0"
 		"default"		"0"
 		"actionsignallevel"	"2"
-			
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"			"hide_streams"
 		"paintbackground"	"0"
-			
+
 		//"defaultFgColor_override" "TanLight"
 		//"armedFgColor_override" "TanDarker"
 		"defaultFgColor_override" "Blank"
 		"armedFgColor_override" "Blank"
 		"depressedFgColor_override" "Blank"
-			
+
 		"image_drawcolor"	"TanLight"
 		"image_armedcolor"	"255 0 0 255"
-			
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -82,7 +82,7 @@
 			"scaleImage"	"1"
 		}
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -100,7 +100,7 @@
 		"enabled"		"1"
 		"fgcolor"		"56 53 49 255"
 	}
-	
+
 	"StreamsBg"
 	{
 		"ControlName"	"EditablePanel"
@@ -117,7 +117,7 @@
 		"paintbackground"	"0"
 		"bgcolor_override"	"DarkGrey"
 	}
-	
+
 	"Stream1"
 	{
 		"ControlName"	"CTFStreamPanel"
@@ -132,7 +132,7 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 	}
-	
+
 	"Stream2"
 	{
 		"ControlName"	"CTFStreamPanel"
@@ -147,7 +147,7 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 	}
-	
+
 	"Stream3"
 	{
 		"ControlName"	"CTFStreamPanel"
@@ -162,7 +162,7 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 	}
-	
+
 	"Stream4"
 	{
 		"ControlName"	"CTFStreamPanel"
@@ -177,7 +177,7 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 	}
-	
+
 	"Stream5"
 	{
 		"ControlName"	"CTFStreamPanel"
@@ -192,7 +192,7 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 	}
-	
+
 	"Stream_URLButton"
 	{
 		"ControlName"	"CExButton"
@@ -215,10 +215,10 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"command"		"view_more"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"defaultFgColor_override" "TanLight"
 		"defaultBgColor_override" "TanDarker"
 		"armedFgColor_override" "TanLight"

@@ -6,7 +6,7 @@
 	{
 		"labelText"			"#TF_Object_Dispenser"
 	}
-	
+
 	"BuildingIcon"
 	{
 		"icon"				"obj_status_dispenser"
