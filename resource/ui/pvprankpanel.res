@@ -185,8 +185,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"170"
-		"tall"			"f40"
+		"wide"			"260"
+		"tall"			"102"
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
 		"border"		"NoBorder"
@@ -243,17 +243,8 @@
 
 			if_mini
 			{
-				"xpos"	"67"
-				"ypos"	"4"
-				"wide"	"f0"
-				"textAlignment"	"north-west"
-			}
-
-			"fonts"
-			{
-				"0"		"HudFontSmallestBold"
-				"1"		"StorePromotionsTitle"
-				"2"		"FontStorePrice"
+				"xpos"			"50"
+				"ypos"			"r35"
 			}
 		}
 
@@ -299,8 +290,8 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
 			"xpos"			"0"
-			"ypos"			"rs1-5"
-			"wide"			"170"
+			"ypos"			"10"
+			"wide"			"260"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
@@ -316,7 +307,7 @@
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
 				"xpos"			"0"
-				"ypos"			"rs1-9"
+				"ypos"			"rs1-63"
 				"wide"			"170"
 				"tall"			"35"
 				"proportionaltoparent"	"1"
@@ -333,10 +324,10 @@
 					"ControlName"	"Label"
 					"fieldName"		"CurrentXPLabel"
 					"xpos"			"35"
-					"ypos"			"rs1+5"
+					"ypos"			"rs1"
 					"zpos"			"0"
 					"wide"			"50"
-					"tall"			"20"
+					"tall"			"10"
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
@@ -347,15 +338,11 @@
 
 					if_mini
 					{
-						"xpos"			"0"
-						"ypos"			"rs1"
+						"xpos"			"40"
 						"zpos"			"0"
 						"wide"			"100"
 						"tall"			"20"
-						"font"			"ItemFontAttribSmall"
-						"fgcolor_override"	"TanLight"
 						"textAlignment"	"south-west"
-						"visible"		"1"
 					}
 				}
 
@@ -364,10 +351,10 @@
 					"ControlName"	"Label"
 					"fieldName"		"NextLevelXPLabel"
 					"xpos"			"85"
-					"ypos"			"rs1+5"
+					"ypos"			"rs1"
 					"zpos"			"0"
 					"wide"			"50"
-					"tall"			"20"
+					"tall"			"10"
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
@@ -375,11 +362,6 @@
 					"textAlignment"	"east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
-
-					if_mini
-					{
-						"visible"		"1"
-					}
 				}
 
 				"ProgressBarsContainer"
@@ -438,6 +420,8 @@
 						"wide"			"f0"
 						"tall"			"f0"
 						"zpos"			"5"
+						"visible"		"0"
+						"enabled"		"0"
 						"proportionaltoparent"	"1"
 						"border"		"InnerShadowBorderThin"
 					}
@@ -449,12 +433,13 @@
 				"ControlName"	"EditablePanel"
 				"fieldName"		"Stats"
 				"xpos"			"0"
-				"ypos"			"5"
+				"ypos"			"63"
 				"wide"			"f0"
 				"tall"			"p0.45"
-				"visible"		"0"
+				"visible"		"1"
+				"enabled"		"1"
 				"proportionaltoparent"	"1"
-				"bgcolor_override"	"0 0 0 150"
+				"bgcolor_override"	"Transparent"
 
 				"if_mini"
 				{
@@ -534,7 +519,7 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"DamageLabel"
-					"xpos"			"c-20"
+					"xpos"			"c-40"
 					"ypos"			"0"
 					"zpos"			"0"
 					"wide"			"100"
@@ -552,7 +537,7 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"HealingLabel"
-					"xpos"			"c-20"
+					"xpos"			"c-40"
 					"ypos"			"10"
 					"zpos"			"0"
 					"wide"			"100"
@@ -570,7 +555,7 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"SupportLabel"
-					"xpos"			"c-20"
+					"xpos"			"c-40"
 					"ypos"			"20"
 					"zpos"			"0"
 					"wide"			"100"
@@ -589,9 +574,8 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"ScoreLabel"
-					"xpos"			"rs1"
-					"ypos"			"0"
-					"zpos"			"0"
+					"xpos"			"rs1+20"
+					"ypos"			"20"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"1"

@@ -58,7 +58,7 @@
 			"zpos"			"-1"
 			"wide"			"p1.1"
 			"tall"			"f5"
-			"visible"		"0"
+			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
 			"bgcolor_override"		"DarkGrey"
@@ -74,7 +74,7 @@
 			"zpos"			"-2"
 			"wide"			"p1.1"
 			"tall"			"p1"
-			"visible"		"0"
+			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"border"		"OuterShadowBorder"
 			"proportionaltoparent"	"1"
@@ -111,7 +111,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"72 255 255 255"
+			"armedFgColor_override"		"ColorCyan"
 
 			"armedBgColor_override"		"Transparent"
 			"defaultBgColor_override"	"Transparent"
