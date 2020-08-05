@@ -22,11 +22,11 @@ Scheme
 		"ColorGreyMid"				"128 128 128 255"
 		"ColorGreyLight"			"192 192 192 255"
 		"ColorWhite"				"255 255 255 255"
+		"DullWhite"					"132 132 132 255"
 		"Grey"						"51 47 46 255"
 		"DarkGrey"					"27 27 27 255"
 		"DarkerGrey"				"22 22 22 255"
 		"TextColor"					"117 107 94 255"
-		"DullWhite"					"132 132 132 255"
 		//---------------------------------------------
 		// Gameplay
 		"Ammo In Clip"				"48 255 48 255"
@@ -38,7 +38,6 @@ Scheme
 		"Health Hurt"				"255 153 0 255"
 		"Heal Numbers"				"48 255 48 255"
 		"Last DamageHeal Info"		"72 255 255 255"
-		"TransparentPanelBG"		"25 25 25 148"
 		"ItemPanelBG"				"50 50 50 255"
 		"Button Color"				"72 255 255 255"
 		//---------------------------------------------
@@ -94,6 +93,7 @@ Scheme
 		"Red"									"192 28 0 140"
 		"RedSolid"								"192 28 0 255"
 		"Blue"									"0 28 162 140"
+		"BlueSolid"								"0 28 162 255"
 		"Yellow"								"251 235 202 255"
 		"TransparentYellow"						"251 235 202 140"
 		"BrightYellow"							"251 235 0 255"

@@ -26,68 +26,12 @@ Scheme
 			}
 		}
 
-		"ClassIconsSmall"
-		{
-			"1"
-			{
-				"name"			"FlawHUDIcons"
-				"tall"			"42"
-				"weight"		"0"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-
-		"CustomIcons10"
-		{
-			"1"
-			{
-				"name"			"FlawHUDIcons"
-				"tall"			"10"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-
-		"CustomIcons12"
-		{
-			"1"
-			{
-				"name"			"FlawHUDIcons"
-				"tall"			"12"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-
-		"CustomIcons14"
-		{
-			"1"
-			{
-				"name"			"FlawHUDIcons"
-				"tall"			"14"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-
-		"CustomIcons18"
+		"CustomIcons"
 		{
 			"1"
 			{
 				"name"			"FlawHUDIcons"
 				"tall"			"18"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-
-		"CustomIcons20"
-		{
-			"1"
-			{
-				"name"			"FlawHUDIcons"
-				"tall"			"20"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -98,7 +42,7 @@ Scheme
 	{
 		"121"
 		{
-			"font"	"resource/fonts/FlawHUDIcons.otf"
+			"font"	"resource/fonts/Icons.otf"
 			"name"	"FlawHUDIcons"
 		}
 	}

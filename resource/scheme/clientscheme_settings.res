@@ -2,6 +2,7 @@ Scheme
 {
 	BaseSettings
 	{
+		// vgui_controls color specifications
 		ReplayBrowser.BgColor							"DarkBrown"
 		ReplayBrowser.Details.TitleEdit.Carat.FgColor	"200 128 255 255"
 		ReplayBrowser.Button.ArmedBgColor				"TFOrange"
@@ -11,22 +12,22 @@ Scheme
 		ReplayBrowser.ScrollBar.SliderButton.FgColor	"TransparentYellow"
 		ReplayBrowser.Search.BgColor					"TanDark"
 		ReplayBrowser.Search.FgColor					"White"
-		Replay.RenderDialog.BgColor						"30 30 30 255"
+		Replay.RenderDialog.BgColor						"TanDark"
 
 		Econ.Dialog.BgColor						"Blank"
-		Econ.Button.BgColor						"25 25 25 255"
+		Econ.Button.BgColor						"TanDarker"
 		Econ.Button.FgColor						"TanDark"
-		Econ.Button.ArmedBgColor				"35 35 35 255"
+		Econ.Button.ArmedBgColor				"TanDark"
 		Econ.Button.ArmedFgColor				"TanLight"
-		Econ.Button.DepressedBgColor			"25 25 25 255"
+		Econ.Button.DepressedBgColor			"TanDarker"
 		Econ.Button.DepressedFgColor			"TanDark"
 		Econ.Button.PresetDefaultColorFg		"15 255 255 255"
 		Econ.Button.PresetArmedColorFg			"15 255 255 255"
 		Econ.Button.PresetDepressedColorFg		"15 255 255 255"
-		Econ.Button.PresetDefaultColorBg		"25 25 25 255"
+		Econ.Button.PresetDefaultColorBg		"TanDarker"
 		Econ.Button.PresetArmedColorBg			"50 50 50 255"
-		Econ.Button.PresetDepressedColorBg		"25 25 25 255"
-		Econ.Button.Border.Default				"25 25 25 255"
+		Econ.Button.PresetDepressedColorBg		"TanDarker"
+		Econ.Button.Border.Default				"TanDarker"
 		Econ.Button.Border.Armed				"50 50 50 255"
 
 		Border.Bright							"NoBorder"
@@ -34,13 +35,13 @@ Scheme
 		Border.Selection						"NoBorder"
 
 		Button.TextColor						"TanLight"
-		Button.BgColor							"25 25 25 255"
+		Button.BgColor							"TanDarker"
 		Button.ArmedTextColor					"TanLight"
-		Button.ArmedBgColor						"35 35 35 255"
+		Button.ArmedBgColor						"TanDark"
 		Button.SelectedTextColor				"TanLight"
-		Button.SelectedBgColor					"25 25 25 255"
+		Button.SelectedBgColor					"TanDarker"
 		Button.DepressedTextColor				"TanLight"
-		Button.DepressedBgColor					"35 35 35 255"
+		Button.DepressedBgColor					"TanDark"
 
 		CheckButton.TextColor					"Yellow"
 		CheckButton.SelectedTextColor			"Yellow"

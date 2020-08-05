@@ -7,12 +7,20 @@ Scheme
 		// HUD COLORS
 		//---------------------------------------------
 		"HudBlack"					"0 0 0 200"
-		"Cyan"						"15 255 255 255"
+		"Blue"						"72 112 125 255"
+		"DarkBlue"					"46 73 82 255"
+		"Red"						"158 64 61 255"
+		"DarkRed"					"102 48 46 255"
+		"Green"						"92 122 90 255"
+		"DarkGreen"					"38 53 36 255"
 		"Yellow"					"169 123 53 255"
+		"BrightYellow"				"218 165 32 255"
 		"White"						"242 242 242 255"
-		"DullWhite"					"142 142 142 255"
+		"DullWhite"					"132 132 132 255"
+		"Grey"						"51 47 46 255"
 		"DarkGrey"					"27 27 27 255"
-		"Black"						"15 15 15 255"
+		"DarkerGrey"				"22 22 22 255"
+		"Black"						"17 17 17 255"
 
 		// BASE COLORS
 		//---------------------------------------------
@@ -109,15 +117,15 @@ Scheme
 		ListPanel.SelectedOutOfFocusBgColor	"DullWhite"
 
 		MainMenu.TextColor					"DullWhite"
-		MainMenu.ArmedTextColor				"Cyan"
+		MainMenu.ArmedTextColor				"White"
 		MainMenu.Inset						"32"
 
 		Menu.TextInset						"6"
 		Menu.FgColor						"White"
 		Menu.BgColor						"HudBlack"
-		Menu.ArmedFgColor					"Cyan"
-		Menu.ArmedBgColor					"Cyan"
-		Menu.DividerColor					"Border.Dark"
+		Menu.ArmedFgColor					"Black"
+		Menu.ArmedBgColor					"White"
+`		Menu.DividerColor					"Border.Dark"
 
 		ScrollBarButton.FgColor				"White"
 		ScrollBarButton.BgColor				"Black"
@@ -137,7 +145,7 @@ Scheme
 
 		TextEntry.TextColor					"White"
 		TextEntry.DisabledTextColor	        "DullWhite"
-		TextEntry.SelectedBgColor			"Cyan"
+		TextEntry.SelectedBgColor			"White"
 	}
 
 	Fonts

@@ -94,13 +94,13 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"HudFontSmallestBold"
+			"labeltext"		"l"
+			"font"			"CustomIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"toggle_chat"
 			"proportionaltoparent"	"1"
-			"labeltext"		""
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
@@ -110,27 +110,11 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"72 255 255 255"
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"72 255 255 255"
 
 			"armedBgColor_override"		"Transparent"
 			"defaultBgColor_override"	"Transparent"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"rs1-2"
-				"zpos"			"1"
-				"wide"			"20"
-				"tall"			"20"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"replay/thumbnails/chat"
-			}
 		}
 
 		"PartySlot0"
@@ -694,7 +678,7 @@
 			"brighttext"	"0"
 			"Command"		"resume_game"
 			"proportionaltoparent"	"1"
-			"labeltext"		"Resume"
+			"labeltext"		"#MMenu_ResumeGame"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
@@ -702,7 +686,6 @@
 			"textinsety"	"5"
 			"textinsetx"	"22"
 			"use_proportional_insets"	"1"
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 

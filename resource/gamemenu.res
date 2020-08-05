@@ -1,18 +1,18 @@
 "GameMenu"
 {
-	"SteamWorkshopButton"
-	{
-		"label" 		""
-		"command"		"engine OpenSteamWorkshopDialog"
-		"subimage" 		"glyph_steamworkshop"
-		"tooltip" 		"#MMenu_Tooltip_Workshop"
-	}
 	"AchievementsButton"
 	{
 		"label"			""
 		"command"		"OpenAchievementsDialog"
 		"subimage" 		"glyph_achievements"
 		"tooltip" 		"#Achievements"
+	}
+	"ReplayButton"
+	{
+		"label"			""
+		"command"		"engine replay_reloadbrowser"
+		"subimage" 		"glyph_tv"
+		"tooltip" 		"#MMenu_Tooltip_Replay"
 	}
 	"ConsoleButton"
 	{
@@ -27,6 +27,13 @@
 		"command"		"engine bug"
 		"subimage"		"glyph_bug"
 		"tooltip"		"#MMenu_Tooltip_ReportBug"
+	}
+	"CoachPlayersButton"
+	{
+		"label" 		""
+		"command" 		"engine cl_coach_toggle"
+		"subimage" 		"glyph_commentary"
+		"tooltip" 		"#MMenu_Tooltip_Coach"
 	}
 	"CallVoteButton"
 	{

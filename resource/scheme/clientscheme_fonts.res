@@ -807,10 +807,9 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"10"
-				"weight"		"0"
-				"additive"		"0"
-				"antialias"		"1"
+				"tall"			"12"
+				"weight"		"700"
+				"yres"			"480 599"
 			}
 			"2"
 			{
@@ -850,7 +849,7 @@ Scheme
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 				"yres"			"480 599"
 			}
 			"2"
@@ -2056,8 +2055,8 @@ Scheme
 			"1"
 			{
 				"name"			"Verdana"
-				"tall"			"11"  	[!$OSX]
-				"tall"			"9"  	[$OSX]
+				"tall"			"11"	[!$OSX]
+				"tall"			"9"		[$OSX]
 				"weight"		"800"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2339,7 +2338,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"8"
+				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2362,17 +2361,6 @@ Scheme
 			{
 				"name"			"Cerbetica_edited"
 				"tall"			"14"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-		"ItemMeterFontSmall"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"6"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2527,7 +2515,7 @@ Scheme
 				"tall"			"16"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"QuestStickyText"
@@ -2642,7 +2630,7 @@ Scheme
 				"tall"			"13"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"QuestLargeText_Merasmus"
@@ -2653,7 +2641,7 @@ Scheme
 				"tall"			"16"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 
@@ -2676,7 +2664,7 @@ Scheme
 				"tall"			"8"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias"	 	"1"
+				"antialias"		"1"
 			}
 		}
 		"AdFont_PurchaseButton"
@@ -2866,7 +2854,7 @@ Scheme
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 		"ReplayLarger"
@@ -2964,18 +2952,6 @@ Scheme
 				"additive"		"0"
 				"antialias" 	"1"
 				"dropshadow"	"1"
-			}
-		}
-
-		"TF2ComboBox"
-		{
-			"1"
-			{
-				"name"			"TF2 Secondary"
-				"tall"			"11"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias"		"1"
 			}
 		}
 
@@ -3105,10 +3081,71 @@ Scheme
 		}
 		"7"
 		{
+			"font"	"resource/ocra.ttf"
+			"name"	"ocra"
+			"turkish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"swedish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"spanish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"polish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"norwegian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"danish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"hungarian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"german"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"french"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"finnish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"czech"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"russian"
+			{
+				"range" "0x0000 0x007E"
+			}
+		}
+		"8"
+		{
 			"font"	"resource/fonts/Cerbetica_bold.ttf"
 			"name"	"Cerbetica Bold"
 		}
-		"8"
+		"9"
 		{
 			"font"	"resource/fonts/Cerbetica_edited.ttf"
 			"name"	"Cerbetica_edited"
