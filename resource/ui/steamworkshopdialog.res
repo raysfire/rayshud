@@ -405,8 +405,8 @@
 				"labelText"			"#TF_SteamWorkshop_View"
 				"command"			"view"
 
-				"image_drawcolor"			"TanLight"
-				"image_disabledcolor" 		"ColorBlack"
+				"image_drawcolor"		"TanLight"
+				"image_disabledcolor" 	"ColorBlack"
 
 				"SubImage"
 				{

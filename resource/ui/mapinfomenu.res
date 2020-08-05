@@ -28,7 +28,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"		"TransparentBlack"
 	}
 
 	"MapInfoTitle"
@@ -107,13 +107,6 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoContinue"
-		"xpos"			"9999"
-	}
-
-	"MapInfoContinue2"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"MapInfoContinue2"
 		"xpos"			"c-60"
 		"ypos"			"c96"
 		"zpos"			"6"

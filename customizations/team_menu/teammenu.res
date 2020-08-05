@@ -2,7 +2,7 @@
 {
 	"team"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTeamMenu"
 		"fieldName"		"team"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -62,11 +62,11 @@
 
 	"SelectTeamLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"SelectTeamLabel"
 		"xpos"			"0"
 		"ypos"			"15"
-		"zpos"			"6"
+		"zpos"			"1"
 		"wide"			"255"
 		"tall"			"30"
 		"labelText"		"#TF_SelectATeam"
@@ -74,7 +74,7 @@
 		"font"			"CerbeticaBold32"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"TanLight"
+		"fgcolor_override"	"TanLight"
 	}
 
 	"teambutton0"
@@ -91,7 +91,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"&3. BLU"	[$WIN32]
+		"labelText"		"&3. BLU"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -132,14 +132,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"&4. RED"	[$WIN32]
+		"labelText"		"&4. RED"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"jointeam red"
 		"team"			"4"		// Red Team
 		"font"			"CerbeticaBold20"
-
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"235 226 202 255"
 		"depressedFgColor_override" "255 255 255 128"
@@ -180,7 +179,6 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam auto"
-
 		"font"			"CerbeticaBold20"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"235 226 202 255"
@@ -216,13 +214,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"&2. Spectate"	[$WIN32]
+		"labelText"		"&2. Spectate"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
-
 		"font"			"CerbeticaBold20"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"235 226 202 255"
@@ -288,7 +285,7 @@
 		"fieldName"		"RedCount"
 		"xpos"			"-10"
 		"ypos"			"c45"
-		"zpos"			"3"
+		"zpos"			"1"
 		"wide"			"255"
 		"tall"			"30"
 		"autoResize"	"0"
@@ -369,7 +366,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"CerbeticaBold12"
-		"fgcolor"		"235 226 202 255"
+		"fgcolor"		"TanLight"
 		"centerwrap"	"1"
 	}
 
@@ -391,7 +388,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"CerbeticaBold12"
-		"fgcolor"		"0 0 0 200"
+		"fgcolor"		"TransparentBlack"
 		"centerwrap"	"1"
 
 		"pin_to_sibling"		"TeamsFullLabel"

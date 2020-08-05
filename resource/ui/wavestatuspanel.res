@@ -75,7 +75,8 @@
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"TanLight"
 
-		if_verbose {
+		if_verbose
+		{
 			"visible"		"1"
 		}
 	}
@@ -96,7 +97,8 @@
 		"textAlignment"		"west"
 		"labelText"			"#TF_MVM_Support"
 
-		if_verbose {
+		if_verbose
+		{
 			"visible"		"1"
 		}
 	}
@@ -144,7 +146,6 @@
 		"fieldName"			"ProgressBarBG"
 		"xpos"				"210"
 		"ypos"				"19"
-		"ypos_minmode"		"9"
 		"zpos"				"3"
 		"wide"				"180"
 		"tall"				"12"

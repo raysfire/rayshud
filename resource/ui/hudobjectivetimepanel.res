@@ -18,7 +18,8 @@
 		"draw_corner_width"	"0"
 		"draw_corner_height" "0"
 
-		if_match {
+		if_match
+		{
 			"visible"		"0"
 		}
 	}
@@ -40,7 +41,8 @@
 		"color_warning"		"TimerProgress.Warning"
 		"percent_warning"	"0.75"
 
-		if_match {
+		if_match
+		{
 			"visible"		"0"
 		}
 	}

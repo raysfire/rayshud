@@ -203,6 +203,7 @@
 		"zpos"				"0"
 		"wide"				"365"
 		"tall"				"28"
+		"visible"			"0"
 		"proportionaltoaparent"	"1"
 		"border"			"NoBorder"
 	}

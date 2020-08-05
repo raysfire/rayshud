@@ -61,7 +61,7 @@
 
 	"TournamentNameEdit"
 	{
-		"ControlName"	"Label"
+		"ControlName"	"TextEntry"
 		"fieldName"		"TournamentNameEdit"
 		"xpos"			"30"
 		"ypos"			"27"

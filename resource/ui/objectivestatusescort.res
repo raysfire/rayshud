@@ -413,8 +413,6 @@
 			"if_multiple_trains"
 			{
 				"xpos"		"9999"
-				"wide"		"5"
-				"tall"		"10"
 			}
 
 			"if_multiple_trains_top"
@@ -486,33 +484,31 @@
 
 			"if_multiple_trains"
 			{
-				"xpos"			"22"
-				"wide"			"8"
-				"tall"			"8"
+				"xpos"		"22"
 			}
 
 			"if_multiple_trains_top"
 			{
-				"ypos"			"46"
+				"ypos"		"46"
 			}
 
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"83"
+				"ypos"		"83"
 			}
 		}
 
 		"EscortTeardrop"
 		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"EscortTeardrop"
-			"xpos"				"9999"
-			"ypos"				"9999"
-			"zpos"				"10"
-			"wide"				"50"
-			"tall"				"42"
-			"visible"			"0"
-			"enabled"			"0"
+			"ControlName"	"EditablePanel"
+			"fieldName"		"EscortTeardrop"
+			"xpos"			"9999"
+			"ypos"			"9999"
+			"zpos"			"10"
+			"wide"			"50"
+			"tall"			"42"
+			"visible"		"0"
+			"enabled"		"0"
 
 			"if_multiple_trains"
 			{
@@ -536,10 +532,6 @@
 				"scaleImage"	"1"
 				"icon"			"cappoint_progressbar_teardrop"
 				"iconColor"		"White"
-
-				"if_multiple_trains"
-				{
-				}
 			}
 
 			"ProgressText"

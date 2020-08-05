@@ -183,6 +183,7 @@
 		"fieldName"			"VictorySplash"
 		"xpos"				"0"
 		"ypos"				"0"
+		//"zpos"			"102"
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"

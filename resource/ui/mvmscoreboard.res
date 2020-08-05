@@ -47,10 +47,10 @@
 		"draw_corner_height" 	"0"
 	}
 
-	"ScoreboardBackground"
+	"PlayerListBG"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"			"ScoreboardBackground"
+		"fieldName"			"PlayerListBG"
 		"xpos"				"c-270"
 		"ypos"				"244"
 		"zpos"				"-1"
@@ -59,7 +59,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"0 0 0 200"
+		"fillcolor"			"TransparentBlack"
 	}
 
 	"MvMPlayerList"

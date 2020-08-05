@@ -57,7 +57,8 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"			"TextMessage"
-		"xpos"				"9999"
+		"visible"			"0"
+		"enabled"			"0"
 	}
 
 	"TFTextMessage"
@@ -69,7 +70,7 @@
 		"ypos"				"c-90"
 		"zpos"				"1"
 		"wide"				"340"
-		"tall"				"181"
+		"tall"				"180"
 		"autoResize"		"3"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -139,22 +140,13 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ShadedBar"
 		"xpos"				"9999"
-		"ypos"				"9999"
-		"zpos"				"5"
-		"wide"				"f0"
-		"tall"				"50"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"image"				"loadout_bottom_gradient"
-		"tileImage"			"1"
-		"PaintBackgroundType"	"0"
 	}
 
 	"MessageTitle"
 	{
 		"ControlName"		"Label"
 		"fieldName"			"MessageTitle"
-		"xpos"				"9999"
+		"visible"			"0"
+		"enabled"			"0"
 	}
 }

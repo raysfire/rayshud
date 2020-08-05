@@ -44,6 +44,23 @@
 		"proportionaltoparent"	"1"
 	}
 
+	"ToolTipButtonHack"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ToolTipButtonHack"
+		"xpos"			"cs-0.5"
+		"ypos"			"rs1-8"
+		"zpos"			"101"
+		"wide"			"f20"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"1"
+		"mouseinputenabled"	"1"
+		"eatmouseinput"	"0"
+		"showtooltipswhenmousedisabled"	"1"
+		"proportionaltoparent" "1"
+	}
+
 	"QueueButton"
 	{
 		"ControlName"	"CExButton"

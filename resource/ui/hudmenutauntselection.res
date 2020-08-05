@@ -188,10 +188,10 @@
 		"brighttext"	"0"
 	}
 
-	"NumberLabel1BG"
+	"NumberLabel1Shadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel1BG"
+		"fieldName"		"NumberLabel1Shadow"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"-2"
@@ -286,10 +286,10 @@
 		"brighttext"	"0"
 	}
 
-	"NumberLabel2BG"
+	"NumberLabel2Shadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel2BG"
+		"fieldName"		"NumberLabel2Shadow"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"-2"
@@ -384,10 +384,10 @@
 		"brighttext"	"0"
 	}
 
-	"NumberLabel3BG"
+	"NumberLabel3Shadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel3BG"
+		"fieldName"		"NumberLabel3Shadow"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"-2"
@@ -482,10 +482,10 @@
 		"brighttext"	"0"
 	}
 
-	"NumberLabel4BG"
+	"NumberLabel4Shadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel4BG"
+		"fieldName"		"NumberLabel4Shadow"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"-2"
@@ -580,10 +580,10 @@
 		"brighttext"	"0"
 	}
 
-	"NumberLabel5BG"
+	"NumberLabel5Shadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel5BG"
+		"fieldName"		"NumberLabel5Shadow"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"-2"
@@ -678,10 +678,10 @@
 		"brighttext"	"0"
 	}
 
-	"NumberLabel6BG"
+	"NumberLabel6Shadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel6BG"
+		"fieldName"		"NumberLabel6Shadow"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"-2"
@@ -776,10 +776,10 @@
 		"brighttext"	"0"
 	}
 
-	"NumberLabel7BG"
+	"NumberLabel7Shadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel7BG"
+		"fieldName"		"NumberLabel7Shadow"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TransparentBlack"
 		"ypos"			"-2"
@@ -874,10 +874,10 @@
 		"brighttext"	"0"
 	}
 
-	"NumberLabel8BG"
+	"NumberLabel8Shadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"NumberLabel8BG"
+		"fieldName"		"NumberLabel8Shadow"
 		"font"			"CerbeticaBold20"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"-2"

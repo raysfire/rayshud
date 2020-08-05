@@ -310,7 +310,7 @@
 			"labelText"		"#StatSummary_Label_PerformanceReport"
 			"textAlignment"	"west"
 			"xpos"			"c-285"
-			"ypos"			"170"
+			"ypos"			"185"
 			"wide"			"300"
 			"tall"			"20"
 			"autoResize"	"0"
@@ -424,7 +424,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel1"
-			"font"			"ScoreboardSmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%class1%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -543,7 +543,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel2"
-			"font"			"ScoreboardSmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%class2%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -662,7 +662,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel3"
-			"font"			"ScoreboardSmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%class3%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -781,7 +781,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel4"
-			"font"			"ScoreboardSmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%class4%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -900,7 +900,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel5"
-			"font"			"ScoreboardSmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%class5%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -1019,7 +1019,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel6"
-			"font"			"ScoreboardSmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%class6%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -1138,7 +1138,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel7"
-			"font"			"ScoreboardSmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%class7%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -1257,7 +1257,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel8"
-			"font"			"ScoreboardSmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%class8%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -1376,7 +1376,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel9"
-			"font"			"ScoreboardSmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%class9%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -1970,12 +1970,12 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TipImage"
 		"xpos"			"9999"
-		"ypos"			"9999"
+		"ypos"			"270"
 		"zpos"			"12"
 		"wide"			"35"
 		"tall"			"35"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"
 	}
@@ -1987,14 +1987,14 @@
 		"labelText"		"%tiptext%"
 		"textAlignment"	"west"
 		"xpos"			"9999"
-		"ypos"			"9999"
+		"ypos"			"263"
 		"zpos"			"12"
 		"wide"			"350"
 		"tall"			"48"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"wrap"			"1"
 	}
 
@@ -2002,7 +2002,7 @@
 	{
 		"ControlName"	"Button"
 		"fieldName"		"NextTipButton"
-		"xpos"			"c-248"
+		"xpos"			"9999"
 		"ypos"			"310"
 		"zpos"			"6"
 		"wide"			"90"
@@ -2017,6 +2017,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nexttip"
+		"border_default"	"ButtonHover"
+		"border_armed"		"ButtonHover"
 	}
 
 	"ResetStatsButton" [$WIN32]
@@ -2038,6 +2040,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"resetstatsbutton"
+		"border_default"	"ButtonHover"
+		"border_armed"		"ButtonHover"
 	}
 
 	"CloseButton" [$WIN32]
@@ -2052,12 +2056,14 @@
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#TF_Close"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"vguicancel"
+		"border_default"	"ButtonHover"
+		"border_armed"		"ButtonHover"
 	}
 }

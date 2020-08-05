@@ -761,6 +761,13 @@
 		}
 	}
 
+	"TournamentReadyHintIcon"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TournamentReadyHintIcon"
+		"wide"			"0"
+	}
+
 	"CountdownBG"
 	{
 		"ControlName"	"ScalableImagePanel"

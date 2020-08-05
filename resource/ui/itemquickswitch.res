@@ -62,13 +62,6 @@
 		"xpos"			"9999"
 	}
 
-	"NoItemsLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"NoItemsLabel"
-		"xpos"			"9999"
-	}
-
 	"TopLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -127,6 +120,13 @@
 			"fgcolor_override" "LightRed"
 			"bgcolor_override"	"Transparent"
 		}
+	}
+
+	"NoItemsLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"NoItemsLabel"
+		"xpos"			"9999"
 	}
 
 	"loadout_preset_panel"

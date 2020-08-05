@@ -46,7 +46,7 @@
 			"model_tall"			"35"
 			"text_center"			"1"
 			"name_only"				"1"
-			"text_forcesize"	 	"3"
+			"text_forcesize"		"3"
 			"noitem_use_fullpanel" 	"1"
 
 			"inset_eq_x"			"2"

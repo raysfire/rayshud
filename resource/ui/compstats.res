@@ -170,9 +170,9 @@
 					"font"				"MarlettSmall"
 					"textAlignment"		"west"
 
-					"defaultFgColor_override" 	"TanDark"
+					"defaultFgColor_override"	"TanDark"
 					"armedFgColor_override"		"TanDark"
-					"selectedFgColor_override" 	"TanDark"
+					"selectedFgColor_override"	"TanDark"
 				}
 
 				"ResultButton"
@@ -195,7 +195,7 @@
 
 					"defaultFgColor_override" 	"TanDark"
 					"armedFgColor_override"		"Orange"
-					"selectedFgColor_override" "TanLight"
+					"selectedFgColor_override"	"TanLight"
 
 					"image_selectedcolor"	"White"
 					"image_armedcolor"		"Transparent"

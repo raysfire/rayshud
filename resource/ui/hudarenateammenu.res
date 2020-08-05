@@ -73,7 +73,7 @@
 		"font"			"CerbeticaBold28"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"TanLight"
+		"fgcolor_override"	"TanLight"
 	}
 
 	"teambutton2"
@@ -156,6 +156,13 @@
 		"selectedBgColor_override"	"TanDarker"
 	}
 
+	"CancelButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CancelButton"
+		"wide"			"0"
+	}
+
 	"SpecBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -219,12 +226,5 @@
 		"ControlName"	"CModelPanel"
 		"fieldName"		"spectate"
 		"xpos"			"9999"
-	}
-
-	"CancelButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CancelButton"
-		"wide"			"0"
 	}
 }
