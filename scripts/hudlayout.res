@@ -583,7 +583,7 @@
 		"ypos"				"302"
 		"wide"				"150"
 		"tall"				"60"
-		"xpos_minmode"		"c135"
+		"xpos_minmode"		"c142"
 		"ypos_minmode"		"273"
 		"wide_minmode"		"120"
 		"tall_minmode"		"40"
@@ -1181,7 +1181,7 @@
 		"EngineerY"			"150"
 		"zpos"				"0"
 		"wide"				"200"
-		"tall"				"125"
+		"tall"				"120"
 		"visible"			"1"
 		"enabled"			"1"
 	}

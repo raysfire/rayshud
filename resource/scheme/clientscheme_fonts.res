@@ -727,7 +727,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica Bold"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
