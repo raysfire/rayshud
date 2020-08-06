@@ -400,7 +400,7 @@
 		"ControlName"		"CExButton"
 		"fieldName"			"random"
 		"xpos"				"30"
-		"ypos"				"r48"
+		"ypos"				"431"
 		"zpos"				"6"
 		"wide"				"80"
 		"tall"				"16"
@@ -424,14 +424,18 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
+
+		"stayselectedonclick"	"1"
+		"selectonhover"			"1"
+		"keyboardinputenabled"	"0"
 	}
 
 	"CancelButton" [$WIN32]
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"30"
-		"ypos"			"r28"
+		"xpos"			"130"
+		"ypos"			"431"
 		"zpos"			"6"
 		"wide"			"80"
 		"tall"			"16"
@@ -461,8 +465,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"EditLoadoutButton"
-		"xpos"			"125"
-		"ypos"			"r28"
+		"xpos"			"30"
+		"ypos"			"450"
 		"zpos"			"6"
 		"wide"			"110"
 		"tall"			"16"
