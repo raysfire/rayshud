@@ -5,11 +5,5 @@
 	"ItemNameLabel"
 	{
 		"labelText"			"#TF_Object_Dispenser"
-		"fgcolor_override"	"ColorRed"
-	}
-
-	"NumberLabel"
-	{
-		"fgcolor_override"	"ColorRed"
 	}
 }

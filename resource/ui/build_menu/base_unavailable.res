@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/base.res"
+"Resource/UI/build_menu/base_unavailable.res"
 {
 	"ItemNameLabel"
 	{
@@ -18,6 +18,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
+		"fgcolor"			"ColorRed"
 	}
 
 	"ItemBackground"
@@ -32,8 +33,8 @@
 		"visible"			"0"
 		"enabled"			"0"
 		"scaleImage"		"1"
-		"icon"				"hud_menu_item_bg"
-		"iconColor"			"Black"
+		"icon"				"hud_menu_item_bg_outline"
+		"iconColor"			"0 0 0 196"
 	}
 
 	"BuildingIcon"
@@ -45,11 +46,88 @@
 		"zpos"				"2"
 		"wide"				"56"
 		"tall"				"56"
+		"visible"			"0"
+		"enabled"			"0"
+		"scaleImage"		"1"
+		"icon"				"hud_menu_sentry_build"
+		"iconColor"			"ColorRed"
+	}
+
+	"CantBuildReason"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"CantBuildReason"
+		"font"				"Cerbetica14"
+		"fgcolor"			"ColorRed"
+		"xpos"				"0"
+		"ypos"				"60"
+		"zpos"				"2"
+		"wide"				"100"
+		"tall"				"18"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"#Hud_Menu_Build_Unavailable"
+		"textAlignment"		"center"
+	}
+
+	"MetalIcon"
+	{
+		"ControlName"		"CIconPanel"
+		"fieldName"			"MetalIcon"
+		"xpos"				"34"
+		"ypos"				"20"
+		"zpos"				"1"
+		"wide"				"10"
+		"tall"				"10"
 		"visible"			"1"
 		"enabled"			"1"
 		"scaleImage"		"1"
-		"icon"				"hud_menu_sentry_build"
-		"iconColor"			"White"
+		"icon"				"ico_metal"
+		"iconColor"			"ColorRed"
+	}
+
+	"CostLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"CostLabel"
+		"font"				"Cerbetica14"
+		"fgcolor"			"ColorRed"
+		"xpos"				"50"
+		"ypos"				"20"
+		"zpos"				"4"
+		"wide"				"50"
+		"tall"				"10"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"%metal%"
+		"textAlignment"		"Left"
+	}
+
+	"CostLabelShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"CostLabelShadow"
+		"font"				"Cerbetica14"
+		"fgcolor"			"TransparentBlack"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"0"
+		"wide"				"50"
+		"tall"				"10"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"%metal%"
+		"textAlignment"		"Left"
+
+		"pin_to_sibling"		"CostLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 
 	"ModeLabel"
@@ -57,7 +135,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"ModeLabel"
 		"font"				"DefaultSmall"
-		"fgcolor"			"TanDarker"
+		"fgcolor"			"TanDark"
 		"xpos"				"33"
 		"ypos"				"17"
 		"zpos"				"1"
@@ -92,7 +170,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
 		"font"				"Cerbetica20"
-		"fgcolor"			"TanLight"
+		"fgcolor"			"ColorRed"
 		"xpos"				"0"
 		"ypos"				"95"
 		"zpos"				"1"

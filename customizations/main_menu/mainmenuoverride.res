@@ -393,7 +393,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay\thumbnails\raysfox"
+		"image"			"replay\thumbnails\nogc"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
 	}
@@ -1997,7 +1997,7 @@
 		"tall"			"370"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"25 25 25 148"
+		"bgcolor_override"		"25 25 25 168"
 		"PaintBackgroundType"	"2"
 	}
 

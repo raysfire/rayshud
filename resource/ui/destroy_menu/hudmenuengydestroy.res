@@ -8,10 +8,10 @@
 		"ypos"				"20"
 		"zpos"				"0"
 		"wide"				"400"
-		"tall"				"130"
+		"tall"				"120"
 		"visible"			"1"
 		"enabled"			"1"
-		"paintbackground" 	"0"
+		"paintbackground"	"0"
 	}
 
 	"DestroyIcon"
@@ -33,7 +33,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
-		"font"				"CerbeticaBold32"
+		"font"				"CerbeticaBold28"
 		"xpos"				"20"
 		"ypos"				"0"
 		"zpos"				"2"
@@ -44,7 +44,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"#Hud_menu_demolish_title"
-		"textAlignment"		"Left"
+		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
@@ -53,7 +53,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabelDropshadow"
-		"font"				"CerbeticaBold32"
+		"font"				"CerbeticaBold28"
 		"fgcolor"			"TransparentBlack"
 		"xpos"				"-2"
 		"ypos"				"-2"
@@ -65,7 +65,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"#Hud_menu_demolish_title"
-		"textAlignment"		"Left"
+		"textAlignment"		"west"
 		"dulltext"			"1"
 		"brighttext"		"0"
 
@@ -192,7 +192,7 @@
 
 	"unavailable_item_1"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"CEngyDestroyMenuItem"
 		"fieldName"			"unavailable_item_1"
 		"xpos"				"0"
 		"ypos"				"20"
@@ -204,7 +204,7 @@
 
 	"unavailable_item_2"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"CEngyDestroyMenuItem"
 		"fieldName"			"unavailable_item_2"
 		"xpos"				"100"
 		"ypos"				"20"
@@ -216,7 +216,7 @@
 
 	"unavailable_item_3"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"CEngyDestroyMenuItem"
 		"fieldName"			"unavailable_item_3"
 		"xpos"				"200"
 		"ypos"				"20"
@@ -228,7 +228,7 @@
 
 	"unavailable_item_4"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"CEngyDestroyMenuItem"
 		"fieldName"			"unavailable_item_4"
 		"xpos"				"300"
 		"ypos"				"20"
@@ -246,7 +246,7 @@
 		"ypos"				"20"
 		"zpos"				"1"
 		"wide"				"400"
-		"tall"				"130"
+		"tall"				"120"
 		"visible"			"1"
 		"enabled"			"1"
 		"bgcolor_override"	"TransparentBlack"
