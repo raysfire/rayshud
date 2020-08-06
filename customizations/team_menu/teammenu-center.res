@@ -46,11 +46,10 @@
 	"teambutton0"
 	{
 		"xpos"			"c-110"
-		"ypos"			"210"
+		"ypos"			"c-20"
 		"wide"			"110"
 		"tall"			"40"
-		"labelText"		"&3. Blue Team"	[$WIN32]
-		"textAlignment"	"center"
+		"textAlignment"	"north"
 		"font"			"CerbeticaBold16"
 	}
 
@@ -65,11 +64,10 @@
 	"teambutton1"
 	{
 		"xpos"			"c0"
-		"ypos"			"210"
+		"ypos"			"c-20"
 		"wide"			"110"
 		"tall"			"40"
-		"labelText"		"&4. Red Team"	[$WIN32]
-		"textAlignment"	"center"
+		"textAlignment"	"north"
 		"font"			"CerbeticaBold16"
 	}
 
@@ -87,7 +85,6 @@
 		"ypos"			"c-40"
 		"wide"			"220"
 		"tall"			"20"
-		"labelText"		"&1. Auto-Join"
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
 	}
@@ -104,7 +101,6 @@
 		"ypos"			"c20"
 		"wide"			"220"
 		"tall"			"20"
-		"labelText"		"&2. Spectate"	[$WIN32]
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
 	}
@@ -117,59 +113,55 @@
 
 	"BlueCount"
 	{
-		"xpos"			"c-157"
-		"ypos"			"c-10"
-		"wide"			"90"
+		"xpos"			"c-115"
+		"ypos"			"c-15"
+		"wide"			"48"
+		"tall"			"40"
 		"font"			"Cerbetica14"
+		"textAlignment"	"east"
 		"fgcolor"		"255 255 255 175"
 	}
 	"BlueCountPlayers"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCountPlayers"
-		"xpos"			"c-120"
-		"ypos"			"c-10"
+		"xpos"			"c-60"
+		"ypos"			"c-15"
 		"zpos"			"1"
-		"wide"			"90"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"wide"			"55"
+		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"players"
-		"textAlignment"	"east"
-		"dulltext"		"0"
-		"brighttext"	"1"
+		"textAlignment"	"west"
 		"font"			"Cerbetica14"
 		"fgcolor"		"255 255 255 175"
 	}
 
 	"RedCount"
 	{
-		"xpos"			"c-51"
-		"ypos"			"c-10"
-		"wide"			"90"
+		"xpos"			"c0"
+		"ypos"			"c-15"
+		"wide"			"43"
+		"tall"			"40"
 		"labelText"		"%redcount%"
 		"font"			"Cerbetica14"
+		"textAlignment"	"east"
 		"fgcolor"		"255 255 255 175"
 	}
 	"RedCountPlayers"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedCountPlayers"
-		"xpos"			"c-14"
-		"ypos"			"c-10"
+		"xpos"			"c50"
+		"ypos"			"c-15"
 		"zpos"			"1"
-		"wide"			"90"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"wide"			"55"
+		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"players"
-		"textAlignment"	"east"
-		"dulltext"		"0"
-		"brighttext"	"1"
+		"textAlignment"	"west"
 		"font"			"Cerbetica14"
 		"fgcolor"		"255 255 255 175"
 	}

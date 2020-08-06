@@ -49,7 +49,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"Cerbetica24"
+		"font"				"HudFontMedium"
 		"fgcolor"			"TanLight"
 	}
 
@@ -118,7 +118,7 @@
 		"wrap"				"0"
 		"command"			"okay"
 		"default"			"1"
-		"font"				"Cerbetica24"
+		"font"				"HudFontMedium"
 		"paintbackground"	"0"
 
 		"fgcolor"					"TanLight"

@@ -9,11 +9,9 @@
 		"zpos"				"6"
 		"wide"				"600"
 		"tall"				"14"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"0 0 0 220"
+		"fillcolor"			"TransparentBlack"
 	}
 
 	"TargetBackground2"
@@ -54,18 +52,16 @@
 
 	"TargetIDBG_Spec_Blue"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"			"TargetIDBG_Spec_Blue"
 		"xpos"				"0"
 		"ypos"				"43"
 		"zpos"				"6"
 		"wide"				"252"
 		"tall"	 			"10"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"1"
-		"image"				"../hud/color_panel_blu"
+		"fillcolor"			"0 28 162 255"
 
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
@@ -75,18 +71,16 @@
 
 	"TargetIDBG_Spec_Red"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"			"TargetIDBG_Spec_Red"
 		"xpos"				"0"
 		"ypos"				"43"
 		"zpos"				"6"
 		"wide"				"252"
 		"tall"	 			"10"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"1"
-		"image"				"../hud/color_panel_red"
+		"fillcolor"			"192 28 0 255"
 
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
@@ -207,8 +201,8 @@
 		"scaleImage"		"1"
 
 		"pin_to_sibling"		"KillStreakAnchor"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
 	}
 
 	"MoveableSubPanel"

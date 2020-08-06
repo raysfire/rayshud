@@ -64,7 +64,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BlueTeamScore"
-			"font"				"Cerbetica48"
+			"font"				"CerbeticaBold40"
 			"labelText"			"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"				"15"
@@ -81,7 +81,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BlueTeamScoreDropshadow"
-			"font"				"Cerbetica48"
+			"font"				"CerbeticaBold40"
 			"fgcolor"			"TransparentBlack"
 			"labelText"			"%blueteamscore%"
 			"textAlignment"		"east"
@@ -138,7 +138,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamScore"
-			"font"				"Cerbetica48"
+			"font"				"CerbeticaBold40"
 			"labelText"			"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"				"105"
@@ -155,7 +155,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamScoreDropshadow"
-			"font"				"Cerbetica48"
+			"font"				"CerbeticaBold40"
 			"fgcolor"			"TransparentBlack"
 			"labelText"			"%redteamscore%"
 			"textAlignment"		"west"
@@ -208,21 +208,18 @@
 	}
 	"WinPanelBG2"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"WinPanelBG2"
 		"xpos"			"0"
 		"ypos"			"55"
-		"zpos"			"0"
+		"zpos"			"-3"
 		"wide"			"300"
 		"tall"			"152"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"
-		"fillcolor"		"0 0 0 250"
-		"src_corner_height" 	"3"
-		"src_corner_width" 		"3"
-		"draw_corner_width" 	"0"
-		"draw_corner_height" 	"0"
+		"paintborder"	"0"
+		"bgcolor_override"		"0 0 0 250"
+		"PaintBackgroundType"	"2"
 	}
 	"WinningTeamLabel"
 	{
@@ -256,8 +253,8 @@
 		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"%WinningTeamLabel%"
 		"textAlignment"	"Center"
 		"dulltext"		"0"
@@ -321,7 +318,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DetailsLabel"
-		"font"			"Cerbetica9"
+		"font"			"ScoreboardVerySmall"
 		"xpos"			"10"
 		"ypos"			"82"
 		"zpos"			"1"
@@ -347,7 +344,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TopPlayerLabel"
-		"font"			"Cerbetica9"
+		"font"			"ScoreboardVerySmall"
 		"xpos"			"15"
 		"ypos"			"100"
 		"zpos"			"3"
@@ -366,7 +363,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
-		"font"			"Cerbetica9"
+		"font"			"ScoreboardVerySmall"
 		"xpos"			"45"
 		"ypos"			"100"
 		"zpos"			"3"
@@ -655,7 +652,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakLeaderLabel"
-		"font"			"Cerbetica9"
+		"font"			"ScoreboardVerySmall"
 		"xpos"			"15"
 		"ypos"			"164"
 		"zpos"			"3"
@@ -675,7 +672,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakMaxCountLabel"
-		"font"			"Cerbetica9"
+		"font"			"ScoreboardVerySmall"
 		"xpos"			"116"
 		"ypos"			"0"
 		"zpos"			"3"

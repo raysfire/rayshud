@@ -46,7 +46,7 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"font"			"Cerbetica24"
+		"font"			"HudFontMedium"
 		"fgcolor"		"TanLight"
 	}
 
@@ -123,7 +123,7 @@
 		"brighttext"	"0"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"Cerbetica24"
+		"font"			"HudFontMedium"
 		"paintbackground"	"0"
 
 		"fgcolor"					"TanLight"
@@ -158,7 +158,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"Cerbetica24"
+		"font"			"HudFontMedium"
 		"paintbackground"	"0"
 
 		"fgcolor"					"TanLight"

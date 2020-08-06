@@ -126,7 +126,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"		"TransparentBlack"
 
 		if_mvm
 		{
@@ -195,7 +195,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamName"
-		"font"			"Cerbetica32"
+		"font"			"HudFontMediumBig"
 		"labelText"		"%blueteamname%"
 		"textAlignment"	"west"
 		"xpos"			"c-265"
@@ -282,7 +282,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamName"
-		"font"			"Cerbetica32"
+		"font"			"HudFontMediumBig"
 		"labelText"		"%redteamname%"
 		"textAlignment"	"east"
 		"xpos"			"c45"
@@ -375,8 +375,8 @@
 		"font"			"Cerbetica14"
 		"labelText"		"%server%"
 		"textAlignment"	"west"
-		"xpos"			"-34"
-		"ypos"			"14"
+		"xpos"			"5"
+		"ypos"			"20"
 		"zpos"			"999"
 		"wide"			"600"
 		"tall"			"20"
@@ -392,8 +392,8 @@
 		"font"			"Cerbetica20"
 		"labelText"		"%servertime%"
 		"textAlignment"	"west"
-		"xpos"			"2"
-		"ypos"			"2"
+		"xpos"			"5"
+		"ypos"			"5"
 		"zpos"			"999"
 		"wide"			"600"
 		"tall"			"20"
@@ -477,7 +477,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Spectators"
-		"font"			"Cerbetica11"
+		"font"			"HudFontSmallest"
 		"labelText"		"%spectators%"
 		"textAlignment"	"west"
 		"xpos"			"c-266"
@@ -495,7 +495,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SpectatorsInQueue"
-		"font"			"Cerbetica11"
+		"font"			"HudFontSmallest"
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"	"west"
 		"xpos"			"2"
@@ -580,8 +580,8 @@
 		"font"			"Cerbetica14"
 		"labelText"		"%mapname%"
 		"textAlignment"	"west"
-		"xpos"			"3"
-		"ypos"			"25"
+		"xpos"			"5"
+		"ypos"			"35"
 		"zpos"			"3"
 		"wide"			"480"
 		"tall"			"20"
@@ -870,7 +870,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"KillsLabel"
-			"font"			"Cerbetica48"
+			"font"			"HudFontGiantBold"
 			"labelText"		":"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -887,7 +887,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Kills"
-			"font"			"Cerbetica48"
+			"font"			"HudFontGiantBold"
 			"labelText"		"%kills%"
 			"textAlignment"	"east"
 			"xpos"			"9999"
@@ -904,7 +904,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Kills2"
-			"font"			"Cerbetica48"
+			"font"			"HudFontGiantBold"
 			"labelText"		"%kills%"
 			"textAlignment"	"east"
 			"xpos"			"188"
@@ -940,7 +940,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Deaths"
-			"font"			"Cerbetica48"
+			"font"			"HudFontGiantBold"
 			"labelText"		"%deaths%"
 			"textAlignment"	"west"
 			"xpos"			"9999"
@@ -957,7 +957,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Deaths2"
-			"font"			"Cerbetica48"
+			"font"			"HudFontGiantBold"
 			"labelText"		"%deaths%"
 			"textAlignment"	"west"
 			"xpos"			"282"

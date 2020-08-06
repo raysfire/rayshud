@@ -218,6 +218,20 @@
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 
+	"HealthClusterIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthClusterIcon"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../hud/ico_health_cluster"
+		"scaleImage"	"1"
+	}
+
 	"ResistIconAnchor"
 	{
 		"ControlName"		"EditablePanel"

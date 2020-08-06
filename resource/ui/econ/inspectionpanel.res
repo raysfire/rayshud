@@ -218,12 +218,11 @@
 		"wide"			"300"
 		"tall"			"100"
 		"zpos"			"100"
-		//"paintborder"	"0"
-		"border"		"NoBorder"
-		"mouseinputenabled"	"1"
-		"proportionaltoparent"	"1"
 		"visible"		"0"
 		"bgcolor_override"	"DarkerGrey"
+		"border"				"NoBorder"
+		"mouseinputenabled"		"1"
+		"proportionaltoparent"	"1"
 
 		"fixed_item"
 		{

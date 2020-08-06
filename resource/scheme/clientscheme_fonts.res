@@ -3,22 +3,22 @@ Scheme
 	Fonts
 	{
 		// CUSTOM
+		"Cerbetica72"
+		{
+			"1"
+			{
+				"name"			"Cerbetica_edited"
+				"tall"			"72"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 		"CerbeticaBold72"
 		{
 			"1"
 			{
 				"name"			"Cerbetica Bold"
 				"tall"			"72"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold64"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall" 		 	"64"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -44,72 +44,42 @@ Scheme
 				"outline"	 	"1"
 			}
 		}
-		"CerbeticaBold50"
+		"Cerbetica48"
 		{
 			"1"
 			{
-				"name"			"Cerbetica Bold"
-				"tall" 		 	"50"
+				"name"			"Cerbetica_edited"
+				"tall"			"48"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 		}
-		"CerbeticaBold48"
+		"CerbeticaBold40"
 		{
 			"1"
 			{
 				"name"			"Cerbetica Bold"
-				"tall" 		 	"48"
+				"tall"			"40"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 		}
-		"CerbeticaBold46"
+		"Cerbetica40"
 		{
 			"1"
 			{
-				"name"			"Cerbetica Bold"
-				"tall" 		 	"46"
+				"name"			"Cerbetica_edited"
+				"tall"			"40"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 		}
-		"CerbeticaBold44"
+		"Cerbetica32"
 		{
 			"1"
 			{
-				"name"			"Cerbetica Bold"
-				"tall" 		 	"44"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold42"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"42"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold37"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"37"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold36"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"36"
+				"name"			"Cerbetica_edited"
+				"tall"			"32"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -145,12 +115,22 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"CerbeticaBold27"
+		"Cerbetica26"
 		{
 			"1"
 			{
-				"name"			"Cerbetica Bold"
-				"tall"			"27"
+				"name"			"Cerbetica_edited"
+				"tall"			"26"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Cerbetica24"
+		{
+			"1"
+			{
+				"name"			"Cerbetica_edited"
+				"tall"			"24"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -176,284 +156,21 @@ Scheme
 				"outline"	 	"1"
 			}
 		}
-		"CerbeticaBold22"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"22"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold20"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"20"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold18"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"18"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold17"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"17"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold16"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"16"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBoldOutline16"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"16"
-				"additive"	 	"0"
-				"antialias"	 	"1"
-				"outline"	 	"1"
-			}
-		}
-		"CerbeticaBold15"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"15"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold14"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"14"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold13"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"13"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold12"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"12"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold10"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"10"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaBold8"
-		{
-			"1"
-			{
-				"name"			"Cerbetica Bold"
-				"tall"			"8"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica72"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"72"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica60"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"60"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica56"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"56"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica55"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"55"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-
-		"Cerbetica54"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"54"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica52"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"52"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica48"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"48"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica44"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"44"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica40"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"40"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica36"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"36"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica32"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"32"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica28"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"26"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica26"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"26"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Cerbetica24"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"24"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CerbeticaOutline24"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"24"
-				"additive"	 	"0"
-				"antialias"	 	"1"
-				"outline"	 	"1"
-			}
-		}
 		"Cerbetica22"
 		{
 			"1"
 			{
 				"name"			"Cerbetica_edited"
+				"tall"			"22"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"CerbeticaBold22"
+		{
+			"1"
+			{
+				"name"			"Cerbetica Bold"
 				"tall"			"22"
 				"additive"		"0"
 				"antialias"		"1"
@@ -469,11 +186,31 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"CerbeticaBold20"
+		{
+			"1"
+			{
+				"name"			"Cerbetica Bold"
+				"tall"			"20"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 		"Cerbetica18"
 		{
 			"1"
 			{
 				"name"			"Cerbetica_edited"
+				"tall"			"18"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"CerbeticaBold18"
+		{
+			"1"
+			{
+				"name"			"Cerbetica Bold"
 				"tall"			"18"
 				"additive"		"0"
 				"antialias"		"1"
@@ -489,11 +226,21 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Cerbetica15"
+		"CerbeticaBold16"
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
+				"name"			"Cerbetica Bold"
+				"tall"			"16"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"CerbeticaBold15"
+		{
+			"1"
+			{
+				"name"			"Cerbetica Bold"
 				"tall"			"15"
 				"additive"		"0"
 				"antialias"		"1"
@@ -509,11 +256,31 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"CerbeticaBold14"
+		{
+			"1"
+			{
+				"name"			"Cerbetica Bold"
+				"tall"			"14"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 		"Cerbetica12"
 		{
 			"1"
 			{
 				"name"			"Cerbetica_edited"
+				"tall"			"12"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"CerbeticaBold12"
+		{
+			"1"
+			{
+				"name"			"Cerbetica Bold"
 				"tall"			"12"
 				"additive"		"0"
 				"antialias"		"1"
@@ -557,16 +324,6 @@ Scheme
 				"tall"			"8"
 				"additive"		"0"
 				"antialias"		"1"
-			}
-		}
-		"Cerbetica7"
-		{
-			"1"
-			{
-				"name"			"Cerbetica_edited"
-				"tall"			"7"
-				"additive"		"0"
-				"antialias" 	"1"
 			}
 		}
 
@@ -1060,7 +817,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"11"
+				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1071,7 +828,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"11"
+				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1082,8 +839,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_edited"
-				"tall"			"11"
+				"name"			"Cerbetica Bold"
+				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1095,7 +852,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"4"
+				"tall"			"6"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias"		"1"
@@ -1617,7 +1374,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"8"
+				"tall"			"9"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"

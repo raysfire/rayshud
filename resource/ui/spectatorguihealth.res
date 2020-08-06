@@ -42,10 +42,10 @@
 		"scaleImage"	"1"
 	}
 
-	"PlayerStatusHealthValue"
+	"GuiPlayerHealth"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
+		"fieldName"		"GuiPlayerHealth"
 		"xpos"			"2"
 		"ypos"			"19"
 		"zpos"			"5"
@@ -59,10 +59,10 @@
 		"fgcolor"		"Health Normal"
 	}
 
-	"PlayerStatusHealthValueShadow"
+	"GuiPlayerHealthShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueShadow"
+		"fieldName"		"GuiPlayerHealthShadow"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"5"
@@ -75,7 +75,7 @@
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"TransparentBlack"
 
-		"pin_to_sibling"		"PlayerStatusHealthValue"
+		"pin_to_sibling"		"GuiPlayerHealth"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}

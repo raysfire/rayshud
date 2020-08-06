@@ -38,10 +38,10 @@
 		"image"			""
 	}
 
-	"PlayerStatusHealthValueSpectator"
+	"GuiPlayerHealth"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueSpectator"
+		"fieldName"		"GuiPlayerHealth"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
@@ -55,10 +55,10 @@
 		"fgcolor"		"Spec Health Normal"
 	}
 
-	"PlayerStatusHealthValueSpectatorBG"
+	"GuiPlayerHealthShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueSpectatorBG"
+		"fieldName"		"GuiPlayerHealthShadow"
 		"xpos"			"2"
 		"ypos"			"2"
 		"zpos"			"4"
@@ -69,6 +69,10 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
-		"fgcolor"		"0 0 0 100"
+		"fgcolor"		"TransparentBlack"
+
+		"pin_to_sibling"		"GuiPlayerHealth"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 }

@@ -139,7 +139,7 @@
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabel"
 			"font"			"Cerbetica12"
-			"xpos"			"40"
+			"xpos"			"25"
 			"ypos"			"15"
 			"zpos"			"1"
 			"wide"			"198"
@@ -149,7 +149,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Killer"
-			"textAlignment"	"west"
+			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}

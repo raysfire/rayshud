@@ -291,6 +291,12 @@
 		"tall"			"32"
 	}
 
+	"PlayerStatusHookBleedImage"
+	{
+		"wide"			"32"
+		"tall"			"32"
+	}
+
 	"PlayerStatusSlowed"
 	{
 		"wide"			"32"
