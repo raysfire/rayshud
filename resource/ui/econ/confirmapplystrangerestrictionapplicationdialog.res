@@ -1,8 +1,8 @@
-"Resource/UI/ConfirmApplyPaintCanDialog.res"
+"Resource/UI/ConfirmApplyStrangeRestrictionApplicationDialog.res"
 {
-	"ConfirmApplyPaintCanDialog"
+	"ConfirmApplyStrangeRestrictionApplicationDialog"
 	{
-		"fieldName"				"ConfirmApplyPaintCanDialog"
+		"fieldName"				"ConfirmApplyStrangeRestrictionApplicationDialog"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-200"
@@ -17,16 +17,16 @@
 
 	"mouseoveritempanel"
 	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"mouseoveritempanel"
-		"xpos"			"c-70"
-		"ypos"			"270"
-		"zpos"			"100"
-		"wide"			"300"
-		"tall"			"300"
-		"visible"		"0"
-		"bgcolor_override"		"Transparent"
-		"noitem_textcolor"		"TextColor"
+		"ControlName"		"CItemModelPanel"
+		"fieldName"			"mouseoveritempanel"
+		"xpos"				"c-70"
+		"ypos"				"270"
+		"zpos"				"100"
+		"wide"				"300"
+		"tall"				"300"
+		"visible"			"0"
+		"bgcolor_override"	"Transparent"
+		"noitem_textcolor"	"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"		"1"
 		"text_ypos"			"20"
@@ -141,6 +141,7 @@
 		"paintbackground" "0"
 		"border"		"BackpackItemBorder_Vintage"
 	}
+
 	"subject_modelpanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -167,6 +168,7 @@
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
+			"inventory_image_type"	"1"
 		}
 	}
 
@@ -175,65 +177,16 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ConfirmLabel"
 		"font"			"HudFontSmall"
-		"labelText"		"#ToolPaintConfirm"
+		"labelText"		"#ToolStrangeRestrictionApplyConfirm"
 		"textAlignment"	"center"
 		"xpos"			"20"
 		"ypos"			"80"
 		"zpos"			"0"
 		"wide"			"360"
-		"tall"			"20"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "Yellow"
-	}
-
-	"paint_model"
-	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"paint_model"
-		"xpos"			"150"
-		"ypos"			"95"
-		"zpos"			"1"
-		"wide"			"100"
 		"tall"			"100"
-		"visible"		"1"
-		"bgcolor_override"		"Transparent"
-		"noitem_textcolor"		"TextColor"
-		"PaintBackgroundType"	"2"
-		"paintborder"	"0"
-		"model_xpos"	"2"
-		"model_ypos"	"5"
-		"model_wide"	"100"
-		"model_tall"	"100"
-		"text_ypos"		"100"
-		"text_center"	"1"
-		"name_only"		"1"
-		"paint_icon_hide" "1"
-		"itemmodelpanel"
-		{
-			"force_use_model"		"1"
-			"use_item_rendertarget" "1"
-			"allow_rot"				"1"
-		}
-	}
-
-	"WarningLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"WarningLabel"
-		"font"			"HudFontSmall"
-		"labelText"		"#ToolPaintConfirmWarning"
-		"textAlignment"	"center"
-		"xpos"			"0"
-		"ypos"			"170"
-		"zpos"			"0"
-		"wide"			"400"
-		"tall"			"20"
 		"autoResize"	"1"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "Yellow"
 	}

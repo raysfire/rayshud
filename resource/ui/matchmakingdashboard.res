@@ -333,7 +333,7 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HudFontSmallestBold"
+				"font"			"HudFontSmall"
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"west"
 				"labelText"		"%queue_state%"
@@ -396,7 +396,7 @@
 				"ControlName"	"CExImageButton"
 				"fieldName"		"CloseButton"
 				"xpos"			"rs1-6"
-				"ypos"			"11"
+				"ypos"			"12"
 				"zpos"			"10"
 				"wide"			"14"
 				"tall"			"14"
@@ -637,6 +637,7 @@
 
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override"		"TanLight"
+
 			"image_drawcolor"			"TanLight"
 			"image_armedcolor"			"TanLight"
 
@@ -743,7 +744,6 @@
 			"textinsetx"		"25"
 			"textinsety"		"5"
 			"use_proportional_insets"	"1"
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 

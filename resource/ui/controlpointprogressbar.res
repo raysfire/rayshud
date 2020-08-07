@@ -9,8 +9,6 @@
 		"zpos"			"20"
 		"wide"			"100"
 		"tall"			"65"
-		"wide_minmode"	"65"
-		"tall_minmode"	"42"
 		"visible"		"0"
 		"enabled"		"1"
 	}

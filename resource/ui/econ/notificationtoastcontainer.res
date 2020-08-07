@@ -32,7 +32,7 @@
 		"wrap"			"1"
 		"labelText"		""
 		"textAlignment"	"North"
-		"font"			"ItemFontNameSmall"
+		"font"			"TeamMenu"
 		"textinsetx"	"2"
 		"textinsety"	"7"
 	}

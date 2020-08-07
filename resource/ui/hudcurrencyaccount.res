@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Currency"
-		"font"			"Cerbetica14"
+		"font"			"HudFontSmall"
 		"fgcolor"		"CreditsGreen"
 		"xpos"			"45"
 		"ypos"			"0"
@@ -28,7 +28,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 200"
+		"bgcolor_override"	"TransparentBlack"
 		"PaintBackgroundType"	"2"
 	}
 
@@ -36,7 +36,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyLabel"
-		"font"			"Cerbetica14"
+		"font"			"HudFontSmall"
 		"fgcolor"		"TanLight"
 		"xpos"			"4"
 		"ypos"			"0"

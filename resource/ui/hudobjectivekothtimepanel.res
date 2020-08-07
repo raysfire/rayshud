@@ -10,7 +10,7 @@
 
 	"BlueTimer"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -24,7 +24,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-.7"
-			"ypos"					"4"
+			"ypos"					"5"
 			"delta_item_x"			"10"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -64,7 +64,7 @@
 
 	"RedTimer"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
 		"xpos"				"50"
 		"ypos"				"0"
@@ -78,7 +78,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.77"
-			"ypos"					"4"
+			"ypos"					"5"
 			"delta_item_x"			"50"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -118,7 +118,7 @@
 
 	"ActiveTimerBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"ActiveTimerBG"
 		"xpos"				"15"
 		"ypos"				"25"
@@ -127,6 +127,7 @@
 		"tall"				"3"
 		"visible"			"0"
 		"enabled"			"1"
-		"fillcolor"			"TanLight"
+		"bgcolor_override"	"TanLight"
+		"PaintBackgroundType"	"0"
 	}
 }

@@ -2,6 +2,9 @@
 
 Scheme
 {
+    //////////////////////// COLORS ///////////////////////////
+	// color details
+	// this is a list of all the colors used by the scheme
 	Colors
 	{
 		// HUD COLORS
@@ -125,7 +128,7 @@ Scheme
 		Menu.BgColor						"HudBlack"
 		Menu.ArmedFgColor					"Black"
 		Menu.ArmedBgColor					"White"
-`		Menu.DividerColor					"Border.Dark"
+		Menu.DividerColor					"Border.Dark"
 
 		ScrollBarButton.FgColor				"White"
 		ScrollBarButton.BgColor				"Black"

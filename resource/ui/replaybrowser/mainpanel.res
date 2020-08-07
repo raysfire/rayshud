@@ -161,7 +161,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Back (&Q)"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmall"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

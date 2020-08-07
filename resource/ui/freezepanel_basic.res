@@ -41,7 +41,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"0 0 0 100"
+			"fillcolor"		"TransparentBlack"
 		}
 
 		"TitleBackground"
@@ -57,7 +57,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"0 0 0 100"
+			"fillcolor"		"TransparentBlack"
 		}
 
 		"itemmodelpanel"
@@ -72,7 +72,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmall"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"
@@ -138,7 +138,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabel"
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmall"
 			"xpos"			"25"
 			"ypos"			"15"
 			"zpos"			"1"
@@ -176,7 +176,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmall"
 			"xpos"			"25"
 			"ypos"			"30"
 			"zpos"			"1"

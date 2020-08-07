@@ -12,6 +12,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor"		"255 0 0 255"
 		"tabPosition"	"0"
 	}
 
@@ -21,13 +22,13 @@
 		"fieldName"		"SidePanelBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1"
+		"zpos"			"0"
 		"wide"			"255"
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"0 0 0 60"
+		"fillcolor"		"0 0 0 120"
 	}
 
 	"SysMenu"
@@ -97,30 +98,10 @@
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
 		"font"			"CerbeticaBold20"
-
-		"defaultFgColor_override"	"255 255 255 128"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override"	"255 255 255 128"
-		"selectedFgColor_override"	"TanLight"
-
-		"defaultBgColor_override"	"0 0 0 200"
-		"armedBgColor_override"		"TanDarker"
-		"depressedBgColor_override"	"0 0 0 200"
-		"selectedBgColor_override"	"TanDarker"
-	}
-
-	"JoinBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"JoinBG"
-		"xpos"			"0"
-		"ypos"			"c-35"
-		"zpos"			"0"
-		"wide"			"255"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 200"
+		"defaultFgColor_override" 	"255 255 255 128"
+		"armedFgColor_override"		"235 226 202 255"
+		"depressedFgColor_override" "255 255 255 128"
+		"selectedFgColor_override" 	"235 226 202 255"
 	}
 
 	"teambutton3"
@@ -144,37 +125,24 @@
 		"paintborder"	"0"
 		"command"		"jointeam spectatearena"
 		"font"			"CerbeticaBold20"
-
-		"defaultFgColor_override"	"255 255 255 128"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override"	"255 255 255 128"
-		"selectedFgColor_override"	"TanLight"
-
-		"defaultBgColor_override"	"0 0 0 200"
-		"armedBgColor_override"		"TanDarker"
-		"depressedBgColor_override"	"0 0 0 200"
-		"selectedBgColor_override"	"TanDarker"
+		"defaultFgColor_override" 	"255 255 255 128"
+		"armedFgColor_override"		"235 226 202 255"
+		"depressedFgColor_override" "255 255 255 128"
+		"selectedFgColor_override" 	"235 226 202 255"
 	}
 
-	"CancelButton"
+	"SpectateBG"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CancelButton"
-		"wide"			"0"
-	}
-
-	"SpecBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"SpecBG"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"SpectateBG"
 		"xpos"			"0"
-		"ypos"			"c5"
+		"ypos"			"c-35"
 		"zpos"			"0"
 		"wide"			"255"
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 200"
+		"bgcolor_override"	"HudBlack"
 	}
 
 	"MenuBG"
@@ -193,38 +161,10 @@
 		"fillcolor"		"255 255 255 200"
 	}
 
-	"TeamMenuAuto"
+	"CancelButton"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TeamMenuAuto"
-		"xpos"			"9999"
-	}
-
-	"TeamMenuSpectate"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TeamMenuSpectate"
-		"xpos"			"9999"
-	}
-
-	"ShadedBar"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar"
-		"xpos"			"9999"
-	}
-
-	"autodoor"
-	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"autodoor"
-		"xpos"			"9999"
-	}
-
-	"spectate"
-	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"spectate"
-		"xpos"			"9999"
+		"ControlName"	"CExButton"
+		"fieldName"		"CancelButton"
+		"wide"			"0"
 	}
 }

@@ -697,7 +697,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BackpackSpaceLabel"
-		"font"			"Cerbetica12"
+		"font"			"HudFontSmallest"
 		"labelText"		"%freebackpackspace%"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -715,7 +715,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CartButton"
-		"font"			"Cerbetica14"
+		"font"			"HudFontSmall"
 		"labelText"		"%storecart%"
 		"textAlignment"	"east"
 		"xpos"			"c-300"

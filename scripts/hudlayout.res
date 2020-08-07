@@ -50,7 +50,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"0"
-		"ypos"				"1"
+		"ypos"				"0"
 		"wide"				"f0"
 		"tall"				"480"
 	}
@@ -262,7 +262,7 @@
 		"fieldName" 			"DisguiseStatus"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c55"
+		"xpos"					"15"
 		"ypos"					"r40"
 		"wide"					"150"
 		"tall"					"30"
@@ -326,7 +326,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"c-100"
+		"ypos"					"c70"
 		"wide"					"640"
 		"tall"					"480"
 		"PaintBackgroundType"	"2"
@@ -471,7 +471,7 @@
 		"visible" 				"1"
 		"enabled" 				"1"
 		"xpos"	 				"r592"
-		"ypos"	 				"20"
+		"ypos"	 				"22"
 		"wide"	 				"580"
 		"tall"	 				"468"
 		"MaxDeathNotices" 		"5"
@@ -485,7 +485,7 @@
 		"TeamRed"				"HUDRedTeamSolid"
 		"IconColor"				"HudWhite"
 		"LocalPlayerColor"		"65 65 65 255"
-		"BaseBackgroundColor"	"46 43 42 175"
+		"BaseBackgroundColor"	"TransparentBlack"
 		"LocalBackgroundColor"	"245 229 196 200"
 	}
 
@@ -1037,10 +1037,10 @@
 		"fieldName"			"HudArenaNotification"
 		"visible"			"0"
 		"enabled"			"1"
-		"xpos"				"c-160"
+		"xpos"				"c-140"
 		"ypos"				"75"
-		"wide"				"320"
-		"tall"				"150"
+		"wide"				"280"
+		"tall"				"75"
 	}
 
 	HudArenaCapPointCountdown
@@ -1073,13 +1073,9 @@
 		"enabled"			"1"
 		"xpos"				"c-125"
 		"ypos"				"0"
-		"xpos_minmode"		"0"
-		"ypos_minmode"		"0"
 		"zpos"				"12"
 		"wide"				"250"
 		"tall"				"80"
-		"wide_minmode"		"f0"
-		"tall_minmode"		"480"
 	}
 
 	HudTournamentSetup
@@ -1087,10 +1083,10 @@
 		"fieldName"			"HudTournamentSetup"
 		"visible"			"0"
 		"enabled"			"1"
-		"xpos"				"c-90"
+		"xpos"				"c0"
 		"ypos"				"-70"
 		"wide"				"180"
-		"tall"				"65"
+		"tall"				"55"
 	}
 
 	HudStopWatch
@@ -1098,7 +1094,7 @@
 		"fieldName"			"HudStopWatch"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-40"
+		"xpos"				"c-44"
 		"ypos"				"27"
 		"zpos"				"0"
 		"wide"				"80"

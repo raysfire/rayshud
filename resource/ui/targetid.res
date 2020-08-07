@@ -204,7 +204,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"icon"			"obj_status_alert_background_tall_nocolor"
-			"iconColor"		"65 65 65 255"
+			"iconColor"		"TransparentBlack"
 			"scaleImage"	"1"
 		}
 
@@ -239,31 +239,11 @@
 			"scaleImage"	"1"
 		}
 
-		"MoveableKeyText"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"MoveableKeyText"
-			"font_minmode"	"Cerbetica12"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"6"
-			"wide"			"12"
-			"tall"			"0"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"Pick Up"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-		}
-
 		"MoveableKeyLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"MoveableKeyLabel"
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmallest"
 			"xpos"			"0"
 			"ypos"			"29"
 			"zpos"			"6"
@@ -273,7 +253,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		"%movekey%"
+			"labelText"		""
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"

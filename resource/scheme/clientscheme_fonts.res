@@ -339,7 +339,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Cerbetica_bold"
+				"name"			"Cerbetica_edited"
 				"tall"			"12"
 				"range"			"0x0000 0x00FF"
 				"weight"		"800"
@@ -727,7 +727,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica Bold"
+				"name"			"Cerbetica_edited"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -839,7 +839,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica Bold"
+				"name"			"Cerbetica_edited"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -1374,7 +1374,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"9"
+				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1527,7 +1527,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica Bold"
+				"name"			"Cerbetica_edited"
 				"tall"			"36"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1851,7 +1851,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica Bold"
+				"name"			"Cerbetica_edited"
 				"tall"			"22"
 				"weight"		"900"
 			}
@@ -1860,7 +1860,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica Bold"
+				"name"			"Cerbetica_edited"
 				"tall"			"18"
 				"weight"		"900"
 			}
@@ -1951,7 +1951,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica Bold"
+				"name"			"Cerbetica_edited"
 				"tall"			"14"
 				"weight"		"900"
 				"antialias" 	"1"
@@ -2030,7 +2030,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"8"
+				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2041,7 +2041,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"10"
+				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2052,7 +2052,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_edited"
-				"tall"			"12"
+				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2631,7 +2631,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica Bold"
+				"name"			"Cerbetica_edited"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -2642,7 +2642,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica Bold"
+				"name"			"Cerbetica_edited"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -2776,6 +2776,12 @@ Scheme
 		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
 	}
 
+	//////////////////////// CUSTOM FONT FILES /////////////////////////////
+	//
+	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
+	// Range specificies the characters to be used from the custom font before falling back to a default font
+	// characters in the range not specificed in the font will appear empty
+	// For TF2: Any special character will need to be added to our font file
 	CustomFontFiles
 	{
 		"1" "resource/tf.ttf"

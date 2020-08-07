@@ -2,7 +2,7 @@
 {
 	"TimePanelBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"TimePanelBG"
 		"xpos"				"25"
 		"ypos"				"0"
@@ -11,12 +11,8 @@
 		"tall"				"24"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"HudBlack"
-		"scaleImage"		"1"
-		"src_corner_height"	"3"
-		"src_corner_width"	"3"
-		"draw_corner_width"	"0"
-		"draw_corner_height" "0"
+		"bgcolor_override"	"TransparentBlack"
+		"PaintBackgroundType"	"0"
 
 		if_match
 		{
@@ -63,7 +59,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Cerbetica12"
+		"font"				"HudFontSmall"
 
 		if_match
 		{
@@ -93,7 +89,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Cerbetica12"
+		"font"				"HudFontSmall"
 
 		if_match
 		{
@@ -123,7 +119,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Cerbetica12"
+		"font"				"HudFontSmall"
 
 		if_match
 		{
@@ -153,7 +149,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Cerbetica12"
+		"font"				"HudFontSmall"
 
 		if_match
 		{
@@ -183,11 +179,16 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Cerbetica12"
+		"font"				"HudFontSmallest"
 
 		if_match
 		{
 			"xpos"			"30"
+		}
+
+		if_mvm
+		{
+			"visible"		"0"
 		}
 	}
 

@@ -133,8 +133,9 @@
 		"tabskv"
 		{
 			"textinsetx"		"25"
-			"textAlignment"		"center"
-			"font"				"Cerbetica18"
+			"textinsety"		"5"
+			"textAlignment"		"north"
+			"font"				"HudFontSmall"
 			"selectedcolor"		"TanLight"
 			"unselectedcolor"	"TanDark"
 			"defaultBgColor_override"	"DarkGrey"

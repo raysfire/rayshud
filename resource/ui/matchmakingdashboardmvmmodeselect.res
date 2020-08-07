@@ -141,8 +141,7 @@
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"HudBlack"
+			"defaultBgColor_override"		"TransparentBlack"
 		}
 
 		"PlayForBraggingRightsExplanation"
@@ -259,8 +258,7 @@
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"HudBlack"
+			"defaultBgColor_override"		"TransparentBlack"
 		}
 
 		"PlayOnCommunityServerExplanation"

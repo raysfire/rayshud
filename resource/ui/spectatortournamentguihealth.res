@@ -59,8 +59,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"GuiPlayerHealthShadow"
-		"xpos"			"2"
-		"ypos"			"2"
+		"xpos"			"-1"
+		"ypos"			"-2"
 		"zpos"			"4"
 		"wide"			"25"
 		"tall"			"16"

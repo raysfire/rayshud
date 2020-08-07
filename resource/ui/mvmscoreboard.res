@@ -49,7 +49,7 @@
 
 	"PlayerListBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"PlayerListBG"
 		"xpos"				"c-270"
 		"ypos"				"244"
@@ -59,7 +59,8 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"TransparentBlack"
+		"bgcolor_override"	"TransparentBlack"
+		"PaintBackgroundType"	"0"
 	}
 
 	"MvMPlayerList"
@@ -108,6 +109,21 @@
 			"src_corner_width"		"0"
 			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"
+		}
+		"CreditStatsBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"CreditStatsBG"
+			"xpos"			"0"
+			"ypos"			"25"
+			"zpos"			"-1"
+			"wide"			"335"
+			"tall"			"115"
+			"visible"		"1"
+			"enabled"		"1"
+			"bgcolor_override"		"TransparentBlack"
+			"PaintBackgroundType"	"2"
+
 		}
 
 		"CreditsLabel"

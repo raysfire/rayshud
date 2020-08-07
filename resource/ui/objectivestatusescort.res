@@ -510,14 +510,6 @@
 			"visible"		"0"
 			"enabled"		"0"
 
-			"if_multiple_trains"
-			{
-				"xpos"			"9999"
-				"ypos"			"9999"
-				"wide"			"65"
-				"tall"			"42"
-			}
-
 			"Teardrop"
 			{
 				"ControlName"	"CIconPanel"
@@ -527,7 +519,7 @@
 				"zpos"			"0"
 				"wide"			"34"
 				"tall"			"41"
-				"visible"		"1"
+				"visible"		"0"
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"icon"			"cappoint_progressbar_teardrop"

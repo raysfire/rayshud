@@ -329,10 +329,6 @@
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"	"center"
 		"font"			"Cerbetica24"
-
-		if_mvm{
-			"ypos"		"82"
-		}
 	}
 	"BuyBackLabel"
 	{
@@ -370,29 +366,10 @@
 		"fieldName"		"ClassOrTeamLabel"
 		"visible"		"0"
 	}
-	"SwitchCamModeKeyLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SwitchCamModeKeyLabel"
-		"visible"		"0"
-
-	}
-	"SwitchCamModeLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SwitchCamModeLabel"
-		"visible"		"0"
-	}
 	"CycleTargetFwdKeyLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetFwdKeyLabel"
-		"visible"		"0"
-	}
-	"CycleTargetFwdLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CycleTargetFwdLabel"
 		"visible"		"0"
 	}
 	"CycleTargetRevKeyLabel"
@@ -401,18 +378,7 @@
 		"fieldName"		"CycleTargetRevKeyLabel"
 		"visible"		"0"
 	}
-	"CycleTargetRevLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CycleTargetRevLabel"
-		"visible"		"0"
-	}
-	"TipLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TipLabel"
-		"visible"		"0"
-	}
+
 	"itempanel"
 	{
 		"ControlName"			"CItemModelPanel"
@@ -441,38 +407,6 @@
 		"resize_to_text"		"1"
 		"text_forcesize"		"2"
 
-		"ItemBackground"
-		{
-			"ControlName" 	"ImagePanel"
-			"fieldName" 	"ItemBackground"
-			"xpos" 			"0"
-			"ypos" 			"0"
-			"zpos" 			"-1"
-			"wide" 			"240"
-			"tall" 			"900"
-			"autoResize" 	"0"
-			"pinCorner" 	"0"
-			"visible" 		"1"
-			"enabled" 		"1"
-			"fillcolor" 	"0 0 0 100"
-		}
-
-		"TitleBackground"
-		{
-			"ControlName" 	"ImagePanel"
-			"fieldName" 	"TitleBackground"
-			"xpos" 			"4"
-			"ypos" 			"4"
-			"zpos" 			"-1"
-			"wide" 			"232"
-			"tall" 			"14"
-			"autoResize" 	"0"
-			"pinCorner" 	"0"
-			"visible" 		"1"
-			"enabled" 		"1"
-			"fillcolor" 	"0 0 0 100"
-		}
-
 		"itemmodelpanel"
 		{
 			"fieldName"				"itemmodelpanel"
@@ -500,19 +434,5 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-	}
-
-	"spectator_extras"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"spectator_extras"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
 	}
 }

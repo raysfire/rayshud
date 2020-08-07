@@ -74,7 +74,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"Cerbetica12"
+		"font"			"HudFontSmall"
 		"xpos"			"c-170"
 		"ypos"			"c-90"
 		"zpos"			"3"

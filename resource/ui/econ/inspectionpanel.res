@@ -255,7 +255,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmall"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -500,7 +500,7 @@
 		{
 			"ControlName"	"Button"
 			"fieldName"		"NewSeedButton"
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmall"
 			"xpos"			"8"
 			"ypos"			"75"
 
@@ -598,7 +598,7 @@
 			"wide"			"75"
 			"tall"			"20"
 			"labelText"		"#TF_ItemAd_ViewOnMarket"
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmall"
 			"textinsetx"	"0"
 			"textAlignment"	"center"
 			"proportionaltoparent"	"1"
