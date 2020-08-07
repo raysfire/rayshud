@@ -2,16 +2,16 @@
 {
 	HudItemEffectMeter
 	{
-		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-75"
-		"ypos"			"c156"
-		"ypos_minmode"	"c23"
-		"wide"			"500"
-		"tall"			"500"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"fieldName"				"HudItemEffectMeter"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-75"
+		"ypos"					"c156"
+		"ypos_minmode"			"c23"
+		"wide"					"500"
+		"tall"					"500"
+		"MeterFG"				"White"
+		"MeterBG"				"Gray"
 	}
 
 	"ItemEffectMeterLabel"
@@ -102,7 +102,7 @@
 		"brighttext"			"0"
 		"font"					"CerbeticaBold28"
 		"font_minmode"			"CerbeticaBold20"
-		"fgcolor_override"		"TransparentBlack"
+		"fgcolor"				"TransparentBlack"
 
 		"pin_to_sibling"		"ItemEffectMeterCount"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"

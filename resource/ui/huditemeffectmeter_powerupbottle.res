@@ -5,7 +5,7 @@
 		"fieldName"			"HudItemEffectMeter"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-327"
+		"xpos"				"c-267"
 		"xpos_minmode"		"c-250"
 		"ypos"				"r72"
 		"ypos_minmode"		"r146"
@@ -26,7 +26,7 @@
 		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"0 0 0 200"
+		"bgcolor_override"	"TransparentBlack"
 		"PaintBackgroundType"	"2"
 	}
 
