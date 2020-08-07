@@ -10,8 +10,10 @@
 		"tall"				"67"
 		"visible"			"0"
 		"enabled"			"1"
+		"paintborder"		"1"
 		"border"			"CyanBorderThick"
 		"bgcolor_override"	"DarkGrey"
+		"PaintBackgroundType"	"2"
 
 		"PassedIcon"
 		{
@@ -77,8 +79,10 @@
 		"tall"				"144"
 		"visible"			"0"
 		"enabled"			"1"
+		"paintborder"		"1"
 		"border"			"CyanBorderThick"
 		"bgcolor_override"	"DarkGrey"
+		"PaintBackgroundType"	"2"
 
 		"Header"
 		{
@@ -105,7 +109,7 @@
 			"fieldName"			"Issue"
 			"xpos"				"10"
 			"ypos"				"22"
-			"wide"				"120"
+			"wide"				"130"
 			"tall"				"40"
 			"visible"			"1"
 			"enabled"			"1"
@@ -406,8 +410,10 @@
 		"tall"				"67"
 		"visible"			"0"
 		"enabled"			"1"
+		"paintborder"		"1"
 		"border"			"CyanBorderThick"
 		"bgcolor_override"	"DarkGrey"
+		"PaintBackgroundType"	"2"
 
 		"FailedIcon"
 		{
@@ -473,8 +479,10 @@
 		"tall"				"67"
 		"visible"			"0"
 		"enabled"			"1"
+		"paintborder"		"1"
 		"border"			"CyanBorderThick"
 		"bgcolor_override"	"DarkGrey"
+		"PaintBackgroundType"	"2"
 
 		"FailedIcon"
 		{
@@ -543,9 +551,11 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
+		"paintborder"			"1"
 		"border"				"CyanBorderThick"
 		"bgcolor_override"		"DarkGrey"
 		"PaintBackground"		"1"
+		"PaintBackgroundType"	"2"
 
 		"header_font"				"ItemFontNameLarge"
 		"header_fgcolor"			"Orange"

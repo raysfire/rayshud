@@ -37,7 +37,7 @@
 		"tall"				"30"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"HudBlack"
+		"bgcolor_override"	"TransparentBlack"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -69,7 +69,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"DisguiseNameLabel"
-		"font"				"Cerbetica14"
+		"font"				"HudFontSmall"
 		"xpos"				"35"
 		"ypos"				"0"
 		"zpos"				"1"
@@ -89,7 +89,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"DisguiseNameLabelShadow"
-		"font"				"Cerbetica14"
+		"font"				"HudFontSmall"
 		"xpos"				"-1"
 		"ypos"				"-1"
 		"zpos"				"1"
@@ -97,8 +97,8 @@
 		"tall"				"15"
 		"autoResize"		"0"
 		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"labelText"			"%disguisename%"
 		"textAlignment"		"west"
 		"dulltext"			"0"
@@ -114,7 +114,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"WeaponNameLabel"
-		"font"				"Cerbetica14"
+		"font"				"HudFontSmallest"
 		"xpos"				"35"
 		"ypos"				"15"
 		"zpos"				"1"
@@ -134,7 +134,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"WeaponNameLabelShadow"
-		"font"				"Cerbetica14"
+		"font"				"HudFontSmallest"
 		"xpos"				"-1"
 		"ypos"				"-1"
 		"zpos"				"1"
@@ -142,8 +142,8 @@
 		"tall"				"15"
 		"autoResize"		"0"
 		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"labelText"			"%weaponname%"
 		"textAlignment"		"west"
 		"dulltext"			"0"

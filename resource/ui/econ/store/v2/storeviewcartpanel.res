@@ -76,7 +76,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldname"		"quantitylabel"
-				"font"			"HudFontSmallestBold"
+				"font"			"Cerbetica12"
 				"textAlignment"	"north-east"
 				"xpos"			"70"
 				"ypos"			"45"
@@ -113,14 +113,14 @@
 				"ypos"			"17"
 				"zpos"			"5"
 				"wide"			"100"
-				"tall"			"25"
+				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		"#Store_Remove"
-				"font"			"HudFontSmallBold"
+				"font"			"Cerbetica14"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -146,26 +146,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"%price%"
-				"fgcolor_override" "130 120 104 255"
-			}
-
-			"PreviewItemLabel"
-			{
-				"ControlName"	"Label"
-				"fieldname"		"PreviewItemLabel"
-				"font"			"HudFontSmallest"
-				"textAlignment"	"center"
-				"xpos"			"110"
-				"ypos"			"36"
-				"wide"			"250"
-				"tall"			"15"
-				"zpos"			"15"
-				"autoResize"	"1"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"labelText"		"%preview_item%"
-				"fgcolor_override" "130 120 104 255"
+				"fgcolor_override" "DullWhite"
 			}
 		}
 	}
@@ -233,7 +214,7 @@
 	"FooterLine"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"HeaderLine"
+		"fieldName"		"FooterLine"
 		"xpos"			"0"
 		"ypos"			"420"
 		"zpos"			"2"
@@ -261,7 +242,7 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"420"
+			"ypos"			"0"
 			"zpos"			"2"
 			"wide"			"f0"
 			"tall"			"2"
@@ -333,20 +314,20 @@
 			"wide"			"600"
 			"tall"			"240"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"118 107 94 255"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
+			"fgcolor_override"	"DullWhite"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
 			"bgcolor_override"	"DarkGrey"
 			"autohide_buttons" "1"
 
 			"Scrollbar"
 			{
 				"xpos"			"586"
-				"wide"			"11"
+				"wide"			"4"
 				"tall"			"240"
 				"zpos"			"1000"
 
 				"Slider"
 				{
-					"PaintBackgroundType"	"2"
+					"PaintBackgroundType"	"1"
 				}
 
 				"nobuttons"		"1"
@@ -438,7 +419,7 @@
 						"pinCorner"		"0"
 						"visible"		"1"
 						"enabled"		"1"
-						"fgcolor_override" "130 120 104 255"
+						"fgcolor_override" "White"
 					}
 
 					"TotalSubtextLabelB"
@@ -457,7 +438,7 @@
 						"pinCorner"		"0"
 						"visible"		"1"
 						"enabled"		"1"
-						"fgcolor_override" "130 120 104 255"
+						"fgcolor_override" "White"
 					}
 
 					"TotalPriceLabel"
@@ -476,7 +457,7 @@
 						"visible"		"1"
 						"enabled"		"1"
 						"labelText"		"%totalprice%"
-						"fgcolor_override" "130 120 104 255"
+						"fgcolor_override" "White"
 					}
 				}
 			}
@@ -498,7 +479,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Store_ContinueShopping"
-		"font"			"HudFontSmallBold"
+		"font"			"Cerbetica14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -523,7 +504,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Store_Checkout"
-		"font"			"HudFontSmallBold"
+		"font"			"Cerbetica14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

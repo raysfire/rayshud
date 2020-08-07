@@ -1201,20 +1201,20 @@
 			"ypos"			"0"
 			"zpos"			"500"
 			"wide"			"242"
-			"tall"			"180"
+			"tall"			"150"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
-			"columns_count"	"3"
+			"columns_count"	"2"
 			"inset_x"		"10"
 			"inset_y"		"5"
 			"row_gap"		"5"
-			"column_gap"	"20"
+			"column_gap"	"5"
 			"restrict_width"	"0"
 
 			"friendpanel_kv"
 			{
-				"wide"			"60"
+				"wide"			"110"
 				"tall"			"20"
 			}
 

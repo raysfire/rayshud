@@ -78,7 +78,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"namelabel"
-			"font"			"ItemFontNameLarge"
+			"font"			"ItemFontNameLarger"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"2"

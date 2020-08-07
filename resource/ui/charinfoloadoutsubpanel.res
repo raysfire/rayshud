@@ -295,7 +295,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ShowBackpackLabel"
-		"font"				"CerbeticaBold16"
+		"font"				"HudFontSmall"
 		"labelText"			"#BackpackTitle"
 		"textAlignment"		"north"
 		"xpos"				"0"
@@ -343,7 +343,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ShowCraftingLabel"
-		"font"				"CerbeticaBold16"
+		"font"				"HudFontSmall"
 		"labelText"			"#CraftingExplanation_Title"
 		"textAlignment"		"north"
 		"xpos"				"0"
@@ -392,7 +392,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ShowArmoryLabel"
-		"font"				"CerbeticaBold16"
+		"font"				"HudFontSmall"
 		"labelText"			"#Armory"
 		"textAlignment"		"north"
 		"xpos"				"0"
@@ -440,7 +440,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ShowTradeLabel"
-		"font"				"CerbeticaBold16"
+		"font"				"HudFontSmall"
 		"labelText"			"#TradingExplanation_Title"
 		"textAlignment"		"north"
 		"xpos"				"0"
@@ -490,7 +490,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ShowPaintkitsLabel"
-		"font"				"CerbeticaBold16"
+		"font"				"HudFontSmall"
 		"labelText"			"#PaintkitTitle"
 		"textAlignment"		"north"
 		"xpos"				"0"
@@ -531,11 +531,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemsLabel"
-		"font"				"HudFontSmall"
+		"font"				"HudFontSmallest"
 		"labelText"			"classname"
 		"textAlignment"		"north"
 		"xpos"				"0"
-		"ypos"				"220"
+		"ypos"				"215"
 		"zpos"				"1"
 		"wide"				"300"
 		"tall"				"30"

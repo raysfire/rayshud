@@ -296,7 +296,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"100"
-		"wide"			"140"
+		"wide"			"100"
 		"tall"			"75"
 		"autoResize"	"1"
 		"visible"		"0"

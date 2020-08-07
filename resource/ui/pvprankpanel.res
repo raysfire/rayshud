@@ -87,7 +87,7 @@
 
 				if_mini
 				{
-					"origin_x"		"55"
+					"origin_x"		"70"
 				}
 
 				"animation"

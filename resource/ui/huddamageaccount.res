@@ -28,7 +28,7 @@
 		"enabled"			"1"
 		"labelText"			"%metal%"
 		"textAlignment"		"center"
-		"font"				"CerbeticaBold32"
+		"font"				"CerbeticaBold28"
 		"font_minmode"		"CerbeticaBold20"
 		"fgcolor"			"Last DamageHeal Info"
 	}
@@ -46,7 +46,7 @@
 		"enabled"			"1"
 		"labelText"			"%metal%"
 		"textAlignment"		"center"
-		"font"				"CerbeticaBold32"
+		"font"				"CerbeticaBold28"
 		"font_minmode"		"CerbeticaBold20"
 		"fgcolor"			"TransparentBlack"
 

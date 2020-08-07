@@ -95,13 +95,13 @@
 			"tabPosition"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"border"				"CyanBorderThick"
+			"border"				"NoBorder"
 
 			"TitleLabel"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"TitleLabel"
-				"font"			"HudFontMediumBold"
+				"font"			"Cerbetica22"
 				"labelText"		"#TF_SteamWorkshop_Title"
 				"textAlignment"	"center"
 				"xpos"			"0"
@@ -151,11 +151,13 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		"#TF_SteamWorkshop_LearnHow"
-				"font"			"HudFontSmallBold"
+				"font"			"Cerbetica12"
 				"textAlignment"	"center"
 				"Command"		"learn_more"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"border_default"	"NoBorder"
+				"border_armed"		"NoBorder"
 			}
 		}
 
@@ -174,8 +176,9 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"PaintBackgroundType"	"0"
-			"paintbackground"		"1"
-			"border"				"MainMenuHighlightBorder"
+			"paintbackground"		"0"
+			"paintborder"			"0"
+			"border"				"NoBorder"
 
 			"TitleLabel"
 			{
@@ -193,7 +196,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"fgcolor_override" "Black"
+				"fgcolor_override" "TanLight"
 			}
 
 			"SteamWorkshopItem0"
@@ -258,8 +261,8 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"labelText"		"&A"
-				"font"			"MenuArrows"
+				"labelText"		"<"
+				"font"			"Cerbetica12"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -272,7 +275,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"CurPageLabel"
-				"font"			"HudFontSmallBold"
+				"font"			"Cerbetica12"
 				"labelText"		"%page%"
 				"textAlignment"	"center"
 				"xpos"			"460"
@@ -284,7 +287,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"fgcolor_override" "Black"
+				"fgcolor_override" "ColorCyan"
 			}
 
 			"NextPageButton"
@@ -301,8 +304,8 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"labelText"		"&D"
-				"font"			"MenuArrows"
+				"labelText"		">"
+				"font"			"Cerbetica12"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -326,7 +329,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		"#TF_SteamWorkshop_ViewPublished"
-				"font"			"HudFontSmallBold"
+				"font"			"Cerbetica12"
 				"textAlignment"	"center"
 				"textinsetx"	"50"
 				"dulltext"		"0"
@@ -334,6 +337,7 @@
 				"Command"		"view_files"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"border_default"	"NoBorder"
 			}
 
 			"EditButton"
@@ -351,7 +355,7 @@
 				"tabPosition"	"0"
 				"textinsetx"	"25"
 				"use_proportional_insets" "1"
-				"font"			"HudFontSmallBold"
+				"font"			"Cerbetica12"
 				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -360,6 +364,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"labelText"			"#TF_SteamWorkshop_Edit"
 				"command"			"edit"
+				"border_default"	"NoBorder"
 
 				"image_drawcolor"		"TanLight"
 				"image_disabledcolor"	"ColorBlack"
@@ -395,7 +400,7 @@
 				"tabPosition"	"0"
 				"textinsetx"	"25"
 				"use_proportional_insets" "1"
-				"font"			"HudFontSmallBold"
+				"font"			"Cerbetica12"
 				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -404,6 +409,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"labelText"			"#TF_SteamWorkshop_View"
 				"command"			"view"
+				"border_default"	"NoBorder"
 
 				"image_drawcolor"		"TanLight"
 				"image_disabledcolor" 	"ColorBlack"
@@ -439,7 +445,7 @@
 				"tabPosition"	"0"
 				"textinsetx"	"25"
 				"use_proportional_insets" "1"
-				"font"			"HudFontSmallBold"
+				"font"			"Cerbetica12"
 				"textAlignment"	"west"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -448,6 +454,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"labelText"			"#TF_SteamWorkshop_Delete"
 				"command"			"delete_item"
+				"border_default"	"NoBorder"
 
 				"image_drawcolor"		"TanLight"
 				"image_disabledcolor"	"ColorBlack"
@@ -484,11 +491,12 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_SteamWorkshop_BrowseTheWorkshop"
-			"font"			"HudFontSmallestBold"
+			"font"			"Cerbetica12"
 			"textAlignment"	"center"
 			"Command"		"browse"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"NoBorder"
 		}
 
 		"LoadTestMapButton"
@@ -506,11 +514,12 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_SteamWorkshop_Test"
-			"font"			"HudFontSmallBold"
+			"font"			"Cerbetica12"
 			"textAlignment"	"center"
 			"Command"		"itemtest"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"NoBorder"
 		}
 
 		"PublishButton"
@@ -528,11 +537,12 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_SteamWorkshop_Publish"
-			"font"			"HudFontSmallBold"
+			"font"			"Cerbetica12"
 			"textAlignment"	"center"
 			"Command"		"publish"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"NoBorder"
 		}
 
 		"LearnMore2Button"
@@ -550,11 +560,12 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_SteamWorkshop_Instructions"
-			"font"			"HudFontSmallBold"
+			"font"			"Cerbetica12"
 			"textAlignment"	"center"
 			"Command"		"learn_more"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"NoBorder"
 		}
 
 		"ViewLegalAgreementButton"
@@ -572,7 +583,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_SteamWorkshop_Legal"
-			"font"			"HudFontSmallBold"
+			"font"			"Cerbetica12"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -580,6 +591,7 @@
 			"Command"		"view_legal_agreement"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"NoBorder"
 		}
 
 		"CancelButton"
@@ -597,7 +609,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#Store_CANCEL"
-			"font"			"HudFontSmallBold"
+			"font"			"Cerbetica12"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -605,6 +617,7 @@
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"NoBorder"
 		}
 	}
 }

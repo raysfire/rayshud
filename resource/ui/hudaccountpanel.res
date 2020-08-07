@@ -86,8 +86,8 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"Cerbetica24"
-		"font_minmode"		"Cerbetica20"
+		"font"				"HudFontMedium"
+		"font_minmode"		"HudFontMediumSecondary"
 	}
 
 	"AccountValueShadow"
@@ -108,8 +108,8 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"Cerbetica24"
-		"font_minmode"		"Cerbetica20"
+		"font"				"HudFontMedium"
+		"font_minmode"		"HudFontMediumSecondary"
 		"fgcolor"			"TransparentBlack"
 
 		"pin_to_sibling"		"AccountValue"

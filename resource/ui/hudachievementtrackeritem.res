@@ -25,7 +25,7 @@
 		"tall"			"16"
 		"zpos"			"4"
 		"textinsetx"	"5"
-		"font"			"CerbeticaBold14"
+		"font"			"CerbeticaBold16"
 		"textAlignment"	"north-west"
 	}
 
@@ -51,7 +51,7 @@
 		"fieldName"		"AchievementDesc"
 		"labeltext"		""
 		"xpos"			"5"
-		"ypos"			"12"
+		"ypos"			"14"
 		"wide"			"190"
 		"tall"			"18"
 		"zpos"			"4"

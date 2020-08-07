@@ -83,7 +83,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"CerbeticaBold22"
+		"font"				"Cerbetica22"
 	}
 
 	"LabelPreview"
@@ -104,7 +104,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"CerbeticaBold15"
+		"font"				"Cerbetica14"
 	}
 
 	"PreviewImageBorder"
@@ -197,7 +197,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"CerbeticaBold15"
+		"font"				"Cerbetica14"
 	}
 
 	"FileTitle"
@@ -221,7 +221,7 @@
 		"fgcolor_override"	"0 0 0 255"
 		"bgcolor_override"	"235 226 202 255"
 		"paintbackgroundtype"	"2"
-		"font"					"CerbeticaBold15"
+		"font"					"Cerbetica14"
 	}
 
 	"LabelDesc"
@@ -242,7 +242,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"CerbeticaBold15"
+		"font"				"Cerbetica14"
 	}
 	"FileDesc"
 	{
@@ -251,7 +251,7 @@
 		"xpos"				"175"
 		"ypos"				"120"
 		"wide"				"250"
-		"tall"				"125"
+		"tall"				"185"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -265,15 +265,15 @@
 		"fgcolor_override"	"0 0 0 255"
 		"bgcolor_override"	"235 226 202 255"
 		"paintbackgroundtype"	"2"
-		"font"					"CerbeticaBold15"
+		"font"					"Cerbetica14"
 	}
 
 	"LabelSourceFile"
 	{
 		"ControlName"		"Label"
 		"fieldName"			"LabelSourceFile"
-		"xpos"				"175"
-		"ypos"				"250"
+		"xpos"				"185"
+		"ypos"				"310"
 		"wide"				"250"
 		"tall"				"25"
 		"autoResize"		"0"
@@ -286,7 +286,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"CerbeticaBold15"
+		"font"				"Cerbetica14"
 	}
 
 	"SourceFile"
@@ -308,16 +308,16 @@
 		"maxchars"			"256"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
-		"font"				"CerbeticaBold15"
+		"font"				"Cerbetica14"
 	}
 
 	"ButtonSourceCosmetics"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"ButtonSourceCosmetics"
-		"xpos"				"85"
-		"ypos"				"275"
-		"wide"				"140"
+		"xpos"				"15"
+		"ypos"				"250"
+		"wide"				"150"
 		"tall"				"25"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -351,9 +351,9 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"			"ButtonSourceOther"
-		"xpos"				"230"
-		"ypos"				"275"
-		"wide"				"140"
+		"xpos"				"15"
+		"ypos"				"280"
+		"wide"				"150"
 		"tall"				"25"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -374,9 +374,9 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"ButtonSourceMaps"
-		"xpos"				"375"
-		"ypos"				"275"
-		"wide"				"140"
+		"xpos"				"15"
+		"ypos"				"310"
+		"wide"				"150"
 		"tall"				"25"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -410,8 +410,8 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"BrowseDescription"
-		"xpos"				"175"
-		"ypos"				"300"
+		"xpos"				"330"
+		"ypos"				"0"
 		"wide"				"270"
 		"tall"				"55"
 		"autoResize"		"0"
@@ -420,12 +420,12 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#TF_PublishFile_BrowseDesc"
-		"textAlignment"		"center"
+		"textAlignment"		"east"
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"1"
 		"font"				"HudFontSmallest"
-		"fgcolor_override"	"TanDark"
+		"fgcolor_override"	"TanLight"
 	}
 
 	"TagsTitle"

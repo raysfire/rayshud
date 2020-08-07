@@ -26,7 +26,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"				"#TF_Matchmaking_HeaderCasual"
 		"textAlignment"			"center"
-		"font"					"CerbeticaBold24"
+		"font"					"HudFontMediumSecondary"
 		"fgcolor_override"		"White"
 		"mouseinputenabled"		"0"
 	}

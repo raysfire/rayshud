@@ -4,11 +4,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemName"
-		"font"				"CerbeticaBold14"
+		"font"				"HudFontSmall"
 		"xpos"				"20"
 		"ypos"				"0"
 		"zpos"				"1"
-		"wide"				"45"
+		"wide"				"55"
 		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -56,7 +56,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
-		"font"				"CerbeticaBold14"
+		"font"				"HudFontSmall"
 		"fgcolor"			"HUDRedTeamSolid"
 		"xpos"				"5"
 		"ypos"				"3"
@@ -77,7 +77,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
-		"font"				"CerbeticaBold14"
+		"font"				"HudFontSmall"
 		"fgcolor"			"HUDRedTeamSolid"
 		"xpos"				"5"
 		"ypos"				"3"
