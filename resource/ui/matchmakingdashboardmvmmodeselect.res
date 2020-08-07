@@ -23,11 +23,28 @@
 		"zpos"					"2"
 		"wide"					"o2"
 		"tall"					"100"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"mouseinputenabled"		 "0"
 		"image"					"mvm/mvm_logo"
 		"scaleImage"			"1"
+	}
+
+	"Title"
+	{
+		"ControlName"			"Label"
+		"fieldName"				"Title"
+		"xpos"					"8"
+		"ypos"					"23"
+		"zpos"					"99"
+		"wide"					"f0"
+		"tall"					"20"
+		"proportionaltoparent"	"1"
+		"labeltext"				"#TF_Matchmaking_HeaderMvM"
+		"textAlignment"			"center"
+		"font"					"CerbeticaBold24"
+		"fgcolor_override"		"White"
+		"mouseinputenabled"		"0"
 	}
 
 	"MannUpGroupBox"
@@ -70,7 +87,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"mouseinputenabled" 	"0"
-			"image"					"mvm/mannup"
+			"image"					"replay/thumbnails/mvm/mannup"
 			"scaleImage"			"1"
 			"proportionaltoparent"	"1"
 		}
@@ -188,7 +205,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"mouseinputenabled" 	"0"
-			"image"					"mvm/bootcamp"
+			"image"					"replay/thumbnails/mvm/bootcamp"
 			"scaleImage"			"1"
 			"proportionaltoparent"	"1"
 		}

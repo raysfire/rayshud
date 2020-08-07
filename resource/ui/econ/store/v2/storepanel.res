@@ -140,7 +140,7 @@
 			"selectedcolor"		"TanLight"
 			"unselectedcolor"	"TanDark"
 			"paintbackground"	"1"
-			"defaultBgColor_override"		"25 25 25 255"
+			"defaultBgColor_override"		"DarkGrey"
 			"unselectedBgColor_override"	"10 10 10 255"
 			"activeborder_override"			"CyanBorderTabs"
 			"depressedBgColor_override"		"10 10 10 255"
