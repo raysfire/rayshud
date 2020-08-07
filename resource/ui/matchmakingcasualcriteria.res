@@ -53,7 +53,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"RestoreCasualSearchCriteria"
-			"xpos"			"rs1-29"
+			"xpos"			"rs1-27"
 			"ypos"			"38"
 			"zpos"			"100"
 			"wide"			"15"
@@ -97,7 +97,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SaveCasualSearchCriteria"
-			"xpos"			"rs1-9"
+			"xpos"			"rs1-7"
 			"ypos"			"38"
 			"zpos"			"100"
 			"wide"			"15"

@@ -137,7 +137,7 @@
 			"font"				"Cerbetica18"
 			"selectedcolor"		"TanLight"
 			"unselectedcolor"	"TanDark"
-			"defaultBgColor_override"	"25 25 25 255"
+			"defaultBgColor_override"	"DarkGrey"
 			"paintbackground"			"1"
 			"activeborder_override"		"CyanBorderTabs"
 			"normalborder_override"		"CyanBorderTabsInactive"
