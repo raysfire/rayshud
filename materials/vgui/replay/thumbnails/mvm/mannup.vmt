@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/mvm/mannup"
+	"$nolod" "1"
+	"$nomip" "1"
+	"%keywords" "tf, mvm, map"
+}
