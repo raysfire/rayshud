@@ -52,7 +52,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 		"labeltext"		"%Health%"
 	}
 
@@ -68,7 +68,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 		"fgcolor"		"TransparentBlack"
 		"labeltext"		"%Health%"
 	}

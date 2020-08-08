@@ -18,7 +18,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"PopFileLabel"
-		"font"				"Cerbetica24"
+		"font"				"HudFontMedium"
 		"labelText"			"%popfile%"
 		"textAlignment"		"west"
 		"xpos"				"c-265"
@@ -78,7 +78,7 @@
 		"autoresize"		"3"
 		"linespacing"		"22"
 		"textcolor"			"White"
-		"font"				"Cerbetica24"
+		"font"				"HudFontMedium"
 	}
 
 	"CreditStatsContainer"
@@ -130,7 +130,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"Cerbetica16"
+			"font"			"HudFontSmallishBold"
 			"labelText"		"#TF_PVE_Currency"
 			"textAlignment" "center"
 			"xpos"			"9999"

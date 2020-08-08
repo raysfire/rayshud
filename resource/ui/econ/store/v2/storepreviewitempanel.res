@@ -118,7 +118,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemNameLabel"
-			"font"			"CerbeticaBold20"
+			"font"			"Cerbetica20"
 			"labelText"		"%itemname%"
 			"textAlignment"	"west"
 			"xpos"			"240"
@@ -470,7 +470,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"CraftableTextLabel"
-					"font"			"Cerbetica12"
+					"font"			"HudFontSmallest"
 					"labelText"		"%craftable%"
 					"textAlignment"	"north-west"
 					"wide"			"205"

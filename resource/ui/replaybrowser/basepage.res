@@ -38,7 +38,7 @@
 		"tabPosition"		"0"
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"DarkerGrey"
-		"Font"				"CerbeticaBold14"
+		"Font"				"Cerbetica14"
 	}
 
 	"ReplayList"

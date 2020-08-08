@@ -25,7 +25,7 @@
 		"tall"			"16"
 		"zpos"			"4"
 		"textinsetx"	"5"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 		"textAlignment"	"north-west"
 	}
 

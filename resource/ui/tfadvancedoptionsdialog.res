@@ -30,7 +30,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
-		"font"				"CerbeticaBold24"
+		"font"				"Cerbetica24"
 		"labelText"			"#TF_AdvancedOptions"
 		"textAlignment"		"center"
 		"xpos"				"0"

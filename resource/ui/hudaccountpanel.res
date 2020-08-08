@@ -8,11 +8,11 @@
 		"PositiveColor"			"ColorGreen"
 		"NegativeColor"			"ColorRed"
 		"delta_lifetime"		"2"
-		"delta_item_font"		"Cerbetica26"
+		"delta_item_font"		"HudFontMedium"
 		"delta_item_x_minmode"			"18"
 		"delta_item_start_y_minmode"	"10"
 		"delta_item_end_y_minmode"		"25"
-		"delta_item_font_minmode"		"Cerbetica14"
+		"delta_item_font_minmode"		"HudFontSmall"
 	}
 
 	"AccountBG"

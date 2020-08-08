@@ -71,7 +71,7 @@
 		"tall"			"30"
 		"labelText"		"#TF_SelectATeam"
 		"textAlignment"	"center"
-		"font"			"CerbeticaBold32"
+		"font"			"Cerbetica32"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"TanLight"
@@ -97,7 +97,7 @@
 		"brighttext"	"0"
 		"command"		"jointeam blue"
 		"team"			"3"		// Blue Team
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"235 226 202 255"
 		"depressedFgColor_override" "255 255 255 128"
@@ -138,7 +138,7 @@
 		"brighttext"	"0"
 		"command"		"jointeam red"
 		"team"			"4"		// Red Team
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"235 226 202 255"
 		"depressedFgColor_override" "255 255 255 128"
@@ -179,7 +179,7 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam auto"
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"235 226 202 255"
 		"depressedFgColor_override" "255 255 255 128"
@@ -220,7 +220,7 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"235 226 202 255"
 		"depressedFgColor_override" "255 255 255 128"
@@ -275,7 +275,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"fgcolor"		"242 242 242 255"
 	}
 
@@ -296,7 +296,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"fgcolor"		"242 242 242 255"
 	}
 
@@ -317,7 +317,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CerbeticaBold12"
+		"font"			"Cerbetica12"
 		"fgcolor"		"TanLight"
 		"centerwrap"	"1"
 	}
@@ -339,7 +339,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CerbeticaBold12"
+		"font"			"Cerbetica12"
 		"fgcolor"		"TransparentBlack"
 		"centerwrap"	"1"
 

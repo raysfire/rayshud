@@ -40,7 +40,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"TournamentTeamNameLabel"
-		"font"			"Cerbetica12"
+		"font"			"HudFontSmallest"
 		"xpos"			"35"
 		"ypos"			"20"
 		"zpos"			"1"
@@ -78,7 +78,7 @@
 		"bgcolor_override"	"Transparent"
 		"labelText"			"%teamname%"
 		"textAlignment"		"west"
-		"font"				"Cerbetica12"
+		"font"				"HudFontSmallest"
 	}
 
 	"HudTournamentNameBG"
@@ -107,7 +107,7 @@
 		"brighttext"	"0"
 		"command"		"teamnotready"
 		"default"		"1"
-		"font"			"CerbeticaBold12"
+		"font"			"Cerbetica12"
 		"fgcolor"		"ColorRed"
 
 		"defaultBgColor_override"	"Blank"
@@ -138,7 +138,7 @@
 		"command"		"teamready"
 		"paintborder"	"0"
 		"default"		"1"
-		"font"			"CerbeticaBold12"
+		"font"			"Cerbetica12"
 		"fgcolor"		"ColorGreen"
 
 		"defaultBgColor_override"	"Blank"

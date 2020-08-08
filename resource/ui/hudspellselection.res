@@ -64,8 +64,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountText"
-		"font"			"CerbeticaBold28"
-		"font_minmode"	"CerbeticaBold16"
+		"font"			"Cerbetica28"
+		"font_minmode"	"Cerbetica16"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
 		"xpos"			"0"
@@ -81,8 +81,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountTextShadow"
-		"font"			"CerbeticaBold28"
-		"font_minmode"	"CerbeticaBold16"
+		"font"			"Cerbetica28"
+		"font_minmode"	"Cerbetica16"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
 		"xpos"			"-2"

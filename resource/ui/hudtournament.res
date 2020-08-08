@@ -703,7 +703,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"Cerbetica24"
+		"font"			"HudFontMedium"
 		"xpos"			"230"
 		"ypos"			"r55"
 		"wide"			"40"
@@ -740,7 +740,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"Cerbetica24"
+		"font"			"HudFontMedium"
 		"xpos"			"229"
 		"ypos"			"r54"
 		"wide"			"40"

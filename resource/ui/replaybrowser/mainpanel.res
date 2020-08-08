@@ -134,7 +134,7 @@
 		{
 			"textinsetx"		"25"
 			"textAlignment"		"center"
-			"font"				"Cerbetica18"
+			"font"				"HudFontSmall"
 			"selectedcolor"		"TanLight"
 			"unselectedcolor"	"TanDark"
 			"defaultBgColor_override"	"25 25 25 255"

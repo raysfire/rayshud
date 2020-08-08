@@ -216,7 +216,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"CerbeticaBold32"
+		"font"			"Cerbetica32"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"	"east"
 		"xpos"			"c-106"
@@ -238,7 +238,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamScoreDropshadow"
-		"font"			"CerbeticaBold32"
+		"font"			"Cerbetica32"
 		"fgcolor"		"0 0 0 200"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"	"east"
@@ -261,7 +261,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
-		"font"			"Cerbetica14"
+		"font"			"HudFontSmall"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"	"west"
 		"xpos"			"c-270"
@@ -303,7 +303,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"			"CerbeticaBold32"
+		"font"			"Cerbetica32"
 		"labelText"		"%redteamscore%"
 		"textAlignment"	"west"
 		"xpos"			"c6"
@@ -326,7 +326,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"RedTeamScoreDropshadow"
-		"font"				"CerbeticaBold32"
+		"font"				"Cerbetica32"
 		"fgcolor"			"0 0 0 200"
 		"labelText"			"%redteamscore%"
 		"textAlignment"		"west"
@@ -350,7 +350,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
-		"font"			"Cerbetica14"
+		"font"			"HudFontSmall"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"	"east"
 		"xpos"			"c170"
@@ -372,7 +372,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"Cerbetica14"
+		"font"			"HudFontSmall"
 		"labelText"		"%server%"
 		"textAlignment"	"west"
 		"xpos"			"5"
@@ -389,7 +389,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeValue"
-		"font"			"Cerbetica20"
+		"font"			"HudFontMediumSecondary"
 		"labelText"		"%servertime%"
 		"textAlignment"	"west"
 		"xpos"			"5"
@@ -577,7 +577,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"Cerbetica14"
+		"font"			"HudFontSmall"
 		"labelText"		"%mapname%"
 		"textAlignment"	"west"
 		"xpos"			"5"
@@ -617,7 +617,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerScoreLabel"
-		"font"			"Cerbetica20"
+		"font"			"HudFontMediumSecondary"
 		"labelText"		"%playerscore%"
 		"textAlignment"	"center"
 		"xpos"			"c-368"
@@ -923,7 +923,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DeathsLabel"
-			"font"			"Cerbetica24"
+			"font"			"HudFontMedium"
 			"labelText"		"#TF_ScoreBoard_DeathsLabel"
 			"textAlignment"	"east"
 			"xpos"			"9999"
@@ -975,7 +975,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"gametype"
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmallest"
 			"labelText"		"%gametype%"
 			"textAlignment"	"center"
 			"xpos"			"28"
@@ -993,7 +993,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"AssistsLabel"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"	"west"
 			"xpos"			"4"
@@ -1010,7 +1010,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Assists"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%assists%"
 			"textAlignment"	"west"
 			"xpos"			"9999"
@@ -1027,7 +1027,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Assists2"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%assists%"
 			"textAlignment"	"west"
 			"xpos"			"70"
@@ -1046,7 +1046,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DestructionLabel"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"	"west"
 			"xpos"			"4"
@@ -1063,7 +1063,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Destruction"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%destruction%"
 			"textAlignment"	"west"
 			"xpos"			"9999"
@@ -1080,7 +1080,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Destruction2"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%destruction%"
 			"textAlignment"	"west"
 			"xpos"			"70"
@@ -1099,7 +1099,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RevengeLabel"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"	"west"
 			"xpos"			"102"
@@ -1117,7 +1117,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapturesLabel"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"	"west"
 			"xpos"			"4"
@@ -1134,7 +1134,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Captures"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%captures%"
 			"textAlignment"	"west"
 			"xpos"			"9999"
@@ -1151,7 +1151,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Captures2"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%captures%"
 			"textAlignment"	"west"
 			"xpos"			"70"
@@ -1170,7 +1170,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DefensesLabel"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"	"west"
 			"xpos"			"4"
@@ -1187,7 +1187,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Defenses"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%defenses%"
 			"textAlignment"	"west"
 			"xpos"			"9999"
@@ -1204,7 +1204,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Defenses2"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%defenses%"
 			"textAlignment"	"west"
 			"xpos"			"70"
@@ -1222,7 +1222,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DominationLabel"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"	"west"
 			"xpos"			"102"
@@ -1239,7 +1239,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Domination"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%dominations%"
 			"textAlignment"	"west"
 			"xpos"			"100"
@@ -1256,7 +1256,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Domination2"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%dominations%"
 			"textAlignment"	"west"
 			"xpos"			"168"
@@ -1274,7 +1274,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Revenge"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%Revenge%"
 			"textAlignment"	"west"
 			"xpos"			"9999"
@@ -1291,7 +1291,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Revenge2"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%Revenge%"
 			"textAlignment"	"west"
 			"xpos"			"168"
@@ -1309,7 +1309,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"HealingLabel"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"	"west"
 			"xpos"			"102"
@@ -1326,7 +1326,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Healing"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%healing%"
 			"textAlignment"	"west"
 			"xpos"			"9999"
@@ -1343,7 +1343,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Healing2"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%healing%"
 			"textAlignment"	"west"
 			"xpos"			"168"
@@ -1361,7 +1361,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"InvulnLabel"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"	"west"
 			"xpos"			"102"
@@ -1378,7 +1378,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Invuln"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%invulns%"
 			"textAlignment"	"west"
 			"xpos"			"9999"
@@ -1395,7 +1395,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Invuln2"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%invulns%"
 			"textAlignment"	"west"
 			"xpos"			"168"
@@ -1413,7 +1413,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TeleportsLabel"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"	"west"
 			"xpos"			"342"
@@ -1430,7 +1430,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Teleports"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%teleports%"
 			"textAlignment"	"west"
 			"xpos"			"100"
@@ -1447,7 +1447,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Teleports2"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%teleports%"
 			"textAlignment"	"west"
 			"xpos"			"408"
@@ -1464,7 +1464,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"HeadshotsLabel"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"	"west"
 			"xpos"			"342"
@@ -1481,7 +1481,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Headshots"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%headshots%"
 			"textAlignment"	"west"
 			"xpos"			"9999"
@@ -1498,7 +1498,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Headshots2"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%headshots%"
 			"textAlignment"	"west"
 			"xpos"			"408"
@@ -1515,7 +1515,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BackstabsLabel"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"	"west"
 			"xpos"			"342"
@@ -1532,7 +1532,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Backstabs"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%backstabs%"
 			"textAlignment"	"west"
 			"xpos"			"9999"
@@ -1549,7 +1549,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Backstabs2"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%backstabs%"
 			"textAlignment"	"west"
 			"xpos"			"408"
@@ -1566,7 +1566,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BonusLabel"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"	"west"
 			"xpos"			"342"
@@ -1583,7 +1583,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Bonus"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%bonus%"
 			"textAlignment"	"west"
 			"xpos"			"9999"
@@ -1600,7 +1600,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Bonus2"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%bonus%"
 			"textAlignment"	"west"
 			"xpos"			"408"
@@ -1617,7 +1617,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SupportLabel"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_Scoreboard_Support"
 			"textAlignment"	"west"
 			"xpos"			"440"
@@ -1634,7 +1634,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Support"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%support%"
 			"textAlignment"	"west"
 			"xpos"			"9999"
@@ -1651,7 +1651,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Support2"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%support%"
 			"textAlignment"	"west"
 			"xpos"			"502"
@@ -1669,7 +1669,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DamageLabel"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_Scoreboard_Damage"
 			"textAlignment"	"west"
 			"xpos"			"440"
@@ -1686,7 +1686,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Damage"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%damage%"
 			"textAlignment"	"west"
 			"xpos"			"9999"
@@ -1703,7 +1703,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Damage2"
-			"font"			"Cerbetica14"
+			"font"			"HudFontSmall"
 			"labelText"		"%damage%"
 			"textAlignment"	"west"
 			"xpos"			"502"

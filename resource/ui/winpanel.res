@@ -46,7 +46,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BlueTeamLabel"
-			"font"				"Cerbetica24"
+			"font"				"HudFontMedium"
 			"labelText"			"%blueteamname%"
 			"textAlignment"		"west"
 			"xpos"				"4"
@@ -64,7 +64,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BlueTeamScore"
-			"font"				"CerbeticaBold40"
+			"font"				"Cerbetica40"
 			"labelText"			"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"				"15"
@@ -81,7 +81,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BlueTeamScoreDropshadow"
-			"font"				"CerbeticaBold40"
+			"font"				"Cerbetica40"
 			"fgcolor"			"TransparentBlack"
 			"labelText"			"%blueteamscore%"
 			"textAlignment"		"east"
@@ -120,7 +120,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamLabel"
-			"font"				"Cerbetica24"
+			"font"				"HudFontMedium"
 			"labelText"			"%redteamname%"
 			"textAlignment"		"east"
 			"xpos"				"122"
@@ -138,7 +138,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamScore"
-			"font"				"CerbeticaBold40"
+			"font"				"Cerbetica40"
 			"labelText"			"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"				"105"
@@ -155,7 +155,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamScoreDropshadow"
-			"font"				"CerbeticaBold40"
+			"font"				"Cerbetica40"
 			"fgcolor"			"TransparentBlack"
 			"labelText"			"%redteamscore%"
 			"textAlignment"		"west"
@@ -225,7 +225,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinningTeamLabel"
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"xpos"			"10"
 		"ypos"			"54"
 		"zpos"			"1"
@@ -244,7 +244,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"-1"
 		"ypos"			"-1"
@@ -268,7 +268,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AdvancingTeamLabel"
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"xpos"			"10"
 		"ypos"			"59"
 		"zpos"			"1"
@@ -287,7 +287,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AdvancingTeamLabelDropshadow"
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"-1"
 		"ypos"			"-1"

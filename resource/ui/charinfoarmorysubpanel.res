@@ -146,7 +146,7 @@
 		{
 			"ControlName"	"CEconItemDetailsRichText"
 			"fieldName"		"Data_TextRichText"
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmallest"
 			"labelText"		"%datatext%"
 			"textAlignment"	"north-west"
 			"xpos"			"10"

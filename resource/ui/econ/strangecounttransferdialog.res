@@ -34,7 +34,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"Cerbetica26"
+			"font"			"HudFontMedium"
 			"labelText"		"#TF_StrangeCount_TransferTitle"
 			"textAlignment"	"center"
 			"xpos"			"95"

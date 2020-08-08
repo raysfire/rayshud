@@ -37,8 +37,8 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"CerbeticaBold56"
-		"font_minmode"		"CerbeticaBold32"
+		"font"				"Cerbetica56"
+		"font_minmode"		"Cerbetica32"
 		"fgcolor"			"Ammo In Clip"
 	}
 
@@ -60,8 +60,8 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"CerbeticaBold56"
-		"font_minmode"		"CerbeticaBold32"
+		"font"				"Cerbetica56"
+		"font_minmode"		"Cerbetica32"
 		"fgcolor"			"TransparentBlack"
 
 		"pin_to_sibling"		"ChargeLabel"
@@ -110,7 +110,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"Cerbetica12"
+		"font"				"HudFontSmallest"
 		"fgcolor"			"TanLight"
 	}
 

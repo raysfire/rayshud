@@ -34,7 +34,7 @@
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"Cerbetica11"
+		"font"				"ItemFontAttribLarge"
 	}
 
 	"ItemEffectMeter"

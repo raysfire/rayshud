@@ -83,7 +83,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Cerbetica22"
+		"font"				"HudFontMedium"
 	}
 
 	"LabelPreview"
@@ -104,7 +104,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Cerbetica14"
+		"font"				"HudFontSmall"
 	}
 
 	"PreviewImageBorder"
@@ -197,7 +197,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Cerbetica14"
+		"font"				"HudFontSmall"
 	}
 
 	"FileTitle"
@@ -221,7 +221,7 @@
 		"fgcolor_override"	"0 0 0 255"
 		"bgcolor_override"	"235 226 202 255"
 		"paintbackgroundtype"	"2"
-		"font"					"Cerbetica14"
+		"font"					"HudFontSmall"
 	}
 
 	"LabelDesc"
@@ -242,7 +242,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Cerbetica14"
+		"font"				"HudFontSmall"
 	}
 	"FileDesc"
 	{
@@ -265,7 +265,7 @@
 		"fgcolor_override"	"0 0 0 255"
 		"bgcolor_override"	"235 226 202 255"
 		"paintbackgroundtype"	"2"
-		"font"					"Cerbetica14"
+		"font"					"HudFontSmall"
 	}
 
 	"LabelSourceFile"
@@ -286,7 +286,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Cerbetica14"
+		"font"				"HudFontSmall"
 	}
 
 	"SourceFile"
@@ -308,7 +308,7 @@
 		"maxchars"			"256"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
-		"font"				"Cerbetica14"
+		"font"				"HudFontSmall"
 	}
 
 	"ButtonSourceCosmetics"

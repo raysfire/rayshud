@@ -56,7 +56,7 @@
 		"tall"			"30"
 		"labelText"		"#TF_SelectAClass"
 		"textAlignment"	"center"
-		"font"			"CerbeticaBold32"
+		"font"			"Cerbetica32"
 		"visible"		"0"
 		"enabled"		"0"
 		"fgcolor"		"TanLight"
@@ -80,7 +80,7 @@
 		"textAlignment"		"west"
 		"Command"			"joinclass scout"
 		"Default"			"1"
-		"font"				"CerbeticaBold16"
+		"font"				"Cerbetica16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 
@@ -117,7 +117,7 @@
 		"textAlignment"		"west"
 		"Command"			"joinclass soldier"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"
+		"font"				"Cerbetica16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 
@@ -154,7 +154,7 @@
 		"textAlignment"		"west"
 		"Command"			"joinclass pyro"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"
+		"font"				"Cerbetica16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 
@@ -191,7 +191,7 @@
 		"textAlignment"		"west"
 		"Command"			"joinclass demoman"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"
+		"font"				"Cerbetica16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 
@@ -228,7 +228,7 @@
 		"textAlignment"		"west"
 		"Command"			"joinclass heavyweapons"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"
+		"font"				"Cerbetica16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 
@@ -265,7 +265,7 @@
 		"textAlignment"		"west"
 		"Command"			"joinclass engineer"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"
+		"font"				"Cerbetica16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 
@@ -302,7 +302,7 @@
 		"textAlignment"		"west"
 		"Command"			"joinclass medic"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"
+		"font"				"Cerbetica16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 
@@ -339,7 +339,7 @@
 		"textAlignment"		"west"
 		"Command"			"joinclass sniper"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"
+		"font"				"Cerbetica16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 
@@ -376,7 +376,7 @@
 		"textAlignment"		"west"
 		"Command"			"joinclass spy"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"
+		"font"				"Cerbetica16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 
@@ -412,7 +412,7 @@
 		"labelText"			"(&R)  RANDOM"
 		"textAlignment"		"west"
 		"Command"			"joinclass random"
-		"font"				"CerbeticaBold16"
+		"font"				"Cerbetica16"
 		"paintbackground"	"0"
 
 		"fgcolor"					"235 226 202 255"
@@ -447,7 +447,7 @@
 		"labelText"		"(&Q)  CANCEL"
 		"textAlignment"	"west"
 		"Command"		"vguicancel"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 		"paintbackground" "0"
 
 		"fgcolor"					"235 226 202 255"
@@ -479,7 +479,7 @@
 		"labelText"		"(&E)  EDIT LOADOUT"
 		"textAlignment"	"west"
 		"Command"		"openloadout"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 
 		"fgcolor"					"235 226 202 255"
 		"defaultFgColor_override"	"235 226 202 255"
@@ -518,7 +518,7 @@
 		"paintbackground""0"
 		"textAlignment"	"center"
 		"Command"		"resetclass"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 	}
 
 	"MenuBG"
@@ -745,7 +745,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numScout%"
 		"textAlignment"	"center"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 		"fgcolor"		"235 226 202 255"
 	}
 
@@ -765,7 +765,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"center"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 		"fgcolor"		"235 226 202 255"
 	}
 
@@ -785,7 +785,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numPyro%"
 		"textAlignment"	"center"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 		"fgcolor"		"235 226 202 255"
 	}
 
@@ -805,7 +805,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"center"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 		"fgcolor"		"235 226 202 255"
 	}
 
@@ -825,7 +825,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"center"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 		"fgcolor"		"235 226 202 255"
 	}
 
@@ -845,7 +845,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"center"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 		"fgcolor"		"235 226 202 255"
 	}
 
@@ -865,7 +865,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numMedic%"
 		"textAlignment"	"center"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 		"fgcolor"		"235 226 202 255"
 	}
 
@@ -885,7 +885,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSniper%"
 		"textAlignment"	"center"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 		"fgcolor"		"235 226 202 255"
 	}
 
@@ -905,7 +905,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSpy%"
 		"textAlignment"	"center"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 		"fgcolor"		"235 226 202 255"
 	}
 

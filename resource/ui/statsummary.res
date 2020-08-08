@@ -142,7 +142,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"OnYourWayLabel"
-		"font"			"CerbeticaBold24"
+		"font"			"Cerbetica24"
 		"labelText"		"#LoadingMap"
 		"textAlignment"	"west"
 		"xpos"			"5"
@@ -160,7 +160,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LoadingLabel"
-		"font"			"Cerbetica32"
+		"font"			"HudFontBiggerBold"
 		"labelText"		"Loading..."
 		"textAlignment"	"west"
 		"xpos"			"5"
@@ -178,7 +178,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"Cerbetica72"
+		"font"			"HudFontGiantBold"
 		"labelText"		"%maplabel%"
 		"textAlignment"	"west"
 		"xpos"			"5"
@@ -196,7 +196,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
-		"font"			"Cerbetica24"
+		"font"			"HudFontMedium"
 		"labelText"		"%maptype%"
 		"textAlignment"	"west"
 		"xpos"			"6"
@@ -239,7 +239,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"			"BarChartLabelA"
-				"font"				"CerbeticaBold12"
+				"font"				"Cerbetica12"
 				"labelText"			"#StatSummary_StatTitle_MostPoints"
 				"textAlignment"		"east"
 				"xpos"				"c-282"
@@ -256,7 +256,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"			"BarChartLabelB"
-				"font"				"CerbeticaBold12"
+				"font"				"Cerbetica12"
 				"labelText"			"#StatSummary_StatTitle_TotalPlaytime"
 				"textAlignment"		"west"
 				"xpos"				"c-127"
@@ -273,7 +273,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"			"OverallRecordLabel"
-				"font"				"CerbeticaBold12"
+				"font"				"Cerbetica12"
 				"labelText"			"#StatSummary_Label_AsAnyClass"
 				"textAlignment"		"west"
 				"xpos"				"c+130"
@@ -390,7 +390,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel1A"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel1A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -407,7 +407,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel1B"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel1B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -424,7 +424,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel1"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%class1%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -509,7 +509,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel2A"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel2A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -526,7 +526,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel2B"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel2B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -543,7 +543,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel2"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%class2%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -628,7 +628,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel3A"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel3A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -645,7 +645,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel3B"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel3B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -662,7 +662,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel3"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%class3%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -747,7 +747,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel4A"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel4A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -764,7 +764,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel4B"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel4B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -781,7 +781,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel4"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%class4%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -866,7 +866,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel5A"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel5A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -883,7 +883,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel5B"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel5B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -900,7 +900,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel5"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%class5%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -985,7 +985,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel6A"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel6A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -1002,7 +1002,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel6B"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel6B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -1019,7 +1019,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel6"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%class6%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -1104,7 +1104,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel7A"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel7A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -1121,7 +1121,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel7B"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel7B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -1138,7 +1138,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel7"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%class7%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -1223,7 +1223,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel8A"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel8A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -1240,7 +1240,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel8B"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel8B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -1257,7 +1257,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel8"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%class8%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -1342,7 +1342,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel9A"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel9A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -1359,7 +1359,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel9B"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%classbarlabel9B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -1376,7 +1376,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel9"
-			"font"			"CerbeticaBold12"
+			"font"			"Cerbetica12"
 			"labelText"		"%class9%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -1983,7 +1983,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"TipText"
-		"font"			"Cerbetica12"
+		"font"			"HudFontSmallest"
 		"labelText"		"%tiptext%"
 		"textAlignment"	"west"
 		"xpos"			"9999"

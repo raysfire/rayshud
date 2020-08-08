@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemNameLabel"
-		"font"				"Cerbetica14"
+		"font"				"HudFontSmall"
 		"xpos"				"0"
 		"ypos"				"4"
 		"zpos"				"1"
@@ -34,7 +34,7 @@
 		"enabled"			"0"
 		"scaleImage"		"1"
 		"icon"				"hud_menu_item_bg_outline"
-		"iconColor"			"0 0 0 196"
+		"iconColor"			"TransparentBlack"
 	}
 
 	"BuildingIcon"
@@ -57,7 +57,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CantBuildReason"
-		"font"				"Cerbetica14"
+		"font"				"HudFontSmall"
 		"fgcolor"			"ColorRed"
 		"xpos"				"0"
 		"ypos"				"60"
@@ -92,7 +92,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CostLabel"
-		"font"				"Cerbetica14"
+		"font"				"HudFontSmall"
 		"fgcolor"			"ColorRed"
 		"xpos"				"50"
 		"ypos"				"20"
@@ -111,7 +111,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CostLabelShadow"
-		"font"				"Cerbetica14"
+		"font"				"HudFontSmall"
 		"fgcolor"			"TransparentBlack"
 		"xpos"				"-1"
 		"ypos"				"-1"
@@ -169,7 +169,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
-		"font"				"Cerbetica20"
+		"font"				"HudFontMediumSecondary"
 		"fgcolor"			"ColorRed"
 		"xpos"				"0"
 		"ypos"				"95"

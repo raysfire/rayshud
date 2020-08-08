@@ -229,7 +229,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"Cerbetica8"
+			"font"			"Default"
 			"xpos"			"27"
 			"ypos"			"78"
 			"zpos"			"2"

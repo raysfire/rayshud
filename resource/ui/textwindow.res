@@ -65,7 +65,7 @@
 	{
 		"ControlName"		"CExRichText"
 		"fieldName"			"TFTextMessage"
-		"font"				"Cerbetica12"
+		"font"				"HudFontSmallest"
 		"xpos"				"c-170"
 		"ypos"				"c-90"
 		"zpos"				"1"

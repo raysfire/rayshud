@@ -25,7 +25,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"WaveCountLabel"
-		"font"				"CerbeticaBold14"
+		"font"				"Cerbetica14"
 		"fgcolor"			"TanLight"
 		"xpos"				"140"
 		"ypos"				"15"
@@ -43,7 +43,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"WaveCountLabelShadow"
-		"font"				"CerbeticaBold14"
+		"font"				"Cerbetica14"
 		"fgcolor"			"TransparentBlack"
 		"xpos"				"-1"
 		"ypos"				"-1"
@@ -85,7 +85,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SupportLabel"
-		"font"				"CerbeticaBold14"
+		"font"				"Cerbetica14"
 		"fgcolor"			"TanLight"
 		"xpos"				"55"
 		"ypos"				"6"

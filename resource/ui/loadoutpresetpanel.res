@@ -15,7 +15,7 @@
 			"visible"			"0"
 			"enabled"			"1"
 			"tabPosition"		"0"
-			"font"				"CerbeticaBold28"
+			"font"				"Cerbetica28"
 			"textAlignment"		"center"
 			"textinsetx"		"0"
 			"dulltext"			"0"

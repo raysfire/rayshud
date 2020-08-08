@@ -50,7 +50,7 @@
 		"wide"			"110"
 		"tall"			"40"
 		"textAlignment"	"north"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 	}
 
 	"BlueTeamBG"
@@ -68,7 +68,7 @@
 		"wide"			"110"
 		"tall"			"40"
 		"textAlignment"	"north"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 	}
 
 	"RedTeamBG"
@@ -86,7 +86,7 @@
 		"wide"			"220"
 		"tall"			"20"
 		"textAlignment"	"center"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 	}
 
 	"AutoJoinBG"
@@ -102,7 +102,7 @@
 		"wide"			"220"
 		"tall"			"20"
 		"textAlignment"	"center"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 	}
 
 	"SpectateBG"
@@ -117,7 +117,7 @@
 		"ypos"			"c-15"
 		"wide"			"48"
 		"tall"			"40"
-		"font"			"Cerbetica14"
+		"font"			"HudFontSmall"
 		"textAlignment"	"east"
 		"fgcolor"		"255 255 255 175"
 	}
@@ -134,7 +134,7 @@
 		"enabled"		"1"
 		"labelText"		"players"
 		"textAlignment"	"west"
-		"font"			"Cerbetica14"
+		"font"			"HudFontSmall"
 		"fgcolor"		"255 255 255 175"
 	}
 
@@ -145,7 +145,7 @@
 		"wide"			"43"
 		"tall"			"40"
 		"labelText"		"%redcount%"
-		"font"			"Cerbetica14"
+		"font"			"HudFontSmall"
 		"textAlignment"	"east"
 		"fgcolor"		"255 255 255 175"
 	}
@@ -162,7 +162,7 @@
 		"enabled"		"1"
 		"labelText"		"players"
 		"textAlignment"	"west"
-		"font"			"Cerbetica14"
+		"font"			"HudFontSmall"
 		"fgcolor"		"255 255 255 175"
 	}
 }

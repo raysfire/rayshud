@@ -66,7 +66,7 @@
 		"enabled"		"1"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"center"
-		"font"			"Cerbetica16"
+		"font"			"HudFontSmallishBold"
 		"fgcolor"		"TanLight"
 	}
 

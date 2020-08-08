@@ -51,7 +51,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 		"fgcolor"		"Spec Health Normal"
 	}
 
@@ -68,7 +68,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 		"fgcolor"		"TransparentBlack"
 
 		"pin_to_sibling"		"GuiPlayerHealth"

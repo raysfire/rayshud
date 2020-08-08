@@ -101,7 +101,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"Cerbetica16"
+		"font"			"HudFontSmallishBold"
 		"labelText"		">>"
 		"textAlignment"	"west"
 		"xpos"			"c-290"
@@ -327,7 +327,7 @@
 		"tabPosition"		"0"
 		"labelText"			"R"
 		"textAlignment"		"center"
-		"font"				"CerbeticaBold28"
+		"font"				"Cerbetica28"
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 0"
 
@@ -356,7 +356,7 @@
 		"tabPosition"		"0"
 		"labelText"			"B"
 		"textAlignment"		"center"
-		"font"				"CerbeticaBold28"
+		"font"				"Cerbetica28"
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 1"
 

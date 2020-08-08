@@ -98,7 +98,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
-		"font"			"CerbeticaBold40"
+		"font"			"Cerbetica40"
 		"fgcolor"		"TanLight"
 
 		"if_hybrid"
@@ -130,7 +130,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
-		"font"			"CerbeticaBold40"
+		"font"			"Cerbetica40"
 		"fgcolor"		"TransparentBlack"
 
 		"pin_to_sibling"		"BlueScore"
@@ -166,7 +166,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
-		"font"			"CerbeticaBold40"
+		"font"			"Cerbetica40"
 		"fgcolor"		"TanLight"
 
 		"if_hybrid"
@@ -198,7 +198,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
-		"font"			"CerbeticaBold40"
+		"font"			"Cerbetica40"
 		"fgcolor"		"TransparentBlack"
 
 		"pin_to_sibling"		"RedScore"
@@ -258,7 +258,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Cerbetica14"
+		"font"			"HudFontSmall"
 		"fgcolor"		"TanLight"
 
 		"if_hybrid"

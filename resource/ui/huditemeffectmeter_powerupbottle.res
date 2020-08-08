@@ -64,14 +64,14 @@
 		"centerwrap"		"1"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"Cerbetica12"
+		"font"				"HudFontSmallest"
 	}
 
 	"CanteenLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CanteenLabel"
-		"font"				"Cerbetica14"
+		"font"				"HudFontSmall"
 		"fgcolor"			"TanLight"
 		"xpos"				"5"
 		"ypos"				"0"
@@ -120,6 +120,6 @@
 		"textAlignment"		"east"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"Cerbetica16"
+		"font"				"HudFontSmallishBold"
 	}
 }

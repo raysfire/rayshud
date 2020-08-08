@@ -42,7 +42,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"				"#TF_Matchmaking_HeaderMvM"
 		"textAlignment"			"center"
-		"font"					"CerbeticaBold24"
+		"font"					"Cerbetica24"
 		"fgcolor_override"		"White"
 		"mouseinputenabled"		"0"
 	}

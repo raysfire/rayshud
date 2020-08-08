@@ -159,7 +159,7 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		"#TF_Casual_MapSelection"
 			"textAlignment"	"west"
-			"font"			"CerbeticaBold15"
+			"font"			"HudFontSmall"
 			"mouseinputenabled"	"0"
 		}
 
