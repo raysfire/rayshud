@@ -33,7 +33,7 @@
 		"item_backdrop_right_margin"		"11"
 		"item_backdrop_top_margin"			"9"
 		"item_backdrop_bottom_margin"		"42"
-		"item_backdrop_paintbackgroundtype"	"2"
+		"item_backdrop_paintbackgroundtype"	"0"
 		"item_panel_bgcolor"			"Grey"
 		"item_panel_bgcolor_mouseover"	"156 146 128 255"
 		"item_panel_bgcolor_selected"	"176 166 148 255"
@@ -199,7 +199,7 @@
 		{
 			"defaultFgColor_override"	"TanLight"
 			"defaultBgColor_override"	"15 15 15 255"
-			"armedFgColor_override"		"15 255 255 255 255"
+			"armedFgColor_override"		"15 255 255 255"
 			"armedBgColor_override"		"15 15 15 255"
 			"paintbackgroundtype"		"2"
 		}
@@ -240,7 +240,7 @@
 		{
 			"defaultFgColor_override"	"TanLight"
 			"defaultBgColor_override"	"15 15 15 255"
-			"armedFgColor_override"		"15 255 255 255 255"
+			"armedFgColor_override"		"15 255 255 255"
 			"armedBgColor_override"		"15 15 15 255"
 			"paintbackgroundtype"		"2"
 		}
@@ -314,7 +314,7 @@
 		"ypos"			"170"
 		"zpos"			"100"
 		"wide"			"200"
-		"tall"			"40"
+		"tall"			"20"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -325,13 +325,14 @@
 		"paintborder"	"1"
 		"textinsetx"	"100"
 		"border"		"LoadoutItemPopupBorder"
+		"fgcolor"		"White"
 	}
 
 	"PrevPageButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
-		"xpos"			"c210"
+		"xpos"			"c190"
 		"ypos"			"280"
 		"zpos"			"5"
 		"wide"			"20"
@@ -349,17 +350,16 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"defaultBgColor_override" "DarkerGrey"
 	}
 
 	"CurPageLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmall"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
-		"xpos"			"c230"
+		"xpos"			"c220"
 		"ypos"			"280"
 		"zpos"			"5"
 		"wide"			"40"
@@ -393,7 +393,6 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"defaultBgColor_override" "DarkerGrey"
 	}
 
 	"PriceLabel"
@@ -432,7 +431,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"White"
 	}
 
 	"SubcategoryFiltersLabel"
@@ -451,7 +450,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"White"
 	}
 
 	"SortFilterLabel"
@@ -470,7 +469,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"White"
 	}
 
 	"ClassFilterLabel"
@@ -489,7 +488,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"White"
 	}
 
 	"ClassFilterNavPanel"
@@ -698,11 +697,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BackpackSpaceLabel"
-		"font"			"Cerbetica14"
+		"font"			"HudFontSmallest"
 		"labelText"		"%freebackpackspace%"
 		"textAlignment"	"west"
-		"xpos"			"c-292"
-		"ypos"			"277"
+		"xpos"			"c-300"
+		"ypos"			"315"
 		"zpos"			"0"
 		"wide"			"200"
 		"tall"			"20"
@@ -716,11 +715,11 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CartButton"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmall"
 		"labelText"		"%storecart%"
 		"textAlignment"	"east"
-		"xpos"			"c-292"
-		"ypos"			"299"
+		"xpos"			"c-300"
+		"ypos"			"334"
 		"zpos"			"12"
 		"wide"			"56"
 		"tall"			"24"
@@ -728,9 +727,8 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"textinsetx"	"15"
-
 		"Command"		"viewcart"
-		"font"			"HudFontSmallBold"
+		"defaultBgColor_override" "TanDarker"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -739,8 +737,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CartImage"
-		"xpos"			"c-289"
-		"ypos"			"302"
+		"xpos"			"c-295"
+		"ypos"			"336"
 		"zpos"			"13"
 		"wide"			"24"
 		"tall"			"20"

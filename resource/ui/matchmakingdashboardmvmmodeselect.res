@@ -42,7 +42,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"				"#TF_Matchmaking_HeaderMvM"
 		"textAlignment"			"center"
-		"font"					"CerbeticaBold24"
+		"font"					"Cerbetica24"
 		"fgcolor_override"		"White"
 		"mouseinputenabled"		"0"
 	}
@@ -141,8 +141,7 @@
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"HudBlack"
+			"defaultBgColor_override"		"TransparentBlack"
 		}
 
 		"PlayForBraggingRightsExplanation"
@@ -259,8 +258,7 @@
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"HudBlack"
+			"defaultBgColor_override"		"TransparentBlack"
 		}
 
 		"PlayOnCommunityServerExplanation"

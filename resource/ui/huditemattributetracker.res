@@ -24,7 +24,7 @@
 		"tall"			"20"
 		"proportionaltoparent"	"1"
 
-		"border"	"NoBorder"	//QuestStatusBorder
+		"border"	"NoBorder"
 		"paintborder"	"2"
 
 		"Header"
@@ -38,7 +38,7 @@
 			"tall"			"18"
 			"zpos"			"4"
 			"textinsetx"	"5"
-			"fgcolor_override"		"255 255 255 255"	//235 226 202 255
+			"fgcolor_override"		"255 255 255 255"
 			"font"			"AchievementTracker_Name"
 			//"wrap"			"1"
 			"TextAlignment"		"north-east"
@@ -56,7 +56,7 @@
 			"tall"			"f0"
 			"zpos"			"4"
 			"textinsetx"	"5"
-			"fgcolor_override"		"255 255 255 255"	//235 226 202 255
+			"fgcolor_override"		"255 255 255 255"
 			"font"			"QuestObjectiveTracker_Desc"
 			//"wrap"			"1"
 			"TextAlignment"		"north-east"
@@ -72,8 +72,8 @@
 			"zpos"			"0"
 			"wide"			"o1"
 			"tall"			"p0.8"
-			"visible"		"0"	//1
-			"enabled"		"0"	//1
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"tf2_folder_icon"
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"

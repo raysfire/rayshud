@@ -5,9 +5,9 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ItemQuickSwitchPanel"
 		"xpos"			"c-135"
-		"ypos"			"330"
+		"ypos"			"360"
 		"wide"			"270"
-		"tall"			"140"
+		"tall"			"115"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -59,13 +59,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemSlotLabel"
-		"xpos"			"9999"
-	}
-
-	"NoItemsLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"NoItemsLabel"
 		"xpos"			"9999"
 	}
 
@@ -129,12 +122,19 @@
 		}
 	}
 
+	"NoItemsLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"NoItemsLabel"
+		"xpos"			"9999"
+	}
+
 	"loadout_preset_panel"
 	{
 		"ControlName"	"CLoadoutPresetPanel"
 		"FieldName"		"loadout_preset_panel"
 		"xpos"			"240"
-		"ypos"			"15"
+		"ypos"			"5"
 		"zpos"			"20"
 		"wide"			"25"
 		"tall"			"110"

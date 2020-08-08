@@ -10,7 +10,7 @@
 		"ypos"				"20"
 		"zpos"				"0"
 		"wide"				"400"
-		"tall"				"130"
+		"tall"				"120"
 		"visible"			"1"
 		"enabled"			"1"
 		"scaleImage"		"1"

@@ -47,7 +47,7 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"c-327"
+		"xpos"				"c-267"
 		"xpos_minmode"		"c-250"
 		"ypos"				"r114"
 		"ypos_minmode"		"r190"
@@ -61,7 +61,7 @@
 	{
 		"ControlName"		"CInWorldCurrencyStatus"
 		"fieldName"			"InWorldCurrencyPanel"
-		"xpos"				"c-327"
+		"xpos"				"c-267"
 		"xpos_minmode"		"c-250"
 		"ypos"				"r93"
 		"ypos_minmode"		"r168"
@@ -183,6 +183,7 @@
 		"fieldName"			"VictorySplash"
 		"xpos"				"0"
 		"ypos"				"0"
+		//"zpos"			"102"
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"

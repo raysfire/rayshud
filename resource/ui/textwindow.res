@@ -49,7 +49,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"Cerbetica24"
+		"font"				"HudFontMedium"
 		"fgcolor"			"TanLight"
 	}
 
@@ -57,19 +57,20 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"			"TextMessage"
-		"xpos"				"9999"
+		"visible"			"0"
+		"enabled"			"0"
 	}
 
 	"TFTextMessage"
 	{
 		"ControlName"		"CExRichText"
 		"fieldName"			"TFTextMessage"
-		"font"				"Cerbetica12"
+		"font"				"HudFontSmallest"
 		"xpos"				"c-170"
 		"ypos"				"c-90"
 		"zpos"				"1"
 		"wide"				"340"
-		"tall"				"181"
+		"tall"				"180"
 		"autoResize"		"3"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -110,14 +111,14 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"CONTINUE (&E)"
+		"labelText"			"#TF_Continue"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
 		"command"			"okay"
 		"default"			"1"
-		"font"				"Cerbetica24"
+		"font"				"HudFontMedium"
 		"paintbackground"	"0"
 
 		"fgcolor"					"TanLight"
@@ -139,22 +140,13 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ShadedBar"
 		"xpos"				"9999"
-		"ypos"				"9999"
-		"zpos"				"5"
-		"wide"				"f0"
-		"tall"				"50"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"image"				"loadout_bottom_gradient"
-		"tileImage"			"1"
-		"PaintBackgroundType"	"0"
 	}
 
 	"MessageTitle"
 	{
 		"ControlName"		"Label"
 		"fieldName"			"MessageTitle"
-		"xpos"				"9999"
+		"visible"			"0"
+		"enabled"			"0"
 	}
 }

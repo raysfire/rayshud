@@ -42,7 +42,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"			"Cerbetica24"
+			"font"			"HudFontMedium"
 			"labelText"		"%blueteamname%"
 			"textAlignment"	"west"
 			"xpos"			"29"
@@ -58,7 +58,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"			"Cerbetica48"
+			"font"			"Cerbetica40"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"	"east"
 			"xpos"			"138"
@@ -75,7 +75,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
-			"font"			"Cerbetica48"
+			"font"			"Cerbetica40"
 			"fgcolor"		"TransparentBlack"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"	"east"
@@ -97,7 +97,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"			"Cerbetica24"
+			"font"			"HudFontMedium"
 			"labelText"		"%redteamname%"
 			"textAlignment"	"east"
 			"xpos"			"220"
@@ -113,7 +113,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RedTeamScore"
-			"font"			"Cerbetica48"
+			"font"			"Cerbetica40"
 			"labelText"		"%redteamscore%"
 			"textAlignment"	"west"
 			"xpos"			"230"
@@ -130,7 +130,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RedTeamScoreDropshadow"
-			"font"			"Cerbetica48"
+			"font"			"Cerbetica40"
 			"fgcolor"		"TransparentBlack"
 			"labelText"		"%redteamscore%"
 			"textAlignment"	"west"
@@ -175,7 +175,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ArenaStreakLabel"
-			"font"			"CerbeticaBold14"
+			"font"			"Cerbetica14"
 			"fgcolor"		"TanLight"
 			"xpos"			"9999"
 			"ypos"			"9999"
@@ -229,7 +229,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinningTeamLabel"
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"xpos"			"35"
 		"ypos"			"41"
 		"zpos"			"1"
@@ -248,7 +248,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"36"
 		"ypos"			"42"
@@ -269,7 +269,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LosingTeamLabel"
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"xpos"			"35"
 		"ypos"			"41"
 		"zpos"			"1"
@@ -288,7 +288,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LosingTeamLabelDropshadow"
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"36"
 		"ypos"			"42"
@@ -327,7 +327,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DetailsLabel"
-		"font"			"Cerbetica9"
+		"font"			"Default"
 		"xpos"			"35"
 		"ypos"			"122"
 		"zpos"			"1"
@@ -363,7 +363,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TopPlayerLabel"
-		"font"			"Cerbetica9"
+		"font"			"Default"
 		"xpos"			"50"
 		"ypos"			"64"
 		"zpos"			"3"
@@ -382,7 +382,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageThisRoundLabel"
-		"font"			"Cerbetica9"
+		"font"			"Default"
 		"xpos"			"265"
 		"ypos"			"64"
 		"zpos"			"3"
@@ -401,7 +401,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
-		"font"			"Cerbetica9"
+		"font"			"Default"
 		"xpos"			"315"
 		"ypos"			"64"
 		"zpos"			"3"
@@ -420,7 +420,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
-		"font"			"Cerbetica9"
+		"font"			"Default"
 		"xpos"			"360"
 		"ypos"			"64"
 		"zpos"			"3"
@@ -439,7 +439,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
-		"font"			"Cerbetica9"
+		"font"			"Default"
 		"xpos"			"400"
 		"ypos"			"64"
 		"zpos"			"3"

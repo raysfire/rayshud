@@ -12,7 +12,7 @@
 		"PositiveColor"				"ColorGreen"
 		"NegativeColor"				"ColorRed"
 		"delta_lifetime"			"1.5"
-		"delta_item_font"			"CerbeticaBold28"
-		"delta_item_font_minmode"	"CerbeticaBold20"
+		"delta_item_font"			"Cerbetica28"
+		"delta_item_font_minmode"	"Cerbetica20"
 	}
 }

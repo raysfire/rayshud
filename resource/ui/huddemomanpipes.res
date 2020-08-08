@@ -19,7 +19,7 @@
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"Cerbetica10"
+		"font"				"HudFontSmall"
 	}
 
 	"ChargeMeter"
@@ -75,8 +75,8 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"CerbeticaBold32"
-			"font_minmode"	"CerbeticaBold20"
+			"font"			"Cerbetica28"
+			"font_minmode"	"Cerbetica20"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -97,8 +97,8 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"CerbeticaBold32"
-			"font_minmode"	"CerbeticaBold20"
+			"font"			"Cerbetica28"
+			"font_minmode"	"Cerbetica20"
 			"fgcolor"		"TransparentBlack"
 
 			"pin_to_sibling"		"NumPipesLabel"

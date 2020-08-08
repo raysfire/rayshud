@@ -2,16 +2,16 @@
 {
 	HudItemEffectMeter
 	{
-		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-75"
-		"ypos"			"c156"
-		"ypos_minmode"	"c23"
-		"wide"			"500"
-		"tall"			"500"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"fieldName"				"HudItemEffectMeter"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-75"
+		"ypos"					"c156"
+		"ypos_minmode"			"c23"
+		"wide"					"500"
+		"tall"					"500"
+		"MeterFG"				"White"
+		"MeterBG"				"Gray"
 	}
 
 	"ItemEffectMeterLabel"
@@ -35,7 +35,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Cerbetica12"
+		"font"					"HudFontSmallest"
 		"fgcolor_override"		"150 150 150 255"
 	}
 
@@ -79,8 +79,8 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"CerbeticaBold28"
-		"font_minmode"			"CerbeticaBold20"
+		"font"					"Cerbetica28"
+		"font_minmode"			"Cerbetica20"
 	}
 
 	"ItemEffectMeterCountShadow"
@@ -100,9 +100,9 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"CerbeticaBold28"
-		"font_minmode"			"CerbeticaBold20"
-		"fgcolor_override"		"TransparentBlack"
+		"font"					"Cerbetica28"
+		"font_minmode"			"Cerbetica20"
+		"fgcolor"				"TransparentBlack"
 
 		"pin_to_sibling"		"ItemEffectMeterCount"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"

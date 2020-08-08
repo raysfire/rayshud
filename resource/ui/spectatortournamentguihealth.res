@@ -38,10 +38,10 @@
 		"image"			""
 	}
 
-	"PlayerStatusHealthValueSpectator"
+	"GuiPlayerHealth"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueSpectator"
+		"fieldName"		"GuiPlayerHealth"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
@@ -51,16 +51,16 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"CerbeticaBold16"
+		"font"			"Cerbetica16"
 		"fgcolor"		"Spec Health Normal"
 	}
 
-	"PlayerStatusHealthValueSpectatorBG"
+	"GuiPlayerHealthShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueSpectatorBG"
-		"xpos"			"2"
-		"ypos"			"2"
+		"fieldName"		"GuiPlayerHealthShadow"
+		"xpos"			"-1"
+		"ypos"			"-2"
 		"zpos"			"4"
 		"wide"			"25"
 		"tall"			"16"
@@ -68,7 +68,11 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"CerbeticaBold16"
-		"fgcolor"		"0 0 0 100"
+		"font"			"Cerbetica16"
+		"fgcolor"		"TransparentBlack"
+
+		"pin_to_sibling"		"GuiPlayerHealth"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 }

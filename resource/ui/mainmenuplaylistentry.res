@@ -95,7 +95,7 @@
 		"textinsetx"	"4"
 		"textinsety"	"16"
 		"use_proportional_insets" "1"
-		"font"			"CerbeticaBold24"
+		"font"			"Cerbetica24"
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"

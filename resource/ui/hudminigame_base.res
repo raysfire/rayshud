@@ -76,7 +76,7 @@
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
 		"font"			"Cerbetica40"
-		"fgcolor"		"Black"
+		"fgcolor"		"TransparentBlack"
 	}
 
 	"RedScore"
@@ -110,7 +110,7 @@
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
-		"fgcolor"		"Black"
+		"fgcolor"		"TransparentBlack"
 	}
 
 	"PlayingTo"
@@ -128,7 +128,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Cerbetica14"
+		"font"			"HudFontSmall"
 		"fgcolor"		"TanLight"
 	}
 

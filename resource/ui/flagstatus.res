@@ -12,6 +12,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
+
+		"if_mvm"  {
+			"ypos"		"0"
+		}
 	}
 
 	"Briefcase"
@@ -30,8 +34,14 @@
 
 		"if_mvm"
 		{
+			"ypos"		"14"
 			"wide"		"24"
 			"tall"		"24"
+		}
+
+		"if_specialdelivery"
+		{
+			"visible"	"0"
 		}
 	}
 
@@ -50,6 +60,11 @@
 		"scaleImage"	"1"
 
 		"if_mvm"
+		{
+			"visible"	"0"
+		}
+
+		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}

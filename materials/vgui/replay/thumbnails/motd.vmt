@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "vgui\replay\thumbnails\motd"
-	"$vertexcolor" "1"
-	"$no_fullbright" "1"
-	"$ignorez" "1"
-	"$translucent" "1"
-}

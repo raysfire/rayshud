@@ -229,7 +229,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"Cerbetica8"
+			"font"			"Default"
 			"xpos"			"27"
 			"ypos"			"78"
 			"zpos"			"2"
@@ -413,8 +413,6 @@
 			"if_multiple_trains"
 			{
 				"xpos"		"9999"
-				"wide"		"5"
-				"tall"		"10"
 			}
 
 			"if_multiple_trains_top"
@@ -432,9 +430,9 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"Cerbetica8"
-			"xpos"			"31"
-			"ypos"			"78"
+			"font"			"CapPlayerFontSmall"
+			"xpos"			"32"
+			"ypos"			"79"
 			"zpos"			"5"
 			"wide"			"15"
 			"tall"			"8"
@@ -486,41 +484,31 @@
 
 			"if_multiple_trains"
 			{
-				"xpos"			"22"
-				"wide"			"8"
-				"tall"			"8"
+				"xpos"		"22"
 			}
 
 			"if_multiple_trains_top"
 			{
-				"ypos"			"46"
+				"ypos"		"46"
 			}
 
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"83"
+				"ypos"		"83"
 			}
 		}
 
 		"EscortTeardrop"
 		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"EscortTeardrop"
-			"xpos"				"9999"
-			"ypos"				"9999"
-			"zpos"				"10"
-			"wide"				"50"
-			"tall"				"42"
-			"visible"			"0"
-			"enabled"			"0"
-
-			"if_multiple_trains"
-			{
-				"xpos"			"9999"
-				"ypos"			"9999"
-				"wide"			"65"
-				"tall"			"42"
-			}
+			"ControlName"	"EditablePanel"
+			"fieldName"		"EscortTeardrop"
+			"xpos"			"9999"
+			"ypos"			"9999"
+			"zpos"			"10"
+			"wide"			"50"
+			"tall"			"42"
+			"visible"		"0"
+			"enabled"		"0"
 
 			"Teardrop"
 			{
@@ -531,15 +519,11 @@
 				"zpos"			"0"
 				"wide"			"34"
 				"tall"			"41"
-				"visible"		"1"
+				"visible"		"0"
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"icon"			"cappoint_progressbar_teardrop"
 				"iconColor"		"White"
-
-				"if_multiple_trains"
-				{
-				}
 			}
 
 			"ProgressText"

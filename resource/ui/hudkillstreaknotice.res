@@ -12,15 +12,15 @@
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"		"HudBlack"
+		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"TransparentBlack"
 	}
 
 	"SplashLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SplashLabel"
-		"font_override"	"Cerbetica12"
+		"font"			"ScoreboardSmall"
 		"labelText"		""
 		"textAlignment" "center"
 		"xpos"			"c-250"

@@ -70,7 +70,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"	"center"
-		"font"			"Cerbetica24"
+		"font"			"HudFontMedium"
 	}
 
 	"BuyBackLabel"
@@ -87,9 +87,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"wrap"			"1"
-		"centerwrap"	"1"
-		"font"			"Cerbetica24"
+		"font"			"HudFontMedium"
 
 		if_mvm
 		{
@@ -209,7 +207,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmallest"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"

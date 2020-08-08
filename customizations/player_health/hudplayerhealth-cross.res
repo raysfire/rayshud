@@ -353,4 +353,12 @@
 		"wide_minmode"	"24"
 		"tall_minmode"	"24"
 	}
+
+	"PlayerStatusHookBleedImage"
+	{
+		"wide"			"32"
+		"tall"			"32"
+		"wide_minmode"	"24"
+		"tall_minmode"	"24"
+	}
 }

@@ -84,7 +84,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"M"
-			"font"			"CustomIcons18"
+			"font"			"CustomIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -92,11 +92,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"0"
-			"fgcolor"					"TanLight"
-			"defaultFgColor_override" 	"TanLight"
-			"armedFgColor_override"		"TanDark"
-			"depressedFgColor_override" "TanDark"
-			"selectedFgColor_override" 	"TanDark"
+			"image_drawcolor"	"TanLight"
+			"image_armedcolor"	"ColorCyan"
 		}
 	}
 
@@ -104,7 +101,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"Cerbetica16"
+		"font"			"HudFontSmallishBold"
 		"labelText"		">>"
 		"textAlignment"	"west"
 		"xpos"			"c-290"
@@ -222,7 +219,7 @@
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"		"1"
-		"text_ypos"			"0"
+		"text_ypos"			"15"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
@@ -232,8 +229,8 @@
 		{
 			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
-			"ypos"			"30"
-			"zpos"			"101"
+			"ypos"			"0"
+			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
 			"autoResize"	"0"
@@ -253,7 +250,7 @@
 		"fieldName"		"PassiveAttribsLabel"
 		"font"			"ItemFontAttribLarge"
 		"xpos"			"c-135"
-		"ypos"			"128"
+		"ypos"			"125"
 		"zpos"			"0"
 		"wide"			"270"
 		"tall"			"240"
@@ -299,7 +296,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"100"
-		"wide"			"140"
+		"wide"			"100"
 		"tall"			"75"
 		"autoResize"	"1"
 		"visible"		"0"
@@ -330,7 +327,7 @@
 		"tabPosition"		"0"
 		"labelText"			"R"
 		"textAlignment"		"center"
-		"font"				"CerbeticaBold28"
+		"font"				"Cerbetica28"
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 0"
 
@@ -339,7 +336,6 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
 		"keyboardinputenabled"	"0"
 		"paintbackground"		"1"
 	}
@@ -360,7 +356,7 @@
 		"tabPosition"		"0"
 		"labelText"			"B"
 		"textAlignment"		"center"
-		"font"				"CerbeticaBold28"
+		"font"				"Cerbetica28"
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 1"
 

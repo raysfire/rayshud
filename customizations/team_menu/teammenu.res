@@ -2,7 +2,7 @@
 {
 	"team"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTeamMenu"
 		"fieldName"		"team"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -62,19 +62,19 @@
 
 	"SelectTeamLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"SelectTeamLabel"
 		"xpos"			"0"
 		"ypos"			"15"
-		"zpos"			"6"
+		"zpos"			"1"
 		"wide"			"255"
 		"tall"			"30"
 		"labelText"		"#TF_SelectATeam"
 		"textAlignment"	"center"
-		"font"			"CerbeticaBold32"
+		"font"			"Cerbetica32"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"TanLight"
+		"fgcolor_override"	"TanLight"
 	}
 
 	"teambutton0"
@@ -91,13 +91,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"&3. BLU"	[$WIN32]
-		"textAlignment"	"west"
+		"labelText"		"#TF_BlueTeam_Name"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"jointeam blue"
 		"team"			"3"		// Blue Team
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"235 226 202 255"
 		"depressedFgColor_override" "255 255 255 128"
@@ -132,14 +132,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"&4. RED"	[$WIN32]
-		"textAlignment"	"west"
+		"labelText"		"#TF_RedTeam_Name"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"jointeam red"
 		"team"			"4"		// Red Team
-		"font"			"CerbeticaBold20"
-
+		"font"			"Cerbetica20"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"235 226 202 255"
 		"depressedFgColor_override" "255 255 255 128"
@@ -174,14 +173,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"&1. Auto-Join"
-		"textAlignment"	"west"
+		"labelText"		"#TF_Random"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam auto"
-
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"235 226 202 255"
 		"depressedFgColor_override" "255 255 255 128"
@@ -216,14 +214,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"&2. Spectate"	[$WIN32]
-		"textAlignment"	"west"
+		"labelText"		"#TF_Spectate"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
-
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"235 226 202 255"
 		"depressedFgColor_override" "255 255 255 128"
@@ -264,11 +261,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCount"
-		"xpos"			"-10"
+		"xpos"			"0"
 		"ypos"			"c5"
 		"zpos"			"1"
 		"zpos"			"3"
-		"wide"			"255"
+		"wide"			"245"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -278,7 +275,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"fgcolor"		"242 242 242 255"
 	}
 
@@ -286,10 +283,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedCount"
-		"xpos"			"-10"
+		"xpos"			"0"
 		"ypos"			"c45"
-		"zpos"			"3"
-		"wide"			"255"
+		"zpos"			"1"
+		"wide"			"245"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -299,56 +296,8 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"CerbeticaBold20"
+		"font"			"Cerbetica20"
 		"fgcolor"		"242 242 242 255"
-	}
-
-	"HighlanderLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"HighlanderLabel"
-		"xpos"			"0"
-		"ypos"			"c95"
-		"zpos"			"6"
-		"wide"			"255"
-		"tall"			"50"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"labelText"		"#TF_Highlander_Mode"
-		"textAlignment"	"Center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"CerbeticaBold16"
-		"fgcolor"		"235 226 202 255"
-		"centerwrap"	"1"
-	}
-
-	"HighlanderLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"HighlanderLabelShadow"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"6"
-		"wide"			"255"
-		"tall"			"50"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"labelText"		"#TF_Highlander_Mode"
-		"textAlignment"	"Center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"CerbeticaBold16"
-		"fgcolor"		"0 0 0 200"
-		"centerwrap"	"1"
-
-		"pin_to_sibling"		"HighlanderLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"TeamsFullLabel"
@@ -368,8 +317,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CerbeticaBold12"
-		"fgcolor"		"235 226 202 255"
+		"font"			"Cerbetica12"
+		"fgcolor"		"TanLight"
 		"centerwrap"	"1"
 	}
 
@@ -390,8 +339,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CerbeticaBold12"
-		"fgcolor"		"0 0 0 200"
+		"font"			"Cerbetica12"
+		"fgcolor"		"TransparentBlack"
 		"centerwrap"	"1"
 
 		"pin_to_sibling"		"TeamsFullLabel"
@@ -404,5 +353,55 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
 		"wide"			"0"
+	}
+
+	"teambutton0SC"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"teambutton0SC"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&3"
+		"command"		"jointeam blue"
+		"team"			"3"
+	}
+
+	"teambutton1SC"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"teambutton1SC"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&4"
+		"command"		"jointeam red"
+		"team"			"4"
+	}
+
+	"teambutton2SC"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"teambutton2SC"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&1"
+		"command"		"jointeam auto"
+	}
+
+	"teambutton3SC"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"teambutton3SC"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&2"
+		"command"		"jointeam spectate"
 	}
 }

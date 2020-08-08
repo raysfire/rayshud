@@ -118,7 +118,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemNameLabel"
-			"font"			"CerbeticaBold20"
+			"font"			"Cerbetica20"
 			"labelText"		"%itemname%"
 			"textAlignment"	"west"
 			"xpos"			"240"
@@ -168,7 +168,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"ItemLevelInfoLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFontSmallest"
 					"labelText"		"%item_level_info%"
 					"textAlignment"	"north-west"
 					"wide"			"228"
@@ -185,7 +185,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"RestrictionsLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFontSmallest"
 					"labelText"		"#Store_ItemDesc_Restrictions"
 					"textAlignment"	"north-west"
 					"wide"			"228"
@@ -202,7 +202,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"RestrictionsTextLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFontSmallest"
 					"labelText"		"#Store_HolidayRestrictionText"
 					"textAlignment"	"north-west"
 					"wide"			"228"
@@ -219,7 +219,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"UsedByLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFontSmallest"
 					"labelText"		"#Store_ItemDesc_UsedBy"
 					"textAlignment"	"north-west"
 					"wide"			"228"
@@ -236,7 +236,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"UsedByTextLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFontSmallest"
 					"labelText"		"%used_by_classes%"
 					"textAlignment"	"north-west"
 					"wide"			"228"
@@ -252,7 +252,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"SlotLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFontSmallest"
 					"labelText"		"#Store_ItemDesc_Slot"
 					"textAlignment"	"north-west"
 					"wide"			"228"
@@ -269,7 +269,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"SlotTextLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFontSmallest"
 					"labelText"		"%slot%"
 					"textAlignment"	"north-west"
 					"wide"			"228"
@@ -285,7 +285,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"PriceLabel"
-					"font"			"CerbeticaBold14"
+					"font"			"HudFontSmall"
 					"textAlignment"	"north-west"
 					"wide"			"228"
 					"tall"			"25"
@@ -301,7 +301,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"ArmoryTextLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFontSmallest"
 					"textAlignment"	"north-west"
 					"wide"			"228"
 					"tall"			"10"
@@ -317,7 +317,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"AttributesLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFontSmallest"
 					"textAlignment"	"north-west"
 					"wide"			"228"
 					"tall"			"10"
@@ -341,7 +341,7 @@
 					"enabled"		"1"
 					"tabPosition"	"0"
 					"labelText"		"#Store_ItemDesc_ItemWikiPage"
-					"font"			"CerbeticaBold12"
+					"font"			"HudFontSmall"
 					"textAlignment"	"center"
 					"dulltext"		"0"
 					"brighttext"	"0"
@@ -354,7 +354,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"TradableLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFontSmallest"
 					"labelText"		"#Store_ItemDesc_Tradable"
 					"textAlignment"	"north-west"
 					"wide"			"205"
@@ -371,7 +371,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"TradableTextLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFontSmallest"
 					"labelText"		"%tradable%"
 					"textAlignment"	"north-west"
 					"wide"			"205"
@@ -387,7 +387,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"GiftableLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFontSmallest"
 					"labelText"		"#Store_ItemDesc_Giftable"
 					"textAlignment"	"north-west"
 					"wide"			"205"
@@ -404,7 +404,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"GiftableTextLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFontSmallest"
 					"labelText"		"%giftable%"
 					"textAlignment"	"north-west"
 					"wide"			"205"
@@ -420,7 +420,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"NameableLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFontSmallest"
 					"labelText"		"#Store_ItemDesc_Nameable"
 					"textAlignment"	"north-west"
 					"wide"			"205"
@@ -437,7 +437,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"NameableTextLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFontSmallest"
 					"labelText"		"%nameable%"
 					"textAlignment"	"north-west"
 					"wide"			"205"
@@ -453,7 +453,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"CraftableLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFontSmallest"
 					"labelText"		"#Store_ItemDesc_Craftable"
 					"textAlignment"	"north-west"
 					"wide"			"205"
@@ -470,7 +470,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"CraftableTextLabel"
-					"font"			"FontStoreOriginalPrice"
+					"font"			"HudFontSmallest"
 					"labelText"		"%craftable%"
 					"textAlignment"	"north-west"
 					"wide"			"205"
@@ -1058,7 +1058,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Store_NextWeapon"
-		"font"			"CerbeticaBold12"
+		"font"			"HudFontSmallest"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -1198,7 +1198,7 @@
 
 			"paintbackground"	"0"
 			"paintbackgroundtype"	"0"
-			"defaultBgColor_Override"	"ColorBlack"
+			"defaultBgColor_Override"	"0 0 0 255"
 
 			"paintborder"		"0"
 
@@ -1419,7 +1419,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_BackCarat"
-		"font"			"CerbeticaBold14"
+		"font"			"HudFontSmall"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1443,7 +1443,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Store_TryItOut"
-		"font"			"CerbeticaBold14"
+		"font"			"HudFontSmall"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1460,14 +1460,14 @@
 		"xpos"			"c0"
 		"ypos"			"c105"
 		"zpos"			"2"
-		"wide"			"160"
+		"wide"			"150"
 		"tall"			"20"
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%storeaddtocart%"
-		"font"			"CerbeticaBold14"
+		"font"			"HudFontSmall"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

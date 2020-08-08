@@ -11,7 +11,7 @@
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 150"
+		"bgcolor_override"	"TransparentBlack"
 		"PaintBackgroundType"	"2"
 	}
 
@@ -46,7 +46,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmallest"
 			"fgcolor"		"TanLight"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -63,7 +63,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"StopWatchScoreToBeat"
-		"font"			"Cerbetica12"
+		"font"			"HudFontSmallest"
 		"labelText"		"%scoretobeat%"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -81,7 +81,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"StopWatchPointsLabel"
-		"font"			"Cerbetica12"
+		"font"			"HudFontSmallest"
 		"labelText"		"points in"
 		"textAlignment"	"center"
 		"xpos"			"15"
@@ -100,12 +100,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"StopWatchLabel"
-		"font"			"Cerbetica10"
+		"font"			"HudFontSmallest"
 		"labelText"		"%stopwatchlabel%"
 		"textAlignment"	"center"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"4"
+		"zpos"			"1"
 		"wide"			"80"
 		"tall"			"15"
 		"autoResize"	"0"

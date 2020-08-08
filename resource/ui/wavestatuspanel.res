@@ -25,7 +25,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"WaveCountLabel"
-		"font"				"CerbeticaBold16"
+		"font"				"Cerbetica14"
 		"fgcolor"			"TanLight"
 		"xpos"				"140"
 		"ypos"				"15"
@@ -43,10 +43,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"WaveCountLabelShadow"
-		"font"				"CerbeticaBold16"
+		"font"				"Cerbetica14"
 		"fgcolor"			"TransparentBlack"
-		"xpos"				"-2"
-		"ypos"				"-2"
+		"xpos"				"-1"
+		"ypos"				"-1"
 		"zpos"				"3"
 		"wide"				"200"
 		"tall"				"15"
@@ -75,7 +75,8 @@
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"TanLight"
 
-		if_verbose {
+		if_verbose
+		{
 			"visible"		"1"
 		}
 	}
@@ -84,7 +85,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SupportLabel"
-		"font"				"CerbeticaBold14"
+		"font"				"Cerbetica14"
 		"fgcolor"			"TanLight"
 		"xpos"				"55"
 		"ypos"				"6"
@@ -96,7 +97,8 @@
 		"textAlignment"		"west"
 		"labelText"			"#TF_MVM_Support"
 
-		if_verbose {
+		if_verbose
+		{
 			"visible"		"1"
 		}
 	}
@@ -144,7 +146,6 @@
 		"fieldName"			"ProgressBarBG"
 		"xpos"				"210"
 		"ypos"				"19"
-		"ypos_minmode"		"9"
 		"zpos"				"3"
 		"wide"				"180"
 		"tall"				"12"

@@ -9,10 +9,10 @@
 		"ypos"				"200"
 		"wide"				"200"
 		"tall"				"110"
-		"bgcolor_override"	"DarkerGrey"
+		"bgcolor_override"	"DarkGrey"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"CyanBorderThick"
+		"border"				"CyanBorder"
 	}
 
 	"CenterPositioner"
@@ -74,7 +74,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"EllipsesLabel"
-		"font"				"HudFontSmallBold"
+		"font"				"HudFontSmall"
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"0"
@@ -109,7 +109,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#GameUI_Ok"
-		"font"				"HudFontSmallBold"
+		"font"				"HudFontSmall"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"

@@ -26,8 +26,9 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderCompetitive"
 		"textAlignment"	"center"
-		"font"			"CerbeticaBold24"
+		"font"			"HudFontMediumSecondary"
 		"fgcolor_override"	"White"
+		"bgcolor_override"	"DarkGrey"
 		"mouseinputenabled"	"0"
 	}
 
@@ -83,7 +84,7 @@
 		"ypos"			"40"
 		"zpos"			"100"
 		"wide"			"305"
-		"tall"			"f80"
+		"tall"			"340"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -109,7 +110,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
-		"xpos"			"cs-0.5"
+		"xpos"			"cs-0.51"
 		"ypos"			"rs1-8"
 		"zpos"			"100"
 		"wide"			"f20"

@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui\replay\thumbnails\raysfox"
+	"$basetexture" "vgui\replay\thumbnails\nogc"
 	"$vertexcolor" "1"
 	"$no_fullbright" "1"
 	"$ignorez" "1"

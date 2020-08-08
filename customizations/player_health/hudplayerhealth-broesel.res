@@ -100,14 +100,14 @@
 	{
 		"xpos"			"-18"
 		"ypos"			"12"
-		"font"			"CerbeticaBold24"
-		"font_minmode"	"CerbeticaBold24"
+		"font"			"Cerbetica24"
+		"font_minmode"	"Cerbetica24"
 	}
 
 	"PlayerStatusHealthValueShadow"
 	{
-		"font"			"CerbeticaBold24"
-		"font_minmode"	"CerbeticaBold24"
+		"font"			"Cerbetica24"
+		"font_minmode"	"Cerbetica24"
 	}
 
 	"PlayerStatusAnchor"
@@ -286,6 +286,12 @@
 	}
 
 	"PlayerStatus_RuneSupernova"
+	{
+		"wide"			"32"
+		"tall"			"32"
+	}
+
+	"PlayerStatusHookBleedImage"
 	{
 		"wide"			"32"
 		"tall"			"32"

@@ -15,7 +15,7 @@
 		"mouseinputenabled"		"1"
 
 		"collapsed_height"	"0"
-		"expanded_height"	"30"
+		"expanded_height"	"60"
 
 		"pinCorner"		"2"
 		"autoResize"	"1"
@@ -74,7 +74,7 @@
 
 				"fonts"
 				{
-					"0"		"CerbeticaBold12"
+					"0"		"HudFontSmallest"
 					"1"		"StorePromotionsTitle"
 					"2"		"FontStorePrice"
 				}
@@ -91,7 +91,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"Cerbetica12"
+				"font"			"HudFontSmall"
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"center"
 				"labelText"		"%auto_join%"
@@ -113,7 +113,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"CerbeticaBold12"
+				"font"			"HudFontSmall"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -150,7 +150,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"CerbeticaBold12"
+				"font"			"HudFontSmall"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -180,7 +180,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"CerbeticaBold12"
+				"font"			"HudFontSmall"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -206,7 +206,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"CerbeticaBold12"
+				"font"			"HudFontSmall"
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"east"
 				"labelText"		"#TF_Matchmaking_RollingQueue_MatchReadyJoining"

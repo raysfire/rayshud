@@ -42,8 +42,7 @@
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"Cerbetica11"
-		"font_minmode"		"Cerbetica8"
+		"font"				"HudFontSmallest"
 		"fgcolor_override"	"White"
 	}
 }

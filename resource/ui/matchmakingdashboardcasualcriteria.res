@@ -26,7 +26,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"				"#TF_Matchmaking_HeaderCasual"
 		"textAlignment"			"center"
-		"font"					"CerbeticaBold24"
+		"font"					"HudFontMediumSecondary"
 		"fgcolor_override"		"White"
 		"mouseinputenabled"		"0"
 	}
@@ -39,16 +39,33 @@
 		"ypos"			"40"
 		"zpos"			"100"
 		"wide"			"f0"
-		"tall"			"f73"
+		"tall"			"f63"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
+	}
+
+	"ToolTipButtonHack"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ToolTipButtonHack"
+		"xpos"			"cs-0.5"
+		"ypos"			"rs1-8"
+		"zpos"			"101"
+		"wide"			"f20"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"1"
+		"mouseinputenabled"	"1"
+		"eatmouseinput"	"0"
+		"showtooltipswhenmousedisabled"	"1"
+		"proportionaltoparent" "1"
 	}
 
 	"QueueButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
-		"xpos"			"cs-0.5"
+		"xpos"			"cs-0.51"
 		"ypos"			"rs1-8"
 		"zpos"			"100"
 		"wide"			"f20"

@@ -12,7 +12,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"DarkGrey"
-		"border"			"CyanBorderThick"
+		"border"			"CyanBorder"
 	}
 
 	"HelpTextLabel"
@@ -32,7 +32,7 @@
 		"wrap"			"1"
 		"labelText"		""
 		"textAlignment"	"North"
-		"font"			"TFFontSmall"
+		"font"			"TeamMenu"
 		"textinsetx"	"2"
 		"textinsety"	"7"
 	}

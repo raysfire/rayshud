@@ -203,6 +203,7 @@
 		"zpos"				"0"
 		"wide"				"365"
 		"tall"				"28"
+		"visible"			"0"
 		"proportionaltoaparent"	"1"
 		"border"			"NoBorder"
 	}
@@ -341,8 +342,8 @@
 			"tall"			"50"
 			"zpos"			"1"
 
-			"color_portrait_bg_red"		"119 62 61 255"
-			"color_portrait_bg_blue"	"62 81 101 255"
+			"color_portrait_bg_red"		"Red"
+			"color_portrait_bg_blue"	"Blue"
 			"color_portrait_bg_red_dead"	"79 54 52 255"
 			"color_portrait_bg_blue_dead"	"44 49 51 255"
 			"color_bar_health_high"	"84 191 58 255"
@@ -494,7 +495,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"Cerbetica8"
+				"font"			"HudFontSmallest"
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"5"
@@ -680,7 +681,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"autoresize"	"3"
-			"linespacing"	"26"
+			"linespacing"	"25"
 			"linegap"		"4"
 			//"show_columns"	"1"
 
@@ -818,7 +819,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"autoresize"	"3"
-			"linespacing"	"26"
+			"linespacing"	"25"
 			"linegap"		"4"
 			//"show_columns"	"1"
 

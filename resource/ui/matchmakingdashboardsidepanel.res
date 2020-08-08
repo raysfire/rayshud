@@ -97,7 +97,7 @@
 		"proportionaltoparent"	"1"
 		"command"		"nav_close"
 		"textAlignment"	"east"
-		"font"			"Cerbetica14"
+		"font"			"HudFontSmall"
 
 		"armedBgColor_override"		"Transparent"
 		"defaultBgColor_override"	"Transparent"
@@ -126,7 +126,7 @@
 		"command"		"nav_to"
 		"labelText"		"<"
 		"textAlignment"	"west"
-		"font"			"Cerbetica14"
+		"font"			"HudFontSmall"
 
 		"armedBgColor_override"		"Transparent"
 		"defaultBgColor_override"	"Transparent"

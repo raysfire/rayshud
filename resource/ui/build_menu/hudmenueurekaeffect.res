@@ -2,16 +2,17 @@
 {
 	"MainBackground"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"CIconPanel"
 		"fieldName"			"MainBackground"
 		"xpos"				"0"
-		"ypos"				"20"
+		"ypos"				"10"
 		"zpos"				"0"
-		"wide"				"200"
-		"tall"				"130"
-		"visible"			"1"
-		"enabled"			"1"
-		"paintbackground" 	"0"
+		"wide"				"250"
+		"tall"				"170"
+		"visible"			"0"
+		"enabled"			"0"
+		"scaleImage"		"1"
+		"paintbackground"	"0"
 	}
 
 	"BuildIcon"
@@ -27,13 +28,14 @@
 		"enabled"			"0"
 		"scaleImage"		"1"
 		"icon"				"ico_build"
+		"iconColor"			"White"
 	}
 
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
-		"font"				"CerbeticaBold32"
+		"font"				"Cerbetica28"
 		"xpos"				"10"
 		"ypos"				"0"
 		"zpos"				"2"
@@ -44,7 +46,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"#Hud_Menu_Teleport_Title"
-		"textAlignment"		"Left"
+		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
@@ -53,7 +55,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabelDropshadow"
-		"font"				"CerbeticaBold32"
+		"font"				"Cerbetica28"
 		"fgcolor"			"TransparentBlack"
 		"xpos"				"-2"
 		"ypos"				"-2"
@@ -65,7 +67,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"#Hud_Menu_Teleport_Title"
-		"textAlignment"		"Left"
+		"textAlignment"		"west"
 		"dulltext"			"1"
 		"brighttext"		"0"
 
@@ -150,7 +152,7 @@
 		"ypos"				"20"
 		"zpos"				"1"
 		"wide"				"200"
-		"tall"				"130"
+		"tall"				"120"
 		"visible"			"1"
 		"enabled"			"1"
 		"bgcolor_override"	"TransparentBlack"

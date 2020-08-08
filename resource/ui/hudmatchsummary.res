@@ -36,7 +36,8 @@
 		"AnimRedTeamLabel12v12YPos"			"47"
 		"AnimStatsContainer12v12YPos"		"-10"
 
-		if_large {
+		if_large
+		{
 			"AnimBlueMedalsYPos"			"50"
 			"AnimRedMedalsYPos"				"50"
 		}
@@ -56,7 +57,8 @@
 		"border"		"MainMenuBGBorder"
 		"proportionaltoparent"	"1"
 
-		if_uses_xp {
+		if_uses_xp
+		{
 			"visible"		"1"
 		}
 	}
@@ -78,7 +80,8 @@
 		"show_sources_when_hidden"	"1"
 		"instantly_update"	"0"
 
-		if_uses_placement {
+		if_uses_placement
+		{
 			"show_model"	"0"
 		}
 	}
@@ -99,7 +102,8 @@
 		"show_progress"	"0"
 		"instantly_update"	"0"
 
-		if_uses_xp {
+		if_uses_xp
+		{
 			"visible"		"0"
 		}
 	}
@@ -251,9 +255,10 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"border"		"DarkBlueTeamBorder"
-					"bgcolor_override"	"70 130 180 153"
+					"bgcolor_override"	"Blue"
 
-					if_large {
+					if_large
+					{
 						"ypos"		"39"
 					}
 				}
@@ -274,7 +279,8 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					if_large {
+					if_large
+					{
 						"ypos"		"41"
 					}
 
@@ -297,7 +303,8 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					if_large {
+					if_large
+					{
 						"ypos"		"43"
 					}
 				}
@@ -318,7 +325,8 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					if_large {
+					if_large
+					{
 						"ypos"		"41"
 					}
 				}
@@ -344,7 +352,8 @@
 					"pin_corner_to_sibling"	"PIN_TOPLEFT"
 					"pin_to_sibling_corner"	"PIN_TOPLEFT"
 
-					if_large {
+					if_large
+					{
 						"ypos"		"42"
 					}
 				}
@@ -362,7 +371,8 @@
 					"image"			"../hud/team_blue"
 					"scaleImage"	"1"
 
-					if_large {
+					if_large
+					{
 						"ypos"		"29"
 					}
 				}
@@ -398,7 +408,8 @@
 					"scaleImage"	"1"
 					"color_outline"	"HudTimerProgressInActive"
 
-					if_large {
+					if_large
+					{
 						"ypos"		"40"
 					}
 				}
@@ -415,7 +426,8 @@
 					"PaintBackgroundType"	"2"
 					"bgcolor_override"	"TextColor"
 
-					if_large {
+					if_large
+					{
 						"ypos"		"38"
 					}
 				}
@@ -431,7 +443,8 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					if_large {
+					if_large
+					{
 						"ypos"		"77"
 						"tall"		"340"
 					}
@@ -462,7 +475,8 @@
 						"stats_width"	"s.08"
 						"horiz_inset"	"0"
 
-						if_large {
+						if_large
+						{
 							"tall"		"340"
 							"linegap"	"0"
 						}
@@ -483,7 +497,8 @@
 					"enabled"		"1"
 					"border"		"TFFatLineBorderClearBG"
 
-					if_large {
+					if_large
+					{
 						"ypos"		"57"
 						"tall"		"360"
 					}
@@ -515,7 +530,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"border"		"DarkRedTeamBorder"
-					"bgcolor_override"	"205 50 50 153"
+					"bgcolor_override"	"Red"
 
 					if_large
 					{
@@ -539,7 +554,8 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					if_large {
+					if_large
+					{
 						"ypos"		"41"
 					}
 				}
@@ -583,7 +599,8 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					if_large {
+					if_large
+					{
 						"ypos"		"41"
 					}
 				}
@@ -623,7 +640,8 @@
 					"image"			"../hud/team_red"
 					"scaleImage"	"1"
 
-					if_large {
+					if_large
+					{
 						"ypos"		"20"
 					}
 				}
@@ -659,7 +677,8 @@
 					"scaleImage"	"1"
 					"color_outline"	"HudTimerProgressInActive"
 
-					if_large {
+					if_large
+					{
 						"ypos"		"40"
 					}
 				}
@@ -676,7 +695,8 @@
 					"PaintBackgroundType"	"2"
 					"bgcolor_override"	"TextColor"
 
-					if_large {
+					if_large
+					{
 						"ypos"		"38"
 					}
 				}
@@ -692,7 +712,8 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					if_large {
+					if_large
+					{
 						"ypos"		"77"
 						"tall"		"340"
 					}
@@ -723,7 +744,8 @@
 						"stats_width"	"s.08"
 						"horiz_inset"	"0"
 
-						if_large {
+						if_large
+						{
 							"tall"		"340"
 							"linegap"	"0"
 						}
@@ -744,7 +766,8 @@
 					"enabled"		"1"
 					"border"		"TFFatLineBorderClearBG"
 
-					if_large {
+					if_large
+					{
 						"ypos"		"57"
 						"tall"		"360"
 					}
@@ -762,7 +785,8 @@
 				"visible"		"1"
 				"enabled"		"1"
 
-				if_large {
+				if_large
+				{
 					"visible"	"0"
 				}
 
@@ -872,7 +896,8 @@
 				"visible"		"1"
 				"enabled"		"1"
 
-				if_large {
+				if_large
+				{
 					"visible"	"0"
 				}
 

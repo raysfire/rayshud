@@ -17,7 +17,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"paintborder"			"1"
-		"border"				"CyanBorderThick"
+		"border"				"CyanBorder"
 		"bgcolor_override"		"DarkGrey"
 	}
 
@@ -116,7 +116,7 @@
 		"ControlName"		"CExButton"
 		"fieldName"			"Nope"
 		"xpos"				"40"
-		"ypos"				"210"
+		"ypos"				"214"
 		"zpos"				"20"
 		"wide"				"175"
 		"tall"				"25"

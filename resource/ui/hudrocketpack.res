@@ -4,9 +4,6 @@
 {
 	HudItemEffectMeter
 	{
-		"ypos"			"c103"
-		"ypos_minmode"	"c60"
-		"wide"			"180"
 		"tall"			"20"
 	}
 
@@ -35,20 +32,14 @@
 
 	"ItemEffectMeterLabel"
 	{
-		"xpos"			"32"
-		"ypos"			"12"
-		"wide"			"90"
-		"tall"			"15"
 		"visible"		"0"
 		"labelText"		"#TF_RocketPack_Disabled"
-		"font"			"HudFontSmallest"
 	}
 
 	"ItemEffectMeter"
 	{
-		"xpos_minmode"	"10"
 		"wide"			"60"
-		"wide_minmode"	"57"
+		"wide_minmode"	"55"
 	}
 
 	"ItemEffectMeter2"
@@ -57,12 +48,12 @@
 		"fieldName"		"ItemEffectMeter2"
 		"font"			"Default"
 		"xpos"			"60"
-		"xpos_minmode"	"67"
+		"xpos_minmode"	"55"
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"60"
 		"tall"			"8"
-		"wide_minmode"	"57"
+		"wide_minmode"	"55"
 		"tall_minmode"	"5"
 		"autoResize"	"0"
 		"pinCorner"		"0"
