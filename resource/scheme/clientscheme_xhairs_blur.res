@@ -2,6 +2,39 @@ Scheme
 {
 	Fonts
 	{
+		"Size:4 | Blur:ON"
+		{
+			"1"
+			{
+				"name"			"TF2Crosshairs"
+				"tall"			"4"
+				"weight"		"0"
+				"antialias"		"1"
+				"blur"			"2"
+			}
+		}
+		"Size:6 | Blur:ON"
+		{
+			"1"
+			{
+				"name"			"TF2Crosshairs"
+				"tall"			"6"
+				"weight"		"0"
+				"antialias"		"1"
+				"blur"			"2"
+			}
+		}
+		"Size:8 | Blur:ON"
+		{
+			"1"
+			{
+				"name"			"TF2Crosshairs"
+				"tall"			"8"
+				"weight"		"0"
+				"antialias"		"1"
+				"blur"			"2"
+			}
+		}
 		"Size:10 | Blur:ON"
 		{
 			"1"
