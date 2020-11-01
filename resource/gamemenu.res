@@ -18,7 +18,7 @@
 	{
 		"label"			""
 		"command"		"engine toggleconsole"
-		"subimage"		"glyph_options"
+		"subimage"		"glyph_view"
 		"tooltip"		"Console"
 	}
 	"ReportBugButton"

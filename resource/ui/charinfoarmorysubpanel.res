@@ -161,7 +161,7 @@
 			"wrap"			"1"
 			"highlight_color"	"ColorCyan"
 			"itemset_color"		"216 244 9 255"
-			"link_color"		"200 128 255 255"
+			"link_color"		"ColorPurple"
 			"image_up_arrow"				"scroll_up_off"
 			"image_up_arrow_mouseover"		"scroll_up_on"
 			"image_down_arrow"				"scroll_down_off"

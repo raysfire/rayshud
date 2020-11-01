@@ -8,7 +8,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_bold"
-				"tall" 		 	"56"
+				"tall"			"56"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -58,10 +58,10 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica_bold"
-				"tall" 		 	"24"
-				"additive"	 	"0"
-				"antialias"	 	"1"
-				"outline"	 	"1"
+				"tall"			"24"
+				"additive"		"0"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
 		"Cerbetica20"
@@ -131,14 +131,14 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica"
-				"tall"			"10"
+				"tall"			"12"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 			"2"
 			{
 				"name"			"Cerbetica"
-				"tall"			"12"
+				"tall"			"14"
 				"range"			"0x0000 0x00FF"
 				"weight"		"800"
 			}

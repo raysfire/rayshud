@@ -412,7 +412,7 @@
 				"border_default"	"NoBorder"
 
 				"image_drawcolor"		"TanLight"
-				"image_disabledcolor" 	"ColorBlack"
+				"image_disabledcolor"	"ColorBlack"
 
 				"SubImage"
 				{

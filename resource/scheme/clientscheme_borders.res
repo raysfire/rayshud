@@ -410,43 +410,6 @@ Scheme
 			}
 		}
 
-		DarkCyanBorder
-		{
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "100 224 255 255"
-					"offset" "0 0"
-				}
-			}
-			Right
-			{
-				"1"
-				{
-					"color" "100 224 255 255"
-					"offset" "0 0"
-				}
-			}
-			Top
-			{
-				"1"
-				{
-					"color" "100 224 255 255"
-					"offset" "0 0"
-				}
-			}
-			Bottom
-			{
-				"1"
-				{
-					"color" "128 128 255 0"
-					"offset" "0 0"
-				}
-			}
-		}
-
 		NoBorder
 		{
 			"inset" "0 0 0 0"
@@ -565,6 +528,12 @@ Scheme
 			"color" "blank"
 		}
 
+		ButtonDepressedBorder
+		{
+			"offset" "0 0"
+			"color" "Blank"
+		}
+
 		ComboBoxBorder
 		{
 			"inset" "0 0 1 1"
@@ -597,43 +566,6 @@ Scheme
 				"1"
 				{
 					"color" "TanLight"
-					"offset" "0 0"
-				}
-			}
-		}
-
-		ItemBoxBorder
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "0 255 0 255"
-					"offset" "0 1"
-				}
-			}
-			Right
-			{
-				"1"
-				{
-					"color" "255 128 128 255"
-					"offset" "0 0"
-				}
-			}
-			Top
-			{
-				"1"
-				{
-					"color" "128 255 255 255"
-					"offset" "0 0"
-				}
-			}
-			Bottom
-			{
-				"1"
-				{
-					"color" "200 50 255 255"
 					"offset" "0 0"
 				}
 			}
@@ -1068,6 +1000,18 @@ Scheme
 		}
 
 		BackpackItemGrayedOut
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"Black"
+			"image"					"backpack_rect_color"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"2"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"2"
+		}
+
+		BackpackItemGrayedOut_Selected
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
@@ -2213,6 +2157,17 @@ Scheme
 			"draw_corner_height" 	"0"
 		}
 
+		NotificationHighPriority
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"image"					"button_holder_central"
+			"src_corner_height"		"32"			// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"
+		}
+
 		MainMenuButtonGlow
 		{
 			"bordertype"			"scalable_image"
@@ -2234,6 +2189,26 @@ Scheme
 			"src_corner_width"		"4"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height"	"4"
+		}
+		MainMenuButtonDepressed
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"image"					"button_central_depressed"
+			"src_corner_height"		"32"			// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height"	"0"
+		}
+		MainMenuButtonDepressedArmed
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"image"					"button_central_depressed_armed"
+			"src_corner_height"		"32"			// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height"		"0"
 		}
 		MainMenuButtonDefault
 		{

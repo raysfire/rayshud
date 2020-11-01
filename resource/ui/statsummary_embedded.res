@@ -243,7 +243,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"15 15 15 255"
+			"bgcolor_override"	"TransparentBlack"
+			"PaintBackgroundType"	"2"
 		}
 		"AveragesLabel"
 		{
