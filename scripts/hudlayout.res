@@ -28,7 +28,7 @@
 	//--------------------------------------------------------------
 	// Set visible/enabled to 1 to use.
 	//--------------------------------------------------------------
-	"TransparentViewmodel"
+	TransparentViewmodel
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"TransparentViewmodel"
@@ -313,7 +313,7 @@
 		"fieldName" 			"BuildingStatus_Spy"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"0"
+		"xpos"					"5"
 		"ypos"					"0"
 		"wide"					"640"
 		"tall"					"480"
@@ -325,7 +325,7 @@
 		"fieldName" 			"BuildingStatus_Engineer"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"0"
+		"xpos"					"5"
 		"ypos"					"c-100"
 		"wide"					"640"
 		"tall"					"480"
@@ -474,7 +474,7 @@
 		"ypos"	 				"22"
 		"wide"	 				"580"
 		"tall"	 				"468"
-		"MaxDeathNotices" 		"5"
+		"MaxDeathNotices"		"5"
 		"IconScale"				"0.35"
 		"LineHeight"			"14"
 		"LineSpacing"			"0"
@@ -1177,7 +1177,7 @@
 		"EngineerY"			"330"
 		"zpos"				"0"
 		"wide"				"200"
-		"tall"				"100"
+		"tall"				"f0"
 		"visible"			"1"
 		"enabled"			"1"
 	}
