@@ -9,21 +9,13 @@ Scheme
 	{
 		// HUD COLORS
 		//---------------------------------------------
-		"HudBlack"					"0 0 0 200"
-		"Blue"						"72 112 125 255"
-		"DarkBlue"					"46 73 82 255"
-		"Red"						"158 64 61 255"
-		"DarkRed"					"102 48 46 255"
-		"Green"						"92 122 90 255"
-		"DarkGreen"					"38 53 36 255"
 		"Yellow"					"169 123 53 255"
-		"BrightYellow"				"218 165 32 255"
 		"White"						"242 242 242 255"
 		"DullWhite"					"132 132 132 255"
-		"Grey"						"51 47 46 255"
 		"DarkGrey"					"27 27 27 255"
-		"DarkerGrey"				"22 22 22 255"
 		"Black"						"17 17 17 255"
+		"Blank"						"0 0 0 0"
+		"HudBlack"					"0 0 0 200"
 
 		// BASE COLORS
 		//---------------------------------------------
@@ -66,6 +58,7 @@ Scheme
 		Border.Bright					"Blank"
 		Border.Dark						"Blank"
 		Border.Selection				"Blank"
+		Border.DarkSolid				"32 32 32 255"
 
 		Button.TextColor				"White"
 		Button.BgColor					"Black"
@@ -150,7 +143,73 @@ Scheme
 		TextEntry.DisabledTextColor	        "DullWhite"
 		TextEntry.SelectedBgColor			"White"
 	}
-
+	
+	Borders
+	{
+		BaseBorder							SubtleBorder
+		ButtonBorder						RaisedBorder
+		ComboBoxBorder						DepressedBorder
+		MenuBorder							SubtleBorder
+		BrowserBorder						DepressedBorder
+		PropertySheetBorder					RaisedBorder
+		
+		FrameBorder
+		{
+			Left
+			{
+				"1"
+				{
+					"color" 				"Border.DarkSolid"
+					"offset" 				"0 0"
+				}
+				"2"
+				{
+					"color" 				"Border.DarkSolid"
+					"offset" 				"0 0"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" 				"Border.DarkSolid"
+					"offset" 				"0 0"
+				}
+				"2"
+				{
+					"color" 				"Border.DarkSolid"
+					"offset" 				"0 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" 				"Border.DarkSolid"
+					"offset" 				"0 0"
+				}
+				"2"
+				{
+					"color" 				"Border.DarkSolid"
+					"offset" 				"0 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" 				"Border.DarkSolid"
+					"offset" 				"0 0"
+				}
+				"2"
+				{
+					"color"					"Border.DarkSolid"
+					"offset" 				"0 0"
+				}
+			}
+		}
+	}
+	
 	Fonts
 	{
 		"MainMenuFont"

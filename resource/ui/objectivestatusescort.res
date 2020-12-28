@@ -401,29 +401,6 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"CapPlayerImage"
 			"xpos"			"9999"
-			"ypos"			"9999"
-			"zpos"			"3"
-			"wide"			"6"
-			"tall"			"12"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"capture_icon_white"
-			"scaleImage"	"1"
-
-			"if_multiple_trains"
-			{
-				"xpos"		"9999"
-			}
-
-			"if_multiple_trains_top"
-			{
-				"ypos"		"45"
-			}
-
-			"if_multiple_trains_bottom"
-			{
-				"ypos"		"81"
-			}
 		}
 
 		"CapNumPlayers"
@@ -503,108 +480,6 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"EscortTeardrop"
 			"xpos"			"9999"
-			"ypos"			"9999"
-			"zpos"			"10"
-			"wide"			"50"
-			"tall"			"42"
-			"visible"		"0"
-			"enabled"		"0"
-
-			"Teardrop"
-			{
-				"ControlName"	"CIconPanel"
-				"fieldName"		"Teardrop"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"0"
-				"wide"			"34"
-				"tall"			"41"
-				"visible"		"0"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"icon"			"cappoint_progressbar_teardrop"
-				"iconColor"		"White"
-			}
-
-			"ProgressText"
-			{
-				"ControlName"	"Label"
-				"fieldName"		"ProgressText"
-				"font"			"DefaultSmall"
-				"xpos"			"0"
-				"ypos"			"8"
-				"zpos"			"23"
-				"wide"			"0"
-				"tall"			"0"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"0"
-				"enabled"		"0"
-				"labelText"		"#Questlog_Progress"
-				"dulltext"		"0"
-				"brighttext"	"0"
-				"centerwrap"	"1"
-
-				"if_multiple_trains"
-				{
-					"font"		"DefaultVerySmall"
-					"xpos"		"0"
-					"ypos"		"3"
-					"wide"		"0"
-					"tall"		"0"
-				}
-			}
-
-			"Blocked"
-			{
-				"ControlName"	"CIconPanel"
-				"fieldName"		"Blocked"
-				"xpos"			"2"
-				"ypos"			"3"
-				"zpos"			"1"
-				"wide"			"30"
-				"tall"			"30"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"icon"			"cappoint_progressbar_blocked"
-				"iconColor"		"White"
-
-				"if_multiple_trains"
-				{
-					"xpos"		"2"
-					"ypos"		"2"
-					"wide"		"31"
-					"tall"		"31"
-				}
-			}
-
-			"Capping"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"Capping"
-				"xpos"			"6"
-				"ypos"			"6"
-				"zpos"			"1"
-				"wide"			"24"
-				"tall"			"24"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"0"
-				"enabled"		"1"
-				"tabPosition"	"0"
-				"labelText"		""
-				"image"			"../hud/cart_arrow_right"
-				"scaleImage"	"1"
-
-				"if_multiple_trains"
-				{
-					"xpos"		"8"
-					"ypos"		"8"
-					"wide"		"20"
-					"tall"		"20"
-				}
-			}
 		}
 	}
 }

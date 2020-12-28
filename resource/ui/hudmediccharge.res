@@ -87,8 +87,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"defaultbgcolor_override"	"25 25 25 255"
-		"PaintBackgroundType"	"0"
-        "textinsety" 			"99"
+		"PaintBackgroundType"		"0"
+        "textinsety" 				"99"
 	}
 
 	"ChargeMeterLabel"
@@ -135,8 +135,8 @@
 		"textAlignment"		"Left"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"bgcolor" 			"32 32 32 128"
-		"fgcolor_override"	"Uber Bar Color"
+		"fgcolor_override"		"Uber Bar Color"
+		"bgcolor_override"		"32 32 32 128"
 	}
 
 	"ChargeMeter1"
@@ -159,10 +159,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"fgcolor_override"	"Uber Bar Color"
-
-		"pin_to_sibling"		"IndividualChargesLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_to_sibling"	"IndividualChargesLabel"
 	}
 
 	"ChargeMeter2"
@@ -285,9 +282,6 @@
 		"enabled"			"1"
 		"image"				"../HUD/defense_buff_bullet_blue"
 		"scaleImage"		"1"
-
-		"pin_to_sibling"		"ResistIconAnchor"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_to_sibling"	"ResistIconAnchor"
 	}
 }

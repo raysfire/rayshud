@@ -1,3 +1,5 @@
+#base "hudinspectpanel.res"
+
 "Resource/UI/SpectatorTournament.res"
 {
 	"specgui"
@@ -43,6 +45,7 @@
 				"enabled"			"1"
 				"image"				"../hud/class_scoutred"
 				"scaleImage"		"1"
+				"proportionaltoparent"	"1"
 			}
 
 			"classimagebg"
@@ -58,6 +61,7 @@
 				"enabled"			"1"
 				"bgcolor_override"	"Black"
 				"PaintBackgroundType"	"0"
+				"proportionaltoparent"	"1"
 			}
 
 			"PanelLeftFringe"
@@ -330,6 +334,7 @@
 		"textAlignment"	"center"
 		"font"			"HudFontMedium"
 	}
+
 	"BuyBackLabel"
 	{
 		"ControlName"	"CExLabel"

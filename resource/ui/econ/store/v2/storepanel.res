@@ -105,14 +105,14 @@
 
 	"Sheet"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Sheet"
-		"tabxindent"	"80"
-		"tabxdelta"		"10"
-		"tabxfittotext"	"1"
-		"tabheight"		"20"
-		"yoffset"		"14"
-		"transition_time" "0"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"Sheet"
+		"tabxindent"		"80"
+		"tabxdelta"			"10"
+		"tabxfittotext"		"1"
+		"tabheight"			"20"
+		"yoffset"			"14"
+		"transition_time"	"0"
 
 		"HeaderLine"
 		{
@@ -139,11 +139,11 @@
 			"selectedcolor"		"TanLight"
 			"unselectedcolor"	"TanDark"
 			"defaultBgColor_override"	"DarkGrey"
-			"paintbackground"		"1"
-			"activeborder_override"	"CyanBorderTabs"
-			"normalborder_override" "CyanBorderTabsInactive"
-			"unselectedBgColor_override"	"10 10 10 255"
-			"depressedBgColor_override"		"10 10 10 255"
+			"paintbackground"			"1"
+			"activeborder_override"		"CyanBorderTabs"
+			"normalborder_override" 	"CyanBorderTabsInactive"
+			"armedBgColor_override"		"10 10 10 255"
+			"selectedBgColor_override"	"10 10 10 255"
 		}
 	}
 

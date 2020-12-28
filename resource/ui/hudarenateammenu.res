@@ -12,8 +12,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"255 0 0 255"
 		"tabPosition"	"0"
+		"fgcolor"		"255 0 0 255"
 	}
 
 	"SidePanelBG"
@@ -95,13 +95,13 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"paintborder"	"0"
 		"command"		"jointeam spectate"
 		"font"			"Cerbetica20"
-		"defaultFgColor_override" 	"255 255 255 128"
+		
+		"defaultFgColor_override"	"255 255 255 128"
 		"armedFgColor_override"		"235 226 202 255"
-		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"235 226 202 255"
+		"depressedFgColor_override"	"255 255 255 128"
+		"selectedFgColor_override"	"235 226 202 255"
 	}
 
 	"teambutton3"
@@ -122,13 +122,20 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"paintborder"	"0"
 		"command"		"jointeam spectatearena"
 		"font"			"Cerbetica20"
-		"defaultFgColor_override" 	"255 255 255 128"
+
+		"defaultFgColor_override"	"255 255 255 128"
 		"armedFgColor_override"		"235 226 202 255"
-		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"235 226 202 255"
+		"depressedFgColor_override"	"255 255 255 128"
+		"selectedFgColor_override"	"235 226 202 255"
+	}
+
+	"CancelButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CancelButton"
+		"wide"			"0"
 	}
 
 	"SpectateBG"
@@ -161,10 +168,38 @@
 		"fillcolor"		"255 255 255 200"
 	}
 
-	"CancelButton"
+	"TeamMenuAuto"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CancelButton"
-		"wide"			"0"
+		"ControlName"	"CExLabel"
+		"fieldName"		"TeamMenuAuto"
+		"xpos"			"9999"
+	}
+
+	"TeamMenuSpectate"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TeamMenuSpectate"
+		"xpos"			"9999"
+	}
+
+	"ShadedBar"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ShadedBar"
+		"xpos"			"9999"
+	}
+
+	"autodoor"
+	{
+		"ControlName"	"CModelPanel"
+		"fieldName"		"autodoor"
+		"xpos"			"9999"
+	}
+
+	"spectate"
+	{
+		"ControlName"	"CModelPanel"
+		"fieldName"		"spectate"
+		"xpos"			"9999"
 	}
 }

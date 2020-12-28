@@ -67,6 +67,7 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"proportionaltoparent"	"1"
 		}
 	}
 
@@ -79,6 +80,7 @@
 		"wide"			"160"
 		"tall"			"43"
 		"visible"		"0"
+		"proportionaltoparent"	"1"
 
 		"Health"
 		{
@@ -96,6 +98,7 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"proportionaltoparent"	"1"
 		}
 
 		"BuildingPanel"
@@ -155,6 +158,7 @@
 			"wide"			"100"
 			"tall"			"31"
 			"visible"		"0"
+			"proportionaltoparent"	"1"
 
 			"TargetIcon"
 			{
@@ -169,6 +173,7 @@
 				"scaleImage"	"1"
 				"icon"			"obj_status_sentrygun_1"
 				"iconColor"		"White"
+				"proportionaltoparent"	"1"
 			}
 
 			"TargetHealth"
@@ -187,6 +192,7 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
+				"proportionaltoparent"	"1"
 			}
 		}
 	}

@@ -361,7 +361,7 @@
 
 			"fixed_paintkit"
 			{
-				"ypos"		"10"
+				"ypos"			"10"
 			}
 
 			"zpos"				"100"
@@ -609,8 +609,8 @@
 
 			"defaultFgColor_override"	"White"
 			"defaultBgColor_override"	"72 103 32 255"
-			"armedFgColor_override"		"White"
-			"armedBgColor_override"		"72 133 32 255"
+			"selectedFgColor_override"	"White"
+			"selectedBgColor_override"	"72 133 32 255"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"

@@ -37,11 +37,8 @@
 		"enabled"			"1"
 		"visible_minmode"	"0"
 		"enabled_minmode"	"0"
-		"tabPosition"		"0"
 		"labelText"			"#TF_Charge"
 		"textAlignment"		"west"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"font"				"HudFontSmallest"
 		"fgcolor_override"	"White"
 	}

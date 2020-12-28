@@ -94,10 +94,7 @@
 		"labelText"			"%targetname%"
 		"textAlignment"		"west"
 		"fgcolor_override"	"TransparentBlack"
-
-		"pin_to_sibling"		"TargetNameLabel"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		"pin_to_sibling"	"TargetNameLabel"
 	}
 
 	"TargetDataLabel"

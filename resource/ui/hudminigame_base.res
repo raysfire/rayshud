@@ -29,22 +29,14 @@
 		"fillcolor"		"205 50 50 153"
 		"scaleImage"	"1"
 	}
-
+	
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"OutlineBG"
-		"xpos"			"cs-0.5"
-		"ypos"			"r77"
-		"zpos"			"2"
-		"wide"			"280"
-		"tall"			"80"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/objectives_flagpanel_bg_outline"
-		"scaleImage"	"1"
+		"xpos"			"9999"
 	}
-
+	
 	"BlueScore"
 	{
 		"ControlName"	"CExLabel"
@@ -61,14 +53,13 @@
 		"font"			"Cerbetica40"
 		"fgcolor"		"TanLight"
 	}
-
 	"BlueScoreShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-56"
-		"ypos"			"r32"
-		"zpos"			"8"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"7"
 		"wide"			"50"
 		"tall"			"35"
 		"visible"		"1"
@@ -77,6 +68,7 @@
 		"labelText"		"%bluescore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"TransparentBlack"
+		"pin_to_sibling"	"BlueScore"
 	}
 
 	"RedScore"
@@ -95,14 +87,13 @@
 		"font"			"Cerbetica40"
 		"fgcolor"		"TanLight"
 	}
-
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"c8"
-		"ypos"			"r32"
-		"zpos"			"8"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"7"
 		"wide"			"50"
 		"tall"			"35"
 		"visible"		"1"
@@ -111,8 +102,9 @@
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"TransparentBlack"
+		"pin_to_sibling"	"RedScore"
 	}
-
+	
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
@@ -131,10 +123,10 @@
 		"font"			"HudFontSmall"
 		"fgcolor"		"TanLight"
 	}
-
+	
 	"PlayingToBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayingToBG"
 		"xpos"			"c-50"
 		"ypos"			"r50"
@@ -143,8 +135,8 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"Transparent"
-		"scaleImage"	"1"
+		"bgcolor_override"		"Transparent"
+		"PaintBackgroundType"	"0"
 	}
 
 	"GameImage"

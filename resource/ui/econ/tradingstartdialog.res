@@ -16,10 +16,10 @@
 
 		"button_kv"
 		{
-			"xpos"			"10"
-			"ypos"			"0"
-			"wide"			"350"
-			"tall"			"30"
+			"xpos"				"10"
+			"ypos"				"0"
+			"wide"				"350"
+			"tall"				"30"
 
 			"button"
 			{

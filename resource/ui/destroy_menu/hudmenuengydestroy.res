@@ -19,14 +19,6 @@
 		"ControlName"		"CIconPanel"
 		"fieldName"			"DestroyIcon"
 		"xpos"				"9999"
-		"ypos"				"9999"
-		"zpos"				"1"
-		"wide"				"48"
-		"tall"				"48"
-		"visible"			"0"
-		"enabled"			"0"
-		"scaleImage"		"1"
-		"icon"				"ico_demolish"
 	}
 
 	"TitleLabel"

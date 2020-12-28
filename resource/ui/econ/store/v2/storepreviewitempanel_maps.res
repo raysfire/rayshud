@@ -496,35 +496,21 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labeltext"		""
-		"font"			"HudFontSmallBold"
+		"labeltext"		"("
+		"font"			"CustomIcons"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"0"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"			"close"
 		"paintbackground"	"0"
-
-		"image_drawcolor"	"White"
-		"image_armedcolor"	"255 0 0 255"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"1"
-			"wide"			"9"
-			"tall"			"9"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/close"
-			"scaleImage"	"1"
-			"proportionaltoparent"	"1"
-		}
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override" 	"White"
+		"armedFgColor_override" 	"255 0 0 255"
+		"depressedFgColor_override" "White"
 	}
 
 	"BackButton"

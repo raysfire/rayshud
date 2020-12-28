@@ -19,17 +19,18 @@
 
 	"CurrencyBG"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"CurrencyBG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"TransparentBlack"
-		"PaintBackgroundType"	"2"
+		"fillcolor"		"TransparentBlack"
 	}
 
 	"CurrencyLabel"

@@ -332,19 +332,6 @@
 		"Command"			"MainFileCosmetics"
 		"Default"			"1"
 		"font"				"HudFontSmallBold"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"115"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"25"
-			"tall"			"25"
-			"scaleImage"	"1"
-			"image"			"importtool_goldstar"
-		}
 	}
 
 	"ButtonSourceOther"
@@ -391,19 +378,6 @@
 		"Command"			"MainFileMaps"
 		"Default"			"1"
 		"font"				"HudFontSmallBold"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"115"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"25"
-			"tall"			"25"
-			"scaleImage"	"1"
-			"image"			"beta"
-		}
 	}
 
 	"BrowseDescription"

@@ -141,8 +141,8 @@
 			"paintbackground"			"1"
 			"activeborder_override"		"CyanBorderTabs"
 			"normalborder_override"		"CyanBorderTabsInactive"
-			"unselectedBgColor_override"	"10 10 10 255"
-			"depressedBgColor_override"		"10 10 10 255"
+			"armedBgColor_override"		"10 10 10 255"
+			"selectedBgColor_override"	"10 10 10 255"
 		}
 	}
 

@@ -12,8 +12,6 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
-		"settitlebarvisible" "0"
 	}
 
 	"MainBG"
@@ -47,8 +45,6 @@
 		"enabled"			"1"
 		"labelText"			"#TF_WELCOME"
 		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"font"				"HudFontMedium"
 		"fgcolor"			"TanLight"
 	}
@@ -57,8 +53,7 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"			"TextMessage"
-		"visible"			"0"
-		"enabled"			"0"
+		"xpos"				"9999"
 	}
 
 	"TFTextMessage"
@@ -110,22 +105,18 @@
 		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"labelText"			"#TF_Continue"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"wrap"				"0"
 		"command"			"okay"
 		"default"			"1"
 		"font"				"HudFontMedium"
 		"paintbackground"	"0"
-
-		"fgcolor"					"TanLight"
+		
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override"		"TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" 	"TanDark"
+		"depressedFgColor_override" "TanLight"
 	}
 
 	"MenuBG"
@@ -146,19 +137,18 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"MessageTitle"
-		"visible"			"0"
-		"enabled"			"0"
+		"xpos"				"9999"
 	}
 
 	"teambutton0SC"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"teambutton0SC"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"&E"
-		"command"		"okay"
+		"ControlName"		"CExButton"
+		"fieldName"			"teambutton0SC"
+		"wide"				"0"
+		"tall"				"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"&E"
+		"command"			"okay"
 	}
 }

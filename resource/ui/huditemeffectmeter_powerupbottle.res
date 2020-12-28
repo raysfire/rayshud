@@ -29,7 +29,7 @@
 		"bgcolor_override"	"TransparentBlack"
 		"PaintBackgroundType"	"2"
 	}
-
+	
 	"ItemEffectIcon"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -50,21 +50,6 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemEffectMeterLabel"
 		"xpos"				"9999"
-		"ypos"				"9999"
-		"zpos"				"2"
-		"wide"				"80"
-		"tall"				"40"
-		"autoResize"		"1"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"#TF_Ball"
-		"textAlignment"		"center"
-		"centerwrap"		"1"
-		"dulltext"			"0"
-		"brighttext"		"0"
-		"font"				"HudFontSmallest"
 	}
 
 	"CanteenLabel"

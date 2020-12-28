@@ -125,7 +125,6 @@
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
-
 		"model_xpos"	"2"
 		"model_ypos"	"5"
 		"model_wide"	"80"
@@ -175,7 +174,6 @@
 		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
-
 		"model_xpos"	"2"
 		"model_ypos"	"5"
 		"model_wide"	"80"

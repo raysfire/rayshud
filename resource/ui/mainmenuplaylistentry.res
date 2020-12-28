@@ -63,23 +63,6 @@
 		"eatmouseinput"	"0"
 	}
 
-	"ToolTipButtonHack"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ToolTipButtonHack"
-		"xpos"			"rs1-6"
-		"ypos"			"2"
-		"zpos"			"51"
-		"wide"			"122"
-		"tall"			"15"
-		"visible"		"0"
-		"enabled"		"1"
-		"mouseinputenabled"	"1"
-		"eatmouseinput"	"0"
-		"showtooltipswhenmousedisabled"	"1"
-		"proportionaltoparent" "1"
-	}
-
 	"ModeButton"
 	{
 		"ControlName"	"CExButton"
@@ -149,7 +132,6 @@
 			"autoResize"	"1"
 			"pinCorner"		"0"
 			"proportionaltoparent"	"1"
-
 			"paintbackground"	"0"
 		}
 	}
@@ -168,8 +150,8 @@
 		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override" "TanLight"
 		"proportionaltoparent" "1"
@@ -190,8 +172,8 @@
 		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override" "TransparentBlack"
 		"proportionaltoparent" "1"

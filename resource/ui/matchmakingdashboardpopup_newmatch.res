@@ -124,7 +124,7 @@
 				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"2"
 				"paintbackground"	"1"
-
+				
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
