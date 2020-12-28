@@ -2,36 +2,6 @@ Scheme
 {
 	Fonts
 	{
-		"Size:4 | Outline:OFF"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"4"
-				"weight"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Size:6 | Outline:OFF"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"6"
-				"weight"		"0"
-				"antialias"		"1"
-			}
-		}
-		"Size:8 | Outline:OFF"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"8"
-				"weight"		"0"
-				"antialias"		"1"
-			}
-		}
 		"Size:10 | Outline:OFF"
 		{
 			"1"
@@ -248,7 +218,7 @@ Scheme
 	{
 		"200"
 		{
-			"font" "resource/fonts/TF2Crosshairs.otf"
+			"font" "resource/fonts/TF2Crosshairs.ttf"
 			"name" "TF2Crosshairs"
 		}
 	}
