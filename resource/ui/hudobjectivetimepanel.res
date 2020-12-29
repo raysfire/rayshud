@@ -4,11 +4,11 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"TimePanelBG"
-		"xpos"				"25"
+		"xpos"				"15"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"50"
-		"tall"				"24"
+		"tall"				"25"
 		"visible"			"1"
 		"enabled"			"1"
 		"bgcolor_override"	"TransparentBlack"
@@ -30,24 +30,19 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"WaitingForPlayersLabel"
-		"xpos"				"25"
-		"ypos"				"20"
+		"xpos"				"15"
+		"ypos"				"25"
 		"zpos"				"5"
 		"wide"				"50"
-		"tall"				"24"
-		"visible"			"0"
+		"tall"				"15"
+		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"#game_WaitingForPlayers"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"HudFontSmall"
-
-		if_match
-		{
-			"xpos"			"30"
-		}
+		"font"				"ScoreboardVerySmall"
 	}
 	"WaitingForPlayersBG"
 	{
@@ -60,12 +55,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"OvertimeLabel"
-		"xpos"				"25"
-		"ypos"				"32"
+		"xpos"				"15"
+		"ypos"				"25"
 		"zpos"				"5"
 		"wide"				"50"
-		"tall"				"24"
-		"visible"			"0"
+		"tall"				"15"
+		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"#game_Overtime"
 		"textAlignment"		"center"
@@ -73,11 +68,6 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"HudFontSmall"
-
-		if_match
-		{
-			"xpos"			"30"
-		}
 	}
 	"OvertimeBG"
 	{
@@ -103,12 +93,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SetupLabel"
-		"xpos"				"25"
-		"ypos"				"20"
+		"xpos"				"15"
+		"ypos"				"25"
 		"zpos"				"5"
 		"wide"				"50"
-		"tall"				"24"
-		"visible"			"0"
+		"tall"				"15"
+		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"#game_Setup"
 		"textAlignment"		"center"
@@ -116,11 +106,6 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"HudFontSmall"
-
-		if_match
-		{
-			"xpos"			"30"
-		}
 	}
 	"SetupBG"
 	{
@@ -133,12 +118,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ServerTimeLimitLabel"
-		"xpos"				"25"
-		"ypos"				"20"
+		"xpos"				"15"
+		"ypos"				"25"
 		"zpos"				"5"
 		"wide"				"50"
-		"tall"				"24"
-		"visible"			"0"
+		"tall"				"15"
+		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%servertimeleft%"
 		"textAlignment"		"center"
@@ -146,11 +131,6 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"HudFontSmallest"
-
-		if_match
-		{
-			"xpos"			"30"
-		}
 
 		if_mvm
 		{

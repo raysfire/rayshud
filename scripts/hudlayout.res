@@ -120,7 +120,7 @@
 
 	HudDemomanCharge
 	{
-		"fieldName"			"HudItemEffectMeter"
+		"fieldName"			"HudDemomanCharge"
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"c-75"
@@ -361,9 +361,9 @@
 	HudRoundTimer
 	{
 		"fieldName"				"HudRoundTimer"
-		"xpos"					"c-20"
+		"xpos"					"0"
 		"ypos"					"440"
-		"wide"					"120"
+		"wide"					"f0"
 		"tall"  				"40"
 		"visible" 				"1"
 		"enabled" 				"1"
@@ -408,8 +408,8 @@
 		"fieldName"				"HudDamageIndicator"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"MinimumWidth" 			"10"
-		"MaximumWidth"			"10"
+		"MinimumWidth" 			"15"
+		"MaximumWidth"			"15"
 		"StartRadius"			"80"
 		"EndRadius"				"80"
 		"MinimumHeight"			"30"
@@ -471,7 +471,7 @@
 		"visible" 				"1"
 		"enabled" 				"1"
 		"xpos"	 				"r592"
-		"ypos"	 				"22"
+		"ypos"	 				"25"
 		"wide"	 				"580"
 		"tall"	 				"468"
 		"MaxDeathNotices"		"5"
@@ -1094,10 +1094,10 @@
 		"fieldName"			"HudStopWatch"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-44"
+		"xpos"				"c-115"
 		"ypos"				"27"
 		"zpos"				"0"
-		"wide"				"80"
+		"wide"				"90"
 		"tall"				"15"
 	}
 

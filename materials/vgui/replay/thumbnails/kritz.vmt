@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\replay\thumbnails\kritz"
+	"$translucent" "1"
+	"$vertexcolor" "1"
+	"$ignorez" "1"
+	"%keywords" "tf"
+}

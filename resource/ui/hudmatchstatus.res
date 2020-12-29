@@ -142,7 +142,7 @@
 	{
 		"fieldName"		"RoundCounter"
 		"xpos"			"cs-0.5"
-		"ypos"			"-2"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"100"
@@ -207,11 +207,11 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"c-55"
+		"xpos"				"c-40"
 		"ypos"				"0"
 		"zpos"				"2"
-		"wide"				"110"
-		"tall"				"150"
+		"wide"				"75"
+		"tall"				"50"
 		"visible"			"0"
 		"enabled"			"1"
 		"delta_item_x"			"22"
@@ -219,7 +219,7 @@
 		"delta_item_end_y"		"70"
 		"PositiveColor"			"ColorGreen"
 		"NegativeColor"			"ColorRed"
-		"delta_lifetime"		"1.5"
+		"delta_lifetime"		"1"
 		"delta_item_font"		"HudFontMedium"
 
 		if_match
@@ -235,11 +235,11 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmall"
 			"fgcolor"		"TanLight"
-			"xpos"			"25"
+			"xpos"			"15"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"50"
-			"tall"			"24"
+			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"center"
@@ -247,9 +247,9 @@
 
 			if_match
 			{
-				"xpos"			"cs-0.5"
-				"ypos"			"13"
-				"tall"			"10"
+				"xpos"			"15"
+				"ypos"			"10"
+				"tall"			"15"
 				"font"			"HudFontSmall"
 			}
 		}
@@ -269,15 +269,15 @@
 
 		"max_size"		"19"
 		"6v6_gap"		"2"
-		"12v12_gap"		"1"
+		"12v12_gap"		"2"
 
 		"team1_grow_dir" 	"west"
-		"team1_base_x"		"c-45"
-		"team1_max_expand"	"133"
+		"team1_base_x"		"c-30"
+		"team1_max_expand"	"200"
 
 		"team2_grow_dir"	"east"
-		"team2_base_x"		"c47"
-		"team2_max_expand"	"133"
+		"team2_base_x"		"c30"
+		"team2_max_expand"	"200"
 
 		"playerpanels_kv"
 		{
@@ -320,8 +320,8 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"3"
-				"wide"			"19"
-				"tall"			"19"
+				"wide"			"20"
+				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
@@ -406,7 +406,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"HudFontSmallest"
+				"font"			"HudFontSmallBold"
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"5"

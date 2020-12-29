@@ -124,7 +124,7 @@ event HudMedicChargedStop
 	Animate	ChargeLabel 				FgColor		"Ammo In Clip"		Linear 0.0 0.0001
 }
 //==================================================================================
-// Hitmarker Pulse
+
 event DamagedPlayer
 {
 	StopEvent HitMarker 				0.0
@@ -137,6 +137,7 @@ event HitMarker
 	Animate	CustomCrosshair				FgColor		"Crosshair"			Linear 0.10	0.10001
 }
 //==================================================================================
+
 // Spy Disguise
 event HudSpyDisguiseFadeIn
 {
@@ -162,26 +163,25 @@ event HudSpyDisguiseChanged
 
 event HudSnapShotReminderIn
 {
-    RunEvent DefaultAnimHudSnapShotReminderIn	0.0
-    RunEvent HudHealthBonusPulseStop 			0.0
-    RunEvent HudHealthDyingPulseStop 			0.0
-    RunEvent HudLowAmmoPulseStop 				0.0
-    RunEvent HudMedicChargedStop 				0.0
+    RunEvent HudHealthDyingPulseStop 			10.0
+    RunEvent HudHealthBonusPulseStop 			10.0
+    RunEvent HudLowAmmoPulseStop 				10.0
+    RunEvent HudMedicChargedStop 				10.0
 }
 //==================================================================================
 
-event CompetitiveGame_LowerChatWindow
-{ 
-	Animate HudChat ypos r120 Accel 0 0
-}
-
-event CompetitiveGame_RestoreChatWindow
-{ 
-	Animate HudChat ypos 25 Accel 0 0
-}
-
-event HudTournament_MoveChatWindow
+event TeamStatus_PlayerDead
 {
-	RunEvent CompetitiveGame_LowerChatWindow 0
-	RunEvent CompetitiveGame_RestoreChatWindow 0
+	SetVisible	respawntime	1	0
 }
+
+event TeamStatus_PlayerAlive
+{
+	SetVisible	respawntime	0	0.2
+}
+
+//==================================================================================
+
+event CompetitiveGame_LowerChatWindow { }
+event CompetitiveGame_RestoreChatWindow { }
+event HudTournament_MoveChatWindow { }
