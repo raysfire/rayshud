@@ -94,7 +94,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		"l"
+			"labeltext"		"m"
 			"font"			"CustomIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"

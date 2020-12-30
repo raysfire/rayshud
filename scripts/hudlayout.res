@@ -76,7 +76,7 @@
 		"xpos"				"0"
 		"ypos"				"0"
 		"wide"				"f0"
-		"tall"				"480"
+		"tall"				"f0"
 	}
 
 	HudKothTimeStatus
@@ -84,14 +84,14 @@
 		"fieldName" 		"HudKothTimeStatus"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-75"
+		"xpos"				"c-65"
 		"ypos"				"0"
 		"zpos"				"5"
 		"wide"				"200"
 		"tall"				"60"
 
-		"blue_active_xpos"	"25"
-		"red_active_xpos"	"75"
+		"blue_active_xpos"	"15"
+		"red_active_xpos"	"65"
 	}
 
 	HudItemEffectMeter
@@ -222,7 +222,7 @@
 		"ypos"					"c130"
 		"zpos"					"0"
 		"ypos_minmode"			"c83"
-		"wide"					"50"
+		"wide"					"55"
 		"tall"  				"70"
 		"visible" 				"1"
 		"enabled" 				"1"

@@ -40,11 +40,11 @@
 			"fieldName"			"TimePanelValue"
 			"font"				"HudFontMedium"
 			"fgcolor"			"TanLight"
-			"xpos"				"25"
+			"xpos"				"15"
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"50"
-			"tall"				"24"
+			"tall"				"25"
 			"visible"			"1"
 			"enabled"			"1"
 			"textAlignment"		"center"
@@ -53,11 +53,11 @@
 			if_match
 			{
 				"proportionaltoparent"	"1"
-				"xpos"			"10"
-				"ypos"			"9"
+				"xpos"			"11"
+				"ypos"			"8"
 				"tall"			"10"
-				"wide"			"35"
-				"font"			"HudFontSmall"
+				"wide"			"25"
+				"font"			"HudFontSmallest"
 			}
 		}
 	}
@@ -94,7 +94,7 @@
 			"fieldName"			"TimePanelValue"
 			"font"				"HudFontMedium"
 			"fgcolor"			"TanLight"
-			"xpos"				"25"
+			"xpos"				"15"
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"50"
@@ -107,11 +107,11 @@
 			if_match
 			{
 				"proportionaltoparent"	"1"
-				"xpos"			"rs1-15"
-				"ypos"			"9"
-				"wide"			"35"
+				"xpos"			"rs1-33"
+				"ypos"			"8"
 				"tall"			"10"
-				"font"			"HudFontSmall"
+				"wide"			"25"
+				"font"			"HudFontSmallest"
 			}
 		}
 	}

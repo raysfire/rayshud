@@ -1099,8 +1099,8 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"image_drawcolor"		"118 107 94 200"
-		"image_armedcolor"		"128 117 104 255"
+		"image_drawcolor"	"118 107 94 200"
+		"image_armedcolor"	"246 247 213 255"
 
 		"SubImage"
 		{
@@ -1144,8 +1144,8 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"image_drawcolor"		"118 107 94 200"
-		"image_armedcolor"		"128 117 104 255"
+		"image_drawcolor"	"118 107 94 200"
+		"image_armedcolor"	"246 247 213 255"
 
 		"SubImage"
 		{
@@ -1163,6 +1163,50 @@
 		}
 	}
 
+	"OptionsButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"OptionsButton"
+		"xpos"			"c-63"
+		"ypos"			"c-123"
+		"zpos"			"20"
+		"wide"			"11"
+		"tall"			"11"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labeltext"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"Command"			"options"
+		"paintbackground"	"0"
+		
+		"image_drawcolor"	"118 107 94 200"
+		"image_armedcolor"	"246 247 213 255"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"11"
+			"tall"			"11"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"glyph_options"
+			"scaleImage"	"1"
+		}				
+	}
+	
 	"TeamNavPanel"
 	{
 		"ControlName"		"CNavigationPanel"
@@ -1262,31 +1306,6 @@
 		}
 	}
 
-	"PaintButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"PaintButton"
-		"xpos"			"c-158"
-		"ypos"			"c-140"
-		"zpos"			"20"
-		"wide"			"76"
-		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#Store_Paint"
-		"font"			"HudFontSmallest"
-		"textAlignment"	"center"
-		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"paint_toggle"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
 	"CycleTextLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -1304,27 +1323,6 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
-	}
-
-	"NextStyleButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"NextStyleButton"
-		"zpos"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#Store_NextStyle"
-		"font"			"HudFontSmallest"
-		"textAlignment"	"center"
-		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"next_style"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"PaintNameLabel"

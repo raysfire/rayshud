@@ -100,7 +100,7 @@
 		"font"				"HudFontMediumSecondary"
 		"fgcolor"			"ColorRed"
 		"xpos"				"0"
-		"ypos"				"95"
+		"ypos"				"92"
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"20"

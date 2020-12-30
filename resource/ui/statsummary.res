@@ -100,6 +100,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "TanLight"
+		"allcaps"		"1"
 	}
 	"MapType"
 	{
@@ -118,6 +119,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "TanLight"
+		"allcaps"		"1"
 	}
 
 	"StatData"

@@ -182,7 +182,7 @@
 		"xpos"				"c-270"
 		"ypos"				"10"
 		"zpos"				"1"
-		"wide"				"370"
+		"wide"				"200"
 		"tall"				"25"
 		"autoResize"		"0"
 		"pinCorner"			"0"

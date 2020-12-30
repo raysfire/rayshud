@@ -229,7 +229,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"Default"
+			"font"			"ControlPointTimer"
 			"xpos"			"27"
 			"ypos"			"78"
 			"zpos"			"2"
@@ -246,7 +246,6 @@
 
 			"if_multiple_trains"
 			{
-				"font"		"HudFontSmallest"
 				"xpos"		"17"
 				"wide"		"18"
 				"tall"		"10"
@@ -407,9 +406,9 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"CapPlayerFontSmall"
+			"font"			"ControlPointTimer"
 			"xpos"			"32"
-			"ypos"			"79"
+			"ypos"			"78"
 			"zpos"			"5"
 			"wide"			"15"
 			"tall"			"8"

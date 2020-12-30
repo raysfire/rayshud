@@ -461,7 +461,7 @@
 					"enabled"		"1"
 					"tabPosition"	"0"
 					"labelText"		"#Store_ItemDesc_ItemWikiPage"
-					"font"			"Cerbetica12"
+					"font"			"HudFontSmall"
 					"textAlignment"	"center"
 					"dulltext"		"0"
 					"brighttext"	"0"

@@ -62,6 +62,5 @@
 	{
 		"label"			"."
 		"command"		"engine hud_reloadscheme"
-		"tooltip"		"Refresh HUD"
 	}
 }
