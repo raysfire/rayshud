@@ -85,7 +85,7 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"ToggleChatButton"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"3"
 			"zpos"			"100"
 			"wide"			"30"
 			"tall"			"f6"

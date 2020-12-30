@@ -1172,7 +1172,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"HudFontSmall"
-		"labelText"		"v2020.0808"
+		"labelText"		"v2020.1230"
 		"xpos"			"r135"
 		"ypos"			"r15"
 		"wide"			"130"

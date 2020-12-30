@@ -29,7 +29,7 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"70 130 180 153"
+		"fillcolor"		"Blue"
 
 		"if_hybrid"
 		{
@@ -58,7 +58,7 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"205 50 50 153"
+		"fillcolor"		"Red"
 
 		"if_hybrid"
 		{
@@ -312,7 +312,7 @@
 
 		if_mvm
 		{
-			"ypos"		"r95"
+			"ypos"		"r65"
 		}
 
 		"if_hybrid"

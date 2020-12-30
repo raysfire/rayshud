@@ -22,7 +22,7 @@
 			"tall"				"23"
 			"visible"			"1"
 			"enabled"			"1"
-			"bgcolor_override"	"104 124 155 255"
+			"bgcolor_override"	"BlueSolid"
 		}
 
 		"count"
@@ -101,7 +101,7 @@
 			"tall"				"23"
 			"visible"			"1"
 			"enabled"			"1"
-			"bgcolor_override"	"180 92 77 255"
+			"bgcolor_override"	"RedSolid"
 		}
 
 		"count"

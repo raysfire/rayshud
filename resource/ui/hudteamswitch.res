@@ -41,7 +41,7 @@
 		"wrap"				"1"
 		"labelText"			"#TF_teambalanced"
 		"textAlignment"		"North"
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"TanLight"
 		"textinsetx"		"5"
 	}
 	"BalanceLabel"
@@ -61,7 +61,7 @@
 		"wrap"				"1"
 		"labelText"			""
 		"textAlignment"		"North"
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"TanLight"
 		"textinsetx"		"5"
 	}
 	"SwitchImage"

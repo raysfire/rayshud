@@ -21,7 +21,7 @@
 			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"70 130 180 255"
+			"bgcolor_override"	"BlueSolid"
 		}
 		"RedScoreBG"
 		{
@@ -34,7 +34,7 @@
 			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"205 50 50 255"
+			"bgcolor_override"	"RedSolid"
 		}
 		
 		"BlueTeamLabel"
@@ -62,7 +62,7 @@
 			"labelText"		"%blueteamscore%"
 			"textAlignment"	"east"
 			"xpos"			"138"
-			"ypos"			"1"
+			"ypos"			"10"
 			"zpos"			"3"
 			"wide"			"80"
 			"tall"			"70"
@@ -107,6 +107,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
+		
 		"RedTeamScore"
 		{
 			"ControlName"	"CExLabel"
@@ -115,7 +116,7 @@
 			"labelText"		"%redteamscore%"
 			"textAlignment"	"west"
 			"xpos"			"230"
-			"ypos"			"1"
+			"ypos"			"10"
 			"zpos"			"3"
 			"wide"			"80"
 			"tall"			"70"

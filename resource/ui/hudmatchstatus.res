@@ -214,19 +214,17 @@
 		"tall"				"50"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"22"
-		"delta_item_start_y"	"50"
-		"delta_item_end_y"		"70"
+		"delta_item_x"			"20"
+		"delta_item_start_y"	"20"
+		"delta_item_end_y"		"35"
 		"PositiveColor"			"ColorGreen"
 		"NegativeColor"			"ColorRed"
 		"delta_lifetime"		"1"
-		"delta_item_font"		"HudFontMedium"
+		"delta_item_font"		"HudFontMediumSmall"
 
 		if_match
 		{
-			"delta_item_x"			"35"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
+			"font"				"HudFontSmall"
 		}
 
 		"TimePanelValue"

@@ -221,7 +221,7 @@
 		"zpos"				"5"
 		"wide"				"70"
 		"tall"				"100"
-		"font"				"HudFontSmallest"
+		"font"				"Cerbetica10"
 		"wrap"				"1"
 		"labelText"			"#Store_ConfirmStampDonationAddTitle"
 		"visible"			"0"

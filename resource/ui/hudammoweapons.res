@@ -57,7 +57,7 @@
 		"font"				"Cerbetica32"
 		"font_minmode"		"Cerbetica20"
 		"fgcolor"			"Ammo In Reserve"
-		"xpos"				"65"
+		"xpos"				"-65"
 		"ypos"				"0"
 		"zpos"				"7"
 		"wide"				"f0"
@@ -66,6 +66,7 @@
 		"enabled"			"1"
 		"textAlignment"		"west"
 		"labelText"			"%AmmoInReserve%"
+		"pin_to_sibling"	"AmmoInClip"
 	}
 	"AmmoInReserveShadow"
 	{

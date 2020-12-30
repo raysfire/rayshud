@@ -532,6 +532,11 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"command"	"random_seed"
 
+			"defaultFgColor_override"	"White"
+			"defaultBgColor_override"	"Black"
+			"selectedFgColor_override"	"Black"
+			"selectedBgColor_override"	"White"
+
 			"consume_mode"
 			{
 				"visible"	"0"

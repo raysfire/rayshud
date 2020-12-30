@@ -38,7 +38,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"70 130 180 153"
+		"fillcolor"		"Blue"
 		"scaleImage"	"1"
 
 		if_mvm
@@ -73,7 +73,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"205 50 50 153"
+		"fillcolor"		"Red"
 		"scaleImage"	"1"
 
 		if_mvm

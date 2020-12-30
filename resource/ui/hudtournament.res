@@ -99,7 +99,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"Default"
+				"font"			"Cerbetica10"
 				"xpos"			"1"
 				"ypos"			"25"
 				"zpos"			"5"

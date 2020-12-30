@@ -73,7 +73,7 @@
 		"fieldName"			"CancelLabel"
 		"font"				"SpectatorKeyHints"
 		"xpos"				"0"
-		"ypos"				"127"
+		"ypos"				"8"
 		"zpos"				"1"
 		"wide"				"195"
 		"tall"				"13"

@@ -152,7 +152,7 @@
 		"font"				"HudFontMediumSecondary"
 		"fgcolor"			"TanLight"
 		"xpos"				"0"
-		"ypos"				"92"
+		"ypos"				"95"
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"20"

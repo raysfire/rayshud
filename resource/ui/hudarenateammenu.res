@@ -97,11 +97,12 @@
 		"brighttext"	"0"
 		"command"		"jointeam spectate"
 		"font"			"Cerbetica20"
-		
+		"allcaps"		"1"
+
 		"defaultFgColor_override"	"255 255 255 128"
-		"armedFgColor_override"		"235 226 202 255"
+		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override"	"255 255 255 128"
-		"selectedFgColor_override"	"235 226 202 255"
+		"selectedFgColor_override"	"TanLight"
 	}
 
 	"teambutton3"
@@ -126,9 +127,9 @@
 		"font"			"Cerbetica20"
 
 		"defaultFgColor_override"	"255 255 255 128"
-		"armedFgColor_override"		"235 226 202 255"
+		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override"	"255 255 255 128"
-		"selectedFgColor_override"	"235 226 202 255"
+		"selectedFgColor_override"	"TanLight"
 	}
 
 	"CancelButton"
@@ -138,10 +139,10 @@
 		"wide"			"0"
 	}
 
-	"SpectateBG"
+	"FightBG"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"SpectateBG"
+		"fieldName"		"FightBG"
 		"xpos"			"0"
 		"ypos"			"c-35"
 		"zpos"			"0"
@@ -149,7 +150,21 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"HudBlack"
+		"bgcolor_override"	"TransparentBlack"
+	}
+	
+	"SpectateBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"SpectateBG"
+		"xpos"			"0"
+		"ypos"			"c5"
+		"zpos"			"0"
+		"wide"			"255"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"TransparentBlack"
 	}
 
 	"MenuBG"

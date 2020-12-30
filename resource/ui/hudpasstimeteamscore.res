@@ -1,18 +1,30 @@
-"Resource/UI/HudMiniGame_Base.res"
+"Resource/UI/HudPasstimeTeamScore.res"
 {
+	"HudTeamScore"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HudPasstimeTeamScore"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+
 	"LeftSideBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideBG"
-		"xpos"			"c-120"
-		"ypos"			"r20"
-		"zpos"			"-1"
-		"wide"			"120"
-		"tall"			"14"
+		"xpos"			"c-35"
+		"ypos"			"r50"
+		"zpos"			"1"
+		"wide"			"35"
+		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"BlueSolid"
-		"scaleImage"	"1"
 	}
 
 	"RightSideBG"
@@ -20,29 +32,28 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RightSideBG"
 		"xpos"			"c0"
-		"ypos"			"r20"
-		"zpos"			"-1"
-		"wide"			"120"
-		"tall"			"14"
+		"ypos"			"r50"
+		"zpos"			"1"
+		"wide"			"35"
+		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"RedSolid"
-		"scaleImage"	"1"
 	}
-	
+
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"OutlineBG"
 		"xpos"			"9999"
 	}
-	
+
 	"BlueScore"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
 		"xpos"			"c-57"
-		"ypos"			"r33"
+		"ypos"			"r54"
 		"zpos"			"8"
 		"wide"			"50"
 		"tall"			"35"
@@ -50,7 +61,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
-		"font"			"Cerbetica40"
+		"font"			"Cerbetica32"
 		"fgcolor"		"TanLight"
 	}
 	"BlueScoreShadow"
@@ -66,7 +77,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
-		"font"			"Cerbetica40"
+		"font"			"Cerbetica32"
 		"fgcolor"		"TransparentBlack"
 		"pin_to_sibling"	"BlueScore"
 	}
@@ -76,7 +87,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
 		"xpos"			"c7"
-		"ypos"			"r33"
+		"ypos"			"r54"
 		"zpos"			"8"
 		"wide"			"50"
 		"tall"			"35"
@@ -84,9 +95,10 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
-		"font"			"Cerbetica40"
+		"font"			"Cerbetica32"
 		"fgcolor"		"TanLight"
 	}
+
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -100,57 +112,54 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
-		"font"			"Cerbetica40"
+		"font"			"Cerbetica32"
 		"fgcolor"		"TransparentBlack"
 		"pin_to_sibling"	"RedScore"
 	}
-	
-	"PlayingTo"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayingTo"
-		"xpos"			"c-70"
-		"ypos"			"r54"
-		"zpos"			"4"
-		"wide"			"140"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_PlayingTo"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"HudFontSmall"
-		"fgcolor"		"TanLight"
-	}
-	
-	"PlayingToBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"PlayingToBG"
-		"xpos"			"c-50"
-		"ypos"			"r50"
-		"zpos"			"3"
-		"wide"			"100"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"		"Transparent"
-		"PaintBackgroundType"	"0"
-	}
 
-	"GameImage"
+	"PlayingToCluster"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"GameImage"
-		"xpos"			"cs-0.5"
-		"ypos"			"r74"
-		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"50"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			""
-		"scaleImage"	"1"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"PlayingToCluster"
+		"xpos"				"65"
+		"ypos"				"0"
+		"zpos"				"10"
+		"wide"				"f0"
+		"tall"				"480"
+		"visible"			"1"
+		"enabled"			"1"
+
+		"PlayingTo"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"PlayingTo"
+			"xpos"			"cs-0.5"
+			"ypos"			"r50"
+			"zpos"			"7"
+			"wide"			"140"
+			"tall"			"38"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"#TF_PlayingTo"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"font"			"FontRegular12"
+			"fgcolor"		"TanLight"
+		}
+
+		"PlayingToBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"PlayingToBG"
+			"xpos"			"c-40"
+			"ypos"			"r24"
+			"zpos"			"3"
+			"wide"			"80"
+			"tall"			"24"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"TransparentBlack"
+		}
 	}
 }

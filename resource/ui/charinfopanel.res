@@ -91,7 +91,7 @@
 
 	"FooterLine"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"FooterLine"
 		"xpos"				"0"
 		"ypos"				"420"

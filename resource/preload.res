@@ -38,6 +38,7 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_red_locked"
 	}
+	
 	"CPIconNeutral"
 	{
 		"ControlName"	"ImagePanel"
@@ -56,6 +57,16 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_neutral_locked"
+	}
+
+	"CPIconWhite"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CPIconWhite"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_white"
 	}
 
 	"CPIconBlu1"

@@ -9,10 +9,10 @@
 		"ypos"					"200"
 		"wide"					"200"
 		"tall"					"110"
-		"bgcolor_override"		"DarkGrey"
-		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
 		"border"				"CyanBorder"
+		"bgcolor_override"		"DarkGrey"
+		"paintbackgroundtype"	"0"
 	}
 
 	"CenterPositioner"
