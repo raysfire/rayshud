@@ -116,7 +116,7 @@
 		"ControlName"		"CExButton"
 		"fieldName"			"Nope"
 		"xpos"				"40"
-		"ypos"				"214"
+		"ypos"				"210"
 		"zpos"				"20"
 		"wide"				"175"
 		"tall"				"25"

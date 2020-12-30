@@ -34,7 +34,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"ItemFontAttribLarge"
-		"font_minmode"			"Default"
+		"font_minmode"			"Cerbetica10"
 	}
 
 	"ItemEffectMeter"
@@ -61,7 +61,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"0"
-		"ypos"					"10"
+		"ypos"					"12"
 		"ypos_minmode"			"8"
 		"zpos"					"2"
 		"wide"					"40"
@@ -98,9 +98,6 @@
 		"font"					"Cerbetica28"
 		"font_minmode"			"Cerbetica16"
 		"fgcolor"				"TransparentBlack"
-
 		"pin_to_sibling"		"ItemEffectMeterCount"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 }

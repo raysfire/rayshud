@@ -1,3 +1,5 @@
+#base "hudinspectpanel.res"
+
 "Resource/UI/SpectatorTournament.res"
 {
 	"specgui"
@@ -11,19 +13,20 @@
 		"enabled"				"1"
 
 		"team1_player_base_offset_x"	"0"
-		"team1_player_base_y"			"255"
+		"team1_player_base_x"			"0"
+		"team1_player_base_y"			"239"
 		"team1_player_delta_x"			"0"
 		"team1_player_delta_y"			"-16"
 
 		"team2_player_base_offset_x"	"0"
-		"team2_player_base_y"			"275"
+		"team2_player_base_y"			"291"
 		"team2_player_delta_x"			"0"
 		"team2_player_delta_y"			"16"
 
 		"playerpanels_kv"
 		{
 			"visible"			"0"
-			"wide"				"156"
+			"wide"				"160"
 			"tall"				"16"
 			"zpos"				"1"
 			"color_ready"		"0 255 0 220"
@@ -43,6 +46,7 @@
 				"enabled"			"1"
 				"image"				"../hud/class_scoutred"
 				"scaleImage"		"1"
+				"proportionaltoparent"	"1"
 			}
 
 			"classimagebg"
@@ -58,6 +62,70 @@
 				"enabled"			"1"
 				"bgcolor_override"	"Black"
 				"PaintBackgroundType"	"0"
+				"proportionaltoparent"	"1"
+			}
+
+			"LoadoutIconsActiveItemRed"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"			"LoadoutIconsActiveItemRed"
+				"xpos"				"135"
+				"ypos"				"3"
+				"zpos"				"200"
+				"wide"				"24"
+				"tall"				"11"
+				"visible"			"1"
+				"enabled"			"1"
+				"scaleImage"		"1"
+				"proportionalToParent"	"1"
+				//fillcolor_override 	"255 0 0 32"
+			}
+			"LoadoutIconsActiveItemBlue"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"			"LoadoutIconsActiveItemBlue"
+				"xpos"				"135"
+				"ypos"				"3"
+				"zpos"				"200"
+				"wide"				"24"
+				"tall"				"11"
+				"visible"			"1"
+				"enabled"			"1"
+				"scaleImage"		"1"
+				"proportionalToParent"	"1"
+				//fillcolor_override 	"255 0 0 32"
+			}
+
+			"StatusEffectIconRed"
+			{
+				"ControlName"			"ImagePanel"
+				"fieldName"				"StatusEffectIconRed"
+				"xpos"					"27"
+				"ypos"					"1"
+				"zpos"					"200"
+				"wide"					"14"
+				"tall"					"14"
+				"visible"				"0"
+				"enabled"				"1"
+				"scaleImage"			"1"
+				"proportionalToParent"	"1"
+				"image"					""
+			}
+
+			"StatusEffectIconBlue"
+			{
+				"ControlName"			"ImagePanel"
+				"fieldName"				"StatusEffectIconBlue"
+				"xpos"					"27"
+				"ypos"					"1"
+				"zpos"					"200"
+				"wide"					"14"
+				"tall"					"14"
+				"visible"				"0"
+				"enabled"				"1"
+				"scaleImage"			"1"
+				"proportionalToParent" 	"1"
+				"image"					""
 			}
 
 			"PanelLeftFringe"
@@ -267,9 +335,9 @@
 				"ControlName"		"CExLabel"
 				"fieldName"			"chargeamount"
 				"font"				"HudFontSmallest"
-				"xpos"				"126"
+				"xpos"				"132"
 				"ypos"				"2"
-				"zpos"				"6"
+				"zpos"				"201"
 				"wide"				"25"
 				"tall"				"13"
 				"autoResize"		"0"
@@ -285,8 +353,8 @@
 				"ControlName"		"CExLabel"
 				"fieldName"			"chargeamountBG"
 				"font"				"HudFontSmallest"
-				"xpos"				"127"
-				"ypos"				"3"
+				"xpos"				"-1"
+				"ypos"				"-1"
 				"zpos"				"6"
 				"wide"				"25"
 				"tall"				"13"
@@ -296,6 +364,7 @@
 				"labelText"			"%chargeamount%"
 				"textAlignment"		"east"
 				"fgcolor"			"TransparentBlack"
+				"pin_to_sibling"	"chargeamount"
 			}
 		}
 	}
@@ -318,10 +387,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-300"
+		"xpos"			"0"
 		"ypos"			"50"
-		"wide"			"600"
-		"tall"			"24"
+		"wide"			"f0"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -329,24 +398,28 @@
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"	"center"
 		"font"			"HudFontMedium"
+
+		if_mvm
+		{
+			"ypos"		"90"
+		}
 	}
+
 	"BuyBackLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
-		"xpos"			"c-190"
-		"ypos"			"360"
-		"wide"			"380"
-		"tall"			"24"
+		"xpos"			"0"
+		"ypos"			"110"
+		"wide"			"f0"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"HudFontMediumSecondary"
-		"wrap"			"1"
-		"centerwrap"	"1"
+		"font"			"HudFontSmall"
 
 		if_mvm
 		{

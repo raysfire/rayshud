@@ -4,9 +4,9 @@
 	{
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ChargeMeter"
-		"xpos"				"0"
+		"xpos"				"c-75"
 		"ypos"				"c92"
-		"xpos_minmode"		"10"
+		"xpos_minmode"		"c-60"
 		"ypos_minmode"		"c55"
 		"zpos"				"2"
 		"wide"				"120"
@@ -26,8 +26,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemEffectMeterLabel"
-		"xpos"				"125"
-		"ypos"				"c92"
+		"xpos"				"85"
+		"ypos"				"0"
 		"zpos"				"3"
 		"wide"				"80"
 		"tall"				"8"
@@ -37,12 +37,13 @@
 		"enabled"			"1"
 		"visible_minmode"	"0"
 		"enabled_minmode"	"0"
-		"tabPosition"		"0"
 		"labelText"			"#TF_Charge"
 		"textAlignment"		"west"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"font"				"HudFontSmallest"
 		"fgcolor_override"	"White"
+
+		"pin_to_sibling"		"ChargeMeter"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 }

@@ -33,10 +33,10 @@
 			"ControlName"	"CPvPRankPanel"
 			"fieldName"		"RankPanel"
 			"xpos"			"0"
-			"ypos"			"-60"
+			"ypos"			"-65"
 			"zpos"			"100"
 			"wide"			"330"
-			"tall"			"92"
+			"tall"			"f0"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
@@ -68,13 +68,14 @@
 			"font"				"HudFontSmallest"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"		"center"
+			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 
 		"ShowMatchHistoryButton"
 		{
-			"ControlName"		"Button"
+			"ControlName"		"CExButton"
 			"fieldName"			"ShowMatchHistoryButton"
 			"xpos"				"10"
 			"ypos"				"38"
@@ -89,6 +90,7 @@
 			"font"				"HudFontSmallest"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"		"center"
+			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
@@ -182,14 +184,14 @@
 					"tall"			"18"
 					"proportionaltoparent"	"1"
 					"visible"				"1"
-					"paintbackground"		"0"
-					"border_default"		"SortCategoryBorder"
 					"labeltext"				"#TF_Competitive_Result"
 					"font"					"HudFontSmallest"
-					"fgcolor_override"		"141 63 63 255"
 					"textAlignment"			"west"
 					"textinsetx"			"15"
-
+					"fgcolor_override"		"141 63 63 255"
+					"paintbackground"		"0"
+					"border_default"		"SortCategoryBorder"
+					
 					"defaultFgColor_override" 	"TanDark"
 					"armedFgColor_override"		"Orange"
 					"selectedFgColor_override"	"TanLight"

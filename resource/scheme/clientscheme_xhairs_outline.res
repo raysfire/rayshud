@@ -2,39 +2,6 @@ Scheme
 {
 	Fonts
 	{
-		"Size:4 | Outline:ON"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"4"
-				"weight"		"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		"Size:6 | Outline:ON"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"6"
-				"weight"		"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		"Size:8 | Outline:ON"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"8"
-				"weight"		"0"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
 		"Size:10 | Outline:ON"
 		{
 			"1"

@@ -188,19 +188,19 @@
 		"paintborder"		"1"
 
 		"fgcolor_override"					"TanLight"
-		"bgcolor_override"					"15 15 15 255"
+		"bgcolor_override"					"Black"
 		"disabledFgColor_override"			"TanLight"
-		"disabledBgColor_override"			"15 15 15 255"
-		"selectionColor_override"			"15 15 15 255"
+		"disabledBgColor_override"			"Black"
+		"selectionColor_override"			"Black"
 		"selectionTextColor_override"		"TanLight"
-		"defaultSelectionBG2Color_override"	"15 15 15 255"
+		"defaultSelectionBG2Color_override"	"Black"
 
 		"Button"
 		{
 			"defaultFgColor_override"	"TanLight"
-			"defaultBgColor_override"	"15 15 15 255"
+			"defaultBgColor_override"	"Black"
 			"armedFgColor_override"		"15 255 255 255"
-			"armedBgColor_override"		"15 15 15 255"
+			"armedBgColor_override"		"Black"
 			"paintbackgroundtype"		"2"
 		}
 	}
@@ -229,19 +229,19 @@
 		"paintborder"		"1"
 
 		"fgcolor_override"					"TanLight"
-		"bgcolor_override"					"15 15 15 255"
+		"bgcolor_override"					"Black"
 		"disabledFgColor_override"			"TanLight"
-		"disabledBgColor_override"			"15 15 15 255"
-		"selectionColor_override"			"15 15 15 255"
+		"disabledBgColor_override"			"Black"
+		"selectionColor_override"			"Black"
 		"selectionTextColor_override"		"TanLight"
-		"defaultSelectionBG2Color_override"	"15 15 15 255"
+		"defaultSelectionBG2Color_override"	"Black"
 
 		"Button"
 		{
 			"defaultFgColor_override"	"TanLight"
-			"defaultBgColor_override"	"15 15 15 255"
+			"defaultBgColor_override"	"Black"
 			"armedFgColor_override"		"15 255 255 255"
-			"armedBgColor_override"		"15 15 15 255"
+			"armedBgColor_override"		"Black"
 			"paintbackgroundtype"		"2"
 		}
 	}

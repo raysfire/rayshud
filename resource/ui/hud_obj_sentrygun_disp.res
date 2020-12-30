@@ -67,6 +67,7 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"proportionaltoparent"	"1"
 		}
 	}
 
@@ -79,66 +80,34 @@
 		"wide"			"160"
 		"tall"			"30"
 		"visible"		"0"
+		"proportionaltoparent"	"1"
 
 		"Icon_Upgrade_1"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_1"
-			"xpos"			"46"
-			"ypos"			"20"
-			"zpos"			"1"
-			"wide"			"10"
-			"tall"			"10"
-			"visible"		"0"
-			"enabled"		"0"
-			"scaleImage"	"1"
-			"icon"			""
-			"iconColor"		"White"
+			"xpos"			"9999"
 		}
 
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
 			"fieldName"		"AlertTray"
-			"xpos"			"113"
-			"ypos"			"0"
-			"wide"			"34"
-			"tall"			"3"
-			"visible"		"0"
-			"enabled"		"0"
-			"icon"			"obj_status_alert_background_tall"
+			"xpos"			"9999"
 		}
 
 		"WrenchIcon"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"WrenchIcon"
-			"xpos"			"121"
-			"ypos"			"15"
-			"zpos"			"1"
-			"wide"			"19"
-			"tall"			"19"
-			"visible"		"0"
-			"enabled"		"0"
-			"scaleImage"	"1"
-			"icon"			"obj_status_icon_wrench"
-			"iconColor"		"White"
+			"xpos"			"9999"
 		}
 
 		"SapperIcon"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"SapperIcon"
-			"xpos"			"117"
-			"ypos"			"15"
-			"zpos"			"1"
-			"wide"			"25"
-			"tall"			"25"
-			"visible"		"0"
-			"enabled"		"0"
-			"scaleImage"	"1"
-			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"White"
+			"xpos"			"9999"
 		}
 
 		"Health"
@@ -157,6 +126,7 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"proportionaltoparent"	"1"
 		}
 
 		"BuildingPanel"
@@ -216,6 +186,7 @@
 			"wide"			"100"
 			"tall"			"30"
 			"visible"		"0"
+			"proportionaltoparent"	"1"
 
 			"KillIcon"
 			{
@@ -231,6 +202,7 @@
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_kill_64"
 				"drawcolor"		"ProgressOffWhite"
+				"proportionaltoparent"	"1"
 			}
 
 			"KillsLabel"
@@ -250,6 +222,7 @@
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
+				"proportionaltoparent"	"1"
 			}
 
 			"ShellIcon"
@@ -266,6 +239,7 @@
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
 				"drawcolor"		"ProgressOffWhite"
+				"proportionaltoparent"	"1"
 			}
 
 			"Shells"
@@ -284,6 +258,7 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
+				"proportionaltoparent"	"1"
 			}
 		}
 	}

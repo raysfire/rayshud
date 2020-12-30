@@ -55,17 +55,14 @@
 		"textAlignment"		"west"
 		"dulltext"			"1"
 		"brighttext"		"0"
-
-		"pin_to_sibling"		"TitleLabel"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		"pin_to_sibling"	"TitleLabel"
 	}
 
 	"ToggleLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ToggleLabel"
-		"font"				"TextTooltipFont"
+		"font"				"SpectatorKeyHints"
 		"xpos"				"0"
 		"ypos"				"165"
 		"zpos"				"2"
@@ -96,7 +93,7 @@
 		"visible"			"0"
 		"enabled"			"0"
 		"labelText"			"#Hud_Menu_Build_Cancel"
-		"textAlignment"		"East"
+		"textAlignment"		"east"
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}

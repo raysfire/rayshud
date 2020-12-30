@@ -123,9 +123,10 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"0"
+				"Command"			"zoom_toggle"
+				
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				"Command"			"zoom_toggle"
 				"paintbackground"	"0"
 				"image_drawcolor"	"118 107 94 200"
 				"image_armedcolor"	"246 247 213 255"
@@ -460,7 +461,7 @@
 					"enabled"		"1"
 					"tabPosition"	"0"
 					"labelText"		"#Store_ItemDesc_ItemWikiPage"
-					"font"			"Cerbetica12"
+					"font"			"HudFontSmall"
 					"textAlignment"	"center"
 					"dulltext"		"0"
 					"brighttext"	"0"
@@ -1023,35 +1024,21 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labeltext"		""
-		"font"			""
+		"labeltext"		"("
+		"font"			"CustomIcons"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"0"
+		"Command"			"closex"
+		"paintbackground"	"0"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"Command"		"closex"	// Intentionally using "closex" instead of "close" for stats
-		"paintbackground"	"0"
-
-		"image_drawcolor"	"118 107 94 255"
-		"image_armedcolor"	"246 247 213 255"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"1"
-			"wide"			"9"
-			"tall"			"9"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/close"
-			"scaleImage"	"1"
-			"proportionaltoparent"	"1"
-		}
+		
+		"defaultFgColor_override" 	"118 107 94 255"
+		"armedFgColor_override" 	"246 247 213 255"
+		"depressedFgColor_override" "118 107 94 255"
 	}
 
 	"mouseoveritempanel"

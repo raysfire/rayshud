@@ -77,10 +77,10 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-		"BlueTeamScoreDropshadow"
+		"BlueTeamScoreShadow"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"BlueTeamScoreDropshadow"
+			"fieldName"			"BlueTeamScoreShadow"
 			"font"				"Cerbetica40"
 			"fgcolor"			"TransparentBlack"
 			"labelText"			"%blueteamscore%"
@@ -94,10 +94,7 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-
-			"pin_to_sibling"		"BlueTeamScore"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			"pin_to_sibling"	"BlueTeamScore"
 		}
 
 		"BlueLeaderAvatar"
@@ -151,10 +148,10 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-		"RedTeamScoreDropshadow"
+		"RedTeamScoreShadow"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"RedTeamScoreDropshadow"
+			"fieldName"			"RedTeamScoreShadow"
 			"font"				"Cerbetica40"
 			"fgcolor"			"TransparentBlack"
 			"labelText"			"%redteamscore%"
@@ -168,10 +165,7 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-
-			"pin_to_sibling"		"RedTeamScore"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			"pin_to_sibling"	"RedTeamScore"
 		}
 
 		"RedLeaderAvatar"
@@ -213,7 +207,7 @@
 		"xpos"			"0"
 		"ypos"			"55"
 		"zpos"			"-3"
-		"wide"			"300"
+		"wide"			"200"
 		"tall"			"152"
 		"visible"		"1"
 		"enabled"		"1"
@@ -240,30 +234,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	"WinningTeamLabelDropshadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"WinningTeamLabelDropshadow"
-		"font"			"Cerbetica20"
-		"fgcolor"		"TransparentBlack"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"1"
-		"wide"			"180"
-		"tall"			"40"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"labelText"		"%WinningTeamLabel%"
-		"textAlignment"	"Center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-
-		"pin_to_sibling"		"WinningTeamLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-	}
 	"AdvancingTeamLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -283,35 +253,10 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	"AdvancingTeamLabelDropshadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AdvancingTeamLabelDropshadow"
-		"font"			"Cerbetica20"
-		"fgcolor"		"TransparentBlack"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"1"
-		"wide"			"180"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%AdvancingTeamLabel%"
-		"textAlignment"	"Center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-
-		"pin_to_sibling"		"AdvancingTeamLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-	}
 	"WinReasonLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinReasonLabel"
-		"font"			"ScoreboardVerySmall"
 		"xpos"			"9999"
 	}
 	"DetailsLabel"
@@ -709,7 +654,7 @@
 		"ControlName"	"CTFBadgePanel"
 		"fieldName"		"KillStreakPlayer1Badge"
 		"xpos"			"2"
-		"ypos"			"186"
+		"ypos"			"185"
 		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"20"

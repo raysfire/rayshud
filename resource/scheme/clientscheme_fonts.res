@@ -118,7 +118,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_bold"
+				"name"			"Cerbetica"
 				"tall"			"10"
 				"additive"		"0"
 				"antialias"		"1"
@@ -271,7 +271,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		DefaultLarge
+		"DefaultLarge"
 		{
 			"1"
 			{
@@ -332,7 +332,7 @@ Scheme
 			}
 		}
 
-		CenterPrintText
+		"CenterPrintText"
 		{
 			"1"
 			{
@@ -357,7 +357,7 @@ Scheme
 			}
 		}
 
-		HudHintText
+		"HudHintText"
 		{
 			"1"
 			{
@@ -736,7 +736,7 @@ Scheme
 			}
 		}
 
-		GameUIButtons
+		"GameUIButtons"
 		{
 			"1"	//[$X360]
 			{
@@ -746,7 +746,7 @@ Scheme
 				"scaley"		"0.5"
 			}
 		}
-		GameUIButtonsSmall
+		"GameUIButtonsSmall"
 		{
 			"1"	[$X360]
 			{
@@ -756,7 +756,7 @@ Scheme
 				"scaley"		"0.5"
 			}
 		}
-		GameUIButtonsSmallest
+		"GameUIButtonsSmallest"
 		{
 			"1"	[$X360]
 			{
@@ -766,7 +766,7 @@ Scheme
 				"scaley"		"0.4"
 			}
 		}
-		GameUIButtonsSteamController
+		"GameUIButtonsSteamController"
 		{
 			"1"
 			{
@@ -776,7 +776,7 @@ Scheme
 				"scaley"		"0.5"
 			}
 		}
-		GameUIButtonsSteamControllerSmall
+		"GameUIButtonsSteamControllerSmall"
 		{
 			"1"
 			{
@@ -786,7 +786,7 @@ Scheme
 				"scaley"		"0.25"
 			}
 		}
-		GameUIButtonsSteamControllerSmallest
+		"GameUIButtonsSteamControllerSmallest"
 		{
 			"1"
 			{
@@ -917,7 +917,7 @@ Scheme
 			}
 		}
 
-		DebugOverlay
+		"DebugOverlay"
 		{
 			"1"
 			{
@@ -929,7 +929,7 @@ Scheme
 			}
 		}
 
-		TFTypeDeath
+		"TFTypeDeath"
 		{
 			"1"
 			{
@@ -941,7 +941,7 @@ Scheme
 			}
 		}
 
-		Icons
+		"Icons"
 		{
 			"1"
 			 {
@@ -966,7 +966,7 @@ Scheme
 			}
 		}
 
-		HudNumbers
+		"HudNumbers"
 		{
 			"1"
 			{
@@ -1534,7 +1534,7 @@ Scheme
 			}
 		}
 
-		MenuSmallestFont
+		"MenuSmallestFont"
 		{
 			"1"
 			{
@@ -1545,7 +1545,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		MenuSmallFont
+		"MenuSmallFont"
 		{
 			"1"
 			{
@@ -1557,7 +1557,7 @@ Scheme
 			}
 		}
 
-		CapPlayerFont
+		"CapPlayerFont"
 		{
 			"1"
 			{
@@ -1569,7 +1569,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		CapPlayerFontSmall
+		"CapPlayerFontSmall"
 		{
 			"1"
 			{
@@ -1582,7 +1582,7 @@ Scheme
 			}
 		}
 
-		TFFontSmall
+		"TFFontSmall"
 		{
 			"1"
 			{
@@ -1593,7 +1593,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		TFFontMedium
+		"TFFontMedium"
 		{
 			"1"
 			{
@@ -1605,7 +1605,7 @@ Scheme
 			}
 		}
 
-		InstructionalText
+		"InstructionalText"
 		{
 			"1"
 			{
@@ -1618,7 +1618,7 @@ Scheme
 			}
 		}
 
-		MatchmakingDialogTitle
+		"MatchmakingDialogTitle"
 		{
 			"1"
 			{
@@ -1627,7 +1627,7 @@ Scheme
 				"weight"		"500"
 			}
 		}
-		MatchmakingDialogSessionOptionsTitle
+		"MatchmakingDialogSessionOptionsTitle"
 		{
 			"1"
 			{
@@ -1636,7 +1636,7 @@ Scheme
 				"weight"		"500"
 			}
 		}
-		MatchmakingDialogMenuLarge
+		"MatchmakingDialogMenuLarge"
 		{
 			"1"
 			{
@@ -1645,7 +1645,7 @@ Scheme
 				"weight"		"500"
 			}
 		}
-		MatchmakingDialogMenuBrowserHostname
+		"MatchmakingDialogMenuBrowserHostname"
 		{
 			"1"
 			{
@@ -1654,7 +1654,7 @@ Scheme
 				"weight"		"900"
 			}
 		}
-		MatchmakingDialogMenuBrowserDetails
+		"MatchmakingDialogMenuBrowserDetails"
 		{
 			"1"
 			{
@@ -1663,7 +1663,7 @@ Scheme
 				"weight"		"900"
 			}
 		}
-		MatchmakingDialogMenuMedium
+		"MatchmakingDialogMenuMedium"
 		{
 			"1"
 			{
@@ -1672,7 +1672,7 @@ Scheme
 				"weight"		"500"
 			}
 		}
-		MatchmakingDialogMenuMediumSmall
+		"MatchmakingDialogMenuMediumSmall"
 		{
 			"1"
 			{
@@ -1681,7 +1681,7 @@ Scheme
 				"weight"		"500"
 			}
 		}
-		MatchmakingDialogMenuSmall
+		"MatchmakingDialogMenuSmall"
 		{
 			"1"
 			{
@@ -1690,7 +1690,7 @@ Scheme
 				"weight"		"900"
 			}
 		}
-		MatchmakingDialogMenuSmallest
+		"MatchmakingDialogMenuSmallest"
 		{
 			"1"
 			{
@@ -1700,7 +1700,7 @@ Scheme
 			}
 		}
 
-		RankingDialogHeaders
+		"RankingDialogHeaders"
 		{
 			"1"
 			{

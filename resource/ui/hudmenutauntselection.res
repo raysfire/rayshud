@@ -50,10 +50,10 @@
 		"brighttext"	"0"
 	}
 
-	"TitleLabelDropshadow"
+	"TitleLabelShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"TitleLabelDropshadow"
+		"fieldName"		"TitleLabelShadow"
 		"font"			"Cerbetica28"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"-2"
@@ -69,10 +69,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"1"
 		"brighttext"	"0"
-
-		"pin_to_sibling"		"TitleLabel"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		"pin_to_sibling"	"TitleLabel"
 	}
 
 	"WeaponTauntLabel"

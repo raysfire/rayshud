@@ -270,14 +270,12 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"discarditem"
+		"paintbackground"	"0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override" "Transparent"
-		"armedBgColor_override" "Transparent"
-		"depressedBgColor_override" "Transparent"
-		"image_drawcolor"	"TanLight"
-		"image_armedcolor"	"ColorCyan"
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override"		"ColorCyan"
 
 		"SubImage"
 		{

@@ -103,9 +103,6 @@
 		"font"					"Cerbetica28"
 		"font_minmode"			"Cerbetica20"
 		"fgcolor"				"TransparentBlack"
-
 		"pin_to_sibling"		"ItemEffectMeterCount"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 }

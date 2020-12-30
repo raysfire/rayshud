@@ -1,6 +1,1 @@
-#base "TextWindow.res"
-
-"Resource/UI/TextWindowCustomServer.res"
-{
-
-}
+#base "textwindow.res"

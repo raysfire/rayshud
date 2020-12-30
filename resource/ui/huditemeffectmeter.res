@@ -29,7 +29,6 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"visible_minmode"	"0"
-		"tabPosition"		"0"
 		"labelText"			"#TF_Ball"
 		"textAlignment"		"west"
 		"dulltext"			"0"
@@ -53,7 +52,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"textAlignment"		"Center"
+		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}

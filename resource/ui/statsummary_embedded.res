@@ -1,4 +1,4 @@
-"Resource/UI/statsummary.res"
+"Resource/UI/statsummary_embedded.res"
 {
 	"TFStatsSummary"
 	{
@@ -17,68 +17,28 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBackground"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"	"1"
+		"xpos"			"9999"
 	}
 
 	"OnYourWayLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"OnYourWayLabel"
-		"font"			"Cerbetica24"
-		"labelText"		"#LoadingMap"
-		"textAlignment"	"west"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"50"
-		"wide"			"0"
-		"tall"			"0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"9999"
 	}
 
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"HudFontMediumBigBold"
-		"labelText"		"%maplabel%"
-		"textAlignment"	"center"
-		"xpos"			"5"
-		"ypos"			"92"
-		"zpos"			"50"
-		"wide"			"350"
-		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
+		"xpos"			"9999"
 	}
 
 	"MapType"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
-		"font"			"HudFontMediumBigBold"
-		"labelText"		"%maptype%"
-		"textAlignment"	"center"
-		"xpos"			"5"
-		"ypos"			"117"
-		"zpos"			"50"
-		"wide"			"350"
-		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
+		"xpos"			"9999"
 	}
 
 	"StatData"

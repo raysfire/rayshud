@@ -92,7 +92,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"TournamentNotReadyButton"
-		"xpos"			"90"
+		"xpos"			"35"
 		"ypos"			"37"
 		"wide"			"55"
 		"tall"			"15"
@@ -122,7 +122,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"TournamentReadyButton"
-		"xpos"			"35"
+		"xpos"			"95"
 		"ypos"			"37"
 		"wide"			"55"
 		"tall"			"15"

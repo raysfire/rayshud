@@ -67,6 +67,7 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"proportionaltoparent"	"1"
 		}
 	}
 
@@ -79,6 +80,7 @@
 		"wide"			"160"
 		"tall"			"30"
 		"visible"		"0"
+		"proportionaltoparent"	"1"
 
 		"Icon_Upgrade_1"
 		{
@@ -94,6 +96,7 @@
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_1"
 			"iconColor"		"White"
+			"proportionaltoparent"	"1"
 		}
 
 		"Icon_Upgrade_2"
@@ -110,6 +113,7 @@
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_2"
 			"iconColor"		"White"
+			"proportionaltoparent"	"1"
 		}
 
 		"Icon_Upgrade_3"
@@ -126,6 +130,7 @@
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_3"
 			"iconColor"		"White"
+			"proportionaltoparent"	"1"
 		}
 
 		"AlertTray"
@@ -189,6 +194,7 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"proportionaltoparent"	"1"
 		}
 
 		"BuildingPanel"
@@ -248,6 +254,7 @@
 			"wide"			"100"
 			"tall"			"30"
 			"visible"		"0"
+			"proportionaltoparent"	"1"
 
 			"UpgradeIcon"
 			{
@@ -263,6 +270,7 @@
 				"scaleImage"	"1"
 				"icon"			"ico_metal"
 				"iconColor"		"ProgressOffWhite"
+				"proportionaltoparent"	"1"
 			}
 
 			"Upgrade"
@@ -281,6 +289,7 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
+				"proportionaltoparent"	"1"
 			}
 		}
 	}

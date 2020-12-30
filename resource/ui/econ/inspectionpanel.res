@@ -361,7 +361,7 @@
 
 			"fixed_paintkit"
 			{
-				"ypos"		"10"
+				"ypos"			"10"
 			}
 
 			"zpos"				"100"
@@ -500,7 +500,7 @@
 		{
 			"ControlName"	"Button"
 			"fieldName"		"NewSeedButton"
-			"font"			"HudFontSmall"
+			"font"			"HudFontSmallest"
 			"xpos"			"8"
 			"ypos"			"75"
 
@@ -531,6 +531,11 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"command"	"random_seed"
+
+			"defaultFgColor_override"	"White"
+			"defaultBgColor_override"	"Black"
+			"selectedFgColor_override"	"Black"
+			"selectedBgColor_override"	"White"
 
 			"consume_mode"
 			{
@@ -565,10 +570,10 @@
 			"actionsignallevel" "2"
 			"default"		"1"
 			"NumericInputOnly"	"1"
-			"defaultfgcolor_override"	"White"
-			"defaultbgcolor_override"	"Black"
-			"selectedfgcolor_override"	"Black"
-			"selectedbgcolor_override"	"White"
+			"defaultFgColor_override"	"White"
+			"defaultBgColor_override"	"Black"
+			"selectedFgColor_override"	"Black"
+			"selectedBgColor_override"	"White"
 			"maxchars"		"18"
 
 			"consume_mode"
@@ -598,7 +603,7 @@
 			"wide"			"75"
 			"tall"			"20"
 			"labelText"		"#TF_ItemAd_ViewOnMarket"
-			"font"			"HudFontSmall"
+			"font"			"HudFontSmallest"
 			"textinsetx"	"0"
 			"textAlignment"	"center"
 			"proportionaltoparent"	"1"
@@ -608,9 +613,9 @@
 			"RoundedCorners"		"0"
 
 			"defaultFgColor_override"	"White"
-			"defaultBgColor_override"	"72 103 32 255"
-			"armedFgColor_override"		"White"
-			"armedBgColor_override"		"72 133 32 255"
+			"defaultBgColor_override"	"Black"
+			"selectedFgColor_override"	"Black"
+			"selectedBgColor_override"	"White"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
