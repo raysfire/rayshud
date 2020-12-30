@@ -11,7 +11,7 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"paintborder"			"1"
-		"border"				"CyanBorderThick"
+		"border"				"CyanBorder"
 		"bgcolor_override"		"DarkGrey"
 		"PaintBackgroundType"	"2"
 
@@ -80,7 +80,7 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"paintborder"			"1"
-		"border"				"CyanBorderThick"
+		"border"				"CyanBorder"
 		"bgcolor_override"		"DarkGrey"
 		"PaintBackgroundType"	"2"
 
@@ -413,7 +413,7 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"paintborder"			"1"
-		"border"				"CyanBorderThick"
+		"border"				"CyanBorder"
 		"bgcolor_override"		"DarkGrey"
 		"PaintBackgroundType"	"2"
 
@@ -482,7 +482,7 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"paintborder"			"1"
-		"border"				"CyanBorderThick"
+		"border"				"CyanBorder"
 		"bgcolor_override"		"DarkGrey"
 		"PaintBackgroundType"	"2"
 
@@ -554,7 +554,7 @@
 		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
 		"paintborder"			"1"
-		"border"				"CyanBorderThick"
+		"border"				"CyanBorder"
 		"bgcolor_override"		"DarkGrey"
 		"PaintBackground"		"1"
 		"PaintBackgroundType"	"2"
