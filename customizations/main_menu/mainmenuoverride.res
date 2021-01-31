@@ -1167,24 +1167,6 @@
 		}
 	}
 
-	"VersionLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"VersionLabel"
-		"font"			"HudFontSmall"
-		"labelText"		"v2020.1230"
-		"xpos"			"r135"
-		"ypos"			"r15"
-		"wide"			"130"
-		"tall"			"10"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"east"
-		"fgcolor_override"	"TanLight"
-	}
-
 	"CharacterSetupButton"
 	{
 		"ControlName"	"CExImageButton"
