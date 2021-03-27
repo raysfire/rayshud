@@ -290,7 +290,7 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
 			"xpos"			"0"
-			"ypos"			"10"
+			"ypos"			"0"
 			"wide"			"260"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
@@ -307,7 +307,7 @@
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
 				"xpos"			"0"
-				"ypos"			"rs1-63"
+				"ypos"			"rs1-13"
 				"wide"			"170"
 				"tall"			"35"
 				"proportionaltoparent"	"1"
@@ -323,22 +323,30 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"CurrentXPLabel"
-					"xpos"			"35"
-					"ypos"			"rs1"
+					"xpos"			"15"
+					"ypos"			"rs1-11"
 					"zpos"			"0"
-					"wide"			"50"
+					"wide"			"140"
 					"tall"			"10"
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"west"
+					"fgcolor_override"	"255 255 255 255"
+					"textAlignment"	"center"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
 
 					if_mini
 					{
-						"xpos"			"40"
+						"xpos"			"0"
+						"ypos"			"rs1"
+						"zpos"			"0"
+						"wide"			"100"
+						"tall"			"20"
+						"font"			"ItemFontAttribSmall"
+						"fgcolor_override"	"TanLight"
+						"textAlignment"	"south-west"
+						"visible"		"1"
 					}
 				}
 
@@ -381,7 +389,7 @@
 					{
 						"ControlName"	"ProgressBar"
 						"fieldName"		"ProgressBar"
-						"xpos"			"0"
+						"xpos"			"rs1-10"
 						"ypos"			"cs-0.5"
 						"wide"			"f0"
 						"tall"			"f-2"
