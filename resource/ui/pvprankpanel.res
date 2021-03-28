@@ -328,7 +328,7 @@
 					"zpos"			"0"
 					"wide"			"140"
 					"tall"			"10"
-					"visible"		"1"
+					"visible"		"0"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
 					"fgcolor_override"	"TanLight"
