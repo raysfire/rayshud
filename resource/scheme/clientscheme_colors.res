@@ -100,9 +100,9 @@ Scheme
 		"BrightYellow"							"251 235 0 255"
 		"GreenSolid"							"76 107 34 255"
 
-		"Black"									"30 30 30 255"
+		"Black"									"29 29 29 255"
 		"Transparent"							"0 0 0 0"
-		"TransparentBlack"						"0 0 0 196"
+		"TransparentBlack"						"0 0 0 200"
 		"TransparentLightBlack"					"0 0 0 90"
 		"FooterBGBlack"							"52 48 55 255"
 
