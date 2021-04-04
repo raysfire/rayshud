@@ -67,8 +67,8 @@ event HudLowAmmoPulseStop
 event HudMedicCharged
 {
 	RunEvent HudMedicOrangePulseCharge 	0.0
-//	RunEvent HudMedicSolidColorCharge 	0.0
-//	RunEvent HudMedicRainbowCharged 	0.0
+	//RunEvent HudMedicSolidColorCharge 	0.0
+	//RunEvent HudMedicRainbowCharged 	0.0
 
 	RunEvent HudMedicChargedLoop		0.6
 }
@@ -141,14 +141,14 @@ event HitMarker
 // Spy Disguise
 event HudSpyDisguiseFadeIn
 {
-//	RunEvent HudSpyDisguiseChanged		0.0
-//	Animate PlayerStatusSpyImage		Alpha		"255"				Linear 0.9	0.1
+	//RunEvent HudSpyDisguiseChanged		0.0
+	//Animate PlayerStatusSpyImage		Alpha		"255"				Linear 0.9	0.1
 }
 
 event HudSpyDisguiseFadeOut
 {
-//	RunEvent HudSpyDisguiseChanged		0.0
-//	Animate PlayerStatusSpyImage		Alpha		"0"					Linear 0.9	0.1
+	//RunEvent HudSpyDisguiseChanged		0.0
+	//Animate PlayerStatusSpyImage		Alpha		"0"					Linear 0.9	0.1
 }
 
 event HudSpyDisguiseChanged
