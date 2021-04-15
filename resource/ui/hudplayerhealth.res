@@ -1,3 +1,3 @@
-//"#base" "../../customizations/player_health/hudplayerhealth-broesel.res"
-//"#base" "../../customizations/player_health/hudplayerhealth-cross.res"
-"#base" "../../customizations/player_health/hudplayerhealth.res"
+"#base" "../../#customizations/_enabled/hudplayerhealth-broesel.res"
+"#base" "../../#customizations/_enabled/hudplayerhealth-cross.res"
+"#base" "../../#customizations/_stock/hudplayerhealth.res"

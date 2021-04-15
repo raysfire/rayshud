@@ -85,83 +85,65 @@
 	}
 	"numScout"
 	{
-		"xpos"			"c158"
+		"xpos"			"c185"
 		"ypos"			"164"
-		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"center"
 	}
 
 	"numSoldier"
 	{
-		"xpos"			"c158"
+		"xpos"			"c185"
 		"ypos"			"180"
-		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"center"
 	}
 
 	"numPyro"
 	{
-		"xpos"			"c158"
+		"xpos"			"c185"
 		"ypos"			"196"
-		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"center"
 	}
 
 	"numDemoman"
 	{
-		"xpos"			"c158"
+		"xpos"			"c185"
 		"ypos"			"212"
-		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"center"
 	}
 
 	"numHeavy"
 	{
-		"xpos"			"c158"
+		"xpos"			"c185"
 		"ypos"			"232"
-		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"center"
 	}
 
 	"numEngineer"
 	{
-		"xpos"			"c158"
+		"xpos"			"c185"
 		"ypos"			"248"
-		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"center"
 	}
 
 	"numMedic"
 	{
-		"xpos"			"c158"
+		"xpos"			"c185"
 		"ypos"			"264"
-		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"center"
 	}
 
 	"numSniper"
 	{
-		"xpos"			"c158"
+		"xpos"			"c185"
 		"ypos"			"284"
-		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"center"
 	}
 
 	"numSpy"
 	{
-		"xpos"			"c158"
+		"xpos"			"c185"
 		"ypos"			"300"
-		"wide"			"100"
 		"tall"			"12"
-		"textAlignment"	"center"
 	}
 
 	"MvMUpgradeImageScout"

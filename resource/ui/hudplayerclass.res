@@ -1,2 +1,2 @@
-//"#base" "../../customizations/player_model/hudplayerclass-left.res"
-"#base" "../../customizations/player_model/hudplayerclass.res"
+"#base" "../../#customizations/_enabled/hudplayerclass-left.res"
+"#base" "../../#customizations/_stock/hudplayerclass.res"

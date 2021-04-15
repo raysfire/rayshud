@@ -172,6 +172,40 @@
 		}
 	}
 
+	"HudName"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"HudName"
+		"xpos"			"9999"
+		"ypos"			"58"
+		"zpos"			"1"
+		"wide"			"56"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"rayshud"
+		"font"			"HudFontMediumSecondary"
+		"textAlignment"	"west"
+		"textinsetx"	"0"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"paintbackground""0"
+		"sound_depressed"	""
+		"sound_released"	"UI/wooo_tree.wav"
+
+		"defaultFgColor_override" "235 226 202 255"
+		"armedFgColor_override" "72 255 255 255"
+		"depressedFgColor_override" "72 255 255 255"
+
+		"image_drawcolor"	"235 226 202 255"
+		"image_armedcolor"	"72 255 255 255"
+	}
+
 	"TFLogoImage"
 	{
 		"ControlName"	"ImagePanel"

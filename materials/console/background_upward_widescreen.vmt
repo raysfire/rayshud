@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "console/backgrounds/background_modern_widescreen"
+	"$baseTexture" "console/background_modern_widescreen"
 	"$vertexcolor" "1"
 	"$vertexalpha" "1"
 	"$ignorez" "1"

@@ -90,7 +90,7 @@
 				"tall"			"25"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"1"
+				"visible"		"0"
 				"enabled"		"1"
 				"fillcolor"		"TransparentBlack"
 			}
@@ -155,21 +155,6 @@
 				"enabled"		"1"
 				"bgcolor_override"		"TransparentBlack"
 				"PaintBackgroundType"	"0"
-
-				if_mvm
-				{
-					"visible"		"1"
-				}
-
-				if_competitive
-				{
-					"visible"		"1"
-				}
-
-				if_readymode
-				{
-					"visible"		"1"
-				}
 			}
 
 			"HealthIcon"
@@ -322,27 +307,6 @@
 				"textAlignment"	"north-west"
 				//"fgcolor"		"TanLight"
 			}
-		}
-	}
-
-	"MainBG"
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"MainBG"
-		"xpos"					"c-125"
-		"ypos"					"16"
-		"zpos"					"-1"
-		"wide"					"250"
-		"tall"					"14"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"fillcolor"				"TransparentBlack"
-
-		if_mvm
-		{
-			"visible"			"0"
 		}
 	}
 

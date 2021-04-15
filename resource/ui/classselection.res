@@ -1,2 +1,2 @@
-//"#base" "../../customizations/team_menu/classselection-center.res"
-"#base" "../../customizations/team_menu/classselection.res"
+"#base" "../../#customizations/_enabled/classselection-center.res"
+"#base" "../../#customizations/_stock/classselection.res"

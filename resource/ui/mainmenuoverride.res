@@ -1,6 +1,6 @@
 "#base" "../../resource/preload.res"
-//"#base" "../../customizations/main_menu/mainmenuoverride-classic.res"
-"#base" "../../customizations/main_menu/mainmenuoverride.res"
+"#base" "../../#customizations/_enabled/mainmenuoverride-classic.res"
+"#base" "../../#customizations/_stock/mainmenuoverride.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -9,7 +9,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"VersionLabel"
 		"font"				"HudFontSmall"
-		"labelText"			"v2021.0201"
+		"labelText"			"v2021.0415"
 		"xpos"				"r135"
 		"ypos"				"r15"
 		"wide"				"130"
