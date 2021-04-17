@@ -6,7 +6,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Icons"
+				"name"			"TF2Icons"
 				"tall"			"15"
 				"weight"		"400"
 				"additive"		"0"
@@ -18,7 +18,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Icons"
+				"name"			"TF2Icons"
 				"tall"			"62"
 				"weight"		"0"
 				"additive"		"0"
@@ -30,7 +30,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Icons"
+				"name"			"TF2Icons"
 				"tall"			"18"
 				"additive"		"0"
 				"antialias"		"1"
@@ -41,7 +41,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Icons"
+				"name"			"TF2Icons"
 				"tall"			"62"
 				"additive"		"0"
 				"antialias"		"1"
@@ -53,8 +53,8 @@ Scheme
 	{
 		"121"
 		{
-			"font"	"resource/fonts/Icons.otf"
-			"name"	"Icons"
+			"font"	"resource/fonts/TF2Icons.ttf"
+			"name"	"TF2Icons"
 		}
 	}
 }
