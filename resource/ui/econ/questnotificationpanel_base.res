@@ -12,7 +12,7 @@
 		"visible"				"0"
 		"proportionaltoparent"	"1"
 		"output_step"			"50"
-		
+
 		"MainContainer"
 		{
 			"ControlName"			"EditablePanel"
@@ -25,7 +25,7 @@
 			"proportionaltoparent"	"1"
 			"border"				"NoBorder"	//QuestStatusBorder
 			"paintborder"			"2"
-			
+
 			"ItemName"
 			{
 				"ControlName"			"Label"
@@ -43,7 +43,7 @@
 				"TextAlignment"			"east"
 				"proportionaltoparent"	"1"
 			}
-			
+
 			"CharacterImage"
 			{
 				"ControlName"			"CTFImagePanel"

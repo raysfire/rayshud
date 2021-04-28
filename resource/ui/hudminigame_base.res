@@ -29,14 +29,14 @@
 		"fillcolor"		"RedSolid"
 		"scaleImage"	"1"
 	}
-	
+
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"OutlineBG"
 		"xpos"			"9999"
 	}
-	
+
 	"BlueScore"
 	{
 		"ControlName"	"CExLabel"
@@ -104,7 +104,7 @@
 		"fgcolor"		"TransparentBlack"
 		"pin_to_sibling"	"RedScore"
 	}
-	
+
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
@@ -123,7 +123,7 @@
 		"font"			"HudFontSmall"
 		"fgcolor"		"TanLight"
 	}
-	
+
 	"PlayingToBG"
 	{
 		"ControlName"	"EditablePanel"

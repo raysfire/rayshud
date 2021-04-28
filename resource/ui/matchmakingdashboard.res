@@ -155,7 +155,7 @@
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"party_slot"	"1"
-			
+
 			"pin_to_sibling"			"PartySlot0"
 			"pin_corner_to_sibling"		"PIN_TOPLEFT"
 			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
@@ -179,7 +179,7 @@
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"party_slot"	"2"
-			
+
 			"pin_to_sibling"			"PartySlot1"
 			"pin_corner_to_sibling"		"PIN_TOPLEFT"
 			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
@@ -203,7 +203,7 @@
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"party_slot"	"3"
-			
+
 			"pin_to_sibling"			"PartySlot2"
 			"pin_corner_to_sibling"		"PIN_TOPLEFT"
 			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
@@ -227,7 +227,7 @@
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"party_slot"	"4"
-			
+
 			"pin_to_sibling"			"PartySlot3"
 			"pin_corner_to_sibling"		"PIN_TOPLEFT"
 			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
@@ -251,7 +251,7 @@
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"party_slot"	"5"
-			
+
 			"pin_to_sibling"			"PartySlot4"
 			"pin_corner_to_sibling"		"PIN_TOPLEFT"
 			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
@@ -435,10 +435,10 @@
 				"proportionaltoparent"	"1"
 				"actionsignallevel"		"3"
 				"paintbackground"		"0"
-				
+
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				
+
 				"defaultFgColor_override" 	"TanLight"
 				"armedFgColor_override" 	"LightRed"
 				"depressedFgColor_override" "TanLight"

@@ -29,7 +29,7 @@
 		"bgcolor_override"	"TransparentBlack"
 		"PaintBackgroundType"	"2"
 	}
-	
+
 	"ItemEffectIcon"
 	{
 		"ControlName"		"CTFImagePanel"

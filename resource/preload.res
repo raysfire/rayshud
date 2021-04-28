@@ -38,7 +38,7 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_red_locked"
 	}
-	
+
 	"CPIconNeutral"
 	{
 		"ControlName"	"ImagePanel"

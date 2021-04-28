@@ -78,7 +78,7 @@
 			"zpos"			"1"
 			"color_ready"		"0 255 0 220"
 			"color_notready"	"TransparentBlack"
-			
+
 			"PanelBG"
 			{
 				"ControlName"	"ImagePanel"

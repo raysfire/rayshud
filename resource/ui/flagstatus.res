@@ -13,7 +13,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 
-		"if_mvm" 
+		"if_mvm"
 		{
 			"ypos"		"0"
 		}

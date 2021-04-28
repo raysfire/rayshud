@@ -143,7 +143,7 @@ Scheme
 		TextEntry.DisabledTextColor	        "DullWhite"
 		TextEntry.SelectedBgColor			"White"
 	}
-	
+
 	Borders
 	{
 		BaseBorder							SubtleBorder
@@ -152,7 +152,7 @@ Scheme
 		MenuBorder							SubtleBorder
 		BrowserBorder						DepressedBorder
 		PropertySheetBorder					RaisedBorder
-		
+
 		FrameBorder
 		{
 			Left
@@ -209,7 +209,7 @@ Scheme
 			}
 		}
 	}
-	
+
 	Fonts
 	{
 		"MainMenuFont"

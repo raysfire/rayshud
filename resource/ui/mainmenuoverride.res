@@ -21,7 +21,7 @@
 		"textAlignment"		"east"
 		"fgcolor_override"	"TanLight"
 	}
-	
+
 	"TFCharacterImage"
 	{
 		"ControlName"		"ImagePanel"
@@ -35,7 +35,7 @@
 		"enabled"			"1"
 		"scaleImage"		"1"
 	}
-	
+
 	"QuestLogButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -116,7 +116,7 @@
 			"armedFgColor_override"		"72 255 255 255"
 		}
 	}
-	
+
 	"RefreshHUDButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -130,7 +130,7 @@
 		"pin_to_sibling"	"MOTD_ShowButtonPanel"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-		
+
 		"SubButton"
 		{
 			"ControlName"		"CExImageButton"

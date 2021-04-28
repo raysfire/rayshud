@@ -19,7 +19,7 @@
 		"bgcolor_override"				"DarkGrey"
 		"infocus_bgcolor_override"		"DarkGrey"
 		"outoffocus_bgcolor_override"	"DarkGrey"
-		
+
 		"item_ypos"						"85"
 		"output_item_ypos"				"255"
 		"item_crafting_offcenter_x"		"0"
@@ -107,7 +107,7 @@
 			"centerwrap"	"0"
 			"textAlignment" "west"
 			"textinsetx"	"0"
-			
+
 			"defaultFgColor_override"	"TextColor"
 			"defaultBgColor_override"	"Transparent"
 			"armedFgColor_override"		"TanLight"
@@ -272,7 +272,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"craft"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
@@ -318,7 +318,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"upgrade"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 

@@ -123,7 +123,7 @@
 			"inventory_image_type"	"1"
 		}
 	}
-	
+
 	"SubjectBG"
 	{
 		"ControlName"	"CExLabel"

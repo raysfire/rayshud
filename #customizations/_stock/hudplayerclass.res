@@ -196,7 +196,7 @@
 			}
 		}
 	}
-	
+
 	"CarryingWeapon"
 	{
 		"ControlName"			"EditablePanel"

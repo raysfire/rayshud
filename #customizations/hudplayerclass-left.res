@@ -131,7 +131,7 @@
 			}
 		}
 	}
-	
+
 	"CarryingWeapon"
 	{
 		"xpos"					"100"

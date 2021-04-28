@@ -122,7 +122,7 @@
 			"inventory_image_type"	"1"
 		}
 	}
-	
+
 	"SubjectBG"
 	{
 		"ControlName"			"CExLabel"
@@ -213,7 +213,7 @@
 		"text_center"			"1"
 		"name_only"				"1"
 		"paint_icon_hide"		"1"
-		
+
 		"itemmodelpanel"
 		{
 			"force_use_model"		"1"

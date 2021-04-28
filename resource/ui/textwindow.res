@@ -113,7 +113,7 @@
 		"default"			"1"
 		"font"				"HudFontMedium"
 		"paintbackground"	"0"
-		
+
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "TanLight"

@@ -80,7 +80,7 @@
 		"tileImage"		"0"
 		"tileVertically" "0"
 		"drawcolor"		"112 176 74 255"
-	}				
+	}
 	"tool_modelpanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -213,7 +213,7 @@
 		//"name_only"		"1"
 		"model_only"		"1"
 		"paint_icon_hide" "1"
-		
+
 		"itemmodelpanel"
 		{
 			"force_use_model"		"1"
@@ -264,7 +264,7 @@
 			"UseAvatarRadio"
 			{
 				"ControlName"		"RadioButton"
-				"fieldName"			"UseAvatarRadio"	
+				"fieldName"			"UseAvatarRadio"
 				"xpos"				"10"
 				"ypos"				"10"
 				"wide"				"330"

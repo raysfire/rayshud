@@ -1011,7 +1011,7 @@
 		"brighttext"	"0"
 		"Command"		"-1"
 		"paintbackground"	"0"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -1042,7 +1042,7 @@
 		"brighttext"	"0"
 		"Command"		"1"
 		"paintbackground"	"0"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -1095,7 +1095,7 @@
 		"default"		"0"
 		"Command"		"gofullscreen"
 		"paintbackground"	"0"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -1140,7 +1140,7 @@
 		"default"		"0"
 		"Command"			"zoom_toggle"
 		"paintbackground"	"0"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -1187,10 +1187,10 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"			"options"
 		"paintbackground"	"0"
-		
+
 		"image_drawcolor"	"118 107 94 200"
 		"image_armedcolor"	"246 247 213 255"
-		
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1204,9 +1204,9 @@
 			"enabled"		"1"
 			"image"			"glyph_options"
 			"scaleImage"	"1"
-		}				
+		}
 	}
-	
+
 	"TeamNavPanel"
 	{
 		"ControlName"		"CNavigationPanel"
@@ -1386,10 +1386,10 @@
 		"default"		"0"
 		"Command"			"closex"
 		"paintbackground"	"0"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override" 	"255 0 0 255"
 		"depressedFgColor_override" "TanLight"
@@ -1415,7 +1415,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"close"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -1440,7 +1440,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"tryitout"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -1466,7 +1466,7 @@
 		"default"		"1"
 		"allcaps"		"1"
 		"Command"		"addtocart"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}

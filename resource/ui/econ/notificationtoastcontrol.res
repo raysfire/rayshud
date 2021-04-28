@@ -41,7 +41,7 @@
 		"default"				"1"
 		"Command"				"delete"
 		"paintbackground"		"1"
-		
+
 		"defaultBgColor_override" 	"Black"
 		"armedBgColor_override" 	"LightRed"
 		"depressedBgColor_override" "Black"
@@ -75,7 +75,7 @@
 		"paintbackground"		"1"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
-		
+
 		"defaultBgColor_override" 	"Black"
 		"armedBgColor_override" 	"CreditsGreen"
 		"depressedBgColor_override" "Black"
@@ -109,7 +109,7 @@
 		"paintbackground"		"1"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
-		
+
 		"defaultBgColor_override" 	"Black"
 		"armedBgColor_override"		"CreditsGreen"
 		"depressedBgColor_override" "Black"
@@ -139,7 +139,7 @@
 		"paintbackground"		"1"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
-		
+
 		"defaultBgColor_override" 	"Black"
 		"armedBgColor_override" 	"LightRed"
 		"depressedBgColor_override" "Black"

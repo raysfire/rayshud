@@ -318,7 +318,7 @@
 		"labelText"			"Perforce"
 		"font"				"Cerbetica12"
 		"textAlignment"		"west"
-		"xpos"				"245" 
+		"xpos"				"245"
 		"ypos"				"85"
 		"wide"				"80"
 		"tall"				"20"
@@ -363,7 +363,7 @@
 		"border"			"NoBorder"
 		"bgcolor_override"	"TransparentBlack"
 		"PaintBackgroundType"	"2"
-		
+
 		"ButtonIconClear"
 		{
 			"ControlName"		"CExImageButton"
@@ -386,10 +386,10 @@
 			"default"			"0"
 			"Command"			"ClearIcon"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"defaultFgColor_override" 	"White"
 			"armedFgColor_override" 	"LightRed"
 			"depressedFgColor_override" "White"
@@ -440,7 +440,7 @@
 			"zpos"			"1"
 			"wide"			"190"
 			"tall"			"122"
-		}	
+		}
 
 		"IconLabel"
 		{
@@ -464,7 +464,7 @@
 			"font"			"Cerbetica12"
 		}
 	}
-	
+
 	"ClassModelsPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -757,7 +757,7 @@
 			"labelText"		""
 			"Font"			"Cerbetica12"
 			"textAlignment"	"west"
-			"xpos"			"4" 
+			"xpos"			"4"
 			"ypos"			"18"
 			"wide"			"150"
 			"tall"			"20"
@@ -779,7 +779,7 @@
 			"labelText"		""
 			"Font"			"Cerbetica12"
 			"textAlignment"	"west"
-			"xpos"			"4" 
+			"xpos"			"4"
 			"ypos"			"40"
 			"wide"			"150"
 			"tall"			"20"
@@ -801,7 +801,7 @@
 			"labelText"		""
 			"Font"			"Cerbetica12"
 			"textAlignment"	"west"
-			"xpos"			"4" 
+			"xpos"			"4"
 			"ypos"			"62"
 			"wide"			"150"
 			"tall"			"20"
@@ -823,7 +823,7 @@
 			"labelText"		""
 			"Font"			"Cerbetica12"
 			"textAlignment"	"west"
-			"xpos"			"4" 
+			"xpos"			"4"
 			"ypos"			"84"
 			"wide"			"150"
 			"tall"			"20"
@@ -845,7 +845,7 @@
 			"labelText"		""
 			"Font"			"Cerbetica12"
 			"textAlignment"	"west"
-			"xpos"			"4" 
+			"xpos"			"4"
 			"ypos"			"106"
 			"wide"			"150"
 			"tall"			"20"
@@ -867,7 +867,7 @@
 			"labelText"		""
 			"Font"			"Cerbetica12"
 			"textAlignment"	"west"
-			"xpos"			"4" 
+			"xpos"			"4"
 			"ypos"			"128"
 			"wide"			"150"
 			"tall"			"20"
@@ -889,7 +889,7 @@
 			"labelText"		""
 			"Font"			"Cerbetica12"
 			"textAlignment"	"west"
-			"xpos"			"4" 
+			"xpos"			"4"
 			"ypos"			"150"
 			"wide"			"150"
 			"tall"			"20"
@@ -911,7 +911,7 @@
 			"labelText"		""
 			"Font"			"Cerbetica12"
 			"textAlignment"	"west"
-			"xpos"			"4" 
+			"xpos"			"4"
 			"ypos"			"172"
 			"wide"			"150"
 			"tall"			"20"
@@ -933,7 +933,7 @@
 			"labelText"		""
 			"Font"			"Cerbetica12"
 			"textAlignment"	"west"
-			"xpos"			"4" 
+			"xpos"			"4"
 			"ypos"			"194"
 			"wide"			"150"
 			"tall"			"20"
@@ -948,7 +948,7 @@
 			"border"		"NoBorder"
 		}
 	}
-	
+
 	"LODsPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -959,7 +959,7 @@
 		"tall"				"270"
 		"visible"			"1"
 		"paintbackground"	"0"
-	
+
 		"LOD0Panel"
 		{
 			"ControlName"		"EditablePanel"
@@ -971,7 +971,6 @@
 			"visible"			"1"
 			"paintbackground"	"0"
 			"border"			"NoBorder"
-
 
 			"LOD0Label"
 			{
@@ -1008,10 +1007,10 @@
 				"default"		"0"
 				"Command"			"ClearLOD0"
 				"paintbackground"	"0"
-				
+
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				
+
 				"defaultFgColor_override" 	"White"
 				"armedFgColor_override" 	"LightRed"
 				"depressedFgColor_override" "White"
@@ -1048,7 +1047,7 @@
 					"tall"			"13"
 					"scaleImage"	"1"
 					"image"			"glyph_workshop_view"
-				}		
+				}
 			}
 			"LOD0File"
 			{
@@ -1077,7 +1076,7 @@
 				"font"			"Cerbetica12"
 			}
 		}
-	
+
 		"LOD1Panel"
 		{
 			"ControlName"		"EditablePanel"
@@ -1126,10 +1125,10 @@
 				"default"		"0"
 				"Command"			"ClearLOD1"
 				"paintbackground"	"0"
-				
+
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				
+
 				"defaultFgColor_override" 	"White"
 				"armedFgColor_override" 	"LightRed"
 				"depressedFgColor_override" "White"
@@ -1167,7 +1166,7 @@
 					"tall"			"13"
 					"scaleImage"	"1"
 					"image"			"glyph_workshop_view"
-				}		
+				}
 			}
 			"LOD1File"
 			{
@@ -1198,7 +1197,7 @@
 				"enabled"		"0"
 			}
 		}
-	
+
 		"LOD2Panel"
 		{
 			"ControlName"	"EditablePanel"
@@ -1247,10 +1246,10 @@
 				"default"		"0"
 				"Command"			"ClearLOD2"
 				"paintbackground"	"0"
-				
+
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				
+
 				"defaultFgColor_override" 	"White"
 				"armedFgColor_override" 	"LightRed"
 				"depressedFgColor_override" "White"
@@ -1288,7 +1287,7 @@
 					"tall"			"13"
 					"scaleImage"	"1"
 					"image"			"glyph_workshop_view"
-				}		
+				}
 			}
 			"LOD2File"
 			{
@@ -1356,7 +1355,7 @@
 		"visible"		"1"
 		"paintbackground" "0"
 		"border"				"NoBorder"
-		
+
 		"SkinsTitle"
 		{
 			"ControlName"		"Label"
@@ -1417,7 +1416,7 @@
 			"fgcolor_override"	"TanLight"
 			"bgcolor_override"	"ColorBlack"
 		}
-	
+
 		"Material0Panel"
 		{
 			"ControlName"	"EditablePanel"
@@ -1473,7 +1472,7 @@
 					"tall"			"13"
 					"scaleImage"	"1"
 					"image"			"glyph_workshop_edit"
-				}		
+				}
 			}
 			"Material0File"
 			{
@@ -1489,7 +1488,7 @@
 				"font"		"Cerbetica12"
 			}
 		}
-		
+
 		"Material1Panel"
 		{
 			"ControlName"	"EditablePanel"
@@ -1545,7 +1544,7 @@
 					"tall"			"13"
 					"scaleImage"	"1"
 					"image"			"glyph_workshop_edit"
-				}		
+				}
 			}
 			"Material1File"
 			{
@@ -1618,7 +1617,7 @@
 					"tall"			"13"
 					"scaleImage"	"1"
 					"image"			"glyph_workshop_edit"
-				}		
+				}
 			}
 			"Material2File"
 			{
@@ -1690,7 +1689,7 @@
 					"tall"			"13"
 					"scaleImage"	"1"
 					"image"			"glyph_workshop_edit"
-				}		
+				}
 			}
 			"Material3File"
 			{
@@ -1714,7 +1713,7 @@
 			"labelText"		"#TF_ImportFile_Paintable0"
 			"Font"			"Cerbetica12"
 			"textAlignment"	"west"
-			"xpos"			"4" 
+			"xpos"			"4"
 			"ypos"			"190"
 			"wide"			"100"
 			"tall"			"20"
@@ -1725,7 +1724,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"disabledfgcolor2_override"	"117 107 94 255"
-			"command"		"UpdatePaintable0"	
+			"command"		"UpdatePaintable0"
 			"border"				"NoBorder"
 		}
 
@@ -1736,7 +1735,7 @@
 			"labelText"		"#TF_ImportFile_Paintable1"
 			"Font"			"Cerbetica12"
 			"textAlignment"	"west"
-			"xpos"			"100" 
+			"xpos"			"100"
 			"ypos"			"190"
 			"wide"			"100"
 			"tall"			"20"
@@ -1747,7 +1746,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"disabledfgcolor2_override"	"117 107 94 255"
-			"command"		"UpdatePaintable1"	
+			"command"		"UpdatePaintable1"
 			"border"				"NoBorder"
 		}
 	}
@@ -1791,7 +1790,6 @@
 			"paintbackground" "0"
 			"border"				"NoBorder"
 
-
 			"AnimationSourceLabel"
 			{
 				"ControlName"		"Label"
@@ -1827,10 +1825,10 @@
 				"default"		"0"
 				"Command"			"ClearAnimationSource"
 				"paintbackground"	"0"
-				
+
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				
+
 				"defaultFgColor_override" 	"White"
 				"armedFgColor_override" 	"LightRed"
 				"depressedFgColor_override" "White"
@@ -1867,7 +1865,7 @@
 					"tall"			"13"
 					"scaleImage"	"1"
 					"image"			"glyph_workshop_view"
-				}		
+				}
 			}
 			"AnimationSourceFile"
 			{
@@ -1909,7 +1907,6 @@
 			"paintbackground" "0"
 			"border"				"NoBorder"
 
-
 			"AnimationVCDLabel"
 			{
 				"ControlName"		"Label"
@@ -1945,10 +1942,10 @@
 				"default"		"0"
 				"Command"			"ClearAnimationVCD"
 				"paintbackground"	"0"
-				
+
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				
+
 				"defaultFgColor_override" 	"White"
 				"armedFgColor_override" 	"LightRed"
 				"depressedFgColor_override" "White"
@@ -1985,7 +1982,7 @@
 					"tall"			"13"
 					"scaleImage"	"1"
 					"image"			"glyph_workshop_view"
-				}		
+				}
 			}
 			"AnimationVCDFile"
 			{
@@ -2023,7 +2020,7 @@
 			"labelText"		"Loop"
 			"Font"			"Cerbetica12"
 			"textAlignment"	"west"
-			"xpos"			"0" 
+			"xpos"			"0"
 			"ypos"			"140"
 			"wide"			"80"
 			"tall"			"20"
@@ -2245,10 +2242,10 @@
 		"render_texture"	"0"
 		"fov"				"40"
 		"allow_manip"		"1"
-		"paintbackground" 	"1"		
+		"paintbackground" 	"1"
 		"paintbackgroundenabled"	"1"
 		"bgcolor_override" 			"255 255 255 0"
-		
+
 		"model"
 		{
 			"force_pos"	"1"

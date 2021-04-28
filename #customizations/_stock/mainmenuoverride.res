@@ -17,7 +17,7 @@
 		"button_x_offset"	"-285"
 		"button_y"			"120"
 		"button_y_delta"	"5"
-		
+
 		"button_kv"
 		{
 			"xpos"			"0"
@@ -158,13 +158,13 @@
 		"image"			""
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
-		
+
 		if_wider
 		{
 			"wide"		"f0"
 			"tall"		"o0.628"
 		}
-		
+
 		if_taller
 		{
 			"wide"		"o1.6"
@@ -259,10 +259,10 @@
 		"actionsignallevel" "1"
 		"command"			"open_rank_type_menu"
 		"paintbackground"	"0"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"defaultFgColor_override" 	"235 226 202 255"
 		"armedFgColor_override" 	"72 255 255 255"
 		"depressedFgColor_override" "235 226 202 255"
@@ -526,10 +526,10 @@
 			"actionsignallevel"	"2"
 			"Command"			"motd_hide"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"255 0 0 255"
 			"depressedFgColor_override" "TanLight"
@@ -838,10 +838,10 @@
 			"actionsignallevel"	"2"
 			"Command"			"noti_hide"
 			"paintbackground"	"0"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
+
 			"defaultFgColor_override" 	"235 226 202 255"
 			"armedFgColor_override" 	"255 0 0 255"
 			"depressedFgColor_override" "235 226 202 255"

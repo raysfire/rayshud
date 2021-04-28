@@ -14,7 +14,7 @@
 		"bgcolor_override"	"DarkGrey"
 		"border"			"CyanBorder"
 	}
-	
+
 	"HelpTextLabel"
 	{
 		"ControlName"		"CExLabel"

@@ -91,7 +91,7 @@
 			"name_only"		"1"
 			"paint_icon_hide" "1"
 			"actionsignallevel"	"2"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
@@ -99,7 +99,7 @@
 				"inventory_image_type"	"1"
 			}
 		}
-		
+
 		"SubjectBG"
 		{
 			"ControlName"	"CExLabel"
@@ -119,7 +119,7 @@
 			"paintbackground" "0"
 			"border"		"BackpackItemBorder_Vintage"
 		}
-		
+
 		"TargetItem"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -142,7 +142,7 @@
 			"text_center"	"1"
 			"name_only"		"1"
 			"actionsignallevel"	"2"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"

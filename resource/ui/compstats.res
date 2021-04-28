@@ -68,7 +68,7 @@
 			"font"				"HudFontSmallest"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"		"center"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
@@ -90,7 +90,7 @@
 			"font"				"HudFontSmallest"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"		"center"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
@@ -191,7 +191,7 @@
 					"fgcolor_override"		"141 63 63 255"
 					"paintbackground"		"0"
 					"border_default"		"SortCategoryBorder"
-					
+
 					"defaultFgColor_override" 	"TanDark"
 					"armedFgColor_override"		"Orange"
 					"selectedFgColor_override"	"TanLight"

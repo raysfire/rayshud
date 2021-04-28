@@ -14,7 +14,7 @@
 		"settitlebarvisible"	"0"
 		"border"				"CyanBorder"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"			"Label"
@@ -36,7 +36,7 @@
 		"fgcolor_override" 		"White"
 		"bgcolor_override" 		"Transparent"
 	}
-	
+
 	"EllipsesLabel"
 	{
 		"ControlName"			"Label"
@@ -56,7 +56,7 @@
 		"fgcolor_override"		"White"
 		"bgcolor_override"		"Transparent"
 	}
-	
+
 	"DurationLabel"
 	{
 		"ControlName"			"Label"
@@ -76,7 +76,7 @@
 		"fgcolor_override"		"White"
 		"bgcolor_override"		"Transparent"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"			"CExImageButton"
