@@ -1196,7 +1196,7 @@
 		"xpos"				"5"
 		"NormalY"			"300"
 		"EngineerY"			"330"
-		"zpos"				"0"
+		"zpos"				"-10"
 		"wide"				"200"
 		"tall"				"f0"
 		"visible"			"1"
