@@ -12,8 +12,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"255 0 0 255"
 		"tabPosition"	"0"
+		"fgcolor"		"255 0 0 255"
 	}
 	"SidePanelBG"
 	{
@@ -27,7 +27,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"0 0 0 120"
+		"fillcolor"		"0 0 0 100"
 	}
 
 	"SysMenu"
@@ -65,10 +65,10 @@
 		"ControlName"	"Label"
 		"fieldName"		"SelectTeamLabel"
 		"xpos"			"0"
-		"ypos"			"15"
+		"ypos"			"c-75"
 		"zpos"			"1"
 		"wide"			"255"
-		"tall"			"30"
+		"tall"			"25"
 		"labelText"		"#TF_SelectATeam"
 		"textAlignment"	"center"
 		"font"			"Cerbetica32"
@@ -81,10 +81,10 @@
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton0"
-		"xpos"			"10"
-		"ypos"			"c5"
-		"zpos"			"3"
-		"wide"			"245"
+		"xpos"			"0"
+		"ypos"			"15"
+		"zpos"			"1"
+		"wide"			"255"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -98,34 +98,33 @@
 		"command"		"jointeam blue"
 		"team"			"3"		// Blue Team
 		"font"			"Cerbetica20"
+		
+		"defaultBgColor_override" 	"Blue"
+		"armedBgColor_override"		"BlueSolid"
+		"depressedBgColor_override" "Blue"
+		"selectedBgColor_override" 	"BlueSolid"
+		
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"235 226 202 255"
+		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"235 226 202 255"
-	}
-
-	"BlueTeamBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BlueTeamBG"
-		"xpos"			"0"
-		"ypos"			"c5"
-		"zpos"			"0"
-		"wide"			"255"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"		"70 130 180 125"
+		"selectedFgColor_override" 	"TanLight"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+		
+		"pin_to_sibling"			"SelectTeamLabel"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
 
 	"teambutton1"
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton1"
-		"xpos"			"10"
-		"ypos"			"c45"
-		"zpos"			"3"
-		"wide"			"245"
+		"xpos"			"0"
+		"ypos"			"5"
+		"zpos"			"1"
+		"wide"			"255"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -139,40 +138,39 @@
 		"command"		"jointeam red"
 		"team"			"4"		// Red Team
 		"font"			"Cerbetica20"
+		
+		"defaultBgColor_override" 	"Red"
+		"armedBgColor_override"		"RedSolid"
+		"depressedBgColor_override" "Red"
+		"selectedBgColor_override" 	"RedSolid"
+		
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"235 226 202 255"
+		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"235 226 202 255"
-	}
-
-	"RedTeamBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"RedTeamBG"
-		"xpos"			"0"
-		"ypos"			"c45"
-		"zpos"			"0"
-		"wide"			"255"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"		"205 50 50 153"
+		"selectedFgColor_override" 	"TanLight"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+		
+		"pin_to_sibling"			"teambutton0"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
 
 	"teambutton2"
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton2"
-		"xpos"			"10"
-		"ypos"			"c-75"
-		"zpos"			"3"
-		"wide"			"245"
+		"xpos"			"0"
+		"ypos"			"5"
+		"zpos"			"1"
+		"wide"			"255"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"3"
+		"tabPosition"	"1"
 		"labelText"		"#TF_Random"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -180,40 +178,39 @@
 		"paintborder"	"0"
 		"command"		"jointeam auto"
 		"font"			"Cerbetica20"
+		
+		"defaultBgColor_override" 	"TransparentBlack"
+		"armedBgColor_override"		"ColorWhite"
+		"depressedBgColor_override" "TransparentBlack"
+		"selectedBgColor_override" 	"ColorWhite"
+		
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"235 226 202 255"
+		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"235 226 202 255"
-	}
-
-	"AutoJoinBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"AutoJoinBG"
-		"xpos"			"0"
-		"ypos"			"c-75"
-		"zpos"			"0"
-		"wide"			"255"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"HudBlack"
+		"selectedFgColor_override" 	"TanDark"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+		
+		"pin_to_sibling"			"teambutton1"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
 
 	"teambutton3"
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton3"
-		"xpos"			"10"
-		"ypos"			"c-35"
-		"zpos"			"3"
-		"wide"			"245"
+		"xpos"			"0"
+		"ypos"			"5"
+		"zpos"			"1"
+		"wide"			"255"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"3"
+		"tabPosition"	"2"
 		"labelText"		"#TF_Spectate"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -221,24 +218,23 @@
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
 		"font"			"Cerbetica20"
+		
+		"defaultBgColor_override" 	"TransparentBlack"
+		"armedBgColor_override"		"ColorWhite"
+		"depressedBgColor_override" "TransparentBlack"
+		"selectedBgColor_override" 	"ColorWhite"
+		
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"235 226 202 255"
+		"armedFgColor_override"		"TanDark"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"235 226 202 255"
-	}
-
-	"SpectateBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"SpectateBG"
-		"xpos"			"0"
-		"ypos"			"c-35"
-		"zpos"			"0"
-		"wide"			"255"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"HudBlack"
+		"selectedFgColor_override" 	"TanDark"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+		
+		"pin_to_sibling"			"teambutton2"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
 
 	"MenuBG"
@@ -247,7 +243,6 @@
 		"fieldName"		"MenuBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
@@ -262,10 +257,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCount"
 		"xpos"			"0"
-		"ypos"			"c5"
-		"zpos"			"1"
+		"ypos"			"0"
+		"zpos"			"2"
 		"zpos"			"3"
-		"wide"			"245"
+		"wide"			"20"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -276,7 +271,11 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"Cerbetica20"
-		"fgcolor"		"242 242 242 255"
+		"fgcolor"		"255 255 255 128"
+		
+		"pin_to_sibling"		"teambutton0"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"RedCount"
@@ -284,9 +283,9 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedCount"
 		"xpos"			"0"
-		"ypos"			"c45"
-		"zpos"			"1"
-		"wide"			"245"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"20"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -297,7 +296,11 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"Cerbetica20"
-		"fgcolor"		"242 242 242 255"
+		"fgcolor"		"255 255 255 128"
+		
+		"pin_to_sibling"		"teambutton1"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"TeamsFullLabel"
