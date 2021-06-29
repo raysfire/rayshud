@@ -40,10 +40,10 @@
 		"enabled"		"0"
 	}
 
-	"GuiPlayerHealth"
+	"SpecHealthValue"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"GuiPlayerHealth"
+		"fieldName"		"SpecHealthValue"
 		"xpos"			"3"
 		"ypos"			"3"
 		"zpos"			"5"
@@ -56,10 +56,10 @@
 		"labeltext"		"%Health%"
 	}
 
-	"GuiPlayerHealthShadow"
+	"SpecHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"GuiPlayerHealthShadow"
+		"fieldName"		"SpecHealthValueShadow"
 		"xpos"			"4"
 		"ypos"			"4"
 		"zpos"			"5"

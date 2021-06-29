@@ -53,9 +53,9 @@
 				"border_armed"		""
 				"paintbackground"	"0"
 
-				"defaultFgColor_override"	"235 226 202 255"
-				"armedFgColor_override"		"72 255 255 255"
-				"depressedFgColor_override" "72 255 255 255"
+				"defaultFgColor_override"	"TanLight"
+				"armedFgColor_override"		"ColorCyan"
+				"depressedFgColor_override" "ColorCyan"
 			}
 		}
 
@@ -114,7 +114,7 @@
 		"tall"			"300"
 		"visible"		"0"
 		"bgcolor_override"		"Transparent"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"TanDark"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		"border"		"MainMenuBGBorder"
@@ -139,7 +139,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"TanDark"
 			"centerwrap"	"1"
 		}
 	}
@@ -198,25 +198,25 @@
 		"sound_depressed"	""
 		"sound_released"	"UI/wooo_tree.wav"
 
-		"defaultFgColor_override" "235 226 202 255"
-		"armedFgColor_override" "72 255 255 255"
-		"depressedFgColor_override" "72 255 255 255"
+		"defaultFgColor_override" "TanLight"
+		"armedFgColor_override" "ColorCyan"
+		"depressedFgColor_override" "ColorCyan"
 
-		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"72 255 255 255"
+		"image_drawcolor"	"TanLight"
+		"image_armedcolor"	"ColorCyan"
 	}
 
 	"TFLogoImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"30"
-		"ypos"			"35"
+		"xpos"			"r180"
+		"ypos"			"r45"
 		"wide"			"179"
 		"tall"			"45"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../logo/tf2_logo_black"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../logo/tf2_logo_lt-blu"
 		"scaleImage"	"1"
 		"command"		"engine play vo/heavy_battlecry02.mp3"
 	}
@@ -263,9 +263,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override" 	"235 226 202 255"
-		"armedFgColor_override" 	"72 255 255 255"
-		"depressedFgColor_override" "235 226 202 255"
+		"defaultFgColor_override" 	"TanLight"
+		"armedFgColor_override" 	"ColorCyan"
+		"depressedFgColor_override" "TanLight"
 	}
 
 	"RankTooltipPanel"
@@ -452,8 +452,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override"	"235 226 202 255"
-			"armedFgColor_override"		"72 255 255 255"
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"ColorCyan"
 		}
 	}
 

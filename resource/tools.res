@@ -188,7 +188,7 @@
 			"ControlName"			"CExImageButton"
 			"fieldname"				"ClosedCaptionsON"
 			"xpos"					"0"
-			"ypos"					"-30"
+			"ypos"					"5"
 			"zpos"					"16"
 			"wide"					"130"
 			"tall"					"26"
@@ -203,6 +203,8 @@
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
 			"pin_to_sibling"		"ReloadScheme"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
 		
 		"ClosedCaptionsOFF"
@@ -234,7 +236,7 @@
 			"ControlName"			"CExImageButton"
 			"fieldname"				"SoundFix"
 			"xpos"					"0"
-			"ypos"					"-30"
+			"ypos"					"5"
 			"zpos"					"16"
 			"wide"					"130"
 			"tall"					"26"
@@ -247,7 +249,10 @@
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
+			
 			"pin_to_sibling"		"ClosedCaptionsON"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
 		
 		"InviliblePlayersFix"
@@ -279,7 +284,7 @@
 			"ControlName"			"CExImageButton"
 			"fieldname"				"NetgraphToggle"
 			"xpos"					"0"
-			"ypos"					"-30"
+			"ypos"					"5"
 			"zpos"					"16"
 			"wide"					"130"
 			"tall"					"26"
@@ -292,7 +297,10 @@
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
+			
 			"pin_to_sibling"		"SoundFix"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
 		
 		"MatchStatusToggle"
@@ -313,6 +321,7 @@
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
+			
 			"pin_to_sibling"		"NetgraphToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPRIGHT"
@@ -334,6 +343,7 @@
 			"font"					"Cerbetica12"
 			"textAlignment"			"center"
 			"fgcolor_override"		"TanLight"
+			
 			"pin_to_sibling"		"NetgraphToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
@@ -517,6 +527,30 @@
 			"defaultFgColor_override" 	"255 0 255 255"
 			"armedFgColor_override" 	"128 0 128 255"
 			"depressedFgColor_override" "255 0 255 255"
+		}
+		
+		"VersionLabel"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"VersionLabel"
+			"xpos"					"-30"
+			"ypos"					"5"
+			"wide"					"100"
+			"tall"					"24"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"labelText"				"rayshud version: v2021.0700"
+			"font"					"Cerbetica12"
+			"textAlignment"			"center"
+			"fgcolor_override"		"TanLight"
+			"wrap"					"1"
+			"allcaps"				"1"
+			
+			"pin_to_sibling"		"MatchStatusToggle"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
 	}
 }

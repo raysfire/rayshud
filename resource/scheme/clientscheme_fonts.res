@@ -7,7 +7,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_bold"
+				"name"			"Cerbetica"
 				"tall"			"56"
 				"additive"		"0"
 				"antialias"		"1"
@@ -17,7 +17,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_bold"
+				"name"			"Cerbetica"
 				"tall"			"40"
 				"additive"		"0"
 				"antialias"		"1"
@@ -27,7 +27,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_bold"
+				"name"			"Cerbetica"
 				"tall"			"32"
 				"additive"		"0"
 				"antialias"		"1"
@@ -37,7 +37,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_bold"
+				"name"			"Cerbetica"
 				"tall"			"28"
 				"additive"		"0"
 				"antialias"		"1"
@@ -47,7 +47,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_bold"
+				"name"			"Cerbetica"
 				"tall"			"24"
 				"additive"		"0"
 				"antialias"		"1"
@@ -57,7 +57,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_bold"
+				"name"			"Cerbetica"
 				"tall"			"24"
 				"additive"		"0"
 				"antialias"		"1"
@@ -68,7 +68,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_bold"
+				"name"			"Cerbetica"
 				"tall"			"20"
 				"additive"		"0"
 				"antialias"		"1"
@@ -78,7 +78,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_bold"
+				"name"			"Cerbetica"
 				"tall"			"18"
 				"additive"		"0"
 				"antialias"		"1"
@@ -88,7 +88,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_bold"
+				"name"			"Cerbetica"
 				"tall"			"16"
 				"additive"		"0"
 				"antialias"		"1"
@@ -98,7 +98,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_bold"
+				"name"			"Cerbetica"
 				"tall"			"14"
 				"additive"		"0"
 				"antialias"		"1"
@@ -108,7 +108,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica_bold"
+				"name"			"Cerbetica"
 				"tall"			"12"
 				"additive"		"0"
 				"antialias"		"1"
@@ -2703,13 +2703,8 @@ Scheme
 		}
 		"8"
 		{
-			"font"	"resource/fonts/Cerbetica.otf"
-			"name"	"Cerbetica"
-		}
-		"9"
-		{
-			"font"	"resource/fonts/Cerbetica_bold.otf"
-			"name"	"Cerbetica_bold"
+			"font" 	"resource/fonts/Cerbetica.ttf"
+			"name" 	"Cerbetica"
 		}
 	}
 }

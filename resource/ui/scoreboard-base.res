@@ -712,7 +712,7 @@
 				"tall"			"36"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"bgcolor_override"	"117 107 94 255"
+				"bgcolor_override"	"TanDark"
 			}
 			"AvatarImage"
 			{
@@ -733,7 +733,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"235 226 202 255"
+				"fgcolor"		"TanLight"
 				"xpos"			"50"
 				"ypos"			"7"
 				"zpos"			"2"
@@ -791,7 +791,7 @@
 				"tall"			"36"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"bgcolor_override"	"117 107 94 255"
+				"bgcolor_override"	"TanDark"
 			}
 			"AvatarImage"
 			{
@@ -812,7 +812,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"235 226 202 255"
+				"fgcolor"		"TanLight"
 				"xpos"			"50"
 				"ypos"			"7"
 				"zpos"			"2"
@@ -916,7 +916,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "235 226 202 255"
+			"fgcolor_override" "TanLight"
 		}
 
 		"DeathsLabel"
@@ -969,7 +969,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "235 226 202 255"
+			"fgcolor_override" "TanLight"
 		}
 		"GameType"
 		{
@@ -1039,7 +1039,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "235 226 202 255"
+			"fgcolor_override" "TanLight"
 		}
 
 		"DestructionLabel"
@@ -1092,7 +1092,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "235 226 202 255"
+			"fgcolor_override" "TanLight"
 		}
 
 		"RevengeLabel"
@@ -1163,7 +1163,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "235 226 202 255"
+			"fgcolor_override" "TanLight"
 		}
 
 		"DefensesLabel"
@@ -1216,7 +1216,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "235 226 202 255"
+			"fgcolor_override" "TanLight"
 		}
 		"DominationLabel"
 		{
@@ -1268,7 +1268,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "235 226 202 255"
+			"fgcolor_override" "TanLight"
 		}
 		"Revenge"
 		{
@@ -1303,7 +1303,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "235 226 202 255"
+			"fgcolor_override" "TanLight"
 		}
 		"HealingLabel"
 		{
@@ -1355,7 +1355,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "235 226 202 255"
+			"fgcolor_override" "TanLight"
 		}
 		"InvulnLabel"
 		{
@@ -1407,7 +1407,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "235 226 202 255"
+			"fgcolor_override" "TanLight"
 		}
 		"TeleportsLabel"
 		{
@@ -1663,7 +1663,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"TanLight"
 		}
 		"DamageLabel"
 		{

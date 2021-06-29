@@ -5,24 +5,6 @@
 
 "Resource/UI/MainMenuOverride.res"
 {
-	"VersionLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"VersionLabel"
-		"font"				"HudFontSmall"
-		"labelText"			"v2021.0415"
-		"xpos"				"r135"
-		"ypos"				"r15"
-		"wide"				"130"
-		"tall"				"10"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"textAlignment"		"east"
-		"fgcolor_override"	"TanLight"
-	}
-
 	"TFCharacterImage"
 	{
 		"ControlName"		"ImagePanel"
@@ -71,8 +53,8 @@
 			"paintborder"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"defaultFgColor_override"	"235 226 202 255"
-			"armedFgColor_override"		"72 255 255 255"
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"ColorCyan"
 		}
 	}
 
@@ -115,8 +97,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override"	"235 226 202 255"
-			"armedFgColor_override"		"72 255 255 255"
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"ColorCyan"
 		}
 	}
 
@@ -157,8 +139,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override"	"235 226 202 255"
-			"armedFgColor_override"		"72 255 255 255"
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"ColorCyan"
 		}
 	}
 }

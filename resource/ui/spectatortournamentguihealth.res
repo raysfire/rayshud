@@ -38,10 +38,10 @@
 		"image"			""
 	}
 
-	"GuiPlayerHealth"
+	"SpecHealthValue"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"GuiPlayerHealth"
+		"fieldName"		"SpecHealthValue"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
@@ -55,10 +55,10 @@
 		"fgcolor"		"Spec Health Normal"
 	}
 
-	"GuiPlayerHealthShadow"
+	"SpecHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"GuiPlayerHealthShadow"
+		"fieldName"		"SpecHealthValueShadow"
 		"xpos"			"-1"
 		"ypos"			"-2"
 		"zpos"			"4"
@@ -71,7 +71,7 @@
 		"font"			"Cerbetica16"
 		"fgcolor"		"TransparentBlack"
 
-		"pin_to_sibling"		"GuiPlayerHealth"
+		"pin_to_sibling"		"SpecHealthValue"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}

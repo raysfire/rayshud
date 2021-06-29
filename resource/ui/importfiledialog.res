@@ -767,7 +767,7 @@
 			"enabled"		"0"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TanDark"
 			"command"		"UpdateBodygroup"
 			"border"		"NoBorder"
 		}
@@ -789,7 +789,7 @@
 			"enabled"		"0"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TanDark"
 			"command"		"UpdateBodygroup"
 			"border"		"NoBorder"
 		}
@@ -811,7 +811,7 @@
 			"enabled"		"0"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TanDark"
 			"command"		"UpdateBodygroup"
 			"border"		"NoBorder"
 		}
@@ -833,7 +833,7 @@
 			"enabled"		"0"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TanDark"
 			"command"		"UpdateBodygroup"
 			"border"		"NoBorder"
 		}
@@ -855,7 +855,7 @@
 			"enabled"		"0"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TanDark"
 			"command"		"UpdateBodygroup"
 			"border"		"NoBorder"
 		}
@@ -877,7 +877,7 @@
 			"enabled"		"0"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TanDark"
 			"command"		"UpdateBodygroup"
 			"border"		"NoBorder"
 		}
@@ -899,7 +899,7 @@
 			"enabled"		"0"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TanDark"
 			"command"		"UpdateBodygroup"
 			"border"		"NoBorder"
 		}
@@ -921,7 +921,7 @@
 			"enabled"		"0"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TanDark"
 			"command"		"UpdateBodygroup"
 			"border"		"NoBorder"
 		}
@@ -943,7 +943,7 @@
 			"enabled"		"0"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TanDark"
 			"command"		"UpdateBodygroup"
 			"border"		"NoBorder"
 		}
@@ -1723,7 +1723,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TanDark"
 			"command"		"UpdatePaintable0"
 			"border"				"NoBorder"
 		}
@@ -1745,7 +1745,7 @@
 			"enabled"		"1"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"disabledfgcolor2_override"	"117 107 94 255"
+			"disabledfgcolor2_override"	"TanDark"
 			"command"		"UpdatePaintable1"
 			"border"				"NoBorder"
 		}
