@@ -70,7 +70,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"LoadingLabel"
 		"font"			"HudFontBiggerBold"
-		"labelText"		"Loading..."
+		"labelText"		"#LoadingMap"
 		"textAlignment"	"west"
 		"xpos"			"5"
 		"ypos"			"414"

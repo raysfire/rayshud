@@ -43,6 +43,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"fgcolor_override"	"TanLight"
+		"allcaps"			"1"
 	}
 
 	"CancelButton"
@@ -65,6 +66,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"default"			"1"
+		"allcaps"			"1"
 		"Command"			"Close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -90,6 +92,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"default"			"1"
+		"allcaps"			"1"
 		"Command"			"Ok"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

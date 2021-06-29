@@ -100,8 +100,8 @@
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
+		"bgcolor_override"	"ColorCyan"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"ColorCyan"
 	}
 
 	"Sheet"

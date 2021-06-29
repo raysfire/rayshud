@@ -16,6 +16,7 @@ Scheme
 		"Black"						"17 17 17 255"
 		"Blank"						"0 0 0 0"
 		"HudBlack"					"0 0 0 200"
+		"Cyan"						"72 255 255 255"
 
 		// BASE COLORS
 		//---------------------------------------------
@@ -58,7 +59,7 @@ Scheme
 		Border.Bright					"Blank"
 		Border.Dark						"Blank"
 		Border.Selection				"Blank"
-		Border.DarkSolid				"32 32 32 255"
+		Border.DarkSolid				"Cyan"
 
 		Button.TextColor				"White"
 		Button.BgColor					"Black"
@@ -96,7 +97,7 @@ Scheme
 		FrameGrip.Color2				"White"
 		FrameTitleButton.FgColor		"White"
 		FrameTitleBar.Font				"UiBold"
-		FrameTitleBar.TextColor			"White"
+		FrameTitleBar.TextColor			"Cyan"
 		FrameTitleBar.DisabledTextColor	"DullWhite"
 
 		Label.TextDullColor				"DullWhite"

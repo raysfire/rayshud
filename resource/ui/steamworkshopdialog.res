@@ -275,7 +275,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"CurPageLabel"
-				"font"			"HudFontSmall"
+				"font"			"HudFontMediumSmall"
 				"labelText"		"%page%"
 				"textAlignment"	"center"
 				"xpos"			"441"
@@ -608,7 +608,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"#TF_Close"
+			"labelText"		"#Cancel"
 			"font"			"HudFontSmall"
 			"textAlignment"	"center"
 			"textinsetx"	"50"

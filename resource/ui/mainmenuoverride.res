@@ -1,6 +1,7 @@
 "#base" "../../resource/preload.res"
 "#base" "../../#customizations/_enabled/mainmenuoverride-classic.res"
 "#base" "../../#customizations/_stock/mainmenuoverride.res"
+#base "../../resource/tools.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -86,6 +87,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
+		
 		"pin_to_sibling"	"QuestLogButton"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
@@ -112,15 +114,16 @@
 			"paintborder"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
 			"defaultFgColor_override"	"235 226 202 255"
 			"armedFgColor_override"		"72 255 255 255"
 		}
 	}
 
-	"RefreshHUDButton"
+	"HomeServerButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"RefreshHUDButton"
+		"fieldName"		"HomeServerButton"
 		"xpos"			"0"
 		"ypos"			"20"
 		"zpos"			"1"
@@ -153,6 +156,7 @@
 			"paintborder"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
 			"defaultFgColor_override"	"235 226 202 255"
 			"armedFgColor_override"		"72 255 255 255"
 		}
