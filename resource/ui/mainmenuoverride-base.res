@@ -462,7 +462,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
 		"xpos"			"c-120"
-		"ypos"			"80"
+		"ypos"			"62"
 		"zpos"			"100"
 		"wide"			"210"
 		"tall"			"80"
@@ -519,7 +519,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"ColorCyan"
 			"wrap"				"1"
 		}
 

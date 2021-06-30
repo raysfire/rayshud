@@ -2135,7 +2135,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#TF_Close"
-		"font"				"Cerbetica12"
+		"font"				"HudFontMediumSmall"
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"dulltext"			"0"

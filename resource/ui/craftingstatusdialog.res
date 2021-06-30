@@ -109,7 +109,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#GameUI_Ok"
-		"font"					"HudFontSmall"
+		"font"					"HudFontMediumSmall"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
