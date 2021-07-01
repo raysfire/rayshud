@@ -18,7 +18,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"Title"
-		"xpos"					"8"
+		"xpos"					"0"
 		"ypos"					"25"
 		"zpos"					"101"
 		"wide"					"f0"
@@ -27,9 +27,10 @@
 		"labeltext"				"#TF_Matchmaking_HeaderCompetitive"
 		"textAlignment"			"center"
 		"font"					"HudFontMedium"
-		"fgcolor_override"		"White"
+		"fgcolor_override"		"TanLight"
 		"bgcolor_override"		"DarkGrey"
 		"mouseinputenabled"		"0"
+		"allcaps"				"1"
 	}
 
 	"ShowExplanationsButton"
@@ -130,11 +131,9 @@
 		"mouseinputenabled"		"1"
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"		"1"
+		"allcaps"				"1"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
-
-		"armedBgColor_override"		"CreditsGreen"
-		"defaultBgColor_override"	"GreenSolid"
 	}
 }
