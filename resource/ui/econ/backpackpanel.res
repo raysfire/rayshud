@@ -415,8 +415,15 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"prevpage"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"paintbackground"			"0"
+		"defaultFgColor_override" 	"TanLight"
+		"armedFgColor_override"		"ColorCyan"
+		"depressedFgColor_override" "TanLight"
+		"selectedFgColor_override" 	"ColorCyan"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 	}
 
 	"CurPageLabel"
@@ -458,8 +465,15 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nextpage"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"paintbackground"			"0"
+		"defaultFgColor_override" 	"TanLight"
+		"armedFgColor_override"		"ColorCyan"
+		"depressedFgColor_override" "TanLight"
+		"selectedFgColor_override" 	"ColorCyan"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 	}
 
 	"DragToNextPageButton"

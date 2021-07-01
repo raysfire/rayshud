@@ -210,8 +210,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"r180"
-		"ypos"			"r45"
+		"xpos"			"r182"
+		"ypos"			"r47"
 		"wide"			"179"
 		"tall"			"45"
 		"visible"		"1"

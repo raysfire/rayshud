@@ -290,7 +290,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"EmptyCartLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontMediumSmall"
 			"labelText"		"#Store_CartIsEmpty"
 			"textAlignment"	"center"
 			"xpos"			"c-300"

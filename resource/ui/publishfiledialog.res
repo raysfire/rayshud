@@ -177,7 +177,7 @@
 		"wrap"				"0"
 		"Command"			"PreviewBrowse"
 		"Default"			"1"
-		"font"				"HudFontSmallBold"
+		"font"				"HudFontMediumSmall"
 	}
 
 	"LabelTitle"
@@ -332,7 +332,7 @@
 		"wrap"				"0"
 		"Command"			"MainFileCosmetics"
 		"Default"			"1"
-		"font"				"HudFontSmallBold"
+		"font"				"HudFontMediumSmall"
 	}
 
 	"ButtonSourceOther"
@@ -340,7 +340,7 @@
 		"ControlName"		"Button"
 		"fieldName"			"ButtonSourceOther"
 		"xpos"				"15"
-		"ypos"				"280"
+		"ypos"				"310"
 		"wide"				"150"
 		"tall"				"25"
 		"autoResize"		"0"
@@ -355,7 +355,7 @@
 		"wrap"				"0"
 		"Command"			"MainFileOther"
 		"Default"			"1"
-		"font"				"HudFontSmallBold"
+		"font"				"HudFontMediumSmall"
 	}
 
 	"ButtonSourceMaps"
@@ -363,7 +363,7 @@
 		"ControlName"		"Button"
 		"fieldName"			"ButtonSourceMaps"
 		"xpos"				"15"
-		"ypos"				"310"
+		"ypos"				"280"
 		"wide"				"150"
 		"tall"				"25"
 		"autoResize"		"0"
@@ -378,7 +378,7 @@
 		"wrap"				"0"
 		"Command"			"MainFileMaps"
 		"Default"			"1"
-		"font"				"HudFontSmallBold"
+		"font"				"HudFontMediumSmall"
 	}
 
 	"BrowseDescription"
@@ -1199,7 +1199,7 @@
 		"wrap"				"0"
 		"Command"			"Close"
 		"Default"			"0"
-		"font"				"HudFontSmallBold"
+		"font"				"HudFontMediumSmall"
 	}
 
 	"ButtonPublish"
@@ -1222,6 +1222,6 @@
 		"wrap"				"0"
 		"Command"			"Publish"
 		"Default"			"1"
-		"font"				"HudFontSmallBold"
+		"font"				"HudFontMediumSmall"
 	}
 }

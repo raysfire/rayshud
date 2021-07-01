@@ -224,7 +224,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override"	"Yellow"
+		"fgcolor_override"	"TanLight"
 	}
 
 	"OptionalAppendLabel"
@@ -261,7 +261,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#Cancel"
-		"font"				"HudFontSmall"
+		"font"				"HudFontMediumSmall"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
@@ -286,7 +286,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#CraftNameConfirm"
-		"font"				"HudFontSmall"
+		"font"				"HudFontMediumSmall"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"

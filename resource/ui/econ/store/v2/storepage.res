@@ -119,6 +119,7 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
+				"inventory_image_type" 	"1"
 				"allow_rot"				"0"
 			}
 
@@ -158,8 +159,8 @@
 		"textHidden"	"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"TanLight"
-		"bgcolor_override"	"15 15 15 255"
+		"fgcolor_override"	"DarkerGrey"
+		"bgcolor_override"	"TanLight"
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmall"
 	}
@@ -178,31 +179,19 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"1"
 		"textHidden"		"0"
 		"editable"			"0"
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
-		"border_override"	"ButtonBorder"
-		"paintborder"		"1"
 
 		"fgcolor_override"					"TanLight"
-		"bgcolor_override"					"Black"
+		"bgcolor_override"					"Transparent"
 		"disabledFgColor_override"			"TanLight"
-		"disabledBgColor_override"			"Black"
-		"selectionColor_override"			"Black"
+		"disabledBgColor_override"			"Transparent"
+		"selectionColor_override"			"Transparent"
 		"selectionTextColor_override"		"TanLight"
-		"defaultSelectionBG2Color_override"	"Black"
-
-		"Button"
-		{
-			"defaultFgColor_override"	"TanLight"
-			"defaultBgColor_override"	"Black"
-			"armedFgColor_override"		"15 255 255 255"
-			"armedBgColor_override"		"Black"
-			"paintbackgroundtype"		"2"
-		}
+		"defaultSelectionBG2Color_override"	"Transparent"
 	}
 
 	"SortFilterComboBox"
@@ -219,31 +208,19 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"1"
 		"textHidden"		"0"
 		"editable"			"0"
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
-		"border_override"	"ButtonBorder"
-		"paintborder"		"1"
 
 		"fgcolor_override"					"TanLight"
-		"bgcolor_override"					"Black"
+		"bgcolor_override"					"Transparent"
 		"disabledFgColor_override"			"TanLight"
-		"disabledBgColor_override"			"Black"
-		"selectionColor_override"			"Black"
+		"disabledBgColor_override"			"Transparent"
+		"selectionColor_override"			"Transparent"
 		"selectionTextColor_override"		"TanLight"
-		"defaultSelectionBG2Color_override"	"Black"
-
-		"Button"
-		{
-			"defaultFgColor_override"	"TanLight"
-			"defaultBgColor_override"	"Black"
-			"armedFgColor_override"		"15 255 255 255"
-			"armedBgColor_override"		"Black"
-			"paintbackgroundtype"		"2"
-		}
+		"defaultSelectionBG2Color_override"	"Transparent"
 	}
 
 	"mouseoveritempanel"

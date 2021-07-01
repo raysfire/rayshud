@@ -14,10 +14,9 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
-		"paintborder"			"2"
+		"bgcolor_override"		"DarkerGrey"
 		"paintbackground"		"1"
 		"border"				"CyanBorderThick"
-		"bgcolor_override"		"DarkerGrey"
 	}
 
 	"TitleLabel"
@@ -36,14 +35,13 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"fgcolor_override"		"ColorCyan"
 	}
 
 	"ExplanationLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ExplanationLabel"
-		"font"					"EconFontSmall"
+		"font"					"HudFontSmall"
 		"labelText"				"%text%"
 		"textAlignment"			"north"
 		"xpos"					"40"
@@ -74,7 +72,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#GameUI_CancelBold"
-		"font"					"HudFontSmall"
+		"font"					"HudFontMediumSmall"
 		"textAlignment"			"center"
 		"textinsetx"			"50"
 		"dulltext"				"0"
@@ -100,7 +98,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#ConfirmButtonText"
-		"font"					"HudFontSmall"
+		"font"					"HudFontMediumSmall"
 		"textAlignment"			"center"
 		"textinsetx"			"50"
 		"dulltext"				"0"

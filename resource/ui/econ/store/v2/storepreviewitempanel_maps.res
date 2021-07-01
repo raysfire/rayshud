@@ -152,6 +152,7 @@
 		"wrap"			"1"
 		"centerwrap"	"1"
 		"allcaps"		"1"
+		"fgcolor"		"TanLight"
 	}
 
 	"ClassUsageImage1"
@@ -510,7 +511,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"defaultFgColor_override" 	"White"
-		"armedFgColor_override" 	"255 0 0 255"
+		"armedFgColor_override" 	"LightRed"
 		"depressedFgColor_override" "White"
 	}
 
