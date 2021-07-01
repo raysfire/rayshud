@@ -20,7 +20,7 @@
 		"outoffocus_bgcolor_override"	"DarkGrey"
 
 		"title"				"#StoreTitle"
-		"title_font"		"HudFontMediumBold"
+		"title_font"		"HudFontMedium"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"			"HudOffWhite"
@@ -257,7 +257,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CartItemsLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFontMedium"
 			"labelText"		"%storecart%"
 			"textAlignment"	"west"
 			"xpos"			"c-300"

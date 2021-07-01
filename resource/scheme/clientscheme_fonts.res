@@ -471,7 +471,7 @@ Scheme
 			"1"
 			{
 				"name"			"Cerbetica"
-				"tall"			"36"
+				"tall"			"35"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"

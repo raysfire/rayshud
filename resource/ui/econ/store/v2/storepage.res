@@ -79,7 +79,7 @@
 
 		"modelpanel_labels_kv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFontSmallest"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -128,7 +128,7 @@
 
 		"cart_labels_kv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFontSmallest"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -169,7 +169,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"SubcategoryFilterComboBox"
-		"Font"				"HudFontSmallestBold"
+		"Font"				"HudFontSmallest"
 		"xpos"				"c30"
 		"ypos"				"30"
 		"zpos"				"1"
@@ -198,7 +198,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"SortFilterComboBox"
-		"Font"				"HudFontSmallestBold"
+		"Font"				"HudFontSmallest"
 		"xpos"				"c152"
 		"ypos"				"30"
 		"zpos"				"1"
@@ -285,7 +285,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassFilterTooltipLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmall"
 		"textAlignment"	"center"
 		"xpos"			"36"
 		"ypos"			"170"
@@ -376,7 +376,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PriceLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmall"
 		"labelText"		"%selectionprice%"
 		"textAlignment"	"east"
 		"xpos"			"c20"
@@ -396,7 +396,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NameFilterLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallest"
 		"labelText"		"#Store_NameFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c-70"
@@ -415,7 +415,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SubcategoryFiltersLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallest"
 		"labelText"		"#Store_ItemTypeFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c30"
@@ -434,7 +434,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SortFilterLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallest"
 		"labelText"		"#Store_SortByLabel"
 		"textAlignment"	"west"
 		"xpos"			"c152"
@@ -453,7 +453,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassFilterLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallest"
 		"labelText"		"#Store_ClassFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -755,7 +755,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"RELOADSCHEME"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallest"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"

@@ -1130,7 +1130,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmall"
 			"labelText"		"#CMenu_ClassHighlightPanel_Title"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -1179,7 +1179,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmall"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"

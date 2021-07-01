@@ -184,7 +184,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"TitleLabel"
-				"font"			"HudFontMediumBold"
+				"font"			"HudFontMedium"
 				"labelText"		"#TF_SteamWorkshop_YourItems"
 				"textAlignment"	"west"
 				"xpos"			"15"

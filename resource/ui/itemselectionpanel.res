@@ -91,7 +91,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontMediumSmallSecondary"
+		"font"			"HudFontMediumSmall"
 		"labelText"		">>"
 		"textAlignment"	"west"
 		"xpos"			"c-290"
@@ -109,7 +109,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFontMedium"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"c-270"
@@ -200,7 +200,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemSlotLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFontMedium"
 		"labelText"		"#PrimaryWeapon"
 		"textAlignment"	"center"
 		"xpos"			"c-185"
@@ -263,7 +263,7 @@
 		"ControlName"	"CheckButton"
 		"fieldName"		"OnlyAllowUniqueQuality"
 		"labelText"		"#OnlyAllowUniqueQuality"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmall"
 		"textAlignment"	"east"
 		"xpos"			"c-295"
 		"ypos"			"288"

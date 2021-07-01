@@ -94,7 +94,7 @@
 
 		"recipebuttons_kv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFontSmallest"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
@@ -146,7 +146,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ClassLabel"
-		"font"				"HudFontSmallBold"
+		"font"				"HudFontSmall"
 		"labelText"			"#CraftStep1"
 		"textAlignment"		"north-west"
 		"xpos"				"c-290"
@@ -177,7 +177,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecipeTitle"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmall"
 			"labelText"		"%recipetitle%"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -217,7 +217,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"InputLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmall"
 			"labelText"		"#Craft_Recipe_Inputs"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
@@ -236,7 +236,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"OutputLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmall"
 			"labelText"		"#Craft_Recipe_Outputs"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
@@ -266,7 +266,7 @@
 			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		"#CraftConfirm"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFontMedium"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"
@@ -281,7 +281,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreeAccountLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFontSmallest"
 			"labelText"		"#Craft_PremiumRecipe"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -312,7 +312,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_Trial_Upgrade"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmall"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"

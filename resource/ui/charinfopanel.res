@@ -20,7 +20,7 @@
 		"outoffocus_bgcolor_override"		"27 27 27 0"
 
 		"title"								"#CharInfoAndSetup"
-		"title_font"						"HudFontMediumBold"
+		"title_font"						"HudFontMedium"
 		"titletextinsetX"					"40"
 		"titletextinsetY"					"0"
 		"titlebarfgcolor_override"			"HudOffWhite"

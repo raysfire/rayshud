@@ -108,7 +108,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"WorkingText"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_UsePaintkit_Working"
 			"textAlignment"	"north"
 			"xpos"			"cs-0.5"
@@ -155,7 +155,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"SuccessText"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFontMedium"
 			"labelText"		"#AbuseReport_SucceededTitle"
 			"textAlignment"	"north"
 			"xpos"			"cs-0.5"
@@ -202,7 +202,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"FailureText"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_UsePaintkit_Failed"
 			"textAlignment"	"north"
 			"xpos"			"cs-0.5"

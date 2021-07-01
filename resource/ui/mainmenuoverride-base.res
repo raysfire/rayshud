@@ -318,7 +318,7 @@
 		"textinsetx"	"40"
 		"textinsety"	"10"
 
-		"font"				"HudFontSmallestBold"
+		"font"				"HudFontSmallest"
 		"fgcolor_override"	"TanLight"
 		"labelText"			"#TF_MM_NoGC_Rank"
 		"textAlignment"		"north-west"
@@ -508,7 +508,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmall"
 			"labelText"		"%notititle%"
 			"textAlignment"	"north-west"
 			"xpos"			"12"
@@ -576,7 +576,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_Competitive_Friends"
 			"textAlignment"	"center"
 			"xpos"			"0"

@@ -77,7 +77,7 @@
 
 		"modelpanel_labels_kv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFontSmallest"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -126,7 +126,7 @@
 
 		"cart_labels_kv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFontSmallest"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -228,7 +228,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"RELOADSCHEME"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallest"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -499,7 +499,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CaseLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFontMedium"
 			"labelText"		"#Store_Case_Label"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -517,7 +517,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"KeyLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFontMedium"
 			"labelText"		"#Store_Key_Label"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -535,7 +535,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CaseLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFontMedium"
 			"labelText"		"#Store_Taunt_Label"
 			"textAlignment"	"west"
 			"xpos"			"0"

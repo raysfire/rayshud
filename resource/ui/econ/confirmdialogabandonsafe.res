@@ -23,7 +23,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"TitleLabel"
-		"font"					"HudFontMediumBold"
+		"font"					"HudFontMedium"
 		"labelText"				"#ConfirmTitle"
 		"textAlignment"			"north"
 		"xpos"					"0"

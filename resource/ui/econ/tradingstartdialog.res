@@ -33,7 +33,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		""
-				"font"			"HudFontSmallBold"
+				"font"			"HudFontSmall"
 				"textAlignment"	"west"
 				"textinsetx"	"34"
 				"use_proportional_insets" "1"
@@ -245,7 +245,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"EmptyPlayerListLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_TradeStartDialog_FriendsNone"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -298,7 +298,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"EmptyPlayerListLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_TradeStartDialog_ServerNone"
 			"textAlignment"	"north"
 			"xpos"			"0"

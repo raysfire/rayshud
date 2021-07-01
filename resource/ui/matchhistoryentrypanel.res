@@ -61,7 +61,7 @@
 			"mouseinputenabled"	"0"
 
 			"labeltext"			"#TF_Competitive_MatchHistory_Win"
-			"font"				"HudFontSmallestBold"
+			"font"				"HudFontSmallest"
 			"fgcolor_override"	"95 164 44 255"
 			"textAlignment"		"west"
 		}
@@ -79,7 +79,7 @@
 			"mouseinputenabled"	"0"
 
 			"labeltext"			"#TF_Competitive_MatchHistory_Loss"
-			"font"				"HudFontSmallestBold"
+			"font"				"HudFontSmallest"
 			"fgcolor_override"	"141 63 63 255"
 			"textAlignment"		"west"
 		}

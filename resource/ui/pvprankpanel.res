@@ -235,7 +235,7 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFontSmallest"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"	"center"
 			"labelText"		"%desc1%"
@@ -259,7 +259,7 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFontSmallest"
 			"fgcolor_override"	"White"
 			"textAlignment"	"center"
 			"labelText"		"%desc2%"
@@ -273,7 +273,7 @@
 
 			"fonts"
 			{
-				"0"		"HudFontSmallestBold"
+				"0"		"HudFontSmallest"
 				"1"		"StorePromotionsTitle"
 				"2"		"FontStorePrice"
 			}

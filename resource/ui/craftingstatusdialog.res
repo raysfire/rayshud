@@ -19,7 +19,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"CenterPositioner"
-		"font"					"HudFontSmallBold"
+		"font"					"HudFontSmall"
 		"xpos"					"0"
 		"ypos"					"10"
 		"zpos"					"0"
@@ -47,7 +47,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"TitleLabel"
-		"font"					"HudFontSmallBold"
+		"font"					"HudFontSmall"
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"0"

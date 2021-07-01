@@ -103,7 +103,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CaratLabel"
-		"font"				"HudFontMediumSmallSecondary"
+		"font"				"HudFontMediumSmall"
 		"labelText"			">>"
 		"textAlignment"		"west"
 		"xpos"				"c-290"
@@ -122,7 +122,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ClassLabel"
-		"font"				"HudFontMediumBold"
+		"font"				"HudFontMedium"
 		"labelText"			"#ClassBeingEquipped"
 		"textAlignment"		"west"
 		"xpos"				"c-270"

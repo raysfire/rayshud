@@ -54,7 +54,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ToolBG"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmall"
 		"labelText"		""
 		"textAlignment"	"east"
 		"xpos"			"10"
@@ -116,7 +116,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFontMedium"
 		"labelText"		"dynamic"
 		"textAlignment"	"center"
 		"xpos"			"100"
@@ -131,7 +131,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SubjectBG"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmall"
 		"labelText"		""
 		"textAlignment"	"east"
 		"xpos"			"465"
@@ -271,7 +271,7 @@
 				"tall"				"20"
 				"labelText"		"#ToolCustomizeTextureUseAvatarImage"
 				"textAlignment"		"west"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFontSmall"
 			}
 
 			"UseAnyImageRadio"
@@ -284,7 +284,7 @@
 				"tall"				"20"
 				"labelText"		"#ToolCustomizeTextureUseAnyImage"
 				"textAlignment"		"west"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFontSmall"
 			}
 
 			"BrowseForNewImageButton"
@@ -297,7 +297,7 @@
 				"wide"			"300"
 				"tall"			"20"
 				"labelText"		"#ToolCustomizeTextureBrowseButton"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFontSmall"
 				"Command"		"pick_image"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -428,7 +428,7 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"SelectFilterGroupBox"
-			"Font"				"HudFontSmallestBold"
+			"Font"				"HudFontSmallest"
 			"xpos"				"0"
 			"ypos"				"25"
 			"zpos"				"-1"
@@ -441,7 +441,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"FilterLabel"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFontSmall"
 				"xpos"			"10"
 				"ypos"			"10"
 				"wide"			"140"
@@ -533,7 +533,7 @@
 					"tall"			"15"
 					"labelText"		"#ToolCustomizeTextureColorPalette"
 					"textAlignment"	"north-west"
-					"font"			"HudFontSmallBold"
+					"font"			"HudFontSmall"
 				}
 
 				"PrevStencilPaletteButton"
@@ -546,7 +546,7 @@
 					"wide"			"65"
 					"tall"			"15"
 					"labelText"		"<<"
-					"font"			"HudFontSmallBold"
+					"font"			"HudFontSmall"
 					"textAlignment"	"center"
 					"Command"		"prev_stencil_palette"
 					"sound_depressed"	"UI/buttonclick.wav"
@@ -563,7 +563,7 @@
 					"wide"			"65"
 					"tall"			"15"
 					"labelText"		">>"
-					"font"			"HudFontSmallBold"
+					"font"			"HudFontSmall"
 					"textAlignment"	"center"
 					"Command"		"next_stencil_palette"
 					"sound_depressed"	"UI/buttonclick.wav"
@@ -754,7 +754,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"WarningTextGroupBox"
-			"Font"			"HudFontSmallestBold"
+			"Font"			"HudFontSmallest"
 			"xpos"			"0"
 			"ypos"			"25"
 			"zpos"			"-1"
@@ -892,7 +892,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PleaseWaitLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmall"
 			"labelText"		"#ToolCustomizeTexturePleaseWait"
 			"textAlignment"	"center"
 			"xpos"			"20"

@@ -20,7 +20,7 @@
 		"outoffocus_bgcolor_override"	"27 27 27 0"
 
 		"title"							"#Replay_Replay"
-		"title_font"					"HudFontSmallBold"
+		"title_font"					"HudFontSmall"
 		"titletextinsetX"				"40"
 		"titletextinsetY"				"0"
 		"titlebarfgcolor_override"		"HudOffWhite"
