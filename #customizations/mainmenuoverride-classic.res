@@ -337,7 +337,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay\thumbnails\nogc"
+		"image"			"replay\thumbnails\raysfox\shock"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
 	}
