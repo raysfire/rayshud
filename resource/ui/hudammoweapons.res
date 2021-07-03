@@ -5,6 +5,8 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"HudWeaponAmmoBG"
 		"xpos"				"9999"
+		"visible"			"0"
+		"enabled"			"0"
 	}
 
 	"HudWeaponLowAmmoImage"
@@ -12,6 +14,8 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"HudWeaponLowAmmoImage"
 		"xpos"				"9999"
+		"visible"			"0"
+		"enabled"			"0"
 	}
 
 	"AmmoInClip"

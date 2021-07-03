@@ -274,11 +274,11 @@
 
 		"team1_grow_dir" 	"west"
 		"team1_base_x"		"c-30"
-		"team1_max_expand"	"200"
+		"team1_max_expand"	"250"
 
 		"team2_grow_dir"	"east"
-		"team2_base_x"		"c30"
-		"team2_max_expand"	"200"
+		"team2_base_x"		"c31"
+		"team2_max_expand"	"250"
 
 		"playerpanels_kv"
 		{
@@ -292,11 +292,11 @@
 			"color_portrait_bg_blue"			"70 130 180 150"
 			"color_portrait_bg_red_dead"		"79 54 52 255"
 			"color_portrait_bg_blue_dead"		"44 49 51 255"
-			"color_bar_health_high"				"84 191 58 255"
+			"color_bar_health_high"				"Health Buff"
 			"color_bar_health_med"				"191 183 58 255"
-			"percentage_health_med"				"0.6"
-			"color_bar_health_low"				"191 58 58 255"
-			"percentage_health_low"				"0.3"
+			"percentage_health_med"				"0.5"
+			"color_bar_health_low"				"Health Hurt"
+			"percentage_health_low"				"0.2"
 			"color_portrait_blend_dead_red"		"235 235 235 255"
 			"color_portrait_blend_dead_blue"	"235 235 235 255"
 

@@ -47,7 +47,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"TitleLabel"
-		"font"					"HudFontSmall"
+		"font"					"HudFontMediumSmall"
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"0"

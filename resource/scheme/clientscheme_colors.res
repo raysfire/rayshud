@@ -7,7 +7,7 @@
 		//---------------------------------------------
 		"ColorRed"					"255 0 0 255"
 		"ColorYellow"				"255 255 0 255"
-		"ColorGreen"				"76 107 34 150"
+		"ColorGreen"				"48 255 48 255"
 		"ColorCyan"					"72 255 255 255"
 		"ColorBlue"					"0 0 255 255"
 		"ColorPurple"				"128 0 255 255"

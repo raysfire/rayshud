@@ -13,8 +13,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"fgcolor"		"255 0 0 255"
 	}
+	
 	"SidePanelBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -366,7 +366,7 @@
 		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"&3"
+		"labelText"		"&1"
 		"command"		"jointeam blue"
 		"team"			"3"
 	}
@@ -379,7 +379,7 @@
 		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"&4"
+		"labelText"		"&2"
 		"command"		"jointeam red"
 		"team"			"4"
 	}
@@ -392,7 +392,7 @@
 		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"&1"
+		"labelText"		"&3"
 		"command"		"jointeam auto"
 	}
 
@@ -404,7 +404,7 @@
 		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"&2"
+		"labelText"		"&4"
 		"command"		"jointeam spectate"
 	}
 }

@@ -48,6 +48,7 @@
 		"textAlignment"	"center"
 		"font"			"HudFontMedium"
 		"fgcolor"		"TanLight"
+		"allcaps"		"1"
 	}
 
 	"MapInfoType"
@@ -126,11 +127,10 @@
 		"font"			"HudFontMedium"
 		"paintbackground"	"0"
 
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override"		"TanDark"
+		"defaultFgColor_override" 	"TanDark"
+		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" 	"TanDark"
+
 	}
 
 	"MapInfoWatchIntro"
@@ -161,11 +161,10 @@
 		"font"			"HudFontMedium"
 		"paintbackground"	"0"
 
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override"		"TanDark"
+		"defaultFgColor_override" 	"TanDark"
+		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" 	"TanDark"
+
 	}
 
 	"MenuBG"

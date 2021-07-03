@@ -5,9 +5,9 @@
 		"delta_item_x"			"8"
 		"delta_item_start_y"	"10"
 		"delta_item_end_y"		"35"
-		"PositiveColor"			"ColorGreen"
-		"NegativeColor"			"ColorRed"
-		"delta_lifetime"		"2"
+		"PositiveColor"			"Heal Numbers"
+		"NegativeColor"			"Damage Numbers"
+		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
 		"delta_item_x_minmode"			"18"
 		"delta_item_start_y_minmode"	"10"
@@ -20,6 +20,8 @@
 		"ControlName"			"CTFImagePanel"
 		"fieldName"				"AccountBG"
 		"xpos"					"9999"
+		"visible"				"0"
+		"enabled"				"0"
 	}
 
 	"MetalIcon"

@@ -2,7 +2,7 @@
 
 "Resource/UI/HudItemEffectMeter_Killstreak.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"xpos"				"c115"
 		"xpos_minmode"		"c65"

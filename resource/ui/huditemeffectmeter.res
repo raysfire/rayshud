@@ -1,6 +1,6 @@
 "Resource/UI/HudItemEffectMeter.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"fieldName"			"HudItemEffectMeter"
 		"visible"			"1"
