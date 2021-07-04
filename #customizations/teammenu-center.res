@@ -1,168 +1,111 @@
 "Resource/UI/TeamMenu.res"
 {
-	"MainBG"
-	{
-		"fillcolor"		"0 0 0 0"
-	}
 	"SidePanelBG"
 	{
-		"fillcolor"		"0 0 0 0"
-	}
-	"AutojoinBackground"
-	{
-		"xpos"			"c-110"
-		"ypos"			"c-40"
-		"wide"			"220"
-		"tall"			"20"
-	}
-	"SpectateBackground"
-	{
-		"xpos"			"c-110"
-		"ypos"			"c20"
-		"wide"			"220"
-		"tall"			"20"
-	}
-
-	"mapname"
-	{
-		"xpos"			"c-100"
-		"ypos"			"c-100"
-		"wide"			"200"
+		"fillcolor"		"Transparent"
 	}
 
 	"SelectTeamLabel"
 	{
-		"xpos"			"30"
-		"ypos"			"c200"
-		"wide"			"450"
-		"textAlignment"	"west"
+		"xpos"			"0"
+		"wide"			"f0"
 	}
-
-	"SelectTeamLabel"
-	{
-		"visible"		"0"
-	}
-
+	
 	"teambutton0"
 	{
-		"xpos"			"c-110"
-		"ypos"			"c-20"
-		"wide"			"110"
-		"tall"			"40"
-		"textAlignment"	"north"
-		"font"			"Cerbetica16"
-	}
-
-	"BlueTeamBG"
-	{
-		"xpos"			"c-110"
-		"ypos"			"c-20"
-		"wide"			"110"
-		"tall"			"40"
+		"xpos"			"0"
+		"ypos"			"5"
+		"wide"			"127"
+		"tall"			"30"
+		"textAlignment"	"east"
+		"textinsetx"	"15"
+		
+		"pin_to_sibling"			"teambutton2"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
 
 	"teambutton1"
 	{
-		"xpos"			"c0"
-		"ypos"			"c-20"
-		"wide"			"110"
-		"tall"			"40"
-		"textAlignment"	"north"
-		"font"			"Cerbetica16"
-	}
-
-	"RedTeamBG"
-	{
-		"xpos"			"c0"
-		"ypos"			"c-20"
-		"wide"			"110"
-		"tall"			"40"
+		"xpos"			"0"
+		"ypos"			"5"
+		"wide"			"127"
+		"tall"			"30"
+		"textAlignment"	"west"
+		"textinsetx"	"15"
+		
+		"pin_to_sibling"			"teambutton2"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_BOTTOMRIGHT"
 	}
 
 	"teambutton2"
 	{
-		"xpos"			"c-110"
-		"ypos"			"c-40"
-		"wide"			"220"
-		"tall"			"20"
+		"xpos"			"0"
+		"ypos"			"15"
+		"wide"			"255"
+		"tall"			"30"
 		"textAlignment"	"center"
-		"font"			"Cerbetica16"
-	}
-
-	"AutoJoinBG"
-	{
-		"visible"		"0"
-		"enabled"		"0"
+		
+		"pin_to_sibling"			"SelectTeamLabel"
+		"pin_corner_to_sibling"		"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"		"PIN_CENTER_BOTTOM"
 	}
 
 	"teambutton3"
 	{
-		"xpos"			"c-110"
-		"ypos"			"c20"
-		"wide"			"220"
-		"tall"			"20"
+		"xpos"			"0"
+		"ypos"			"5"
+		"zpos"			"1"
+		"wide"			"255"
+		"tall"			"30"
 		"textAlignment"	"center"
-		"font"			"Cerbetica16"
-	}
-
-	"SpectateBG"
-	{
-		"visible"		"0"
-		"enabled"		"0"
+		
+		"pin_to_sibling"			"teambutton0"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
 
 	"BlueCount"
 	{
-		"xpos"			"c-115"
-		"ypos"			"c-15"
-		"wide"			"48"
-		"tall"			"40"
-		"font"			"HudFontSmall"
-		"textAlignment"	"east"
-		"fgcolor"		"255 255 255 175"
-	}
-	"BlueCountPlayers"
-	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"BlueCountPlayers"
-		"xpos"			"c-60"
-		"ypos"			"c-15"
-		"zpos"			"1"
-		"wide"			"55"
-		"tall"			"40"
+		"fieldName"		"BlueCount"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"zpos"			"3"
+		"wide"			"20"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"players"
-		"textAlignment"	"west"
-		"font"			"HudFontSmall"
-		"fgcolor"		"255 255 255 175"
+		"labelText"		"%bluecount%"
+		"textAlignment"	"east"
+		
+		"pin_to_sibling"		"teambutton0"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"RedCount"
 	{
-		"xpos"			"c0"
-		"ypos"			"c-15"
-		"wide"			"43"
-		"tall"			"40"
-		"labelText"		"%redcount%"
-		"font"			"HudFontSmall"
-		"textAlignment"	"east"
-		"fgcolor"		"255 255 255 175"
-	}
-	"RedCountPlayers"
-	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"RedCountPlayers"
-		"xpos"			"c50"
-		"ypos"			"c-15"
-		"zpos"			"1"
-		"wide"			"55"
-		"tall"			"40"
+		"fieldName"		"RedCount"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"20"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"players"
+		"labelText"		"%redcount%"
 		"textAlignment"	"west"
-		"font"			"HudFontSmall"
-		"fgcolor"		"255 255 255 175"
+		
+		"pin_to_sibling"		"teambutton1"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 }

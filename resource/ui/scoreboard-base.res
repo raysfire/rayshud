@@ -1710,7 +1710,7 @@
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 		
-"BackstabsLabel"
+		"BackstabsLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BackstabsLabel"
