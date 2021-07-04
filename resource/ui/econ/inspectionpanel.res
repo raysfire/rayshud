@@ -39,6 +39,11 @@
 		"noitem_textcolor"		"TanDark"
 		"PaintBackgroundType"	"2"
 
+		"consume_mode"
+		{
+			"xpos"			"cs-1.1"
+		}
+		
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -135,6 +140,12 @@
 		"display_vertically"	"0"
 		"align"				"west"
 
+		"consume_mode"
+		{
+			"xpos"			"cs-0.5"
+			"ypos"			"r140"
+		}
+		
 		"ButtonSettings"
 		{
 			"wide"				"19"
@@ -233,6 +244,11 @@
 		{
 			"tall"		"60"
 			"visible"	"1"
+		}
+		"consume_mode"
+		{
+			"xpos"			"cs-0.5"
+			"ypos"			"r120"
 		}
 
 		"DebugButton"

@@ -12,7 +12,7 @@
 		"enabled"				"1"
 		"paintborder"			"1"
 		"border"				"CyanBorder"
-		"bgcolor_override"		"DarkGrey"
+		"bgcolor_override"		"TransparentBlack"
 		"PaintBackgroundType"	"2"
 
 		"PassedIcon"
@@ -81,7 +81,7 @@
 		"enabled"				"1"
 		"paintborder"			"1"
 		"border"				"CyanBorder"
-		"bgcolor_override"		"DarkGrey"
+		"bgcolor_override"		"TransparentBlack"
 		"PaintBackgroundType"	"2"
 
 		"Header"
@@ -90,7 +90,7 @@
 			"fieldName"			"Header"
 			"xpos"				"10"
 			"ypos"				"5"
-			"wide"				"130"
+			"wide"				"140"
 			"tall"				"20"
 			"visible"			"1"
 			"enabled"			"1"
@@ -108,8 +108,8 @@
 			"ControlName"		"Label"
 			"fieldName"			"Issue"
 			"xpos"				"10"
-			"ypos"				"22"
-			"wide"				"130"
+			"ypos"				"25"
+			"wide"				"140"
 			"tall"				"40"
 			"visible"			"1"
 			"enabled"			"1"
@@ -118,7 +118,7 @@
 			"dulltext"			"0"
 			"brighttext"		"0"
 			"font"				"ScoreboardSmall"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 			"wrap"				"1"
 			"noshortcutsyntax"	"1"
 		}
@@ -414,7 +414,7 @@
 		"enabled"				"1"
 		"paintborder"			"1"
 		"border"				"CyanBorder"
-		"bgcolor_override"		"DarkGrey"
+		"bgcolor_override"		"TransparentBlack"
 		"PaintBackgroundType"	"2"
 
 		"FailedIcon"
@@ -483,7 +483,7 @@
 		"enabled"				"1"
 		"paintborder"			"1"
 		"border"				"CyanBorder"
-		"bgcolor_override"		"DarkGrey"
+		"bgcolor_override"		"TransparentBlack"
 		"PaintBackgroundType"	"2"
 
 		"FailedIcon"
@@ -560,7 +560,7 @@
 		"PaintBackgroundType"	"2"
 
 		"header_font"				"ItemFontNameLarge"
-		"header_fgcolor"			"Orange"
+		"header_fgcolor"			"ColorCyan"
 		"issue_width"				"180"
 		"issue_font"				"ItemFontNameSmall"
 		"issue_fgcolor"				"TanLight"
@@ -583,6 +583,8 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"wrap"				"0"
+			"allcaps"			"1"
+			"fgcolor_override"	"ColorCyan"
 		}
 
 		"VoteSetupList"
@@ -658,13 +660,13 @@
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
 
-			"fgcolor_override"					"TextColor"
-			"bgcolor_override"					"Yellow"
-			"disabledFgColor_override"			"TextColor"
-			"disabledBgColor_override"			"Yellow"
-			"selectionColor_override"			"Yellow"
-			"selectionTextColor_override"		"TextColor"
-			"defaultSelectionBG2Color_override" "Yellow"
+			"fgcolor_override"					"TanLight"
+			"bgcolor_override"					"LightRed"
+			"disabledFgColor_override"			"TanLight"
+			"disabledBgColor_override"			"LightRed"
+			"selectionColor_override"			"LightRed"
+			"selectionTextColor_override"		"TanLight"
+			"defaultSelectionBG2Color_override" "LightRed"
 		}
 
 		"CallVoteButton"
@@ -686,7 +688,7 @@
 			"brighttext"		"0"
 			"Command"			"CallVote"
 			"Default"			"0"
-			"font"				"HudFontSmall"
+			"font"				"HudFontMediumSmall"
 		}
 		"Button1"
 		{
@@ -707,7 +709,7 @@
 			"brighttext"		"0"
 			"Command"			"Close"
 			"Default"			"0"
-			"font"				"HudFontSmall"
+			"font"				"HudFontMediumSmall"
 		}
 	}
 }

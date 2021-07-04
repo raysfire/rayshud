@@ -105,7 +105,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecipeTitle"
-			"font"			"HudFontMediumSmall"
+			"font"			"HudFontSmall"
 			"labelText"		"%recipetitle%"
 			"textAlignment"	"west"
 			"xpos"			"80"

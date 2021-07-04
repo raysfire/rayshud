@@ -28,7 +28,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BlueScoreBG"
-		"xpos"			"c-270"
+		"xpos"			"c-265"
 		"ypos"			"144"
 		"wide"			"270"
 		"tall"			"25"
@@ -418,7 +418,7 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
-		"xpos"			"c-270"
+		"xpos"			"c-265"
 		"ypos"			"168"
 		"zpos"			"20"
 		"wide"			"270"
@@ -440,7 +440,7 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
-		"xpos"			"c0"
+		"xpos"			"c5"
 		"ypos"			"168"
 		"zpos"			"20"
 		"wide"			"270"

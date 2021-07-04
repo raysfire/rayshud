@@ -9,6 +9,7 @@
 		"ColorYellow"				"255 255 0 255"
 		"ColorGreen"				"48 255 48 255"
 		"ColorCyan"					"72 255 255 255"
+		"ColorCyanFade"				"72 100 100 255"
 		"ColorBlue"					"0 0 255 255"
 		"ColorPurple"				"128 0 255 255"
 		"ColorMagenta"				"255 0 255 255"

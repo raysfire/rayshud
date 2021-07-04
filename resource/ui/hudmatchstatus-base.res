@@ -210,7 +210,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"c-40"
+		"xpos"				"c-25"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"75"
@@ -220,8 +220,8 @@
 		"delta_item_x"			"20"
 		"delta_item_start_y"	"20"
 		"delta_item_end_y"		"35"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
+		"PositiveColor"			"ColorGreen"
+		"NegativeColor"			"ColorRed"
 		"delta_lifetime"		"1"
 		"delta_item_font"		"HudFontMediumSmall"
 
@@ -236,7 +236,7 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmall"
 			"fgcolor"		"TanLight"
-			"xpos"			"15"
+			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"50"
@@ -248,7 +248,6 @@
 
 			if_match
 			{
-				"xpos"			"15"
 				"ypos"			"10"
 				"tall"			"15"
 				"font"			"HudFontSmall"
@@ -288,12 +287,12 @@
 			"zpos"			"1"
 			"proportionaltoparent"	"1"
 
-			"color_portrait_bg_red"				"205 50 50 150"
-			"color_portrait_bg_blue"			"70 130 180 150"
+			"color_portrait_bg_red"				"Red"
+			"color_portrait_bg_blue"			"Blue"
 			"color_portrait_bg_red_dead"		"79 54 52 255"
 			"color_portrait_bg_blue_dead"		"44 49 51 255"
 			"color_bar_health_high"				"Health Buff"
-			"color_bar_health_med"				"191 183 58 255"
+			"color_bar_health_med"				"Health Normal"
 			"percentage_health_med"				"0.5"
 			"color_bar_health_low"				"Health Hurt"
 			"percentage_health_low"				"0.2"
@@ -337,7 +336,7 @@
 				"ypos"			"0"
 				"zpos"			"2"
 				"wide"			"f0"
-				"tall"			"19"
+				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
 				"PaintBackgroundType"	"0"

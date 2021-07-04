@@ -20,7 +20,7 @@
 		"fieldName"				"Title"
 		"xpos"					"0"
 		"ypos"					"25"
-		"zpos"					"101"
+		"zpos"					"99"
 		"wide"					"f0"
 		"tall"					"20"
 		"proportionaltoparent"	"1"
@@ -28,7 +28,6 @@
 		"textAlignment"			"center"
 		"font"					"HudFontMedium"
 		"fgcolor_override"		"TanLight"
-		"bgcolor_override"		"DarkGrey"
 		"mouseinputenabled"		"0"
 		"allcaps"				"1"
 	}

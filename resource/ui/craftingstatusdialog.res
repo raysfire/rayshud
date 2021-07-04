@@ -61,7 +61,7 @@
 		"centerwrap"			"1"
 		"labelText"				"%updatetext%"
 		"textAlignment"			"center"
-		"fgcolor_override" 		"TanLight"
+		"fgcolor_override" 		"ColorCyan"
 		"bgcolor_override" 		"Transparent"
 		"auto_wide_tocontents"	"1"
 

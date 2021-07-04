@@ -15,16 +15,17 @@
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"10"
-		"wide"				"100"
-		"tall"				"50"
+		"wide"				"50"
+		"tall"				"25"
 		"visible"			"1"
 		"enabled"			"1"
 
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-.7"
-			"ypos"					"5"
+			"xpos"					"cs-1.0"
+			"ypos"					"0"
+			"wide"					"26"
 			"delta_item_x"			"10"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -40,7 +41,7 @@
 			"fieldName"			"TimePanelValue"
 			"font"				"HudFontMedium"
 			"fgcolor"			"BlueSolid"
-			"xpos"				"15"
+			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"50"
@@ -53,10 +54,12 @@
 			if_match
 			{
 				"proportionaltoparent"	"1"
-				"xpos"			"11"
-				"ypos"			"8"
-				"tall"			"10"
-				"wide"			"25"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"26"
+				"tall"			"25"
+				"textAlignment"	"south"
+				"textinsety"	"-2"
 				"font"			"HudFontSmallest"
 			}
 		}
@@ -69,16 +72,17 @@
 		"xpos"				"50"
 		"ypos"				"0"
 		"zpos"				"10"
-		"wide"				"100"
-		"tall"				"150"
+		"wide"				"50"
+		"tall"				"25"
 		"visible"			"1"
 		"enabled"			"1"
 
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.77"
-			"ypos"					"5"
+			"xpos"					"cs0"
+			"ypos"					"0"
+			"wide"					"26"
 			"delta_item_x"			"50"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -94,11 +98,11 @@
 			"fieldName"			"TimePanelValue"
 			"font"				"HudFontMedium"
 			"fgcolor"			"RedSolid"
-			"xpos"				"15"
+			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"50"
-			"tall"				"24"
+			"tall"				"25"
 			"visible"			"1"
 			"enabled"			"1"
 			"textAlignment"		"center"
@@ -107,10 +111,12 @@
 			if_match
 			{
 				"proportionaltoparent"	"1"
-				"xpos"			"rs1-33"
-				"ypos"			"8"
-				"tall"			"10"
-				"wide"			"25"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"26"
+				"tall"			"25"
+				"textAlignment"	"south"
+				"textinsety"	"-2"
 				"font"			"HudFontSmallest"
 			}
 		}

@@ -47,6 +47,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
+		"allcaps"		"1"
 		"textAlignment"	"west"
 		"labelText"		"#TF_PVE_Currency"
 	}

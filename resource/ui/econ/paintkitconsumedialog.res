@@ -25,7 +25,8 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "TanLight"
+		"allcaps"		"1"
+		"fgcolor_override" "ColorCyan"
 		"proportionaltoparent"	"1"
 	}
 
@@ -221,7 +222,7 @@
 	{
 		"fieldName"	"InspectionPanel"
 		"xpos"		"0"
-		"ypos"		"40"
+		"ypos"		"30"
 		"zpos"		"10"
 		"wide"		"f0"
 		"tall"		"350"
@@ -275,6 +276,7 @@
 		"textinsetx"	"50"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"allcaps"		"1"
 		"Command"		"accept"
 		"proportionaltoparent"	"1"
 		"sound_depressed"		"UI/buttonclick.wav"

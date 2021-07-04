@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"TimePanelBG"
-		"xpos"				"15"
+		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"50"
@@ -30,18 +30,18 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"WaitingForPlayersLabel"
-		"xpos"				"15"
+		"xpos"				"0"
 		"ypos"				"25"
 		"zpos"				"5"
 		"wide"				"50"
-		"tall"				"15"
+		"tall"				"30"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"#game_WaitingForPlayers"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"wrap"				"0"
+		"wrap"				"1"
 		"font"				"HudFontSmallest"
 	}
 	"WaitingForPlayersBG"
@@ -55,7 +55,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"OvertimeLabel"
-		"xpos"				"15"
+		"xpos"				"0"
 		"ypos"				"35"
 		"zpos"				"5"
 		"wide"				"50"
@@ -93,7 +93,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SetupLabel"
-		"xpos"				"15"
+		"xpos"				"0"
 		"ypos"				"25"
 		"zpos"				"5"
 		"wide"				"50"
@@ -118,7 +118,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ServerTimeLimitLabel"
-		"xpos"				"15"
+		"xpos"				"0"
 		"ypos"				"23"
 		"zpos"				"5"
 		"wide"				"50"

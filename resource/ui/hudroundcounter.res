@@ -73,7 +73,7 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"BlueSolid"
+		"fillcolor"		"Blue"
 		"proportionaltoparent"	"1"
 	}
 
@@ -87,10 +87,10 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"RedSolid"
+		"fillcolor"		"Red"
 		"proportionaltoparent"	"1"
 	}
-
+	
 	"TimerBG"
 	{
 		"ControlName"	"ImagePanel"

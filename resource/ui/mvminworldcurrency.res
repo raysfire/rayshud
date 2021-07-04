@@ -24,10 +24,11 @@
 		"xpos"				"4"
 		"ypos"				"0"
 		"zpos"				"3"
-		"wide"				"80"
+		"wide"				"50"
 		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
+		"allcaps"			"1"
 		"textAlignment"		"west"
 		"labelText"			"#TF_PVE_Missed"
 	}
