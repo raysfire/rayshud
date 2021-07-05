@@ -79,7 +79,7 @@
 
 		"modelpanel_labels_kv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFontSmallest"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -119,6 +119,7 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
+				"inventory_image_type" 	"1"
 				"allow_rot"				"0"
 			}
 
@@ -127,7 +128,7 @@
 
 		"cart_labels_kv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFontSmallest"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -158,8 +159,8 @@
 		"textHidden"	"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"TanLight"
-		"bgcolor_override"	"15 15 15 255"
+		"fgcolor_override"	"DarkerGrey"
+		"bgcolor_override"	"TanLight"
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmall"
 	}
@@ -168,7 +169,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"SubcategoryFilterComboBox"
-		"Font"				"HudFontSmallestBold"
+		"Font"				"HudFontSmallest"
 		"xpos"				"c30"
 		"ypos"				"30"
 		"zpos"				"1"
@@ -178,38 +179,26 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"1"
 		"textHidden"		"0"
 		"editable"			"0"
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
-		"border_override"	"ButtonBorder"
-		"paintborder"		"1"
 
 		"fgcolor_override"					"TanLight"
-		"bgcolor_override"					"Black"
+		"bgcolor_override"					"Transparent"
 		"disabledFgColor_override"			"TanLight"
-		"disabledBgColor_override"			"Black"
-		"selectionColor_override"			"Black"
+		"disabledBgColor_override"			"Transparent"
+		"selectionColor_override"			"Transparent"
 		"selectionTextColor_override"		"TanLight"
-		"defaultSelectionBG2Color_override"	"Black"
-
-		"Button"
-		{
-			"defaultFgColor_override"	"TanLight"
-			"defaultBgColor_override"	"Black"
-			"armedFgColor_override"		"15 255 255 255"
-			"armedBgColor_override"		"Black"
-			"paintbackgroundtype"		"2"
-		}
+		"defaultSelectionBG2Color_override"	"Transparent"
 	}
 
 	"SortFilterComboBox"
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"SortFilterComboBox"
-		"Font"				"HudFontSmallestBold"
+		"Font"				"HudFontSmallest"
 		"xpos"				"c152"
 		"ypos"				"30"
 		"zpos"				"1"
@@ -219,31 +208,19 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"1"
 		"textHidden"		"0"
 		"editable"			"0"
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
-		"border_override"	"ButtonBorder"
-		"paintborder"		"1"
 
 		"fgcolor_override"					"TanLight"
-		"bgcolor_override"					"Black"
+		"bgcolor_override"					"Transparent"
 		"disabledFgColor_override"			"TanLight"
-		"disabledBgColor_override"			"Black"
-		"selectionColor_override"			"Black"
+		"disabledBgColor_override"			"Transparent"
+		"selectionColor_override"			"Transparent"
 		"selectionTextColor_override"		"TanLight"
-		"defaultSelectionBG2Color_override"	"Black"
-
-		"Button"
-		{
-			"defaultFgColor_override"	"TanLight"
-			"defaultBgColor_override"	"Black"
-			"armedFgColor_override"		"15 255 255 255"
-			"armedBgColor_override"		"Black"
-			"paintbackgroundtype"		"2"
-		}
+		"defaultSelectionBG2Color_override"	"Transparent"
 	}
 
 	"mouseoveritempanel"
@@ -308,7 +285,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassFilterTooltipLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmall"
 		"textAlignment"	"center"
 		"xpos"			"36"
 		"ypos"			"170"
@@ -399,7 +376,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PriceLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmall"
 		"labelText"		"%selectionprice%"
 		"textAlignment"	"east"
 		"xpos"			"c20"
@@ -419,7 +396,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NameFilterLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallest"
 		"labelText"		"#Store_NameFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c-70"
@@ -438,7 +415,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SubcategoryFiltersLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallest"
 		"labelText"		"#Store_ItemTypeFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c30"
@@ -457,7 +434,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SortFilterLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallest"
 		"labelText"		"#Store_SortByLabel"
 		"textAlignment"	"west"
 		"xpos"			"c152"
@@ -476,7 +453,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassFilterLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallest"
 		"labelText"		"#Store_ClassFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -778,7 +755,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"RELOADSCHEME"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallest"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"

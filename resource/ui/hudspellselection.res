@@ -18,7 +18,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"SpellIcon"
-		"xpos"				"25"
+		"xpos"				"5"
 		"ypos"				"0"
 		"zpos"				"7"
 		"wide"				"20"
@@ -67,6 +67,9 @@
 		"wide"				"20"
 		"tall"				"20"
 		"fgcolor"			"TanLight"
+		"pin_to_sibling"	"SpellIcon"
+		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"	"PIN_CENTER_RIGHT"
 	}
 
 	"CountTextShadow"

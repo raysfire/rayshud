@@ -20,7 +20,7 @@
 		"outoffocus_bgcolor_override"	"27 27 27 0"
 
 		"title"							"#Replay_Replay"
-		"title_font"					"HudFontSmallBold"
+		"title_font"					"HudFontSmall"
 		"titletextinsetX"				"40"
 		"titletextinsetY"				"0"
 		"titlebarfgcolor_override"		"HudOffWhite"
@@ -100,8 +100,8 @@
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
+		"bgcolor_override"	"ColorCyan"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"ColorCyan"
 	}
 
 	"Sheet"
@@ -161,7 +161,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Back (&Q)"
-		"font"			"HudFontSmall"
+		"font"			"HudFontMediumSmall"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

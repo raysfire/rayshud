@@ -19,7 +19,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"CenterPositioner"
-		"font"					"HudFontSmallBold"
+		"font"					"HudFontSmall"
 		"xpos"					"0"
 		"ypos"					"10"
 		"zpos"					"0"
@@ -47,7 +47,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"TitleLabel"
-		"font"					"HudFontSmallBold"
+		"font"					"HudFontMediumSmall"
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"0"
@@ -61,7 +61,7 @@
 		"centerwrap"			"1"
 		"labelText"				"%updatetext%"
 		"textAlignment"			"center"
-		"fgcolor_override" 		"TanLight"
+		"fgcolor_override" 		"ColorCyan"
 		"bgcolor_override" 		"Transparent"
 		"auto_wide_tocontents"	"1"
 
@@ -109,7 +109,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#GameUI_Ok"
-		"font"					"HudFontSmall"
+		"font"					"HudFontMediumSmall"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"

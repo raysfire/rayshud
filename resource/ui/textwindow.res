@@ -35,7 +35,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"TFMessageTitle"
 		"xpos"				"c-180"
-		"ypos"				"c-116"
+		"ypos"				"c-115"
 		"zpos"				"1"
 		"wide"				"360"
 		"tall"				"26"
@@ -43,10 +43,11 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"labelText"			"#TF_WELCOME"
+		"labelText"			"%mapname%"
 		"textAlignment"		"center"
 		"font"				"HudFontMedium"
 		"fgcolor"			"TanLight"
+		"allcaps"			"1"
 	}
 
 	"TextMessage"
@@ -60,9 +61,9 @@
 	{
 		"ControlName"		"CExRichText"
 		"fieldName"			"TFTextMessage"
-		"font"				"HudFontSmallest"
+		"font"				"HudFontSmall"
 		"xpos"				"c-170"
-		"ypos"				"c-90"
+		"ypos"				"c-85"
 		"zpos"				"1"
 		"wide"				"340"
 		"tall"				"180"
@@ -96,10 +97,10 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"ok"
-		"xpos"				"c-180"
+		"xpos"				"c-60"
 		"ypos"				"c96"
 		"zpos"				"6"
-		"wide"				"360"
+		"wide"				"120"
 		"tall"				"30"
 		"autoResize"		"0"
 		"pinCorner"			"2"
@@ -114,9 +115,9 @@
 		"font"				"HudFontMedium"
 		"paintbackground"	"0"
 
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override"		"TanDark"
-		"depressedFgColor_override" "TanLight"
+		"defaultFgColor_override" 	"TanDark"
+		"armedFgColor_override"		"TanLight"
+		"depressedFgColor_override" "TanDark"
 	}
 
 	"MenuBG"

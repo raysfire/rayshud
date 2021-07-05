@@ -25,7 +25,8 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "TanLight"
+		"allcaps"		"1"
+		"fgcolor_override" "ColorCyan"
 		"proportionaltoparent"	"1"
 	}
 
@@ -108,7 +109,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"WorkingText"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_UsePaintkit_Working"
 			"textAlignment"	"north"
 			"xpos"			"cs-0.5"
@@ -155,7 +156,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"SuccessText"
-			"font"			"HudFontMediumBold"
+			"font"			"HudFontMedium"
 			"labelText"		"#AbuseReport_SucceededTitle"
 			"textAlignment"	"north"
 			"xpos"			"cs-0.5"
@@ -202,7 +203,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"FailureText"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmall"
 			"labelText"		"#TF_UsePaintkit_Failed"
 			"textAlignment"	"north"
 			"xpos"			"cs-0.5"
@@ -221,7 +222,7 @@
 	{
 		"fieldName"	"InspectionPanel"
 		"xpos"		"0"
-		"ypos"		"40"
+		"ypos"		"30"
 		"zpos"		"10"
 		"wide"		"f0"
 		"tall"		"350"
@@ -243,7 +244,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#GameUI_CancelBold"
-		"font"			"HudFontSmall"
+		"font"			"HudFontMediumSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -270,11 +271,12 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_QuestView_RedeemReward"
-		"font"			"HudFontSmall"
+		"font"			"HudFontMediumSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"allcaps"		"1"
 		"Command"		"accept"
 		"proportionaltoparent"	"1"
 		"sound_depressed"		"UI/buttonclick.wav"

@@ -14,17 +14,16 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
-		"paintborder"			"2"
+		"bgcolor_override"		"DarkGrey"
 		"paintbackground"		"1"
 		"border"				"CyanBorderThick"
-		"bgcolor_override"		"DarkGrey"
 	}
 
 	"TitleLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"TitleLabel"
-		"font"					"HudFontMediumBold"
+		"font"					"HudFontMedium"
 		"labelText"				"#ConfirmTitle"
 		"textAlignment"			"north"
 		"xpos"					"0"
@@ -36,7 +35,6 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"fgcolor_override" 		"ColorCyan"
 	}
 
 	"AbandonIcon"
@@ -57,7 +55,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ExplanationLabel"
-		"font"					"EconFontSmall"
+		"font"					"HudFontSmall"
 		"labelText"				"%text%"
 		"textAlignment"			"north-west"
 		"xpos"					"60"
@@ -70,7 +68,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"wrap"					"1"
-		"fgcolor_override"		"ColorCyan"
+		"fgcolor_override"		"TanLight"
 	}
 
 	"CancelButton"
@@ -88,7 +86,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#GameUI_CancelBold"
-		"font"					"HudFontSmall"
+		"font"					"HudFontMediumSmall"
 		"textAlignment"			"center"
 		"textinsetx"			"50"
 		"dulltext"				"0"
@@ -114,7 +112,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#ConfirmButtonText"
-		"font"					"HudFontSmall"
+		"font"					"HudFontMediumSmall"
 		"textAlignment"			"center"
 		"textinsetx"			"50"
 		"dulltext"				"0"

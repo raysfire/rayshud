@@ -45,9 +45,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Taunt_Title"
-		"textAlignment"	"Left"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"allcaps"		"1"
 	}
 
 	"TitleLabelShadow"
@@ -66,9 +67,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Taunt_Title"
-		"textAlignment"	"Left"
+		"textAlignment"	"west"
 		"dulltext"		"1"
 		"brighttext"	"0"
+		"allcaps"		"1"
 		"pin_to_sibling"	"TitleLabel"
 	}
 
@@ -901,7 +903,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"0"
-		"ypos"			"20"
+		"ypos"			"22"
 		"zpos"			"1"
 		"wide"			"470"
 		"tall"			"100"

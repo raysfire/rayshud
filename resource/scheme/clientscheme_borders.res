@@ -126,27 +126,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "4 1"
 				}
 			}
@@ -154,27 +154,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "4 1"
 				}
 			}
@@ -182,27 +182,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "4 1"
 				}
 			}
@@ -214,27 +214,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 100 100 255"
+					"color" "ColorCyanFade"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "15 100 100 255"
+					"color" "ColorCyanFade"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "15 100 100 255"
+					"color" "ColorCyanFade"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "15 100 100 255"
+					"color" "ColorCyanFade"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "15 100 100 255"
+					"color" "ColorCyanFade"
 					"offset" "4 1"
 				}
 			}
@@ -242,27 +242,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 100 100 255"
+					"color" "ColorCyanFade"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "15 100 100 255"
+					"color" "ColorCyanFade"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "15 100 100 255"
+					"color" "ColorCyanFade"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "15 100 100 255"
+					"color" "ColorCyanFade"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "15 100 100 255"
+					"color" "ColorCyanFade"
 					"offset" "4 1"
 				}
 			}
@@ -270,27 +270,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 100 100 255"
+					"color" "ColorCyanFade"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "15 100 100 255"
+					"color" "ColorCyanFade"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "15 100 100 255"
+					"color" "ColorCyanFade"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "15 100 100 255"
+					"color" "ColorCyanFade"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "15 100 100 255"
+					"color" "ColorCyanFade"
 					"offset" "4 1"
 				}
 			}
@@ -303,7 +303,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "0 4"
 				}
 			}
@@ -311,7 +311,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "0 0"
 				}
 			}
@@ -319,7 +319,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "0 0"
 				}
 			}
@@ -327,7 +327,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "0 0"
 				}
 			}
@@ -340,17 +340,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "2 0"
 				}
 			}
@@ -358,17 +358,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "2 0"
 				}
 			}
@@ -376,17 +376,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "2 0"
 				}
 			}
@@ -394,17 +394,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "2 0"
 				}
 			}
@@ -909,7 +909,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "0 0"
 				}
 			}
@@ -917,7 +917,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "0 0"
 				}
 			}
@@ -925,7 +925,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "0 0"
 				}
 			}
@@ -933,7 +933,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "0 0"
 				}
 			}
@@ -946,7 +946,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "0 0"
 				}
 			}
@@ -954,7 +954,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "0 0"
 				}
 			}
@@ -962,7 +962,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "0 0"
 				}
 			}
@@ -970,7 +970,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "ColorCyan"
 					"offset" "0 0"
 				}
 			}

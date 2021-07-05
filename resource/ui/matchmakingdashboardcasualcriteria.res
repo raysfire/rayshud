@@ -18,7 +18,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"Title"
-		"xpos"					"8"
+		"xpos"					"0"
 		"ypos"					"25"
 		"zpos"					"99"
 		"wide"					"f0"
@@ -27,8 +27,9 @@
 		"labeltext"				"#TF_Matchmaking_HeaderCasual"
 		"textAlignment"			"center"
 		"font"					"HudFontMedium"
-		"fgcolor_override"		"White"
+		"fgcolor_override"		"TanLight"
 		"mouseinputenabled"		"0"
+		"allcaps"				"1"
 	}
 
 	"criteria"
@@ -75,7 +76,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFontMediumSmall"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -85,11 +86,9 @@
 		"mouseinputenabled"	"1"
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
+		"allcaps"			"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"armedBgColor_override"		"CreditsGreen"
-		"defaultBgColor_override"	"GreenSolid"
 	}
 }

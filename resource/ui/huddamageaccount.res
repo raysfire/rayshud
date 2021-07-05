@@ -7,7 +7,7 @@
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"Heal Numbers"
-		"NegativeColor"			""	// Unused
+		"NegativeColor"			"Damage Numbers"
 		"delta_lifetime"		"2"
 		"delta_item_font"		"Cerbetica24Outline"
 		"delta_item_font_big"	"Cerbetica24Outline"
@@ -30,7 +30,7 @@
 		"textAlignment"			"center"
 		"font"					"Cerbetica28"
 		"font_minmode"			"Cerbetica20"
-		"fgcolor"				"Last DamageHeal Info"
+		"fgcolor"				"Damage Numbers"
 	}
 
 	"DamageAccountValueShadow"

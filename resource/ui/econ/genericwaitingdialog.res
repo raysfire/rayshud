@@ -12,14 +12,14 @@
 		"bgcolor_override"		"DarkGrey"
 		"paintbackgroundtype"	"1"
 		"settitlebarvisible"	"0"
-		"border"				"CyanBorder"
+		"border"				"CyanBorderThick"
 	}
 
 	"TitleLabel"
 	{
 		"ControlName"			"Label"
 		"fieldName"				"TitleLabel"
-		"font"					"HudFontMediumSmall"
+		"font"					"HudFontMedium"
 		"xpos"					"0"
 		"ypos"					"8"
 		"zpos"					"0"
@@ -33,15 +33,13 @@
 		"centerwrap"			"1"
 		"labelText"				"%updatetext%"
 		"textAlignment"			"center"
-		"fgcolor_override" 		"White"
-		"bgcolor_override" 		"Transparent"
 	}
 
 	"EllipsesLabel"
 	{
 		"ControlName"			"Label"
 		"fieldName"				"EllipsesLabel"
-		"font"					"HudFontSmallest"
+		"font"					"HudFontSmall"
 		"xpos"					"0"
 		"ypos"					"42"
 		"zpos"					"0"
@@ -53,7 +51,7 @@
 		"enabled"				"1"
 		"labelText"				"%ellipses%"
 		"textAlignment"			"north"
-		"fgcolor_override"		"White"
+		"fgcolor_override"		"TanLight"
 		"bgcolor_override"		"Transparent"
 	}
 
@@ -61,7 +59,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"DurationLabel"
-		"font"					"HudFontSmallest"
+		"font"					"HudFontSmall"
 		"xpos"					"0"
 		"ypos"					"52"
 		"zpos"					"0"
@@ -73,7 +71,7 @@
 		"enabled"				"1"
 		"labelText"				"%duration%"
 		"textAlignment"			"north"
-		"fgcolor_override"		"White"
+		"fgcolor_override"		"TanLight"
 		"bgcolor_override"		"Transparent"
 	}
 
@@ -92,7 +90,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#Cancel"
-		"font"					"HudFontSmallest"
+		"font"					"HudFontMediumSmall"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"

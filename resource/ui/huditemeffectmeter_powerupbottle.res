@@ -5,10 +5,8 @@
 		"fieldName"			"HudItemEffectMeter"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-267"
-		"xpos_minmode"		"c-250"
-		"ypos"				"r72"
-		"ypos_minmode"		"r146"
+		"xpos"				"r105"
+		"ypos"				"r66"
 		"wide"				"100"
 		"tall"				"60"
 		"MeterFG"			"White"
@@ -66,6 +64,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"textAlignment"		"west"
+		"allcaps"			"1"
 		"labelText"			"#TF_Spell_Athletic"
 	}
 

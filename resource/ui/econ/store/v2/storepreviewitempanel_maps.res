@@ -59,8 +59,8 @@
 			"zpos"			"1"
 			"wide"			"260"
 			"tall"			"209"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"paintborder"	"1"
 			"border"		"PanelBorder"
 			"bgcolor_override"	"Grey"
@@ -142,7 +142,7 @@
 		"labelText"		"%selectiontitle%"
 		"textAlignment"	"center"
 		"xpos"			"c-130"
-		"ypos"			"c-129"
+		"ypos"			"c-140"
 		"wide"			"260"
 		"tall"			"33"
 		"autoResize"	"1"
@@ -151,6 +151,8 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
+		"allcaps"		"1"
+		"fgcolor"		"TanLight"
 	}
 
 	"ClassUsageImage1"
@@ -509,7 +511,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"defaultFgColor_override" 	"White"
-		"armedFgColor_override" 	"255 0 0 255"
+		"armedFgColor_override" 	"LightRed"
 		"depressedFgColor_override" "White"
 	}
 
@@ -527,7 +529,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_BackCarat"
-		"font"			"HudFontSmall"
+		"font"			"HudFontMediumSmall"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -552,7 +554,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Store_AddToCart"
-		"font"			"HudFontSmall"
+		"font"			"HudFontMediumSmall"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

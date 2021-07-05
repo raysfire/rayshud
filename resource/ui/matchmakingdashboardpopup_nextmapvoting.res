@@ -67,7 +67,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFontSmall"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -83,7 +83,7 @@
 
 				"image_default"		"glyph_collapse"
 
-				"image_drawcolor"	"235 226 202 255"
+				"image_drawcolor"	"TanLight"
 				"image_armedcolor"	"200 80 60 255"
 
 				"SubImage"
@@ -117,7 +117,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFontSmall"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -133,7 +133,7 @@
 
 				"image_default"		"glyph_expand"
 
-				"image_drawcolor"	"235 226 202 255"
+				"image_drawcolor"	"TanLight"
 				"image_armedcolor"	"200 80 60 255"
 
 				"SubImage"
@@ -164,7 +164,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFontSmall"
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"center"
 				"labelText"		"#TF_Matchmaking_RollingQueue_MatchOver"

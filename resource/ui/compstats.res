@@ -68,6 +68,7 @@
 			"font"				"HudFontSmallest"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"		"center"
+			"allcaps"			"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -90,6 +91,7 @@
 			"font"				"HudFontSmallest"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"		"center"
+			"allcaps"			"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -358,7 +360,6 @@
 				"ypos"			"7"
 				"wide"			"p0.95"
 				"tall"			"p0.98"
-				"tall"			"f20"
 				"visible"		"0"
 				"enabled"		"1"
 				"mouseinputenabled" "1"

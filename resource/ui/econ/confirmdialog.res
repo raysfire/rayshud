@@ -25,7 +25,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"TitleLabel"
-		"font"					"HudFontMediumBold"
+		"font"					"HudFontMedium"
 		"labelText"				"#ConfirmTitle"
 		"textAlignment"			"center"
 		"xpos"					"0"
@@ -43,7 +43,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ExplanationLabel"
-		"font"					"EconFontSmall"
+		"font"					"HudFontSmall"
 		"labelText"				"%text%"
 		"textAlignment"			"center"
 		"xpos"					"40"
@@ -56,6 +56,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"centerwrap"			"1"
+		"fgcolor_override"		"TanLight"
 	}
 
 	"CancelButton"
@@ -73,7 +74,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#GameUI_CancelBold"
-		"font"					"HudFontSmall"
+		"font"					"HudFontMediumSmall"
 		"textAlignment"			"center"
 		"textinsetx"			"50"
 		"dulltext"				"0"
@@ -99,7 +100,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#ConfirmButtonText"
-		"font"					"HudFontSmall"
+		"font"					"HudFontMediumSmall"
 		"textAlignment"			"center"
 		"textinsetx"			"50"
 		"dulltext"				"0"

@@ -42,10 +42,10 @@
 		"scaleImage"	"1"
 	}
 
-	"GuiPlayerHealth"
+	"TargetHealthValue"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"GuiPlayerHealth"
+		"fieldName"		"TargetHealthValue"
 		"xpos"			"2"
 		"ypos"			"16"
 		"zpos"			"5"
@@ -59,10 +59,10 @@
 		"fgcolor"		"Health Normal"
 	}
 
-	"GuiPlayerHealthShadow"
+	"TargetHealthShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"GuiPlayerHealthShadow"
+		"fieldName"		"TargetHealthShadow"
 		"xpos"			"-1"
 		"ypos"			"-2"
 		"zpos"			"5"
@@ -75,7 +75,7 @@
 		"font"			"Cerbetica18"
 		"fgcolor"		"TransparentBlack"
 
-		"pin_to_sibling"		"GuiPlayerHealth"
+		"pin_to_sibling"		"TargetHealthValue"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}

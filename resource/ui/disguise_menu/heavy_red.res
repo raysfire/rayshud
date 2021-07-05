@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemName"
-		"font"				"HudFontSmallest"
+		"font"				"HudFontSmallBold"
 		"xpos"				"20"
 		"ypos"				"0"
 		"zpos"				"1"

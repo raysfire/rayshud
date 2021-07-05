@@ -96,7 +96,7 @@
 		"fillcolor"		"0 0 0 0"
 	}
 
-	"PlayerStatusHealthValue"
+	"PlayerHealthValue"
 	{
 		"xpos"			"-18"
 		"ypos"			"12"
@@ -104,7 +104,7 @@
 		"font_minmode"	"Cerbetica24"
 	}
 
-	"PlayerStatusHealthValueShadow"
+	"PlayerHealthValueShadow"
 	{
 		"font"			"Cerbetica24"
 		"font_minmode"	"Cerbetica24"

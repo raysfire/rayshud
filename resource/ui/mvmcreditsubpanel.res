@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"HeaderLabel"
-		"font"				"HudFontSmallBold"
+		"font"				"HudFontSmall"
 		"labelText"			"%header%"
 		"textAlignment"		"north-west"
 		"xpos"				"0"
@@ -115,7 +115,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CreditRatingLabel"
-		"font"				"HudFontMediumBold"
+		"font"				"HudFontMedium"
 		"labelText"			"%rating%"
 		"textAlignment"		"center"
 		"xpos"				"66"

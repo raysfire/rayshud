@@ -66,14 +66,14 @@
 	}
 	"MOTD_ShowButtonPanel"
 	{
-		"label"			"o"
+		"label"			"w"
 		"command"		"motd_show"
-		"tooltip"		"#TF_MOTD_Title"
+		"tooltip"		"#TF_OptionCategory_HUD"
 	}
-	"RefreshHUDButton"
+	"HomeServerButton"
 	{
-		"label"			"."
-		"command"		"engine hud_reloadscheme"
-		"tooltip"		"Refresh HUD"
+		"label"			"p"
+		"command"		"engine connect 138.197.133.71; password flawhud"
+		"tooltip"		"Home Server"
 	}
 }

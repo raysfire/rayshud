@@ -6,22 +6,15 @@
 		// HUD COLORS
 		//---------------------------------------------
 		"ColorRed"					"255 0 0 255"
-		"ColorVermillion"			"255 64 0 255"
-		"ColorOrange"				"255 128 0 255"
 		"ColorYellow"				"255 255 0 255"
-		"ColorLime"					"128 255 0 255"
-		"ColorGreen"				"0 255 0 255"
-		"ColorTeal"					"0 255 128 255"
+		"ColorGreen"				"48 255 48 255"
 		"ColorCyan"					"72 255 255 255"
-		"ColorAqua"					"0 128 255 255"
+		"ColorCyanFade"				"72 100 100 255"
 		"ColorBlue"					"0 0 255 255"
 		"ColorPurple"				"128 0 255 255"
 		"ColorMagenta"				"255 0 255 255"
-		"ColorRuby"					"255 0 128 255"
 		"ColorBlack"				"0 0 0 255"
-		"ColorGreyDark"				"64 64 64 255"
 		"ColorGreyMid"				"128 128 128 255"
-		"ColorGreyLight"			"192 192 192 255"
 		"ColorWhite"				"255 255 255 255"
 		"DullWhite"					"132 132 132 255"
 		"Grey"						"51 47 46 255"
@@ -38,7 +31,7 @@
 		"Health Buff"				"48 255 48 255"
 		"Health Hurt"				"255 153 0 255"
 		"Heal Numbers"				"48 255 48 255"
-		"Last DamageHeal Info"		"72 255 255 255"
+		"Damage Numbers"			"72 255 255 255"
 		"ItemPanelBG"				"50 50 50 255"
 		"Button Color"				"72 255 255 255"
 		//---------------------------------------------
@@ -102,7 +95,7 @@
 
 		"Black"									"29 29 29 255"
 		"Transparent"							"0 0 0 0"
-		"TransparentBlack"						"0 0 0 200"
+		"TransparentBlack"						"0 0 0 230"
 		"TransparentLightBlack"					"0 0 0 90"
 		"FooterBGBlack"							"52 48 55 255"
 
@@ -114,7 +107,7 @@
 		"HUDDeathWarning"						"255 0 0 255"
 		"HudWhite"								"255 255 255 255"
 		"HudOffWhite"							"200 187 161 255"
-		"HudBlack"								"0 0 0 230"
+		"HudBlack"								"16 16 16 230"
 		"ProgressBarBlue"						"91 122 142 255"
 		"CreditsGreen"							"94 150 49 255"
 
@@ -162,11 +155,11 @@
 		"DisguiseMenuIconBlue"					"92 128 166 255"
 
 		"ProgressOffWhiteTransparent"			"251 235 202 128"
- 		"MatchmakingDialogTitleColor"			"15 255 255 255"
+ 		"MatchmakingDialogTitleColor"			"200 184 151 255"
  		"MatchmakingMenuItemBackground"			"46 43 42 255"
- 		"MatchmakingMenuItemBackgroundActive"	"15 255 255 255"
-		"MatchmakingMenuItemTitleColor"			"15 255 255 255"
-		"MatchmakingMenuItemDescriptionColor"	"15 255 255 255"
+ 		"MatchmakingMenuItemBackgroundActive"	"150 71 0 255"
+		"MatchmakingMenuItemTitleColor"			"200 184 151 255"
+		"MatchmakingMenuItemDescriptionColor"	"200 184 151 255"
 
 		"HTMLBackground"						"95 92 101 255"
 

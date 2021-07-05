@@ -184,7 +184,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"TitleLabel"
-				"font"			"HudFontMediumBold"
+				"font"			"HudFontMedium"
 				"labelText"		"#TF_SteamWorkshop_YourItems"
 				"textAlignment"	"west"
 				"xpos"			"15"
@@ -275,7 +275,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"CurPageLabel"
-				"font"			"HudFontSmall"
+				"font"			"HudFontMediumSmall"
 				"labelText"		"%page%"
 				"textAlignment"	"center"
 				"xpos"			"441"
@@ -318,7 +318,7 @@
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"ViewPublishedButton"
-				"xpos"			"435"
+				"xpos"			"433"
 				"ypos"			"15"
 				"zpos"			"20"
 				"wide"			"100"
@@ -609,7 +609,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_Close"
-			"font"			"HudFontSmall"
+			"font"			"HudFontMediumSmall"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"dulltext"		"0"

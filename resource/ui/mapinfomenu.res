@@ -36,7 +36,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoTitle"
 		"xpos"			"c-180"
-		"ypos"			"c-116"
+		"ypos"			"c-115"
 		"zpos"			"1"
 		"wide"			"360"
 		"tall"			"26"
@@ -48,6 +48,7 @@
 		"textAlignment"	"center"
 		"font"			"HudFontMedium"
 		"fgcolor"		"TanLight"
+		"allcaps"		"1"
 	}
 
 	"MapInfoType"
@@ -76,7 +77,7 @@
 		"fieldName"		"MapInfoText"
 		"font"			"HudFontSmall"
 		"xpos"			"c-170"
-		"ypos"			"c-90"
+		"ypos"			"c-85"
 		"zpos"			"3"
 		"wide"			"340"
 		"tall"			"155"
@@ -126,11 +127,10 @@
 		"font"			"HudFontMedium"
 		"paintbackground"	"0"
 
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override"		"TanDark"
+		"defaultFgColor_override" 	"TanDark"
+		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" 	"TanDark"
+
 	}
 
 	"MapInfoWatchIntro"
@@ -161,11 +161,10 @@
 		"font"			"HudFontMedium"
 		"paintbackground"	"0"
 
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override"		"TanDark"
+		"defaultFgColor_override" 	"TanDark"
+		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" 	"TanDark"
+
 	}
 
 	"MenuBG"

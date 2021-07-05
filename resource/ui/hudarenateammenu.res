@@ -13,7 +13,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"fgcolor"		"255 0 0 255"
 	}
 
 	"SidePanelBG"
@@ -28,7 +27,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"0 0 0 120"
+		"fillcolor"		"0 0 0 100"
 	}
 
 	"SysMenu"
@@ -66,14 +65,15 @@
 		"ControlName"	"Label"
 		"fieldName"		"mapname"
 		"xpos"			"0"
-		"ypos"			"35"
+		"ypos"			"c-75"
 		"zpos"			"1"
 		"wide"			"255"
-		"tall"			"30"
+		"tall"			"25"
 		"textAlignment"	"center"
-		"font"			"Cerbetica28"
+		"font"			"Cerbetica32"
 		"visible"		"1"
 		"enabled"		"1"
+		"allcaps"		"1"
 		"fgcolor_override"	"TanLight"
 	}
 
@@ -82,8 +82,8 @@
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton2"
 		"xpos"			"0"
-		"ypos"			"c-35"
-		"zpos"			"3"
+		"ypos"			"15"
+		"zpos"			"1"
 		"wide"			"255"
 		"tall"			"30"
 		"autoResize"	"0"
@@ -98,11 +98,23 @@
 		"command"		"jointeam spectate"
 		"font"			"Cerbetica20"
 		"allcaps"		"1"
-
-		"defaultFgColor_override"	"255 255 255 128"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override"	"255 255 255 128"
-		"selectedFgColor_override"	"TanLight"
+		
+		"defaultBgColor_override" 	"TransparentBlack"
+		"armedBgColor_override"		"ColorWhite"
+		"depressedBgColor_override" "TransparentBlack"
+		"selectedBgColor_override" 	"ColorWhite"
+		
+		"defaultFgColor_override" 	"TanLight"
+		"armedFgColor_override"		"TanDark"
+		"depressedFgColor_override" "TanLight"
+		"selectedFgColor_override" 	"TanDark"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+		
+		"pin_to_sibling"			"mapname"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
 
 	"teambutton3"
@@ -110,8 +122,8 @@
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton3"
 		"xpos"			"0"
-		"ypos"			"c5"
-		"zpos"			"3"
+		"ypos"			"5"
+		"zpos"			"1"
 		"wide"			"255"
 		"tall"			"30"
 		"autoResize"	"0"
@@ -125,11 +137,23 @@
 		"brighttext"	"0"
 		"command"		"jointeam spectatearena"
 		"font"			"Cerbetica20"
-
-		"defaultFgColor_override"	"255 255 255 128"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override"	"255 255 255 128"
-		"selectedFgColor_override"	"TanLight"
+		
+		"defaultBgColor_override" 	"TransparentBlack"
+		"armedBgColor_override"		"ColorWhite"
+		"depressedBgColor_override" "TransparentBlack"
+		"selectedBgColor_override" 	"ColorWhite"
+		
+		"defaultFgColor_override" 	"TanLight"
+		"armedFgColor_override"		"TanDark"
+		"depressedFgColor_override" "TanLight"
+		"selectedFgColor_override" 	"TanDark"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+		
+		"pin_to_sibling"			"teambutton2"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
 
 	"CancelButton"
@@ -137,34 +161,6 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
 		"wide"			"0"
-	}
-
-	"FightBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"FightBG"
-		"xpos"			"0"
-		"ypos"			"c-35"
-		"zpos"			"0"
-		"wide"			"255"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"TransparentBlack"
-	}
-
-	"SpectateBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"SpectateBG"
-		"xpos"			"0"
-		"ypos"			"c5"
-		"zpos"			"0"
-		"wide"			"255"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"TransparentBlack"
 	}
 
 	"MenuBG"

@@ -2,11 +2,10 @@
 
 "Resource/UI/HudRocketPack.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"tall"				"20"
 	}
-
 	"ItemEffectMeterBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -33,13 +32,12 @@
 	"ItemEffectMeterLabel"
 	{
 		"visible"			"0"
-		"labelText"			"#TF_RocketPack_Disabled"
 	}
 
 	"ItemEffectMeter"
 	{
 		"wide"				"60"
-		"wide_minmode"		"55"
+		"wide_minmode"		"50"
 	}
 
 	"ItemEffectMeter2"
@@ -48,18 +46,18 @@
 		"fieldName"			"ItemEffectMeter2"
 		"font"				"Default"
 		"xpos"				"60"
-		"xpos_minmode"		"55"
+		"xpos_minmode"		"51"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"60"
 		"tall"				"8"
-		"wide_minmode"		"55"
+		"wide_minmode"		"50"
 		"tall_minmode"		"5"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"textAlignment"		"Center"
+		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}

@@ -88,10 +88,10 @@
 		"image"			"replay/thumbnails/uber"
 
 		"team-red" {
-			"drawcolor"	"188 66 66 255"
+			"drawcolor"	"205 50 50 150"
 		}
 		"team-blu" {
-			"drawcolor"	"79 117 144 255"
+			"drawcolor"	"70 130 180 150"
 		}
 
 		"player-alive"

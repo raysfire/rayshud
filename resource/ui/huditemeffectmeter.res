@@ -1,12 +1,12 @@
 "Resource/UI/HudItemEffectMeter.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"fieldName"			"HudItemEffectMeter"
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"c-75"
-		"xpos_minmode"		"c-55"
+		"xpos_minmode"		"c-50"
 		"ypos"				"c103"
 		"ypos_minmode"		"c48"
 		"wide"				"180"
@@ -45,7 +45,7 @@
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"120"
-		"wide_minmode"		"110"
+		"wide_minmode"		"100"
 		"tall"				"8"
 		"tall_minmode"		"5"
 		"autoResize"		"0"

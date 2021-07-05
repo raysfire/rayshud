@@ -6,8 +6,8 @@
 		"fieldName"		"PlayerStatusHealthImage"
 		"wide"			"0"
 		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 	}
 
 	"PlayerStatusHealthImageBG"
@@ -16,8 +16,8 @@
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"wide"			"0"
 		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 	}
 
 	"BuildingStatusHealthImageBG"
@@ -26,8 +26,8 @@
 		"fieldName"		"BuildingStatusHealthImageBG"
 		"wide"			"0"
 		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 	}
 
 	"PlayerStatusHealthBonusImage"
@@ -36,14 +36,14 @@
 		"fieldName"		"PlayerStatusHealthBonusImage"
 		"wide"			"0"
 		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 	}
 
-	"GuiPlayerHealth"
+	"TargetHealthValue"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"GuiPlayerHealth"
+		"fieldName"		"TargetHealthValue"
 		"xpos"			"3"
 		"ypos"			"3"
 		"zpos"			"5"
@@ -52,14 +52,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"Cerbetica16"
+		"font"			"HudFontMediumSmall"
 		"labeltext"		"%Health%"
 	}
 
-	"GuiPlayerHealthShadow"
+	"TargetHealthShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"GuiPlayerHealthShadow"
+		"fieldName"		"TargetHealthShadow"
 		"xpos"			"4"
 		"ypos"			"4"
 		"zpos"			"5"
@@ -68,7 +68,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"Cerbetica16"
+		"font"			"HudFontMediumSmall"
 		"fgcolor"		"TransparentBlack"
 		"labeltext"		"%Health%"
 	}
