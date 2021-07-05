@@ -1495,4 +1495,20 @@
 			"fgcolor_override" "LightRed"
 		}
 	}
+	
+	"raysfox"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"raysfox"
+		"xpos"			"c-300"
+		"ypos"			"r65"
+		"zpos"			"99"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay\thumbnails\raysfox\fire"
+		"scaleImage"	"1"
+		"proportionaltoparent" "1"
+	}
 }
