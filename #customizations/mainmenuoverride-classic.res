@@ -56,18 +56,6 @@
 		"ypos"			"260"
 	}
 
-	"Notifications_ShowButtonPanel"
-	{
-		"xpos"				"r28"
-		"ypos"				"40"
-	}
-
-	"Notifications_Panel"
-	{
-		"xpos"			"r240"
-		"ypos"			"60"
-	}
-
 	"FriendsContainer"
 	{
 		"xpos"			"80"
