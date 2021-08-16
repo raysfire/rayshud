@@ -1220,7 +1220,7 @@
 		"fieldName"			"HudInspectPanel"
 		"visible"			"0"
 		"enabled"			"1"
-		"xpos"				"r249"
+		"xpos"				"r200"
 		"ypos"				"c0"
 		"zpos"				"10"
 		"wide"				"300"

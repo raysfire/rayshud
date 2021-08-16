@@ -5,7 +5,7 @@
 	"itempanel"
 	{
 		// For some reason this doesnt obey the xpos set in HUD Layout
-		"xpos"					"r249"
+		"xpos"					"r200"
 	}
 
 	"FreezePanel"
