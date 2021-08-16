@@ -121,7 +121,7 @@
 		"fieldName"			"ChargeMeter"
 		"font"				"Default"
 		"xpos"				"15"
-		"ypos"				"5"
+		"ypos"				"20"
 		"xpos_minmode"		"-15"
 		"ypos_minmode"		"0"
 		"zpos"				"2"
