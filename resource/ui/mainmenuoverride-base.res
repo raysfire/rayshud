@@ -171,7 +171,53 @@
 			"tall"		"f0"
 		}
 	}
+	
+	"Notifications_ShowButtonPanel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"Notifications_ShowButtonPanel"
+		"xpos"				"rs1-10"
+		"ypos"				"45"
+		"zpos"				"0"
+		"wide"				"20"
+		"tall"				"20"
+		"autoResize"		"0"
+		"pinCorner"			"3"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"bgcolor_override"	"Transparent"
 
+		"Notifications_ShowButtonPanel_SB"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"Notifications_ShowButtonPanel_SB"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"20"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"3"
+			"visible"			"1"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"labelText"			"k"
+			"font"				"CustomIcons"
+			"Command"			"noti_show"
+			"use_proportional_insets" "1"
+			"textAlignment"		"center"
+			"default"			"1"
+			"actionsignallevel"	"2"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"ColorCyan"
+		}
+	}
+	
 	"HudName"
 	{
 		"ControlName"	"CExImageButton"
