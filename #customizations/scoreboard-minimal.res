@@ -17,8 +17,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ClassImage"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"80"
+		"ypos"			"-130"
 		"zpos"			"3"
 		"wide"			"92"
 		"tall"			"92"
@@ -27,9 +27,9 @@
 		"image"			"../hud/class_scoutred"
 		"scaleImage"	"1"
 
-		"pin_to_sibling"		"LocalPlayerStatsPanel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		"pin_to_sibling"		"MainBG"
+		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 
 		if_mvm
 		{
