@@ -88,7 +88,7 @@ Scheme
 		Label.SelectedTextColor					"White"
 		Label.BgColor							"Blank"
 		Label.DisabledFgColor1					"Blank"
-		Label.DisabledFgColor2					"Black"
+		Label.DisabledFgColor2					"150 150 150 255"
 
 		ListPanel.TextColor						"Orange"
 		ListPanel.BgColor						"TransparentBlack"
