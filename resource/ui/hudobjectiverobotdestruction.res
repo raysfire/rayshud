@@ -11,15 +11,15 @@
 		"tall"				"480"
 		"visible"			"1"
 		"enabled"			"1"
+		
+		"left_steal_edge_offset"	"97"
+		"right_steal_edge_offset"	"97"
 		"robot_x_offset"	"78"
 		"robot_y_offset"	"47"
 		"robot_x_step"		"23"
 		"robot_y_step"		"0"
 		"color_blue"		"Blue"
 		"color_red"			"Red"
-
-		"left_steal_edge_offset"	"97"
-		"right_steal_edge_offset"	"97"
 
 		"if_hybrid"
 		{
@@ -180,7 +180,7 @@
 			"textAlignment"		"west"
 			"labelText"			"%flagvalue%"
 			"font"				"HudFontMediumSmall"
-			"fgcolor"			"TransparentBlack`"
+			"fgcolor"			"TransparentBlack"
 			"proportionalToParent"	"1"
 			"pin_to_sibling"		"FlagValue"
 		}
