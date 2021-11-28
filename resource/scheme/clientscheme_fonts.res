@@ -1,5 +1,8 @@
 Scheme
 {
+	//////////////////////// FONTS /////////////////////////////
+	//
+	// describes all the fonts
 	Fonts
 	{
 		// CUSTOM

@@ -1,16 +1,16 @@
 "GameMenu"
 {
+	"HomeServerButton"
+	{
+		"label"			"p"
+		"command"		"engine clear; showconsole; echo To setup a shortcut to your favorite server, open rayshud/resource/gamemenu.res and under 'HomeServerButton' replace the value of 'command' with the connection string to your server. Example: engine connect 192.168.1.10:27015; password hello"
+		"tooltip"		"Home Server"
+	}
 	"AchievementsButton"
 	{
 		"label"			"b"
 		"command"		"OpenAchievementsDialog"
 		"tooltip" 		"#Achievements"
-	}
-	"ConsoleButton"
-	{
-		"label"			"c"
-		"command"		"engine toggleconsole"
-		"tooltip"		"Console"
 	}
 	"ReplayButton"
 	{
@@ -23,6 +23,12 @@
 		"label"			"e"
 		"command"		"engine bug"
 		"tooltip"		"#MMenu_Tooltip_ReportBug"
+	}
+	"ConsoleButton"
+	{
+		"label"			"c"
+		"command"		"engine toggleconsole"
+		"tooltip"		"#GameUI_Console"
 	}
 	"CoachPlayersButton"
 	{
@@ -69,11 +75,5 @@
 		"label"			"w"
 		"command"		"motd_show"
 		"tooltip"		"#TF_OptionCategory_HUD"
-	}
-	"HomeServerButton"
-	{
-		"label"			"p"
-		"command"		"engine connect 138.197.133.71; password flawhud"
-		"tooltip"		"Home Server"
 	}
 }

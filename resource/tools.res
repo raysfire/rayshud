@@ -376,7 +376,7 @@
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
 			"defaultFgColor_override"	"255 255 255 255"
-			"armedFgColor_override"		"128 128 128 255"
+			"armedFgColor_override"		"150 150 150 255"
 			"depressedFgColor_override"	"255 255 255 255"
 		}
 		
@@ -406,7 +406,7 @@
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
 			"defaultFgColor_override" 	"255 255 0 255"
-			"armedFgColor_override" 	"128 128 0 255"
+			"armedFgColor_override" 	"150 150 0 255"
 			"depressedFgColor_override" "255 255 0 255"
 		}
 		
@@ -436,7 +436,7 @@
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
 			"defaultFgColor_override" 	"255 0 0 255"
-			"armedFgColor_override" 	"128 0 0 255"
+			"armedFgColor_override" 	"150 0 0 255"
 			"depressedFgColor_override" "255 0 0 255"
 		}
 		
@@ -466,7 +466,7 @@
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 			
 			"defaultFgColor_override" 	"0 255 0 255"
-			"armedFgColor_override" 	"0 128 0 255"
+			"armedFgColor_override" 	"0 150 0 255"
 			"depressedFgColor_override" "0 255 0 255"
 		}
 		
@@ -496,7 +496,7 @@
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
 			"defaultFgColor_override" 	"0 255 255 255"
-			"armedFgColor_override" 	"0 128 128 255"
+			"armedFgColor_override" 	"0 150 150 255"
 			"depressedFgColor_override" "0 255 255 255"
 		}
 
@@ -526,7 +526,7 @@
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
 			"defaultFgColor_override" 	"255 0 255 255"
-			"armedFgColor_override" 	"128 0 128 255"
+			"armedFgColor_override" 	"150 0 150 255"
 			"depressedFgColor_override" "255 0 255 255"
 		}
 		

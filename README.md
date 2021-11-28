@@ -35,8 +35,8 @@ tf
         ├── resource
         ├── scripts
         ├── sound
-        ├── README.md
-        └── info.vdf
+        ├── info.vdf
+        └── README.md
 ```
 
 Help/Support

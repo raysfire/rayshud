@@ -32,7 +32,7 @@
 		"ControlName"			"Button"
 		"fieldName"				"ChatFiltersButton"
 		"xpos"					"173"
-		"ypos"					"87"
+		"ypos"					"86"
 		"wide"					"33"
 		"tall"					"8"
 		"autoResize"			"1"

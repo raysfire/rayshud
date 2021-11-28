@@ -53,7 +53,7 @@
 		"fieldName"		"StunMeter"
 		"font"			"Default"
 		"xpos"			"50"
-		"ypos"			"19"
+		"ypos"			"27"
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"8"

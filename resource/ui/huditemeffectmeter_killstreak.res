@@ -7,6 +7,7 @@
 		"xpos"				"c115"
 		"xpos_minmode"		"c65"
 	}
+	
 	"ItemEffectMeterLabel"
 	{
 		"labelText"			"#TF_KillStreak"

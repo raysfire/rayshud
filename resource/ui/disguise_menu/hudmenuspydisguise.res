@@ -106,7 +106,7 @@
 		"ypos"				"25"
 		"zpos"				"2"
 		"wide"				"80"
-		"tall"				"16"
+		"tall"				"20"
 		"visible"			"1"
 	}
 
@@ -118,7 +118,7 @@
 		"ypos"				"25"
 		"zpos"				"2"
 		"wide"				"80"
-		"tall"				"16"
+		"tall"				"20"
 		"visible"			"1"
 	}
 
@@ -130,7 +130,7 @@
 		"ypos"				"40"
 		"zpos"				"2"
 		"wide"				"80"
-		"tall"				"16"
+		"tall"				"20"
 		"visible"			"1"
 	}
 
@@ -142,7 +142,7 @@
 		"ypos"				"40"
 		"zpos"				"2"
 		"wide"				"80"
-		"tall"				"16"
+		"tall"				"20"
 		"visible"			"1"
 	}
 
@@ -154,7 +154,7 @@
 		"ypos"				"55"
 		"zpos"				"2"
 		"wide"				"80"
-		"tall"				"16"
+		"tall"				"20"
 		"visible"			"1"
 	}
 
@@ -166,7 +166,7 @@
 		"ypos"				"55"
 		"zpos"				"2"
 		"wide"				"80"
-		"tall"				"16"
+		"tall"				"20"
 		"visible"			"1"
 	}
 
@@ -178,7 +178,7 @@
 		"ypos"				"70"
 		"zpos"				"2"
 		"wide"				"80"
-		"tall"				"16"
+		"tall"				"20"
 		"visible"			"1"
 	}
 
@@ -190,7 +190,7 @@
 		"ypos"				"70"
 		"zpos"				"2"
 		"wide"				"80"
-		"tall"				"16"
+		"tall"				"20"
 		"visible"			"1"
 	}
 
@@ -202,7 +202,7 @@
 		"ypos"				"85"
 		"zpos"				"2"
 		"wide"				"80"
-		"tall"				"16"
+		"tall"				"20"
 		"visible"			"1"
 	}
 
@@ -214,7 +214,7 @@
 		"ypos"				"85"
 		"zpos"				"2"
 		"wide"				"80"
-		"tall"				"16"
+		"tall"				"20"
 		"visible"			"1"
 	}
 
@@ -226,7 +226,7 @@
 		"ypos"				"100"
 		"zpos"				"2"
 		"wide"				"80"
-		"tall"				"16"
+		"tall"				"20"
 		"visible"			"1"
 	}
 
@@ -238,7 +238,7 @@
 		"ypos"				"100"
 		"zpos"				"2"
 		"wide"				"80"
-		"tall"				"16"
+		"tall"				"20"
 		"visible"			"1"
 	}
 
@@ -250,7 +250,7 @@
 		"ypos"				"115"
 		"zpos"				"2"
 		"wide"				"80"
-		"tall"				"16"
+		"tall"				"20"
 		"visible"			"1"
 	}
 
@@ -262,7 +262,7 @@
 		"ypos"				"115"
 		"zpos"				"2"
 		"wide"				"80"
-		"tall"				"16"
+		"tall"				"20"
 		"visible"			"1"
 	}
 
@@ -274,7 +274,7 @@
 		"ypos"				"130"
 		"zpos"				"2"
 		"wide"				"80"
-		"tall"				"16"
+		"tall"				"20"
 		"visible"			"1"
 	}
 
@@ -286,7 +286,7 @@
 		"ypos"				"130"
 		"zpos"				"2"
 		"wide"				"80"
-		"tall"				"16"
+		"tall"				"20"
 		"visible"			"1"
 	}
 
@@ -298,7 +298,7 @@
 		"ypos"				"145"
 		"zpos"				"2"
 		"wide"				"80"
-		"tall"				"16"
+		"tall"				"20"
 		"visible"			"1"
 	}
 
@@ -310,7 +310,7 @@
 		"ypos"				"145"
 		"zpos"				"2"
 		"wide"				"80"
-		"tall"				"16"
+		"tall"				"20"
 		"visible"			"1"
 	}
 

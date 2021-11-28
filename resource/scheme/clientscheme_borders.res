@@ -1,5 +1,9 @@
 Scheme
 {
+	//
+	//////////////////// BORDERS //////////////////////////////
+	//
+	// describes all the border types
 	Borders
 	{
 		ButtonHover
