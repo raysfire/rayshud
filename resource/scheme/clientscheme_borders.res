@@ -218,27 +218,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "ColorCyanFade"
+					"color" "ColorCyanShadow"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "ColorCyanFade"
+					"color" "ColorCyanShadow"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "ColorCyanFade"
+					"color" "ColorCyanShadow"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "ColorCyanFade"
+					"color" "ColorCyanShadow"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "ColorCyanFade"
+					"color" "ColorCyanShadow"
 					"offset" "4 1"
 				}
 			}
@@ -246,27 +246,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "ColorCyanFade"
+					"color" "ColorCyanShadow"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "ColorCyanFade"
+					"color" "ColorCyanShadow"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "ColorCyanFade"
+					"color" "ColorCyanShadow"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "ColorCyanFade"
+					"color" "ColorCyanShadow"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "ColorCyanFade"
+					"color" "ColorCyanShadow"
 					"offset" "4 1"
 				}
 			}
@@ -274,27 +274,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "ColorCyanFade"
+					"color" "ColorCyanShadow"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "ColorCyanFade"
+					"color" "ColorCyanShadow"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "ColorCyanFade"
+					"color" "ColorCyanShadow"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "ColorCyanFade"
+					"color" "ColorCyanShadow"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "ColorCyanFade"
+					"color" "ColorCyanShadow"
 					"offset" "4 1"
 				}
 			}
