@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "console/background_classic"
+	"$baseTexture" "console/background_upward"
 	"$vertexcolor" "1"
 	"$vertexalpha" "1"
 	"$ignorez" "1"
