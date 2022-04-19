@@ -4,7 +4,7 @@
 {
 	"HudItemEffectMeter"
 	{
-		"ypos"				"c83"
+		"ypos"				"c83+73"
 		"ypos_minmode"		"c60"
 	}
 }
