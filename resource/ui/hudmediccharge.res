@@ -21,7 +21,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ChargeLabel"
-		"xpos"				"c90+20"
+		"xpos"				"c90+10+20"
 		"ypos"				"45+24"
 		"xpos_minmode"		"c40"
 		"ypos_minmode"		"5"
@@ -68,6 +68,28 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
+
+	"bh_UberNearCrosshair"
+    {
+        "ControlName"                                               "CExLabel"
+        "fieldName"                                                 "bh_UberNearCrosshair"
+        "xpos"                                                      "c-100"
+        "ypos"                                                      "c-35"
+        "zpos"                                                      "2"
+        "wide"                                                      "200"
+        "tall"                                                      "100"
+        "autoResize"                                                "1"
+        "pinCorner"                                                 "2"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "tabPosition"                                               "0"
+        "labelText"                                                 "#TF_UberchargeMinHUD"
+        "textAlignment"                                             "center"
+        "dulltext"                                                  "0"
+        "brighttext"                                                "0"
+        "font"                                                      "Cerbetica24"
+        "fgcolor"                                                   "bh_white"
+    }
 
 	"IndividualChargesLabel"
 	{
