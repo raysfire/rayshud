@@ -23,17 +23,20 @@ Scheme
 		"TextColor"					"117 107 94 255"
 		//---------------------------------------------
 		// Gameplay
-		"Ammo In Clip"				"48 255 48 255"
-		"Ammo In Reserve"			"72 255 255 255"
+		"Ammo In Clip"				"255 173 255 255" //"48 255 48 255"
+		"Ammo In Reserve"			"255 111 255 255" //"72 255 255 255"
 		"Ammo In Clip Low"			"255 42 130 255"
 		"Ammo In Reserve Low"		"255 128 28 255"
-		"Health Normal"				"235 226 202 255"
+		"Health Normal"				"255 173 255 255" //"235 226 202 255"
 		"Health Buff"				"48 255 48 255"
 		"Health Hurt"				"255 153 0 255"
 		"Heal Numbers"				"48 255 48 255"
 		"Damage Numbers"			"72 255 255 255"
 		"ItemPanelBG"				"50 50 50 255"
 		"Button Color"				"72 255 255 255"
+
+		"cute1"						"255 173 255 255" //
+		"cute2"						"255 111 255 255" //
 		//---------------------------------------------
 		// Crosshair Colors
 		"Crosshair"					"242 242 242 255"

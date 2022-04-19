@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$translucent"		"1"
+	"$baseTexture"		"vgui\replay\thumbnails\cp_icons\icon_obj_cap_mask"
+	"$no_fullbright"	"1"
+	"$ignorez"			"1"
+	"%keywords"			"tf"
+}
