@@ -59,55 +59,7 @@ Scheme
 			}
 		}
 
-		"Skull28"
-		{
-			"1"
-			{
-				"name"			"Hypnotize Icons V6"
-				"tall"			"14"
-				"weight"		"400"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-
-		"Skull29"
-		{
-			"1"
-			{
-				"name"			"Hypnotize Icons V6"
-				"tall"			"15"
-				"weight"		"400"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-
-		"Skull30"
-		{
-			"1"
-			{
-				"name"			"Hypnotize Icons V6"
-				"tall"			"16"
-				"weight"		"400"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-
-		"Skull31"
-		{
-			"1"
-			{
-				"name"			"Hypnotize Icons V6"
-				"tall"			"17"
-				"weight"		"400"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-
-		"Skull32"
+		"Skull18"
 		{
 			"1"
 			{
@@ -119,29 +71,6 @@ Scheme
 			}
 		}
 
-		"Skull33"
-		{
-			"1"
-			{
-				"name"			"Hypnotize Icons V6"
-				"tall"			"19"
-				"weight"		"400"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-
-		"Skull34"
-		{
-			"1"
-			{
-				"name"			"Hypnotize Icons V6"
-				"tall"			"20"
-				"weight"		"400"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
 	}
 
 	CustomFontFiles
