@@ -6,7 +6,7 @@
 		"fieldName"			"ChargeMeter"
 		"font"				"Default"
 		"xpos"				"c-60"
-		"ypos"				"c93"
+		"ypos"				"c93+100"
 		"xpos_minmode"		"c-60"
 		"ypos_minmode"		"c55"
 		"zpos"				"2"
@@ -21,6 +21,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"fgcolor_override"	"White"
+		"bgcolor_override"	"200 200 200 140"
 	}
 
 	"ItemEffectMeterLabel"
@@ -32,7 +33,7 @@
 		"zpos"				"3"
 		"wide"				"120"
 		"tall"				"8"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"0"
 		"visible_minmode"	"0"
 		"enabled_minmode"	"0"
