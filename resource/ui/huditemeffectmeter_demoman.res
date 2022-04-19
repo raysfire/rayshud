@@ -120,8 +120,8 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Skull28"
-		"font_minmode"			"Skull28"
+		"font"					"Skull32"
+		"font_minmode"			"Skull32"
 		"fgcolor"				"cute1"
 	}
 
@@ -143,8 +143,8 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Skull28"
-		"font_minmode"			"Skull28"
+		"font"					"Skull32"
+		"font_minmode"			"Skull32"
 		"fgcolor"				"TransparentBlack"
 		"pin_to_sibling"		"ItemEffectMeterIcon"
 	}
