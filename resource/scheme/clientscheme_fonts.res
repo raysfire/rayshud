@@ -470,6 +470,17 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"HudFontGiantBoldBold"
+		{
+			"1"
+			{
+				"name"			"Bahnschrift"//"Cerbetica"
+				"tall"			"44"
+				"weight"		"1000"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
 		"HudFontBiggerBold"
 		{
 			"1"

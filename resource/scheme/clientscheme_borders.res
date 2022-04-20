@@ -43,6 +43,45 @@ Scheme
 			}
 		}
 
+		FriendsBorder
+		{
+
+			"color" "0 0 0 140"
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "ColorBlack"
+					"offset" "0 0"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "ColorBlack"
+					"offset" "0 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "ColorBlack"
+					"offset" "0 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "ColorBlack"
+					"offset" "0 0"
+				}
+			}
+		}
+
 		MenuBorder
 		{
 			"inset" "0 0 0 0"
