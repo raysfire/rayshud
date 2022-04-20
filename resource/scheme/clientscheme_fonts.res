@@ -67,6 +67,18 @@ Scheme
 				"outline"		"1"
 			}
 		}
+		"Cerbetica24Dropshadow"
+		{
+			"1"
+			{
+				"name"			"Bahnschrift"//"Cerbetica-Bold"
+				"tall"			"24"
+				"additive"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+				"dropshadow"	"1"
+			}
+		}
 		"Cerbetica20"
 		{
 			"1"
