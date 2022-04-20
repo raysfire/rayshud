@@ -75,7 +75,6 @@ Scheme
 				"tall"			"24"
 				"additive"		"0"
 				"antialias"		"1"
-				"outline"		"1"
 				"dropshadow"	"1"
 			}
 		}
