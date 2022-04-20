@@ -301,7 +301,7 @@
 		"visible" 				"0"
 		"enabled" 				"1"
 		"xpos"					"c-100"
-		"ypos"					"c145"
+		"ypos"					"c+20" //c145
 		"ypos_minmode"			"c140"
 		"wide"					"600"
 		"tall"					"50"
