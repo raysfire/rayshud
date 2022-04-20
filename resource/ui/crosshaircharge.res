@@ -25,7 +25,7 @@
         "textAlignment"                                             "center"
         "dulltext"                                                  "0"
         "brighttext"                                                "0"
-        "font"                                                      "Cerbetica24Dropshadow"
+        "font"                                                      "Cerbetica24Outline"
         "fgcolor"                                                   "White"
     }
 }
