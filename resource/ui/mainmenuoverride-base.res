@@ -627,7 +627,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
 		"xpos"			"cs-0.5-130" //"30"
-		"ypos"			"c+50" //c+50 //"82"
+		"ypos"			"c-50" //c+50 //"82"
 		"zpos"			"11"
 		"wide"			"250"
 		"tall"			"60" //"18"
@@ -685,7 +685,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingButton"
 		"xpos"			"cs-0.5-130" //30
-		"ypos"			"c-50" //c-50 //200 //142
+		"ypos"			"c+50" //c-50 //200 //142
 		"zpos"			"11"
 		"wide"			"250"
 		"tall"			"60" //"18"
