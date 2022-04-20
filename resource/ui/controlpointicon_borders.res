@@ -11,9 +11,9 @@
 		"zpos"		  								"-1"
 		"wide"		  								"32"
 		"tall"		 								"32"
-		"visible"	 								"1"
+		"visible"	 								"0"
 		"enabled"	  								"1"
-		"fillcolor"	  								"32 32 32 255"
+		"fillcolor"	  								"0 0 0 255"
 		"scaleImage"	 							"1"
 	}
 	
@@ -28,7 +28,7 @@
 		"tall"		  								"32"
 		"visible"	   								"1"
 		"enabled"	   								"1"
-		"fillcolor"	   								"32 32 32 255"
+		"fillcolor"	   								"0 0 0 255"
 		"scaleImage"	  							"1"
 	}
 	   
@@ -43,7 +43,7 @@
 		"tall"										"32"
 		"visible"									"1"
 		"enabled"	   								"1"
-		"fillcolor"	  								"32 32 32 255"
+		"fillcolor"	  								"0 0 0 255"
 		"scaleImage"	  							"1"
 	}
 	   
@@ -58,7 +58,7 @@
 		"tall"		   								"3"
 		"visible"	  								"1"
 		"enabled"	  								"1"
-		"fillcolor"	  								"32 32 32 255"
+		"fillcolor"	  								"0 0 0 255"
 		"scaleImage"  								"1"
 	}
 	   
@@ -73,7 +73,7 @@
 		"tall"		   								"3"
 		"visible"	   								"1"
 		"enabled"	   								"1"
-		"fillcolor"	  								"32 32 32 255"
+		"fillcolor"	  								"0 0 0 255"
 		"scaleImage"	  							"1"
 	}
 }
