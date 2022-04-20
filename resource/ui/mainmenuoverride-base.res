@@ -506,11 +506,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FriendsContainer"
-		"xpos"			"c-250" //cs-0.5
+		"xpos"			"c-250"
 		"ypos"			"370"
 		"zpos"			"5"
-		"wide"			"500" //260
-		"tall"			"150"
+		"wide"			"498"
+		"tall"			"100"
 		"visible"		"1"
 		"border"		"FriendsBorder"
 		"bgcolor_override"	"0 0 0 140"
@@ -555,20 +555,20 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"500"
-			"wide"			"500" //242
+			"wide"			"498"
 			"tall"			"150"
 			"visible"		"1"
-			"proportionaltoparent"	"0" //"1"
+			"proportionaltoparent"	"1"
 			"columns_count"	"5"
-			"inset_x"		"0"//"10"
+			"inset_x"		"5"
 			"inset_y"		"5"
-			"row_gap"		"0"//"5"
-			"column_gap"	"0"//"5"
+			"row_gap"		"5" //5
+			"column_gap"	"5" //5
 			"restrict_width"	"0"
 
 			"friendpanel_kv"
 			{
-				"wide"			"100"//"110"
+				"wide"			"94"
 				"tall"			"20"
 			}
 
@@ -959,8 +959,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"20"
-		"ypos"			"0"
+		"xpos"			"0"
+		"ypos"			"-20"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
@@ -1002,8 +1002,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"20"
-		"ypos"			"0"
+		"xpos"			"0"
+		"ypos"			"-20"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
@@ -1045,8 +1045,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"20"
-		"ypos"			"0"
+		"xpos"			"0"
+		"ypos"			"-20"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
@@ -1088,8 +1088,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"20"
-		"ypos"			"0"
+		"xpos"			"0"
+		"ypos"			"-20"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
