@@ -35,8 +35,10 @@ Scheme
 		"ItemPanelBG"				"50 50 50 255"
 		"Button Color"				"72 255 255 255"
 
-		"cute1"						"255 173 255 255" //
-		"cute2"						"255 111 255 255" //
+		"cute1"						"255 173 255 255" //	//light pink
+		"cute2"						"255 111 255 255" //	//dark pink
+
+		"cute3"						"171 174 255 255" //	//baby blue
 		//---------------------------------------------
 		// Crosshair Colors
 		"Crosshair"					"242 242 242 255"
