@@ -5,7 +5,7 @@
 		"ControlName"		"CTFClientScoreBoardDialog"
 		"fieldName"			"scoreinfo"
 		"xpos"				"c-300"
-		"ypos"				"0"
+		"ypos"				"54"
 		"wide"				"f0"
 		"tall"				"480"
 		"autoResize"		"0"
@@ -29,7 +29,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BlueScoreBG"
 		"xpos"			"c-265"
-		"ypos"			"144"
+		"ypos"			"78" //144
 		"wide"			"270"
 		"tall"			"25"
 		"visible"		"1"
@@ -419,7 +419,7 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
 		"xpos"			"c-265"
-		"ypos"			"168"
+		"ypos"			"102"
 		"zpos"			"20"
 		"wide"			"270"
 		"tall"			"240"
@@ -430,7 +430,7 @@
 		"autoresize"	"3"
 		"linespacing"	"16"
 		"fgcolor"		"Blue"
-
+		
 		if_mvm
 		{
 			"visible"	"0"
@@ -441,7 +441,7 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
 		"xpos"			"c5"
-		"ypos"			"168"
+		"ypos"			"102"
 		"zpos"			"20"
 		"wide"			"270"
 		"tall"			"240"
