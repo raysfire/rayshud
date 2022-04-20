@@ -273,11 +273,11 @@
 
 		"team1_grow_dir" 	"west"
 		"team1_base_x"		"c-30"
-		"team1_max_expand"	"220"
+		"team1_max_expand"	"150"
 
 		"team2_grow_dir"	"east"
 		"team2_base_x"		"c31"
-		"team2_max_expand"	"220"
+		"team2_max_expand"	"150"
 
 		"playerpanels_kv"
 		{
