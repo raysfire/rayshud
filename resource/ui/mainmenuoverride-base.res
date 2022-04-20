@@ -232,7 +232,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"lapihud"
+		"labelText"		"theoryhud"
 		"font"			"HudFontGiantBold" //"HudFontMediumSecondary"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
