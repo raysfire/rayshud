@@ -53,15 +53,12 @@
 	{
 		"xpos"			"c-271"
 		"ypos"			"c43"
-		"xpos_minmode"	"c-271"
-		"ypos_minmode"	"c43"
 	}
 
 	"PlayerStatusHealthImage"
 	{
 		"xpos"			"104"
 		"ypos"			"35"
-		"xpos_minmode"	"104"
 		"wide"			"56"
 		"tall"			"56"
 		"alpha"			"255"
@@ -88,11 +85,6 @@
 		"zpos"			"-1"
 		"wide"			"66"
 		"tall"			"66"
-		"xpos_minmode"	"99"
-		"ypos_minmode"	"30"
-		"zpos_minmode"	"-1"
-		"wide_minmode"	"66"
-		"tall_minmode"	"66"
 		"fillcolor"		"0 0 0 0"
 	}
 
@@ -101,13 +93,11 @@
 		"xpos"			"-18"
 		"ypos"			"12"
 		"font"			"Cerbetica24"
-		"font_minmode"	"Cerbetica24"
 	}
 
 	"PlayerHealthValueShadow"
 	{
 		"font"			"Cerbetica24"
-		"font_minmode"	"Cerbetica24"
 	}
 
 	"PlayerStatusAnchor"
