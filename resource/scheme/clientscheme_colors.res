@@ -31,7 +31,7 @@ Scheme
 		"Health Buff"				"149 189 227 255" //"48 255 48 255"
 		"Health Hurt"				"175 42 71 255" //"255 153 0 255"
 		"Heal Numbers"				"48 255 48 255"
-		"Damage Numbers"			"72 255 255 255"
+		"Damage Numbers"			"175 42 71 255" //"72 255 255 255"
 		"ItemPanelBG"				"50 50 50 255"
 		"Button Color"				"72 255 255 255"
 
