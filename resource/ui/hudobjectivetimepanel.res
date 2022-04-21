@@ -30,19 +30,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"WaitingForPlayersLabel"
-		"xpos"				"0"
-		"ypos"				"25"
-		"zpos"				"5"
-		"wide"				"50"
-		"tall"				"30"
-		"visible"			"1"
-		"enabled"			"1"
-		"labelText"			"#game_WaitingForPlayers"
-		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
-		"wrap"				"1"
-		"font"				"HudFontSmallest"
+		"xpos"				"9999"
 	}
 	"WaitingForPlayersBG"
 	{
