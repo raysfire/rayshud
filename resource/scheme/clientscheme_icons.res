@@ -64,7 +64,8 @@ Scheme
 			"1"
 			{
 				"name"			"Hypnotize Icons V6"
-				"tall"			"18"
+				"tall"			"18" [$POSIX]
+				"tall"			"26" [$WINDOWS]
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
