@@ -35,15 +35,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"BackgroundHeader"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"-2"
-		"wide"				"f0"
-		"tall"				"120"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"loadout_header"
-		"tileImage"			"1"
+		"xpos"				"99999"
 	}
 	"BackgroundHeader2"
 	{
@@ -56,7 +48,7 @@
 		"tall"				"120"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"27 27 27 200"
+		"fillcolor"			"27 27 27 255"
 		"tileImage"			"1"
 	}
 
@@ -64,15 +56,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"BackgroundFooter"
-		"xpos"				"0"
-		"ypos"				"420"
-		"zpos"				"0"
-		"wide"				"f0"
-		"tall"				"60"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"loadout_header"
-		"tileImage"			"1"
+		"xpos"				"99999"
 	}
 	"BackgroundFooter2"
 	{
@@ -85,7 +69,7 @@
 		"tall"				"60"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"27 27 27 200"
+		"fillcolor"			"27 27 27 255"
 		"tileImage"			"1"
 	}
 
