@@ -62,8 +62,8 @@
 		"fieldName"			"HudWeaponAmmo"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c80+20-36+20"
-		"ypos"				"c70+25"
+		"xpos"				"c84"
+		"ypos"				"c95"
 		"xpos_minmode"		"c25"
 		"ypos_minmode"		"c30"
 		"wide"				"220"
@@ -115,9 +115,9 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"0"
-		"ypos"				"0" //c25
+		"ypos"				"0"
 		"wide"				"f0"
-		"tall"				"f0" //300
+		"tall"				"f0"
 	}
 
 	"HudDemomanCharge"
@@ -274,7 +274,7 @@
 		"visible" 				"0"
 		"enabled" 				"1"
 		"xpos"					"c-100"
-		"ypos"					"c110-30"
+		"ypos"					"c55"
 		"ypos_minmode"			"c80"
 		"wide"					"600"
 		"tall"					"50"
