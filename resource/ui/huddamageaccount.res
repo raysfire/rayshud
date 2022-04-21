@@ -19,8 +19,6 @@
 		"fieldName"				"DamageAccountValue"
 		"xpos"					"cs-0.5" //c108
 		"ypos"					"365" //288
-		"xpos_minmode"			"c58"
-		"ypos_minmode"			"263"
 		"zpos"					"2"
 		"wide"					"100"
 		"tall"					"26"
@@ -29,7 +27,6 @@
 		"labelText"				"%metal%"
 		"textAlignment"			"center"
 		"font"					"Cerbetica28"
-		"font_minmode"			"Cerbetica20"
 		"fgcolor"				"Damage Numbers"
 	}
 
@@ -47,7 +44,6 @@
 		"labelText"				"%metal%"
 		"textAlignment"			"center"
 		"font"					"Cerbetica28"
-		"font_minmode"			"Cerbetica20"
 		"fgcolor"				"TransparentBlack"
 		"pin_to_sibling"		"DamageAccountValue"
 	}
