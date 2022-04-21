@@ -90,7 +90,7 @@
 		"font"				"Cerbetica16"
 		"paintbackground"	"0"
 		"allcaps"			"1"
-		"textinsetx"		"13"
+		//"textinsetx"		"13"
 		
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override"		"ColorCyan"
