@@ -464,7 +464,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ClassImage"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-27"
 		"zpos"			"3"
 		"wide"			"92"
 		"tall"			"92"
@@ -474,8 +474,8 @@
 		"scaleImage"	"1"
 
 		"pin_to_sibling"		"LocalPlayerStatsPanel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 
 		if_mvm
 		{
