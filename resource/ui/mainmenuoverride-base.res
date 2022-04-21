@@ -241,8 +241,8 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"paintbackground""0"
-		"sound_depressed"	""
-		"sound_released"	"UI/wooo_tree.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"defaultFgColor_override" "cute3" //"TanLight"
 		"armedFgColor_override" "ColorCyan"
