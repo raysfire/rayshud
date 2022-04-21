@@ -1,4 +1,5 @@
 #base	"..\#customizations\_streamermode\scripts\hudlayout.res"
+#base	"..\#customizations\_enabled\transparent viewmodels.res"
 
 "Resource/HudLayout.res"
 {
@@ -24,25 +25,6 @@
 		"font"				"Size:18 | Outline:OFF"
 		"textAlignment"		"center"
 		"fgcolor"			"Crosshair"
-	}
-	//--------------------------------------------------------------
-	// TRANSPARENT VIEWMODEL
-	//--------------------------------------------------------------
-	// Set visible/enabled to 1 to use.
-	//--------------------------------------------------------------
-	"TransparentViewmodel"
-	{
-		"visible"			"0"
-		"enabled"			"0"
-		"controlName"		"ImagePanel"
-		"fieldName"			"TransparentViewmodel"
-		"zpos"				"-100"
-		"xpos"				"0"
-		"ypos"				"0"
-		"wide"				"f0"
-		"tall"				"480"
-		"image"				"replay/thumbnails/transparent"
-		"scaleImage"		"1"
 	}
 	//--------------------------------------------------------------
 
