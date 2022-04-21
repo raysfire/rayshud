@@ -42,7 +42,8 @@ Scheme
 			"1"
 			{
 				"name"			"TF2Icons"
-				"tall"			"18"
+				"tall"			"18" [$WINDOWS]
+				"tall"			"16" [$POSIX]
 				"additive"		"0"
 				"antialias"		"1"
 			}
