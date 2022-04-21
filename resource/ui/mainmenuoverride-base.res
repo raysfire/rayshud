@@ -556,7 +556,7 @@
 			"ypos"			"0"
 			"zpos"			"500"
 			"wide"			"498"
-			"tall"			"155"
+			"tall"			"160"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"columns_count"	"5"
