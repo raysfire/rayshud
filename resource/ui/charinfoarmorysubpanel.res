@@ -399,20 +399,4 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 	}
-	
-	"raysfox"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"raysfox"
-		"xpos"			"c-150"
-		"ypos"			"r65"
-		"zpos"			"99"
-		"wide"			"30"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay\thumbnails\raysfox\hmm"
-		"scaleImage"	"1"
-		"proportionaltoparent" "1"
-	}
 }

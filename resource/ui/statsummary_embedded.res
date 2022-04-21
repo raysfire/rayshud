@@ -2042,24 +2042,4 @@
 		"border_default"	"ButtonHover"
 		"border_armed"		"ButtonHover"
 	}
-	
-	"raysfox"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"raysfox"
-		"xpos"			"-135"
-		"ypos"			"-21"
-		"zpos"			"99"
-		"wide"			"30"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay\thumbnails\raysfox\cool"
-		"scaleImage"	"1"
-		"proportionaltoparent" "1"
-		
-		"pin_to_sibling"		"StatData"
-		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
-	}
 }

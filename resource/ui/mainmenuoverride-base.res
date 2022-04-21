@@ -378,16 +378,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NoGCImage"
-		"xpos"			"220"
-		"ypos"			"220"
-		"zpos"			"99"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"replay\thumbnails\raysfox\shock"
-		"scaleImage"	"1"
-		"proportionaltoparent" "1"
+		"xpos"			"99999"
 	}
 
 	"RankBorder"
