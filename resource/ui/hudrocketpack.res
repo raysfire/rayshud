@@ -26,7 +26,6 @@
 		"enabled"			"1"
 		"image"				"../hud/pyro_jetpack_off2"
 		"scaleImage"		"1"
-		"visible_minmode"	"0"
 	}
 
 	"ItemEffectMeterLabel"
@@ -37,7 +36,6 @@
 	"ItemEffectMeter"
 	{
 		"wide"				"60"
-		"wide_minmode"		"50"
 	}
 
 	"ItemEffectMeter2"
@@ -46,13 +44,10 @@
 		"fieldName"			"ItemEffectMeter2"
 		"font"				"Default"
 		"xpos"				"60"
-		"xpos_minmode"		"51"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"60"
 		"tall"				"8"
-		"wide_minmode"		"50"
-		"tall_minmode"		"5"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"

@@ -9,10 +9,6 @@
 		"NegativeColor"			"Damage Numbers"
 		"delta_lifetime"		"1.25"
 		"delta_item_font"		"HudFontMedium"
-		"delta_item_x_minmode"			"18"
-		"delta_item_start_y_minmode"	"10"
-		"delta_item_end_y_minmode"		"25"
-		"delta_item_font_minmode"		"HudFontSmall"
 	}
 
 	"AccountBG"
@@ -76,7 +72,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontMedium"
-		"font_minmode"			"HudFontMediumSecondary"
 	}
 
 	"AccountValueShadow"
@@ -98,7 +93,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontMedium"
-		"font_minmode"			"HudFontMediumSecondary"
 		"fgcolor"				"TransparentBlack"
 		"pin_to_sibling"		"AccountValue"
 	}

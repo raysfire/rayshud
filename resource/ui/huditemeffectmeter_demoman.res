@@ -7,8 +7,6 @@
 		"enabled"				"1"
 		"xpos"					"c129-36+20"
 		"ypos"					"c120+15"
-		"xpos_minmode"			"c95"
-		"ypos_minmode"			"c75"
 		"wide"					"100"
 		"tall"					"40"
 		"MeterFG"				"White"
@@ -34,7 +32,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"ItemFontAttribLarge"
-		"font_minmode"			"Cerbetica10"
 	}
 
 	"ItemEffectMeter"
@@ -62,7 +59,6 @@
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"27+10"
 		"ypos"					"10"
-		"ypos_minmode"			"8"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"
@@ -75,7 +71,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Cerbetica28"
-		"font_minmode"			"Cerbetica16"
 		"fgcolor"				"cute2"
 	}
 
@@ -97,7 +92,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Cerbetica28"
-		"font_minmode"			"Cerbetica16"
 		"fgcolor"				"TransparentBlack"
 		"pin_to_sibling"		"ItemEffectMeterCount"
 	}
@@ -108,7 +102,6 @@
 		"fieldName"				"ItemEffectMeterIcon"
 		"xpos"					"0"
 		"ypos"					"10"
-		"ypos_minmode"			"8"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"
@@ -121,7 +114,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Skull18"
-		"font_minmode"			"Skull18"
 		"fgcolor"				"cute1"
 	}
 
@@ -131,7 +123,6 @@
 		"fieldName"				"ItemEffectMeterIconShadow"
 		"xpos"					"-2"
 		"ypos"					"-2"
-		"ypos_minmode"			"8"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"
@@ -144,7 +135,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Skull18"
-		"font_minmode"			"Skull18"
 		"fgcolor"				"TransparentBlack"
 		"pin_to_sibling"		"ItemEffectMeterIcon"
 	}
