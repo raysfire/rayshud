@@ -295,7 +295,7 @@
 		"ControlName"		"CExImageButton"
 		"fieldName"			"RedButton"
 		"xpos"				"c"
-		"ypos"				"r175"
+		"ypos"				"r170"
 		"zpos"				"12"
 		"wide"				"25"
 		"tall"				"25"
@@ -304,15 +304,17 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"R"
+		"labelText"			"#" //R
 		"textAlignment"		"center"
-		"font"				"Cerbetica28"
+		"font"				"Circle" //Cerbetica28
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 0"
 		"paintbackground"	"1"
 
-		"defaultFgColor_override"	"180 92 77 127"
-		"armedFgColor_override"		"180 92 77 127"
+		"defaultFgColor_override"	"RedSolid"
+		"armedFgColor_override"		"RedSolid"
+		"defaultBgColor_override"	"Transparent"
+		"armedBgColor_override"		"Transparent"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -324,7 +326,7 @@
 		"ControlName"		"CExImageButton"
 		"fieldName"			"BlueButton"
 		"xpos"				"c-27"
-		"ypos"				"r175"
+		"ypos"				"r170"
 		"zpos"				"12"
 		"wide"				"25"
 		"tall"				"25"
@@ -333,15 +335,17 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"B"
+		"labelText"			"#" //B
 		"textAlignment"		"center"
-		"font"				"Cerbetica28"
+		"font"				"Circle" //Cerbetica28
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 1"
 		"paintbackground"	"1"
 
-		"defaultFgColor_override"	"104 124 155 127"
-		"armedFgColor_override"		"104 124 155 127"
+		"defaultFgColor_override"	"BlueSolid"
+		"armedFgColor_override"		"BlueSolid"
+		"defaultBgColor_override"	"Transparent"
+		"armedBgColor_override"		"Transparent"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

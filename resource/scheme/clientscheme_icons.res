@@ -73,6 +73,18 @@ Scheme
 			}
 		}
 
+		"Circle"
+		{
+			"1"
+			{
+				"name"			"TF2Icons"
+				"tall"			"23" [$POSIX]
+				"tall"			"28" [$WINDOWS]
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+
 	}
 
 	CustomFontFiles
