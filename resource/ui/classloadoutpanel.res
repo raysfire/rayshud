@@ -304,7 +304,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"#" //R
+		"labelText"			"v" //R
 		"textAlignment"		"center"
 		"font"				"Circle" //Cerbetica28
 		"scaleImage"		"1"
@@ -335,7 +335,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"#" //B
+		"labelText"			"v" //B
 		"textAlignment"		"center"
 		"font"				"Circle" //Cerbetica28
 		"scaleImage"		"1"
