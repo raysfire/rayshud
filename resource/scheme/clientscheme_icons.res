@@ -20,6 +20,7 @@ Scheme
 			{
 				"name"			"TF2Icons"
 				"tall"			"25"
+				"tall_lowres"	"20"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
@@ -64,7 +65,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Hypnotize Icons V6"
+				"name"			"TF2Icons"
 				"tall"			"18" [$POSIX]
 				"tall"			"26" [$WINDOWS]
 				"weight"		"400"
@@ -77,7 +78,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Icons"
+				"name"			"Hypnotize Icons V6"
 				"tall"			"23" [$POSIX]
 				"tall"			"28" [$WINDOWS]
 				"additive"		"0"
