@@ -356,7 +356,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"CharacterLoadoutButton"
-		"xpos"				"c54"
+		"xpos"				"c55"
 		"ypos"				"c-180"
 		"zpos"				"101"
 		"wide"				"25"
@@ -388,7 +388,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"TauntLoadoutButton"
-		"xpos"				"c-81"
+		"xpos"				"cs-0.5-71" //c-83.5
 		"ypos"				"c-180"
 		"zpos"				"101"
 		"wide"				"25"
