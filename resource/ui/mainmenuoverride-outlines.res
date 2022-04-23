@@ -652,7 +652,7 @@
 		"tall"			"50" //"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"labeltext"		"theoryhud" //"#MMenu_CharacterSetup"
+		"labeltext"		"candyhud" //"#MMenu_CharacterSetup"
 		"font"			"HudFontGiantBold" //"HudFontSmallishBold"
 		"textAlignment"	"center"
 
@@ -672,7 +672,7 @@
 		"tall"			"50" //"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"labeltext"		"theoryhud" //"#MMenu_CharacterSetup"
+		"labeltext"		"candyhud" //"#MMenu_CharacterSetup"
 		"font"			"HudFontGiantBold" //"HudFontSmallishBold"
 		"textAlignment"	"center"
 
@@ -692,7 +692,7 @@
 		"tall"			"50" //"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"labeltext"		"theoryhud" //"#MMenu_CharacterSetup"
+		"labeltext"		"candyhud" //"#MMenu_CharacterSetup"
 		"font"			"HudFontGiantBold" //"HudFontSmallishBold"
 		"textAlignment"	"center"
 
@@ -712,7 +712,7 @@
 		"tall"			"50" //"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"labeltext"		"theoryhud" //"#MMenu_CharacterSetup"
+		"labeltext"		"candyhud" //"#MMenu_CharacterSetup"
 		"font"			"HudFontGiantBold" //"HudFontSmallishBold"
 		"textAlignment"	"center"
 
@@ -732,7 +732,7 @@
 		"tall"			"50" //"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"labeltext"		"theoryhud" //"#MMenu_CharacterSetup"
+		"labeltext"		"candyhud" //"#MMenu_CharacterSetup"
 		"font"			"HudFontGiantBold" //"HudFontSmallishBold"
 		"textAlignment"	"center"
 
@@ -752,7 +752,7 @@
 		"tall"			"50" //"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"labeltext"		"theoryhud" //"#MMenu_CharacterSetup"
+		"labeltext"		"candyhud" //"#MMenu_CharacterSetup"
 		"font"			"HudFontGiantBold" //"HudFontSmallishBold"
 		"textAlignment"	"center"
 
@@ -772,7 +772,7 @@
 		"tall"			"50" //"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"labeltext"		"theoryhud" //"#MMenu_CharacterSetup"
+		"labeltext"		"candyhud" //"#MMenu_CharacterSetup"
 		"font"			"HudFontGiantBold" //"HudFontSmallishBold"
 		"textAlignment"	"center"
 
@@ -792,7 +792,7 @@
 		"tall"			"50" //"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"labeltext"		"theoryhud" //"#MMenu_CharacterSetup"
+		"labeltext"		"candyhud" //"#MMenu_CharacterSetup"
 		"font"			"HudFontGiantBold" //"HudFontSmallishBold"
 		"textAlignment"	"center"
 
