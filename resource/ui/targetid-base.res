@@ -48,7 +48,7 @@
 		"tall"	 			"35"
 		"visible"			"0"
 		"enabled"			"1"
-		"fillcolor"			"72 112 125 255"
+		"fillcolor"			"BlueSolid"
 
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
@@ -67,7 +67,7 @@
 		"tall"	 			"35"
 		"visible"			"0"
 		"enabled"			"1"
-		"fillcolor"			"158 64 61 255"
+		"fillcolor"			"RedSolid"
 
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
