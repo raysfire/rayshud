@@ -5,7 +5,7 @@
 		"fieldName"				"HudItemEffectMeter"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-193"
+		"xpos"					"c-192"
 		"ypos"					"c135"
 		"wide"					"100"
 		"tall"					"40"
@@ -100,7 +100,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterIcon"
-		"xpos"					"0"
+		"xpos"					"-2"
 		"ypos"					"10"
 		"zpos"					"2"
 		"wide"					"40"
