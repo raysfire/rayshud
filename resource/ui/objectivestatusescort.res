@@ -185,9 +185,9 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
 			"font"			"ControlPointTimer"
-			"xpos"			"27"
-			"ypos"			"78"
-			"zpos"			"2"
+			"xpos"			"120"
+			"ypos"			"0"
+			"zpos"			"999"
 			"wide"			"25"
 			"tall"			"10"
 			"autoResize"	"0"
@@ -198,25 +198,6 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-		}
-
-		"EscortItemImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"EscortItemImage"
-			"xpos"			"27"
-			"ypos"			"77"
-			"zpos"			"1"
-			"wide"			"25"
-			"tall"			"25"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		""
-			"image"			"../hud/cart_neutral"
-			"scaleImage"	"1"
 		}
 
 		"EscortItemImageBottom"
@@ -261,19 +242,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Speed_Backwards"
-			"xpos"			"36"
-			"ypos"			"80"
-			"zpos"			"2"
-			"wide"			"6"
-			"tall"			"6"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		""
-			"image"			"../hud/cart_arrow_left"
-			"scaleImage"	"1"
+			"xpos"			"9999"
 		}
 
 		"CapPlayerImage"
@@ -288,14 +257,14 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
 			"font"			"ControlPointTimer"
-			"xpos"			"32"
-			"ypos"			"78"
-			"zpos"			"5"
+			"xpos"			"108"
+			"ypos"			"2"
+			"zpos"			"999"
 			"wide"			"15"
 			"tall"			"8"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#ControlPointIconCappers"
 			"textAlignment"	"center"
@@ -320,27 +289,19 @@
 			"labelText"		""
 			"image"			"../hud/cart_blocked"
 			"scaleImage"	"1"
-
-			"if_multiple_trains"
-			{
-				"xpos"		"22"
-			}
-
-			"if_multiple_trains_top"
-			{
-				"ypos"		"46"
-			}
-
-			"if_multiple_trains_bottom"
-			{
-				"ypos"		"83"
-			}
 		}
 
 		"EscortTeardrop"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"EscortTeardrop"
+			"xpos"			"9999"
+		}
+
+		"EscortItemImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"EscortItemImage"
 			"xpos"			"9999"
 		}
 	}
