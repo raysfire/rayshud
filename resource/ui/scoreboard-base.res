@@ -84,7 +84,7 @@
 			"visible"	"0"
 		}
 	}
-	
+
 	"BlueTeamName"
 	{
 		"ControlName"	"CExLabel"
@@ -111,7 +111,7 @@
 			"visible"	"0"
 		}
 	}
-	
+
 	"BlueTeamScore"
 	{
 		"ControlName"	"CExLabel"
@@ -139,7 +139,7 @@
 			"visible"	"0"
 		}
 	}
-	
+
 	"BlueTeamScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -168,7 +168,7 @@
 			"visible"	"0"
 		}
 	}
-	
+
 	"BlueTeamPlayerCount"
 	{
 		"ControlName"	"CExLabel"
@@ -194,7 +194,7 @@
 			"visible"	"0"
 		}
 	}
-	
+
 	"RedTeamName"
 	{
 		"ControlName"	"CExLabel"
@@ -221,7 +221,7 @@
 			"visible"	"0"
 		}
 	}
-	
+
 	"RedTeamScore"
 	{
 		"ControlName"	"CExLabel"
@@ -322,7 +322,7 @@
 		"enabled"		"1"
 		"allcaps"		"1"
 	}
-	
+
 	"ServerLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -366,7 +366,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
-	
+
 	"Spectators"
 	{
 		"ControlName"	"CExLabel"
@@ -430,7 +430,7 @@
 		"autoresize"	"3"
 		"linespacing"	"16"
 		"fgcolor"		"Blue"
-		
+
 		if_mvm
 		{
 			"visible"	"0"
@@ -489,7 +489,7 @@
 		"fieldName"			"classmodelpanel"
 		"xpos"				"-10"
 		"ypos"				"185"
-		"zpos"				"10"		
+		"zpos"				"10"
 		"wide"				"130"
 		"tall"				"260"
 		"autoResize"		"0"
@@ -500,7 +500,7 @@
 		"fov"				"12"
 		"allow_rot"			"1"
 		"disable_speak_event"	"1"
-		
+
 		"pin_to_sibling"		"LocalPlayerStatsPanel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -509,7 +509,7 @@
 		{
 			"visible"		"0"
 		}
-				
+
 		"model"
 		{
 			"force_pos"	"1"
@@ -524,7 +524,7 @@
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
-		
+
 			"modelname"		""
 		}
 
@@ -625,7 +625,7 @@
 			}
 		}
 	}
-	
+
 	"PlayerNameLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -670,7 +670,7 @@
 			"visible"		"1"
 		}
 	}
-	
+
 	"PlayerScoreLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -925,6 +925,7 @@
 		if_mvm
 		{
 			"visible"	"1"
+			"ypos"		"60"
 		}
 
 		"KillsLabel"
@@ -941,7 +942,7 @@
 			"tall"			"65"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"	
+			"visible"		"1"
 			"enabled"		"1"
 		}
 		"Kills"
@@ -1048,7 +1049,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
-		
+
 		"GameType"
 		{
 			"ControlName"	"CExLabel"
@@ -1323,7 +1324,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
-		
+
 		"DominationLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1388,7 +1389,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
-		
+
 		"RevengeLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1453,7 +1454,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
-		
+
 		"HealingLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1518,7 +1519,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
-		
+
 		"InvulnLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1583,7 +1584,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
-		
+
 		"TeleportsLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1644,7 +1645,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
-		
+
 		"HeadshotsLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1709,7 +1710,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
-		
+
 		"BackstabsLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1774,7 +1775,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
-		
+
 		"BonusLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1839,7 +1840,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
-		
+
 		"SupportLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1904,7 +1905,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
-		
+
 		"DamageLabel"
 		{
 			"ControlName"	"CExLabel"
