@@ -427,23 +427,15 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PoisonIcon"
-		"xpos"			"cs-0.5"
-		"ypos"			"r75"
-		"zpos"			"6"
-		"wide"			"40"
-		"tall"			"o1"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"marked_for_death"
-		"scaleImage"	"1"
+		"xpos"			"99999"
 	}
 	"PoisonTimeLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PoisonTimeLabel"
 		"xpos"			"cs-0.5"
-		"ypos"			"r65"
-		"zpos"			"6"
+		"ypos"			"r65-17"
+		"zpos"			"100"
 		"wide"			"40"
 		"tall"			"20"
 		"visible"		"0"
@@ -451,7 +443,7 @@
 		"textAlignment"	"center"
 		"labelText"		"%redscore%"
 		"font"			"HudFontMedium"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"cute3"
 	}
 
 	"SpecCarriedImage"
