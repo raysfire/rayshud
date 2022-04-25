@@ -470,12 +470,12 @@
 		"CornerRadius"			"2"
 		"RightJustify"			"1"
 		"TextFont"				"HudFontSmallest"
-		"TeamBlue"				"HUDBlueTeamSolid"
-		"TeamRed"				"HUDRedTeamSolid"
+		"TeamBlue"				"RedSolid"
+		"TeamRed"				"RedSolid"
 		"IconColor"				"HudWhite"
 		"LocalPlayerColor"		"65 65 65 255"
 		"BaseBackgroundColor"	"TransparentBlack"
-		"LocalBackgroundColor"	"245 229 196 200"
+		"LocalBackgroundColor"	"Offwhite"
 	}
 
 	"HudVehicle"
