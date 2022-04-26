@@ -11,3 +11,9 @@ a:<br>
 - sammyhud - background<br>
 - budhud - multiple elements<br>
 - rayshud - used as a base
+
+updates gamebanana is behind on
+
+fixed centering for killstreak
+simple payload meters
+updated ctf stuff
