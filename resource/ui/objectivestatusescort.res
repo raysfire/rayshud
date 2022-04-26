@@ -7,7 +7,7 @@
 		"xpos"				"cs-0.5"
 		"ypos"				"r20"
 		"zpos"				"1"
-		"wide"				"120"
+		"wide"				"121"
 		"tall"				"10"
 		"visible"			"1"
 		"enabled"			"1"
@@ -79,14 +79,14 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"HomeCPIcon"
-		"xpos"				"-5"
+		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"10"
-		"wide"				"10"
+		"wide"				"2"
 		"tall"				"10"
 		"autoResize"		"0"
 		"pinCorner"			"0"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			""
@@ -95,32 +95,15 @@
 
 		"if_team_red"
 		{
-			"image"			"../hud/cart_point_red"
+			"fillcolor"								"Red"
 		}
-
-		"if_single_with_hills_blue"
-		{
-			"image"			"../hud/cart_point_blue"
-		}
-
-		"if_single_with_hills_red"
-		{
-			"image"			"../hud/cart_home_red"
-		}
-
-		"if_multiple_trains"
-		{
-			"image"			"../hud/cart_track_neutral"
-		}
-
 		"if_multiple_trains_red"
 		{
-			"image"			"../hud/cart_point_red"
+			"fillcolor"								"Red"
 		}
-
 		"if_multiple_trains_blue"
 		{
-			"image"			"../hud/cart_point_blue"
+			"fillcolor"								"Blue"
 		}
 	}
 
@@ -131,7 +114,7 @@
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"10"
-		"wide"				"10"
+		"wide"				"2"
 		"tall"				"10"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -170,13 +153,13 @@
 			"enabled"								"1"
 			"tabPosition"							"0"
 			"labelText"								""
-			"fillcolor"								"101 123 139 150"
+			"fillcolor"								"BlueSolid"
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 
 			"if_multiple_trains_red"
 			{
-				"fillcolor"							"178 81 81 150"
+				"fillcolor"							"RedSolid"
 			}
 		}
 
@@ -185,8 +168,8 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
 			"font"			"ControlPointTimer"
-			"xpos"			"120"
-			"ypos"			"0"
+			"xpos"			"95"
+			"ypos"			"1"
 			"zpos"			"999"
 			"wide"			"25"
 			"tall"			"10"
@@ -195,7 +178,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%recede%"
-			"textAlignment"	"center"
+			"textAlignment"	"East"
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
