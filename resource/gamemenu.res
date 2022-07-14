@@ -24,6 +24,18 @@
 		"command"		"engine bug"
 		"tooltip"		"#MMenu_Tooltip_ReportBug"
 	}
+	"TrainingModeButton"
+	{
+		"label"			"V"
+		"command"		"engine training_showdlg"
+		"tooltip"		"#MMenu_PlayList_Training_Button"
+	}
+	"CreateServerButton"
+	{
+		"label"			"W"
+		"command"		"OpenCreateMultiplayerGameDialog"
+		"tooltip"		"#MMenu_PlayList_CreateServer_Button"
+	}
 	"ConsoleButton"
 	{
 		"label"			"c"

@@ -1,6 +1,6 @@
 "Resource/UI/MainMenuOverride.res"
 {
-	MainMenuOverride
+	"MainMenuOverride"
 	{
 		"fieldName"		"MainMenuOverride"
 		"visible"		"1"
@@ -707,10 +707,10 @@
 		"armedBgColor_override" 	"25 25 25 148"
 	}
 
-	"AdvSettingsButton"
+	"TF2SettingsButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"AdvSettingsButton"
+		"fieldName"		"TF2SettingsButton"
 		"xpos"			"30"
 		"ypos"			"162"
 		"zpos"			"11"
@@ -771,7 +771,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"AchievementsButton"
-		"xpos"			"104"
+		"xpos"			"110"
 		"ypos"			"62"
 		"zpos"			"12"
 		"wide"			"20"
@@ -805,11 +805,11 @@
 			"armedFgColor_override"		"ColorCyan"
 		}
 	}
-
-	"ConsoleButton"
+	
+	"ReplayButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"ConsoleButton"
+		"fieldname"		"ReplayButton"
 		"xpos"			"20"
 		"ypos"			"0"
 		"zpos"			"12"
@@ -848,50 +848,7 @@
 			"armedFgColor_override"		"ColorCyan"
 		}
 	}
-
-	"ReplayButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"ReplayButton"
-		"xpos"			"20"
-		"ypos"			"0"
-		"zpos"			"12"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"1"
-
-		"pin_to_sibling"			"ConsoleButton"
-		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"20"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"font"			"CustomIcons"
-			"use_proportional_insets" "1"
-			"textAlignment"	"center"
-			"default"		"1"
-			"actionsignallevel" "2"
-			"paintbackground"	"0"
-			"paintborder"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"ColorCyan"
-		}
-	}
-
+	
 	"ReportBugButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -935,6 +892,135 @@
 		}
 	}
 
+	"TrainingModeButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"TrainingModeButton"
+		"xpos"			"20"
+		"ypos"			"0"
+		"zpos"			"12"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+
+		"pin_to_sibling"		"ReportBugButton"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"20"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"font"			"CustomIcons"
+			"use_proportional_insets" "1"
+			"textAlignment"	"center"
+			"default"		"1"
+			"actionsignallevel" "2"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"ColorCyan"
+		}
+	}
+
+	"CreateServerButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"CreateServerButton"
+		"xpos"			"20"
+		"ypos"			"0"
+		"zpos"			"12"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+
+		"pin_to_sibling"		"TrainingModeButton"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"20"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"font"			"CustomIcons"
+			"use_proportional_insets" "1"
+			"textAlignment"	"center"
+			"default"		"1"
+			"actionsignallevel" "2"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"ColorCyan"
+		}
+	}
+	
+	"ConsoleButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ConsoleButton"
+		"xpos"			"20"
+		"ypos"			"0"
+		"zpos"			"12"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+
+		"pin_to_sibling"			"CreateServerButton"
+		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"20"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"font"			"CustomIcons"
+			"use_proportional_insets" "1"
+			"textAlignment"	"center"
+			"default"		"1"
+			"actionsignallevel" "2"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"ColorCyan"
+		}
+	}
+	
 	"CoachPlayersButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -946,7 +1032,7 @@
 		"tall"			"20"
 		"visible"		"1"
 
-		"pin_to_sibling"			"ReportBugButton"
+		"pin_to_sibling"			"ConsoleButton"
 		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
 
@@ -1025,16 +1111,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"20"
-		"ypos"			"0"
+		"xpos"			"0"
+		"ypos"			"20"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
 
-		"pin_to_sibling"			"RequestCoachButton"
-		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
+		"pin_to_sibling"			"HomeServerButton"
+		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 
 		"SubButton"
 		{
@@ -1068,16 +1154,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"20"
-		"ypos"			"0"
+		"xpos"			"0"
+		"ypos"			"20"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
 
 		"pin_to_sibling"			"CallVoteButton"
-		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 
 		"SubButton"
 		{
@@ -1111,16 +1197,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"20"
-		"ypos"			"0"
+		"xpos"			"0"
+		"ypos"			"20"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
 
 		"pin_to_sibling"			"MutePlayersButton"
-		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 
 		"SubButton"
 		{
