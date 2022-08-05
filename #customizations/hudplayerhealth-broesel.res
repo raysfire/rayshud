@@ -112,7 +112,7 @@
 
 	"PlayerStatusAnchor"
 	{
-		"xpos"			"100"
+		"xpos"			"30"
 		"wide"			"32"
 		"tall"			"32"
 	}
