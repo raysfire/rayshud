@@ -594,20 +594,16 @@
 		"ItemFontPulsing"	"Default"
 	}
 
-	"HudCloseCaption"
+	"HudCloseCaption"	//taken from flawhud due to similar cc style
 	{
 		"fieldName" 		"HudCloseCaption"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"r140"
-		"ypos"				"r250"
-		"wide"				"150"
-		"tall"				"130"
-		"xpos_minmode"		"c170"
-		"ypos_minmode"		"273"
-		"wide_minmode"		"120"
-		"tall_minmode"		"40"
-		"BgAlpha"			"100"
+		"xpos"				"r150"
+		"ypos"				"r300"
+		"wide"				"145"
+		"tall"				"200"
+		"BgAlpha"			"128"
 		"GrowTime"			"0.25"
 		"ItemHiddenTime"	"0.2"
 		"ItemFadeInTime"	"0.15"
