@@ -542,7 +542,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"labelText"				"VERSION: 2022.0803"
+			"labelText"				"VERSION: 2022.1214"
 			"font"					"HudFontSmall"
 			"textAlignment"			"center"
 			"fgcolor_override"		"TanLight"
