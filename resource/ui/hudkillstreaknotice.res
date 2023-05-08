@@ -1,2 +1,2 @@
-"#base" "../../#customizations/streamermode/hudkillstreaknotice.res"
-"#base" "hudkillstreaknotice-base.res"
+"#base" "../../#customizations/_enabled/_streamermode/hudkillstreaknotice.res"
+"#base" "../../#customizations/_base/hudkillstreaknotice.res"

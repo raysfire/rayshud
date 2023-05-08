@@ -1,2 +1,2 @@
-"#base" "../../#customizations/streamermode/disguisestatuspanel.res"
-"#base" "disguisestatuspanel-base.res"
+"#base" "../../#customizations/_enabled/_streamermode/disguisestatuspanel.res"
+"#base" "../../#customizations/_base/disguisestatuspanel.res"

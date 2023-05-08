@@ -1,2 +1,2 @@
-"#base" "../../#customizations/streamermode/mvmscoreboard.res"
-"#base" "mvmscoreboard-base.res"
+"#base" "../../#customizations/_enabled/_streamermode/mvmscoreboard.res"
+"#base" "../../#customizations/_base/mvmscoreboard.res"

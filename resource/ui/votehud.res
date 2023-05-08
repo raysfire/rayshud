@@ -1,2 +1,2 @@
-"#base" "../../#customizations/streamermode/votehud.res"
-"#base" "votehud-base.res"
+"#base" "../../#customizations/_enabled/_streamermode/votehud.res"
+"#base" "../../#customizations/_base/votehud.res"

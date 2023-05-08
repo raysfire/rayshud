@@ -1,3 +1,3 @@
 "#base" "hudinspectpanel.res"
-"#base" "../../#customizations/streamermode/spectator.res"
-"#base" "spectator-base.res"
+"#base" "../../#customizations/_enabled/_streamermode/spectator.res"
+"#base" "../../#customizations/_base/spectator.res"

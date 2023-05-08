@@ -1,2 +1,2 @@
-"#base"	"../#customizations/streamermode/hudlayout.res"
-"#base" "hudlayout-base.res"
+"#base" "../#customizations/_enabled/_streamermode/hudlayout.res"
+"#base" "../#customizations/_base/hudlayout.res"

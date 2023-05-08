@@ -1,3 +1,3 @@
-"#base" "../../#customizations/streamermode/hudplayerclass.res"
+"#base" "../../#customizations/_enabled/_streamermode/hudplayerclass.res"
 "#base" "../../#customizations/_enabled/hudplayerclass-left.res"
-"#base" "hudplayerclass-base.res"
+"#base" "../../#customizations/_base/hudplayerclass.res"

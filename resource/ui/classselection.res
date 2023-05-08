@@ -1,2 +1,2 @@
-"#base" "../../#customizations/_enabled/classselection-center.res"
-"#base" "classselection-base.res"
+"#base" "../../#customizations/_enabled/_streamermode/classselection-center.res"
+"#base" "../../#customizations/_base/classselection.res"

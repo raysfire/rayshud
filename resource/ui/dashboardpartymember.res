@@ -1,2 +1,2 @@
-"#base" "../../#customizations/streamermode/dashboardpartymember.res"
-"#base" "dashboardpartymember-base.res"
+"#base" "../../#customizations/_enabled/_streamermode/dashboardpartymember.res"
+"#base" "../../#customizations/_base/dashboardpartymember.res"

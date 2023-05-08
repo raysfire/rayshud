@@ -11,13 +11,19 @@
         }
     }
 
-    "BlueTeamPanel"
-    {
-        "xpos"		"9999"
-    }
+	"BlueTeamPanel"
+	{
+		"BluePlayerList"
+		{
+			"wide"		"0"
+		}
+	}
 
-    "RedTeamPanel"
-    {
-        "xpos"		"9999"
-    }
+	"RedTeamPanel"
+	{
+		"RedPlayerList"
+		{
+			"wide"		"0"
+		}
+	}
 }

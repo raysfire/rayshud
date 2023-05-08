@@ -1,2 +1,2 @@
-"#base" "../../#customizations/streamermode/basechat.res"
-"#base" "basechat-base.res"
+"#base" "../../#customizations/_enabled/_streamermode/basechat.res"
+"#base" "../../#customizations/_base/basechat.res"

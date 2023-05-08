@@ -1,5 +1,3 @@
-#base	"..\#customizations\_streamermode\scripts\hudlayout.res"
-
 "Resource/HudLayout.res"
 {
 	//--------------------------------------------------------------
