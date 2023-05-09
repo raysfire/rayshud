@@ -1,29 +1,42 @@
 "Resource/UI/HudMatchStatus.res"
 {
-    "TeamStatus"
-    {
-        "playerpanels_kv"
-        {
-            "playername"
-            {
-                "xpos"		"9999"
-            }
-        }
-    }
+	"TeamStatus"
+	{
+		"playerpanels_kv"
+		{
+			"visible"		"0"
+			"wide"			"0"
+			"tall"			"0"
+		}
+	}
 
 	"BlueTeamPanel"
 	{
-		"BluePlayerList"
+		"xpos"				"9999"
+		"wide"				"0"
+		"tall"				"0"
+		"visible"			"0"
+		"enabled"			"0"
+
+		if_large
 		{
-			"wide"		"0"
+			"ypos"			"9999"
+			"tall"			"0"
 		}
 	}
 
 	"RedTeamPanel"
 	{
-		"RedPlayerList"
+		"xpos"				"9999"
+		"wide"				"0"
+		"tall"				"0"
+		"visible"			"0"
+		"enabled"			"0"
+
+		if_large
 		{
-			"wide"		"0"
+			"ypos"			"9999"
+			"tall"			"0"
 		}
 	}
 }
