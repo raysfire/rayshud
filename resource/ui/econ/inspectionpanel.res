@@ -579,7 +579,7 @@
 			"actionsignallevel" "2"
 			"default"		"1"
 			"NumericInputOnly"	"1"
-			"maxchars"		"18"
+			"maxchars"		"20"
 			"textAlignment"	"center"
 			"defaultFgColor_override"	"DarkGrey"
 			"defaultBgColor_override"	"TanLight"
