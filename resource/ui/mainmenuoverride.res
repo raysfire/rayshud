@@ -1,4 +1,4 @@
-"#base" "../../resource/preload.res"
-"#base" "../../resource/tools.res"
-"#base" "../../#customizations/_enabled/mainmenuoverride-classic.res"
-"#base" "../../#customizations/_base/mainmenuoverride.res"
+"#base" "../preload.res"
+"#base" "../tools.res"
+"#base" "#customizations/_enabled/mainmenuoverride_classic.res"
+"#base" "mainmenuoverride_base.res"

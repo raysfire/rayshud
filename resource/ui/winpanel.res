@@ -1,2 +1,2 @@
-"#base" "../../#customizations/_enabled/_streamermode/winpanel.res"
-"#base" "../../#customizations/_base/winpanel.res"
+"#base" "#customizations/_enabled/_streamermode/winpanel.res"
+"#base" "winpanel_base.res"
