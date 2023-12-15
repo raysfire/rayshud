@@ -2,15 +2,14 @@ Scheme
 {
 	Fonts
 	{
-		"MenuArrows"
+		"LargeIcons"
 		{
 			"1"
 			{
 				"name"			"TF2Icons"
-				"tall"			"15"
-				"weight"		"400"
+				"tall"			"62"
 				"additive"		"0"
-				"antialias" 	"1"
+				"antialias"		"1"
 			}
 		}
 
@@ -36,7 +35,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-
+		
 		"CustomIcons"
 		{
 			"1"
@@ -48,14 +47,15 @@ Scheme
 			}
 		}
 
-		"LargeIcons"
+		"MenuArrows"
 		{
 			"1"
 			{
 				"name"			"TF2Icons"
-				"tall"			"62"
+				"tall"			"15"
+				"weight"		"400"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias" 	"1"
 			}
 		}
 	}

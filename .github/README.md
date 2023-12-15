@@ -8,6 +8,8 @@
     ·
     <a href="https://github.com/raysfire/rayshud/issues">Issue Tracker</a>
     ·
+    <a href="https://discord.gg/hTdtK9vBhE">Discord</a>
+    ·
     <a href="https://github.com/CriticalFlaw/TF2HUD.Editor/releases/latest">Editor</a>
   </p>
 </p>
