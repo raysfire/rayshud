@@ -128,7 +128,7 @@
 		"ControlName"		"CExButton"
 		"fieldName"			"StartOfflinePracticeButton"
 		"xpos"				"150"
-		"ypos"				"235"
+		"ypos"				"225"
 		"wide"				"150"
 		"tall"				"30"
 		"autoResize"		"0"
