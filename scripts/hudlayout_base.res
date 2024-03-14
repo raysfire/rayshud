@@ -1444,7 +1444,7 @@
 		"enabled"			"1"
 		"xpos"				"0"
 		"ypos"				"0"
-		"zpos"				"1002"
+		"zpos"				"3"
 		"wide"				"f0"
 		"tall"				"f0"
 	}

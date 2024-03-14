@@ -8,7 +8,7 @@
 		"pinCorner"			"0"
 		"tabPosition"		"0"
 		"paintbackground"	"0"
-		"zpos"				"1003"
+		"zpos"				"20"
 		"visible"			"0"
 
 		"AnimBluePlayerListParent"			"p.47"
