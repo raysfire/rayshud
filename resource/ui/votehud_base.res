@@ -565,7 +565,7 @@
 		"issue_font"				"ItemFontNameSmall"
 		"issue_fgcolor"				"TanLight"
 		"issue_fgcolor_disabled"	"TanDark"
-		"parameter_width"			"200"
+		"parameter_width"			"168"
 
 		"TitleLabel"
 		{
