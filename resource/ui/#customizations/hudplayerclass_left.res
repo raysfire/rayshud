@@ -1,5 +1,20 @@
 "Resource/UI/HudPlayerClass.res"
 {
+	"PlayerStatusClassImage"
+	{
+		"ControlName"		"CTFClassImage"
+		"fieldName"			"PlayerStatusClassImage"
+		"xpos"				"25"
+		"ypos"				"r75"
+		"zpos"				"2"
+		"wide"				"75"
+		"tall"				"75"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/class_scoutred"
+		"scaleImage"		"1"
+	}
+	
 	"classmodelpanel"
 	{
 		"xpos"				"15"
