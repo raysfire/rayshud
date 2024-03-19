@@ -14,7 +14,7 @@
 		"tall_minmode"	"54"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible" 		"1"				
+		"visible" 		"1"
 		"enabled" 		"1"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"	"1"
@@ -27,6 +27,7 @@
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
+	
 	"HPBorderPanel2"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -41,7 +42,7 @@
 		"tall_minmode"	"23"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible" 		"1"				
+		"visible" 		"1"
 		"enabled" 		"1"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"	"1"
@@ -116,13 +117,13 @@
 		"font_minmode"	"Cerbetica18"
 	}
 
-	"PlayerHealthValueShadow"	//minmode uses smaller shadow otherwise it looks awful
+	"PlayerHealthValueShadow"
 	{
 		"font"			"Cerbetica24"
 		"font_minmode"	"Cerbetica18"
 		"xpos"			"-2"
-		"xpos_minmode"	"-1"
 		"ypos"			"-2"
+		"xpos_minmode"	"-1"
 		"ypos_minmode"	"-1"
 	}
 
