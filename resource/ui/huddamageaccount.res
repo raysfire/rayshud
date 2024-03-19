@@ -1,7 +1,2 @@
-// only have one of these in the customizations folder at a time
-// only use damageoverhealthbroesel.res when using the broesel style of health cross
-"#base"	"#customizations/_enabled/damageoverhealth.res"
-"#base"	"#customizations/_enabled/damageoverhealthbroesel.res"
-
-// base file
+"#base"	"#customizations/_enabled/huddamageaccount_left.res"	// Recommended for use with broesel health cross.
 "#base"	"huddamageaccount_base.res"
