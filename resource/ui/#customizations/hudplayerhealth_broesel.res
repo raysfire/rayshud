@@ -5,10 +5,13 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HPBackgroundPanel1"
 		"xpos"			"119"
+		"xpos_minmode"	"115"
 		"ypos"			"31"
 		"zpos"			"2"
 		"wide"			"26"
+		"wide_minmode"	"23"
 		"tall"	 		"64"
+		"tall_minmode"	"54"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible" 		"1"
@@ -24,15 +27,19 @@
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
+	
 	"HPBorderPanel2"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HPBackgroundPanel2"
 		"xpos"			"100"
 		"ypos"			"50"
+		"ypos_minmode"	"46"
 		"zpos"			"2"
 		"wide"			"64"
+		"wide_minmode"	"53"
 		"tall"	 		"26"
+		"tall_minmode"	"23"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible" 		"1"
@@ -53,8 +60,8 @@
 	{
 		"xpos"			"c-271"
 		"ypos"			"c43"
-		"xpos_minmode"	"c-271"
-		"ypos_minmode"	"c43"
+		"xpos_minmode"	"c-221"
+		"ypos_minmode"	"c3"
 	}
 
 	"PlayerStatusHealthImage"
@@ -63,7 +70,9 @@
 		"ypos"			"35"
 		"xpos_minmode"	"104"
 		"wide"			"56"
+		"wide_minmode"	"45"
 		"tall"			"56"
+		"tall_minmode"	"45"
 		"alpha"			"255"
 		"fgcolor_override"	"255 255 255 255"
 	}
@@ -74,7 +83,9 @@
 		"ypos"			"33"
 		"zpos"			"3"
 		"wide"			"60"
+		"wide_minmode"	"49"
 		"tall"			"60"
+		"tall_minmode"	"49"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
@@ -88,26 +99,32 @@
 		"zpos"			"-1"
 		"wide"			"66"
 		"tall"			"66"
-		"xpos_minmode"	"99"
-		"ypos_minmode"	"30"
+		"xpos_minmode"	"98"
+		"ypos_minmode"	"29"
 		"zpos_minmode"	"-1"
-		"wide_minmode"	"66"
-		"tall_minmode"	"66"
+		"wide_minmode"	"56"
+		"tall_minmode"	"56"
 		"fillcolor"		"0 0 0 0"
 	}
 
 	"PlayerHealthValue"
 	{
 		"xpos"			"-18"
+		"xpos_minmode"	"-23"
 		"ypos"			"12"
+		"ypos_minmode"	"7"
 		"font"			"Cerbetica24"
-		"font_minmode"	"Cerbetica24"
+		"font_minmode"	"Cerbetica18"
 	}
 
 	"PlayerHealthValueShadow"
 	{
 		"font"			"Cerbetica24"
-		"font_minmode"	"Cerbetica24"
+		"font_minmode"	"Cerbetica18"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"xpos_minmode"	"-1"
+		"ypos_minmode"	"-1"
 	}
 
 	"PlayerStatusAnchor"
