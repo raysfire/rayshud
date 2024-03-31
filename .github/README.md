@@ -10,6 +10,8 @@
     ·
     <a href="https://discord.gg/hTdtK9vBhE">Discord</a>
     ·
+    <a href="https://imgur.com/a/ssUpV94">Screenshots</a>
+    ·
     <a href="https://github.com/CriticalFlaw/TF2HUD.Editor/releases/latest">Editor</a>
   </p>
 </p>
