@@ -6,11 +6,11 @@
 		"fieldName"		"NextMapWinner"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
-		"zpos"			"10000"
+		"zpos"			"9999"
 		"wide"			"260"
 		"tall"			"80"
 		"visible"		"1"
-		"proportionaltoparent"	"1"
+		"proportionaltoparent"	"0"
 		"keyboardinputenabled"	"0"
 		"mouseinputenabled"		"1"
 
