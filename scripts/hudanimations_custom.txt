@@ -19,6 +19,7 @@ event HudHealthBonusPulseStop
 	Animate	TargetHealthValue			FgColor		"Health Normal"		Accel 0.0 0.0
 }
 //==================================================================================
+
 // Low Health Pulse
 event HudHealthDyingPulse
 {
@@ -40,6 +41,7 @@ event HudHealthDyingPulseStop
 	Animate TargetHealthValue			FgColor		"Health Normal"		Accel 0.0 0.0
 }
 //==================================================================================
+
 // Low Ammo Pulse
 event HudLowAmmoPulse
 {
@@ -63,6 +65,7 @@ event HudLowAmmoPulseStop
 	Animate AmmoNoClip					FgColor		"Ammo In Clip"		Accel 0.0 0.0
 }
 //==================================================================================
+
 // Ubercharge Meters
 event HudMedicCharged
 {
@@ -168,6 +171,7 @@ event HudSnapShotReminderIn
     RunEvent HudLowAmmoPulseStop 		10.0
     RunEvent HudMedicChargedStop 		10.0
 }
+
 //==================================================================================
 
 event TeamStatus_PlayerDead
@@ -182,6 +186,21 @@ event TeamStatus_PlayerAlive
 
 //==================================================================================
 
+event HudTournamentSetupPanelOpen
+{
+	Animate HudTournamentSetup	Position	"c-95 -70"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-95 70"	Spline 0.001 0.2
+}
+
+event HudTournamentSetupPanelClose
+{
+	Animate HudTournamentSetup	Position	"c-95 70"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-95 -70"	Spline 0.001 0.2
+}
+
+//==================================================================================
+
 event CompetitiveGame_LowerChatWindow { }
 event CompetitiveGame_RestoreChatWindow { }
 event HudTournament_MoveChatWindow { }
+event HudCartAlarmPulse{}

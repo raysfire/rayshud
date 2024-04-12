@@ -329,28 +329,13 @@
 		"ControlName"			"ImagePanel"
 		"fieldName"				"HudTournamentBLUEBG"
 		"xpos"					"c-125"
-		"ypos"					"0"
+		"ypos"					"25"
 		"zpos"					"-1"
 		"wide"					"125"
 		"tall"					"16"
 		"visible"				"1"
 		"enabled"				"1"
 		"fillcolor"				"BlueSolid"
-
-		if_mvm
-		{
-			"visible"			"0"
-		}
-
-		if_competitive
-		{
-			"visible"			"0"
-		}
-
-		if_readymode
-		{
-			"visible"			"0"
-		}
 
 		"src_corner_height"		"15"
 		"src_corner_width"		"15"
@@ -455,7 +440,7 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"HudTournamentREDBG"
-		"xpos"					"c0"
+		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"-1"
 		"wide"					"125"
@@ -464,23 +449,14 @@
 		"enabled"				"1"
 		"fillcolor"				"RedSolid"
 
-		if_mvm
-		{
-			"visible"			"0"
-		}
-		if_competitive
-		{
-			"visible"			"0"
-		}
-		if_readymode
-		{
-			"visible"			"0"
-		}
-
 		"src_corner_height"		"15"
 		"src_corner_width"		"15"
 		"draw_corner_width"		"0"
 		"draw_corner_height"	"0"
+
+		"pin_to_sibling"		"HudTournamentBLUEBG"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
 		if_mvm
 		{
@@ -581,7 +557,7 @@
 		"font"					"HudFontSmallest"
 		"fgcolor"				"TanLight"
 		"xpos"					"c-125"
-		"ypos"					"16"
+		"ypos"					"40"
 		"zpos"					"1"
 		"wide"					"250"
 		"tall"					"16"
@@ -617,7 +593,7 @@
 		"fieldName"				"TournamentInstructionsLabel"
 		"font"					"HudFontSmallest"
 		"xpos"					"c-125"
-		"ypos"					"30"
+		"ypos"					"50"
 		"wide"					"250"
 		"tall"					"16"
 		"zpos"					"1"
@@ -679,6 +655,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"CountdownLabelShadow"
 		"font"					"HudFontMedium"
+		"fgcolor"				"TransparentBlack"
 		"xpos"					"cs-0.48"
 		"ypos"					"cs-0.48"
 		"wide"					"40"
@@ -691,7 +668,6 @@
 		"wrap"					"0"
 		"labelText"				"%tournamentstatelabel%"
 		"textAlignment"			"center"
-		"fgcolor"				"TransparentBlack"
 		"proportionaltoparent"	"1"
 	}
 }
