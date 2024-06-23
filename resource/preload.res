@@ -423,4 +423,13 @@
 		"enabled"		"1"
 		"image"			"../vgui/maps/menu_thumb_Missing"
 	}
+	"SelbyenPickup"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MainMenuLogo"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/selbyen_pickup"
+	}
 }
