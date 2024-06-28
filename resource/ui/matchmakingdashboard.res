@@ -780,5 +780,93 @@
 				"drawcolor_override" "TanLight"
 			}
 		}
+
+		"Map1"
+		{
+			"ControlName"			"Button"
+			"fieldName"			"Map1"
+			"xpos"				"1"
+			"zpos"				"100"
+			"wide"				"30"
+			"tall"				"f6"
+			"visible"			"1"
+			"font"				"HudFontSmallBold"
+			"textAlignment"			"center"
+			"Command"			"engine next_map_vote 0"
+			"proportionaltoparent"		"1"
+			"labeltext"			"1"
+			"actionsignallevel"		"3"
+			"roundedcorners"		"0"
+			"textinsety"			"5"
+			"use_proportional_insets"	"1"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"TanLight"
+
+			"pin_to_sibling"		"PartySlot5"
+			"pin_corner_to_sibling"		"2"
+			"pin_to_sibling_corner"		"3"
+		}
+		
+		"Map2"
+		{
+			"ControlName"			"Button"
+			"fieldName"			"Map2"
+			"xpos"				"1"
+			"zpos"				"100"
+			"wide"				"30"
+			"tall"				"f6"
+			"visible"			"1"
+			"font"				"HudFontSmallBold"
+			"textAlignment"			"center"
+			"Command"			"engine next_map_vote 1"
+			"proportionaltoparent"		"1"
+			"labeltext"			"2"
+			"actionsignallevel"		"3"
+			"roundedcorners"		"0"
+			"textinsety"			"5"
+			"use_proportional_insets"	"1"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"TanLight"
+
+			"pin_to_sibling"		"Map1"
+			"pin_to_sibling_corner"		"1"
+		}
+
+		"Map3"
+		{
+			"ControlName"			"Button"
+			"fieldName"			"Map3"
+			"xpos"				"1"
+			"zpos"				"100"
+			"wide"				"30"
+			"tall"				"f6"
+			"visible"			"1"
+			"font"				"HudFontSmallBold"
+			"textAlignment"			"center"
+			"Command"			"engine next_map_vote 2"
+			"proportionaltoparent"		"1"
+			"labeltext"			"3"
+			"actionsignallevel"		"3"
+			"roundedcorners"		"0"
+			"textinsety"			"5"
+			"use_proportional_insets"	"1"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"TanLight"
+
+			"pin_to_sibling"		"Map2"
+			"pin_to_sibling_corner"		"1"
+		}
 	}
 }
