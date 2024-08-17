@@ -164,14 +164,16 @@ event HudSpyDisguiseChanged
 }
 //==================================================================================
 
-event HudSnapShotReminderIn
+event CompetitiveGame_RestoreChatWindow
 {
-    RunEvent HudHealthDyingPulseStop 	10.0
-    RunEvent HudHealthBonusPulseStop 	10.0
-    RunEvent HudLowAmmoPulseStop 		10.0
-    RunEvent HudMedicChargedStop 		10.0
-}
+    Animate HudChat ypos 275 Accel 0 0  // Default animation
 
+    // Fix stuck animations
+    RunEvent HudHealthDyingPulseStop 0.1
+    RunEvent HudHealthBonusPulseStop 0.1
+    RunEvent HudLowAmmoPulseStop 0.1
+    RunEvent HudMedicChargedStop 0.1
+}
 //==================================================================================
 
 event TeamStatus_PlayerDead
@@ -183,7 +185,6 @@ event TeamStatus_PlayerAlive
 {
 	SetVisible	respawntime	0	0.2
 }
-
 //==================================================================================
 
 event HudTournamentSetupPanelOpen
@@ -197,7 +198,6 @@ event HudTournamentSetupPanelClose
 	Animate HudTournamentSetup	Position	"c-95 70"	Linear 0.0 0.001
 	Animate HudTournamentSetup	Position	"c-95 -70"	Spline 0.001 0.2
 }
-
 //==================================================================================
 
 event CompetitiveGame_LowerChatWindow { }
