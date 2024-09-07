@@ -2,8 +2,10 @@
 * text=auto
 
 # These filetypes should be recognized as VDF, not ReScript
-*.res linguist-language=vdf
-**/*.res linguist-detectable=true
+*.vdf linguist-detectable=true
+*.res linguist-detectable=true linguist-language=vdf
+*.txt linguist-detectable=true linguist-language=vdf
+*.vmt linguist-detectable=true linguist-language=vdf
 
 # Do not export these files on download
 .gitattributes export-ignore
