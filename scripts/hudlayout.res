@@ -1,29 +1,6 @@
 "Resource/HudLayout.res"
 {
 	//--------------------------------------------------------------
-	// HUD CROSSHAIR
-	//--------------------------------------------------------------
-	// Set visible and enabled to 1 to use.
-	// Change xpos and ypos values if not perfectly centered.
-	// Change labelText to the corresponding crosshair in TF2Crosshairs.png.
-	//--------------------------------------------------------------
-	"CustomCrosshair"
-	{
-		"visible"			"0"
-		"enabled"			"0"
-		"labelText"			"<"
-		"controlName"		"CExLabel"
-		"fieldName"			"CustomCrosshair"
-		"zpos"				"0"
-		"xpos"				"cs-0.5"
-		"ypos"				"cs-0.5"
-		"wide"				"f0"
-		"tall"				"f0"
-		"font"				"Size:18 | Outline:OFF"
-		"textAlignment"		"center"
-		"fgcolor"			"Crosshair"
-	}
-	//--------------------------------------------------------------
 	// TRANSPARENT VIEWMODEL
 	//--------------------------------------------------------------
 	// Set visible/enabled to 1 to use.
@@ -31,7 +8,7 @@
 	"TransparentViewmodel"
 	{
 		"visible"			"0"
-		"enabled"			"0"
+		"enabled"			"1"
 		"controlName"		"ImagePanel"
 		"fieldName"			"TransparentViewmodel"
 		"zpos"				"-100"

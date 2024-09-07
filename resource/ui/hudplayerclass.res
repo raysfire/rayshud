@@ -1,5 +1,30 @@
 "Resource/UI/HudPlayerClass.res"
 {
+	//--------------------------------------------------------------
+	// HUD CROSSHAIR
+	//--------------------------------------------------------------
+	// Set visible to 1 to enable.
+	// Change xpos and ypos values if not perfectly centered.
+	// Change labelText to the corresponding crosshair in TF2Crosshairs.png.
+	//--------------------------------------------------------------
+	"CustomCrosshair"
+	{
+		"visible"			"0"
+		"enabled"			"1"
+		"labelText"			"<"
+		"controlName"		"CExLabel"
+		"fieldName"			"CustomCrosshair"
+		"zpos"				"0"
+		"xpos"				"cs-0.5"
+		"ypos"				"cs-0.5"
+		"wide"				"f0"
+		"tall"				"f0"
+		"font"				"Size:18 | Outline:OFF"
+		"textAlignment"		"center"
+		"fgcolor"			"Crosshair"
+	}
+	//--------------------------------------------------------------
+	
 	// Player Class Data
 	"HudPlayerClass"
 	{
@@ -13,6 +38,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
+	
 	"PlayerStatusClassImage"
 	{
 		"ControlName"	"CTFClassImage"
