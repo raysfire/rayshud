@@ -96,7 +96,7 @@ Scheme
 		FrameGrip.Color1				"TFTanMedium"
 		FrameGrip.Color2				"White"
 		FrameTitleButton.FgColor		"White"
-		FrameTitleBar.Font				"UiBold"
+		FrameTitleBar.Font				"UiBold"		[!$OSX]
 		FrameTitleBar.TextColor			"Cyan"
 		FrameTitleBar.DisabledTextColor	"DullWhite"
 
@@ -113,8 +113,8 @@ Scheme
 		ListPanel.SelectedBgColor			"White"
 		ListPanel.SelectedOutOfFocusBgColor	"DullWhite"
 
-		MainMenu.TextColor					"DullWhite"
-		MainMenu.ArmedTextColor				"White"
+		MainMenu.TextColor					"DullWhite"	[!$OSX]
+		MainMenu.ArmedTextColor				"White"		[!$OSX]
 		MainMenu.Inset						"32"
 
 		Menu.TextInset						"6"
@@ -213,9 +213,45 @@ Scheme
 
 	Fonts
 	{
+		"Trebuchet24"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"24"
+				"weight"		"900"
+				"antialias"		"1"
+				"dropshadow"	"1"
+			}
+		}
+		
+		"Trebuchet20"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"20"
+				"weight"		"900"
+				"antialias"		"1"
+				"dropshadow"	"1"
+			}
+		}
+		
+		"Trebuchet18"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"18"
+				"weight"		"900"
+				"antialias"		"1"
+				"dropshadow"	"1"
+			}
+		}
+		
 		"MainMenuFont"
 		{
-			"1"	[$WIN32]
+			"1"	[!$OSX]
 			{
 				"name"			"TF2 Build"
 				"tall"			"18"
@@ -237,12 +273,13 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"35"
-				"tall_disabled"	"40"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"TF2 Build"
+				"tall"			"35"
+				"tall_lodef"	"40"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias"		"1"
+				"dropshadow"	"1"
 			}
 		}
 
@@ -250,9 +287,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"500"
+				"name"			"Tahoma"
+				"tall"			"17"
+				"weight"		"500"
+				"antialias" 	"1"
 			}
 		}
 
@@ -303,7 +341,7 @@ Scheme
 			}
 		}
 
-		AchievementItemTitle	[$WIN32]
+		AchievementItemTitle	[!$OSX]
 		{
 			"1"
 			{
@@ -316,7 +354,7 @@ Scheme
 			}
 		}
 
-		AchievementItemTitleLarge	[$WIN32]
+		AchievementItemTitleLarge	[!$OSX]
 		{
 			"1"
 			{
@@ -329,7 +367,7 @@ Scheme
 			}
 		}
 
-		AchievementItemDescription	[$WIN32]
+		AchievementItemDescription	[!$OSX]
 		{
 			"1"
 			{
@@ -480,5 +518,13 @@ Scheme
 				"range" "0x0000 0x0451"
 			}
 		}
+		"10"		"resource/linux_fonts/DejaVuSans.ttf"
+		"11"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"12"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"13"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"14"		"resource/linux_fonts/LiberationSans-Regular.ttf"
+		"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
+		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
+		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
 	}
 }
