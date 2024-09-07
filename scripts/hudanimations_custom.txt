@@ -128,19 +128,6 @@ event HudMedicChargedStop
 }
 //==================================================================================
 
-event DamagedPlayer
-{
-	StopEvent HitMarker 				0.0
-	RunEvent HitMarker 					0.01
-}
-
-event HitMarker
-{
-	Animate		CustomCrosshair			FgColor		"CrosshairDamage"	Linear 0.0	0.0
-	Animate		CustomCrosshair			FgColor		"Crosshair"			Linear 0.15	0.0
-}
-//==================================================================================
-
 // Spy Disguise
 event HudSpyDisguiseFadeIn
 {
