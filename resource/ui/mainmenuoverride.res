@@ -1,5 +1,5 @@
-"#base" "../preload.res"
-"#base" "../tools.res"
+#base "../preload.res"
+#base "../tools.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -202,7 +202,11 @@
 		{
 			"image"		"../console/title_fullmoon_widescreen"
 		}
-		"if_christmas"
+		"if_christmas_0"
+		{
+			"image"		"../console/background_xmas2020_widescreen"
+		}
+		"if_christmas_1"
 		{
 			"image"		"../console/background_xmas2023_widescreen"
 		}
@@ -506,22 +510,21 @@
 			"armedFgColor_override"		"ColorCyan"
 		}
 	}
-	
-	"MOTD_ShowButtonPanel"
+
+	"ReloadHUDButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"MOTD_ShowButtonPanel"
+		"fieldName"		"ReloadHUDButton"
 		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
-		"enabled"		"1"
-		
-		"pin_to_sibling"	"QuestLogButton"
-		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+
+		"pin_to_sibling"			"Notifications_ShowButtonPanel"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 
 		"SubButton"
 		{
@@ -545,8 +548,88 @@
 			"paintborder"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"ColorCyan"
+		}
+	}
+	
+	"ShowToolsButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ShowToolsButton"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+
+		"pin_to_sibling"			"ReloadHUDButton"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"SubButton"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"20"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"3"
+			"visible"			"1"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"font"				"CustomIcons"
+			"use_proportional_insets" "1"
+			"textAlignment"		"center"
+			"default"			"1"
+			"actionsignallevel" "2"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"armedFgColor_override"		"ColorCyan"
+		}
+	}
+	
+	"MOTD_ShowButtonPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MOTD_ShowButtonPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+
+		"pin_to_sibling"			"ShowToolsButton"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"SubButton"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"20"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"3"
+			"visible"			"1"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"font"				"CustomIcons"
+			"use_proportional_insets" "1"
+			"textAlignment"		"center"
+			"default"			"1"
+			"actionsignallevel" "2"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
 			"armedFgColor_override"		"ColorCyan"
 		}
 	}
@@ -555,13 +638,17 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"rs1-10"
-		"ypos"			"65"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
+
+		"pin_to_sibling"			"MOTD_ShowButtonPanel"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 
 		"SubButton"
 		{
@@ -585,7 +672,6 @@
 			"paintborder"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override"		"ColorCyan"
 		}
 	}
@@ -595,14 +681,15 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HomeServerButton"
 		"xpos"			"0"
-		"ypos"			"20"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
-		"pin_to_sibling"	"MOTD_ShowButtonPanel"
-		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+
+		"pin_to_sibling"			"QuestLogButton"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 
 		"SubButton"
 		{
@@ -626,50 +713,6 @@
 			"paintborder"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"ColorCyan"
-		}
-	}
-	
-	"ShowToolsButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ShowToolsButton"
-		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"1"
-		"pin_to_sibling"		"HomeServerButton"
-		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-
-		"SubButton"
-		{
-			"ControlName"		"CExImageButton"
-			"fieldName"			"SubButton"
-			"xpos"				"0"
-			"ypos"				"0"
-			"wide"				"20"
-			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"3"
-			"visible"			"1"
-			"enabled"			"1"
-			"tabPosition"		"0"
-			"font"				"CustomIcons"
-			"use_proportional_insets" "1"
-			"textAlignment"		"center"
-			"default"			"1"
-			"actionsignallevel" "2"
-			"paintbackground"	"0"
-			"paintborder"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override"		"ColorCyan"
 		}
 	}
@@ -679,7 +722,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
 		"xpos"			"r340"
-		"ypos"			"90"
+		"ypos"			"100"
 		"zpos"			"100"
 		"wide"			"300"
 		"tall"			"350"
@@ -704,7 +747,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"MOTD_HeaderLabel"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFontMediumSmall"
 				"textAlignment"	"center"
 				"xpos"			"0"
 				"ypos"			"0"
@@ -715,8 +758,9 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"paintbackground" 	"0"
-				"fgcolor_override"	"White"
+				"fgcolor_override"	"TanLight"
 				"labelText"		"%motdheader%"
+				"allcaps"		"1"
 			}
 		}
 
@@ -724,18 +768,18 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"MOTD_CloseButton"
-			"xpos"			"282"
-			"ypos"			"4"
+			"xpos"			"275"
+			"ypos"			"1"
 			"zpos"			"10"
-			"wide"			"14"
-			"tall"			"14"
+			"wide"			"20"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		"("
-			"font"			"MediumIcons"
+			"font"			"CustomIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -782,7 +826,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"White"
+			"fgcolor"		"TanLight"
 			"wrap"			"1"
 		}
 
@@ -801,7 +845,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"White"
+			"fgcolor"		"TanLight"
 		}
 
 		"MOTD_TitleImageBg"
@@ -857,7 +901,7 @@
 			"wide"			"280"
 			"tall"			"110"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"117 107 94 255"
+			"fgcolor_override"	"TanLight"
 
 			"MOTD_TextPanel"
 			{
@@ -885,7 +929,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor"		"White"
+					"fgcolor"		"TanLight"
 					"wrap"			"1"
 				}
 			}
@@ -918,12 +962,6 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"defaultFgColor_override" "White"
-			"defaultBgColor_override" "Black"
-			"armedFgColor_override" "Black"
-			"armedBgColor_override" "White"
-			"depressedFgColor_override" "White"
 		}
 
 		"MOTD_PrevButton"
@@ -1239,6 +1277,30 @@
 		}
 	}
 
+	"VersionLabel"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"VersionLabel"
+		"font"				"HudFontSmallest"
+		"labelText"			"v2024.0900"
+		"xpos"				"rs1-5"
+		"ypos"				"r13"
+		"zpos"				"1"
+		"wide"				"130"
+		"tall"				"10"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"paintbackground"	"0"
+		"sound_depressed"	""
+		"textAlignment"		"east"
+		"sound_released"	"UI/wooo_tree.wav"
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override"		"TanLight"
+		"depressedFgColor_override"	"TanLight"
+	}
+
 	"CharacterSetupButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -1420,7 +1482,7 @@
 	"AchievementsButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"AchievementsButton"
+		"fieldName"		"AchievementsButton"
 		"xpos"			"110"
 		"ypos"			"62"
 		"zpos"			"12"
@@ -1459,7 +1521,7 @@
 	"ReplayButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"ReplayButton"
+		"fieldName"		"ReplayButton"
 		"xpos"			"20"
 		"ypos"			"0"
 		"zpos"			"12"
@@ -1502,7 +1564,7 @@
 	"ReportBugButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"ReportBugButton"
+		"fieldName"		"ReportBugButton"
 		"xpos"			"20"
 		"ypos"			"0"
 		"zpos"			"12"
@@ -1545,7 +1607,7 @@
 	"TrainingModeButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"TrainingModeButton"
+		"fieldName"		"TrainingModeButton"
 		"xpos"			"20"
 		"ypos"			"0"
 		"zpos"			"12"
@@ -1588,7 +1650,7 @@
 	"CreateServerButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"CreateServerButton"
+		"fieldName"		"CreateServerButton"
 		"xpos"			"20"
 		"ypos"			"0"
 		"zpos"			"12"
@@ -1631,7 +1693,7 @@
 	"ConsoleButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"ConsoleButton"
+		"FieldName"		"ConsoleButton"
 		"xpos"			"20"
 		"ypos"			"0"
 		"zpos"			"12"
@@ -1674,7 +1736,7 @@
 	"CoachPlayersButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"CoachPlayersButton"
+		"FieldName"		"CoachPlayersButton"
 		"xpos"			"20"
 		"ypos"			"0"
 		"zpos"			"12"
@@ -1717,7 +1779,7 @@
 	"RequestCoachButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"RequestCoachButton"
+		"FieldName"		"RequestCoachButton"
 		"xpos"			"20"
 		"ypos"			"0"
 		"zpos"			"12"
@@ -1760,7 +1822,7 @@
 	"CallVoteButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"CallVoteButton"
+		"FieldName"		"CallVoteButton"
 		"xpos"			"0"
 		"ypos"			"20"
 		"zpos"			"12"
@@ -1803,7 +1865,7 @@
 	"MutePlayersButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"MutePlayersButton"
+		"FieldName"		"MutePlayersButton"
 		"xpos"			"0"
 		"ypos"			"20"
 		"zpos"			"12"
@@ -1846,7 +1908,7 @@
 	"ReportPlayerButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"ReportPlayerButton"
+		"FieldName"		"ReportPlayerButton"
 		"xpos"			"0"
 		"ypos"			"20"
 		"zpos"			"12"
@@ -1883,6 +1945,103 @@
 
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override"		"ColorCyan"
+		}
+	}
+	
+	"SettingsButtonSDK"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"SettingsButtonSDK"
+		"xpos"			"c-34+273"
+		"ypos"			"437"
+		"zpos"			"4"
+		"wide"			"25"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"west"
+		"textinsetx"	"25"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"OpenOptionsDialog"
+
+		"navUp"			"TF2SettingsButtonSDK"
+		"navLeft"		"TF2SettingsButtonSDK"
+		"navRight"		"TF2SettingsButtonSDK"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"6"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+		}
+	}
+
+	"TF2SettingsButtonSDK"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"TF2SettingsButtonSDK"
+		"xpos"			"c-0+273"
+		"ypos"			"437"
+		"zpos"			"5"
+		"wide"			"25"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"east"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"opentf2options"
+		"use_proportional_insets"	"1"
+		"textinsetx"	"25"
+
+		"navUp"			"SettingsButtonSDK"
+		"navLeft"		"SettingsButtonSDK"
+		"navRight"		"SettingsButtonSDK"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"6"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+			"scaleImage"	"1"
 		}
 	}
 

@@ -4,8 +4,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"SafeMode"
-		"xpos"				"rs1-45"
-		"ypos"				"130"
+		"xpos"				"rs1-40"
+		"ypos"				"100"
 		"zpos"				"200"
 		"wide"				"345"
 		"tall"				"240"
@@ -24,7 +24,7 @@
 			"wide"				"345"
 			"tall"				"22"
 			"visible"			"1"
-			"bgcolor_override"	"DarkerGrey"
+			"bgcolor_override"	"77 116 85 255"
 
 			"HeaderLabel"
 			{
@@ -41,7 +41,7 @@
 				"visible"				"1"
 				"enabled"				"1"
 				"paintbackground" 		"0"
-				"fgcolor_override"		"ColorCyan"
+				"fgcolor_override"		"TanLight"
 				"labelText"				"#TF_OptionCategory_HUD"
 				"allcaps"				"1"
 			}
