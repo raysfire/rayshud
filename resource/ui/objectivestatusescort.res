@@ -529,4 +529,13 @@
 			"xpos"			"9999"
 		}
 	}
+	
+	// Hide the "swoop" effect when capturing payload points.
+	"EscortHilightSwoop"
+	{
+		"ControlName"		"CControlPointIconSwoop"
+		"fieldName"			"EscortHilightSwoop"
+		"xpos"				"9999"
+		"alpha"				"0"
+	}
 }
