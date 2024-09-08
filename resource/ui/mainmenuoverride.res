@@ -222,7 +222,7 @@
 		"tall"			"45"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../logo/tf2_logo_lt-blu"
+		"image"			"../vgui/replay/thumbnails/main_menu_logo"
 		"scaleImage"	"1"
 		"command"		"engine play vo/heavy_battlecry02.mp3"
 	}

@@ -489,7 +489,7 @@
 		"Command"			"openloadout"
 		"font"				"Cerbetica16"
 		"paintbackground"	"0"
-		"allcaps"			"0"
+		"allcaps"			"1"
 		
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override"		"ColorCyan"
@@ -1095,8 +1095,8 @@
 		"fov"				"20"
 		"allow_rot"			"1"
 		"paintbackground"	"0"
-		"bgcolor_override" 	"255 255 255 0"
 		"paintbackgroundenabled" "1"
+		"bgcolor_override" 	"255 255 255 0"
 
 		"model"
 		{

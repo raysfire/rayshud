@@ -82,7 +82,7 @@
 				"angles_z"		"0"
 				"origin_x"		"45"
 				"origin_y"		"0"
-				"origin_z"		"0"
+				"origin_z"		"-5"
 				"spotlight"		"1"
 
 				if_mini

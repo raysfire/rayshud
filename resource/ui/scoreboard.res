@@ -487,10 +487,10 @@
 	{
 		"ControlName"		"CTFPlayerModelPanel"
 		"fieldName"			"classmodelpanel"
-		"xpos"				"-10"
-		"ypos"				"185"
-		"zpos"				"10"		
-		"wide"				"130"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"10"
+		"wide"				"155"
 		"tall"				"260"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -502,8 +502,8 @@
 		"disable_speak_event"	"1"
 		
 		"pin_to_sibling"		"LocalPlayerStatsPanel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 
 		if_mvm
 		{
@@ -513,7 +513,6 @@
 		"model"
 		{
 			"force_pos"	"1"
-
 			"angles_x" "0"
 			"angles_y" "172"
 			"angles_z" "0"
@@ -524,10 +523,9 @@
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
-		
 			"modelname"		""
 		}
-
+		
 		"customclassdata"
 		{
 			"undefined"
@@ -537,17 +535,17 @@
 			{
 				"fov"			"25"
 				"angles_x"		"-17"
-				"angles_y"		"145"
-				"angles_z"		"0"
+				"angles_y"		"150"
+				"angles_z"		"-10"
 				"origin_x"		"105"
-				"origin_y"		"4"
+				"origin_y"		"7"
 				"origin_z"		"-82"
 			}
 			"Sniper"
 			{
 				"fov"			"25"
 				"angles_x"		"-10"
-				"angles_y"		"172"
+				"angles_y"		"150"
 				"angles_z"		"0"
 				"origin_x"		"130"
 				"origin_y"		"-3"
@@ -557,7 +555,7 @@
 			{
 				"fov"			"25"
 				"angles_x"		"-10"
-				"angles_y"		"170"
+				"angles_y"		"150"
 				"angles_z"		"0"
 				"origin_x"		"145"
 				"origin_y"		"-5"
@@ -567,7 +565,7 @@
 			{
 				"fov"			"25"
 				"angles_x"		"-13"
-				"angles_y"		"200"
+				"angles_y"		"150"
 				"angles_z"		"0"
 				"origin_x"		"138"
 				"origin_y"		"-4"
@@ -577,7 +575,7 @@
 			{
 				"fov"			"20"
 				"angles_x"		"-5"
-				"angles_y"		"178"
+				"angles_y"		"158"
 				"angles_z"		"0"
 				"origin_x"		"150"
 				"origin_y"		"-5"
@@ -587,27 +585,27 @@
 			{
 				"fov"			"20"
 				"angles_x"		"-5"
-				"angles_y"		"200"
+				"angles_y"		"150"
 				"angles_z"		"0"
 				"origin_x"		"200"
-				"origin_y"		"0"
+				"origin_y"		"-7"
 				"origin_z"		"-102"
 			}
 			"Pyro"
 			{
 				"fov"			"20"
 				"angles_x"		"-5"
-				"angles_y"		"172"
+				"angles_y"		"150"
 				"angles_z"		"0"
 				"origin_x"		"175"
-				"origin_y"		"-5"
+				"origin_y"		"-10"
 				"origin_z"		"-90"
 			}
 			"Spy"
 			{
 				"fov"			"20"
 				"angles_x"		"-5"
-				"angles_y"		"160"
+				"angles_y"		"150"
 				"angles_z"		"0"
 				"origin_x"		"160"
 				"origin_y"		"0"
@@ -617,7 +615,7 @@
 			{
 				"fov"			"20"
 				"angles_x"		"-10"
-				"angles_y"		"168"
+				"angles_y"		"150"
 				"angles_z"		"0"
 				"origin_x"		"140"
 				"origin_y"		"-2"
