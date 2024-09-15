@@ -228,7 +228,7 @@
 			"ControlName"		"COfflinePractice_ModeSelectionPanel"
 			"fieldName"			"OfflinePractice_ModeSelectionPanel"
 			"xpos"				"0"
-			"ypos"				"50"
+			"ypos"				"60"
 			"wide"				"450"
 			"tall"				"500"
 			"autoResize"		"0"
