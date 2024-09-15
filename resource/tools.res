@@ -8,11 +8,11 @@
 		"ypos"				"100"
 		"zpos"				"200"
 		"wide"				"345"
-		"tall"				"240"
+		"tall"				"200"
 		"visible"			"0"
 		"paintbackground"	"1"
 		"paintborder"		"0"
-		"bgcolor_override"	"DarkGrey"
+		"bgcolor_override"	"TransparentBlack"
 		"PaintBackgroundType"	"0"
 
 		"MOTD_HeaderContainer"
@@ -137,37 +137,11 @@
 		
 		//---------------
 		
-		"ReloadScheme"
-		{
-			"ControlName"			"CExButton"
-			"fieldname"				"ReloadScheme"
-			"xpos"					"-20"
-			"ypos"					"10"
-			"zpos"					"16"
-			"wide"					"150"
-			"tall"					"26"
-			"visible"				"1"
-			"enabled"				"1"
-			"labeltext"				"Reload HUD"
-			"command"				"engine vgui_cache_res_files 0;hud_reloadscheme;toggle mat_aaquality;vgui_cache_res_files 1"
-			"actionsignallevel"		"2"
-			"font"					"HudFontSmall"
-			"textAlignment"			"center"
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-			
-			"pin_to_sibling"		"MOTD_HeaderContainer"
-			"pin_corner_to_sibling" "PIN_TOPLEFT"
-			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
-		}
-		
-		//---------------
-		
 		"ViewmodelLabel"
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"ViewmodelLabel"
-			"xpos"					"0"
+			"xpos"					"-20"
 			"ypos"					"10"
 			"wide"					"150"
 			"tall"					"11"
@@ -179,7 +153,7 @@
 			"font"					"HudFontSmall"
 			"textAlignment"			"center"
 			
-			"pin_to_sibling"		"ReloadScheme"
+			"pin_to_sibling"		"MOTD_HeaderContainer"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
@@ -292,12 +266,38 @@
 		
 		//---------------
 		
+		"ReloadScheme"
+		{
+			"ControlName"			"CExButton"
+			"fieldname"				"ReloadScheme"
+			"xpos"					"20"
+			"ypos"					"0"
+			"zpos"					"16"
+			"wide"					"140"
+			"tall"					"26"
+			"visible"				"1"
+			"enabled"				"1"
+			"labeltext"				"Reload HUD"
+			"command"				"engine vgui_cache_res_files 0;hud_reloadscheme;toggle mat_aaquality;vgui_cache_res_files 1"
+			"actionsignallevel"		"2"
+			"font"					"HudFontSmall"
+			"textAlignment"			"center"
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			"pin_to_sibling"		"ViewmodelLabel"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_TOPRIGHT"
+		}
+		
+		//---------------
+		
 		"MinmodeToggle"
 		{
 			"ControlName"			"EditablePanel"
 			"fieldName"				"MinmodeToggle"
-			"xpos"					"20"
-			"ypos"					"1"
+			"xpos"					"0"
+			"ypos"					"0"
 			"zpos"					"16"
 			"wide"					"150"
 			"tall"					"26"
@@ -307,7 +307,7 @@
 			
 			"pin_to_sibling"		"ReloadScheme"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
-			"pin_to_sibling_corner" "PIN_TOPRIGHT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 			
 			"MinmodeButton"
 			{

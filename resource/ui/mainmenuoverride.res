@@ -727,7 +727,7 @@
 		"visible"		"0"
 		"paintbackground"	"1"
 		"paintborder"		"0"
-		"bgcolor_override"	"DarkGrey"
+		"bgcolor_override"	"TransparentBlack"
 		"PaintBackgroundType"	"0"
 
 		"MOTD_HeaderContainer"
@@ -1417,10 +1417,10 @@
 		"armedBgColor_override" 	"25 25 25 148"
 	}
 
-	"TF2SettingsButton"
+	"AdvSettingsButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"TF2SettingsButton"
+		"fieldName"		"AdvSettingsButton"
 		"xpos"			"30"
 		"ypos"			"162"
 		"zpos"			"11"

@@ -704,7 +704,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"#TF_Close"
+			"labelText"		"#TF_VR_Close"
 			"font"			"HudFontMediumSmall"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
