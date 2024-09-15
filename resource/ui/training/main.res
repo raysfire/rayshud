@@ -13,7 +13,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"Transparent"
+		"bgcolor_override"	"TransparentBlack"
 	}
 
 	"Container"
@@ -64,7 +64,7 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"DarkerGrey"
+			"bgcolor_override"	"TransparentBlack"
 		}
 
 		"TitleLabel"
@@ -117,7 +117,7 @@
 			"visible"			"0"
 			"enabled"			"1"
 			"tabPosition"		"0"
-			"labelText"			"#TF_BackCarat"
+			"labelText"			"#TF_Matchmaking_Back"
 			"font"				"HudFontMediumSmall"
 			"textAlignment"		"center"
 			"textinsetx"		"50"
@@ -228,7 +228,7 @@
 			"ControlName"		"COfflinePractice_ModeSelectionPanel"
 			"fieldName"			"OfflinePractice_ModeSelectionPanel"
 			"xpos"				"0"
-			"ypos"				"60"
+			"ypos"				"50"
 			"wide"				"450"
 			"tall"				"500"
 			"autoResize"		"0"
