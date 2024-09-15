@@ -1939,6 +1939,50 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
+	
+		"raysfox"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"raysfox"
+			"xpos"			"-5"
+			"ypos"			"0"
+			"zpos"			"99"
+			"wide"			"30"
+			"tall"			"30"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay\thumbnails\raysfox\cool"
+			"scaleImage"	"1"
+			"proportionaltoparent" "1"
+			
+			"pin_to_sibling"		"AveragesBG"
+			"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
+			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
+		}
+	}
+
+	"ResetStatsButton"
+	{
+		"ControlName"	"Button"
+		"fieldName"		"ResetStatsButton"
+		"xpos"			"c130"
+		"ypos"			"290"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_ResetStats"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"resetstatsbutton"
+		
+		"armedBgColor_override"		"192 28 0 150"
+		"defaultBgColor_override"	"192 28 0 50"
 	}
 
 	"TipImage"
@@ -1997,29 +2041,6 @@
 		"border_armed"		"ButtonHover"
 	}
 
-	"ResetStatsButton"
-	{
-		"ControlName"	"Button"
-		"fieldName"		"ResetStatsButton"
-		"xpos"			"c130"
-		"ypos"			"290"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_ResetStats"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"resetstatsbutton"
-		"border_default"	"ButtonHover"
-		"border_armed"		"ButtonHover"
-	}
-
 	"CloseButton"
 	{
 		"ControlName"	"Button"
@@ -2041,25 +2062,5 @@
 		"Command"		"vguicancel"
 		"border_default"	"ButtonHover"
 		"border_armed"		"ButtonHover"
-	}
-	
-	"raysfox"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"raysfox"
-		"xpos"			"-135"
-		"ypos"			"-21"
-		"zpos"			"99"
-		"wide"			"30"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay\thumbnails\raysfox\cool"
-		"scaleImage"	"1"
-		"proportionaltoparent" "1"
-		
-		"pin_to_sibling"		"StatData"
-		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}
 }
