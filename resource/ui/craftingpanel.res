@@ -337,7 +337,7 @@
 		"ypos"					"70"
 		"zpos"					"5"
 		"wide"					"280"
-		"tall"					"240"
+		"tall"					"280"
 		"PaintBackgroundType"	"2"
 		"fgcolor_override"		"59 54 48 255"
 		"bgcolor_override"		"200 187 161 0"
@@ -352,7 +352,7 @@
 		"ypos"					"0"
 		"zpos"					"5"
 		"wide"					"280"
-		"tall"					"240"
+		"tall"					"280"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"200 187 161 0"
 	}

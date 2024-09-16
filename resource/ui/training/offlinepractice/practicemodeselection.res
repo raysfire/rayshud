@@ -163,6 +163,7 @@
 		"textinsetx"		"50"
 		"dulltext"			"0"
 		"brighttext"		"0"
+		"paintbackground"	"0"
 		"Command"			"selectcurrentgamemode"
 		"sound_armed"		"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

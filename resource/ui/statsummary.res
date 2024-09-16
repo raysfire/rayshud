@@ -101,7 +101,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"allcaps"		"1"
+		"allcaps"		"0"
 		"fgcolor_override" "TanLight"
 	}
 
