@@ -87,7 +87,7 @@
 		"textAlignment"		"west"
 		"Command"			"joinclass scout"
 		"Default"			"0"
-		"font"				"Cerbetica16"
+		"font"				"HudFontSmall"
 		"paintbackground"	"0"
 		"allcaps"			"1"
 		"textinsetx"		"13"
@@ -124,7 +124,7 @@
 		"textAlignment"		"west"
 		"Command"			"joinclass soldier"
 		"Default"			"0"
-		"font"				"Cerbetica16"
+		"font"				"HudFontSmall"
 		"paintbackground"	"0"
 		"allcaps"			"1"
 		
@@ -164,7 +164,7 @@
 		"textAlignment"		"west"
 		"Command"			"joinclass pyro"
 		"Default"			"0"
-		"font"				"Cerbetica16"
+		"font"				"HudFontSmall"
 		"paintbackground"	"0"
 		"allcaps"			"1"
 		
@@ -204,7 +204,7 @@
 		"textAlignment"		"west"
 		"Command"			"joinclass demoman"
 		"Default"			"0"
-		"font"				"Cerbetica16"
+		"font"				"HudFontSmall"
 		"paintbackground"	"0"
 		"allcaps"			"1"
 		
@@ -244,7 +244,7 @@
 		"textAlignment"		"west"
 		"Command"			"joinclass heavyweapons"
 		"Default"			"0"
-		"font"				"Cerbetica16"
+		"font"				"HudFontSmall"
 		"paintbackground"	"0"
 		"allcaps"			"1"
 		
@@ -284,7 +284,7 @@
 		"textAlignment"		"west"
 		"Command"			"joinclass engineer"
 		"Default"			"0"
-		"font"				"Cerbetica16"
+		"font"				"HudFontSmall"
 		"paintbackground"	"0"
 		"allcaps"			"1"
 		
@@ -324,7 +324,7 @@
 		"textAlignment"		"west"
 		"Command"			"joinclass medic"
 		"Default"			"0"
-		"font"				"Cerbetica16"
+		"font"				"HudFontSmall"
 		"paintbackground"	"0"
 		"allcaps"			"1"
 		
@@ -364,7 +364,7 @@
 		"textAlignment"		"west"
 		"Command"			"joinclass sniper"
 		"Default"			"0"
-		"font"				"Cerbetica16"
+		"font"				"HudFontSmall"
 		"paintbackground"	"0"
 		"allcaps"			"1"
 		
@@ -404,7 +404,7 @@
 		"textAlignment"		"west"
 		"Command"			"joinclass spy"
 		"Default"			"0"
-		"font"				"Cerbetica16"
+		"font"				"HudFontSmall"
 		"paintbackground"	"0"
 		"allcaps"			"1"
 		
@@ -451,7 +451,7 @@
 		"labelText"			"(&R)  Random"
 		"textAlignment"		"west"
 		"Command"			"joinclass random"
-		"font"				"Cerbetica16"
+		"font"				"HudFontSmall"
 		"paintbackground"	"0"
 		"allcaps"			"1"
 		"Default"			"1"
@@ -487,7 +487,7 @@
 		"labelText"			"(&E)  Edit Loadout"
 		"textAlignment"		"west"
 		"Command"			"openloadout"
-		"font"				"Cerbetica16"
+		"font"				"HudFontSmall"
 		"paintbackground"	"0"
 		"allcaps"			"1"
 		
@@ -522,7 +522,7 @@
 		"labelText"			"(&Q)  Cancel"
 		"textAlignment"		"west"
 		"Command"			"vguicancel"
-		"font"				"Cerbetica16"
+		"font"				"HudFontSmall"
 		"paintbackground"	"0"
 		"allcaps"			"0"
 		

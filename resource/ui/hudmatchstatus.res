@@ -210,7 +210,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"c-25"
+		"xpos"				"c-40"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"75"
@@ -236,7 +236,7 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmall"
 			"fgcolor"		"TanLight"
-			"xpos"			"0"
+			"xpos"			"15"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"50"

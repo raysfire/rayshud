@@ -71,7 +71,7 @@
 		"tall"			"25"
 		"labelText"		"#TF_SelectATeam"
 		"textAlignment"	"center"
-		"font"			"Cerbetica32"
+		"font"			"HudFontBig"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"TanLight"
@@ -97,7 +97,7 @@
 		"brighttext"	"0"
 		"command"		"jointeam blue"
 		"team"			"3"		// Blue Team
-		"font"			"Cerbetica20"
+		"font"			"HudFontMedium"
 		
 		"defaultBgColor_override" 	"Blue"
 		"armedBgColor_override"		"BlueSolid"
@@ -137,7 +137,7 @@
 		"brighttext"	"0"
 		"command"		"jointeam red"
 		"team"			"4"		// Red Team
-		"font"			"Cerbetica20"
+		"font"			"HudFontMedium"
 		
 		"defaultBgColor_override" 	"Red"
 		"armedBgColor_override"		"RedSolid"
@@ -177,17 +177,17 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam auto"
-		"font"			"Cerbetica20"
-		
+		"font"			"HudFontMediumSecondary"
+
 		"defaultBgColor_override" 	"TransparentBlack"
-		"armedBgColor_override"		"ColorWhite"
+		"armedBgColor_override"		"HudBlack"
 		"depressedBgColor_override" "TransparentBlack"
-		"selectedBgColor_override" 	"ColorWhite"
-		
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override"		"TanDark"
-		"depressedFgColor_override" "TanLight"
-		"selectedFgColor_override" 	"TanDark"
+		"selectedBgColor_override" 	"HudBlack"
+
+		"defaultFgColor_override" 	"TanDark"
+		"armedFgColor_override"		"TanLight"
+		"depressedFgColor_override" "TanDark"
+		"selectedFgColor_override" 	"TanLight"
 		
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -217,17 +217,17 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
-		"font"			"Cerbetica20"
-		
+		"font"			"HudFontMediumSecondary"
+
 		"defaultBgColor_override" 	"TransparentBlack"
-		"armedBgColor_override"		"ColorWhite"
+		"armedBgColor_override"		"HudBlack"
 		"depressedBgColor_override" "TransparentBlack"
-		"selectedBgColor_override" 	"ColorWhite"
-		
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override"		"TanDark"
-		"depressedFgColor_override" "TanLight"
-		"selectedFgColor_override" 	"TanDark"
+		"selectedBgColor_override" 	"HudBlack"
+
+		"defaultFgColor_override" 	"TanDark"
+		"armedFgColor_override"		"TanLight"
+		"depressedFgColor_override" "TanDark"
+		"selectedFgColor_override" 	"TanLight"
 		
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"

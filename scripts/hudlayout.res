@@ -237,8 +237,8 @@
 		"fieldName" 			"DisguiseStatus"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"15"
-		"ypos"					"r40"
+		"xpos"					"r150"
+		"ypos"					"r35"
 		"wide"					"150"
 		"tall"					"170"
 	}
@@ -582,7 +582,7 @@
 		"ItemFontPulsing"	"Default"
 	}
 
-	"HudCloseCaption"	//taken from flawhud due to similar cc style
+	"HudCloseCaption"
 	{
 		"fieldName" 		"HudCloseCaption"
 		"visible"			"1"
@@ -726,11 +726,6 @@
 		"wide" 				"145"
 		"tall" 				"400"
 		"item_wide"			"120"
-		"show_avatar"		"1"
-		"avatar_ypos"		"0"
-		"avatar_xpos"		"108"
-		"avatar_wide"		"17"
-		"avatar_tall"		"17"
 		"show_dead_icon"	"1"
 		"dead_xpos"			"118"
 		"dead_ypos"			"0"
@@ -742,6 +737,12 @@
 		"icon_tall"			"16"
 		"icon_wide"			"16"
 		"text_xpos"			"25"
+		
+		"show_avatar"		"1"
+		"avatar_ypos"		"0"
+		"avatar_xpos"		"108"
+		"avatar_wide"		"17"
+		"avatar_tall"		"17"
 	}
 
 	"HudHintDisplay"

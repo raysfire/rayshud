@@ -147,7 +147,7 @@
 		"consume_mode"
 		{
 			"xpos"			"cs-0.5"
-			"ypos"			"r75"
+			"ypos"			"r105"
 		}
 		
 		"ButtonSettings"

@@ -131,6 +131,16 @@
 		"default"		"1"
 		"font"			"HudFontMedium"
 		"paintbackground"	"1"
+
+		"defaultBgColor_override" 	"TransparentBlack"
+		"armedBgColor_override"		"HudBlack"
+		"depressedBgColor_override" "TransparentBlack"
+		"selectedBgColor_override" 	"HudBlack"
+
+		"defaultFgColor_override" 	"TanDark"
+		"armedFgColor_override"		"TanLight"
+		"depressedFgColor_override" "TanDark"
+		"selectedFgColor_override" 	"TanLight"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -157,6 +167,16 @@
 		"default"		"1"
 		"font"			"HudFontMedium"
 		"paintbackground"	"1"
+
+		"defaultBgColor_override" 	"TransparentBlack"
+		"armedBgColor_override"		"HudBlack"
+		"depressedBgColor_override" "TransparentBlack"
+		"selectedBgColor_override" 	"HudBlack"
+
+		"defaultFgColor_override" 	"TanDark"
+		"armedFgColor_override"		"TanLight"
+		"depressedFgColor_override" "TanDark"
+		"selectedFgColor_override" 	"TanLight"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -182,6 +202,16 @@
 		"command"		"back"
 		"font"			"HudFontMedium"
 		"paintbackground"	"1"
+
+		"defaultBgColor_override" 	"TransparentBlack"
+		"armedBgColor_override"		"HudBlack"
+		"depressedBgColor_override" "TransparentBlack"
+		"selectedBgColor_override" 	"HudBlack"
+
+		"defaultFgColor_override" 	"TanDark"
+		"armedFgColor_override"		"TanLight"
+		"depressedFgColor_override" "TanDark"
+		"selectedFgColor_override" 	"TanLight"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
