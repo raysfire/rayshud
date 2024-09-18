@@ -324,38 +324,42 @@
 		"wide"					"0"
 	}
 
+	"MainBG"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"MainBG"
+		"xpos"					"c-125"
+		"ypos"					"25"
+		"zpos"					"0"
+		"wide"					"250"
+		"tall"					"30"
+		"visible"				"1"
+		"enabled"				"1"
+		"bgcolor_override"		"TransparentBlack"
+		"PaintBackgroundType"	"2"
+
+		if_mvm
+		{
+			"xpos"				"9999"
+		}
+	}
+
 	"HudTournamentBLUEBG"
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"HudTournamentBLUEBG"
-		"xpos"					"c-125"
-		"ypos"					"25"
-		"zpos"					"-1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"1"
 		"wide"					"125"
 		"tall"					"16"
 		"visible"				"1"
 		"enabled"				"1"
 		"fillcolor"				"BlueSolid"
 
-		"src_corner_height"		"15"
-		"src_corner_width"		"15"
-		"draw_corner_width"		"0"
-		"draw_corner_height"	"0"
-
-		if_mvm
-		{
-			"visible"			"0"
-		}
-
-		if_competitive
-		{
-			"visible"			"0"
-		}
-
-		if_readymode
-		{
-			"visible"			"0"
-		}
+		"pin_to_sibling"		"MainBG"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"TournamentBLUELabel"
@@ -365,36 +369,18 @@
 		"font"					"HudFontMediumSmall"
 		"xpos"					"0"
 		"ypos"					"0"
-		"zpos"					"1"
+		"zpos"					"3"
 		"wide"					"125"
 		"tall"					"16"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"wrap"					"0"
+		"textInsetX"			"5"
 		"labelText"				"%bluenamelabel%"
 		"textAlignment"			"west"
-		"textinsetx"			"5"
 
 		"pin_to_sibling"		"HudTournamentBLUEBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-
-		if_mvm
-		{
-			"visible"			"0"
-		}
-
-		if_competitive
-		{
-			"visible"			"0"
-		}
-
-		if_readymode
-		{
-			"visible"			"0"
-		}
 	}
 
 	"TournamentBLUEStateLabel"
@@ -404,36 +390,18 @@
 		"font"					"HudFontSmallest"
 		"xpos"					"0"
 		"ypos"					"0"
-		"zpos"					"1"
+		"zpos"					"3"
 		"wide"					"125"
 		"tall"					"16"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"wrap"					"0"
+		"textInsetX"			"5"
 		"labelText"				"%bluestate%"
 		"textAlignment"			"east"
-		"textinsetx"			"5"
 
 		"pin_to_sibling"		"HudTournamentBLUEBG"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
-		if_mvm
-		{
-			"visible"			"0"
-		}
-
-		if_competitive
-		{
-			"visible"			"0"
-		}
-
-		if_readymode
-		{
-			"visible"			"0"
-		}
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"HudTournamentREDBG"
@@ -442,34 +410,16 @@
 		"fieldName"				"HudTournamentREDBG"
 		"xpos"					"0"
 		"ypos"					"0"
-		"zpos"					"-1"
+		"zpos"					"1"
 		"wide"					"125"
 		"tall"					"16"
 		"visible"				"1"
 		"enabled"				"1"
 		"fillcolor"				"RedSolid"
 
-		"src_corner_height"		"15"
-		"src_corner_width"		"15"
-		"draw_corner_width"		"0"
-		"draw_corner_height"	"0"
-
 		"pin_to_sibling"		"HudTournamentBLUEBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
-		if_mvm
-		{
-			"visible"			"0"
-		}
-		if_competitive
-		{
-			"visible"			"0"
-		}
-		if_readymode
-		{
-			"visible"			"0"
-		}
 	}
 
 	"TournamentREDLabel"
@@ -479,36 +429,18 @@
 		"font"					"HudFontMediumSmall"
 		"xpos"					"0"
 		"ypos"					"0"
-		"zpos"					"1"
+		"zpos"					"3"
 		"wide"					"125"
 		"tall"					"16"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"wrap"					"0"
+		"textInsetX"			"5"
 		"labelText"				"%rednamelabel%"
 		"textAlignment"			"east"
-		"textinsetx"			"5"
 
 		"pin_to_sibling"		"HudTournamentREDBG"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
-		if_mvm
-		{
-			"visible"			"0"
-		}
-
-		if_competitive
-		{
-			"visible"			"0"
-		}
-
-		if_readymode
-		{
-			"visible"			"0"
-		}
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"TournamentREDStateLabel"
@@ -518,36 +450,18 @@
 		"font"					"HudFontSmallest"
 		"xpos"					"0"
 		"ypos"					"0"
-		"zpos"					"1"
+		"zpos"					"3"
 		"wide"					"125"
 		"tall"					"16"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"wrap"					"0"
+		"textInsetX"			"5"
 		"labelText"				"%redstate%"
 		"textAlignment"			"west"
-		"textinsetx"			"5"
 
 		"pin_to_sibling"		"HudTournamentREDBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-
-		if_mvm
-		{
-			"visible"			"0"
-		}
-
-		if_competitive
-		{
-			"visible"			"0"
-		}
-
-		if_readymode
-		{
-			"visible"			"0"
-		}
 	}
 
 	"TournamentConditionLabel"
@@ -556,28 +470,19 @@
 		"fieldName"				"TournamentConditionLabel"
 		"font"					"HudFontSmallest"
 		"fgcolor"				"TanLight"
-		"xpos"					"c-125"
-		"ypos"					"40"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"1"
 		"wide"					"250"
-		"tall"					"16"
-		"autoResize"			"0"
-		"pinCorner"				"0"
+		"tall"					"15"
 		"visible"				"1"
 		"enabled"				"1"
-		"wrap"					"0"
 		"labelText"				"%winconditions%"
 		"textAlignment"			"center"
 
-		if_mvm
-		{
-			"visible"			"0"
-		}
-
-		if_competitive
-		{
-			"ypos"				"25"
-		}
+		"pin_to_sibling"		"MainBG"
+		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
 
 	"HudTournamentBGHelp"
@@ -592,27 +497,23 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"TournamentInstructionsLabel"
 		"font"					"HudFontSmallest"
-		"xpos"					"c-125"
-		"ypos"					"50"
+		"xpos"					"0"
+		"ypos"					"0"
 		"wide"					"250"
-		"tall"					"16"
+		"tall"					"15"
 		"zpos"					"1"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"wrap"					"0"
 		"labelText"				"%readylabel%"
 		"textAlignment"			"center"
+
+		"pin_to_sibling"		"MainBG"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 
 		if_mvm
 		{
 			"ypos"				"105"
-		}
-
-		if_competitive
-		{
-			"ypos"				"36"
 		}
 	}
 
@@ -640,11 +541,8 @@
 		"wide"					"40"
 		"tall"					"40"
 		"zpos"					"5"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"1"
-		"wrap"					"0"
 		"labelText"				"%tournamentstatelabel%"
 		"textAlignment"			"center"
 		"proportionaltoparent"	"1"
@@ -661,11 +559,8 @@
 		"wide"					"40"
 		"tall"					"40"
 		"zpos"					"4"
-		"autoResize"			"0"
-		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"1"
-		"wrap"					"0"
 		"labelText"				"%tournamentstatelabel%"
 		"textAlignment"			"center"
 		"proportionaltoparent"	"1"

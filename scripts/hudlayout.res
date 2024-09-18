@@ -1229,7 +1229,7 @@
 		"xpos"				"c-125"
 		"ypos"				"280"
 		"wide"				"250"
-		"tall"				"160"
+		"tall"				"125"
 	}
 
 	"ReplayReminder"

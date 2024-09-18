@@ -13,7 +13,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"
 		"icon"			"hud_menu_bg"
-		"iconColor"		"White"
+		"iconColor"		"TanLight"
 	}
 
 	"Divider"
@@ -35,10 +35,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"Cerbetica28"
-		"xpos"			"10"
+		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"3"
-		"wide"			"350"
+		"wide"			"470"
 		"tall"			"22"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -60,7 +60,7 @@
 		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"3"
-		"wide"			"350"
+		"wide"			"470"
 		"tall"			"22"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -163,7 +163,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
-		"iconColor"		"White"
+		"iconColor"		"TanLight"
 	}
 
 	"NumberLabel1"
@@ -203,7 +203,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"1"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 
@@ -261,7 +261,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
-		"iconColor"		"White"
+		"iconColor"		"TanLight"
 	}
 
 	"NumberLabel2"
@@ -301,7 +301,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"2"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 
@@ -359,7 +359,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
-		"iconColor"		"White"
+		"iconColor"		"TanLight"
 	}
 
 	"NumberLabel3"
@@ -399,7 +399,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"3"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 
@@ -457,7 +457,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
-		"iconColor"		"White"
+		"iconColor"		"TanLight"
 	}
 
 	"NumberLabel4"
@@ -497,7 +497,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"4"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 
@@ -555,7 +555,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
-		"iconColor"		"White"
+		"iconColor"		"TanLight"
 	}
 
 	"NumberLabel5"
@@ -595,7 +595,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"5"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 
@@ -653,7 +653,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
-		"iconColor"		"White"
+		"iconColor"		"TanLight"
 	}
 
 	"NumberLabel6"
@@ -693,7 +693,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"6"
-		"textAlignment"	"Center"
+		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 
@@ -751,7 +751,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
-		"iconColor"		"White"
+		"iconColor"		"TanLight"
 	}
 
 	"NumberLabel7"
@@ -849,7 +849,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
-		"iconColor"		"White"
+		"iconColor"		"TanLight"
 	}
 
 	"NumberLabel8"
@@ -909,7 +909,7 @@
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"HudBlack"
+		"bgcolor_override"	"TransparentBlack"
 		"PaintBackgroundType"	"2"
 	}
 }
