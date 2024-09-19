@@ -1,0 +1,1 @@
+#base "HudObjectivePlayerDestruction.res"
