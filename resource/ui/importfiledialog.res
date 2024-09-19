@@ -75,15 +75,15 @@
 		"tall"				"25"
 		"autoResize"		"0"
 		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"tabPosition"		"0"
 		"labelText"			"#TF_ImportFile_Title"
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Cerbetica20"
+		"font"				"HudFontSmall"
 	}
 
 	"NameLabel"
@@ -104,7 +104,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Cerbetica12"
+		"font"				"HudFontSmall"
 	}
 
 	"Name"
@@ -128,7 +128,7 @@
 		"fgcolor_override"	"TanLight"
 		"bgcolor_override"	"ColorBlack"
 		"paintbackgroundtype"	"2"
-		"font"					"Cerbetica12"
+		"font"					"HudFontSmall"
 	}
 
 	"TypeLabel"
@@ -149,14 +149,14 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Cerbetica12"
+		"font"				"HudFontSmall"
 	}
 
 	"TypeComboBox"
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"TypeComboBox"
-		"font"				"Cerbetica12"
+		"font"				"HudFontSmall"
 		"xpos"				"210"
 		"ypos"				"20"
 		"wide"				"190"
@@ -200,14 +200,14 @@
 			"dulltext"			"0"
 			"brighttext"		"0"
 			"wrap"				"0"
-			"font"				"Cerbetica12"
+			"font"				"HudFontSmall"
 		}
 
 		"EquipRegionComboBox"
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"EquipRegionComboBox"
-			"font"				"Cerbetica12"
+			"font"				"HudFontSmall"
 			"xpos"				"0"
 			"ypos"				"20"
 			"wide"				"190"
@@ -239,7 +239,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Cerbetica12"
+		"font"				"HudFontSmall"
 	}
 
 	"WorkshopIDTextEntry"
@@ -263,7 +263,7 @@
 		"fgcolor_override"	"TanLight"
 		"bgcolor_override"	"ColorBlack"
 		"paintbackgroundtype"	"2"
-		"font"					"Cerbetica12"
+		"font"					"HudFontSmall"
 	}
 
 	"TFEnglishNameLabel"
@@ -284,7 +284,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"Cerbetica12"
+		"font"				"HudFontSmall"
 	}
 
 	"TFEnglishNameTextEntry"
@@ -308,7 +308,7 @@
 		"fgcolor_override"	"TanLight"
 		"bgcolor_override"	"ColorBlack"
 		"paintbackgroundtype"	"2"
-		"font"					"Cerbetica12"
+		"font"					"HudFontSmall"
 	}
 
 	"PerforceCheckButton"
@@ -316,7 +316,7 @@
 		"ControlName"		"CheckButton"
 		"fieldName"			"PerforceCheckButton"
 		"labelText"			"Perforce"
-		"font"				"Cerbetica12"
+		"font"				"HudFontSmall"
 		"textAlignment"		"west"
 		"xpos"				"245"
 		"ypos"				"85"
@@ -336,7 +336,7 @@
 		"ControlName"		"CheckButton"
 		"fieldName"			"PartnerCheckButton"
 		"labelText"			"Partner"
-		"font"				"Cerbetica12"
+		"font"				"HudFontSmall"
 		"textAlignment"		"west"
 		"xpos"				"325"
 		"ypos"				"85"
@@ -390,9 +390,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" 	"White"
+			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
-			"depressedFgColor_override" "White"
+			"depressedFgColor_override" "TanLight"
 		}
 
 		"ButtonIconBrowse"
@@ -408,7 +408,7 @@
 			"pinCorner"		"3"
 			"textinsetx"	"15"
 			"use_proportional_insets" "1"
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmall"
 			"textAlignment"	"west"
 			"labelText"		""
 			"command"		"BrowseIcon"
@@ -461,7 +461,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"wrap"			"0"
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmall"
 		}
 	}
 
@@ -495,7 +495,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"wrap"			"0"
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmall"
 		}
 
 		"ClassHighlight1"
@@ -519,7 +519,7 @@
 			"wide"			"75"
 			"tall"			"25"
 			"labelText"		"#TF_Class_Name_Scout"
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmall"
 			"defaultFgColor_override"	"TanLight"
 		}
 		"ClassHighlight2"
@@ -543,7 +543,7 @@
 			"wide"			"75"
 			"tall"			"25"
 			"labelText"		"#TF_Class_Name_Sniper"
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmall"
 			"defaultFgColor_override"	"TanLight"
 		}
 		"ClassHighlight3"
@@ -567,7 +567,7 @@
 			"wide"			"75"
 			"tall"			"25"
 			"labelText"		"#TF_Class_Name_Soldier"
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmall"
 			"defaultFgColor_override"	"TanLight"
 		}
 		"ClassHighlight4"
@@ -591,7 +591,7 @@
 			"wide"			"75"
 			"tall"			"25"
 			"labelText"		"#TF_Class_Name_Demoman"
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmall"
 			"defaultFgColor_override"	"TanLight"
 		}
 		"ClassHighlight5"
@@ -615,7 +615,7 @@
 			"wide"			"75"
 			"tall"			"25"
 			"labelText"		"#TF_Class_Name_Medic"
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmall"
 			"defaultFgColor_override"	"TanLight"
 		}
 		"ClassHighlight6"
@@ -639,7 +639,7 @@
 			"wide"			"75"
 			"tall"			"25"
 			"labelText"		"#TF_Class_Name_HWGuy"
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmall"
 			"defaultFgColor_override"	"TanLight"
 		}
 		"ClassHighlight7"
@@ -663,7 +663,7 @@
 			"wide"			"75"
 			"tall"			"25"
 			"labelText"		"#TF_Class_Name_Pyro"
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmall"
 			"defaultFgColor_override"	"TanLight"
 		}
 		"ClassHighlight8"
@@ -687,7 +687,7 @@
 			"wide"			"75"
 			"tall"			"25"
 			"labelText"		"#TF_Class_Name_Spy"
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmall"
 			"defaultFgColor_override"	"TanLight"
 		}
 		"ClassHighlight9"
@@ -711,7 +711,7 @@
 			"wide"			"75"
 			"tall"			"25"
 			"labelText"		"#TF_Class_Name_Engineer"
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmall"
 			"defaultFgColor_override"	"TanLight"
 		}
 	}
@@ -747,7 +747,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"wrap"			"0"
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmall"
 		}
 
 		"Bodygroup0"
@@ -755,7 +755,7 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"Bodygroup0"
 			"labelText"		""
-			"Font"			"Cerbetica12"
+			"Font"			"HudFontSmall"
 			"textAlignment"	"west"
 			"xpos"			"4"
 			"ypos"			"18"
@@ -777,7 +777,7 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"Bodygroup1"
 			"labelText"		""
-			"Font"			"Cerbetica12"
+			"Font"			"HudFontSmall"
 			"textAlignment"	"west"
 			"xpos"			"4"
 			"ypos"			"40"
@@ -799,7 +799,7 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"Bodygroup2"
 			"labelText"		""
-			"Font"			"Cerbetica12"
+			"Font"			"HudFontSmall"
 			"textAlignment"	"west"
 			"xpos"			"4"
 			"ypos"			"62"
@@ -821,7 +821,7 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"Bodygroup3"
 			"labelText"		""
-			"Font"			"Cerbetica12"
+			"Font"			"HudFontSmall"
 			"textAlignment"	"west"
 			"xpos"			"4"
 			"ypos"			"84"
@@ -843,7 +843,7 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"Bodygroup4"
 			"labelText"		""
-			"Font"			"Cerbetica12"
+			"Font"			"HudFontSmall"
 			"textAlignment"	"west"
 			"xpos"			"4"
 			"ypos"			"106"
@@ -865,7 +865,7 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"Bodygroup5"
 			"labelText"		""
-			"Font"			"Cerbetica12"
+			"Font"			"HudFontSmall"
 			"textAlignment"	"west"
 			"xpos"			"4"
 			"ypos"			"128"
@@ -887,7 +887,7 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"Bodygroup6"
 			"labelText"		""
-			"Font"			"Cerbetica12"
+			"Font"			"HudFontSmall"
 			"textAlignment"	"west"
 			"xpos"			"4"
 			"ypos"			"150"
@@ -909,7 +909,7 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"Bodygroup7"
 			"labelText"		""
-			"Font"			"Cerbetica12"
+			"Font"			"HudFontSmall"
 			"textAlignment"	"west"
 			"xpos"			"4"
 			"ypos"			"172"
@@ -931,7 +931,7 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"Bodygroup8"
 			"labelText"		""
-			"Font"			"Cerbetica12"
+			"Font"			"HudFontSmall"
 			"textAlignment"	"west"
 			"xpos"			"4"
 			"ypos"			"194"
@@ -984,7 +984,7 @@
 				"pinCorner"		"0"
 				"labelText"		"#TF_ImportFile_LOD0"
 				"textAlignment"	"west"
-				"font"			"Cerbetica12"
+				"font"			"HudFontSmall"
 			}
 			"ButtonLOD0Clear"
 			{
@@ -1011,9 +1011,9 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 
-				"defaultFgColor_override" 	"White"
+				"defaultFgColor_override" 	"TanLight"
 				"armedFgColor_override" 	"LightRed"
-				"depressedFgColor_override" "White"
+				"depressedFgColor_override" "TanLight"
 			}
 			"ButtonLOD0Browse"
 			{
@@ -1027,7 +1027,7 @@
 				"pinCorner"		"3"
 				"textinsetx"	"15"
 				"use_proportional_insets" "1"
-				"font"			"Cerbetica12"
+				"font"			"HudFontSmall"
 				"textAlignment"	"west"
 				"labelText"		""
 				"command"		"BrowseLOD0"
@@ -1060,7 +1060,7 @@
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"labelText"		"#TF_PublishFile_NoFileSelected"
-				"font"			"Cerbetica12"
+				"font"			"HudFontSmall"
 			}
 			"LOD0Details"
 			{
@@ -1073,7 +1073,7 @@
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"labelText"		""
-				"font"			"Cerbetica12"
+				"font"			"HudFontSmall"
 			}
 		}
 
@@ -1101,7 +1101,7 @@
 				"pinCorner"		"0"
 				"labelText"		"#TF_ImportFile_LOD1"
 				"textAlignment"	"west"
-				"font"			"Cerbetica12"
+				"font"			"HudFontSmall"
 				"enabled"		"0"
 			}
 			"ButtonLOD1Clear"
@@ -1129,9 +1129,9 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 
-				"defaultFgColor_override" 	"White"
+				"defaultFgColor_override" 	"TanLight"
 				"armedFgColor_override" 	"LightRed"
-				"depressedFgColor_override" "White"
+				"depressedFgColor_override" "TanLight"
 			}
 			"ButtonLOD1Browse"
 			{
@@ -1145,7 +1145,7 @@
 				"pinCorner"		"3"
 				"textinsetx"	"15"
 				"use_proportional_insets" "1"
-				"font"			"Cerbetica12"
+				"font"			"HudFontSmall"
 				"textAlignment"	"west"
 				"enabled"		"0"
 				"labelText"		""
@@ -1179,7 +1179,7 @@
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"labelText"		"#TF_PublishFile_NoFileSelected"
-				"font"			"Cerbetica12"
+				"font"			"HudFontSmall"
 				"enabled"		"0"
 			}
 			"LOD1Details"
@@ -1193,7 +1193,7 @@
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"labelText"		""
-				"font"			"Cerbetica12"
+				"font"			"HudFontSmall"
 				"enabled"		"0"
 			}
 		}
@@ -1222,7 +1222,7 @@
 				"pinCorner"		"0"
 				"labelText"		"#TF_ImportFile_LOD2"
 				"textAlignment"	"west"
-				"font"			"Cerbetica12"
+				"font"			"HudFontSmall"
 				"enabled"		"0"
 			}
 			"ButtonLOD2Clear"
@@ -1250,9 +1250,9 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 
-				"defaultFgColor_override" 	"White"
+				"defaultFgColor_override" 	"TanLight"
 				"armedFgColor_override" 	"LightRed"
-				"depressedFgColor_override" "White"
+				"depressedFgColor_override" "TanLight"
 			}
 			"ButtonLOD2Browse"
 			{
@@ -1266,7 +1266,7 @@
 				"pinCorner"		"3"
 				"textinsetx"	"15"
 				"use_proportional_insets" "1"
-				"font"			"Cerbetica12"
+				"font"			"HudFontSmall"
 				"textAlignment"	"west"
 				"enabled"		"0"
 				"labelText"		""
@@ -1300,7 +1300,7 @@
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"labelText"		"#TF_PublishFile_NoFileSelected"
-				"font"			"Cerbetica12"
+				"font"			"HudFontSmall"
 				"enabled"		"0"
 			}
 			"LOD2Details"
@@ -1314,7 +1314,7 @@
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"labelText"		""
-				"font"			"Cerbetica12"
+				"font"			"HudFontSmall"
 				"enabled"		"0"
 			}
 		}
@@ -1340,7 +1340,7 @@
 			"wrap"			"0"
 			"Command"		"EditQC"
 			"Default"		"0"
-			"font"			"Cerbetica12"
+			"font"			"HudFontSmall"
 		}
 	}
 
@@ -1374,7 +1374,7 @@
 			"dulltext"			"0"
 			"brighttext"		"0"
 			"wrap"				"0"
-			"font"				"Cerbetica12"
+			"font"				"HudFontSmall"
 		}
 
 		"SwapVMTButton"
@@ -1397,14 +1397,14 @@
 			"wrap"				"0"
 			"Command"			"SwapVMT"
 			"Default"			"1"
-			"font"				"Cerbetica12"
+			"font"				"HudFontSmall"
 		}
 
 		"SkinComboBox"
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"SkinComboBox"
-			"Font"				"Cerbetica12"
+			"Font"				"HudFontSmall"
 			"xpos"				"4"
 			"ypos"				"18"
 			"wide"				"181"
@@ -1439,7 +1439,7 @@
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"textAlignment"	"west"
-				"font"			"Cerbetica12"
+				"font"			"HudFontSmall"
 			}
 			"ButtonMaterial0Edit"
 			{
@@ -1453,7 +1453,7 @@
 				"pinCorner"		"3"
 				"textinsetx"	"15"
 				"use_proportional_insets" "1"
-				"font"			"Cerbetica12"
+				"font"			"HudFontSmall"
 				"textAlignment"	"west"
 				"labelText"		""
 				"command"		"EditMaterial0"
@@ -1485,7 +1485,7 @@
 				"autoResize"		"0"
 				"pinCorner"		"0"
 				"labelText"			"#TF_PublishFile_NoFileSelected"
-				"font"		"Cerbetica12"
+				"font"		"HudFontSmall"
 			}
 		}
 
@@ -1511,7 +1511,7 @@
 				"autoResize"		"0"
 				"pinCorner"		"0"
 				"textAlignment"		"west"
-				"font"		"Cerbetica12"
+				"font"		"HudFontSmall"
 			}
 			"ButtonMaterial1Edit"
 			{
@@ -1525,7 +1525,7 @@
 				"pinCorner"		"3"
 				"textinsetx"	"15"
 				"use_proportional_insets" "1"
-				"font"			"Cerbetica12"
+				"font"			"HudFontSmall"
 				"textAlignment"	"west"
 				"labelText"		""
 				"command"		"EditMaterial1"
@@ -1557,7 +1557,7 @@
 				"autoResize"		"0"
 				"pinCorner"		"0"
 				"labelText"			"#TF_PublishFile_NoFileSelected"
-				"font"		"Cerbetica12"
+				"font"		"HudFontSmall"
 				"fillcolor"	"255 0 0 255"
 			}
 		}
@@ -1584,7 +1584,7 @@
 				"autoResize"		"0"
 				"pinCorner"		"0"
 				"textAlignment"		"west"
-				"font"		"Cerbetica12"
+				"font"		"HudFontSmall"
 			}
 			"ButtonMaterial2Edit"
 			{
@@ -1598,7 +1598,7 @@
 				"pinCorner"		"3"
 				"textinsetx"	"15"
 				"use_proportional_insets" "1"
-				"font"			"Cerbetica12"
+				"font"			"HudFontSmall"
 				"textAlignment"	"west"
 				"labelText"		""
 				"command"		"EditMaterial2"
@@ -1630,7 +1630,7 @@
 				"autoResize"		"0"
 				"pinCorner"		"0"
 				"labelText"			"#TF_PublishFile_NoFileSelected"
-				"font"		"Cerbetica12"
+				"font"		"HudFontSmall"
 			}
 		}
 
@@ -1656,7 +1656,7 @@
 				"autoResize"		"0"
 				"pinCorner"		"0"
 				"textAlignment"		"west"
-				"font"		"Cerbetica12"
+				"font"		"HudFontSmall"
 			}
 			"ButtonMaterial3Edit"
 			{
@@ -1670,7 +1670,7 @@
 				"pinCorner"		"3"
 				"textinsetx"	"15"
 				"use_proportional_insets" "1"
-				"font"			"Cerbetica12"
+				"font"			"HudFontSmall"
 				"textAlignment"	"west"
 				"labelText"		""
 				"command"		"EditMaterial3"
@@ -1702,7 +1702,7 @@
 				"autoResize"		"0"
 				"pinCorner"		"0"
 				"labelText"			"#TF_PublishFile_NoFileSelected"
-				"font"		"Cerbetica12"
+				"font"		"HudFontSmall"
 			}
 		}
 
@@ -1711,7 +1711,7 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"Paintable0CheckBox"
 			"labelText"		"#TF_ImportFile_Paintable0"
-			"Font"			"Cerbetica12"
+			"Font"			"HudFontSmall"
 			"textAlignment"	"west"
 			"xpos"			"4"
 			"ypos"			"190"
@@ -1733,7 +1733,7 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"Paintable1CheckBox"
 			"labelText"		"#TF_ImportFile_Paintable1"
-			"Font"			"Cerbetica12"
+			"Font"			"HudFontSmall"
 			"textAlignment"	"west"
 			"xpos"			"100"
 			"ypos"			"190"
@@ -1763,7 +1763,7 @@
 		"pinCorner"			"0"
 		"labelText"			"#TF_ImportFile_AnimationProp"
 		"textAlignment"		"west"
-		"font"				"Cerbetica12"
+		"font"				"HudFontSmall"
 	}
 
 	"TauntInputPanel"
@@ -1802,7 +1802,7 @@
 				"pinCorner"		"0"
 				"labelText"		"#TF_ImportFile_AnimationSource"
 				"textAlignment"		"west"
-				"font"		"Cerbetica12"
+				"font"		"HudFontSmall"
 			}
 			"ButtonAnimationSourceClear"
 			{
@@ -1829,9 +1829,9 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 
-				"defaultFgColor_override" 	"White"
+				"defaultFgColor_override" 	"TanLight"
 				"armedFgColor_override" 	"LightRed"
-				"depressedFgColor_override" "White"
+				"depressedFgColor_override" "TanLight"
 			}
 			"ButtonAnimationSourceBrowse"
 			{
@@ -1845,7 +1845,7 @@
 				"pinCorner"		"3"
 				"textinsetx"	"15"
 				"use_proportional_insets" "1"
-				"font"			"Cerbetica12"
+				"font"			"HudFontSmall"
 				"textAlignment"	"west"
 				"labelText"		""
 				"command"		"BrowseAnimationSource"
@@ -1878,7 +1878,7 @@
 				"autoResize"		"0"
 				"pinCorner"		"0"
 				"labelText"			"#TF_PublishFile_NoFileSelected"
-				"font"		"Cerbetica12"
+				"font"		"HudFontSmall"
 			}
 			"AnimationSourceDetails"
 			{
@@ -1891,7 +1891,7 @@
 				"autoResize"		"0"
 				"pinCorner"		"0"
 				"labelText"			""
-				"font"		"Cerbetica12"
+				"font"		"HudFontSmall"
 			}
 		}
 
@@ -1919,7 +1919,7 @@
 				"pinCorner"		"0"
 				"labelText"		"#TF_ImportFile_AnimationVCD"
 				"textAlignment"		"west"
-				"font"		"Cerbetica12"
+				"font"		"HudFontSmall"
 			}
 			"ButtonAnimationVCDClear"
 			{
@@ -1946,9 +1946,9 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 
-				"defaultFgColor_override" 	"White"
+				"defaultFgColor_override" 	"TanLight"
 				"armedFgColor_override" 	"LightRed"
-				"depressedFgColor_override" "White"
+				"depressedFgColor_override" "TanLight"
 			}
 			"ButtonAnimationVCDBrowse"
 			{
@@ -1962,7 +1962,7 @@
 				"pinCorner"		"3"
 				"textinsetx"	"15"
 				"use_proportional_insets" "1"
-				"font"			"Cerbetica12"
+				"font"			"HudFontSmall"
 				"textAlignment"	"west"
 				"labelText"		""
 				"command"		"BrowseAnimationVCD"
@@ -1995,7 +1995,7 @@
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"labelText"		"#TF_PublishFile_NoFileSelected"
-				"font"			"Cerbetica12"
+				"font"			"HudFontSmall"
 			}
 		}
 
@@ -2010,7 +2010,7 @@
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"labelText"			"#TF_ImportFile_AnimationDuration"
-			"font"				"Cerbetica12"
+			"font"				"HudFontSmall"
 		}
 
 		"AnimationLoopCheckButton"
@@ -2018,7 +2018,7 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"AnimationLoopCheckButton"
 			"labelText"		"Loop"
-			"Font"			"Cerbetica12"
+			"Font"			"HudFontSmall"
 			"textAlignment"	"west"
 			"xpos"			"0"
 			"ypos"			"140"
@@ -2045,7 +2045,7 @@
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"labelText"			": Start Time"
-			"font"				"Cerbetica12"
+			"font"				"HudFontSmall"
 			"proportionaltoparent"	"1"
 		}
 
@@ -2071,7 +2071,7 @@
 			"bgcolor_override"	"ColorBlack"
 			"paintbackgroundtype" "2"
 			"proportionaltoparent"	"1"
-			"font"				"Cerbetica12"
+			"font"				"HudFontSmall"
 		}
 
 		"ButtonEditQCI"
@@ -2095,7 +2095,7 @@
 			"wrap"				"0"
 			"Command"			"EditQCI"
 			"Default"			"0"
-			"font"				"Cerbetica12"
+			"font"				"HudFontSmall"
 		}
 	}
 
@@ -2113,7 +2113,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#TF_PublishFile_Browse"
-		"font"				"Cerbetica12"
+		"font"				"HudFontMediumSmall"
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"dulltext"			"0"
@@ -2134,7 +2134,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"#TF_Close"
+		"labelText"			"#TF_VR_Close"
 		"font"				"HudFontMediumSmall"
 		"textAlignment"		"center"
 		"textinsetx"		"50"
@@ -2163,7 +2163,7 @@
 		"wrap"				"0"
 		"Command"			"BuildPreview"
 		"Default"			"1"
-		"font"				"Cerbetica12"
+		"font"				"HudFontMediumSmall"
 	}
 
 	"ButtonVerify"
@@ -2186,7 +2186,7 @@
 		"wrap"				"0"
 		"Command"			"BuildVerify"
 		"Default"			"1"
-		"font"				"Cerbetica12"
+		"font"				"HudFontMediumSmall"
 	}
 
 	"ButtonBuild"
@@ -2209,7 +2209,7 @@
 		"wrap"				"0"
 		"Command"			"BuildFinal"
 		"Default"			"1"
-		"font"				"Cerbetica12"
+		"font"				"HudFontMediumSmall"
 	}
 
 	"BetaNotice"

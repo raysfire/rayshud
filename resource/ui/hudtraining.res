@@ -8,7 +8,7 @@
 		"ypos"				"r108"
 		"zpos"				"1"
 		"wide"				"320"
-		"tall"				"90"
+		"tall"				"100"
 		"visible"			"1"
 		"enabled"			"1"
 	}
@@ -66,7 +66,7 @@
 		"ypos"				"25"
 		"zpos"				"3"
 		"wide"				"280"
-		"tall"				"45"
+		"tall"				"60"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -83,7 +83,7 @@
 		"fieldName"			"PressSpacebarToContinue"
 		"fgcolor"			"TanLight"
 		"xpos"				"20"
-		"ypos"				"70"
+		"ypos"				"80"
 		"zpos"				"3"
 		"wide"				"280"
 		"tall"				"15"
@@ -94,7 +94,7 @@
 		"wrap"				"1"
 		"labelText"			"#TF_Training_SpaceToContinue"
 		"textAlignment"		"North"
-		"font"				"TFFontMedium"
+		"font"				"HudFontSmallest"
 	}
 
 	"HudTrainingMsgBG"

@@ -425,7 +425,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		"#TF_SteamWorkshop_ViewPublished"
-				"font"			"HudFontSmall"
+				"font"			"HudFontSmallishBold"
 				"textAlignment"	"center"
 				"textinsetx"	"50"
 				"dulltext"		"0"

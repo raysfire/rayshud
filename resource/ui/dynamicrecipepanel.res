@@ -41,7 +41,7 @@
 			"visible"			"0"
 			"enabled"			"0"
 			"bgcolor_override"	"Transparent"
-			"noitem_TanLight"	"TanLight"
+			"noitem_textcolor"	"TanLight"
 			"PaintBackgroundType"	"2"
 			"paintborder"			"1"
 
@@ -131,7 +131,7 @@
 			"ypos"			"10"
 			"zpos"			"1"
 			"wide"			"f0"
-			"tall"			"15"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -150,7 +150,7 @@
 			"ypos"			"238"
 			"zpos"			"1"
 			"wide"			"f0"
-			"tall"			"15"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -198,6 +198,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"craft"
+			"allcaps"		"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -242,7 +243,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "ColorCyan"
+			"fgcolor_override" "72 255 255 255"
 		}
 		"NextInputPageButton"
 		{
@@ -363,6 +364,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"cancel"
+			"allcaps"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}	
@@ -406,7 +408,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "ColorCyan"
+			"fgcolor_override" "72 255 255 255"
 		}
 		"NextPageButton"
 		{
@@ -444,7 +446,7 @@
 		"tall"					"300"
 		"visible"				"0"
 		"bgcolor_override"		"Transparent"
-		"noitem_TanLight"		"TanLight"
+		"noitem_textcolor"		"TanLight"
 		"PaintBackgroundType"	"2"
 		"paintborder"			"1"
 		"text_ypos"				"20"
@@ -483,7 +485,7 @@
 		"tall"					"42"
 		"visible"				"0"
 		"bgcolor_override"		"Transparent"
-		"noitem_TanLight"		"TanLight"
+		"noitem_textcolor"		"TanLight"
 		"PaintBackgroundType"	"2"
 		"paintborder"			"1"
 		"model_ypos"			"5"

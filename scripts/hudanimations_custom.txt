@@ -163,6 +163,13 @@ event CompetitiveGame_RestoreChatWindow
 }
 //==================================================================================
 
+event TrainingHudBounce
+{
+	Animate ObjectiveStatusTraining		Position	"c-160 r167"		Linear 0 0
+	Animate ObjectiveStatusTraining		Position	"c-160 r107"		Bounce 0.0 2.0
+}
+//==================================================================================
+
 event TeamStatus_PlayerDead
 {
 	SetVisible	respawntime	1	0
