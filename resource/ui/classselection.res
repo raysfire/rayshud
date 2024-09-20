@@ -524,7 +524,7 @@
 		"Command"			"vguicancel"
 		"font"				"HudFontSmall"
 		"paintbackground"	"0"
-		"allcaps"			"0"
+		"allcaps"			"1"
 		
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override"		"ColorCyan"
