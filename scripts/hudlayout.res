@@ -572,7 +572,7 @@
 		"enabled" 			"1"
 		"wide"	 			"640"
 		"tall"	 			"480"
-		"xpos"				"c200"
+		"xpos"				"c-205"
 		"ypos"				"c130"
 		"xpos_minmode"		"c-145"
 		"ypos_minmode"		"c70"
