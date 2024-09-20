@@ -91,7 +91,7 @@
 		"labelText"		">"
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"15"
+		"wide"			"13"
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"

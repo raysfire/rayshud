@@ -6,11 +6,11 @@
 		"fieldName"		"NewMatchFound"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
-		"zpos"			"10000"
+		"zpos"			"10001"
 		"wide"			"200"
 		"tall"			"60"
 		"visible"		"1"
-		"proportionaltoparent"	"1"
+		"proportionaltoparent"	"0"
 		"keyboardinputenabled"	"0"
 		"mouseinputenabled"		"1"
 
@@ -139,7 +139,7 @@
 				"zpos"			"100"
 				"tall"			"15"
 
-				if_expected
+				"if_expected"
 				{
 					"xpos"			"cs-0.5"
 					"wide"			"150"
