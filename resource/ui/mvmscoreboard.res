@@ -5,7 +5,7 @@
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
 		"xpos"				"0"
-		"xpos"				"c-100"
+		"ypos"				"0"
 		"zpos"				"0"
 		"wide"				"f0"
 		"tall"				"67"
@@ -56,7 +56,6 @@
 		"zpos"				"-1"
 		"wide"				"540"
 		"tall"				"500"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"bgcolor_override"		"TransparentBlack"
@@ -77,8 +76,7 @@
 		"tabPosition"		"0"
 		"autoresize"		"3"
 		"linespacing"		"22"
-		"textcolor"			"White"
-		"font"				"HudFontMedium"
+		"textcolor"			"TanLight"
 	}
 
 	"CreditStatsContainer"
@@ -123,7 +121,6 @@
 			"enabled"		"1"
 			"bgcolor_override"		"TransparentBlack"
 			"PaintBackgroundType"	"2"
-
 		}
 
 		"CreditsLabel"

@@ -1,6 +1,6 @@
 "Resource/UI/HudItemEffectMeter_PowerupBottles.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"fieldName"			"HudItemEffectMeter"
 		"visible"			"1"

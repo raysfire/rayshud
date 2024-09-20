@@ -239,6 +239,7 @@
 		"enabled"				"1"
 		"xpos"					"r150"
 		"ypos"					"r35"
+		"zpos"					"10"
 		"wide"					"150"
 		"tall"					"170"
 	}
