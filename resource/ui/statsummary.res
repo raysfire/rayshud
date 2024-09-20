@@ -73,7 +73,7 @@
 		"font"			"HudFontGiantBold"
 		"labelText"		"%maplabel%"
 		"textAlignment"	"west"
-		"xpos"			"6"
+		"xpos"			"10"
 		"ypos"			"20"
 		"zpos"			"50"
 		"wide"			"f0"
@@ -85,6 +85,7 @@
 		"allcaps"		"1"
 		"fgcolor_override" "TanLight"
 	}
+	
 	"MapType"
 	{
 		"ControlName"	"CExLabel"
@@ -92,7 +93,7 @@
 		"font"			"HudFontBig"
 		"labelText"		"%maptype%"
 		"textAlignment"	"west"
-		"xpos"			"6"
+		"xpos"			"10"
 		"ypos"			"60"
 		"zpos"			"50"
 		"wide"			"f0"
@@ -101,7 +102,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"allcaps"		"0"
 		"fgcolor_override" "TanLight"
 	}
 
