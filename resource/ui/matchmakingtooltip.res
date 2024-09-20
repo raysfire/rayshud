@@ -19,23 +19,6 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TipLabel"
-
-
-			if_small
-			{
-				"font"			"HudFontSmall"
-			}
-
-			if_medium
-			{
-				"font"			"HudFontMediumSmall"
-			}
-
-			if_large
-			{
-				"font"			"HudFontMedium"
-			}
-
 			"labelText"			"%tiptext%"
 			"textAlignment"		"center"
 			"xpos"				"10"
@@ -47,10 +30,10 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-			"wrap"				"1"
 			"fgcolor_override"	"TanLight"
 			"auto_wide_tocontents"	"1"
 			"auto_tall_tocontents"	"1"
+			"wrap"				"1"
 		}
 	}	
 }
