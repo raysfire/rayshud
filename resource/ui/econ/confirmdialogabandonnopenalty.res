@@ -14,8 +14,8 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
-		"bgcolor_override"		"DarkGrey"
 		"paintbackground"		"1"
+		"bgcolor_override"		"DarkGrey"
 		"border"				"CyanBorderThick"
 	}
 

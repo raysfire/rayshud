@@ -14,16 +14,17 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"DarkGrey"
-		"infocus_bgcolor_override"		"DarkGrey"
-		"outoffocus_bgcolor_override"	"DarkGrey"
 
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"			"500"
 		"modelpanels_height"		"260"
 		"modelpanels_ypos"			"110"
+		"settitlebarvisible"	"0"
+		"PaintBackgroundType"	"0"
+		
+		"bgcolor_override"				"DarkGrey"
+		"infocus_bgcolor_override"		"DarkGrey"
+		"outoffocus_bgcolor_override"	"DarkGrey"
 
 		"modelpanelskv"
 		{
@@ -173,6 +174,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nextitem"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -197,6 +199,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"previtem"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -222,6 +225,7 @@
 		"brighttext"	"0"
 		"Command"		"vguicancel"
 		"default"		"1"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -246,6 +250,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"changeloadout"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -264,35 +269,20 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmall"
+		"labelText"		"T"
+		"font"			"CustomIcons"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"discarditem"
 		"paintbackground"	"0"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override"		"ColorCyan"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"1"
-			"wide"			"p1"
-			"tall"			"p1"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"icon_trash_on"
-			"scaleImage"	"1"
-			"paintbackgroundtype" "0"
-			"proportionaltoparent"	"1"
-		}
+		"depressedFgColor_override"	"TanLight"
 	}
 
 	"DiscardButtonTooltip"
@@ -305,10 +295,10 @@
 		"wide"			"100"
 		"tall"			"25"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
 		"paintbackground"	"1"
 		"border"		"NoBorder"
 		"bgcolor_override"	"DarkerGrey"
+		"PaintBackgroundType"	"2"
 
 		"TipLabel"
 		{

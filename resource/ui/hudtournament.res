@@ -27,7 +27,7 @@
 
 		if_mvm
 		{
-			"ypos"						"0"
+			"ypos"						"10"
 			"team1_player_base_y"		"66"
 			"team2_player_base_y"		"66"
 			"team2_player_delta_x"		"52"
@@ -99,9 +99,9 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"Cerbetica10"
+				"font"			"FontStorePrice"
 				"xpos"			"1"
-				"ypos"			"25"
+				"ypos"			"24"
 				"zpos"			"5"
 				"wide"			"48"
 				"tall"			"10"
@@ -116,11 +116,11 @@
 			{
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
-				"xpos"			"1"
-				"ypos"			"1"
+				"xpos"			"3"
+				"ypos"			"2"
 				"zpos"			"3"
-				"wide"			"24"
-				"tall"			"24"
+				"wide"			"22"
+				"tall"			"22"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"

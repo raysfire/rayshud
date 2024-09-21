@@ -104,6 +104,6 @@
 		"textAlignment"		"east"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"HudFontSmallishBold"
+		"font"				"Cerbetica18"
 	}
 }

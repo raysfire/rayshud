@@ -30,17 +30,13 @@
 	{
 		"ControlName"		"CMvMBossStatusPanel"
 		"fieldName"			"BossStatusPanel"
-		"xpos"				"0"
-		"ypos"				"0"
+		"xpos"				"r110"
+		"ypos"				"r150"
 		"zpos"				"0"
 		"wide"				"200"
 		"tall"				"100"
 		"visible"			"1"
 		"enabled"			"1"
-
-		"pin_to_sibling"			"WaveStatusPanel"
-		"pin_corner_to_sibling"		"4"
-		"pin_to_sibling_corner"		"6"
 	}
 
 	"InWorldCurrencyPanel"
@@ -48,7 +44,7 @@
 		"ControlName"		"CInWorldCurrencyStatus"
 		"fieldName"			"InWorldCurrencyPanel"
 		"xpos"				"r105"
-		"ypos"				"r25"
+		"ypos"				"r24"
 		"wide"				"100"
 		"tall"				"20"
 		"visible" 			"1"
@@ -190,7 +186,7 @@
 		"ControlName"		"CMvMWaveLossPanel"
 		"fieldName"			"WaveLossPanel"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"-30"
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"

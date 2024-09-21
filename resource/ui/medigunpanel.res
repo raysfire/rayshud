@@ -35,9 +35,6 @@
 		"player-dead" {
 			//"visible"	"0"
 		}
-		"team-red"  {
-			"xpos"		"0"
-		}
 	}
 
 	"MedigunPanelBackground"
@@ -99,11 +96,9 @@
 			"medigun-kritzkrieg" {
 				"image"		"replay/thumbnails/kritz"
 			}
-
 			"medigun-quickfix" {
 				"image"		"replay/thumbnails/quickfix"
 			}
-
 			"medigun-vaccinator" {
 				"ypos"		"0"
 				"wide"		"17"
@@ -122,7 +117,6 @@
 						"image" "../HUD/defense_buff_fire_red"
 					}
 				}
-
 				"team-blu"
 				{
 					"resist-bullet" {
@@ -137,7 +131,6 @@
 				}
 			}
 		}
-
 		"player-dead"
 		{
 			"wide"		"16"
@@ -169,7 +162,6 @@
         "medigun-vaccinator" {
             "labelText"	"%charges%"
         }
-
         "player-dead" {
             "visible"	"0"
         }
@@ -228,7 +220,6 @@
         "medigun-vaccinator" {
             "visible"       "0"
         }
-
         "player-dead" {
             "visible"       "0"
         }
@@ -263,19 +254,15 @@
 		"medigun-medigun" {
 			"labelText"	"#TF_Weapon_Medigun"
 		}
-
 		"medigun-kritzkrieg" {
 			"labelText"	"#TF_Unique_Achievement_Medigun1"
 		}
-
 		"medigun-quickfix" {
 			"labelText"	"#TF_Unique_MediGun_QuickFix"
 		}
-
 		"medigun-vaccinator" {
 			"labelText"	"#TF_Weapon_Medigun_Resist"
 		}
-
 		"player-dead" {
 			"visible"	"0"
 		}
@@ -308,21 +295,17 @@
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 
 		"medigun-medigun" {
-			"labelText"	"TF_Weapon_Medigun"
+			"labelText"	"#TF_Weapon_Medigun"
 		}
-
 		"medigun-kritzkrieg" {
 			"labelText"	"#TF_Unique_Achievement_Medigun1"
 		}
-
 		"medigun-quickfix" {
 			"labelText"	"#TF_Unique_MediGun_QuickFix"
 		}
-
 		"medigun-vaccinator" {
 			"labelText"	"#TF_Weapon_Medigun_Resist"
 		}
-
 		"player-dead" {
 			"visible"	"0"
 		}

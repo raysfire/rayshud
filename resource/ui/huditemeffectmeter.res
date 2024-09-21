@@ -11,7 +11,7 @@
 		"ypos_minmode"		"c48"
 		"wide"				"120"
 		"tall"				"8"
-		"MeterFG"			"White"
+		"MeterFG"			"TanLight"
 		"MeterBG"			"Gray"
 	}
 
@@ -45,8 +45,8 @@
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"120"
-		"wide_minmode"		"100"
 		"tall"				"8"
+		"wide_minmode"		"100"
 		"tall_minmode"		"5"
 		"autoResize"		"0"
 		"pinCorner"			"0"

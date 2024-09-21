@@ -43,9 +43,9 @@
 			"proportionaltoparent"	"1"
 
 			"fullscreen_fade_to_black_duration"	"0.32"
-			"fullscreen_modelpanel_origin_x"	"265"
+			"fullscreen_modelpanel_origin_x"	"275"
 			"fullscreen_modelpanel_origin_y"	"0"
-			"fullscreen_modelpanel_origin_z"	"-35"
+			"fullscreen_modelpanel_origin_z"	"-30"
 			"ui_fadeout_time"					"3.0"
 			"ui_fadeout_duration"				"2.0"
 
@@ -68,11 +68,9 @@
 				"textAlignment"			"center"
 				"dulltext"				"0"
 				"brighttext"			"0"
-				"paintbackground"		"0"
-				
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
-				
+				"paintbackground"		"0"
 				"defaultFgColor_override"	"TanDark"
 				"armedFgColor_override"		"TanLight"
 				"depressedFgColor_override"	"TanDark"
@@ -97,11 +95,9 @@
 				"textAlignment"			"center"
 				"dulltext"				"0"
 				"brighttext"			"0"
-				"paintbackground"		"0"
-				
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
-				
+				"paintbackground"		"0"
 				"defaultFgColor_override"	"TanDark"
 				"armedFgColor_override"		"TanLight"
 				"depressedFgColor_override"	"TanDark"
@@ -128,11 +124,10 @@
 				"brighttext"			"0"
 				"default"				"0"
 				"Command"				"zoom_toggle"
-				"paintbackground"		"0"
 				
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
-		
+				"paintbackground"		"0"
 				"defaultFgColor_override" 	"TanDark"
 				"armedFgColor_override" 	"TanLight"
 				"depressedFgColor_override" "TanDark"
@@ -497,8 +492,8 @@
 		"fov"					"40"
 		"allow_rot"				"1"
 		"paintbackground"		"1"
-		"bgcolor_override"		"255 255 255 0"
 		"paintbackgroundenabled"	"1"
+		"bgcolor_override"		"255 255 255 0"
 
 		"model"
 		{
@@ -558,9 +553,9 @@
 		"tall"					"20"
 		"visible"				"1"
 		"panel_bgcolor"			"TextColor"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"			"0"
 		"PaintBackgroundType"	"2"
-		"panel_bgcolor_mouseover" "ColorWhite"
 
 		"bgblockout"
 		{
@@ -580,6 +575,7 @@
 		"itempanel"
 		{
 			"fieldName"				"itempanel"
+			"PaintBackgroundType"	"2"
 			"paintborder"			"0"
 			"model_xpos"			"1"
 			"model_ypos"			"2"
@@ -589,7 +585,6 @@
 			"attrib_only"			"0"
 			"model_only"			"1"
 			"paint_icon_hide"		"0"
-			"PaintBackgroundType"	"2"
 
 			"itemmodelpanel"
 			{
@@ -612,9 +607,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"panel_bgcolor"			"TextColor"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"			"2"
 		"PaintBackgroundType"	"2"
-		"panel_bgcolor_mouseover" "White"
 	}
 	"ClassUsageImage2"
 	{
@@ -628,9 +623,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"panel_bgcolor" 		"TextColor"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"			"2"
 		"PaintBackgroundType"	"2"
-		"panel_bgcolor_mouseover" "White"
 	}
 	"ClassUsageImage3"
 	{
@@ -644,9 +639,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"panel_bgcolor"			"TextColor"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"			"2"
 		"PaintBackgroundType"	"2"
-		"panel_bgcolor_mouseover" "White"
 	}
 	"ClassUsageImage4"
 	{
@@ -660,9 +655,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"panel_bgcolor" 		"TextColor"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"			"2"
 		"PaintBackgroundType"	"2"
-		"panel_bgcolor_mouseover" "White"
 	}
 	"ClassUsageImage5"
 	{
@@ -676,9 +671,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"panel_bgcolor" 		"TextColor"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"			"2"
 		"PaintBackgroundType"	"2"
-		"panel_bgcolor_mouseover" "White"
 	}
 	"ClassUsageImage6"
 	{
@@ -692,9 +687,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"panel_bgcolor" 		"TextColor"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"			"2"
 		"PaintBackgroundType"	"2"
-		"panel_bgcolor_mouseover" "White"
 	}
 
 	"IconsMoveLeftButton"
@@ -717,11 +712,9 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"command"				"icons_left"
-		"paintbackground"		"0"
-		
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
-		
+		"paintbackground"		"0"
 		"defaultFgColor_override"	"TanDark"
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override"	"TanDark"
@@ -747,11 +740,9 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"command"				"icons_right"
-		"paintbackground"		"0"
-		
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
-		
+		"paintbackground"		"0"
 		"defaultFgColor_override"	"TanDark"
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override"	"TanDark"
@@ -883,10 +874,10 @@
 		"enabled"				"1"
 		"auto_scale"			"1"
 		"auto_layout"			"1"
-		"display_vertically"	"1"
-		"align"					"west"
 		"selected_button_default"		"0"
 		"auto_layout_vertical_buffer"	"-4"
+		"display_vertically"	"1"
+		"align"					"west"
 
 		"ButtonSettings"
 		{
@@ -900,10 +891,9 @@
 			"labelText"				""
 			"textAlignment"			"south-west"
 			"scaleImage"			"1"
-			
 			"fgcolor"					"TanDark"
 			"defaultFgColor_override" 	"TanDark"
-			"armedFgColor_override" 	"TanLight"
+			"armedFgColor_override" 	"TanDark"
 			"depressedFgColor_override" "TanDark"
 
 			"sound_depressed"			"UI/buttonclick.wav"
@@ -912,13 +902,13 @@
 
 			"paintbackground"			"0"
 			"paintbackgroundtype"		"0"
-			"defaultBgColor_Override"	"ColorBlack"
+			"defaultBgColor_Override"	"0 0 0 255"
 
 			"paintborder"				"0"
 
-			"image_drawcolor"			"TanDark"
-			"image_armedcolor"			"TanLight"
-			"image_selectedcolor"		"TanLight"
+			"image_drawcolor"			"255 255 255 77"
+			"image_armedcolor"			"255 255 255 128"
+			"image_selectedcolor"		"255 255 255 255"
 
 			"stayselectedonclick"		"1"
 			"keyboardinputenabled"		"0"

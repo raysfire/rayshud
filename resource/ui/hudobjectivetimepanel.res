@@ -5,14 +5,14 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"TimePanelBG"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"-5"
 		"zpos"				"2"
-		"wide"				"50"
-		"tall"				"25"
+		"wide"				"80"
+		"tall"				"30"
 		"visible"			"1"
 		"enabled"			"1"
 		"bgcolor_override"	"TransparentBlack"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 
 		if_match
 		{
@@ -41,7 +41,6 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"wrap"				"1"
 		"font"				"HudFontSmallest"
 	}
 	"WaitingForPlayersBG"

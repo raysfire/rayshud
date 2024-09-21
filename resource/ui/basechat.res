@@ -7,11 +7,11 @@
 		"visible" 				"1"
 		"enabled" 				"1"
 		"xpos"					"5"
-		"ypos"					"25"
-		"wide"					"210"
+		"ypos"					"20"
+		"wide"					"250"
 		"tall"					"100"
-		"PaintBackgroundType"		"0"
-		"bgcolor_override"			"0 0 0 255"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"		"0 0 0 255"
 	}
 
 	ChatInputLine
@@ -22,7 +22,7 @@
 		"enabled"				"1"
 		"xpos"					"10"
 		"ypos"					"395"
-		"wide"					"160"
+		"wide"					"195"
 		"tall"					"0"
 		"PaintBackgroundType"	"0"
 	}
@@ -31,7 +31,7 @@
 	{
 		"ControlName"			"Button"
 		"fieldName"				"ChatFiltersButton"
-		"xpos"					"173"
+		"xpos"					"210"
 		"ypos"					"86"
 		"wide"					"33"
 		"tall"					"8"
@@ -53,7 +53,7 @@
 		"fieldName"				"HudChatHistory"
 		"xpos"					"0"
 		"ypos"					"0"
-		"wide"					"210"
+		"wide"					"250"
 		"tall"					"75"
 		"wrap"					"1"
 		"autoResize"			"1"
