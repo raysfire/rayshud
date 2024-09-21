@@ -37,7 +37,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"obj_status_sapper"
-		"iconColor"		"White"
+		"iconColor"		"TanLight"
 	}
 
 	"NotBuiltPanel"

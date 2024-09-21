@@ -19,6 +19,23 @@
 		"drawcolor"			"192 192 192 255"
 	}
 
+	"BackgroundEngineer"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"BackgroundEngineer"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"-1"
+		"wide"				"0"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"0"
+		"scaleImage"		"0"
+		"image"				"pipboy_engineer"
+		"tileImage"			"0"
+		"tileVertically"	"0"
+	}
+
 	"BuildIcon"
 	{
 		"iconColor"			"ColorGreen"

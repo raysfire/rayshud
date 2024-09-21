@@ -49,7 +49,7 @@
 		"enabled"			"1"
 		"scaleImage"		"1"
 		"icon"				"ico_key_blank"
-		"iconColor"			"White"
+		"iconColor"			"TanLight"
 	}
 
 	"NewNumberLabel"
@@ -68,7 +68,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"labelText"			"2"
-		"textAlignment"		"Center"
+		"textAlignment"		"center"
 		"dulltext"			"1"
 		"brighttext"		"0"
 	}
@@ -89,7 +89,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"5"
-		"textAlignment"		"Center"
+		"textAlignment"		"center"
 		"dulltext"			"1"
 		"brighttext"		"0"
 	}

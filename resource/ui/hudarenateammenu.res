@@ -99,22 +99,22 @@
 		"font"			"Cerbetica20"
 		"allcaps"		"1"
 		
-		"defaultBgColor_override" 	"TransparentBlack"
-		"armedBgColor_override"		"ColorWhite"
-		"depressedBgColor_override" "TransparentBlack"
-		"selectedBgColor_override" 	"ColorWhite"
-		
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override"		"TanDark"
-		"depressedFgColor_override" "TanLight"
-		"selectedFgColor_override" 	"TanDark"
-		
-		"sound_depressed"			"UI/buttonclick.wav"
-		"sound_released"			"UI/buttonclickrelease.wav"
-		
 		"pin_to_sibling"			"mapname"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+		"defaultBgColor_override" 	"TransparentBlack"
+		"armedBgColor_override"		"HudBlack"
+		"depressedBgColor_override" "TransparentBlack"
+		"selectedBgColor_override" 	"HudBlack"
+
+		"defaultFgColor_override" 	"TanDark"
+		"armedFgColor_override"		"TanLight"
+		"depressedFgColor_override" "TanDark"
+		"selectedFgColor_override" 	"TanLight"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 	}
 
 	"teambutton3"
@@ -138,29 +138,22 @@
 		"command"		"jointeam spectatearena"
 		"font"			"Cerbetica20"
 		
-		"defaultBgColor_override" 	"TransparentBlack"
-		"armedBgColor_override"		"ColorWhite"
-		"depressedBgColor_override" "TransparentBlack"
-		"selectedBgColor_override" 	"ColorWhite"
-		
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override"		"TanDark"
-		"depressedFgColor_override" "TanLight"
-		"selectedFgColor_override" 	"TanDark"
-		
-		"sound_depressed"			"UI/buttonclick.wav"
-		"sound_released"			"UI/buttonclickrelease.wav"
-		
 		"pin_to_sibling"			"teambutton2"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-	}
 
-	"CancelButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CancelButton"
-		"wide"			"0"
+		"defaultBgColor_override" 	"TransparentBlack"
+		"armedBgColor_override"		"HudBlack"
+		"depressedBgColor_override" "TransparentBlack"
+		"selectedBgColor_override" 	"HudBlack"
+
+		"defaultFgColor_override" 	"TanDark"
+		"armedFgColor_override"		"TanLight"
+		"depressedFgColor_override" "TanDark"
+		"selectedFgColor_override" 	"TanLight"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 	}
 
 	"MenuBG"
@@ -169,7 +162,6 @@
 		"fieldName"		"MenuBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
@@ -184,6 +176,13 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
 		"xpos"			"9999"
+	}
+
+	"CancelButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CancelButton"
+		"wide"			"0"
 	}
 
 	"TeamMenuSpectate"

@@ -21,7 +21,7 @@
 			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"BlueSolid"
+			"bgcolor_override"	"Blue"
 		}
 		"RedScoreBG"
 		{
@@ -34,7 +34,7 @@
 			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"RedSolid"
+			"bgcolor_override"	"Red"
 		}
 
 		"BlueTeamLabel"

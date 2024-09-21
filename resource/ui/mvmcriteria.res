@@ -158,10 +158,10 @@
 			"scaleImage"		"1"
 		}
 
-		"ToorLootTitle"
+		"TourLootTitle"
 		{
 			"ControlName"		"Label"
-			"fieldName"			"ToorLootTitle"
+			"fieldName"			"TourLootTitle"
 			"font"				"HudFontMediumSmall"
 			"labelText"			"#TF_MvM_TourLootTitle"
 			"textAlignment"		"west"
@@ -172,10 +172,10 @@
 			"tall"				"30"
 		}
 
-		"ToorLootDetailLabel"
+		"TourLootDetailLabel"
 		{
 			"ControlName"		"Label"
-			"fieldName"			"ToorLootDetailLabel"
+			"fieldName"			"TourLootDetailLabel"
 			"font"				"FontRegular12"
 			"labelText"			"%tour_loot_detail%"
 			"textAlignment"		"west"

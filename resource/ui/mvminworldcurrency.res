@@ -20,7 +20,6 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"CurrencyLabel"
 		"font"				"HudFontSmall"
-		"fgcolor"			"TanLight"
 		"xpos"				"4"
 		"ypos"				"0"
 		"zpos"				"3"
@@ -28,8 +27,9 @@
 		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
-		"allcaps"			"1"
 		"textAlignment"		"west"
+		"allcaps"			"1"
+		"fgcolor"			"TanLight"
 		"labelText"			"#TF_PVE_Missed"
 	}
 
@@ -37,7 +37,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CurrencyGood"
-		"font"				"HudFontSmall"
+		"font"				"Cerbetica18"
 		"fgcolor"			"CreditsGreen"
 		"xpos"				"45"
 		"ypos"				"0"
@@ -54,8 +54,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CurrencyBad"
-		"font"				"HudFontSmall"
-		"fgcolor"			"225 30 30 255"
+		"font"				"Cerbetica18"
+		"fgcolor"			"ColorRed"
 		"xpos"				"45"
 		"ypos"				"0"
 		"zpos"				"4"

@@ -37,7 +37,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"obj_status_dispenser"
-		"iconColor"		"White"
+		"iconColor"		"TanLight"
 	}
 
 	"NotBuiltPanel"
@@ -93,7 +93,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_1"
-			"iconColor"		"White"
+			"iconColor"		"TanLight"
 		}
 
 		"Icon_Upgrade_2"
@@ -109,7 +109,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_2"
-			"iconColor"		"White"
+			"iconColor"		"TanLight"
 		}
 
 		"Icon_Upgrade_3"
@@ -125,7 +125,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_3"
-			"iconColor"		"White"
+			"iconColor"		"TanLight"
 		}
 
 		"AlertTray"
@@ -155,7 +155,7 @@
 			"enabled"		"0"
 			"scaleImage"	"1"
 			"icon"			"obj_status_icon_wrench"
-			"iconColor"		"White"
+			"iconColor"		"TanLight"
 		}
 
 		"SapperIcon"
@@ -171,7 +171,7 @@
 			"enabled"		"0"
 			"scaleImage"	"1"
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"White"
+			"iconColor"		"TanLight"
 		}
 
 		"Health"
