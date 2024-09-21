@@ -113,7 +113,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"TargetDataLabel"
-		"font"				"HudFontSmall"
+		"font"				"HudFontSmaller"
 		"xpos"				"0"
 		"ypos"				"10"
 		"zpos"				"1"

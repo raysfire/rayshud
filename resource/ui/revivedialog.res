@@ -16,24 +16,8 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintborder"			"0"
-
-		"BackColor"
-    	{
-    		"ControlName"		"EditablePanel"
-    		"fieldName"			"BackColor"
-    		"xpos"				"0"
-    		"ypos"				"0"
-    		"zpos"				"-99"
-    		"wide"				"f0"
-    		"tall"	 			"f0"
-    		"visible"			"1"
-    		"enabled"			"1"
-			"pinCorner"			"0"
-			"autoResize"		"0"
-			"PaintBackgroundType"	"0"
-			"border"			"NoBorder"
-			"bgcolor_override"	"65 65 65 255"
-    	}
+		"paintbackground"		"1"
+		"bgcolor_override"	"65 65 65 255"
 
 		"TitleLabel"
 		{
@@ -71,6 +55,38 @@
 			"enabled"			"1"
 			"centerwrap"		"1"
 			"fgcolor_override"	"ColorCyan"
+		}
+		
+		// sigsegv: added this
+		"CancelButton"
+		{
+			"ControlName"			"CExButton"
+			"fieldName"				"CancelButton"
+			"xpos"					"90"
+			"ypos"					"43"
+			"zpos"					"20"
+			"wide"					"70"
+			"tall"					"20"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"tabPosition"			"0"
+			"labelText"				"Hide"
+			"font"					"Cerbetica18"
+			"textAlignment"			"center"
+			"textinsetx"			"50"
+			"dulltext"				"0"
+			"brighttext"			"0"
+			"Command"				"cancel"
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			"border_default"			"Econ.Button.Border.Default"
+			"border_armed"				"Econ.Button.Border.Armed"
+			"armedBgColor_override"		"Econ.Button.ArmedBgColor"
+			"armedFgColor_override"		"Econ.Button.ArmedFgColor"
+			"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
+			"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
 		}
 
 		"ConfirmButton"
@@ -116,11 +132,11 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"HealthBonusPosAdj"	"10"
+			"autoResize"				"1"
 			"HealthDeathWarning"		"0.49"
 			"TFFont"					"HudFontSmallest"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
 			"TextColor"					"HudOffWhite"
-			"autoResize"				"1"
 		}
 	}
 }

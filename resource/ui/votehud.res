@@ -45,7 +45,7 @@
 			"brighttext"		"0"
 			"font"				"ScoreboardSmall"
 			"wrap"				"1"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 		}
 
 		"PassedResult"
@@ -64,7 +64,7 @@
 			"brighttext"		"0"
 			"font"				"ScoreboardVerySmall"
 			"wrap"				"1"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 			"noshortcutsyntax"	"1"
 		}
 	}
@@ -168,7 +168,7 @@
 			"dulltext"			"0"
 			"brighttext"		"0"
 			"font"				"ScoreboardVerySmall"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 		}
 
 		"Option1Background_Selected"
@@ -200,7 +200,7 @@
 			"dulltext"			"0"
 			"brighttext"		"0"
 			"font"				"ScoreboardSmall"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 		}
 
 		"LabelOption2"
@@ -219,7 +219,7 @@
 			"dulltext"			"0"
 			"brighttext"		"0"
 			"font"				"ScoreboardVerySmall"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 		}
 
 		"Option2Background_Selected"
@@ -251,7 +251,7 @@
 			"dulltext"			"0"
 			"brighttext"		"0"
 			"font"				"ScoreboardSmall"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 		}
 
 		"LabelOption3"
@@ -270,7 +270,7 @@
 			"dulltext"			"0"
 			"brighttext"		"0"
 			"font"				"ScoreboardVerySmall"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 		}
 
 		"Option3Background_Selected"
@@ -302,7 +302,7 @@
 			"dulltext"			"0"
 			"brighttext"		"0"
 			"font"				"ScoreboardVerySmall"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 		}
 
 		"Option4Background_Selected"
@@ -334,7 +334,7 @@
 			"dulltext"			"0"
 			"brighttext"		"0"
 			"font"				"ScoreboardVerySmall"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 		}
 
 		"Option5Background_Selected"
@@ -466,7 +466,7 @@
 			"brighttext"		"0"
 			"font"				"ScoreboardVerySmall"
 			"wrap"				"1"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 		}
 	}
 
@@ -535,7 +535,7 @@
 			"brighttext"		"0"
 			"font"				"ScoreboardVerySmall"
 			"wrap"				"1"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 		}
 	}
 

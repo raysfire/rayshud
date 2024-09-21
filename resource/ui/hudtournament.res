@@ -355,7 +355,7 @@
 		"tall"					"16"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"BlueSolid"
+		"fillcolor"				"Blue"
 
 		"pin_to_sibling"		"MainBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -415,7 +415,7 @@
 		"tall"					"16"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"RedSolid"
+		"fillcolor"				"Red"
 
 		"pin_to_sibling"		"HudTournamentBLUEBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
