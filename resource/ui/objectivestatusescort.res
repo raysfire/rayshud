@@ -119,19 +119,17 @@
 		"tall"				"4"
 		"wide_minmode"				"120"
 		"tall_minmode"				"10"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"scaleImage"		"1"
 
 		"if_multiple_trains"
 		{
-			"xpos"			"73"
-			"xpos_minmode"	"c-56"
-			"ypos"			"114"
-			"ypos_minmode"	"115"
-			"wide_minmode"	"116"
+			"ypos"			"115"
+			"zpos"			"6"
 			"tall"			"12"
-			"tall_minmode"	"8"
+			"tall_minmode"			"8"
+			"visible"		"1"
 		}
 	}
 
@@ -258,7 +256,7 @@
 		{
 			"ypos"			"48"
 			"zpos"			"8"
-			"wide"			"0"
+			"wide"			"52"
 			"tall"			"170"
 		}
 
