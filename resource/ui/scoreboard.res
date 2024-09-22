@@ -305,12 +305,12 @@
 		}
 	}
 
-	"ServerTimeValue"
+	"MapName"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"ServerTimeValue"
+		"fieldName"		"mapname"
 		"font"			"HudFontMediumSecondary"
-		"labelText"		"%servertime%"
+		"labelText"		"%mapname%"
 		"textAlignment"	"west"
 		"xpos"			"5"
 		"ypos"			"5"
@@ -340,17 +340,17 @@
 		"enabled"		"1"
 		"allcaps"		"1"
 
-		"pin_to_sibling"		"ServerTimeValue"
+		"pin_to_sibling"		"MapName"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
 
-	"MapName"
+	"ServerTimeValue"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"mapname"
+		"fieldName"		"ServerTimeValue"
 		"font"			"HudFontSmall"
-		"labelText"		"%mapname%"
+		"labelText"		"%servertime%"
 		"textAlignment"	"west"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -463,8 +463,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ClassImage"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"5"
+		"ypos"			"20"
 		"zpos"			"3"
 		"wide"			"92"
 		"tall"			"92"

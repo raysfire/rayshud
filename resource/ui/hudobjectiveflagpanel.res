@@ -255,10 +255,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
-		"xpos"			"c-70"
-		"ypos"			"r54"
+		"xpos"			"c-60"
+		"ypos"			"r55"
 		"zpos"			"4"
-		"wide"			"140"
+		"wide"			"120"
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
@@ -266,7 +266,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFontSmallest"
 		"fgcolor"		"TanLight"
 
 		"if_hybrid"
@@ -326,11 +326,6 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-
-		if_mvm
-		{
-			"ypos"		"r65"
-		}
 
 		"if_hybrid"
 		{

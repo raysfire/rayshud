@@ -273,11 +273,11 @@
 
 		"team1_grow_dir" 	"west"
 		"team1_base_x"		"c-30"
-		"team1_max_expand"	"220"
+		"team1_max_expand"	"250"
 
 		"team2_grow_dir"	"east"
-		"team2_base_x"		"c31"
-		"team2_max_expand"	"220"
+		"team2_base_x"		"c30"
+		"team2_max_expand"	"250"
 
 		"playerpanels_kv"
 		{
@@ -289,8 +289,8 @@
 
 			"color_portrait_bg_red"				"Red"
 			"color_portrait_bg_blue"			"Blue"
-			"color_portrait_bg_red_dead"		"79 54 52 255"
-			"color_portrait_bg_blue_dead"		"44 49 51 255"
+			"color_portrait_bg_red_dead"		"HUDRedTeam"
+			"color_portrait_bg_blue_dead"		"HUDBlueTeam"
 			"color_bar_health_high"				"Health Buff"
 			"color_bar_health_med"				"Health Normal"
 			"percentage_health_med"				"0.5"
@@ -389,7 +389,7 @@
 				"fieldName"		"HealthIcon"
 				"xpos"			"9999"
 				"visible"		"0"
-				"enabled"		"1"
+				"enabled"		"0"
 			}
 			"ReadyBG"
 			{
@@ -397,7 +397,7 @@
 				"fieldName"		"ReadyBG"
 				"xpos"			"9999"
 				"visible"		"0"
-				"enabled"		"1"
+				"enabled"		"0"
 			}
 			"ReadyImage"
 			{
@@ -405,7 +405,7 @@
 				"fieldName"		"ReadyImage"
 				"xpos"			"9999"
 				"visible"		"0"
-				"enabled"		"1"
+				"enabled"		"0"
 			}
 			"respawntime"
 			{
