@@ -70,8 +70,8 @@ event HudLowAmmoPulseStop
 event HudMedicCharged
 {
 	RunEvent HudMedicOrangePulseCharge 	0.0
-	//RunEvent HudMedicSolidColorCharge	0.0
-	//RunEvent HudMedicRainbowCharged 	0.0
+//	RunEvent HudMedicSolidColorCharge	0.0
+//	RunEvent HudMedicRainbowCharged 	0.0
 
 	RunEvent HudMedicChargedLoop		0.6
 }
@@ -147,7 +147,14 @@ event HudSpyDisguiseChanged
 	Animate	PlayerStatusSpyOutlineImage	Position	"c-350 r175"		Linear 0.0 0.2
 	Animate	PlayerStatusSpyOutlineImage	Size		"150 150"			Linear 0.0 0.2
 
+//	RunEvent HudSpyDisguiseChangedAlt	0.0
+	
 	RunEvent HudSpyDisguiseHide			0.7
+}
+
+event HudSpyDisguiseChangedAlt
+{
+	Animate	PlayerStatusSpyOutlineImage	Position	"c-350 r175"		Linear 0.0 0.2
 }
 //==================================================================================
 
