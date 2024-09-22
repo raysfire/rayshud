@@ -82,9 +82,9 @@
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton0"
 		"xpos"			"0"
-		"ypos"			"15"
+		"ypos"			"5"
 		"zpos"			"1"
-		"wide"			"255"
+		"wide"			"127"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -112,7 +112,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"pin_to_sibling"			"SelectTeamLabel"
+		"pin_to_sibling"			"teambutton2"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
@@ -124,7 +124,7 @@
 		"xpos"			"0"
 		"ypos"			"5"
 		"zpos"			"1"
-		"wide"			"255"
+		"wide"			"127"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -152,9 +152,9 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"pin_to_sibling"			"teambutton0"
-		"pin_corner_to_sibling"		"PIN_TOPLEFT"
-		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+		"pin_to_sibling"			"teambutton2"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_BOTTOMRIGHT"
 	}
 
 	"teambutton2"
@@ -162,7 +162,7 @@
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton2"
 		"xpos"			"0"
-		"ypos"			"5"
+		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"255"
 		"tall"			"30"
@@ -192,9 +192,9 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"pin_to_sibling"			"teambutton1"
-		"pin_corner_to_sibling"		"PIN_TOPLEFT"
-		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+		"pin_to_sibling"			"SelectTeamLabel"
+		"pin_corner_to_sibling"		"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"		"PIN_CENTER_BOTTOM"
 	}
 
 	"teambutton3"
@@ -232,7 +232,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"pin_to_sibling"			"teambutton2"
+		"pin_to_sibling"			"teambutton0"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
@@ -267,15 +267,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%bluecount%"
-		"textAlignment"	"east"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"Cerbetica20"
 		"fgcolor"		"255 255 255 128"
 		
 		"pin_to_sibling"		"teambutton0"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 
 	"RedCount"
@@ -292,7 +292,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%redcount%"
-		"textAlignment"	"east"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"Cerbetica20"
