@@ -22,7 +22,7 @@
 			"zpos"				"0"
 			"wide"				"400"
 			"tall"				"26"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 		}
 
 		"DifficultyLabel"
@@ -37,7 +37,7 @@
 			"zpos"				"0"
 			"wide"				"100"
 			"tall"				"24"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 		}
 
 		"CompleteLabel"
@@ -52,7 +52,7 @@
 			"zpos"				"0"
 			"wide"				"80"
 			"tall"				"24"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 		}
 
 		"TourLevelLabel"
@@ -67,7 +67,7 @@
 			"zpos"				"0"
 			"wide"				"80"
 			"tall"				"26"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"TanLight"
 		}
 
 		"TourlistGroupBox"
