@@ -131,14 +131,14 @@ event HudMedicChargedStop
 // Spy Disguise
 event HudSpyDisguiseFadeIn
 {
-//	RunEvent HudSpyDisguiseChanged		0.0
-//	Animate PlayerStatusSpyImage		Alpha		"255"				Linear 0.9	0.1
+	RunEvent HudSpyDisguiseChanged		0.0
+	Animate PlayerStatusSpyImage		Alpha		"255"				Linear 0.9	0.1
 }
 
 event HudSpyDisguiseFadeOut
 {
-//	RunEvent HudSpyDisguiseChanged		0.0
-//	Animate PlayerStatusSpyImage		Alpha		"0"					Linear 0.9	0.1
+	RunEvent HudSpyDisguiseChanged		0.0
+	Animate PlayerStatusSpyImage		Alpha		"0"					Linear 0.9	0.1
 }
 
 event HudSpyDisguiseChanged
