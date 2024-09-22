@@ -15,5 +15,8 @@ stuffcmds
 startupmenu
 sv_unlockedchapters 99
 
+// Remove Dashboard dimmer
+wait 5; showconsole; wait; incrementvar mat_antialias -100 100 1; hideconsole; wait 5; incrementvar mat_antialias -100 100 -1
+
 // Apply HUD settings
 vgui_cache_res_files 1

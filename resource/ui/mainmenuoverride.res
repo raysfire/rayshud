@@ -2034,4 +2034,10 @@
 		"bgcolor_override"	"25 25 25 168"
 		"PaintBackgroundType"	"2"
 	}
+	
+	"DashboardDimmer"
+	{
+		"wide" "0"
+		"tall" "0"
+	}
 }
