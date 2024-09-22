@@ -153,8 +153,6 @@ event HudSpyDisguiseChanged
 
 event CompetitiveGame_RestoreChatWindow
 {
-    Animate HudChat ypos 275 Accel 0 0  // Default animation
-
     // Fix stuck animations
     RunEvent HudHealthDyingPulseStop 0.1
     RunEvent HudHealthBonusPulseStop 0.1
@@ -195,6 +193,5 @@ event HudTournamentSetupPanelClose
 //==================================================================================
 
 event CompetitiveGame_LowerChatWindow { }
-event CompetitiveGame_RestoreChatWindow { }
 event HudTournament_MoveChatWindow { }
 event HudCartAlarmPulse{}
