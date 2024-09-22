@@ -284,6 +284,11 @@
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override" 	"TransparentBlack"
+			"armedBgColor_override"		"HudBlack"
+			"depressedBgColor_override" "TransparentBlack"
+			"selectedBgColor_override" 	"HudBlack"
 			
 			"pin_to_sibling"		"ViewmodelLabel"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
