@@ -793,7 +793,31 @@
 			}
 		}
 	}
+	
+	"SideBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"SideBG"
+		"xpos"				"5"
+		"ypos"				"0"
+		"zpos"				"0"
+		"wide"				"150"
+		"tall"				"190"
+		"visible"			"0"
+		"enabled"			"1"
+		"bgcolor_override"	"TransparentBlack"
+		"PaintBackgroundType"	"2"
 
+		"pin_to_sibling"		"BlueScoreBG"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+
+		if_mvm
+		{
+			"visible"	"0"
+		}
+	}
+	
 	"LocalPlayerStatsPanel"
 	{
 		"ControlName"		"EditablePanel"
