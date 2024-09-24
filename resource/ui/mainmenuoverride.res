@@ -216,15 +216,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"r182"
-		"ypos"			"r47"
-		"wide"			"179"
-		"tall"			"45"
+		"xpos"			"86"
+		"ypos"			"35"
+		"wide"			"180"
+		"tall"			"46"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../vgui/replay/thumbnails/main_menu_logo"
 		"scaleImage"	"1"
-		"command"		"engine play vo/heavy_battlecry02.mp3"
 	}
 	
 	"TFCharacterImage"
@@ -1307,7 +1306,7 @@
 		"ypos"			"82"
 		"zpos"			"11"
 		"wide"			"260"
-		"tall"			"18"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"labeltext"		"#MMenu_CharacterSetup"
@@ -1318,7 +1317,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	""
+		"border_default"	"NoBorder"
 		"border_armed"		"MainMenuTabs"
 
 		"defaultFgColor_override" 	"TanLight"
@@ -1332,11 +1331,11 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"GeneralStoreButton"
-		"xpos"			"30"
-		"ypos"			"102"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"11"
 		"wide"			"260"
-		"tall"			"18"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"labeltext"		"#StoreTitle"
@@ -1347,7 +1346,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	""
+		"border_default"	"NoBorder"
 		"border_armed"		"MainMenuTabs"
 
 		"defaultFgColor_override" 	"TanLight"
@@ -1355,17 +1354,21 @@
 
 		"defaultBgColor_override" 	"Transparent"
 		"armedBgColor_override" 	"25 25 25 148"
+		
+		"pin_to_sibling"			"CharacterSetupButton"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 	}
 
 	"SteamWorkshopButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SteamWorkshopButton"
-		"xpos"			"30"
-		"ypos"			"122"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"11"
 		"wide"			"260"
-		"tall"			"18"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"AllCaps"		"1"
@@ -1377,7 +1380,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	""
+		"border_default"	"NoBorder"
 		"border_armed"		"MainMenuTabs"
 
 		"defaultFgColor_override" 	"TanLight"
@@ -1385,17 +1388,21 @@
 
 		"defaultBgColor_override" 	"Transparent"
 		"armedBgColor_override" 	"25 25 25 148"
+		
+		"pin_to_sibling"			"GeneralStoreButton"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 	}
 
 	"SettingButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingButton"
-		"xpos"			"30"
-		"ypos"			"142"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"11"
 		"wide"			"260"
-		"tall"			"18"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"AllCaps"		"1"
@@ -1407,7 +1414,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	""
+		"border_default"	"NoBorder"
 		"border_armed"		"MainMenuTabs"
 
 		"defaultFgColor_override" 	"TanLight"
@@ -1415,17 +1422,21 @@
 
 		"defaultBgColor_override" 	"Transparent"
 		"armedBgColor_override" 	"25 25 25 148"
+		
+		"pin_to_sibling"			"SteamWorkshopButton"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 	}
 
 	"AdvSettingsButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AdvSettingsButton"
-		"xpos"			"30"
-		"ypos"			"162"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"11"
 		"wide"			"260"
-		"tall"			"18"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"AllCaps"		"1"
@@ -1437,7 +1448,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	""
+		"border_default"	"NoBorder"
 		"border_armed"		"MainMenuTabs"
 
 		"defaultFgColor_override" 	"TanLight"
@@ -1445,17 +1456,21 @@
 
 		"defaultBgColor_override" 	"Transparent"
 		"armedBgColor_override" 	"25 25 25 148"
+		
+		"pin_to_sibling"			"SettingButton"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 	}
 
 	"MinmodeToggle"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"MinmodeToggle"
-		"xpos"			"30"
-		"ypos"			"182"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"11"
 		"wide"			"260"
-		"tall"			"18"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"AllCaps"		"1"
@@ -1467,7 +1482,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	""
+		"border_default"	"NoBorder"
 		"border_armed"		"MainMenuTabs"
 
 		"defaultFgColor_override" 	"TanLight"
@@ -1475,6 +1490,10 @@
 
 		"defaultBgColor_override" 	"Transparent"
 		"armedBgColor_override" 	"25 25 25 148"
+		
+		"pin_to_sibling"			"AdvSettingsButton"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 	}
 
 	"AchievementsButton"
@@ -2032,6 +2051,21 @@
 		"tall"			"370"
 		"visible"		"1"
 		"bgcolor_override"	"25 25 25 168"
+		"PaintBackgroundType"	"2"
+	}
+	
+	"BGPanel2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BGPanel2"
+		"xpos"			"72"
+		"ypos"			"0"
+		"zpos"			"-66"
+		"wide"			"205"
+		"tall"			"f0"
+		"visible"		"0"
+		"enabled"		"1"
+		"bgcolor_override"		"ColorCyan"
 		"PaintBackgroundType"	"2"
 	}
 	
