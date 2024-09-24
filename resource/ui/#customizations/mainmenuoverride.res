@@ -12,22 +12,19 @@
 	
 	"RankModelPanel"
 	{
-		"xpos"			"150"
-		"ypos"			"c-135"
+		"ypos"			"cs-0.47"
 	}
 
 	"CycleRankTypeButton"
 	{
 		"xpos"			"250"
-		"ypos"			"cs-0.4-10"
-		"zpos"			"1"
+		"ypos"			"cs-0.4-05"
 	}
 
 	"RankPanel"
 	{
 		"xpos"			"50"
 		"ypos"			"250"
-		"tall"			"56"
 	}
 
 	"NoGCMessage"
@@ -35,7 +32,6 @@
 		"xpos"			"75"
 		"ypos"			"240"
 		"wide"			"200"
-		//"font"				"HudFontSmallestBold"
 	}
 
 	"NoGCImage"
@@ -47,38 +43,17 @@
 	"FriendsContainer"
 	{
 		"xpos"			"80"
-		"ypos"			"285"
-		"wide"			"190"
-		"tall"			"180"
-
-		"InnerShadow"
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"30"
-			"wide"			"180"
-			"tall"			"180"
-		}
+		"ypos"			"310"
+		"wide"			"210"
 
 		"SteamFriendsList"
 		{
-			"xpos"			"cs-0.5"
-			"ypos"			"30"
-			"wide"			"180"
-			"tall"			"180"
-			"column_gap"	"20"
+			"wide"			"f20"
 
 			"friendpanel_kv"
 			{
-				"wide"			"70"
+				"wide"			"85"
 			}
-		}
-
-		"BelowDarken"
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"30"
-			"wide"			"180"
-			"tall"			"180"
 		}
 	}
 
@@ -86,84 +61,59 @@
 	{
 		"xpos"			"90"
 		"ypos"			"85"
-		"wide"			"50"
-		"tall"			"16"
+		"wide"			"150"
 		"textinsetx"	"0"
-
-		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 	}
 
 	"GeneralStoreButton"
 	{
-		"xpos"			"90"
-		"ypos"			"105"
-		"wide"			"100"
-		"tall"			"16"
+		"wide"			"150"
 		"textinsetx"	"0"
-
-		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 	}
 
 	"SteamWorkshopButton"
 	{
-		"xpos"			"90"
-		"ypos"			"125"
-		"wide"			"70"
-		"tall"			"16"
+		"wide"			"150"
 		"textinsetx"	"0"
-
-		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 	}
 
 	"SettingButton"
 	{
-		"xpos"			"90"
-		"ypos"			"145"
-		"wide"			"50"
-		"tall"			"16"
+		"wide"			"150"
 		"textinsetx"	"0"
-
-		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 	}
 
 	"AdvSettingsButton"
 	{
-		"xpos"			"90"
-		"ypos"			"165"
-		"wide"			"120"
-		"tall"			"16"
+		"wide"			"150"
 		"textinsetx"	"0"
-
-		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 	}
 
 	"MinmodeToggle"
 	{
-		"xpos"			"90"
-		"ypos"			"185"
-		"wide"			"100"
-		"tall"			"16"
+		"wide"			"150"
 		"textinsetx"	"0"
-
-		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 	}
 
 	"AchievementsButton"
 	{
 		"xpos"			"90"
-		"ypos"			"205"
+		"ypos"			"210"
 	}
 	
 	"BGPanel1"
 	{
+		"xpos"			"75"
+		"ypos"			"0"
 		"wide"			"200"
 		"tall"			"f0"
+		"bgcolor_override"	"DarkGrey"
 	}
 
 	"BGPanel2"
