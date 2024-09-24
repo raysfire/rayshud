@@ -1,25 +1,15 @@
 "Resource/UI/MainMenuOverride.res"
 {
-	"HudName"
-	{
-		"xpos"			"9999"
-	}
-
 	"TFLogoImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TFLogoImage"
-		"xpos"			"86"
-		"ypos"			"35"
-		"wide"			"180"
-		"tall"			"46"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../logo/tf2_logo_black"
-		"scaleImage"	"1"
-		"command"		"engine play vo/heavy_battlecry02.mp3"
+		"visible"		"0"
 	}
 
+	"HudName"
+	{
+		"visible"		"0"
+	}
+	
 	"RankModelPanel"
 	{
 		"xpos"			"150"
@@ -45,8 +35,6 @@
 		"xpos"			"75"
 		"ypos"			"240"
 		"wide"			"200"
-		"textinsetx"	"15"
-		"textinsety"	"5"
 		//"font"				"HudFontSmallestBold"
 	}
 
@@ -75,21 +63,13 @@
 		{
 			"xpos"			"cs-0.5"
 			"ypos"			"30"
-			"zpos"			"500"
 			"wide"			"180"
 			"tall"			"180"
-			"visible"		"1"
-			"columns_count"	"2"
-			"inset_x"		"10"
-			"inset_y"		"5"
-			"row_gap"		"5"
 			"column_gap"	"20"
-			"restrict_width"	"0"
 
 			"friendpanel_kv"
 			{
 				"wide"			"70"
-				"tall"			"20"
 			}
 		}
 
@@ -150,7 +130,7 @@
 		"border_armed"		"NoBorder"
 	}
 
-	"TF2SettingsButton"
+	"AdvSettingsButton"
 	{
 		"xpos"			"90"
 		"ypos"			"165"
@@ -182,31 +162,12 @@
 	
 	"BGPanel1"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BGPanel1"
-		"xpos"			"75"
-		"ypos"			"0"
-		"zpos"			"-1"
 		"wide"			"200"
 		"tall"			"f0"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"		"DarkGrey"
-		"PaintBackgroundType"	"2"
 	}
 
 	"BGPanel2"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BGPanel2"
-		"xpos"			"72"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"205"
-		"tall"			"f0"
 		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"		"ColorCyan"
-		"PaintBackgroundType"	"2"
 	}
 }
