@@ -423,6 +423,15 @@
 		"enabled"		"1"
 		"image"			"../vgui/maps/menu_thumb_Missing"
 	}
+	"MainMenuLogo"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MainMenuLogo"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/main_menu_logo"
+	}
 	"SelbyenPickup"
 	{
 		"ControlName"	"ImagePanel"

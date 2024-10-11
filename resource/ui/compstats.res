@@ -56,10 +56,10 @@
 			"ControlName"		"CExButton"
 			"fieldName"			"ShowLeaderboardsButton"
 			"xpos"				"rs1-10"
-			"ypos"				"38"
+			"ypos"				"36"
 			"zpos"				"0"
 			"wide"				"p0.45"
-			"tall"				"15"
+			"tall"				"20"
 			"visible"			"1"
 			"proportionaltoparent"	"1"
 			"actionsignallevel"	"2"
@@ -79,10 +79,10 @@
 			"ControlName"		"CExButton"
 			"fieldName"			"ShowMatchHistoryButton"
 			"xpos"				"10"
-			"ypos"				"38"
+			"ypos"				"36"
 			"zpos"				"0"
 			"wide"				"p0.45"
-			"tall"				"15"
+			"tall"				"20"
 			"visible"			"1"
 			"proportionaltoparent"	"1"
 			"actionsignallevel"	"2"
@@ -104,7 +104,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"60"
 			"zpos"			"-1"
-			"wide"			"p0.95"
+			"wide"			"p0.98"
 			"tall"			"p0.98"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
@@ -198,7 +198,7 @@
 					"armedFgColor_override"		"Orange"
 					"selectedFgColor_override"	"TanLight"
 
-					"image_selectedcolor"	"White"
+					"image_selectedcolor"	"TanLight"
 					"image_armedcolor"		"Transparent"
 					"image_drawcolor"		"Transparent"
 
@@ -231,7 +231,7 @@
 					"armedFgColor_override"	"Orange"
 					"selectedFgColor_override" "TanLight"
 
-					"image_selectedcolor"	"White"
+					"image_selectedcolor"	"TanLight"
 					"image_armedcolor"		"Transparent"
 					"image_drawcolor"		"Transparent"
 
@@ -264,7 +264,7 @@
 					"armedFgColor_override"	"Orange"
 					"selectedFgColor_override" "TanLight"
 
-					"image_selectedcolor"	"White"
+					"image_selectedcolor"	"TanLight"
 					"image_armedcolor"		"Transparent"
 					"image_drawcolor"		"Transparent"
 
@@ -295,7 +295,7 @@
 					"armedFgColor_override"	"Orange"
 					"selectedFgColor_override" "TanLight"
 
-					"image_selectedcolor"	"White"
+					"image_selectedcolor"	"TanLight"
 					"image_armedcolor"		"Transparent"
 					"image_drawcolor"		"Transparent"
 
@@ -314,7 +314,7 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"20"
 				"wide"			"p0.95"
-				"tall"			"p0.98"
+				"tall"			"p0.78"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 				"restrict_width" 		"0"

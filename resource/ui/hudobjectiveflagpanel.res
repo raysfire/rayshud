@@ -45,6 +45,11 @@
 		{
 			"visible"	"0"
 		}
+		
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
 	}
 
 	"RightSideBG"
@@ -71,6 +76,11 @@
 		}
 
 		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+		
+		"if_no_flags"
 		{
 			"visible"	"0"
 		}
@@ -114,6 +124,11 @@
 		{
 			"visible"	"0"
 		}
+		
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
 	}
 	"BlueScoreShadow"
 	{
@@ -144,6 +159,11 @@
 		}
 
 		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+		
+		"if_no_flags"
 		{
 			"visible"	"0"
 		}
@@ -180,6 +200,11 @@
 		{
 			"visible"	"0"
 		}
+		
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
 	}
 
 	"RedScoreShadow"
@@ -211,6 +236,11 @@
 		}
 
 		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+		
+		"if_no_flags"
 		{
 			"visible"	"0"
 		}
@@ -255,10 +285,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
-		"xpos"			"c-70"
-		"ypos"			"r54"
+		"xpos"			"c-60"
+		"ypos"			"r55"
 		"zpos"			"4"
-		"wide"			"140"
+		"wide"			"120"
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
@@ -266,7 +296,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFontSmallest"
 		"fgcolor"		"TanLight"
 
 		"if_hybrid"
@@ -280,6 +310,11 @@
 		}
 
 		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+		
+		"if_no_flags"
 		{
 			"visible"	"0"
 		}
@@ -313,6 +348,11 @@
 		{
 			"visible"	"0"
 		}
+		
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
 	}
 
 	"BlueFlag"
@@ -326,11 +366,6 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-
-		if_mvm
-		{
-			"ypos"		"r65"
-		}
 
 		"if_hybrid"
 		{

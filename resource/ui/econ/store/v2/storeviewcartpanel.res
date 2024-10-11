@@ -311,7 +311,7 @@
 			"xpos"			"c-300"
 			"ypos"			"62"
 			"zpos"			"5"
-			"wide"			"600"
+			"wide"			"f0"
 			"tall"			"240"
 			"PaintBackgroundType"	"2"
 			"fgcolor_override"	"DullWhite"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
@@ -321,7 +321,7 @@
 			"Scrollbar"
 			{
 				"xpos"			"586"
-				"wide"			"4"
+				"wide"			"19"
 				"tall"			"240"
 				"zpos"			"1000"
 
@@ -330,13 +330,13 @@
 					"PaintBackgroundType"	"1"
 				}
 
-				"nobuttons"		"1"
+				"nobuttons"		"0"
 
 				"UpButton"
 				{
 					"ControlName"	"Button"
 					"FieldName"		"UpButton"
-					"visible"		"0"
+					"visible"		"1"
 					"tall"			"0"
 					"wide"			"0"
 				}
@@ -345,7 +345,7 @@
 				{
 					"ControlName"	"Button"
 					"FieldName"		"DownButton"
-					"visible"		"0"
+					"visible"		"1"
 					"tall"			"0"
 					"wide"			"0"
 				}
@@ -420,7 +420,7 @@
 						"pinCorner"		"0"
 						"visible"		"1"
 						"enabled"		"1"
-						"fgcolor_override" "White"
+						"fgcolor_override" "TanLight"
 					}
 
 					"TotalSubtextLabelB"
@@ -439,7 +439,7 @@
 						"pinCorner"		"0"
 						"visible"		"1"
 						"enabled"		"1"
-						"fgcolor_override" "White"
+						"fgcolor_override" "TanLight"
 					}
 
 					"TotalPriceLabel"
@@ -458,7 +458,7 @@
 						"visible"		"1"
 						"enabled"		"1"
 						"labelText"		"%totalprice%"
-						"fgcolor_override" "White"
+						"fgcolor_override" "TanLight"
 					}
 				}
 			}
@@ -486,6 +486,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"close"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}

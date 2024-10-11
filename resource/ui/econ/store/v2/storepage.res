@@ -302,7 +302,7 @@
 		"paintborder"	"1"
 		"textinsetx"	"100"
 		"border"		"LoadoutItemPopupBorder"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 	}
 
 	"PrevPageButton"
@@ -408,7 +408,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 	}
 
 	"SubcategoryFiltersLabel"
@@ -427,7 +427,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 	}
 
 	"SortFilterLabel"
@@ -446,7 +446,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 	}
 
 	"ClassFilterLabel"
@@ -465,7 +465,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 	}
 
 	"ClassFilterNavPanel"

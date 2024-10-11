@@ -64,6 +64,7 @@
 			"fov"			"54"
 			"start_framed"	"1"
 			"disable_manipulation"	"1"
+			"inventory_image_type"  "1"
 
 			"model"
 			{
@@ -131,7 +132,7 @@
 			"labelText"		"#ItemPanelEquipped"
 			"textAlignment"	"center"
 			"fgcolor"		"LightRed"
-			"bgcolor_override"		"ColorBlack"
+			"bgcolor_override"		"0 40 30 255"
 			"PaintBackgroundType"	"2"
 		}
 
@@ -152,7 +153,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"quantitylabel"
-			"font"			"Default"
+			"font"			"ItemFontAttribSmall"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
@@ -165,7 +166,7 @@
 			"labelText"		""
 			"textAlignment"	"center"
 			"fgcolor"		"LightRed"
-			"bgcolor_override"		"ColorBlack"
+			"bgcolor_override"		"0 40 30 255"
 			"PaintBackgroundType"	"2"
 		}
 
@@ -173,7 +174,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"serieslabel"
-			"font"			"Cerbetica10"
+			"font"			"ItemFontAttribSmall"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
@@ -194,7 +195,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"matcheslabel"
-			"font"			"ItemFontAttribSmall"
+			"font"			"Default"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"

@@ -91,7 +91,7 @@
 		"labelText"		">"
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"15"
+		"wide"			"13"
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -101,7 +101,7 @@
 
 		"armedBgColor_override"		"Transparent"
 		"defaultBgColor_override"	"Transparent"
-		"defaultFgColor_override"	"White"
+		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override"		"169 123 53 255"
 
 		if_left
@@ -130,7 +130,7 @@
 
 		"armedBgColor_override"		"Transparent"
 		"defaultBgColor_override"	"Transparent"
-		"defaultFgColor_override"	"White"
+		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override"		"169 123 53 255"
 
 		if_left
@@ -150,8 +150,8 @@
 		"wide"			"f0"
 		"tall"			"f-20"
 		"visible"		"1"
+		"proportionaltoparent"	"1"
 		"border"		"TeamMenuBorder"
 		"bgcolor_override"		"DarkerGrey"
-		"proportionaltoparent"	"1"
 	}
 }

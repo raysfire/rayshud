@@ -94,4 +94,10 @@
 		"command"		"engine toggle cl_mainmenu_safemode"
 		"tooltip"		"#TF_OptionCategory_HUD"
 	}
+	"ReloadHUDButton"
+	{
+		"label"			"."
+		"command"		"engine record fix;stop;snd_restart;vgui_cache_res_files 0;hud_reloadscheme;vgui_cache_res_files 1"
+		"tooltip"		"Reload HUD"
+	}
 }

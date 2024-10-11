@@ -6,7 +6,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-200"
-		"ypos"					"105"
+		"ypos"					"60"
 		"wide"					"400"
 		"tall"					"240"
 		"bgcolor_override"		"DarkGrey"
@@ -19,7 +19,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
-		"font"				"HudFontMedium"
+		"font"				"HudFontSmall"
 		"labelText"			"dynamic"
 		"textAlignment"		"center"
 		"xpos"				"100"
@@ -53,6 +53,7 @@
 		"paintbackground"	"0"
 		"border"			"BackpackItemBorder_SelfMade"
 	}
+	
 	"tool_modelpanel"
 	{
 		"ControlName"		"CItemModelPanel"
@@ -71,7 +72,7 @@
 		"model_ypos"		"5"
 		"model_wide"		"80"
 		"model_tall"		"54"
-		"text_ypos"			"100"		// Hide it off the bottom
+		"text_ypos"			"100"
 		"text_center"		"1"
 		"name_only"			"1"
 		"paint_icon_hide"	"1"
@@ -83,6 +84,7 @@
 			"allow_rot"				"0"
 		}
 	}
+	
 	"SubjectBG"
 	{
 		"ControlName"		"CExLabel"
@@ -102,6 +104,7 @@
 		"paintbackground"	"0"
 		"border"			"BackpackItemBorder_Vintage"
 	}
+	
 	"subject_modelpanel"
 	{
 		"ControlName"		"CItemModelPanel"
@@ -120,7 +123,7 @@
 		"model_ypos"		"5"
 		"model_wide"		"80"
 		"model_tall"		"54"
-		"text_ypos"			"100"		// Hide it off the bottom
+		"text_ypos"			"100"
 		"text_center"		"1"
 		"name_only"			"1"
 
@@ -140,7 +143,7 @@
 		"labelText"			"#CraftAskNameConfirm"
 		"textAlignment"		"center"
 		"xpos"				"20"
-		"ypos"				"80"
+		"ypos"				"100"
 		"zpos"				"0"
 		"wide"				"360"
 		"tall"				"20"
@@ -154,11 +157,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"GivenName"
-		"font"				"HudFontSmall"
+		"font"				"HudFontMediumSmall"
 		"labelText"			"%name%"
 		"textAlignment"		"center"
 		"xpos"				"20"
-		"ypos"				"100"
+		"ypos"				"120"
 		"zpos"				"0"
 		"wide"				"360"
 		"tall"				"40"
@@ -197,7 +200,7 @@
 		"ypos"				"200"
 		"zpos"				"1"
 		"wide"				"130"
-		"tall"				"20"
+		"tall"				"25"
 		"autoResize"		"0"
 		"pinCorner"			"3"
 		"visible"			"1"
@@ -222,7 +225,7 @@
 		"ypos"				"200"
 		"zpos"				"1"
 		"wide"				"130"
-		"tall"				"20"
+		"tall"				"25"
 		"autoResize"		"0"
 		"pinCorner"			"3"
 		"visible"			"1"

@@ -7,7 +7,7 @@
 		"xpos"					"0"
 		"ypos"					"3"
 		"tall"					"60"
-		"wide"					"140"
+		"wide"					"200"
 		"proportionaltoparent"	"1"
 		"button_command"		"play_event"
 	}
@@ -16,11 +16,12 @@
 	{
 		"ControlName"			"CPlayListEntry"
 		"fieldName"				"CasualEntry"
-		"xpos"					"r165"
-		"ypos"					"5"
-		"tall"					"50"
-		"wide"					"140"
-		"proportionaltoparent"	"0"
+		"xpos"					"0"
+		"ypos"					"0"
+		"tall"					"60"
+		"wide"					"255"
+		"proportionaltoparent"	"1"
+		
 		"image_name"			"main_menu/main_menu_button_casual"
 		"button_token"			"#MMenu_PlayList_Casual_Button"
 		"button_command"		"play_casual"
@@ -32,11 +33,12 @@
 	{
 		"ControlName"			"CPlayListEntry"
 		"fieldName"				"CompetitiveEntry"
-		"xpos"					"5"
-		"ypos"					"0"
-		"tall"					"50"
-		"wide"					"140"
-		"proportionaltoparent"	"0"
+		"xpos"					"0"
+		"ypos"					"10"
+		"tall"					"60"
+		"wide"					"255"
+		"proportionaltoparent"	"1"
+		
 		"image_name"			"main_menu/main_menu_button_competitive"
 		"button_token"			"#MMenu_PlayList_Competitive_Button"
 		"button_command"		"play_competitive"
@@ -44,19 +46,20 @@
 		"matchgroup"			"2" // k_eTFMatchGroup_Ladder_6v6
 
 		"pin_to_sibling"		"CasualEntry"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
 
 	"MvMEntry"
 	{
 		"ControlName"			"CPlayListEntry"
 		"fieldName"				"MvMEntry"
-		"xpos"					"5"
-		"ypos"					"0"
-		"tall"					"50"
-		"wide"					"140"
-		"proportionaltoparent"	"0"
+		"xpos"					"0"
+		"ypos"					"10"
+		"tall"					"60"
+		"wide"					"255"
+		"proportionaltoparent"	"1"
+		
 		"image_name"			"main_menu/main_menu_button_mvm"
 		"button_token"			"#MMenu_PlayList_MvM_Button"
 		"button_command"		"play_mvm"
@@ -64,27 +67,28 @@
 		"matchgroup"			"1" // k_eTFMatchGroup_MvM_MannUp
 
 		"pin_to_sibling"		"CompetitiveEntry"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
 
 	"ServerBrowserEntry"
 	{
 		"ControlName"			"CPlayListEntry"
 		"fieldName"				"ServerBrowserEntry"
-		"xpos"					"5"
-		"ypos"					"0"
-		"tall"					"50"
-		"wide"					"140"
-		"proportionaltoparent"	"0"
+		"xpos"					"0"
+		"ypos"					"10"
+		"tall"					"60"
+		"wide"					"255"
+		"proportionaltoparent"	"1"
+		
 		"image_name"			"main_menu/main_menu_button_community_server"
 		"button_token"			"#MMenu_PlayList_ServerBrowser_Button"
 		"button_command"		"play_community"
 		"desc_token"			"#MMenu_PlayList_ServerBrowser_Desc"
 
 		"pin_to_sibling"		"MvMEntry"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
 
 	"TrainingEntry"

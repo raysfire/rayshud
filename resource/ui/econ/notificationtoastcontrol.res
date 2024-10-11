@@ -14,16 +14,15 @@
 		"border"				"NoBorder"
 		"paintborder"			"1"
 		"paintbackground"		"1"
-		"PaintBackgroundType"	"0"
-		"defaultbgcolor_override"	"TanLight"
-		"bgcolor_override"			"TanLight"
+		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"TanLight"
 	}
 
 	"DeleteButton"
 	{
 		"ControlName"			"CExImageButton"
 		"fieldName"				"DeleteButton"
-		"xpos"					"165"
+		"xpos"					"170"
 		"ypos"					"5"
 		"zpos"					"10"
 		"wide"					"20"
@@ -33,28 +32,31 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labeltext"				"("
+		"labeltext"				"T"
 		"font"					"CustomIcons"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"default"				"1"
 		"Command"				"delete"
-		"paintbackground"		"1"
+		"paintbackground"		"0"
+		
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override" 	"Black"
-		"armedBgColor_override" 	"LightRed"
-		"depressedBgColor_override" "Black"
+		"defaultFgColor_override" 	"TanDark"
+		"armedFgColor_override" 	"LightRed"
+		"depressedFgColor_override" "TanDark"
 	}
 
 	"TriggerButton"
 	{
 		"ControlName"			"CExImageButton"
 		"fieldName"				"TriggerButton"
-		"xpos"					"144"
+		"xpos"					"149"
 		"if_one_button"
 		{
-			"xpos"				"165"
+			"xpos"				"170"
 		}
 		"ypos"					"5"
 		"zpos"					"10"
@@ -72,23 +74,24 @@
 		"brighttext"			"0"
 		"default"				"1"
 		"Command"				"trigger"
-		"paintbackground"		"1"
+		"paintbackground"		"0"
+		
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override" 	"Black"
-		"armedBgColor_override" 	"CreditsGreen"
-		"depressedBgColor_override" "Black"
+		"defaultFgColor_override" 	"TanDark"
+		"armedFgColor_override" 	"CreditsGreen"
+		"depressedFgColor_override" "TanDark"
 	}
 
 	"AcceptButton"
 	{
 		"ControlName"			"CExImageButton"
 		"fieldName"				"AcceptButton"
-		"xpos"					"144"
+		"xpos"					"149"
 		"if_one_button"
 		{
-			"xpos"				"165"
+			"xpos"				"170"
 		}
 		"ypos"					"5"
 		"zpos"					"10"
@@ -106,20 +109,21 @@
 		"brighttext"			"0"
 		"default"				"1"
 		"Command"				"accept"
-		"paintbackground"		"1"
+		"paintbackground"		"0"
+		
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override" 	"Black"
-		"armedBgColor_override"		"CreditsGreen"
-		"depressedBgColor_override" "Black"
+		"defaultFgColor_override" 	"TanDark"
+		"armedFgColor_override" 	"CreditsGreen"
+		"depressedFgColor_override" "TanDark"
 	}
 
 	"DeclineButton"
 	{
 		"ControlName"			"CExImageButton"
 		"fieldName"				"DeclineButton"
-		"xpos"					"165"
+		"xpos"					"170"
 		"ypos"					"5"
 		"zpos"					"10"
 		"wide"					"20"
@@ -136,12 +140,13 @@
 		"brighttext"			"0"
 		"default"				"1"
 		"Command"				"decline"
-		"paintbackground"		"1"
+		"paintbackground"		"0"
+		
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override" 	"Black"
-		"armedBgColor_override" 	"LightRed"
-		"depressedBgColor_override" "Black"
+		"defaultFgColor_override" 	"TanDark"
+		"armedFgColor_override" 	"LightRed"
+		"depressedFgColor_override" "TanDark"
 	}
 }

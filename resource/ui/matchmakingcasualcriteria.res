@@ -73,8 +73,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
+			"paintbackground"	"0"
 			"proportionaltoparent"	"1"
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"169 123 53 255"
 
 			"SubImage"
@@ -117,8 +118,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
+			"paintbackground"	"0"
 			"proportionaltoparent"	"1"
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"169 123 53 255"
 
 			"SubImage"
@@ -154,7 +156,7 @@
 			"xpos"			"10"
 			"ypos"			"35"
 			"zpos"			"0"
-			"wide"			"f0"
+			"wide"			"0"
 			"tall"			"20"
 			"proportionaltoparent"	"1"
 			"labeltext"		"#TF_Casual_MapSelection"
@@ -167,7 +169,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"SelectedCount"
-			"xpos"			"100"
+			"xpos"			"10"
 			"ypos"			"35"
 			"zpos"			"0"
 			"wide"			"f0"
@@ -175,8 +177,7 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		"%selected_maps_count%"
 			"textAlignment"	"west"
-			"font"			"HudFontSmallest"
-			"fgcolor_override"	"TanDark"
+			"font"			"HudFontSmall"
 			"mouseinputenabled"	"1"
 		}
 

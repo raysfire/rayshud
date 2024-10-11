@@ -5,7 +5,7 @@
 		"ControlName"		"CExButton"
 		"fieldName"			"StartTrainingButton"
 		"xpos"				"145"
-		"ypos"				"210"
+		"ypos"				"207"
 		"wide"				"160"
 		"tall"				"25"
 		"autoResize"		"0"
@@ -20,8 +20,12 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"Command"			"startbasictraining"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"armedBgColor_override"		"CreditsGreen"
+		"defaultBgColor_override"	"GreenSolid"
 	}
 
 	"OverlayPanel"
@@ -37,7 +41,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"paintbackground"	"1"
-		"bgcolor_override"	"DarkGrey"
+		"bgcolor_override"	"Transparent"
 		"paintbackgroundtype"	"2"
 
 		"ClassNameLabel"
@@ -190,7 +194,7 @@
 		"ControlName"		"ImagePanel"
 		"FieldName"			"ClassImage"
 		"xpos"				"325"
-		"ypos"				"20"
+		"ypos"				"10"
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"200"
@@ -204,7 +208,7 @@
 		"ControlName"		"ImagePanel"
 		"FieldName"			"ClassIconImage"
 		"xpos"				"375"
-		"ypos"				"20"
+		"ypos"				"10"
 		"wide"				"50"
 		"tall"				"50"
 		"visible"			"1"

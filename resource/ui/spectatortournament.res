@@ -29,25 +29,9 @@
 			"wide"				"160"
 			"tall"				"16"
 			"zpos"				"1"
+			
 			"color_ready"		"0 255 0 220"
 			"color_notready"	"0 0 0 220"
-			"tabPosition"		"0"
-
-			"classimage"
-			{
-				"ControlName"		"CTFClassImage"
-				"fieldName"			"classimage"
-				"xpos"				"27"
-				"ypos"				"0"
-				"zpos"				"2"
-				"wide"				"18"
-				"tall"				"18"
-				"visible"			"1"
-				"enabled"			"1"
-				"image"				"../hud/class_scoutred"
-				"scaleImage"		"1"
-				"proportionaltoparent"	"1"
-			}
 
 			"classimagebg"
 			{
@@ -171,6 +155,22 @@
 				"fgcolor"			"TanLight"
 			}
 
+			"classimage"
+			{
+				"ControlName"		"CTFClassImage"
+				"fieldName"			"classimage"
+				"xpos"				"27"
+				"ypos"				"0"
+				"zpos"				"2"
+				"wide"				"18"
+				"tall"				"18"
+				"visible"			"1"
+				"enabled"			"1"
+				"image"				"../hud/class_scoutred"
+				"scaleImage"		"1"
+				"proportionaltoparent"	"1"
+			}
+			
 			"HealthIcon"
 			{
 				"ControlName"		"EditablePanel"
@@ -187,6 +187,20 @@
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 			}
 
+			"ReadyBG"
+			{
+				"ControlName"		"ScalableImagePanel"
+				"fieldName"			"ReadyBG"
+				"visible"			"0"
+			}
+
+			"ReadyImage"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"			"ReadyImage"
+				"visible"			"0"
+			}
+			
 			"PanelBG"
 			{
 				"ControlName"		"ImagePanel"
@@ -234,26 +248,6 @@
 				"pin_to_sibling"	"respawntime"
 			}
 
-			"ReadyBG"
-			{
-				"ControlName"		"ScalableImagePanel"
-				"fieldName"			"ReadyBG"
-				"visible"			"0"
-			}
-
-			"ReadyImage"
-			{
-				"ControlName"		"ImagePanel"
-				"fieldName"			"ReadyImage"
-				"visible"			"0"
-			}
-
-			"specindex"
-			{
-				"fieldName"			"specindex"
-				"visible"			"0"
-			}
-
 			"chargeamount"
 			{
 				"ControlName"		"CExLabel"
@@ -270,6 +264,12 @@
 				"labelText"			"%chargeamount%"
 				"textAlignment"		"east"
 				"fgcolor"			"0 255 255 255"
+			}
+
+			"specindex"
+			{
+				"ControlName"		"CExLabel"
+				"visible"			"0"
 			}
 		}
 	}

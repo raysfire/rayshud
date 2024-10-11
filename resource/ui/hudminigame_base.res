@@ -46,11 +46,10 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"
+		"textAlignment"	"center"
 		"labelText"		"%bluescore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"TanLight"
-		"textinsetx"	"10"
 	}
 	"BlueScoreShadow"
 	{
@@ -63,11 +62,10 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"
+		"textAlignment"	"center"
 		"labelText"		"%bluescore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"TransparentBlack"
-		"textinsetx"	"10"
 		"pin_to_sibling"	"BlueScore"
 	}
 
@@ -82,11 +80,10 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"TanLight"
-		"textinsetx"	"10"
 	}
 	"RedScoreShadow"
 	{
@@ -99,11 +96,10 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"TransparentBlack"
-		"textinsetx"	"10"
 		"pin_to_sibling"	"RedScore"
 	}
 
@@ -112,7 +108,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-70"
-		"ypos"			"r54"
+		"ypos"			"r55"
 		"zpos"			"4"
 		"wide"			"140"
 		"tall"			"30"
@@ -122,7 +118,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFontSmallest"
 		"fgcolor"		"TanLight"
 	}
 

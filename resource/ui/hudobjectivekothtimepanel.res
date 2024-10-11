@@ -39,8 +39,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TimePanelValue"
-			"font"				"HudFontMedium"
-			"fgcolor"			"BlueSolid"
+			"font"				"HudFontMediumSecondary"
+			"fgcolor"			"Blue"
 			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"3"
@@ -50,17 +50,14 @@
 			"enabled"			"1"
 			"textAlignment"		"center"
 			"labelText"			"0:00"
+			"proportionaltoparent"	"1"
 
 			if_match
 			{
-				"proportionaltoparent"	"1"
-				"xpos"			"0"
-				"ypos"			"0"
+				"font"			"HudFontSmallest"
 				"wide"			"26"
-				"tall"			"25"
 				"textAlignment"	"south"
 				"textinsety"	"-2"
-				"font"			"HudFontSmallest"
 			}
 		}
 	}
@@ -96,8 +93,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TimePanelValue"
-			"font"				"HudFontMedium"
-			"fgcolor"			"RedSolid"
+			"font"				"HudFontMediumSecondary"
+			"fgcolor"			"Red"
 			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"3"
@@ -107,17 +104,14 @@
 			"enabled"			"1"
 			"textAlignment"		"center"
 			"labelText"			"0:00"
+			"proportionaltoparent"	"1"
 
 			if_match
 			{
-				"proportionaltoparent"	"1"
-				"xpos"			"0"
-				"ypos"			"0"
+				"font"			"HudFontSmallest"
 				"wide"			"26"
-				"tall"			"25"
 				"textAlignment"	"south"
 				"textinsety"	"-2"
-				"font"			"HudFontSmallest"
 			}
 		}
 	}

@@ -70,8 +70,8 @@ event HudLowAmmoPulseStop
 event HudMedicCharged
 {
 	RunEvent HudMedicOrangePulseCharge 	0.0
-	//RunEvent HudMedicSolidColorCharge	0.0
-	//RunEvent HudMedicRainbowCharged 	0.0
+//	RunEvent HudMedicSolidColorCharge	0.0
+//	RunEvent HudMedicRainbowCharged 	0.0
 
 	RunEvent HudMedicChargedLoop		0.6
 }
@@ -131,35 +131,48 @@ event HudMedicChargedStop
 // Spy Disguise
 event HudSpyDisguiseFadeIn
 {
-//	RunEvent HudSpyDisguiseChanged		0.0
-//	Animate PlayerStatusSpyImage		Alpha		"255"				Linear 0.9	0.1
+	RunEvent HudSpyDisguiseChanged		0.0
+	Animate PlayerStatusSpyImage		Alpha		"255"				Linear 0.9	0.1
 }
 
 event HudSpyDisguiseFadeOut
 {
-//	RunEvent HudSpyDisguiseChanged		0.0
-//	Animate PlayerStatusSpyImage		Alpha		"0"					Linear 0.9	0.1
+	RunEvent HudSpyDisguiseChanged		0.0
+	Animate PlayerStatusSpyImage		Alpha		"0"					Linear 0.9	0.1
 }
 
 event HudSpyDisguiseChanged
 {
 	Animate	PlayerStatusSpyOutlineImage	Alpha		"200"				Linear 0.0 0.2
-	Animate	PlayerStatusSpyOutlineImage	Position	"c-350 r175"		Linear 0.0 0.2
+	Animate	PlayerStatusSpyOutlineImage	Position	"r155 r185"			Linear 0.0 0.2
 	Animate	PlayerStatusSpyOutlineImage	Size		"150 150"			Linear 0.0 0.2
-
+	
 	RunEvent HudSpyDisguiseHide			0.7
+}
+
+event HudSpyDisguiseHide
+{
+	Animate PlayerStatusSpyOutlineImage	Position	"r185 r55"			Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage	Size		"55 55"				Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage	Alpha		"0"					Linear 0.2 0.1
 }
 //==================================================================================
 
 event CompetitiveGame_RestoreChatWindow
 {
-    Animate HudChat ypos 275 Accel 0 0  // Default animation
-
     // Fix stuck animations
     RunEvent HudHealthDyingPulseStop 0.1
     RunEvent HudHealthBonusPulseStop 0.1
     RunEvent HudLowAmmoPulseStop 0.1
     RunEvent HudMedicChargedStop 0.1
+}
+//==================================================================================
+
+event TrainingHudBounce
+{
+	Animate ObjectiveStatusTraining		Position	"c-160 r167"		Linear 0 0
+	Animate ObjectiveStatusTraining		Position	"c-160 r107"		Bounce 0.0 2.0
 }
 //==================================================================================
 
@@ -188,6 +201,5 @@ event HudTournamentSetupPanelClose
 //==================================================================================
 
 event CompetitiveGame_LowerChatWindow { }
-event CompetitiveGame_RestoreChatWindow { }
 event HudTournament_MoveChatWindow { }
 event HudCartAlarmPulse{}

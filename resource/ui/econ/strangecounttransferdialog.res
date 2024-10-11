@@ -34,13 +34,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontMedium"
+			"font"			"HudFontMediumSecondary"
 			"labelText"		"#TF_StrangeCount_TransferTitle"
 			"textAlignment"	"center"
-			"xpos"			"95"
+			"xpos"			"100"
 			"ypos"			"10"
 			"zpos"			"0"
-			"wide"			"210"
+			"wide"			"200"
 			"tall"			"60"
 			"autoResize"	"1"
 			"pinCorner"		"0"
@@ -68,6 +68,7 @@
 			"paintbackground" "0"
 			"border"		"BackpackItemBorder_SelfMade"
 		}
+		
 		"SourceItem"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -168,7 +169,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "Yellow"
+			"fgcolor_override" "TanLight"
 		}
 
 		"CancelButton"
@@ -186,7 +187,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#Cancel"
-			"font"			"HudFontSmall"
+			"font"			"HudFontMediumSmall"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -212,7 +213,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#CraftNameConfirm"
-			"font"			"HudFontSmall"
+			"font"			"HudFontMediumSmall"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"

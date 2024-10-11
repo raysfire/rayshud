@@ -12,7 +12,7 @@
 		"bgcolor_override"		"DarkGrey"
 		"paintbackgroundtype"	"1"
 		"settitlebarvisible"	"0"
-		"border"				"CyanBorderThick"
+		"border"				"CyanBorder"
 	}
 
 	"TitleLabel"
@@ -39,7 +39,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"EllipsesLabel"
-		"font"					"HudFontSmall"
+		"font"					"HudFontMediumSmall"
 		"xpos"					"0"
 		"ypos"					"42"
 		"zpos"					"0"
@@ -59,7 +59,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"DurationLabel"
-		"font"					"HudFontSmall"
+		"font"					"HudFontMediumSmall"
 		"xpos"					"0"
 		"ypos"					"52"
 		"zpos"					"0"

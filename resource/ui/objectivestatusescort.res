@@ -264,8 +264,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"ControlPointTimer"
-			"xpos"			"18"
+			"font"			"ControlPointTimerSmaller"
+			"xpos"			"17"
 			"ypos"			"53"
 			"xpos_minmode"			"27"
 			"ypos_minmode"			"78"
@@ -451,8 +451,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"ControlPointTimer"
-			"xpos"			"21"
+			"font"			"ControlPointTimerSmaller"
+			"xpos"			"23"
 			"ypos"			"52"
 			"xpos_minmode"			"32"
 			"ypos_minmode"			"79"
@@ -528,5 +528,14 @@
 			"fieldName"		"EscortTeardrop"
 			"xpos"			"9999"
 		}
+	}
+	
+	// Hide the "swoop" effect when capturing payload points.
+	"EscortHilightSwoop"
+	{
+		"ControlName"		"CControlPointIconSwoop"
+		"fieldName"			"EscortHilightSwoop"
+		"xpos"				"9999"
+		"alpha"				"0"
 	}
 }

@@ -14,8 +14,8 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
-		"bgcolor_override"		"DarkGrey"
 		"paintbackground"		"1"
+		"bgcolor_override"		"DarkGrey"
 		"border"				"CyanBorderThick"
 	}
 
@@ -79,7 +79,7 @@
 		"ypos"					"165"
 		"zpos"					"20"
 		"wide"					"130"
-		"tall"					"20"
+		"tall"					"25"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -104,7 +104,7 @@
 		"ypos"					"165"
 		"zpos"					"20"
 		"wide"					"130"
-		"tall"					"20"
+		"tall"					"25"
 		"default"				"1"
 		"autoResize"			"0"
 		"pinCorner"				"0"

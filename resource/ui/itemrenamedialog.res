@@ -6,7 +6,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-200"
-		"ypos"					"105"
+		"ypos"					"60"
 		"wide"					"400"
 		"tall"					"240"
 		"bgcolor_override"		"DarkGrey"
@@ -27,8 +27,8 @@
 		"visible"			"0"
 		"bgcolor_override"	"Transparent"
 		"noitem_textcolor"	"TextColor"
-		"PaintBackgroundType"	"2"
 		"paintborder"		"1"
+		"PaintBackgroundType"	"2"
 
 		"text_ypos"			"20"
 		"text_center"		"1"
@@ -111,6 +111,7 @@
 		"paintbackground" "0"
 		"border"		"BackpackItemBorder_SelfMade"
 	}
+	
 	"tool_modelpanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -160,6 +161,7 @@
 		"paintbackground" "0"
 		"border"		"BackpackItemBorder_Vintage"
 	}
+	
 	"subject_modelpanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -221,12 +223,12 @@
 		"ypos"			"90"
 		"zpos"			"0"
 		"wide"			"185"
-		"tall"			"32"
+		"tall"			"35"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "White"
+		"fgcolor_override" "TanLight"
 		"paintbackground" "0"
 	}
 
@@ -237,9 +239,9 @@
 		"font"			"HudFontSmall"
 		"labelText"		"%oldname%"
 		"textAlignment"	"west"
-		"xpos"			"120"
+		"xpos"			"145"
 		"ypos"			"94"
-		"wide"			"260"
+		"wide"			"240"
 		"tall"			"24"
 		"autoResize"	"1"
 		"pinCorner"		"0"
@@ -280,12 +282,12 @@
 		"ypos"			"130"
 		"zpos"			"0"
 		"wide"			"185"
-		"tall"			"32"
+		"tall"			"35"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "White"
+		"fgcolor_override" "TanLight"
 		"paintbackground" "0"
 	}
 
@@ -293,9 +295,9 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"			"CustomNameEntry"
-		"xpos"				"120"
+		"xpos"				"145"
 		"ypos"				"134"
-		"wide"				"260"
+		"wide"				"240"
 		"tall"				"24"
 		"autoResize"		"1"
 		"pinCorner"			"0"
@@ -309,11 +311,11 @@
 		"unicode"			"0"
 		"wrap"				"0"
 		"fgcolor_override"	"TanLight"
-		"bgcolor_override"	"35 35 35 255"
-		"paintbackgroundtype" "2"
+		"bgcolor_override"	"DarkGrey"
 		"labelText"			""
 		"font"				"HudFontSmall"
 		"textAlignment"		"west"
+		"paintbackgroundtype" "2"
 	}
 
 	"WarningLabel"
@@ -343,7 +345,7 @@
 		"ypos"			"200"
 		"zpos"			"1"
 		"wide"			"130"
-		"tall"			"20"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -368,7 +370,7 @@
 		"ypos"			"200"
 		"zpos"			"1"
 		"wide"			"130"
-		"tall"			"20"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"

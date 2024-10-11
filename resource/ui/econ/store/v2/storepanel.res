@@ -18,6 +18,7 @@
 		"bgcolor_override"				"46 43 42 0"
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
+		
 		"title"				"#StoreTitle"
 		"title_font"		"HudFontMedium"
 		"titletextinsetX"	"40"
@@ -25,6 +26,7 @@
 		"titlebarfgcolor_override"			"HudOffWhite"
 		"titlebardisabledfgcolor_override"	"HudOffWhite"
 		"titlebarbgcolor_override"			"TanDarker"
+		
 		"clientinsetx_override"				"0"
 		"sheetinset_bottom"					"40"
 	}
@@ -111,8 +113,8 @@
 		"tabxdelta"			"10"
 		"tabxfittotext"		"1"
 		"tabheight"			"20"
-		"yoffset"			"14"
 		"transition_time"	"0"
+		"yoffset"			"14"
 
 		"HeaderLine"
 		{
@@ -168,6 +170,7 @@
 		"brighttext"		"0"
 		"default"			"1"
 		"Command"			"close"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -217,7 +220,7 @@
 		"fieldName"			"SupportCommunityMapMakersLabel"
 		"textAlignment"		"north-west"
 		"xpos"				"c304"
-		"ypos"				"440"
+		"ypos"				"437"
 		"zpos"				"5"
 		"wide"				"100"
 		"tall"				"100"

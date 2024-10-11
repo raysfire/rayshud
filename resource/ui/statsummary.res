@@ -22,7 +22,7 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../console/background_upward"
+		"image"			""
 		"scaleImage"	"1"
 	}
 
@@ -32,7 +32,8 @@
 		"fieldName"		"Background"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"f0"
+		"zpos"			"1"
+		"wide"			"0"
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
@@ -73,7 +74,7 @@
 		"font"			"HudFontGiantBold"
 		"labelText"		"%maplabel%"
 		"textAlignment"	"west"
-		"xpos"			"6"
+		"xpos"			"10"
 		"ypos"			"20"
 		"zpos"			"50"
 		"wide"			"f0"
@@ -85,6 +86,7 @@
 		"allcaps"		"1"
 		"fgcolor_override" "TanLight"
 	}
+	
 	"MapType"
 	{
 		"ControlName"	"CExLabel"
@@ -92,7 +94,7 @@
 		"font"			"HudFontBig"
 		"labelText"		"%maptype%"
 		"textAlignment"	"west"
-		"xpos"			"6"
+		"xpos"			"10"
 		"ypos"			"60"
 		"zpos"			"50"
 		"wide"			"f0"
@@ -101,7 +103,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"allcaps"		"1"
 		"fgcolor_override" "TanLight"
 	}
 

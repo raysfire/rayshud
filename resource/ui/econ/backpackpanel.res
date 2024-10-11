@@ -415,12 +415,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"prevpage"
-		
-		"paintbackground"			"0"
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override"		"ColorCyan"
-		"depressedFgColor_override" "TanLight"
-		"selectedFgColor_override" 	"ColorCyan"
+		"paintbackground"	"0"
 		
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -465,13 +460,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nextpage"
-		
-		"paintbackground"			"0"
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override"		"ColorCyan"
-		"depressedFgColor_override" "TanLight"
-		"selectedFgColor_override" 	"ColorCyan"
-		
+		"paintbackground"	"0"
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 	}
@@ -490,8 +480,8 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		">"
-		"font"			"HudFontMedium"
+		"labelText"		"&D"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -515,8 +505,8 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"<"
-		"font"			"HudFontMedium"
+		"labelText"		"&A"
+		"font"			"MenuArrows"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

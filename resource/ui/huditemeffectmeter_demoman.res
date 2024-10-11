@@ -11,7 +11,7 @@
 		"ypos_minmode"			"c75"
 		"wide"					"40"
 		"tall"					"40"
-		"MeterFG"				"White"
+		"MeterFG"				"TanLight"
 		"MeterBG"				"Gray"
 	}
 

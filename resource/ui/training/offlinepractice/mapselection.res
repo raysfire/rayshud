@@ -45,8 +45,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"#TF_LessThan"
-		"font"				"HudFontMediumSmall"
+		"labelText"			"&A"
+		"font"				"CustomIcons"
 		"textAlignment"		"center"
 		"textinsetx"		"0"
 		"dulltext"			"0"
@@ -71,8 +71,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"#TF_GreaterThan"
-		"font"				"HudFontMediumSmall"
+		"labelText"			"&D"
+		"font"				"CustomIcons"
 		"textAlignment"		"center"
 		"textinsetx"		"0"
 		"dulltext"			"0"
@@ -101,6 +101,7 @@
 		"enabled"			"1"
 		"wrap"				"0"
 		"fgcolor_override"	"TanLight"
+		"allcaps"			"1"
 	}
 
 	"CurPageLabel"
@@ -128,9 +129,9 @@
 		"ControlName"		"CExButton"
 		"fieldName"			"StartOfflinePracticeButton"
 		"xpos"				"150"
-		"ypos"				"225"
+		"ypos"				"228"
 		"wide"				"150"
-		"tall"				"30"
+		"tall"				"25"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -145,6 +146,9 @@
 		"Command"			"startofflinepractice"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"armedBgColor_override"		"CreditsGreen"
+		"defaultBgColor_override"	"GreenSolid"
 	}
 
 	"DifficultyLabel"

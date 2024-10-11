@@ -24,18 +24,16 @@ Be sure to back up your old hud folder first! You never know when something migh
 1. [Click here][download-link] to download the latest version. This will download `rayshud-master.zip`
 2. Navigate to `C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom`
 3. Extract .zip file contents into the `custom` folder.
-4. Ensure that the final file structure should resembles the following:
+4. Ensure that the final file structure resembles the following:
 ```
 tf
 └── custom
     └── rayshud
-        ├── #customizations
         ├── materials
         ├── resource
         ├── scripts
         ├── sound
-        ├── info.vdf
-        └── README.md
+        └── info.vdf
 ```
 
 Help/Support

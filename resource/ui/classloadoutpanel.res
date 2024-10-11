@@ -54,7 +54,6 @@
 			"text_forcesize"		"2"
 			"text_center"			"0"
 			"text_yoffset"			"2"
-			"inset_eq_y"			"55"
 			"name_only"				"1"
 
 			"attriblabel"
@@ -69,6 +68,7 @@
 				"allow_rot"				"0"
 				"inventory_image_type"	"1"
 			}
+			"inset_eq_y"			"55"
 		}
 
 		"itemoptionpanels_kv"
@@ -107,10 +107,10 @@
 		"labelText"			">>"
 		"textAlignment"		"west"
 		"xpos"				"c-290"
-		"ypos"				"26"
+		"ypos"				"15"
 		"zpos"				"1"
 		"wide"				"20"
-		"tall"				"16"
+		"tall"				"40"
 		"autoResize"		"1"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -319,13 +319,13 @@
 		"tabPosition"		"0"
 		"labelText"			"R"
 		"textAlignment"		"center"
-		"font"				"Cerbetica28"
+		"font"				"Cerbetica24"
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 0"
 		"paintbackground"	"1"
 
-		"defaultFgColor_override"	"180 92 77 127"
-		"armedFgColor_override"		"180 92 77 127"
+		"defaultFgColor_override"	"RedSolid"
+		"armedFgColor_override"		"Red"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -348,13 +348,13 @@
 		"tabPosition"		"0"
 		"labelText"			"B"
 		"textAlignment"		"center"
-		"font"				"Cerbetica28"
+		"font"				"Cerbetica24"
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 1"
 		"paintbackground"	"1"
 
-		"defaultFgColor_override"	"104 124 155 127"
-		"armedFgColor_override"		"104 124 155 127"
+		"defaultFgColor_override"	"BlueSolid"
+		"armedFgColor_override"		"Blue"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

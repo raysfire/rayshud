@@ -131,6 +131,8 @@
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"		"1"
 		"allcaps"				"1"
+		"defaultBgColor_override"	"GreenSolid"
+		"armedBgColor_override"		"CreditsGreen"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"

@@ -18,6 +18,9 @@
 		"bgcolor_override"				"DarkGrey"
 		"infocus_bgcolor_override"		"DarkGrey"
 		"outoffocus_bgcolor_override"	"DarkGrey"
+		
+		"item_controls_xoffset"	"2"
+		"item_controls_yoffset"	"2"
 		"max_cart_model_panels"	"10"
 		"item_ypos"				"70"
 		"item_panels"			"15"
@@ -25,8 +28,6 @@
 		"item_offcenter_x"		"-292"
 		"item_xdelta"			"8"
 		"item_ydelta"			"8"
-		"item_controls_xoffset"	"2"
-		"item_controls_yoffset"	"2"
 		"show_item_backdrop"	"1"
 		"item_backdrop_color"	"DarkGrey"
 		"item_backdrop_left_margin"			"11"
@@ -63,6 +64,7 @@
 			"name_only"		"1"
 			"resize_to_text" "0"
 			"name_label_alignment" "3"
+			
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
 
@@ -88,6 +90,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
+			
 			"use_item_sounds" "1"
 		}
 
@@ -104,6 +107,7 @@
 			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
+			
 			"model_xpos"	"2"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -111,6 +115,7 @@
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
+			
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
 
@@ -443,11 +448,11 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MarketPlaceButton"
-		"xpos"			"c-20"
+		"xpos"			"c-10"
 		"ypos"			"31"
 		"zpos"			"2"
-		"wide"			"170"
-		"tall"			"23"
+		"wide"			"150"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

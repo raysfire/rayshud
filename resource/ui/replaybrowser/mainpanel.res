@@ -20,7 +20,7 @@
 		"outoffocus_bgcolor_override"	"27 27 27 0"
 
 		"title"							"#Replay_Replay"
-		"title_font"					"HudFontSmall"
+		"title_font"					"HudFontMedium"
 		"titletextinsetX"				"40"
 		"titletextinsetY"				"0"
 		"titlebarfgcolor_override"		"HudOffWhite"
@@ -133,11 +133,12 @@
 		"tabskv"
 		{
 			"textinsetx"		"25"
-			"textAlignment"		"center"
+			"textinsety"		"5"
+			"textAlignment"		"north"
 			"font"				"HudFontSmall"
 			"selectedcolor"		"TanLight"
 			"unselectedcolor"	"TanDark"
-			"defaultBgColor_override"	"25 25 25 255"
+			"defaultBgColor_override"	"DarkGrey"
 			"paintbackground"			"1"
 			"activeborder_override"		"CyanBorderTabs"
 			"normalborder_override"		"CyanBorderTabsInactive"
@@ -150,7 +151,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
-		"xpos"			"c-288"
+		"xpos"			"c-295"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"100"
@@ -167,6 +168,7 @@
 		"brighttext"	"0"
 		"default"		"0"
 		"Command"		"back"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}

@@ -31,9 +31,9 @@
 	{
 		"ControlName"			"ScrollBar"
 		"FieldName"				"ScrollBar"
-		"xpos"					"c226"
+		"xpos"					"c222"
 		"ypos"					"c-120"
-		"wide"					"4"
+		"wide"					"11"
 		"tall"					"200"
 		"zpos"					"1000"
 		"visible"				"1"
@@ -111,7 +111,7 @@
 			"enabled"				"1"
 			"paintborder"			"1"
 			"border"				"NoBorder"
-			"bgcolor_override"		"Grey"
+			"bgcolor_override"		"Transparent"
 		}
 
 		"ItemNameLabel"
@@ -131,7 +131,6 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"wrap"					"1"
-			"fgcolor"				"TanLight"
 		}
 
 		// Scrollable editable panel for right-hand side of preview, for all text details
@@ -142,7 +141,7 @@
 			"xpos"					"240"
 			"ypos"					"30"
 			"zpos"					"100"
-			"wide"					"230"
+			"wide"					"220"
 			"tall"					"201"
 			"visible"				"1"
 			"PaintBackgroundType"	"0"
@@ -157,7 +156,7 @@
 				"xpos"					"240"
 				"ypos"					"0"
 				"zpos"					"100"
-				"wide"					"230"
+				"wide"					"220"
 				"tall"					"222"
 				"visible"				"1"
 				"PaintBackgroundType"	"0"
@@ -172,7 +171,7 @@
 					"font"				"HudFontSmallest"
 					"labelText"			"%item_level_info%"
 					"textAlignment"		"north-west"
-					"wide"				"228"
+					"wide"				"218"
 					"tall"				"12"
 					"autoResize"		"0"
 					"pinCorner"			"0"
@@ -189,7 +188,7 @@
 					"font"				"HudFontSmallest"
 					"labelText"			"#Store_ItemDesc_Restrictions"
 					"textAlignment"		"north-west"
-					"wide"				"228"
+					"wide"				"218"
 					"tall"				"12"
 					"autoResize"		"0"
 					"pinCorner"			"0"
@@ -206,7 +205,7 @@
 					"font"				"HudFontSmallest"
 					"labelText"			"#Store_HolidayRestrictionText"
 					"textAlignment"		"north-west"
-					"wide"				"228"
+					"wide"				"218"
 					"tall"				"12"
 					"autoResize"		"0"
 					"pinCorner"			"0"
@@ -223,7 +222,7 @@
 					"font"				"HudFontSmallest"
 					"labelText"			"#Store_ItemDesc_UsedBy"
 					"textAlignment"		"north-west"
-					"wide"				"228"
+					"wide"				"218"
 					"tall"				"12"
 					"autoResize"		"0"
 					"pinCorner"			"0"
@@ -240,7 +239,7 @@
 					"font"				"HudFontSmallest"
 					"labelText"			"%used_by_classes%"
 					"textAlignment"		"north-west"
-					"wide"				"228"
+					"wide"				"218"
 					"tall"				"12"
 					"autoResize"		"0"
 					"pinCorner"			"0"
@@ -256,7 +255,7 @@
 					"font"				"HudFontSmallest"
 					"labelText"			"#Store_ItemDesc_Slot"
 					"textAlignment"		"north-west"
-					"wide"				"228"
+					"wide"				"218"
 					"tall"				"12"
 					"autoResize"		"0"
 					"pinCorner"			"0"
@@ -273,7 +272,7 @@
 					"font"				"HudFontSmallest"
 					"labelText"			"%slot%"
 					"textAlignment"		"north-west"
-					"wide"				"228"
+					"wide"				"218"
 					"tall"				"12"
 					"autoResize"		"0"
 					"pinCorner"			"0"
@@ -288,7 +287,7 @@
 					"fieldName"			"PriceLabel"
 					"font"				"HudFontMediumSmall"
 					"textAlignment"		"north-west"
-					"wide"				"228"
+					"wide"				"218"
 					"tall"				"25"
 					"autoResize"		"0"
 					"pinCorner"			"0"
@@ -304,7 +303,7 @@
 					"fieldName"			"ArmoryTextLabel"
 					"font"				"HudFontSmallest"
 					"textAlignment"		"north-west"
-					"wide"				"228"
+					"wide"				"218"
 					"tall"				"12"
 					"autoResize"		"0"
 					"pinCorner"			"0"
@@ -320,8 +319,7 @@
 					"fieldName"			"AttributesLabel"
 					"font"				"HudFontSmallest"
 					"textAlignment"		"north-west"
-					"zpos"				"2"
-					"wide"				"228"
+					"wide"				"218"
 					"tall"				"12"
 					"autoResize"		"0"
 					"pinCorner"			"0"
@@ -343,7 +341,7 @@
 					"enabled"			"1"
 					"tabPosition"		"0"
 					"labelText"			"#Store_ItemDesc_ItemWikiPage"
-					"font"				"HudFontMediumSmall"
+					"font"				"HudFontSmallishBold"
 					"textAlignment"		"center"
 					"dulltext"			"0"
 					"brighttext"		"0"
@@ -504,8 +502,8 @@
 		"fov"					"40"
 		"allow_rot"				"1"
 		"paintbackground"		"1"
-		"bgcolor_override"		"255 255 255 0"
 		"paintbackgroundenabled"	"1"
+		"bgcolor_override"		"255 255 255 0"
 
 		"model"
 		{
@@ -565,9 +563,9 @@
 		"tall"					"20"
 		"visible"				"1"
 		"panel_bgcolor"			"TextColor"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"			"0"
 		"PaintBackgroundType"	"2"
-		"panel_bgcolor_mouseover" "White"
 
 		"bgblockout"
 		{
@@ -587,6 +585,7 @@
 		"itempanel"
 		{
 			"fieldName"				"itempanel"
+			"PaintBackgroundType"	"2"
 			"paintborder"			"0"
 			"model_xpos"			"1"
 			"model_ypos"			"2"
@@ -596,7 +595,6 @@
 			"attrib_only"			"0"
 			"model_only"			"1"
 			"paint_icon_hide"		"0"
-			"PaintBackgroundType"	"2"
 
 			"itemmodelpanel"
 			{
@@ -617,7 +615,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"	"0"
 		"PaintBackgroundType"	"2"
 
@@ -669,7 +667,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"	"0"
 		"PaintBackgroundType"	"2"
 
@@ -721,7 +719,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"	"0"
 		"PaintBackgroundType"	"2"
 
@@ -773,7 +771,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "White"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"	"0"
 		"PaintBackgroundType"	"2"
 
@@ -827,9 +825,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"panel_bgcolor"			"TextColor"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"			"2"
 		"PaintBackgroundType"	"2"
-		"panel_bgcolor_mouseover" "White"
 	}
 	"ClassUsageImage2"
 	{
@@ -843,9 +841,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"panel_bgcolor" 		"TextColor"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"			"2"
 		"PaintBackgroundType"	"2"
-		"panel_bgcolor_mouseover" "White"
 	}
 	"ClassUsageImage3"
 	{
@@ -859,9 +857,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"panel_bgcolor"			"TextColor"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"			"2"
 		"PaintBackgroundType"	"2"
-		"panel_bgcolor_mouseover" "White"
 	}
 	"ClassUsageImage4"
 	{
@@ -875,9 +873,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"panel_bgcolor" 		"TextColor"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"			"2"
 		"PaintBackgroundType"	"2"
-		"panel_bgcolor_mouseover" "White"
 	}
 	"ClassUsageImage5"
 	{
@@ -891,9 +889,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"panel_bgcolor" 		"TextColor"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"			"2"
 		"PaintBackgroundType"	"2"
-		"panel_bgcolor_mouseover" "White"
 	}
 	"ClassUsageImage6"
 	{
@@ -907,9 +905,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"panel_bgcolor" 		"TextColor"
+		"panel_bgcolor_mouseover" "TanLight"
 		"image_indent"			"2"
 		"PaintBackgroundType"	"2"
-		"panel_bgcolor_mouseover" "White"
 	}
 
 	"IconsMoveLeftButton"
@@ -1089,7 +1087,7 @@
 		"tall"					"11"
 		"autoResize"			"0"
 		"pinCorner"				"0"
-		"visible"				"0"
+		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labeltext"				""
@@ -1103,13 +1101,9 @@
 		
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
-
-		"image_drawcolor"		"TanDark"
-		"image_armedcolor"		"TanLight"
 		
-		"defaultFgColor_override" 	"TanDark"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanDark"
+		"image_drawcolor"	"118 107 94 200"
+		"image_armedcolor"	"246 247 213 255"
 
 		"SubImage"
 		{
@@ -1196,7 +1190,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"			"options"
 		"paintbackground"	"0"
-
+		
 		"image_drawcolor"	"118 107 94 200"
 		"image_armedcolor"	"246 247 213 255"
 
@@ -1266,7 +1260,7 @@
 
 			"image_drawcolor"		"255 255 255 77"
 			"image_armedcolor"		"255 255 255 128"
-			"image_selectedcolor"	"White"
+			"image_selectedcolor"	"TanLight"
 
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
@@ -1409,7 +1403,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
 		"xpos"			"c-230"
-		"ypos"			"c105"
+		"ypos"			"c115"
 		"zpos"			"2"
 		"wide"			"90"
 		"tall"			"20"
@@ -1418,7 +1412,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_BackCarat"
-		"font"			"HudFontMediumSmall"
+		"font"			"HudFontSmallishBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1434,7 +1428,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"TryItOutButton"
 		"xpos"			"c-130"
-		"ypos"			"c105"
+		"ypos"			"c115"
 		"zpos"			"2"
 		"wide"			"120"
 		"tall"			"20"
@@ -1443,7 +1437,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Store_TryItOut"
-		"font"			"HudFontMediumSmall"
+		"font"			"HudFontSmallishBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1459,7 +1453,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"AddToCartButton"
 		"xpos"			"c0"
-		"ypos"			"c105"
+		"ypos"			"c115"
 		"zpos"			"2"
 		"wide"			"150"
 		"tall"			"20"
@@ -1468,7 +1462,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%storeaddtocart%"
-		"font"			"HudFontMediumSmall"
+		"font"			"HudFontSmallishBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

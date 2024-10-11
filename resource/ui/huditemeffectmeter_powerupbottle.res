@@ -1,6 +1,6 @@
 "Resource/UI/HudItemEffectMeter_PowerupBottles.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"fieldName"			"HudItemEffectMeter"
 		"visible"			"1"
@@ -104,6 +104,6 @@
 		"textAlignment"		"east"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"HudFontSmallishBold"
+		"font"				"Cerbetica18"
 	}
 }

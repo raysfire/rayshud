@@ -4,8 +4,9 @@
 {
 	"HudItemEffectMeter"
 	{
-		"tall"				"20"
+		"tall"				"50"
 	}
+	
 	"ItemEffectMeterBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -17,8 +18,8 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"ItemEffectIcon"
-		"xpos"				"125"
-		"ypos"				"-2"
+		"xpos"				"44"
+		"ypos"				"10"
 		"zpos"				"2"
 		"wide"				"32"
 		"tall"				"32"
@@ -32,6 +33,7 @@
 	"ItemEffectMeterLabel"
 	{
 		"visible"			"0"
+		"labelText"			"#TF_RocketPack_Disabled"
 	}
 
 	"ItemEffectMeter"
@@ -44,7 +46,6 @@
 	{
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ItemEffectMeter2"
-		"font"				"Default"
 		"xpos"				"60"
 		"xpos_minmode"		"51"
 		"ypos"				"0"

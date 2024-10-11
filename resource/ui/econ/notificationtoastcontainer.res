@@ -32,7 +32,7 @@
 		"wrap"				"1"
 		"labelText"			""
 		"textAlignment"		"North"
-		"font"				"Cerbetica10"
+		"font"				"HudFontSmallest"
 		"textinsetx"		"2"
 		"textinsety"		"7"
 	}
