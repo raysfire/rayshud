@@ -17,11 +17,11 @@
 		"medal_column_width" "18"
 		"avatar_width"		"28"
 		"spacer"			"5"
-		"name_width"		"150"
+		"name_width"		"140"
 		"nemesis_width"		"15"
 		"class_width"		"15"
 		"score_width"		"25"
-		"ping_width"		"15"
+		"ping_width"		"25"
 		"killstreak_width"	"18"
 		"killstreak_image_width" "15"
 	}
@@ -301,7 +301,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"mapname"
-		"font"				"HudFontMediumSecondary"
+		"font"				"HudFontMediumSmallBold"
 		"labelText"			"%mapname%"
 		"textAlignment"		"west"
 		"xpos"				"5"
@@ -323,7 +323,7 @@
 		"labelText"			"%server%"
 		"textAlignment"		"west"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"2"
 		"wide"				"f0"
 		"tall"				"15"
 		"autoResize"		"0"
@@ -343,10 +343,10 @@
 		"fieldName"			"ServerTimeValue"
 		"font"				"HudFontSmall"
 		"labelText"			"%servertime%"
-		"textAlignment"		"west"
+		"textAlignment"		"center"
 		"xpos"				"0"
 		"ypos"				"0"
-		"wide"				"f0"
+		"wide"				"540"
 		"tall"				"15"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -354,9 +354,9 @@
 		"enabled"			"1"
 		"allcaps"			"1"
 
-		"pin_to_sibling"		"ServerLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+		"pin_to_sibling"		"BlueScoreBG"
+		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
 	"Spectators"
@@ -375,7 +375,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 
-		"pin_to_sibling"		"MapName"
+		"pin_to_sibling"		"ServerLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
@@ -410,8 +410,8 @@
 	{
 		"ControlName"		"SectionedListPanel"
 		"fieldName"			"BluePlayerList"
-		"xpos"				"0"
-		"ypos"				"0"
+		"xpos"				"c-265"
+		"ypos"				"169"
 		"zpos"				"20"
 		"wide"				"270"
 		"tall"				"240"
@@ -422,10 +422,6 @@
 		"autoresize"		"3"
 		"linespacing"		"16"
 		"fgcolor"			"Blue"
-		
-		"pin_to_sibling"		"BlueScoreBG"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 
 		if_mvm
 		{
@@ -436,8 +432,8 @@
 	{
 		"ControlName"		"SectionedListPanel"
 		"fieldName"			"RedPlayerList"
-		"xpos"				"0"
-		"ypos"				"0"
+		"xpos"				"c+4"
+		"ypos"				"169"
 		"zpos"				"20"
 		"wide"				"270"
 		"tall"				"240"
@@ -448,10 +444,6 @@
 		"autoresize"		"3"
 		"linespacing"		"16"
 		"fgcolor"			"Red"
-		
-		"pin_to_sibling"		"RedScoreBG"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 
 		if_mvm
 		{
@@ -570,7 +562,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"PlayerScoreLabel"
-		"font"				"HudFontMediumSecondary"
+		"font"				"HudFontMediumSmallBold"
 		"labelText"			"%playerscore%"
 		"textAlignment"		"center"
 		"xpos"				"c-368"
