@@ -67,6 +67,7 @@
 				"ypos"		"cs-0.5"
 				"wide"		"200"
 				"tall"		"200"
+				"fov"		"80"
 			}
 
 			"paintbackground"	"0"
@@ -88,6 +89,7 @@
 				if_mini
 				{
 					"origin_x"		"70"
+					"origin_z"		"0"
 				}
 
 				"animation"
