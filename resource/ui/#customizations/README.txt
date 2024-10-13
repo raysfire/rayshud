@@ -3,7 +3,8 @@ Copy the .res file from the customization folder you like into `rayshud/resource
 If you want to revert the change, paste in the file from the default rayshud installation available from GitHub or Gamebanana.
 
 Available Customizations:
-* Alternative Player Model
+* Alternate Mode Selection
+* Alternate Player Model
 * Broesel Cross
 * Centered Class Selection
 * Classic Main Menu
