@@ -22,7 +22,7 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			""
+		"image"			"../console/background_upward"
 		"scaleImage"	"1"
 	}
 
@@ -32,8 +32,7 @@
 		"fieldName"		"Background"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"0"
+		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
