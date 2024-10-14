@@ -432,6 +432,15 @@
 		"enabled"		"1"
 		"image"			"../vgui/replay/thumbnails/main_menu_logo"
 	}
+	"TransparentImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TransparentImage"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/transparent"
+	}
 	"SelbyenPickup"
 	{
 		"ControlName"	"ImagePanel"
