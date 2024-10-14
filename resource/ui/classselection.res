@@ -90,7 +90,7 @@
 		"font"				"HudFontSmall"
 		"paintbackground"	"0"
 		"allcaps"			"1"
-		"textinsetx"		"13"
+		"textinsetx"		"18"
 		
 		"defaultFgColor_override" 	"TanLight"
 		"armedFgColor_override"		"ColorCyan"
