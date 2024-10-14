@@ -394,6 +394,11 @@
 		{
 			"visible"	"0"
 		}
+
+		"if_mvm"
+		{
+			"ypos"		"r65"
+		}
 	}
 
 	"RedFlag"

@@ -90,7 +90,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"BlueTeamName"
-		"font"				"HudFontMediumBig"
+		"font"				"HudFontMedium"
 		"labelText"			"%blueteamname%"
 		"textAlignment"		"west"
 		"xpos"				"0"
@@ -194,7 +194,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"RedTeamName"
-		"font"				"HudFontMediumBig"
+		"font"				"HudFontMedium"
 		"labelText"			"%redteamname%"
 		"textAlignment"		"east"
 		"xpos"				"0"

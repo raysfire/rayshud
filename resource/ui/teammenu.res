@@ -177,7 +177,7 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam auto"
-		"font"			"HudFontMediumSecondary"
+		"font"			"HudFontMediumSmall"
 
 		"defaultBgColor_override" 	"TransparentBlack"
 		"armedBgColor_override"		"HudBlack"
@@ -217,7 +217,7 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
-		"font"			"HudFontMediumSecondary"
+		"font"			"HudFontMediumSmall"
 
 		"defaultBgColor_override" 	"TransparentBlack"
 		"armedBgColor_override"		"HudBlack"
