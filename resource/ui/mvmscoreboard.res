@@ -83,9 +83,9 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"CreditStatsContainer"
-		"xpos"				"c-190"
+		"xpos"				"cs-.5"
 		"ypos"				"70"
-		"wide"				"480"
+		"wide"				"335"
 		"tall"				"205"
 		"visible"			"1"
 
