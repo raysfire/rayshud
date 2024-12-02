@@ -178,14 +178,6 @@
 		{
 			"image"		"../console/title_fullmoon_widescreen"
 		}
-		"if_christmas_0"
-		{
-			"image"		"../console/background_xmas2020_widescreen"
-		}
-		"if_christmas_1"
-		{
-			"image"		"../console/background_xmas2023_widescreen"
-		}
 	}
 
 	"TFLogoImage"
