@@ -10,7 +10,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica-Bold"
+				"name"			"Cerbetica Bold"
 				"tall"			"56"
 				"additive"		"0"
 				"antialias"		"1"
@@ -20,7 +20,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica-Bold"
+				"name"			"Cerbetica Bold"
 				"tall"			"40"
 				"additive"		"0"
 				"antialias"		"1"
@@ -30,7 +30,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica-Bold"
+				"name"			"Cerbetica Bold"
 				"tall"			"32"
 				"additive"		"0"
 				"antialias"		"1"
@@ -40,7 +40,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica-Bold"
+				"name"			"Cerbetica Bold"
 				"tall"			"28"
 				"additive"		"0"
 				"antialias"		"1"
@@ -50,7 +50,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica-Bold"
+				"name"			"Cerbetica Bold"
 				"tall"			"24"
 				"additive"		"0"
 				"antialias"		"1"
@@ -60,7 +60,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica-Bold"
+				"name"			"Cerbetica Bold"
 				"tall"			"24"
 				"additive"		"0"
 				"antialias"		"1"
@@ -71,7 +71,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica-Bold"
+				"name"			"Cerbetica Bold"
 				"tall"			"22"
 				"additive"		"0"
 				"antialias"		"1"
@@ -81,7 +81,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica-Bold"
+				"name"			"Cerbetica Bold"
 				"tall"			"20"
 				"additive"		"0"
 				"antialias"		"1"
@@ -91,7 +91,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica-Bold"
+				"name"			"Cerbetica Bold"
 				"tall"			"18"
 				"additive"		"0"
 				"antialias"		"1"
@@ -101,7 +101,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica-Bold"
+				"name"			"Cerbetica Bold"
 				"tall"			"16"
 				"additive"		"0"
 				"antialias"		"1"
@@ -111,7 +111,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica-Bold"
+				"name"			"Cerbetica Bold"
 				"tall"			"14"
 				"additive"		"0"
 				"antialias"		"1"
@@ -121,7 +121,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica-Bold"
+				"name"			"Cerbetica Bold"
 				"tall"			"12"
 				"additive"		"0"
 				"antialias"		"1"
@@ -131,7 +131,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Cerbetica-Bold"
+				"name"			"Cerbetica Bold"
 				"tall"			"10"
 				"additive"		"0"
 				"antialias"		"1"
@@ -2753,13 +2753,13 @@ Scheme
 		}
 		"8"
 		{
-			"font" 	"resource/fonts/Cerbetica.ttf"
+			"font" 	"resource/fonts/cerbetica.ttf"
 			"name" 	"Cerbetica"
 		}
 		"9"
 		{
-			"font" 	"resource/fonts/Cerbetica-Bold.ttf"
-			"name" 	"Cerbetica-Bold"
+			"font" 	"resource/fonts/cerbetica-bold.ttf"
+			"name" 	"Cerbetica Bold"
 		}
 		"10"		"resource/linux_fonts/DejaVuSans.ttf"
 		"11"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
