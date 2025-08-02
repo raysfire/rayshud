@@ -1247,7 +1247,7 @@
 		"ControlName"		"CExImageButton"
 		"fieldName"			"VersionLabel"
 		"font"				"HudFontSmallest"
-		"labelText"			"v2025.0220"
+		"labelText"			"v2025.0802"
 		"xpos"				"rs1-5"
 		"ypos"				"r13"
 		"zpos"				"1"
