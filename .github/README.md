@@ -50,6 +50,10 @@ Credits
 * Flame - If it weren't for your guide, I couldn't have made this at all. Thanks a million, man.
 * clovervidia - For the updated closed captions. Check his Steam Guide [here][cc-link].
 
+<a href="https://github.com/raysfire/rayshud/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=raysfire/rayshud" />
+</a>
+
 <!-- LINKS -->
 [download-link]: https://github.com/raysfire/rayshud/archive/master.zip
 [issues-link]: https://github.com/raysfire/rayshud/issues/new
