@@ -198,7 +198,7 @@ Scheme
 		MainMenu.Inset				"32"
 		MainMenu.Backdrop			"0 0 0 156"
 
-		Console.TextColor			"OffWhite"
+		Console.TextColor			"Cyan"
 		Console.DevTextColor		"White"
 
 		NewGame.TextColor			"White"
