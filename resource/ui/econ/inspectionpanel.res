@@ -51,8 +51,8 @@
 	"ModelInspectionPanel"
 	{
 		"fieldName"		"ModelInspectionPanel"
-		"xpos"			"cs-0.8"
-		"ypos"			"20"
+		"xpos"			"cs-0.5"
+		"ypos"			"10"
 		"zpos"			"5"
 		"wide"			"o1.5"
 		"tall"			"p0.8"
@@ -65,7 +65,7 @@
 		"max_pitch"				"30"
 		"use_pedestal"			"1"
 		"use_particle"			"1"
-		"fov"					"65"
+		"fov"					"75"
 
 		"consume_mode"
 		{
@@ -127,7 +127,7 @@
 	{
 		"ControlName"		"CNavigationPanel"
 		"fieldName"			"TeamNavPanel"
-		"xpos"				"cs1.4"
+		"xpos"				"cs-0.5"
 		"ypos"				"c-135"
 		"zpos"				"100"
 		"wide"				"60"
@@ -146,7 +146,7 @@
 
 		"consume_mode"
 		{
-			"xpos"			"cs-0.5"
+			"xpos"			"cs-0.48"
 			"ypos"			"r105"
 		}
 		
@@ -227,10 +227,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PaintkitPreviewContainer"
-		"xpos"			"cs0.3"
-		"ypos"			"p.2"
-		"wide"			"250"
-		"tall"			"190"
+		"xpos"			"cs-0.5"
+		"ypos"			"p.68"
+		"wide"			"400"
+		"tall"			"100"
 		"zpos"			"100"
 		"visible"		"1"
 		"bgcolor_override"	"DarkerGrey"
@@ -251,7 +251,7 @@
 		}
 		"consume_mode"
 		{
-			"xpos"			"cs-0.5"
+			"xpos"			"cs-0.31"
 			"ypos"			"r110"
 			"bgcolor_override"	"Transparent"
 		}
@@ -523,8 +523,8 @@
 			"ControlName"	"Button"
 			"fieldName"		"NewSeedButton"
 			"font"			"HudFontMediumSmall"
-			"xpos"			"8"
-			"ypos"			"125"
+			"xpos"			"c57"
+			"ypos"			"35"
 
 			"fixed_item"
 			{
@@ -537,7 +537,7 @@
 			}
 
 			"zpos"			"10"
-			"wide"			"234"
+			"wide"			"130"
 			"tall"			"25"
 			"autoResize"	"0"
 			"visible"		"1"
@@ -563,8 +563,8 @@
 		{
 			"ControlName"	"TextEntry"
 			"fieldName"		"SeedTextEntry"
-			"xpos"			"8"
-			"ypos"			"95"
+			"xpos"			"255"
+			"ypos"			"10"
 
 			"fixed_item"
 			{
@@ -577,7 +577,7 @@
 			}
 
 			"zpos"			"10"
-			"wide"			"234"
+			"wide"			"115"
 			"tall"			"20"
 			"autoResize"	"0"
 			"visible"		"1"
@@ -603,8 +603,8 @@
 			"ControlName"	"CExButton"
 			"fieldName"		"MarketButton"
 			"font"			"HudFontMediumSmall"
-			"xpos"			"8"
-			"ypos"			"155"
+			"xpos"			"c57"
+			"ypos"			"65"
 
 			"fixed_item"
 			{
@@ -618,11 +618,13 @@
 
 			"consume_mode"
 			{
+				"xpos"		"c-192"
 				"ypos"		"r80"
+				"wide"		"234"
 			}
 
 			"zpos"			"100"
-			"wide"			"234"
+			"wide"			"130"
 			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"
