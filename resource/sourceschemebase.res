@@ -58,9 +58,15 @@ Scheme
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
 		CheckButton.Check			"White"	// color of the check itself
 		CheckButton.HighlightFgColor		"OffWhite"
+		CheckButton.SelectedTextColor	"White"
+		CheckButton.BgColor				"TransparentBlack"
+		CheckButton.Border1				"Border.Dark" 		// the left checkbutton border
+		CheckButton.Border2				"Border.Bright"		// the right checkbutton border
+		CheckButton.Check				"White"	// color of the check itself
+		CheckButton.HighlightFgColor	"OffWhite"
 		CheckButton.ArmedBgColor		"Blank"
-		CheckButton.DepressedBgColor		"Blank"
-		CheckButton.DisabledBgColor	   	"TransparentBlack"
+		CheckButton.DepressedBgColor	"Blank"
+		CheckButton.DisabledBgColor		"TransparentBlack"
 				
 		ComboBoxButton.ArrowColor		"DullWhite"
 		ComboBoxButton.ArmedArrowColor	"White"
@@ -198,7 +204,7 @@ Scheme
 		MainMenu.Inset				"32"
 		MainMenu.Backdrop			"0 0 0 156"
 
-		Console.TextColor			"OffWhite"
+		Console.TextColor			"Cyan"
 		Console.DevTextColor		"White"
 
 		NewGame.TextColor			"White"
@@ -214,7 +220,7 @@ Scheme
 		MatchmakingMenuItemDescriptionColor		"200 184 151 255"	[$X360]
 
 		"QuickListBGDeselected"		"AchievementsDarkGrey"
-	 	"QuickListBGSelected"           "AchievementsLightGrey"
+		"QuickListBGSelected"		"AchievementsLightGrey"
 	}
 
 	//////////////////////// BITMAP FONT FILES /////////////////////////////
@@ -239,10 +245,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Courier New"
-				"tall"		"10"
-				"weight"	"500"
-				"antialias" "1"
+				"name"			"Courier New"
+				"tall"			"10"
+				"weight"		"500"
+				"antialias" 	"1"
 			}
 		}
 		// fonts are used in order that they are listed
@@ -250,128 +256,130 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Courier New"
-				"tall"		"7"
-				"weight"	"500"
-				"antialias" "1"
+				"name"			"Courier New"
+				"tall"			"7"
+				"weight"		"500"
+				"antialias"		"1"
 			}
 		}
+
 		"DefaultFixedOutline"
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [!$OSX]
-				"name"		 "Lucida Console" [$X360]
-				"name"		 "Verdana" [$OSX]
-				"tall"		"14" [$LINUX]
-				"tall"		"11" [$OSX]
-				"tall"		 "10"
-				"tall_lodef" "15"
-				"tall_hidef" "20"
-				"weight"	 "0"
-				"outline"	 "1"
+				"name"			"Tahoma" [!$OSX]
+				"name"			"Tahoma" [$X360]
+				"name"			"Verdana" [$OSX]
+				"tall"			"14" [$LINUX]
+				"tall"			"11" [$OSX]
+				"tall"			"10"
+				"tall_lodef"	"15"
+				"tall_hidef"	"20"
+				"weight"		"0"
+				"outline"		"1"
 			}
 		}
 		"Default"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
-				"tall"		"18" [!$LINUX]
-				"tall"		"18" [$LINUX]
-				"antialias"	"1"
-				"weight"	"500"
+				"name"			"Tahoma" [!$OSX]
+				"name"			"Verdana" [$OSX]
+				"tall"			"18" [!$LINUX]
+				"tall"			"18" [$LINUX]
+				"antialias"		"1"
+				"weight"		"500"
 			}
 		}
 		"DefaultBold"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana Bold" [$POSIX]
-				"tall"		"18" [!$LINUX]
-				"tall"		"18" [$LINUX]
-				"antialias"	"1"
-				"weight"	"1000"
+				"name"			"Tahoma" [!$OSX]
+				"name"			"Verdana Bold" [$POSIX]
+				"tall"			"18" [!$LINUX]
+				"tall"			"18" [$LINUX]
+				"antialias"		"1"
+				"weight"		"1000"
 			}
 		}
 		"DefaultUnderline"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
-				"tall"		"18" [!$LINUX]
-				"tall"		"18" [$LINUX]
-				"weight"	"500"
-				"underline" "1"
+				"name"			"Tahoma" [!$OSX]
+				"name"			"Verdana" [$OSX]
+				"tall"			"18" [!$LINUX]
+				"tall"			"18" [$LINUX]
+				"weight"		"500"
+				"underline"		"1"
 			}
 		}
 		"DefaultSmall"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
-				"tall"		"15" [!$POSIX]
-				"tall"		"15" [$POSIX]
-				"antialias"	"1"
-				"weight"	"0"
+				"name"			"Tahoma" [!$OSX]
+				"name"			"Verdana" [$OSX]
+				"tall"			"15" [!$POSIX]
+				"tall"			"15" [$POSIX]
+				"antialias"		"1"
+				"weight"		"0"
 			}
 		}
 		"DefaultSmallDropShadow"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
-				"tall"		"15"
-				"weight"	"0"
-				"dropshadow" "1"
+				"name"			"Tahoma" [!$OSX]
+				"name"			"Verdana" [$OSX]
+				"tall"			"15"
+				"weight"		"0"
+				"dropshadow"	"1"
 			}
 		}
 		"DefaultVerySmall"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
-				"tall"		"13"
-				"weight"	"0"
-				"antialias"	"1"
+				"name"			"Tahoma" [!$OSX]
+				"name"			"Verdana" [$OSX]
+				"tall"			"13"
+				"weight"		"0"
+				"antialias"		"1"
 			}
 		}
-
 		"DefaultLarge"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
-				"tall"		"19"
-				"weight"	"0"
-				"antialias"	"1"
+				"name"			"Tahoma" [!$OSX]
+				"name"			"Verdana" [$OSX]
+				"tall"			"19"
+				"weight"		"0"
+				"antialias"		"1"
 			}
 		}
+
 		"UiBold"
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
-				"tall"		"12" [!$LINUX]
-				"tall"		"15" [$LINUX]
-				"weight"	"1000"
+				"name"			"Tahoma" [!$OSX]
+				"name"			"Verdana" [$OSX]
+				"tall"			"12" [!$LINUX]
+				"tall"			"15" [$LINUX]
+				"weight"		"1000"
 			}
 			"1"	[$X360]
 			{
-				"name"		"Tahoma"
-				"tall"		"24"
-				"weight"	"2000"
-				"outline"	"1"
+				"name"			"Tahoma"
+				"tall"			"24"
+				"weight"		"2000"
+				"outline"		"1"
 			}
 		}
+
 		"ChapterTitle"	[$X360]
 		{
 			"1"
@@ -395,82 +403,81 @@ Scheme
 				"blur_hidef"	"5"
 			}
 		}
+
 		"MenuLarge"
 		{
 			"1"	[$OSX]
 			{
-				"name"		"Helvetica Bold"
-				"tall"		"20"
-				"antialias" "1"
+				"name"			"Helvetica Bold"
+				"tall"			"20"
+				"antialias"		"1"
 			}
 			"1"	[$LINUX]
 			{
-				"name"		"Verdana"
-				"tall"		"24"
-				"weight"	"600"
-				"antialias" "1"
+				"name"			"Verdana"
+				"tall"			"24"
+				"weight"		"600"
+				"antialias"		"1"
 			}
 			"1"	[$WINDOWS]
 			{
-				"name"		"Verdana" 
-				"tall"		"16"
-				"weight"	"600"
-				"antialias" "1"
+				"name"			"Verdana" 
+				"tall"			"16"
+				"weight"		"600"
+				"antialias"		"1"
 			}
 			"1"	[$X360]
 			{
-				"name"		"Verdana"
+				"name"			"Verdana"
 				"tall"			"14"
 				"tall_hidef"	"20"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
+				"weight"		"1200"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
+
 		"AchievementTitleFont"
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
+				"name"			"Verdana"
+				"tall"			"20"
+				"weight"		"1200"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
-		
 		"AchievementTitleFontSmaller"
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"18"
-				"weight"	"1200"
-				"antialias" "1"
-				//"outline" "1"
+				"name"			"Verdana"
+				"tall"			"18"
+				"weight"		"1200"
+				"antialias"		"1"
+				//"outline"		"1"
 			}
 		}
-		
-		
 		"AchievementDescriptionFont"
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"15"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
-				"yres"		"0 480"
+				"name"			"Verdana"
+				"tall"			"15"
+				"weight"		"1200"
+				"antialias"		"1"
+				"outline"		"1"
+				"yres"			"0 480"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
-				"yres"	 "481 10000"
+				"name"			"Verdana"
+				"tall"			"20"
+				"weight"		"1200"
+				"antialias"		"1"
+				"outline"		"1"
+				"yres"			"481 10000"
 			}
 		}
 		
@@ -478,28 +485,29 @@ Scheme
 		{
 			"1"	[$X360]
 			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.63"
-				"scaley"	"0.63"
+				"bitmap"		"1"
+				"name"			"Buttons"
+				"scalex"		"0.63"
+				"scaley"		"0.63"
 				"scalex_hidef"	"1.0"
 				"scaley_hidef"	"1.0"
 				"scalex_lodef"	"0.75"
 				"scaley_lodef"	"0.75"
 			}
 		}
+
 		"ConsoleText"
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [!$OSX]
-				"name"		 "Lucida Console" [$X360]
-				"name"		 "Verdana" [$OSX]
-				"tall"		"11" [$OSX]
-				"tall"		"14" [$LINUX]
-				"tall"		"13"
-				"weight"	"500"
-				"antialias"	"1"
+				"name"			"Tahoma" [!$OSX]
+				"name"			"Tahoma" [$X360]
+				"name"			"Verdana" [$OSX]
+				"tall"			"11" [$OSX]
+				"tall"			"14" [$LINUX]
+				"tall"			"13"
+				"weight"		"500"
+				"antialias"		"1"
 			}
 		}
 
@@ -508,30 +516,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Marlett"
-				"tall"		"14"
-				"weight"	"0"
-				"symbol"	"1"
-			}
-		}
-
-		"Trebuchet24"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"24"
-				"weight"	"900"
-			}
-		}
-
-		"Trebuchet20"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"20"
-				"weight"	"900"
+				"name"			"Marlett"
+				"tall"			"14"
+				"weight"		"0"
+				"symbol"		"1"
 			}
 		}
 
@@ -539,9 +527,27 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"18"
-				"weight"	"900"
+				"name"			"Trebuchet MS"
+				"tall"			"18"
+				"weight"		"900"
+			}
+		}
+		"Trebuchet20"
+		{
+			"1"
+			{
+				"name"			"Trebuchet MS"
+				"tall"			"20"
+				"weight"		"900"
+			}
+		}
+		"Trebuchet24"
+		{
+			"1"
+			{
+				"name"			"Trebuchet MS"
+				"tall"			"24"
+				"weight"		"900"
 			}
 		}
 
@@ -551,134 +557,123 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"40"
-				"weight"	"900"
+				"name"			"Trebuchet MS"
+				"tall"			"40"
+				"weight"		"900"
 			}
 		}
 		"HUDNumber1"
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"41"
-				"weight"	"900"
+				"name"			"Trebuchet MS"
+				"tall"			"41"
+				"weight"		"900"
 			}
 		}
 		"HUDNumber2"
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"42"
-				"weight"	"900"
+				"name"			"Trebuchet MS"
+				"tall"			"42"
+				"weight"		"900"
 			}
 		}
 		"HUDNumber3"
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"43"
-				"weight"	"900"
+				"name"			"Trebuchet MS"
+				"tall"			"43"
+				"weight"		"900"
 			}
 		}
 		"HUDNumber4"
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"44"
-				"weight"	"900"
+				"name"			"Trebuchet MS"
+				"tall"			"44"
+				"weight"		"900"
 			}
 		}
 		"HUDNumber5"
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"45"
-				"weight"	"900"
+				"name"			"Trebuchet MS"
+				"tall"			"45"
+				"weight"		"900"
 			}
 		}
+
 		"DefaultFixed"
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [!$OSX]
-				"name"		 "Verdana" [$OSX]
-				"tall"		"11" [$POSIX]
-				"tall"		"10" [!$POSIX]
-				"weight"	"0"
+				"name"			"Tahoma" [!$OSX]
+				"name"			"Verdana" [$OSX]
+				"tall"			"11" [$POSIX]
+				"tall"			"10" [!$POSIX]
+				"weight"		"0"
 			}
-//			"1"
-//			{
-//				"name"		"FixedSys"
-//				"tall"		"20"
-//				"weight"	"0"
-//			}
 		}
 
 		"DefaultFixedDropShadow"
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [!$OSX]
-				"name"		 "Verdana" [$OSX]
-				"tall"		"14" [$LINUX]
-				"tall"		"11" [$POSIX]
-				"tall"		"10"
-				"weight"	"0"
-				"dropshadow" "1"
+				"name"			"Tahoma" [!$OSX]
+				"name"			"Verdana" [$OSX]
+				"tall"			"14" [$LINUX]
+				"tall"			"11" [$POSIX]
+				"tall"			"10"
+				"weight"		"0"
+				"dropshadow"	"1"
 			}
-//			"1"
-//			{
-//				"name"		"FixedSys"
-//				"tall"		"20"
-//				"weight"	"0"
-//			}
 		}
 
 		"CloseCaption_Normal"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
-				"tall"		"16"
-				"weight"	"500"
+				"name"			"Tahoma" [!$OSX]
+				"name"			"Verdana" [$OSX]
+				"tall"			"16"
+				"weight"		"500"
 			}
 		}
 		"CloseCaption_Italic"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana Italic" [$OSX]
-				"tall"		"16"
-				"weight"	"500"
-				"italic"	"1"
+				"name"			"Tahoma" [!$OSX]
+				"name"			"Verdana Italic" [$OSX]
+				"tall"			"16"
+				"weight"		"500"
+				"italic"		"1"
 			}
 		}
 		"CloseCaption_Bold"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana Bold" [$OSX]
-				"tall"		"16"
-				"weight"	"900"
+				"name"			"Tahoma" [!$OSX]
+				"name"			"Verdana Bold" [$OSX]
+				"tall"			"16"
+				"weight"		"900"
 			}
 		}
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana Bold Italic" [$OSX]
-				"tall"		"16"
-				"weight"	"900"
-				"italic"	"1"
+				"name"			"Tahoma" [!$OSX]
+				"name"			"Verdana Bold Italic" [$OSX]
+				"tall"			"16"
+				"weight"		"900"
+				"italic"		"1"
 			}
 		}
 
@@ -686,11 +681,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HalfLife2"
-				"tall"		"72"
-				"weight"	"400"
-				"antialias"	"1"
-				"custom"	"1"
+				"name"			"HalfLife2"
+				"tall"			"72"
+				"weight"		"400"
+				"antialias"		"1"
+				"custom"		"1"
 			}
 		}
 
@@ -698,11 +693,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HalfLife2"
-				"tall"		"120"
-				"weight"	"400"
-				"antialias"	"1"
-				"custom"	"1"
+				"name"			"HalfLife2"
+				"tall"			"120"
+				"weight"		"400"
+				"antialias"		"1"
+				"custom"		"1"
 			}
 		}
 
@@ -736,8 +731,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
+				"name"			"Arial" [!$POSIX]
+				"name"			"Verdana Bold" [$POSIX]
 				"weight"		"2000"
 				"tall"			"20"
 				"antialias"		"1"
@@ -748,8 +743,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
+				"name"			"Arial" [!$POSIX]
+				"name"			"Verdana Bold" [$POSIX]
 				"weight"		"2000"
 				"tall"			"18"
 				"antialias"		"1"
@@ -760,8 +755,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
+				"name"			"Arial" [!$POSIX]
+				"name"			"Verdana Bold" [$POSIX]
 				"weight"		"1500"
 				"tall"			"16" [!$POSIX]
 				"tall"			"18" [$POSIX]
@@ -773,21 +768,20 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
+				"name"			"Arial" [!$POSIX]
+				"name"			"Verdana Bold" [$POSIX]
 				"weight"		"1500"
 				"tall"			"16"
 				"antialias"		"1"
 			}
 		}
 
-		
 		StatsPageText
 		{
 			"1"
 			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
+				"name"			"Arial" [!$POSIX]
+				"name"			"Verdana Bold" [$POSIX]
 				"weight"		"1500"
 				"tall"			"14" [!$POSIX]
 				"tall"			"16" [$POSIX]
@@ -799,8 +793,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
+				"name"			"Arial" [!$POSIX]
+				"name"			"Verdana Bold" [$POSIX]
 				"weight"		"1500"
 				"tall"			"18" [!$POSIX]
 				"tall"			"19" [$POSIX]
@@ -812,8 +806,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana" [$OSX]
+				"name"			"Arial" [!$POSIX]
+				"name"			"Verdana" [$OSX]
 				"weight"		"1000"
 				"tall"			"14" [!$POSIX]
 				"tall"			"15" [$POSIX]
@@ -821,18 +815,17 @@ Scheme
 			}
 		}
 
-		
 		"ServerBrowserTitle"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
-				"tall"		"35"
+				"name"			"Tahoma" [!$OSX]
+				"name"			"Verdana" [$OSX]
+				"tall"			"35"
 				"tall_lodef"	"40"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias"		"1"
 			}
 		}
 
@@ -840,49 +833,48 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"17"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
+				"name"			"Tahoma"
+				"tall"			"17"
+				"weight"		"0"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"480 599"
 			}
 			"2"
 			{
-				"name"		"Tahoma"
-				"tall"		"17"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
+				"name"			"Tahoma"
+				"tall"			"17"
+				"weight"		"0"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"600 767"
 			}
 			"3"
 			{
-				"name"		"Tahoma"
-				"tall"		"17"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
-				"antialias"	"1"
+				"name"			"Tahoma"
+				"tall"			"17"
+				"weight"		"0"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"768 1023"
+				"antialias"		"1"
 			}
 			"4"
 			{
-				"name"		"Tahoma"
-				"tall"		"20"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
-				"antialias"	"1"
+				"name"			"Tahoma"
+				"tall"			"20"
+				"weight"		"0"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"1024 1199"
+				"antialias"		"1"
 			}
 			"5"
 			{
-				"name"		"Tahoma"
-				"tall"		"20"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
-				"antialias"	"1"
+				"name"			"Tahoma"
+				"tall"			"20"
+				"weight"		"0"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"1200 6000"
+				"antialias"		"1"
 			}
 		}
-	
 	}
 
 	//
