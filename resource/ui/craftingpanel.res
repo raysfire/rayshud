@@ -76,7 +76,6 @@
 					"fieldName"		"namelabel"
 					"xpos"			"0"
 					"ypos"			"0"
-					"font"			"Cerbetica24"
 					"zpos"			"2"
 					"wide"			"50"
 					"tall"			"30"
