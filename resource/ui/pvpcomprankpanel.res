@@ -1,6 +1,6 @@
-#base "PvPRankPanel.res"
+#base "pvprankpanel.res"
 
-"Resource/UI/PvPRankPanel.res"
+"resource/ui/pvprankpanel.res"
 {
 	"BGPanel"
 	{

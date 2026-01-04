@@ -1,1 +1,1 @@
-#base "HudObjectivePlayerDestruction.res"
+#base "hudobjectiveplayerdestruction.res"

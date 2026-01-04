@@ -1,4 +1,4 @@
-"Resource/UI/econ/ComboBoxBackpackOverlayDialogBase.res"
+"resource/ui/econ/comboboxbackpackoverlaydialogbase.res"
 {
 	"ComboBoxBackpackOverlayDialogBase"
 	{

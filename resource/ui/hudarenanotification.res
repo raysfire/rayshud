@@ -1,4 +1,4 @@
-"Resource/UI/HudArenaNotification.res"
+"resource/ui/hudarenanotification.res"
 {
 	"HudArenaNotificationBG"
 	{

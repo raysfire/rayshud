@@ -1,4 +1,4 @@
-"Resource/UI/CraftingStatusDialog.res"
+"resource/ui/craftingstatusdialog.res"
 {
 	"CraftingStatusDialog"
 	{

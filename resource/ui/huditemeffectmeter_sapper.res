@@ -1,1 +1,1 @@
-#base "HudItemEffectMeter_SodaPopper.res"
+#base "huditemeffectmeter_sodapopper.res"

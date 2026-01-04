@@ -1,6 +1,6 @@
 #base "textwindow.res"
 
-"Resource/UI/TextWindow_sc.res"
+"resource/ui/textwindow_sc.res"
 {
 	"OkIntroHintIcon"
 	{

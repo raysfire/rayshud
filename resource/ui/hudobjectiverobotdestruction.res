@@ -1,4 +1,4 @@
-"Resource/UI/HudObjectiveFlagPanel.res"
+"resource/ui/hudobjectiveflagpanel.res"
 {
 	"ObjectiveStatusRobotDestruction"
 	{

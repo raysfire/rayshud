@@ -1,4 +1,4 @@
-"Resource/UI/MatchMakingDashboardSidePanel.res"
+"resource/ui/matchmakingdashboardsidepanel.res"
 {
 	"Shade"
 	{

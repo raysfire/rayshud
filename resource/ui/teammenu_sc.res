@@ -1,6 +1,6 @@
-#base "TeamMenu.res"
+#base "teammenu.res"
 
-"Resource/UI/TeamMenu.res"
+"resource/ui/teammenu.res"
 {
 	"JoinBluHintIcon"
 	{

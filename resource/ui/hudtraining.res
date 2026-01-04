@@ -1,4 +1,4 @@
-"Resource/UI/HudTraining.res"
+"resource/ui/hudtraining.res"
 {
  	"ObjectiveStatusTraining"
 	{

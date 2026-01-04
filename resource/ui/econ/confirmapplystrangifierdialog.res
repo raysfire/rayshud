@@ -1,4 +1,4 @@
-"Resource/UI/ConfirmApplyStrangifierDialog.res"
+"resource/ui/confirmapplystrangifierdialog.res"
 {
 	"ConfirmApplyStrangifierDialog"
 	{

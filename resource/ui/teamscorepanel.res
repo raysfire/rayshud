@@ -1,7 +1,7 @@
 /////////////////////////////////////////////////
 // Contributed by https://github.com/Wiethoofd //
 /////////////////////////////////////////////////
-"Resource/UI/TeamScorePanel.res"
+"resource/ui/teamscorepanel.res"
 {
 	"TeamScorePanel"
 	{

@@ -1,4 +1,4 @@
-"Resource/UI/HudKillStreakNotice.res"
+"resource/ui/hudkillstreaknotice.res"
 {
 	"Background"
 	{

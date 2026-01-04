@@ -1,4 +1,4 @@
-"Resource/UI/ControlPointCountdown.res"
+"resource/ui/controlpointcountdown.res"
 {
 	"CapCountdownLabel"
 	{

@@ -1,4 +1,4 @@
-"Resource/UI/winpanel.res"
+"resource/ui/winpanel.res"
 {
 	"TeamScoresPanel"
 	{

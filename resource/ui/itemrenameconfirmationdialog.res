@@ -1,4 +1,4 @@
-"Resource/UI/ItemRenameConfirmationDialog.res"
+"resource/ui/itemrenameconfirmationdialog.res"
 {
 	"ItemRenameConfirmationDialog"
 	{

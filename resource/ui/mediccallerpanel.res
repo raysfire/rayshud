@@ -1,4 +1,4 @@
-"Resource/UI/MedicCallerPanel.res"
+"resource/ui/mediccallerpanel.res"
 {
 	"CallerBG"
 	{

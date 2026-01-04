@@ -1,6 +1,6 @@
 #base "heavy_red.res"
 
-"Resource/UI/disguise_menu/engineer_blue.res"
+"resource/ui/disguise_menu/engineer_blue.res"
 {
 	"ItemNameLabel"
 	{

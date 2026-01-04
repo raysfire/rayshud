@@ -1,6 +1,6 @@
-#base "MapInfoMenu.res"
+#base "mapinfomenu.res"
 
-"Resource/UI/MapInfoMenu_sc.res"
+"resource/ui/mapinfomenu_sc.res"
 {
 	"MapInfoContinueHintIcon" [$WIN32]
 	{

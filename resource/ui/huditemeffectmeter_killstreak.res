@@ -1,6 +1,6 @@
 #base "huditemeffectmeter_demoman.res"
 
-"Resource/UI/HudItemEffectMeter_Killstreak.res"
+"resource/ui/huditemeffectmeter_killstreak.res"
 {
 	"HudItemEffectMeter"
 	{

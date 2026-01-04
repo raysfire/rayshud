@@ -1,4 +1,4 @@
-"Resource/training/basictraining/classpanel.res"
+"resource/training/basictraining/classpanel.res"
 {
 	"Image"
 	{

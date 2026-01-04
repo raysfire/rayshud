@@ -1,4 +1,4 @@
-"Resource/UI/HudPasstimeBallStatus.res"
+"resource/ui/hudpasstimeballstatus.res"
 {
 	"HudPasstimeBallStatus"
 	{

@@ -1,4 +1,4 @@
-"Resource/UI/ItemQuickSwitch.res"
+"resource/ui/itemquickswitch.res"
 {
 	"ItemQuickSwitchPanel"
 	{

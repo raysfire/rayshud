@@ -1,4 +1,4 @@
-"Resource/UI/PaintkitConsumeDialog.res"
+"resource/ui/paintkitconsumedialog.res"
 {
 	"PaintkitConsume"
 	{

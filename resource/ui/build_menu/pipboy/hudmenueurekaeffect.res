@@ -1,6 +1,6 @@
-#base "../HudMenuEurekaEffect.res"
+#base "../hudmenueurekaeffect.res"
 
-"Resource/UI/build_menu/HudMenuEurekaEffect.res"
+"resource/ui/build_menu/hudmenueurekaeffect.res"
 {
 	"ItemBackground"
 	{

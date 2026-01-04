@@ -1,4 +1,4 @@
-"Resource/UI/HudCurrencyAccount.res"
+"resource/ui/hudcurrencyaccount.res"
 {
 	"Currency"
 	{

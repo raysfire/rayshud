@@ -1,4 +1,4 @@
-"Resource/UI/GenericWaitingDialog.res"
+"resource/ui/genericwaitingdialog.res"
 {
 	"GenericWaitingDialog"
 	{

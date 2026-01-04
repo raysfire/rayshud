@@ -1,4 +1,4 @@
-"Resource/UI/econ/ConfirmCustomizeTextureDialog.res"
+"resource/ui/econ/confirmcustomizetexturedialog.res"
 {
 	"ConfirmCustomizeTextureDialog"
 	{

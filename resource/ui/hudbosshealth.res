@@ -1,4 +1,4 @@
-"Resource/UI/HudBossHealth.res"
+"resource/ui/hudbosshealth.res"
 {
 	"BorderImage"
 	{

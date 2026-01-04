@@ -1,4 +1,4 @@
-"Resource/UI/NotificationsPresentPanel.res"
+"resource/ui/notificationspresentpanel.res"
 {
 	"NotificationsPresentPanel"
 	{

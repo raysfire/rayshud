@@ -1,4 +1,4 @@
-"Resource/UI/ConfirmApplyStrangeRestrictionApplicationDialog.res"
+"resource/ui/confirmapplystrangerestrictionapplicationdialog.res"
 {
 	"ConfirmApplyStrangeRestrictionApplicationDialog"
 	{

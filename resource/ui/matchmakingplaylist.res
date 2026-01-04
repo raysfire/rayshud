@@ -1,4 +1,4 @@
-"Resource/UI/MatchMakingDashboardCasualCriteria.res"
+"resource/ui/matchmakingdashboardcasualcriteria.res"
 {
 	"EventEntry"
 	{

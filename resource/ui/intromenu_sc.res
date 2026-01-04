@@ -1,6 +1,6 @@
-#base "IntroMenu.res"
+#base "intromenu.res"
 
-"Resource/UI/IntroMenu_sc.res"
+"resource/ui/intromenu_sc.res"
 {
 	"Footer" [$X360]
 	{

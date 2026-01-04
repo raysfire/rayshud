@@ -1,6 +1,6 @@
-#base "../HudMenuEngyBuild.res"
+#base "../hudmenuengybuild.res"
 
-"Resource/UI/build_menu/HudMenuEngyBuild.res"
+"resource/ui/build_menu/hudmenuengybuild.res"
 {
 	"ItemBackground"
 	{

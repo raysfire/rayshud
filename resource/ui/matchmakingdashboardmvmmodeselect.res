@@ -1,6 +1,6 @@
-#base "MatchMakingDashboardSidePanel.res"
+#base "matchmakingdashboardsidepanel.res"
 
-"Resource/UI/MatchMakingDashboardCasualCriteria.res"
+"resource/ui/matchmakingdashboardcasualcriteria.res"
 {
 	"MVMModeSelect"
 	{

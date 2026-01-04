@@ -1,1 +1,1 @@
-#base "ClassSelection.res"
+#base "classselection.res"

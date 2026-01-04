@@ -1,4 +1,4 @@
-"Resource/UI/HudWeaponSelection.res"
+"resource/ui/hudweaponselection.res"
 {
 	"modelpanel0"
 	{

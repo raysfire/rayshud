@@ -1,4 +1,4 @@
-"Resource/UI/MainMenuOverride.res"
+"resource/ui/mainmenuoverride.res"
 {
 	"CPIconBlu"
 	{

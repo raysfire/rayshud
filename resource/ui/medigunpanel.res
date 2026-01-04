@@ -1,4 +1,4 @@
-"Resource/UI/MedigunPanel.res"
+"resource/ui/medigunpanel.res"
 {
 	"MedigunPanel"
 	{

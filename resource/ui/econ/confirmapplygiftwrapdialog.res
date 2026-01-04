@@ -1,4 +1,4 @@
-"Resource/UI/ConfirmApplyGiftWrapDialog.res"
+"resource/ui/confirmapplygiftwrapdialog.res"
 {
 	"ConfirmApplyGiftWrapDialog"
 	{

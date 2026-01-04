@@ -1,4 +1,4 @@
-"Resource/UI/TestItemRoot.res"
+"resource/ui/testitemroot.res"
 {
 	"TestItemRoot"
 	{

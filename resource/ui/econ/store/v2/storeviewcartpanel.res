@@ -1,4 +1,4 @@
-"Resource/UI/StoreViewCartPanel.res"
+"resource/ui/storeviewcartpanel.res"
 {
 	"store_viewcart_panel"
 	{

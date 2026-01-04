@@ -1,6 +1,6 @@
-#base "MatchMakingDashboardSidePanel.res"
+#base "matchmakingdashboardsidepanel.res"
 
-"Resource/UI/MatchMakingDashboardComp.res"
+"resource/ui/matchmakingdashboardcomp.res"
 {
 	"CompStats"
 	{

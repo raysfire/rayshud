@@ -1,4 +1,4 @@
-"Resource/UI/StorePreviewItemPanel.res"
+"resource/ui/storepreviewitempanel.res"
 {
 	"storepreviewitem"
 	{

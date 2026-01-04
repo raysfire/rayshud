@@ -1,4 +1,4 @@
-"Resource/UI/HudPasstimePassNotify.res"
+"resource/ui/hudpasstimepassnotify.res"
 {
 	"HudPasstimePassNotify"
 	{

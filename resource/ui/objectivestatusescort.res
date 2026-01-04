@@ -1,4 +1,4 @@
-"Resource/UI/ObjectiveStatusEscort.res"
+"resource/ui/objectivestatusescort.res"
 {
 	"ObjectiveStatusEscort"
 	{

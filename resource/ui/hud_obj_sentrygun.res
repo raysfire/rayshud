@@ -1,4 +1,4 @@
-"Resource/UI/hud_obj_sentrygun.res"
+"resource/ui/hud_obj_sentrygun.res"
 {
 	"BuildingStatusItem"
 	{

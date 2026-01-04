@@ -1,6 +1,6 @@
 #base "../disguise_menu/engineer_red.res"
 
-"Resource/UI/disguise_menu/engineer_red.res"
+"resource/ui/disguise_menu/engineer_red.res"
 {
 
 }

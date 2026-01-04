@@ -1,4 +1,4 @@
-"Resource/training/modeselection/modepanel.res"
+"resource/training/modeselection/modepanel.res"
 {
 	"ModeInfoContainer"
 	{

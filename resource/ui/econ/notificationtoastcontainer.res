@@ -1,4 +1,4 @@
-"Resource/UI/NotificationToastContainer.res"
+"resource/ui/notificationtoastcontainer.res"
 {
 	"NotificationToastContainer"
 	{

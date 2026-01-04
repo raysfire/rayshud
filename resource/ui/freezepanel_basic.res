@@ -1,6 +1,6 @@
 #base "hudinspectpanel.res"
 
-"Resource/UI/FreezePanel_Basic.res"
+"resource/ui/freezepanel_basic.res"
 {
 	"itempanel"
 	{

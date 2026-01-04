@@ -1,4 +1,4 @@
-"Resource/UI/CompStats.res"
+"resource/ui/compstats.res"
 {
 	"ScrollableContainer"
 	{

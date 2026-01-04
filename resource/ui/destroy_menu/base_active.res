@@ -1,4 +1,4 @@
-"Resource/UI/destroy_menu/base_active.res"
+"resource/ui/destroy_menu/base_active.res"
 {
 	"ItemNameLabel"
 	{

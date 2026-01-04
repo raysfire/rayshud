@@ -1,4 +1,4 @@
-"Resource/training/offlinepractice/practicemodeselection.res"
+"resource/training/offlinepractice/practicemodeselection.res"
 {
 	"GameModeImagePanel"
 	{
