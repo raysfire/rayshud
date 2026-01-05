@@ -1,4 +1,4 @@
-"Resource/UI/SurveyPanel_Base.res"
+"resource/ui/surveypanel_base.res"
 {
 	"Survey"
 	{
@@ -135,40 +135,23 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"("
+			"font"			"CustomIcons"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"close"
-			"proportionaltoparent" "1"
-			"actionsignallevel"	"1"
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			"Command"					"close"
+			"proportionaltoparent" 		"1"
+			"actionsignallevel"			"1"
 			
-			"paintbackground"	"0"
+			"paintbackground"			"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"close_button"
-				"scaleImage"	"1"
-			}				
-		} // Close button
-	}	
+			"defaultFgColor_override" 	"TanLight"
+			"armedFgColor_override" 	"LightRed"
+			"depressedFgColor_override" "TanLight"
+		}
+	}
 }
