@@ -17,7 +17,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"RenderAllButton"
-		"wide"			"75"
+		"wide"			"80"
 		"tall"			"15"
 		"zpos"			"5"
 		"visible"		"0"
@@ -28,7 +28,6 @@
 		"Command"		"render_queued_replays"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
 	}
 	"TitleLabel"
 	{
@@ -135,7 +134,7 @@
 		"ypos"			"0"
 		"zpos"			"100"
 		"wide"			"100"
-		"tall"			"20"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -160,7 +159,7 @@
 		"ypos"			"20"
 		"zpos"			"100"
 		"wide"			"100"
-		"tall"			"20"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
