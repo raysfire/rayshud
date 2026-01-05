@@ -19,11 +19,11 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"TitleLabel"
-		"font"					"HudFontMedium"
+		"font"					"HudFontMediumSmall"
 		"xpos"					"0"
 		"ypos"					"8"
 		"zpos"					"0"
-		"wide"					"200"
+		"wide"					"195"
 		"tall"					"42"
 		"autoResize"			"0"
 		"pinCorner"				"0"
