@@ -17,6 +17,7 @@ Scheme
 		"Blank"						"0 0 0 0"
 		"HudBlack"					"0 0 0 200"
 		"Cyan"						"72 255 255 255"
+		"DarkCyan"					"53 152 169 255"
 
 		// BASE COLORS
 		//---------------------------------------------
@@ -64,15 +65,15 @@ Scheme
 		Button.TextColor				"White"
 		Button.BgColor					"Black"
 		Button.ArmedTextColor			"White"
-		Button.ArmedBgColor				"Yellow"
+		Button.ArmedBgColor				"DarkCyan"
 		Button.DepressedTextColor		"White"
-		Button.DepressedBgColor			"Yellow"
+		Button.DepressedBgColor			"DarkCyan"
 		Button.FocusBorderColor			"Blank"
 
 		CheckButton.TextColor			"DullWhite"
 		CheckButton.SelectedTextColor	"White"
 		CheckButton.BgColor				"Black"
-		CheckButton.HighlightFgColor	"Yellow"
+		CheckButton.HighlightFgColor	"DarkCyan"
 		CheckButton.ArmedBgColor		"Blank"
 		CheckButton.DepressedBgColor	"Blank"
 		CheckButton.Border1  			"Border.Dark"
