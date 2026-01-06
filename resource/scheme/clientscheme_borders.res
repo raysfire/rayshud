@@ -308,7 +308,7 @@ Scheme
 				"1"
 				{
 					"color" "ColorCyan"
-					"offset" "0 4"
+					"offset" "0 0"
 				}
 			}
 			Right

@@ -84,7 +84,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"labelText"		"%itemname%"
-					"textAlignment"	"center"
+					"textAlignment"	"south"
 					"fgcolor"		"TanLight"
 					"wrap"			"1"
 					"centerwrap"	"1"
