@@ -11,7 +11,6 @@
 
 		"collapsed_height"	"57"
 		"resize_time"	"0.2"
-	
 	}
 
 	"TopContainer"
