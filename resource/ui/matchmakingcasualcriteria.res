@@ -76,7 +76,7 @@
 			"paintbackground"	"0"
 			"proportionaltoparent"	"1"
 			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"169 123 53 255"
+			"image_armedcolor"	"72 255 255 255"
 
 			"SubImage"
 			{
@@ -121,7 +121,7 @@
 			"paintbackground"	"0"
 			"proportionaltoparent"	"1"
 			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"169 123 53 255"
+			"image_armedcolor"	"72 255 255 255"
 
 			"SubImage"
 			{

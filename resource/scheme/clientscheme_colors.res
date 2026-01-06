@@ -11,6 +11,8 @@ Scheme
 		"ColorGreen"				"48 255 48 255"
 		"ColorCyan"					"72 255 255 255"
 		"ColorCyanShadow"			"72 100 100 255"
+		"DarkCyan"					"53 152 169 255"
+		"DarkCyanDim"				"53 152 169 128"
 		"ColorBlue"					"0 0 255 255"
 		"ColorPurple"				"128 0 255 255"
 		"ColorMagenta"				"255 0 255 255"
@@ -42,7 +44,7 @@ Scheme
 		"Crosshair"					"242 242 242 255"
 		"CrosshairDamage"			"255 0 0 255"
 		//---------------------------------------------
-		// ÜBERCHARGE
+		// ÃœBERCHARGE
 		//---------------------------------------------
 		"Uber Bar Color"			"235 226 202 255"
 		"Solid Color Uber"			"255 50 25 255"
