@@ -117,7 +117,7 @@ Scheme
 		ListPanel.TextColor					"OffWhite"
 		ListPanel.TextBgColor				"Blank"
 		ListPanel.BgColor					"TransparentBlack"
-		ListPanel.SelectedTextColor			"White"
+		ListPanel.SelectedTextColor			"Black"
 		ListPanel.SelectedBgColor			"DarkCyan"
 		ListPanel.SelectedOutOfFocusBgColor	"DarkCyanDim"
 		ListPanel.EmptyListInfoTextColor	"OffWhite"
