@@ -180,7 +180,7 @@ Scheme
 		TextEntry.CursorColor		"OffWhite"
 		TextEntry.DisabledTextColor	"DullWhite"
 		TextEntry.DisabledBgColor	"Blank"
-		TextEntry.SelectedTextColor	"White"
+		TextEntry.SelectedTextColor	"Black"
 		TextEntry.SelectedBgColor	"DarkCyan"
 		TextEntry.OutOfFocusSelectedBgColor	"DarkCyanDim"
 		TextEntry.FocusEdgeColor	"0 0 0 196"
