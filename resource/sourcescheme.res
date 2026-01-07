@@ -144,7 +144,9 @@ Scheme
 
 		TextEntry.TextColor					"White"
 		TextEntry.DisabledTextColor	        "DullWhite"
+		TextEntry.SelectedTextColor			"Black"
 		TextEntry.SelectedBgColor			"White"
+		TextEntry.OutOfFocusSelectedBgColor	"DullWhite"
 	}
 
 	Borders
