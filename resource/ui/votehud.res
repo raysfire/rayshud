@@ -572,7 +572,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TitleLabel"
-			"font"				"HudFontMediumSmall"
+			"font"				"HudFontMedium"
 			"labelText"			"#TF_Vote_Title"
 			"textAlignment"		"north"
 			"xpos"				"0"
