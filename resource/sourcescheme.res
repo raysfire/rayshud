@@ -112,6 +112,7 @@ Scheme
 
 		ListPanel.TextColor					"White"
 		ListPanel.BgColor					"HudBlack"
+		ListPanel.SelectedTextColor			"Black"
 		ListPanel.SelectedBgColor			"White"
 		ListPanel.SelectedOutOfFocusBgColor	"DullWhite"
 
