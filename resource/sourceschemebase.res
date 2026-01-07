@@ -22,10 +22,12 @@ Scheme
 		"Orange"			"255 155 0 255"
 		"TransparentBlack"	"0 0 0 128"
 		"Black"				"0 0 0 255"
+		"DarkCyan"			"53 152 169 255"
+		"DarkCyanDim"		"53 152 169 128"
 
 		"Blank"				"0 0 0 0"
 		
-		"SteamLightGreen"	"157 194 80 255"
+		"SteamLightGreen"			"157 194 80 255"
 		"AchievementsLightGrey"		"79 79 79 255"
 		"AchievementsDarkGrey"		"55 55 55 255"
 		"AchievementsInactiveFG"	"130 130 130 255"
@@ -52,12 +54,12 @@ Scheme
 		Button.FocusBorderColor			"Black"
 
 		CheckButton.TextColor			"White"
-		CheckButton.SelectedTextColor		"White"
-		CheckButton.BgColor			"TransparentBlack"
+		CheckButton.SelectedTextColor	"White"
+		CheckButton.BgColor				"TransparentBlack"
 		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
-		CheckButton.Check			"White"	// color of the check itself
-		CheckButton.HighlightFgColor		"OffWhite"
+		CheckButton.Check				"White"	// color of the check itself
+		CheckButton.HighlightFgColor	"OffWhite"
 		CheckButton.SelectedTextColor	"White"
 		CheckButton.BgColor				"TransparentBlack"
 		CheckButton.Border1				"Border.Dark" 		// the left checkbutton border
@@ -115,9 +117,9 @@ Scheme
 		ListPanel.TextColor					"OffWhite"
 		ListPanel.TextBgColor				"Blank"
 		ListPanel.BgColor					"TransparentBlack"
-		ListPanel.SelectedTextColor			"Black"
-		ListPanel.SelectedBgColor			"Orange"
-		ListPanel.SelectedOutOfFocusBgColor	"255 155 0 128"
+		ListPanel.SelectedTextColor			"White"
+		ListPanel.SelectedBgColor			"DarkCyan"
+		ListPanel.SelectedOutOfFocusBgColor	"DarkCyanDim"
 		ListPanel.EmptyListInfoTextColor	"OffWhite"
 
 		Menu.TextColor					"White"
@@ -141,8 +143,8 @@ Scheme
 
 		RichText.TextColor				"OffWhite"
 		RichText.BgColor				"TransparentBlack"
-		RichText.SelectedTextColor		"Black"
-		RichText.SelectedBgColor		"Orange"
+		RichText.SelectedTextColor		"White"
+		RichText.SelectedBgColor		"DarkCyan"
 
 		ScrollBar.Wide					17
 
@@ -162,10 +164,10 @@ Scheme
 		SectionedListPanel.TextColor		"DullWhite"
 		SectionedListPanel.BrightTextColor	"White"
 		SectionedListPanel.BgColor			"TransparentBlack"
-		SectionedListPanel.SelectedTextColor			"Black"
-		SectionedListPanel.SelectedBgColor				"Orange"
-		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"255 155 0 128"
+		SectionedListPanel.SelectedTextColor			"White"
+		SectionedListPanel.SelectedBgColor				"DarkCyan"
+		SectionedListPanel.OutOfFocusSelectedTextColor	"White"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"DarkCyanDim"
 
 		Slider.NobColor				"108 108 108 255"
 		Slider.TextColor			"180 180 180 255"
@@ -178,9 +180,9 @@ Scheme
 		TextEntry.CursorColor		"OffWhite"
 		TextEntry.DisabledTextColor	"DullWhite"
 		TextEntry.DisabledBgColor	"Blank"
-		TextEntry.SelectedTextColor	"Black"
-		TextEntry.SelectedBgColor	"Orange"
-		TextEntry.OutOfFocusSelectedBgColor	"255 155 0 128"
+		TextEntry.SelectedTextColor	"White"
+		TextEntry.SelectedBgColor	"DarkCyan"
+		TextEntry.OutOfFocusSelectedBgColor	"DarkCyanDim"
 		TextEntry.FocusEdgeColor	"0 0 0 196"
 
 		ToggleButton.SelectedTextColor	"White"
@@ -500,8 +502,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Tahoma" [!$OSX]
-				"name"			"Tahoma" [$X360]
+				"name"			"Lucida Console" [!$OSX]
+				"name"			"Lucida Console" [$X360]
 				"name"			"Verdana" [$OSX]
 				"tall"			"11" [$OSX]
 				"tall"			"14" [$LINUX]
@@ -1291,7 +1293,7 @@ Scheme
 		"7"		"resource/linux_fonts/dejavusans-oblique.ttf"
 		"8"		"resource/linux_fonts/liberationsans-regular.ttf"
 		"9"		"resource/linux_fonts/liberationsans-bold.ttf"
-		"10"		"resource/linux_fonts/liberationmono-regular.ttf"
-		"11"		"resource/linux_fonts/firasans-regular.ttf"
+		"10"	"resource/linux_fonts/liberationmono-regular.ttf"
+		"11"	"resource/linux_fonts/firasans-regular.ttf"
 	}
 }
