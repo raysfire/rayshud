@@ -119,7 +119,6 @@
 			"proportionaltoparent"	"1"
 			"paintbackground"		"1"
 			"allcaps"				"1"
-			"textinsety"			"50"
 			
 			"border_default"		"NoBorder"
 			"border_armed"			"CyanBorderThick"
@@ -242,7 +241,6 @@
 			"proportionaltoparent"	"1"
 			"paintbackground"		"1"
 			"allcaps"				"1"
-			"textinsety"			"150"
 			
 			"border_default"		"NoBorder"
 			"border_armed"			"CyanBorderThick"
