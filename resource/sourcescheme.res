@@ -18,6 +18,7 @@ Scheme
 		"HudBlack"					"0 0 0 200"
 		"Cyan"						"72 255 255 255"
 		"DarkCyan"					"53 152 169 255"
+		"DarkCyanDim"				"53 152 169 128"
 
 		// BASE COLORS
 		//---------------------------------------------
@@ -42,7 +43,7 @@ Scheme
 	    "TFMediumBrown"				"69 64 58 255"
 
 	    "QuickListBGDeselected"		"0 0 0 0"
-	    "QuickListBGSelected"		"169 123 53 255"
+	    "QuickListBGSelected"		"DarkCyanDim"
 
 	    "Blank"						"0 0 0 0"
 
