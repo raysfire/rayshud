@@ -125,7 +125,7 @@
 
 		"if_multiple_trains"
 		{
-			"ypos"			"115"
+			"ypos"			"114"
 			"zpos"			"6"
 			"tall"			"12"
 			"tall_minmode"			"8"
@@ -408,7 +408,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Speed_Backwards"
-			"xpos"			"23"
+			"xpos"			"22"
 			"ypos"			"53"
 			"xpos_minmode"			"36"
 			"ypos_minmode"			"80"
@@ -426,7 +426,7 @@
 
 			"if_multiple_trains"
 			{
-				"xpos"		"23"
+				"xpos"		"22"
 			}
 
 			"if_multiple_trains_top"
@@ -477,12 +477,12 @@
 
 			"if_multiple_trains_top"
 			{
-				"ypos"		"45"
+				"ypos"		"46"
 			}
 
 			"if_multiple_trains_bottom"
 			{
-				"ypos"		"82"
+				"ypos"		"83"
 			}
 		}
 
@@ -491,7 +491,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Blocked"
 			"xpos"			"22"
-			"ypos"			"53"
+			"ypos"			"52"
 			"xpos_minmode"			"35"
 			"ypos_minmode"			"79"
 			"zpos"			"2"
