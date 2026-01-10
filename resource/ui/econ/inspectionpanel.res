@@ -146,7 +146,7 @@
 
 		"consume_mode"
 		{
-			"xpos"			"cs-0.48"
+			"xpos"			"cs-0.47"
 			"ypos"			"r105"
 		}
 		
@@ -403,6 +403,7 @@
 
 			"consume_mode"
 			{
+				"xpos"			"76"
 				"ypos"			"25"
 			}
 
@@ -445,6 +446,7 @@
 
 			"consume_mode"
 			{
+				"xpos"			"7"
 				"ypos"			"25"
 				"labelText"		"#TF_ItemPreview_RedeemItem"
 			}
@@ -618,7 +620,7 @@
 
 			"consume_mode"
 			{
-				"xpos"		"c-192"
+				"xpos"		"c-193"
 				"ypos"		"r80"
 				"wide"		"234"
 			}
