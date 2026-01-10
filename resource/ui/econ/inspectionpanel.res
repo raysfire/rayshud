@@ -52,7 +52,7 @@
 	{
 		"fieldName"		"ModelInspectionPanel"
 		"xpos"			"cs-0.5"
-		"ypos"			"10"
+		"ypos"			"20"
 		"zpos"			"5"
 		"wide"			"o1.5"
 		"tall"			"p0.8"
@@ -146,7 +146,7 @@
 
 		"consume_mode"
 		{
-			"xpos"			"cs-0.48"
+			"xpos"			"cs-0.47"
 			"ypos"			"r105"
 		}
 		
@@ -227,10 +227,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PaintkitPreviewContainer"
-		"xpos"			"cs-0.5"
-		"ypos"			"p.68"
-		"wide"			"400"
-		"tall"			"100"
+		"xpos"			"cs0.6"
+		"ypos"			"p.2"
+		"wide"			"250"
+		"tall"			"190"
 		"zpos"			"100"
 		"visible"		"1"
 		"bgcolor_override"	"DarkerGrey"
@@ -251,7 +251,7 @@
 		}
 		"consume_mode"
 		{
-			"xpos"			"cs-0.31"
+			"xpos"			"cs-0.5"
 			"ypos"			"r110"
 			"bgcolor_override"	"Transparent"
 		}
@@ -403,6 +403,7 @@
 
 			"consume_mode"
 			{
+				"xpos"			"77"
 				"ypos"			"25"
 			}
 
@@ -523,8 +524,8 @@
 			"ControlName"	"Button"
 			"fieldName"		"NewSeedButton"
 			"font"			"HudFontMediumSmall"
-			"xpos"			"c57"
-			"ypos"			"35"
+			"xpos"			"8"
+			"ypos"			"125"
 
 			"fixed_item"
 			{
@@ -537,7 +538,7 @@
 			}
 
 			"zpos"			"10"
-			"wide"			"130"
+			"wide"			"234"
 			"tall"			"25"
 			"autoResize"	"0"
 			"visible"		"1"
@@ -563,8 +564,8 @@
 		{
 			"ControlName"	"TextEntry"
 			"fieldName"		"SeedTextEntry"
-			"xpos"			"255"
-			"ypos"			"10"
+			"xpos"			"8"
+			"ypos"			"95"
 
 			"fixed_item"
 			{
@@ -577,7 +578,7 @@
 			}
 
 			"zpos"			"10"
-			"wide"			"115"
+			"wide"			"234"
 			"tall"			"20"
 			"autoResize"	"0"
 			"visible"		"1"
@@ -603,8 +604,8 @@
 			"ControlName"	"CExButton"
 			"fieldName"		"MarketButton"
 			"font"			"HudFontMediumSmall"
-			"xpos"			"c57"
-			"ypos"			"65"
+			"xpos"			"8"
+			"ypos"			"155"
 
 			"fixed_item"
 			{
@@ -618,13 +619,11 @@
 
 			"consume_mode"
 			{
-				"xpos"		"c-192"
 				"ypos"		"r80"
-				"wide"		"234"
 			}
 
 			"zpos"			"100"
-			"wide"			"130"
+			"wide"			"234"
 			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"
@@ -650,8 +649,8 @@
 		"zpos"			"99"
 		"wide"			"30"
 		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"replay\thumbnails\raysfox\hmm"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
