@@ -245,7 +245,7 @@
 
 			if_mini
 			{
-				"xpos"			"-1"
+				"xpos"			"0"
 				"ypos"			"r35"
 			}
 		}
