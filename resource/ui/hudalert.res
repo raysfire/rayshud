@@ -1,4 +1,4 @@
-"Resource/UI/HudAlert.res"
+"resource/ui/hudalert.res"
 {
 	"HudAlertBG"
 	{
@@ -60,4 +60,5 @@
 		"image"			"../hud/ico_teambalance"
 		"scaleImage"	"1"
 	}
+
 }
