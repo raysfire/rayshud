@@ -16,7 +16,7 @@ Installation
 
 Be sure to back up your old hud folder first! You never know when something might break, and it's always best to be prepared.
 
-1. [Click here to download the latest version][download-link]. This will download `rayshud-master.zip`
+1. [Click here to download the latest version](https://github.com/raysfire/rayshud/archive/master.zip). This will download `rayshud-master.zip`
 2. Navigate to `C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom`
 3. Extract .zip file contents into the `custom` folder.
 4. Ensure that the final file structure resembles the following:
@@ -34,7 +34,7 @@ tf
 
 Help/Support
 --------
-If you find a bug, need help or have a suggestion, [open a support ticket on GitHub][issues-link] or [join the support Discord server][discord-link].
+If you find a bug, need help or have a suggestion, [open a support ticket on GitHub](https://github.com/raysfire/rayshud/issues/new) or [join the support Discord server](https://discord.gg/hTdtK9vBhE).
 
 Credits
 --------
@@ -44,14 +44,9 @@ Credits
 * Whoever makes PVHUD - Inspiration, occasional reference.
 * My team - For dealing with me and giving me constructive feedback all the time.
 * Flame - If it weren't for your guide, I couldn't have made this at all. Thanks a million, man.
-* clovervidia - For the updated closed captions. Check his Steam Guide [here][cc-link].
+* clovervidia - For the updated closed captions. Check his Steam Guide [here](https://steamcommunity.com/sharedfiles/filedetails/?id=167785751).
 * and YOU, for giving raysfire's HUD a shot. <3
 
 <a href="https://github.com/raysfire/rayshud/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=raysfire/rayshud" />
 </a>
-<!-- LINKS -->
-[download-link]: https://github.com/raysfire/rayshud/archive/master.zip
-[issues-link]: https://github.com/raysfire/rayshud/issues/new
-[discord-link]: https://discord.gg/hTdtK9vBhE
-[cc-link]: https://steamcommunity.com/sharedfiles/filedetails/?id=167785751
