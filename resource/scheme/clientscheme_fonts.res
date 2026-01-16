@@ -67,17 +67,6 @@ Scheme
 				"outline"		"1"
 			}
 		}
-		"Cerbetica24Shadow"
-		{
-			"1"
-			{
-				"name"			"Cerbetica-Bold"
-				"tall"			"24"
-				"additive"		"0"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
 		"Cerbetica22"
 		{
 			"1"
