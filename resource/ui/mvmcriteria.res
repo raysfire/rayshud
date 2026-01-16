@@ -176,7 +176,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"			"TourLootDetailLabel"
-			"font"				"FontRegular12"
+			"font"				"HudFontSmallest"
 			"labelText"			"%tour_loot_detail%"
 			"textAlignment"		"west"
 			"wrap"				"1"
@@ -317,7 +317,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"			"SquadSurplusCheckLabel"
-			"font"				"FontRegular12"
+			"font"				"HudFontSmallest"
 			"labelText"			"#TF_MvM_ActivateSquadSurplus"
 			"textAlignment"		"west"
 			"wrap"				"1"
@@ -422,7 +422,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"			"MissingTicketsLabel"
-			"font"				"FontRegular12"
+			"font"				"HudFontSmallest"
 			"fgcolor_override"	"TanDark"
 			"labelText"			"#TF_Matchmaking_CantQueue_NoTicket"
 			"textAlignment"		"south-west"
