@@ -232,6 +232,19 @@
 			"drawcolor"		"TanLight"
 			"scaleImage"	"1"
 		}
+
+		"SymbolIconAnchor"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"SymbolIconAnchor"
+			"xpos"			"-4"
+			"ypos"			"72"
+			"wide"			"8"
+			"tall"			"8"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		
 		"MoveableSymbolIcon"
 		{
 			"ControlName"	"ImagePanel"
@@ -246,6 +259,10 @@
 			"image"			"../hud/eng_sel_item_movable"
 			"drawcolor"		"TanLight"
 			"scaleImage"	"1"
+
+			"pin_to_sibling" 			"SymbolIconAnchor"
+			"pin_corner_to_sibling" 	"0"
+			"pin_to_sibling_corner" 	"1"
 		}
 
 		"MoveableKeyLabel"
