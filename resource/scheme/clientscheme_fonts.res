@@ -67,6 +67,17 @@ Scheme
 				"outline"		"1"
 			}
 		}
+		"Cerbetica24Shadow"
+		{
+			"1"
+			{
+				"name"			"Cerbetica-Bold"
+				"tall"			"24"
+				"additive"		"0"
+				"antialias"		"1"
+				"dropshadow"	"1"
+			}
+		}
 		"Cerbetica22"
 		{
 			"1"
@@ -135,6 +146,15 @@ Scheme
 				"tall"			"10"
 				"additive"		"0"
 				"antialias"		"1"
+			}
+		}
+		"Symbols 64"
+		{
+			"1"
+			{
+				"name"										"hypnotize_icons"
+				"tall"										"64"
+				"antialias"									"1"
 			}
 		}
 		
@@ -2769,5 +2789,10 @@ Scheme
 		"15"		"resource/linux_fonts/liberationsans-bold.ttf"
 		"16"		"resource/linux_fonts/liberationmono-regular.ttf"
 		"17"		"resource/linux_fonts/firasans-regular.ttf"
+		"18"
+		{
+			"font" 		"resource/fonts/hypnotize_icons.ttf"
+			"name" 		"hypnotize_icons"
+		}
 	}
 }
