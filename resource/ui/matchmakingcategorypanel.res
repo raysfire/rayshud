@@ -1,4 +1,4 @@
-"Resource/UI/MatchmakingCategoryPanel.res"
+"resource/ui/matchmakingcategorypanel.res"
 {
 	"MatchmakingCategoryPanel"
 	{
@@ -9,8 +9,9 @@
 		"tall"					"50"
 		"proportionaltoparent"	"1"
 
-		"collapsed_height"	"57"
-		"resize_time"	"0.2"
+		"collapsed_height"		"57"
+		"resize_time"			"0.2"
+	
 	}
 
 	"TopContainer"
@@ -60,36 +61,36 @@
 
 		"EntryToggleButton"
 		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"EntryToggleButton"
-			"xpos"			"0"
-			"ypos"			"rs1"
-			"zpos"			"100"
-			"wide"			"f0"
-			"tall"			"9"
+			"ControlName"			"CExImageButton"
+			"fieldName"				"EntryToggleButton"
+			"xpos"					"0"
+			"ypos"					"rs1"
+			"zpos"					"100"
+			"wide"					"f0"
+			"tall"					"15"
 			"proportionaltoparent"	"1"
 
-			"actionsignallevel"	"2"
-			"command"		"toggle_collapse"
-			"labeltext"		"#TF_Casual_ViewMaps"
-			"textAlignment"	"west"
-			"font"	"MMenuPlayListDesc"
-			"textinsetx"	"40"
+			"actionsignallevel"		"2"
+			"command"				"toggle_collapse"
+			"labeltext"				"#TF_Casual_ViewMaps"
+			"textAlignment"			"center"
+			"font"					"MMenuPlayListDesc"
+			"textinsetx"			"0"
 
 			"stay_armed_on_click"	"1"
 
-			"border_default"	"NoBorder"
-			"defaultBgColor_override"	"235 226 202 20"
+			"border_default"			"NoBorder"
+			"defaultBgColor_override"	"20 20 20 255"
 
-			"border_armed"		"NoBorder"
-			"armedBgColor_override"	"DarkCyanDim"
-			"selectedBGColor_override" "DarkCyan"
+			"border_armed"				"NoBorder"
+			"armedBgColor_override"		"55 55 55 255"
+			"selectedBGColor_override" 	"Orange"
 
-			"sound_armed"		"ui/item_info_mouseover.wav"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_armed"				"ui/item_info_mouseover.wav"
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
 
-			"image_default"	"glyph_expand"
+			"image_default"				"glyph_expand"
 
 			"button_activation_type"	"1"
 
@@ -97,7 +98,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"6"
+				"xpos"			"92"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
 				"wide"			"o1"
@@ -128,17 +129,17 @@
 		"Checkbutton"
 		{
 			"ControlName"		"CExCheckButton"
-			"fieldName"		"Checkbutton"
-			"xpos"		"r27"
-			"ypos"		"-1"
-			"zpos"		"3"
-			"wide"		"25"
-			"tall"		"20"
-			"proportionaltoparent"	"1"
-			"labeltext"		""
-			"smallcheckimage"	"1"
+			"fieldName"			"Checkbutton"
+			"xpos"				"c89"
+			"ypos"				"11"
+			"zpos"				"3"
+			"wide"				"25"
+			"tall"				"20"
+			"proportionaltoparent"		"1"
+			"labeltext"					""
+			"smallcheckimage"			"0"
 
-			"sound_depressed"	"UI/buttonclickrelease.wav"	
+			"sound_depressed"			"UI/buttonclickrelease.wav"	
 			"button_activation_type"	"1"
 		}
 
@@ -146,18 +147,18 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Title"
-			"xpos"			"rs1-24"
-			"ypos"			"2"
+			"xpos"			"rs1.1-8"
+			"ypos"			"12"
 			"zpos"			"3"
 			"wide"			"200"
-			"tall"			"15"
+			"tall"			"17"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%title_token%"
-			"textinsetx"	"5"
+			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallestBold"
-			"textAlignment"	"east"
+			"font"			"Cerbetica16"
+			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -171,18 +172,18 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleShadow"
-			"xpos"			"rs1-23"
-			"ypos"			"3"
+			"xpos"			"rs1.1-7"
+			"ypos"			"13"
 			"zpos"			"2"
 			"wide"			"200"
-			"tall"			"15"
+			"tall"			"17"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%title_token%"
-			"textinsetx"	"5"
+			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallestBold"
-			"textAlignment"	"east"
+			"font"			"Cerbetica16"
+			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -206,8 +207,8 @@
 			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 
 			"wrap"			"1"
 			"fgcolor_override" "TanLight"
@@ -229,8 +230,8 @@
 			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 
 			"wrap"			"1"
 			"fgcolor_override" "Black"
@@ -242,7 +243,7 @@
 	"PlayListDropShadow"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"PlaylistBGPanel"
+		"fieldName"		"PlayListDropShadow"
 		"xpos"			"cs-0.5"
 		"ypos"			"p1.17-2"
 		"zpos"			"1"
@@ -268,13 +269,13 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 
-		"border"		"InnerShadowBorder"
+		"border"				"InnerShadowBorder"
 
-		"pinCorner"		"2"
-		"autoResize"	"1"
+		"pinCorner"				"2"
+		"autoResize"			"1"
 
-		"skip_autoresize"	"1"
+		"skip_autoresize"		"1"
 
-		"bgcolor_override"	"0 0 0 150"
+		"bgcolor_override"		"0 0 0 150"
 	}
 }

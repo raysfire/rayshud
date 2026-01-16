@@ -9,7 +9,7 @@
 		"ypos"					"10"
 		"zpos"					"1002"
 		"wide"					"270"
-		"tall"					"f70"
+		"tall"					"f10"
 		"visible"				"1"
 		"proportionaltoparent"	"1"
 	}
@@ -111,7 +111,7 @@
 		"ControlName"			"CExButton"
 		"fieldName"				"QueueButton"
 		"xpos"					"cs-0.51"
-		"ypos"					"rs1-8"
+		"ypos"					"rs4-8"
 		"zpos"					"100"
 		"wide"					"f20"
 		"tall"					"20"
