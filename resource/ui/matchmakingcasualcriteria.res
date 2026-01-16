@@ -8,7 +8,7 @@
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"p0.98"
-		"tall"			"p1"
+		"tall"			"p0.84"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"
