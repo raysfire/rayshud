@@ -162,7 +162,7 @@
 		"labelText"			">>"
 		"textAlignment"		"west"
 		"xpos"				"c-290"
-		"ypos"				"12"
+		"ypos"				"15"
 		"zpos"				"1"
 		"wide"				"20"
 		"tall"				"16"
