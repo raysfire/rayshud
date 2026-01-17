@@ -58,6 +58,16 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+
+		"Symbols 64"
+		{
+			"1"
+			{
+				"name"			"hypnotize_icons"
+				"tall"			"64"
+				"antialias"		"1"
+			}
+		}
 	}
 
 	CustomFontFiles
@@ -66,6 +76,11 @@ Scheme
 		{
 			"font"	"resource/fonts/icons.ttf"
 			"name"	"TF2Icons"
+		}
+		"122"
+		{
+			"font" 	"resource/fonts/hypnotize_icons.ttf"
+			"name" 	"hypnotize_icons"
 		}
 	}
 }
