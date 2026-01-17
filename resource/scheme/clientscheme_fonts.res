@@ -137,15 +137,6 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Symbols 64"
-		{
-			"1"
-			{
-				"name"			"hypnotize_icons"
-				"tall"			"64"
-				"antialias"		"1"
-			}
-		}
 		
 		// DEFAULT
 		"Default"
@@ -2778,10 +2769,5 @@ Scheme
 		"15"		"resource/linux_fonts/liberationsans-bold.ttf"
 		"16"		"resource/linux_fonts/liberationmono-regular.ttf"
 		"17"		"resource/linux_fonts/firasans-regular.ttf"
-		"18"
-		{
-			"font" 	"resource/fonts/hypnotize_icons.ttf"
-			"name" 	"hypnotize_icons"
-		}
 	}
 }
