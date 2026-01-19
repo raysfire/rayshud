@@ -59,7 +59,7 @@ Scheme
 			}
 		}
 
-		"Symbols 64"
+		"Symbols64"
 		{
 			"1"
 			{
