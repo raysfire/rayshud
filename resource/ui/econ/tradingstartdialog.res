@@ -117,7 +117,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"0"
-	
+
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -135,7 +135,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"fgcolor_override" "HudOffWhite"
-		}	
+		}
 
 		"subbutton0"
 		{
@@ -152,7 +152,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"R"
-			"font"			"Symbols 64"
+			"font"			"Symbols64"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -167,6 +167,7 @@
 			"pin_corner_to_sibling" "PIN_TOPRIGHT"
 			"pin_to_sibling_corner" "PIN_TOPLEFT"
 		}
+
 		"sublabel0"
 		{
 			"ControlName"	"CExLabel"
@@ -192,6 +193,7 @@
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
+
 		"subbutton1"
 		{
 			"ControlName"	"CExButton"
@@ -207,7 +209,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"u"
-			"font"			"Symbols 64"
+			"font"			"Symbols64"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -218,6 +220,7 @@
 			
 			"paintbackground"	"0"
 		}
+
 		"sublabel1"
 		{
 			"ControlName"	"CExLabel"
@@ -243,6 +246,7 @@
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
+
 		"subbutton2"
 		{
 			"ControlName"	"CExButton"
@@ -258,7 +262,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"p"
-			"font"			"Symbols 64"
+			"font"			"Symbols64"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -273,6 +277,7 @@
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPRIGHT"
 		}
+		
 		"sublabel2"
 		{
 			"ControlName"	"CExLabel"

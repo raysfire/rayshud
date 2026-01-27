@@ -4,19 +4,19 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage	Alpha		"255"				Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage	Alpha		"0"					Linear 0.2 0.4
 
-	Animate	PlayerHealthValue			FgColor		"Health Buff"		Accel 0.0 0.0
-	Animate	TargetHealthValue			FgColor		"Health Buff"		Accel 0.0 0.0
+	Animate	PlayerHealthValue				FgColor		"Health Buff"		Accel 0.0 0.0
+	Animate	TargetHealthValue				FgColor		"Health Buff"		Accel 0.0 0.0
 
-	RunEvent HudHealthBonusPulseLoop	0.4
+	RunEvent HudHealthBonusPulseLoop		0.4
 }
 
 event HudHealthBonusPulseStop
 {
-	StopEvent HudHealthBonusPulse		0.0
-	StopEvent HudHealthBonusPulseLoop	0.0
+	StopEvent HudHealthBonusPulse			0.0
+	StopEvent HudHealthBonusPulseLoop		0.0
 
-	Animate	PlayerHealthValue			FgColor		"Health Normal"		Accel 0.0 0.0
-	Animate	TargetHealthValue			FgColor		"Health Normal"		Accel 0.0 0.0
+	Animate	PlayerHealthValue				FgColor		"Health Normal"		Accel 0.0 0.0
+	Animate	TargetHealthValue				FgColor		"Health Normal"		Accel 0.0 0.0
 }
 //==================================================================================
 
@@ -26,153 +26,153 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage	Alpha		"255"				Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage	Alpha		"0"					Linear 0.2 0.2
 
-	Animate	PlayerHealthValue			FgColor		"Health Hurt"		Accel 0.0 0.0
-	Animate	TargetHealthValue			FgColor		"Health Hurt"		Accel 0.0 0.0
+	Animate	PlayerHealthValue				FgColor		"Health Hurt"		Accel 0.0 0.0
+	Animate	TargetHealthValue				FgColor		"Health Hurt"		Accel 0.0 0.0
 
-	RunEvent HudHealthDyingPulseLoop	0.4
+	RunEvent HudHealthDyingPulseLoop		0.4
 }
 
 event HudHealthDyingPulseStop
 {
-	StopEvent HudHealthDyingPulse 		0.0
-	StopEvent HudHealthDyingPulseLoop 	0.0
+	StopEvent HudHealthDyingPulse 			0.0
+	StopEvent HudHealthDyingPulseLoop 		0.0
 
-	Animate PlayerHealthValue			FgColor		"Health Normal"		Accel 0.0 0.0
-	Animate TargetHealthValue			FgColor		"Health Normal"		Accel 0.0 0.0
+	Animate PlayerHealthValue				FgColor		"Health Normal"		Accel 0.0 0.0
+	Animate TargetHealthValue				FgColor		"Health Normal"		Accel 0.0 0.0
 }
 //==================================================================================
 
 // Low Ammo Pulse
 event HudLowAmmoPulse
 {
-	Animate	HudWeaponLowAmmoImage		Alpha		"255"				Linear 0.0	0.075
-	Animate	HudWeaponLowAmmoImage		Alpha		"0"					Linear 0.125 0.075
+	Animate	HudWeaponLowAmmoImage			Alpha		"255"					Linear 0.0	0.075
+	Animate	HudWeaponLowAmmoImage			Alpha		"0"						Linear 0.125 0.075
 
-	Animate	AmmoInClip					FgColor		"Ammo In Clip Low"		Linear 0.0 0.0
-	Animate	AmmoInReserve				FgColor		"Ammo In Reserve Low"	Linear 0.0 0.0
-	Animate	AmmoNoClip					FgColor		"Ammo In Clip Low"		Linear 0.0 0.0
+	Animate	AmmoInClip						FgColor		"Ammo In Clip Low"		Linear 0.0 0.0
+	Animate	AmmoInReserve					FgColor		"Ammo In Reserve Low"	Linear 0.0 0.0
+	Animate	AmmoNoClip						FgColor		"Ammo In Clip Low"		Linear 0.0 0.0
 
-	RunEvent HudLowAmmoPulseLoop		0.4
+	RunEvent HudLowAmmoPulseLoop			0.4
 }
 
 event HudLowAmmoPulseStop
 {
-	StopEvent HudLowAmmoPulse 			0.0
-	StopEvent HudLowAmmoPulseLoop 		0.0
+	StopEvent HudLowAmmoPulse 				0.0
+	StopEvent HudLowAmmoPulseLoop 			0.0
 
-	Animate AmmoInClip					FgColor		"Ammo In Clip"		Accel 0.0 0.0
-	Animate AmmoInReserve				FgColor		"Ammo In Reserve"	Accel 0.0 0.0
-	Animate AmmoNoClip					FgColor		"Ammo In Clip"		Accel 0.0 0.0
+	Animate AmmoInClip						FgColor		"Ammo In Clip"		Accel 0.0 0.0
+	Animate AmmoInReserve					FgColor		"Ammo In Reserve"	Accel 0.0 0.0
+	Animate AmmoNoClip						FgColor		"Ammo In Clip"		Accel 0.0 0.0
 }
 //==================================================================================
 
 // Ubercharge Meters
 event HudMedicCharged
 {
-	RunEvent HudMedicOrangePulseCharge 	0.0
-//	RunEvent HudMedicSolidColorCharge	0.0
-//	RunEvent HudMedicRainbowCharged 	0.0
+	RunEvent HudMedicOrangePulseCharge 		0.0
+//	RunEvent HudMedicSolidColorCharge		0.0
+//	RunEvent HudMedicRainbowCharged 		0.0
 
-	RunEvent HudMedicChargedLoop		0.6
+	RunEvent HudMedicChargedLoop			0.6
 }
 
 event HudMedicRainbowCharged
 {
-	Animate	ChargeLabel 				FgColor		"ColorGreen"		Linear 0.0 0.1
-	Animate	ChargeLabel 				FgColor		"ColorCyan"			Linear 0.1 0.1
-	Animate	ChargeLabel 				FgColor		"ColorBlue"			Linear 0.2 0.1
-	Animate	ChargeLabel 				FgColor		"ColorMagenta"		Linear 0.3 0.1
-	Animate	ChargeLabel 				FgColor		"ColorRed"			Linear 0.4 0.1
-	Animate	ChargeLabel 				FgColor		"ColorYellow"		Linear 0.5 0.1
+	Animate	ChargeLabel 					FgColor		"ColorGreen"		Linear 0.0 0.1
+	Animate	ChargeLabel 					FgColor		"ColorCyan"			Linear 0.1 0.1
+	Animate	ChargeLabel 					FgColor		"ColorBlue"			Linear 0.2 0.1
+	Animate	ChargeLabel 					FgColor		"ColorMagenta"		Linear 0.3 0.1
+	Animate	ChargeLabel 					FgColor		"ColorRed"			Linear 0.4 0.1
+	Animate	ChargeLabel 					FgColor		"ColorYellow"		Linear 0.5 0.1
 
-	Animate	ChargeMeter 				FgColor		"ColorGreen"		Linear 0.0 0.1
-	Animate	ChargeMeter 				FgColor		"ColorCyan"			Linear 0.1 0.1
-	Animate	ChargeMeter 				FgColor		"ColorBlue"			Linear 0.2 0.1
-	Animate	ChargeMeter 				FgColor		"ColorMagenta"		Linear 0.3 0.1
-	Animate	ChargeMeter 				FgColor		"ColorRed"			Linear 0.4 0.1
-	Animate	ChargeMeter 				FgColor		"ColorYellow"		Linear 0.5 0.1
+	Animate	ChargeMeter 					FgColor		"ColorGreen"		Linear 0.0 0.1
+	Animate	ChargeMeter 					FgColor		"ColorCyan"			Linear 0.1 0.1
+	Animate	ChargeMeter 					FgColor		"ColorBlue"			Linear 0.2 0.1
+	Animate	ChargeMeter 					FgColor		"ColorMagenta"		Linear 0.3 0.1
+	Animate	ChargeMeter 					FgColor		"ColorRed"			Linear 0.4 0.1
+	Animate	ChargeMeter 					FgColor		"ColorYellow"		Linear 0.5 0.1
 
-	RunEvent HudMedicChargedLoop		0.6
+	RunEvent HudMedicChargedLoop			0.6
 }
 
 event HudMedicSolidColorCharge
 {
-	Animate ChargeLabel					FgColor		"Solid Color Uber"	Linear 0.0 0.0
+	Animate ChargeLabel						FgColor		"Solid Color Uber"	Linear 0.0 0.0
 
-	Animate ChargeMeter					FgColor		"Solid Color Uber"	Linear 0.0 0.0
+	Animate ChargeMeter						FgColor		"Solid Color Uber"	Linear 0.0 0.0
 
-	RunEvent HudMedicChargedLoop		0.6
+	RunEvent HudMedicChargedLoop			0.6
 }
 
 event HudMedicOrangePulseCharge
 {
-	Animate	ChargeLabel 				FgColor		"Flashing Uber Color1"	Linear 0.0 0.1
-	Animate	ChargeLabel 				FgColor		"Flashing Uber Color2"	Linear 0.3 0.4
+	Animate	ChargeLabel 					FgColor		"Flashing Uber Color1"	Linear 0.0 0.1
+	Animate	ChargeLabel 					FgColor		"Flashing Uber Color2"	Linear 0.3 0.4
 
-	Animate	ChargeMeter 				FgColor		"Flashing Uber Color1"	Linear 0.0 0.1
-	Animate	ChargeMeter 				FgColor		"Flashing Uber Color2"	Linear 0.3 0.4
+	Animate	ChargeMeter 					FgColor		"Flashing Uber Color1"	Linear 0.0 0.1
+	Animate	ChargeMeter 					FgColor		"Flashing Uber Color2"	Linear 0.3 0.4
 
-	RunEvent HudMedicChargedLoop		0.6
+	RunEvent HudMedicChargedLoop			0.6
 }
 
 event HudMedicChargedStop
 {
-	StopEvent HudMedicCharged			0.0
-	StopEvent HudMedicRainbowCharged	0.0
-	StopEvent HudMedicSolidColorCharge	0.0
-	StopEvent HudMedicOrangePulseCharge	0.0
-	StopEvent HudMedicChargedLoop		0.0
+	StopEvent HudMedicCharged				0.0
+	StopEvent HudMedicRainbowCharged		0.0
+	StopEvent HudMedicSolidColorCharge		0.0
+	StopEvent HudMedicOrangePulseCharge		0.0
+	StopEvent HudMedicChargedLoop			0.0
 
-	Animate	ChargeMeter					FgColor		"Uber Bar Color"	Linear 0.0 0.0001
-	Animate	ChargeLabel 				FgColor		"Ammo In Clip"		Linear 0.0 0.0001
+	Animate	ChargeMeter						FgColor		"Uber Bar Color"	Linear 0.0 0.0001
+	Animate	ChargeLabel 					FgColor		"Ammo In Clip"		Linear 0.0 0.0001
 }
 //==================================================================================
 
 // Spy Disguise
 event HudSpyDisguiseFadeIn
 {
-	RunEvent HudSpyDisguiseChanged		0.0
-	Animate PlayerStatusSpyImage		Alpha		"255"				Linear 0.9	0.1
+	RunEvent HudSpyDisguiseChanged			0.0
+	Animate PlayerStatusSpyImage			Alpha		"255"				Linear 0.9	0.1
 }
 
 event HudSpyDisguiseFadeOut
 {
-	RunEvent HudSpyDisguiseChanged		0.0
-	Animate PlayerStatusSpyImage		Alpha		"0"					Linear 0.9	0.1
+	RunEvent HudSpyDisguiseChanged			0.0
+	Animate PlayerStatusSpyImage			Alpha		"0"					Linear 0.9	0.1
 }
 
 event HudSpyDisguiseChanged
 {
-	Animate	PlayerStatusSpyOutlineImage	Alpha		"200"				Linear 0.0 0.2
-	Animate	PlayerStatusSpyOutlineImage	Position	"r155 r185"			Linear 0.0 0.2
-	Animate	PlayerStatusSpyOutlineImage	Size		"150 150"			Linear 0.0 0.2
+	Animate	PlayerStatusSpyOutlineImage		Alpha		"200"				Linear 0.0 0.2
+	Animate	PlayerStatusSpyOutlineImage		Position	"r155 r185"			Linear 0.0 0.2
+	Animate	PlayerStatusSpyOutlineImage		Size		"150 150"			Linear 0.0 0.2
 	
-	RunEvent HudSpyDisguiseHide			0.7
+	RunEvent HudSpyDisguiseHide				0.7
 }
 
 event HudSpyDisguiseHide
 {
-	Animate PlayerStatusSpyOutlineImage	Position	"r185 r55"			Linear 0.0 0.2
-	Animate PlayerStatusSpyOutlineImage	Size		"55 55"				Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Position	"r185 r55"			Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"55 55"				Linear 0.0 0.2
 	
-	Animate PlayerStatusSpyOutlineImage	Alpha		"0"					Linear 0.2 0.1
+	Animate PlayerStatusSpyOutlineImage		Alpha		"0"					Linear 0.2 0.1
 }
 //==================================================================================
 
 event CompetitiveGame_RestoreChatWindow
 {
     // Fix stuck animations
-    RunEvent HudHealthDyingPulseStop 0.1
-    RunEvent HudHealthBonusPulseStop 0.1
-    RunEvent HudLowAmmoPulseStop 0.1
-    RunEvent HudMedicChargedStop 0.1
+    RunEvent HudHealthDyingPulseStop 		0.1
+    RunEvent HudHealthBonusPulseStop 		0.1
+    RunEvent HudLowAmmoPulseStop 			0.1
+    RunEvent HudMedicChargedStop 			0.1
 }
 //==================================================================================
 
 event TrainingHudBounce
 {
-	Animate ObjectiveStatusTraining		Position	"c-160 r167"		Linear 0 0
-	Animate ObjectiveStatusTraining		Position	"c-160 r107"		Bounce 0.0 2.0
+	Animate ObjectiveStatusTraining			Position	"c-160 r167"		Linear 0 0
+	Animate ObjectiveStatusTraining			Position	"c-160 r107"		Bounce 0.0 2.0
 }
 //==================================================================================
 
@@ -189,14 +189,14 @@ event TeamStatus_PlayerAlive
 
 event HudTournamentSetupPanelOpen
 {
-	Animate HudTournamentSetup	Position	"c-95 -70"	Linear 0.0 0.001
-	Animate HudTournamentSetup	Position	"c-95 70"	Spline 0.001 0.2
+	Animate HudTournamentSetup				Position	"c-95 -70"	Linear 0.0 0.001
+	Animate HudTournamentSetup				Position	"c-95 70"	Spline 0.001 0.2
 }
 
 event HudTournamentSetupPanelClose
 {
-	Animate HudTournamentSetup	Position	"c-95 70"	Linear 0.0 0.001
-	Animate HudTournamentSetup	Position	"c-95 -70"	Spline 0.001 0.2
+	Animate HudTournamentSetup				Position	"c-95 70"	Linear 0.0 0.001
+	Animate HudTournamentSetup				Position	"c-95 -70"	Spline 0.001 0.2
 }
 //==================================================================================
 
