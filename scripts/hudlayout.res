@@ -1103,7 +1103,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"c-45"
-		"ypos"				"r16"
+		"ypos"				"26"   
 		"zpos"				"0"
 		"wide"				"90"
 		"tall"				"15"
