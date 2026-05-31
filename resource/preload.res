@@ -1,5 +1,9 @@
 "resource/ui/mainmenuoverride.res"
 {
+	//---------------------
+	// Control Point Icons
+	//---------------------
+	
 	"CPIconBlu"
 	{
 		"ControlName"	"ImagePanel"
@@ -9,7 +13,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_blu"
 	}
-
 	"CPIconBluLocked"
 	{
 		"ControlName"	"ImagePanel"
@@ -28,7 +31,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_red"
 	}
-
 	"CPIconRedLocked"
 	{
 		"ControlName"	"ImagePanel"
@@ -38,7 +40,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_red_locked"
 	}
-
 	"CPIconNeutral"
 	{
 		"ControlName"	"ImagePanel"
@@ -48,7 +49,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_neutral"
 	}
-
 	"CPIconNeutralLocked"
 	{
 		"ControlName"	"ImagePanel"
@@ -58,7 +58,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_neutral_locked"
 	}
-
 	"CPIconWhite"
 	{
 		"ControlName"	"ImagePanel"
@@ -68,7 +67,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_white"
 	}
-
 	"CPIconBlu1"
 	{
 		"ControlName"	"ImagePanel"
@@ -78,7 +76,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_1_blu"
 	}
-
 	"CPIconBlu1Locked"
 	{
 		"ControlName"	"ImagePanel"
@@ -88,7 +85,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_1_blu_locked"
 	}
-
 	"CPIconRed1"
 	{
 		"ControlName"	"ImagePanel"
@@ -98,7 +94,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_1_red"
 	}
-
 	"CPIconRed1Locked"
 	{
 		"ControlName"	"ImagePanel"
@@ -108,7 +103,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_1_red_locked"
 	}
-
 	"CPIconNeutral1"
 	{
 		"ControlName"	"ImagePanel"
@@ -118,7 +112,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_1_neutral"
 	}
-
 	"CPIconNeutral1Locked"
 	{
 		"ControlName"	"ImagePanel"
@@ -128,7 +121,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_1_neutral_locked"
 	}
-
 	"CPIconBlu2"
 	{
 		"ControlName"	"ImagePanel"
@@ -138,7 +130,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_2_blu"
 	}
-
 	"CPIconBlu2Locked"
 	{
 		"ControlName"	"ImagePanel"
@@ -148,7 +139,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_2_blu_locked"
 	}
-
 	"CPIconRed2"
 	{
 		"ControlName"	"ImagePanel"
@@ -158,7 +148,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_2_red"
 	}
-
 	"CPIconRed2Locked"
 	{
 		"ControlName"	"ImagePanel"
@@ -168,7 +157,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_2_red_locked"
 	}
-
 	"CPIconNeutral2"
 	{
 		"ControlName"	"ImagePanel"
@@ -178,7 +166,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_2_neutral"
 	}
-
 	"CPIconNeutral2Locked"
 	{
 		"ControlName"	"ImagePanel"
@@ -188,7 +175,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_2_neutral_locked"
 	}
-
 	"CPIconBlu3"
 	{
 		"ControlName"	"ImagePanel"
@@ -198,7 +184,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_3_blu"
 	}
-
 	"CPIconBlu3Locked"
 	{
 		"ControlName"	"ImagePanel"
@@ -208,7 +193,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_3_blu_locked"
 	}
-
 	"CPIconRed3"
 	{
 		"ControlName"	"ImagePanel"
@@ -218,7 +202,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_3_red"
 	}
-
 	"CPIconRed3Locked"
 	{
 		"ControlName"	"ImagePanel"
@@ -228,7 +211,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_3_red_locked"
 	}
-
 	"CPIconNeutral3"
 	{
 		"ControlName"	"ImagePanel"
@@ -238,7 +220,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_3_neutral"
 	}
-
 	"CPIconNeutral3Locked"
 	{
 		"ControlName"	"ImagePanel"
@@ -248,7 +229,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_3_neutral_locked"
 	}
-
 	"CPIconBlu4"
 	{
 		"ControlName"	"ImagePanel"
@@ -258,7 +238,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_4_blu"
 	}
-
 	"CPIconBlu4Locked"
 	{
 		"ControlName"	"ImagePanel"
@@ -268,7 +247,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_4_blu_locked"
 	}
-
 	"CPIconRed4"
 	{
 		"ControlName"	"ImagePanel"
@@ -278,7 +256,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_4_red"
 	}
-
 	"CPIconRed4Locked"
 	{
 		"ControlName"	"ImagePanel"
@@ -288,7 +265,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_4_red_locked"
 	}
-
 	"CPIconNeutral4"
 	{
 		"ControlName"	"ImagePanel"
@@ -298,7 +274,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_4_neutral"
 	}
-
 	"CPIconNeutral4Locked"
 	{
 		"ControlName"	"ImagePanel"
@@ -308,7 +283,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_4_neutral_locked"
 	}
-
 		"CPIconBlu5"
 	{
 		"ControlName"	"ImagePanel"
@@ -318,7 +292,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_5_blu"
 	}
-
 	"CPIconBlu5Locked"
 	{
 		"ControlName"	"ImagePanel"
@@ -328,7 +301,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_5_blu_locked"
 	}
-
 	"CPIconRed5"
 	{
 		"ControlName"	"ImagePanel"
@@ -338,7 +310,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_5_red"
 	}
-
 	"CPIconRed5Locked"
 	{
 		"ControlName"	"ImagePanel"
@@ -348,7 +319,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_5_red_locked"
 	}
-
 	"CPIconNeutral5"
 	{
 		"ControlName"	"ImagePanel"
@@ -358,7 +328,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_5_neutral"
 	}
-
 	"CPIconNeutral5Locked"
 	{
 		"ControlName"	"ImagePanel"
@@ -368,7 +337,6 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_5_neutral_locked"
 	}
-
 	"CPIconA"
 	{
 		"ControlName"	"ImagePanel"
@@ -414,15 +382,11 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_e"
 	}
-	"MenuThumbMissing"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MenuThumbMissing"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../vgui/maps/menu_thumb_Missing"
-	}
+	
+	//---------------------
+	// Main Menu
+	//---------------------
+	
 	"MainMenuLogo"
 	{
 		"ControlName"	"ImagePanel"
@@ -430,7 +394,30 @@
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/main_menu_logo"
+		"image"			"replay/thumbnails/main_menu_logo"
+	}
+	
+	//---------------------
+	// Misc
+	//---------------------
+	
+	"MenuThumbMissing"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MenuThumbMissing"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"maps/menu_thumb_Missing"
+	}
+	"SelbyenPickup"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"SelbyenPickup"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/selbyen_pickup"
 	}
 	"TransparentImage"
 	{
@@ -439,15 +426,6 @@
 		"xpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/transparent"
-	}
-	"SelbyenPickup"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MainMenuLogo"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/selbyen_pickup"
+		"image"			"replay/thumbnails/transparent"
 	}
 }

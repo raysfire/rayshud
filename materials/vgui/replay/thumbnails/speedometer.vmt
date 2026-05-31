@@ -1,11 +1,12 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui/replay/thumbnails/numbers"
-	"$translucent" 1
-	"$vertexcolor" 1
-	"$no_fullbright" 1
-	"$ignorez" 1
-	"$speed" 0
+	"$basetexture"		"vgui/replay/thumbnails/numbers"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+	"$no_fullbright"	"1"
+	"$ignorez"			"1"
+	"$speed"			"0"
+	
 	Proxies {
 		PlayerSpeed {
 			scale 1
