@@ -231,10 +231,10 @@
 				"proportionaltoparent"	"1"
 			}
 
-			"respawntimeShadow"
+			"respawntimeshadow"
 			{
 				"ControlName"		"CExLabel"
-				"fieldName"			"respawntimeShadow"
+				"fieldName"			"respawntimeshadow"
 				"font"				"HudFontSmallest"
 				"xpos"				"-1"
 				"ypos"				"-2"
@@ -277,7 +277,7 @@
 	"topbar"
 	{
 		"ControlName"	"Panel"
-		"fieldName"		"TopBar"
+		"fieldName"		"topbar"
 		"visible"		"0"
 		"tall"			"0"
 	}

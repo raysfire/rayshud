@@ -74,7 +74,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#GameUI_CancelBold"
+		"labelText"				"#TF_Cancel_NoKey"
 		"font"					"HudFontMediumSmall"
 		"textAlignment"			"center"
 		"textinsetx"			"50"

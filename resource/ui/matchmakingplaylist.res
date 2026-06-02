@@ -21,7 +21,6 @@
 		"tall"					"60"
 		"wide"					"255"
 		"proportionaltoparent"	"1"
-		
 		"image_name"			"main_menu/main_menu_button_casual"
 		"button_token"			"#MMenu_PlayList_Casual_Button"
 		"button_command"		"play_casual"
@@ -38,7 +37,6 @@
 		"tall"					"60"
 		"wide"					"255"
 		"proportionaltoparent"	"1"
-		
 		"image_name"			"main_menu/main_menu_button_competitive"
 		"button_token"			"#MMenu_PlayList_Competitive_Button"
 		"button_command"		"play_competitive"
@@ -59,7 +57,6 @@
 		"tall"					"60"
 		"wide"					"255"
 		"proportionaltoparent"	"1"
-		
 		"image_name"			"main_menu/main_menu_button_mvm"
 		"button_token"			"#MMenu_PlayList_MvM_Button"
 		"button_command"		"play_mvm"
@@ -80,7 +77,6 @@
 		"tall"					"60"
 		"wide"					"255"
 		"proportionaltoparent"	"1"
-		
 		"image_name"			"main_menu/main_menu_button_community_server"
 		"button_token"			"#MMenu_PlayList_ServerBrowser_Button"
 		"button_command"		"play_community"

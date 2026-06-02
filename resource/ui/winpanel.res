@@ -288,7 +288,7 @@
 	"TopPlayersLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"TopPlayerLabel"
+		"fieldName"		"TopPlayersLabel"
 		"font"			"ScoreboardVerySmall"
 		"xpos"			"15"
 		"ypos"			"100"

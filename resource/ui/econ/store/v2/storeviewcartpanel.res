@@ -165,7 +165,6 @@
 		"image"			"loadout_header"
 		"tileImage"		"1"
 	}
-
 	"BackgroundHeader2"
 	{
 		"ControlName"	"ImagePanel"
@@ -195,7 +194,6 @@
 		"image"			"loadout_header"
 		"tileImage"		"1"
 	}
-
 	"BackgroundFooter2"
 	{
 		"ControlName"	"ImagePanel"

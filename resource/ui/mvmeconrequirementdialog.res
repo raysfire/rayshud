@@ -88,7 +88,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#GameUI_OK"
+		"labelText"				"#TF_OK"
 		"font"					"HudFontMediumSmall"
 		"textAlignment"			"center"
 		"textinsetx"			"50"

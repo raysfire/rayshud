@@ -62,11 +62,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"zpos"			"-1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
 		"bgcolor_override"	"HudBlack"
 	}
 
@@ -117,10 +112,6 @@
 			"zpos"			"-8"
 			"wide"			"480"
 			"tall"			"310"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			"fillcolor"		"HudBlack"
 		}
 		"BetweenBG"
@@ -132,10 +123,6 @@
 			"zpos"			"-8"
 			"wide"			"480"
 			"tall"			"38"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			"fillcolor"		"DarkGrey"
 		}
 
@@ -154,10 +141,6 @@
 			"zpos"			"-1"
 			"wide"			"480"
 			"tall"			"2"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
 
 			"PaintBackgroundType" "0"
 			"bgcolor_override"	"TanLight"
@@ -199,7 +182,7 @@
 		"RightBorder"
 		{
 			"ControlName"	"Panel"
-			"fieldName"		"LeftBorder"
+			"fieldName"		"RightBorder"
 			"xpos"			"485"
 			"ypos"			"50"
 			"zpos"			"-1"
@@ -225,7 +208,7 @@
 			"tall"			"220"
 			"visible"		"0"
 			"PaintBackgroundType"	"0"
-			"border"			"DarkGrey"
+			"border"			"NoBorder"
 			"bgcolor_override"	"DarkerGrey"
 		}
 
@@ -282,9 +265,7 @@
 			"zpos"			"-2"
 			"visible"		"1"
 			"enabled"		"1"
-
 			"scaleImage"	"1"
-
 			"image"			"../hud/eng_build_sentry"
 		}
 

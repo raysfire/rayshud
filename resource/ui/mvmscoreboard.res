@@ -32,19 +32,8 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"			"PlayerListBackground"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"0"
-		"wide"				"0"
-		"tall"				"0"
 		"visible"			"0"
 		"enabled"			"0"
-		"image"				"../hud/tournament_panel_brown"
-		"scaleImage"		"0"
-		"src_corner_height"		"0"
-		"src_corner_width"		"0"
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"
 	}
 
 	"PlayerListBG"
@@ -93,20 +82,9 @@
 		{
 			"ControlName"	"ScalableImagePanel"
 			"fieldName"		"CreditStatsBackground"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
 			"wide"			"0"
-			"tall"			"0"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"image"			"../HUD/tournament_panel_brown"
-			"src_corner_height"		"0"
-			"src_corner_width"		"0"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
 		}
 		"CreditStatsBG"
 		{
@@ -117,8 +95,6 @@
 			"zpos"			"-1"
 			"wide"			"335"
 			"tall"			"115"
-			"visible"		"1"
-			"enabled"		"1"
 			"bgcolor_override"		"TransparentBlack"
 			"PaintBackgroundType"	"2"
 		}
@@ -144,20 +120,6 @@
 			"ypos"			"30"
 			"wide"			"184"
 			"tall"			"60"
-			"wide"			"200"
-			"visible"		"1"
-		}
-
-		"TotalGameCreditInfoPanel"
-		{
-			"ControlName"	"CCreditDisplayPanel"
-			"fieldName"		"TotalGameCreditInfoPanel"
-			"xpos"			"208"
-			"ypos"			"30"
-			"wide"			"184"
-			"tall"			"60"
-			"wide"			"200"
-			"visible"		"1"
 		}
 
 		"PreviousWaveCreditSpendPanel"
@@ -168,8 +130,6 @@
 			"ypos"			"75"
 			"wide"			"184"
 			"tall"			"60"
-			"wide"			"200"
-			"visible"		"1"
 		}
 
 		"TotalGameCreditSpendPanel"
@@ -180,8 +140,16 @@
 			"ypos"			"75"
 			"wide"			"184"
 			"tall"			"60"
-			"wide"			"200"
-			"visible"		"1"
+		}
+
+		"TotalGameCreditInfoPanel"
+		{
+			"ControlName"	"CCreditDisplayPanel"
+			"fieldName"		"TotalGameCreditInfoPanel"
+			"xpos"			"208"
+			"ypos"			"30"
+			"wide"			"184"
+			"tall"			"60"
 		}
 
 		"RespecStatusLabel"

@@ -128,17 +128,17 @@
 
 				if_mvm
 				{
-					"image"		"../vgui/hud_connecting"
+					"image"		"hud_connecting"
 				}
 
 				if_competitive
 				{
-					"image"		"../vgui/hud_connecting"
+					"image"		"hud_connecting"
 				}
 
 				if_readymode
 				{
-					"image"		"../vgui/hud_connecting"
+					"image"		"hud_connecting"
 				}
 			}
 

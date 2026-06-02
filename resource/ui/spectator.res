@@ -19,7 +19,7 @@
 	"topbar"
 	{
 		"ControlName"	"Panel"
-		"fieldName"		"TopBar"
+		"fieldName"		"topbar"
 		"xpos"			"0"
 		"ypos"			"0"
 		"tall"			"0"

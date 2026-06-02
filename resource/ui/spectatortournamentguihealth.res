@@ -52,7 +52,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"Cerbetica16"
-		"fgcolor"		"Spec Health Normal"
+		"fgcolor"		"Health Normal"
 	}
 
 	"SpecHealthValueShadow"

@@ -45,7 +45,6 @@
 		"image"			"loadout_header"
 		"tileImage"		"1"
 	}
-
 	"BackgroundHeader2"
 	{
 		"ControlName"	"ImagePanel"

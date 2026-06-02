@@ -20,7 +20,7 @@
 	"TournamentSetupLabel"
 	{
 		"ControlName"	"Label"
-		"fieldName"		"TournamentLabel"
+		"fieldName"		"TournamentSetupLabel"
 		"font"			"HudFontSmall"
 		"xpos"			"30"
 		"ypos"			"0"

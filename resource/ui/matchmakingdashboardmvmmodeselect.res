@@ -70,7 +70,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"mouseinputenabled" 	"0"
-			"image"					"replay/thumbnails/mvm/mannup"
+			"image"					"mvm/mannup"
 			"scaleImage"			"1"
 			"proportionaltoparent"	"1"
 		}
@@ -194,7 +194,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"mouseinputenabled" 	"0"
-			"image"					"replay/thumbnails/mvm/bootcamp"
+			"image"					"mvm/bootcamp"
 			"scaleImage"			"1"
 			"proportionaltoparent"	"1"
 		}

@@ -947,6 +947,28 @@
 			"command"		"UpdateBodygroup"
 			"border"		"NoBorder"
 		}
+
+		"Bodygroup9"
+		{
+			"ControlName"	"CheckButton"
+			"fieldName"		"Bodygroup9"
+			"labelText"		""
+			"Font"			"HudFontSmall"
+			"textAlignment"	"west"
+			"xpos"			"4"
+			"ypos"			"194"
+			"wide"			"150"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"0"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"disabledfgcolor2_override"	"TanDark"
+			"command"		"UpdateBodygroup"
+			"border"		"NoBorder"
+		}
 	}
 
 	"LODsPanel"
@@ -2134,7 +2156,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"#TF_VR_Close"
+		"labelText"			"#TF_Close"
 		"font"				"HudFontMediumSmall"
 		"textAlignment"		"center"
 		"textinsetx"		"50"

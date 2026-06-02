@@ -90,6 +90,7 @@
 		"fieldName"			"StartButton"
 		"xpos"				"0"
 		"ypos"				"0"
+		"zpos"				"100"
 		"wide"				"225"
 		"tall"				"205"
 		"autoResize"		"0"
@@ -105,7 +106,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"Command"			"%startcommand%"
-		"sound_armed"		"UI/buttonclick.wav"
+		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 }

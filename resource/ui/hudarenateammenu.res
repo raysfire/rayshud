@@ -90,7 +90,7 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"1"
+		"tabPosition"	"3"
 		"labelText"		"#TF_Arena_Menu_Fight"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -130,7 +130,7 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"2"
+		"tabPosition"	"3"
 		"labelText"		"#TF_Spectate"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -211,5 +211,29 @@
 		"ControlName"	"CModelPanel"
 		"fieldName"		"spectate"
 		"xpos"			"9999"
+	}
+
+	"teambutton0SC"
+	{
+		"ControlName"		"CExButton"
+		"fieldName"			"teambutton0SC"
+		"wide"				"0"
+		"tall"				"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"&1"
+		"command"			"jointeam spectate"
+	}
+
+	"teambutton1SC"
+	{
+		"ControlName"		"CExButton"
+		"fieldName"			"teambutton1SC"
+		"wide"				"0"
+		"tall"				"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"&2"
+		"command"			"jointeam spectatearena"
 	}
 }

@@ -9,15 +9,11 @@
 		"zpos"				"3"
 		"wide"				"120"
 		"tall"				"8"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"0"
 		"visible_minmode"	"0"
 		"labelText"			"#TF_Charge"
 		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
 		"font"				"ItemFontAttribSmall"
 	}
 	

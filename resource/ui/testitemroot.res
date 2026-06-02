@@ -690,7 +690,7 @@
 		"BotsOnBlueTeamCheckBox"
 		{
 			"ControlName"	"CheckButton"
-			"fieldName"		"AutoAddBotsCheckBox"
+			"fieldName"		"BotsOnBlueTeamCheckBox"
 			"labelText"		"#IT_Bot_BlueTeam"
 			"Font"			"HudFontSmallest"
 			"textAlignment"	"west"

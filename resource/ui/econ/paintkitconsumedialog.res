@@ -56,9 +56,9 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
-		"proportionaltoparent"	"1"
 		"border"		"CyanBorderThick"
 		"bgcolor_override"	"DarkGrey"
+		"proportionaltoparent"	"1"
 	}
 
 	"Shade"
@@ -71,9 +71,9 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"0"
-		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
 		"bgcolor_override"	"0 0 0 150"
+		"proportionaltoparent"	"1"
 	}
 
 	"RedeemingPanel"
@@ -85,24 +85,24 @@
 		"zpos"			"101"
 		"wide"			"250"
 		"tall"			"150"
-		"proportionaltoparent"	"1"
 		"visible"		"0"
 		"border"		"CyanBorderThick"
 		"bgcolor_override"	"DarkGrey"
+		"proportionaltoparent"	"1"
 
 		"CTFLogoPanel"
 		{
-			"fieldName"		"WorkingLogo"
+			"fieldName"		"CTFLogoPanel"
 			"controlname"	"CTFLogoPanel"
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5-15"
 			"zpos"			"1"
 			"wide"			"100"
 			"tall"			"o1"
-			"proportionaltoparent"	"1"
 			"velocity"		"200"
 			"radius"		"30"
 			"fgcolor_override"	"TanDark"
+			"proportionaltoparent"	"1"
 		}
 
 		"WorkingText"
@@ -132,10 +132,10 @@
 		"zpos"			"101"
 		"wide"			"250"
 		"tall"			"150"
-		"proportionaltoparent"	"1"
 		"visible"		"0"
 		"border"		"CyanBorderThick"
 		"bgcolor_override"	"DarkGrey"
+		"proportionaltoparent"	"1"
 
 		"CTFLogoPanel"
 		{
@@ -146,10 +146,10 @@
 			"zpos"			"1"
 			"wide"			"100"
 			"tall"			"o1"
-			"proportionaltoparent"	"1"
 			"velocity"		"0"
 			"radius"		"30"
 			"fgcolor_override"	"CreditsGreen"
+			"proportionaltoparent"	"1"
 		}
 
 		"SuccessText"
@@ -179,24 +179,24 @@
 		"zpos"			"101"
 		"wide"			"250"
 		"tall"			"150"
-		"proportionaltoparent"	"1"
 		"visible"		"0"
 		"border"		"CyanBorderThick"
 		"bgcolor_override"	"DarkGrey"
+		"proportionaltoparent"	"1"
 
 		"CTFLogoPanel"
 		{
-			"fieldName"		"FailureLogo"
+			"fieldName"		"CTFLogoPanel"
 			"controlname"	"CTFLogoPanel"
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5-15"
 			"zpos"			"1"
 			"wide"			"100"
 			"tall"			"o1"
-			"proportionaltoparent"	"1"
 			"velocity"		"0"
 			"radius"		"30"
 			"fgcolor_override"	"RedSolid"
+			"proportionaltoparent"	"1"
 		}
 
 		"FailureText"
@@ -213,8 +213,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "RedSolid"
-			"proportionaltoparent"	"1"
 			"centerwrap"	"1"
+			"proportionaltoparent"	"1"
 		}
 	}
 
@@ -243,7 +243,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#GameUI_CancelBold"
+		"labelText"		"#TF_Cancel_NoKey"
 		"font"			"HudFontMediumSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"

@@ -62,7 +62,7 @@
 			"visible"		"0"
 			"enabled"		"0"
 			"paintborder"	"1"
-			"border"		"PanelBorder"
+			"border"		"NoBorder"
 			"bgcolor_override"	"Grey"
 		}
 	}
@@ -452,7 +452,7 @@
 		"fieldName"		"PaintNameLabel"
 		"font"			"FontStorePrice"
 		"labelText"		"#Store_NoPaint"
-		"textAlignment"	"left"
+		"textAlignment"	"west"
 		"xpos"			"132"
 		"ypos"			"168"
 		"wide"			"110"
@@ -471,7 +471,7 @@
 		"fieldName"		"StyleNameLabel"
 		"font"			"FontStorePrice"
 		"labelText"		"None"
-		"textAlignment"	"left"
+		"textAlignment"	"west"
 		"xpos"			"132"
 		"ypos"			"148"
 		"wide"			"110"

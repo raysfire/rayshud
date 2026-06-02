@@ -58,7 +58,6 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"CantBuildReason"
 		"font"				"HudFontSmall"
-		"fgcolor"			"ColorRed"
 		"xpos"				"0"
 		"ypos"				"60"
 		"zpos"				"2"
@@ -70,6 +69,7 @@
 		"enabled"			"1"
 		"labelText"			"#Hud_Menu_Build_Unavailable"
 		"textAlignment"		"center"
+		"fgcolor"			"ColorRed"
 	}
 
 	"MetalIcon"
@@ -104,7 +104,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%metal%"
-		"textAlignment"		"Left"
+		"textAlignment"		"west"
 	}
 
 	"CostLabelShadow"
@@ -123,7 +123,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%metal%"
-		"textAlignment"		"Left"
+		"textAlignment"		"west"
 
 		"pin_to_sibling"		"CostLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"

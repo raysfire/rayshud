@@ -214,7 +214,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"DarkRedTeamBorder"
+			"border"		"NoBorder"
 			"bgcolor_override"	"Red"
 		}
 

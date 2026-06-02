@@ -1,4 +1,4 @@
-"resource/ui/build_menu/base.res"
+"resource/ui/build_menu/base_active.res"
 {
 	"ItemNameLabel"
 	{
@@ -84,7 +84,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%metal%"
-		"textAlignment"		"Left"
+		"textAlignment"		"west"
 	}
 
 	"CostLabelShadow"
@@ -103,7 +103,7 @@
 		"visible"			"0"
 		"enabled"			"0"
 		"labelText"			"%metal%"
-		"textAlignment"		"Left"
+		"textAlignment"		"west"
 
 		"pin_to_sibling"		"CostLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"

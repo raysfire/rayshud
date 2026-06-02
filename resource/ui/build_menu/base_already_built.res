@@ -90,7 +90,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%metal%"
-		"textAlignment"		"Left"
+		"textAlignment"		"west"
 	}
 
 	"NumberBg"

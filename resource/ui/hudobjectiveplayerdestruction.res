@@ -272,7 +272,7 @@
 				"enabled"			"1"
 				"textAlignment"		"west"
 				"labelText"			"%blue_escrow%"
-				"font"				"FontBold12"
+				"font"				"Cerbetica12"
 				"fgcolor"			"TanLight"
 				"proportionalToParent"	"1"
 			}
@@ -290,7 +290,7 @@
 				"enabled"			"1"
 				"textAlignment"		"west"
 				"labelText"			"%blue_escrow%"
-				"font"				"FontBold12"
+				"font"				"Cerbetica12"
 				"fgcolor"			"TransparentBlack"
 				"proportionalToParent"	"1"
 				"pin_to_sibling"		"EscrowBlue"
@@ -325,7 +325,7 @@
 				"enabled"			"1"
 				"textAlignment"		"east"
 				"labelText"			"%red_escrow%"
-				"font"				"FontBold12"
+				"font"				"Cerbetica12"
 				"fgcolor"			"TanLight"
 				"proportionalToParent"	"1"
 			}
@@ -343,7 +343,7 @@
 				"enabled"			"1"
 				"textAlignment"		"east"
 				"labelText"			"%red_escrow%"
-				"font"				"FontBold12"
+				"font"				"Cerbetica12"
 				"fgcolor"			"TransparentBlack"
 				"proportionalToParent"	"1"
 				"pin_to_sibling"		"EscrowRed"
@@ -575,7 +575,6 @@
 					"font"				"HudFontSmallBold"
 					"fgcolor"			"TransparentBlack"
 					"proportionalToParent"	"1"
-
 					"pin_to_sibling"			"VictoryLabel"
 					"pin_corner_to_sibling"		"7"
 					"pin_to_sibling_corner"		"5"

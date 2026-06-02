@@ -1,4 +1,4 @@
-#base "huditemeffectmeter_demoman.res"
+"#base" "huditemeffectmeter_demoman.res"
 
 "resource/ui/huditemeffectmeter_killstreak.res"
 {

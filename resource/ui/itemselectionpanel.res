@@ -108,6 +108,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "ColorPurple"
 	}
+	
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -187,7 +188,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemSlotLabel"
 		"font"			"HudFontMedium"
-		"labelText"		"#PrimaryWeapon"
+		"labelText"		"#LoadoutSlot_Primary"
 		"textAlignment"	"center"
 		"xpos"			"c-185"
 		"ypos"			"24"

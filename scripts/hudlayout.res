@@ -991,8 +991,8 @@
 		"ypos"				"c-72"
 		"xpos_minmode"		"c130"
 		"zpos"				"1"
-		"wide"				"100"
-		"tall"				"190"
+		"wide"				"f0"
+		"tall"				"f0"
 		"PaintBackgroundType"	"0"
 	}
 

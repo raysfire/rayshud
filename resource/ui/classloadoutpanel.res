@@ -303,64 +303,6 @@
 		"xpos"				"9999"
 	}
 
-	"RedButton"
-	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"RedButton"
-		"xpos"				"c-166"
-		"ypos"				"c-126"
-		"zpos"				"12"
-		"wide"				"25"
-		"tall"				"25"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"R"
-		"textAlignment"		"center"
-		"font"				"Cerbetica24"
-		"scaleImage"		"1"
-		"command"			"sv_cheats 1;r_skin 0"
-		"paintbackground"	"1"
-
-		"defaultFgColor_override"	"RedSolid"
-		"armedFgColor_override"		"Red"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
-	}
-
-	"BlueButton"
-	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"BlueButton"
-		"xpos"				"c-166"
-		"ypos"				"c-99"
-		"zpos"				"12"
-		"wide"				"25"
-		"tall"				"25"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"B"
-		"textAlignment"		"center"
-		"font"				"Cerbetica24"
-		"scaleImage"		"1"
-		"command"			"sv_cheats 1;r_skin 1"
-		"paintbackground"	"1"
-
-		"defaultFgColor_override"	"BlueSolid"
-		"armedFgColor_override"		"Blue"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
-	}
-
 	"CharacterLoadoutButton"
 	{
 		"ControlName"		"CExImageButton"
@@ -424,11 +366,69 @@
 		"defaultBgColor_override"		"ColorCyan"
 		"depressedBgColor_override" 	"ColorCyan"
 	}
-
+	
 	"TauntsExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
 		"fieldName"		"TauntsExplanation"
 		"xpos"			"9999"
+	}
+	
+	"RedButton"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"RedButton"
+		"xpos"				"c-166"
+		"ypos"				"c-126"
+		"zpos"				"12"
+		"wide"				"25"
+		"tall"				"25"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"R"
+		"textAlignment"		"center"
+		"font"				"Cerbetica24"
+		"scaleImage"		"1"
+		"command"			"sv_cheats 1;r_skin 0"
+		"paintbackground"	"1"
+
+		"defaultFgColor_override"	"RedSolid"
+		"armedFgColor_override"		"Red"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"UI/buttonrollover.wav"
+	}
+
+	"BlueButton"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"BlueButton"
+		"xpos"				"c-166"
+		"ypos"				"c-99"
+		"zpos"				"12"
+		"wide"				"25"
+		"tall"				"25"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"B"
+		"textAlignment"		"center"
+		"font"				"Cerbetica24"
+		"scaleImage"		"1"
+		"command"			"sv_cheats 1;r_skin 1"
+		"paintbackground"	"1"
+
+		"defaultFgColor_override"	"BlueSolid"
+		"armedFgColor_override"		"Blue"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"UI/buttonrollover.wav"
 	}
 }

@@ -540,7 +540,7 @@
 		"TauntLabel"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"CaseLabel"
+			"fieldName"		"TauntLabel"
 			"font"			"HudFontMedium"
 			"labelText"		"#Store_Taunt_Label"
 			"textAlignment"	"west"

@@ -3,7 +3,7 @@
 	"scores"
 	{
 		"ControlName"	"CTFClientScoreBoardDialog"
-		"fieldName"	"scoreinfo"
+		"fieldName"	"scores"
 		"xpos"	"c-300"
 		"ypos"	"0"
 		"wide"	"f0"
@@ -273,7 +273,7 @@
 	"MapName"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"	"mapname"
+		"fieldName"	"MapName"
 		"font"	"HudFontMediumSmallBold"
 		"labelText"	"%mapname%"
 		"textAlignment"	"west"

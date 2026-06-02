@@ -46,7 +46,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"&A"
-		"font"				"CustomIcons"
+		"font"				"MenuArrows"
 		"textAlignment"		"center"
 		"textinsetx"		"0"
 		"dulltext"			"0"

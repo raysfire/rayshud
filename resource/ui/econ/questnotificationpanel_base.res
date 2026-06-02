@@ -24,7 +24,7 @@
 			"visible"				"1"
 			"proportionaltoparent"	"1"
 			"border"				"NoBorder"	//QuestStatusBorder
-			"paintborder"			"2"
+			"paintborder"			"0"
 
 			"ItemName"
 			{

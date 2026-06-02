@@ -181,7 +181,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"StatsAndMedals"
 				"font"			"MatchSummaryStatsAndMedals"
-				"labelText"		"#TF_StatsAndMedals"
+				"labelText"		"#TF_CompSummary_StatsAndMedals"
 				"textAlignment"	"center"
 				"xpos"			"0"
 				"ypos"			"0"
@@ -199,7 +199,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"StatsAndMedalsShadow"
 				"font"			"MatchSummaryStatsAndMedals"
-				"labelText"		"#TF_StatsAndMedals"
+				"labelText"		"#TF_CompSummary_StatsAndMedals"
 				"fgcolor"		"TransparentBlack"
 				"textAlignment"	"center"
 				"xpos"			"-1"
@@ -252,7 +252,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"border"		"DarkBlueTeamBorder"
+					"border"		"NoBorder"
 					"bgcolor_override"	"Blue"
 
 					if_large
@@ -523,7 +523,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"border"		"DarkRedTeamBorder"
+					"border"		"NoBorder"
 					"bgcolor_override"	"Red"
 
 					if_large

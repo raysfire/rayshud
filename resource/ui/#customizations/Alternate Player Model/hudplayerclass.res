@@ -77,7 +77,7 @@
 		"tall_minmode"	"27"
 		"visible"	"0"
 		"enabled"	"1"
-		"image"	"../vgui/replay/thumbnails/transparent"
+		"image"	"replay/thumbnails/transparent"
 		"scaleImage"	"1"
 	}
 	"PlayerStatusClassImageBG"

@@ -63,7 +63,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"0"
-			"border"		"PanelBorder"
+			"border"		"NoBorder"
 			"bgcolor_override"	"Grey"
 		}
 	

@@ -23,8 +23,8 @@
 		"wide"			"36"
 		"tall"			"36"
 		"visible"		"1"
-		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"117 107 94 255"
+		"PaintBackgroundType"	"2"
 	}
 
 	"AvatarImage"
@@ -59,7 +59,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"%avatartext%"
-		"textAlignment"	"West"
+		"textAlignment"	"west"
 		"font"			"HudFontSmallest"
 	}
 
@@ -79,7 +79,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"%text%"
-		"textAlignment"	"West"
+		"textAlignment"	"west"
 		"font"			"HudFontSmallest"
 	}
 }

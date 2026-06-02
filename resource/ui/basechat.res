@@ -14,7 +14,7 @@
 		"bgcolor_override"		"0 0 0 255"
 	}
 
-	ChatInputLine
+	"ChatInputLine"
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"ChatInputLine"
@@ -40,7 +40,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#chat_filterbutton"
+		"labelText"				"#ToolCustomizeTextureFilter"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"

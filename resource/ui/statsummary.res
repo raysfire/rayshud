@@ -118,6 +118,7 @@
 		"fieldName"		"TipImage"
 		"xpos"			"9999"
 	}
+	
 	"TipText"
 	{
 		"ControlName"	"Label"

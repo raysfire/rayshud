@@ -284,6 +284,7 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"			"NameFilterTextEntry"
+		"font"				"HudFontSmallest"
 		"xpos"				"c155"
 		"ypos"				"17"
 		"wide"				"130"
@@ -299,7 +300,6 @@
 		"fgcolor_override"	"DarkerGrey"
 		"bgcolor_override"	"TanLight"
 		"paintbackgroundtype" "2"
-		"font"				"HudFontSmallest"
 	}
 
 	"SortByComboBox"
@@ -393,6 +393,7 @@
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
+			"inventory_image_type"	"1"
 		}
 	}
 
@@ -486,7 +487,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"Command"		""
+		"Command"		"nextpage"
 		"paintbackground"	"0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -511,7 +512,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"Command"		""
+		"Command"		"prevpage"
 		"paintbackground"	"0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

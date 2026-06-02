@@ -319,7 +319,7 @@
 	"TopPlayersLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"TopPlayerLabel"
+		"fieldName"		"TopPlayersLabel"
 		"font"			"Default"
 		"xpos"			"50"
 		"ypos"			"64"
@@ -359,7 +359,7 @@
 	"HealingThisRoundLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PointsThisRoundLabel"
+		"fieldName"		"HealingThisRoundLabel"
 		"font"			"Default"
 		"xpos"			"315"
 		"ypos"			"64"
@@ -379,7 +379,7 @@
 	"LifetimeThisRoundLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PointsThisRoundLabel"
+		"fieldName"		"LifetimeThisRoundLabel"
 		"font"			"Default"
 		"xpos"			"360"
 		"ypos"			"64"
@@ -399,7 +399,7 @@
 	"KillingBlowsThisRoundLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PointsThisRoundLabel"
+		"fieldName"		"KillingBlowsThisRoundLabel"
 		"font"			"Default"
 		"xpos"			"400"
 		"ypos"			"64"
@@ -794,6 +794,7 @@
 			"brighttext"	"0"
 		}
 	}
+	
 	"ArenaWinPanelLosersPanel"
 	{
 		"ControlName"	"EditablePanel"

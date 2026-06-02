@@ -190,7 +190,7 @@
 		"tall"			"46"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/main_menu_logo"
+		"image"			"replay/thumbnails/main_menu_logo"
 		"scaleImage"	"1"
 	}
 	
@@ -357,7 +357,7 @@
 		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay\thumbnails\raysfox\shock"
+		"image"			"replay/thumbnails/raysfox/shock"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
 	}

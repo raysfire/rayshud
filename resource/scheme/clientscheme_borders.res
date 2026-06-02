@@ -1645,7 +1645,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"QualityColorPaintkitWeaponGreyedOut"
+			"color"					"QualityColorPaintkitWeapon_GreyedOut"
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"

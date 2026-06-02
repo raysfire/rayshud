@@ -117,7 +117,7 @@
 			"visible"			"0"
 			"enabled"			"1"
 			"tabPosition"		"0"
-			"labelText"			"#TF_Matchmaking_Back"
+			"labelText"			"#TF_BackCarat"
 			"font"				"HudFontMediumSmall"
 			"textAlignment"		"center"
 			"textinsetx"		"50"

@@ -19,7 +19,7 @@
 		"infocus_bgcolor_override"		"27 27 27 0"
 		"outoffocus_bgcolor_override"	"27 27 27 0"
 
-		"title"							"#Replay_Replay"
+		"title"							"#MMenu_Tooltip_Replay"
 		"title_font"					"HudFontMedium"
 		"titletextinsetX"				"40"
 		"titletextinsetY"				"0"

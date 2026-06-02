@@ -46,7 +46,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"&A"
-		"font"				"CustomIcons"
+		"font"				"MenuArrows"
 		"textAlignment"		"center"
 		"textinsetx"		"0"
 		"dulltext"			"0"
@@ -165,7 +165,7 @@
 		"brighttext"		"0"
 		"paintbackground"	"0"
 		"Command"			"selectcurrentgamemode"
-		"sound_armed"		"UI/buttonclick.wav"
+		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 }

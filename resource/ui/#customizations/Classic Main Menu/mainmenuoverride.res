@@ -162,7 +162,7 @@
 		"tall"	"46"
 		"visible"	"1"
 		"enabled"	"1"
-		"image"	"../vgui/replay/thumbnails/main_menu_logo"
+		"image"	"replay/thumbnails/main_menu_logo"
 		"scaleImage"	"1"
 	}
 	"TFCharacterImage"

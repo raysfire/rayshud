@@ -55,7 +55,7 @@
 	"SelectClassLabel"
 	{
 		"ControlName"	"Label"
-		"fieldName"		"SelectTeamLabel"
+		"fieldName"		"SelectClassLabel"
 		"xpos"			"0"
 		"ypos"			"15"
 		"zpos"			"1"

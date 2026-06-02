@@ -1,6 +1,6 @@
 "resource/ui/huditemeffectmeter_demoman.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"fieldName"				"HudItemEffectMeter"
 		"visible"				"1"
