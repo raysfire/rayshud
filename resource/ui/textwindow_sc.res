@@ -5,7 +5,7 @@
 	"OkIntroHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
-		"fieldName"		"OkHintIcon"
+		"fieldName"		"OkIntroHintIcon"
 		"xpos"			"-5"
 		"ypos"			"0"
 		"zpos"			"7"
@@ -15,7 +15,7 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"Left"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"actionSet"		"InGameHUDControls"
