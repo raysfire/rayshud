@@ -949,8 +949,8 @@
 		"ypos"				"c-75"
 		"ypos_minmode"		"c105"
 		"zpos"				"1"
-		"wide"				"400"
-		"tall"				"150"
+		"wide"				"f0"
+		"tall"				"f0"
 		"PaintBackgroundType"	"0"
 	}
 
