@@ -83,7 +83,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"9"
+		"wide"			"20"
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
@@ -92,7 +92,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"HudFontSmallishBold"
+		"font"			"HudFontSmallBold"
 	}
 
 	"CPTimerBG"
@@ -102,8 +102,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"60"
-		"tall"			"30"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_timer"
