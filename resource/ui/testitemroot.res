@@ -955,7 +955,6 @@
 			"textalignment" "center"
 			"use_proportional_insets" "1"
 			"font"			"HudFontMediumSmall"
-			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"

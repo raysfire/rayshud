@@ -124,7 +124,6 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"nav_to"
-		"labelText"		"<"
 		"textAlignment"	"west"
 		"font"			"HudFontSmall"
 

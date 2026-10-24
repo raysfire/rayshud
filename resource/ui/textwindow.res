@@ -144,13 +144,6 @@
 		"xpos"				"9999"
 	}
 
-	"TextMessage"
-	{
-		"ControlName"	"TextEntry"
-		"fieldName"		"TextMessage"
-		"xpos"			"9999"
-	}
-
 	"MessageTitle"
 	{
 		"ControlName"		"Label"

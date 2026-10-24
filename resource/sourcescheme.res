@@ -45,7 +45,6 @@ Scheme
 	    "QuickListBGDeselected"		"0 0 0 0"
 	    "QuickListBGSelected"		"DarkCyanDim"
 
-	    "Blank"						"0 0 0 0"
 
 		"ControlBG"					"76 88 68 255"		// background color of controls
 		"ControlDarkBG"				"90 106 80 255"		// darker background color; used for background of scrollbars

@@ -1831,7 +1831,6 @@
 			"visible"	"1"
 			"enabled"	"1"
 			"scaleImage"	"1"
-			"scaleImage"	"1"
 			"image"	"glyph_options"
 		}
 	}

@@ -60,12 +60,6 @@ Scheme
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
 		CheckButton.Check				"White"	// color of the check itself
 		CheckButton.HighlightFgColor	"OffWhite"
-		CheckButton.SelectedTextColor	"White"
-		CheckButton.BgColor				"TransparentBlack"
-		CheckButton.Border1				"Border.Dark" 		// the left checkbutton border
-		CheckButton.Border2				"Border.Bright"		// the right checkbutton border
-		CheckButton.Check				"White"	// color of the check itself
-		CheckButton.HighlightFgColor	"OffWhite"
 		CheckButton.ArmedBgColor		"Blank"
 		CheckButton.DepressedBgColor	"Blank"
 		CheckButton.DisabledBgColor		"TransparentBlack"

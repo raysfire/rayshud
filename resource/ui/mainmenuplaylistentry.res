@@ -85,7 +85,6 @@
 		"command"		"%button_command%"
 		"proportionaltoparent" "1"
 		"actionsignallevel"	"2"
-		"textinsety"	"10"
 
 		"border_default"	"NoBorder"
 		"border_armed"		"CyanBorderThick"
